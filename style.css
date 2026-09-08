@@ -84,3 +84,6 @@ code{background:#eaecf0;padding:1px 5px;border-radius:2px;direction:ltr;display:
 .lead p{flex:1}
 .soon{color:#72777d}
 @media (max-width:900px){.lead{flex-direction:column}.lead .infobox{flex:none;width:100%}}
+.wikitable[dir=ltr] th,.wikitable[dir=ltr] td{text-align:left}
+.infobox td.ib-label{direction:ltr;text-align:left}
+.news td:first-child{direction:ltr}
