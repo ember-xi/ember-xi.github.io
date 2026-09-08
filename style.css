@@ -87,3 +87,6 @@ code{background:#eaecf0;padding:1px 5px;border-radius:2px;direction:ltr;display:
 .wikitable[dir=ltr] th,.wikitable[dir=ltr] td{text-align:left}
 .infobox td.ib-label{direction:ltr;text-align:left}
 .news td:first-child{direction:ltr}
+.jobgrid{display:flex;flex-wrap:wrap;gap:10px}.jobcard{width:calc(33.33% - 7px);border:1px solid #a7d7f9;background:#f8fbfe;padding:10px 12px}
+.jobcard a{font-size:15px}.jobcard small{color:#54595d}.jobcard p{margin:4px 0 0;font-size:13px}
+@media (max-width:900px){.jobcard{width:100%}}
