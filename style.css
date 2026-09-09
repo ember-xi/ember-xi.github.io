@@ -145,3 +145,5 @@ h1.firstHeading{font-size:30px}h2{font-size:22px}h3{font-size:18px}
 .mcard{display:flex;flex-direction:column;align-items:center;width:300px;border:1px solid #c8ccd1;background:#f8f9fa;padding:14px;text-decoration:none;color:#202122}
 .mcard img,.mcard .ph.card{width:270px;height:270px;object-fit:contain;background:#fff;border:1px solid #c8ccd1}
 .mcard span{margin-top:10px;font-size:16px}
+.mcards{gap:40px;justify-content:center}
+.mcard{width:220px;padding:10px}.mcard img,.mcard .ph.card{width:200px;height:200px}.mcard span{font-size:15px;margin-top:8px}
