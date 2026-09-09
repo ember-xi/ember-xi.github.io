@@ -115,3 +115,11 @@ code{background:#eaecf0;padding:1px 5px;border-radius:2px;direction:ltr;display:
 .infobox tr:nth-child(even) td{background:#f5f8fc}.infobox tr:nth-child(even) td.ib-label{background:#e2eaf5}
 .infobox th.ib-band{background:#2F6FB2;color:#fff;padding:5px;font-size:13px}
 .infobox td.ib-rewards{text-align:center;background:#fff;line-height:1.8}
+html,body{font-family:Arial,Helvetica,"Liberation Sans",sans-serif;font-size:15.5px;line-height:1.55;color:#202122}
+#content p,#content li,#content td{font-size:15.5px}
+.infobox,.infobox td,.infobox th{font-size:14.5px}.infobox td.ib-label{font-size:14.5px}
+.wikitable,.wikitable td,.wikitable th{font-size:14.5px}
+.mech{font-size:14.5px}.portal li{font-size:14px}.portal h3{font-size:13px}
+.tabs-l a,.tabs-r a{font-size:14px}.search input{font-size:14px}
+h1.firstHeading{font-size:32px}h2{font-size:24px}h3{font-size:18px}
+.jobgrid2 p{font-size:15px}.news td{font-size:14.5px}
