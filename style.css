@@ -105,3 +105,6 @@ code{background:#eaecf0;padding:1px 5px;border-radius:2px;direction:ltr;display:
 .jobgrid2 .jobrow{border:none;padding:22px 0;gap:22px;align-items:center}
 .jobgrid2 .jobpic{width:160px;height:160px}.jobgrid2 .jobpic img{max-width:160px;max-height:160px}.jobgrid2 .ph.job{width:150px;height:150px}
 .jobgrid2 h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:26px;margin:0 0 8px}.jobgrid2 p{font-size:15px;line-height:1.6}
+.jobgrid2 .jobrow{padding:14px 0;gap:16px}
+.jobgrid2 .jobpic{width:120px;height:120px}.jobgrid2 .jobpic img{max-width:120px;max-height:120px}.jobgrid2 .ph.job{width:110px;height:110px}
+.jobgrid2 h3{font-size:22px;margin:0 0 4px}.jobgrid2 p{font-size:13.5px;line-height:1.55}
