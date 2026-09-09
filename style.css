@@ -129,3 +129,14 @@ h1.firstHeading{font-size:32px}h2{font-size:24px}h3{font-size:18px}
 .wikitable tr:nth-child(even) td{background:#f5f8fc}.wikitable tr:nth-child(odd) td{background:#fff}
 .wikitable td:first-child{font-weight:700;color:#1b3a6b;background:#eaf0f8}.wikitable tr:nth-child(even) td:first-child{background:#e2eaf5}
 .news td:first-child{font-weight:400;color:#202122;background:none}.news td{border:none}
+html,body{font-size:16px}
+#content p,#content li,#content td{font-size:16px}
+.infobox{width:550px;max-width:100%;font-size:16px}.lead .infobox{flex:0 0 550px}
+.infobox td,.infobox th{font-size:16px}.infobox td{padding:5px 8px;line-height:1.4}
+.infobox td.ib-label{color:#202122;background:#eaf0f8;font-weight:700;width:33%;text-align:right;font-size:16px}
+.infobox th.ib-title{font-size:17px;padding:6px}.infobox th.ib-band{font-size:16px}
+.wikitable,.wikitable td,.wikitable th{font-size:16px}.wikitable td{padding:5px 8px}
+.wikitable td:first-child{color:#202122}
+h1.firstHeading{font-size:30px}h2{font-size:22px}h3{font-size:18px}
+.mech{font-size:15px}
+@media (max-width:1100px){.lead{flex-direction:column}.lead .infobox{flex:none;width:100%}}
