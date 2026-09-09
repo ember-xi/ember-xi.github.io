@@ -108,3 +108,10 @@ code{background:#eaecf0;padding:1px 5px;border-radius:2px;direction:ltr;display:
 .jobgrid2 .jobrow{padding:14px 0;gap:16px}
 .jobgrid2 .jobpic{width:120px;height:120px}.jobgrid2 .jobpic img{max-width:120px;max-height:120px}.jobgrid2 .ph.job{width:110px;height:110px}
 .jobgrid2 h3{font-size:22px;margin:0 0 4px}.jobgrid2 p{font-size:13.5px;line-height:1.55}
+.infobox{background:#fff;border:1px solid #9fb6d3;font-size:13px}
+.infobox th.ib-title{background:#2F6FB2;color:#fff;padding:7px;font-size:14px;border-bottom:1px solid #9fb6d3}
+.infobox td{padding:6px 9px;border-bottom:1px solid #dbe4f0;vertical-align:top}
+.infobox td.ib-label{white-space:nowrap;font-weight:700;width:34%;background:#eaf0f8;text-align:right;color:#1b3a6b}
+.infobox tr:nth-child(even) td{background:#f5f8fc}.infobox tr:nth-child(even) td.ib-label{background:#e2eaf5}
+.infobox th.ib-band{background:#2F6FB2;color:#fff;padding:5px;font-size:13px}
+.infobox td.ib-rewards{text-align:center;background:#fff;line-height:1.8}
