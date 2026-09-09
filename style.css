@@ -102,3 +102,6 @@ code{background:#eaecf0;padding:1px 5px;border-radius:2px;direction:ltr;display:
 .toc ol ol{padding-left:0}
 .jobgrid2{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}.jobgrid2 .jobrow{border-bottom:1px solid #eaecf0}
 @media (max-width:900px){.jobgrid2{grid-template-columns:1fr}}
+.jobgrid2 .jobrow{border:none;padding:22px 0;gap:22px;align-items:center}
+.jobgrid2 .jobpic{width:160px;height:160px}.jobgrid2 .jobpic img{max-width:160px;max-height:160px}.jobgrid2 .ph.job{width:150px;height:150px}
+.jobgrid2 h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:26px;margin:0 0 8px}.jobgrid2 p{font-size:15px;line-height:1.6}
