@@ -123,3 +123,9 @@ html,body{font-family:Arial,Helvetica,"Liberation Sans",sans-serif;font-size:15.
 .tabs-l a,.tabs-r a{font-size:14px}.search input{font-size:14px}
 h1.firstHeading{font-size:32px}h2{font-size:24px}h3{font-size:18px}
 .jobgrid2 p{font-size:15px}.news td{font-size:14.5px}
+.wikitable{border:1px solid #9fb6d3;background:#fff}
+.wikitable th{background:#2F6FB2;color:#fff;border:1px solid #9fb6d3;text-align:center;padding:7px 9px;font-weight:700}
+.wikitable td{border:1px solid #dbe4f0;padding:6px 9px}
+.wikitable tr:nth-child(even) td{background:#f5f8fc}.wikitable tr:nth-child(odd) td{background:#fff}
+.wikitable td:first-child{font-weight:700;color:#1b3a6b;background:#eaf0f8}.wikitable tr:nth-child(even) td:first-child{background:#e2eaf5}
+.news td:first-child{font-weight:400;color:#202122;background:none}.news td{border:none}
