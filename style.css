@@ -100,3 +100,5 @@ code{background:#eaecf0;padding:1px 5px;border-radius:2px;direction:ltr;display:
 .toc{display:inline-block;border:1px solid #a2a9b1;background:#f8f9fa;padding:8px 14px;margin:6px 0 14px;font-size:13px;max-width:100%}
 .toctitle{font-weight:700;text-align:center;margin-bottom:4px}.toc ol{list-style:none;margin:0;padding:0}.toc li{line-height:1.7}.toc li.l3{padding-left:18px}.tocnum{color:#202122;margin-right:4px}
 .toc ol ol{padding-left:0}
+.jobgrid2{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}.jobgrid2 .jobrow{border-bottom:1px solid #eaecf0}
+@media (max-width:900px){.jobgrid2{grid-template-columns:1fr}}
