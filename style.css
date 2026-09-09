@@ -147,3 +147,9 @@ h1.firstHeading{font-size:30px}h2{font-size:22px}h3{font-size:18px}
 .mcard span{margin-top:10px;font-size:16px}
 .mcards{gap:40px;justify-content:center}
 .mcard{width:220px;padding:10px}.mcard img,.mcard .ph.card{width:200px;height:200px}.mcard span{font-size:15px;margin-top:8px}
+html,body{font-size:14px;line-height:1.6}
+#content p,#content li,#content td{font-size:14px}
+.infobox,.infobox td,.infobox th,.infobox td.ib-label{font-size:14px}.infobox th.ib-title{font-size:15px}
+.wikitable,.wikitable td,.wikitable th{font-size:14px}
+.mech{font-size:14px}.news td{font-size:14px}.jobgrid2 p{font-size:14px}.mcard span{font-size:14px}
+h1.firstHeading{font-size:28px}h2{font-size:21px}h3{font-size:17px}.jobgrid2 h3{font-size:21px}
