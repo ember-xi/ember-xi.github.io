@@ -1,0 +1,11 @@
+{"name":"Trial by Water","slug":"trial-by-water",
+"box":[["Starting NPC","Edal-Tahdal — Norg (H-9), by the quay"],["Required Fame","None"],["Level Restriction","Level 65 (Prime) · under 65 the trial-size fight is offered instead"],["Items Needed","Tuning fork of water"],["Additional Requirements","Summoner main job for the trial-size fight"],["Title","Heir of the Great Water"],["Repeatable","Once a day"],["Description","Awaken the crystal in the Cloister of Tides and prove your worth to Leviathan."]],
+"rewards":["Leviathan (pact)","Leviathan's Rod","Water Belt","Water Ring","Eye of Nept (for the <a href=\"avatars.html\">Evoker's Ring</a>)","10,000 gil"],
+"prev":"—","next":"<a href=\"fenrir.html\">The Moonlit Path</a>",
+"steps":[["Talk to Edal-Tahdal in Norg (H-9). He gives you the Tuning fork of water.",["Under 65 he gives the mini fork instead — trade it back to him and he teleports you to the Cloister."]],
+["Talk to him again while you hold the fork. You are sent straight to the Cloister of Tides.",["The Cloister sits in the Sea Serpent Grotto."]],
+["Summon your Trusts and your avatar, then examine the Water Protocrystal and pick Trial by Water."],
+["Defeat Leviathan Prime.",["Water damage heals him: no Water spells, no water weapon skills.","He uses Barracuda Dive, Spinning Dive, Tail Whip, Slowga and Water IV, and at about 50% HP his Astral Flow pact Tidal Wave — heavy AoE water damage.","Best day: Lightningday. Avoid Watersday. Keep Barwatera up.","Bring Ramuh: lightning beats water, and Chaotic Strike also stuns."]],
+["You receive the Whisper of Tides.",["Going for Fenrir? Keep it and do not take a reward yet — see <a href=\"fenrir.html\">The Moonlit Path</a>."]],
+["Return to Edal-Tahdal and choose your reward.",["Repeatable once a day (after midnight JST).","At SMN 75 with Leviathan already learned, winning teaches Grand Fall, his level 75 Blood Pact."]]],
+"changes":["No Fame requirement.","Trusts can be summoned inside the battlefield; the Prime fight needs level 65+.","Talking to the NPC while you hold the fork teleports you to the Cloister.","Repeatable once a day.","Under 65, summoners get a solo trial-size fight (level 20 cap, Carbuncle only)."]}

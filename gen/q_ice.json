@@ -1,0 +1,11 @@
+{"name":"Trial by Ice","slug":"trial-by-ice",
+"box":[["Starting NPC","Gulmama — Northern San d'Oria (E-7), at the watchtower on the west wall"],["Required Fame","None"],["Level Restriction","Level 65 (Prime) · under 65 the trial-size fight is offered instead"],["Items Needed","Tuning fork of ice"],["Additional Requirements","Summoner main job for the trial-size fight"],["Title","Heir of the Great Ice"],["Repeatable","Once a day"],["Description","Awaken the crystal in the Cloister of Frost and prove your worth to Shiva."]],
+"rewards":["Shiva (pact)","Shiva's Claw","Ice Belt","Ice Ring","Rust 'B' Gone (for the <a href=\"avatars.html\">Evoker's Ring</a>)","10,000 gil"],
+"prev":"—","next":"<a href=\"fenrir.html\">The Moonlit Path</a>",
+"steps":[["Talk to Gulmama in Northern San d'Oria (E-7). He gives you the Tuning fork of ice.",["Under 65 he gives the mini fork instead — trade it back to him and he teleports you to the Cloister."]],
+["Talk to Gulmama again while you hold the fork. You are sent straight to the Cloister of Frost.",["The Cloister is in Fei'Yin at (I-5). Fei'Yin Home Point #2 is outside it."]],
+["Summon your Trusts and your avatar, then examine the Ice Protocrystal and pick Trial by Ice."],
+["Defeat Shiva Prime.",["Ice damage heals her: no Blizzard spells, no ice weapon skills, no weapons with additional ice damage.","She uses Double Slap, Rush, Frost Armor and Blizzard IV, and at about 50% HP her Astral Flow pact Diamond Dust — heavy AoE ice damage.","Best day: Firesday. Avoid Iceday. Keep Barblizzara up.","Bring Ifrit: fire beats ice, and Flaming Crush hits hardest."]],
+["You receive the Whisper of Frost.",["Going for Fenrir? Keep it and do not take a reward yet — see <a href=\"fenrir.html\">The Moonlit Path</a>."]],
+["Return to Gulmama and choose your reward.",["Repeatable once a day (after midnight JST).","At SMN 75 with Shiva already learned, winning teaches Heavenly Strike, her level 75 Blood Pact."]]],
+"changes":["No Fame requirement.","Trusts can be summoned inside the battlefield; the Prime fight needs level 65+.","Talking to Gulmama while you hold the fork teleports you to the Cloister.","Repeatable once a day.","Under 65, summoners get a solo trial-size fight (level 20 cap, Carbuncle only)."]}
