@@ -1,0 +1,13 @@
+{"name":"The Puppet Master","slug":"the-puppet-master",
+"box":[["Starting NPC","Carbuncle — House of the Hero, Windurst Walls (G-4)"],["Required Fame","None"],["Level Restriction","Level 40"],["Items Needed","Earth Pendulum"],["Additional Requirements","Summoner main job to start · I Can Hear a Rainbow completed"],["Title","None"],["Repeatable","Yes, see Vingijard in Lower Jeuno after the set is complete"],["Description","Carbuncle asks you to find whoever is draining the avatars' power from adventurers. The trail leads to Bastok, and from there to a beast sleeping under the Quicksand Caves."]],
+"rewards":["<a href=\"kukulcans-staff.html\">Kukulcan's Staff</a>"],
+"prev":"—","next":"<a href=\"class-reunion.html\">Class Reunion</a>",
+"steps":[["Examine the House of the Hero in Windurst Walls (G-4) as SMN to speak to Carbuncle.",["Zone first if you just finished another quest involving Carbuncle."]],
+"<b>From this point on the quest can be finished on any job.</b>",
+["Talk to Juroro in Port Bastok (I-8) for a cutscene. Ildy-Goldy hands you the Earth Pendulum.",["If you are on Trial by Earth, you may have to finish it first before he hands the Pendulum over."]],
+["Make your way to the Cloister of Tremors (C-8, Quicksand Caves map 1).",["Enter Quicksand Caves from Eastern Altepa Desert (J-7), then take the one-way drops down twice.","Quicksand Caves Home Point #2 is right outside the Cloister.","As SMN, a trial-size tuning fork of earth teleports you there."]],
+["Trade the Earth Pendulum to the Earth Protocrystal and pick The Puppet Master.",["30 minutes, no level cap, and buffs cast outside do not wear off.","Trusts can be summoned inside."]],
+["Defeat Galgalim.",["Hecteyes, level 56, about 6,000 HP.","It uses Fire Spikes, Poison and Paralyze.","It can be silenced, paralyzed and slowed, but never slept.","Easy for a level 70+ job; at 40 bring a tank and a healer Trust."]],
+"Talk to Juroro in Port Bastok again.",
+["Talk to Koru-Moru in Windurst Walls (E-7) to finish the quest and receive the staff.",["If he gives dialogue for another quest, talk to him again.","The Earth Pendulum can be tossed after the fight."]]],
+"changes":["No Fame requirement.","Trusts can be summoned inside the battlefield.","Kukulcan's Staff is level 40 with MP +30 and MP recovered while healing +3.","Artifact pieces can be upgraded to +1 by trading them to Brandt in Lower Jeuno with 4 Alexandrite."]}
