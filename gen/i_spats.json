@@ -1,0 +1,8 @@
+{"name":"Evoker's Spats","slug":"evokers-spats","img":"img/items/evokers-spats.png",
+"slot":"Legs","races":"All Races","flags":"Rare · Exclusive","level":"52","jobs":"SMN",
+"stats":"<b>DEF:</b> 25 <b>MP</b> +15 <b>Evasion skill</b> +10<br><b>Avatar:</b> <b>Enhances accuracy</b><br><b>Enmity</b> -2",
+"effects":["<i>Avatar: Enhances accuracy</i> — Accuracy +10"],
+"set":"Evoker's Attire Set","set_href":"job-smn.html#af",
+"changes":"<i>none</i>",
+"other":[["Artifact Armor Upgrade","Evoker's Spats +1 — trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"],["Resale Price","Cannot be sold to NPCs."]],
+"quest":"Class Reunion","quest_href":"class-reunion.html"}

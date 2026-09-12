@@ -171,3 +171,10 @@ h1.firstHeading{font-size:28px}h2{font-size:21px}h3{font-size:17px}.jobgrid2 h3{
 ul.walk{line-height:1.5}
 ul.walk>li{margin-bottom:6px}
 ul.walk ul{margin:4px 0 0;color:#4a4a4a;font-size:14px}
+
+/* item pages */
+.itemshot{margin:6px 0 18px}
+.itemshot img{max-width:320px;width:100%;image-rendering:pixelated}
+.itemstats{background:#f5f8fc;border:1px solid #cfd8e6;padding:10px 14px;max-width:560px;line-height:1.6;font-size:14px}
+.itemstats .flags{color:#8a6d1f;font-size:12px}
+ul.itemeff{margin:10px 0 0;font-size:14px}

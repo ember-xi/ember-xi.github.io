@@ -1,0 +1,6 @@
+{"name":"Kukulcan's Staff","slug":"kukulcans-staff",
+"slot":"Staff","races":"All Races","flags":"Rare · Exclusive","level":"40","jobs":"SMN",
+"stats":"<b>DMG:</b> 22 <b>Delay:</b> 366 <b>MP</b> +30 <b>MP recovered while healing</b> +3",
+"changes":"Can be equipped at <b>Lv. 40</b> instead of Lv. 41 · <b>MP</b> +30 instead of MP +20 · <b>MP recovered while healing</b> +3",
+"other":[["Artifact Weapon Upgrade","Trade the staff to Brandt in Lower Jeuno with 4 Alexandrite"],["Resale Price","Cannot be sold to NPCs."]],
+"quest":"The Puppet Master","quest_href":"the-puppet-master.html"}
