@@ -153,3 +153,9 @@ html,body{font-size:14px;line-height:1.6}
 .wikitable,.wikitable td,.wikitable th{font-size:14px}
 .mech{font-size:14px}.news td{font-size:14px}.jobgrid2 p{font-size:14px}.mcard span{font-size:14px}
 h1.firstHeading{font-size:28px}h2{font-size:21px}h3{font-size:17px}.jobgrid2 h3{font-size:21px}
+
+/* compact data tables (jobs, pacts, spells) */
+.article .wikitable,.article .wikitable td,.article .wikitable th{font-size:13px}
+.article .wikitable td,.article .wikitable th{padding:2px 8px;line-height:1.35}
+.article .wikitable{width:auto;max-width:100%}
+.article .wikitable td:first-child,.article .wikitable th:first-child{white-space:nowrap;width:1%}
