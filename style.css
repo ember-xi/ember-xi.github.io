@@ -178,3 +178,9 @@ ul.walk ul{margin:4px 0 0;color:#4a4a4a;font-size:14px}
 .itemstats{background:#f5f8fc;border:1px solid #cfd8e6;padding:10px 14px;max-width:560px;line-height:1.6;font-size:14px}
 .itemstats .flags{color:#8a6d1f;font-size:12px}
 ul.itemeff{margin:10px 0 0;font-size:14px}
+
+/* item hover tooltips (game-style) */
+a.itip{position:relative}
+a.itip .tip{display:none;position:absolute;left:0;bottom:1.6em;z-index:50;padding:0;background:transparent;border:0}
+a.itip .tip img{display:block;max-width:340px;image-rendering:pixelated;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+a.itip:hover .tip{display:block}
