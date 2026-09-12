@@ -184,3 +184,5 @@ a.itip{position:relative}
 a.itip .tip{display:none;position:absolute;left:0;bottom:1.6em;z-index:50;padding:0;background:transparent;border:0}
 a.itip .tip img{display:block;max-width:340px;image-rendering:pixelated;box-shadow:0 4px 14px rgba(0,0,0,.35)}
 a.itip:hover .tip{display:block}
+
+p.note{font-size:13px;color:#5a5a5a;background:#f6f6f2;border-left:3px solid #c9c4b4;padding:8px 12px;margin:8px 0 14px}
