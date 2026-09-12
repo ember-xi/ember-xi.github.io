@@ -1,6 +1,30 @@
-{"name":"Evoker's Doublet","slug":"evokers-doublet","slot":"Body","races":"All Races","flags":"Rare · Exclusive","level":"58","jobs":"SMN",
-"stats":"<b>DEF:</b> 35 <b>MP</b> +15 <b>MND</b> +3<br><b>\"Blood Pact\" ability delay</b> -1<br>Resistance to current avatar's element +20<br><b>Avatar:</b> <b>Enmity</b> -2",
-"set":"Evoker's Attire Set","set_href":"job-smn.html#af",
-"changes":"<b>\"Blood Pact\" ability delay</b> -1",
-"other":[["Source","Coffer in the Temple of Uggalepih — open it on Summoner, with Borghertz's Calling Hands active or completed"],["Artifact Armor Upgrade","Evoker's Doublet +1 — trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"],["Resale Price","Cannot be sold to NPCs."]],
-"quest":"Borghertz's Calling Hands","quest_href":"borghertzs-calling-hands.html"}
+{
+ "name": "Evoker's Doublet",
+ "slug": "evokers-doublet",
+ "slot": "Body",
+ "races": "All Races",
+ "flags": "Rare \u00b7 Exclusive",
+ "level": "58",
+ "jobs": "SMN",
+ "stats": "<b>DEF:</b> 35 <b>MP</b> +15 <b>MND</b> +3<br><b>\"Blood Pact\" ability delay</b> -1<br>Resistance to current avatar's element +20<br><b>Avatar:</b> <b>Enmity</b> -2",
+ "set": "Evoker's Attire Set",
+ "set_href": "job-smn.html#af",
+ "changes": "<b>\"Blood Pact\" ability delay</b> -1",
+ "other": [
+  [
+   "Source",
+   "Coffer in the Temple of Uggalepih \u2014 open it on Summoner, with Borghertz's Calling Hands active or completed"
+  ],
+  [
+   "Artifact Armor Upgrade",
+   "Evoker's Doublet +1 \u2014 trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"
+  ],
+  [
+   "Resale Price",
+   "Cannot be sold to NPCs."
+  ]
+ ],
+ "quest": "Borghertz's Calling Hands",
+ "quest_href": "borghertzs-calling-hands.html",
+ "img": "img/items/evokers-doublet.png"
+}
