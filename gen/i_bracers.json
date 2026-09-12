@@ -1,5 +1,26 @@
-{"name":"Evoker's Bracers","slug":"evokers-bracers","slot":"Hands","races":"All Races","flags":"Rare · Exclusive","level":"54","jobs":"SMN",
-"stats":"<b>DEF:</b> 11 <b>MP</b> +15 <b>VIT</b> +4<br>Occasionally converts damage taken of avatar's element to MP<br><b>Avatar:</b> <b>Enmity</b> -2",
-"set":"Evoker's Attire Set","set_href":"job-smn.html#af","changes":"<i>none</i>",
-"other":[["Artifact Armor Upgrade","Evoker's Bracers +1 — trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"],["Resale Price","Cannot be sold to NPCs."]],
-"quest":"Borghertz's Calling Hands","quest_href":"borghertzs-calling-hands.html"}
+{
+ "name": "Evoker's Bracers",
+ "slug": "evokers-bracers",
+ "slot": "Hands",
+ "races": "All Races",
+ "flags": "Rare \u00b7 Exclusive",
+ "level": "54",
+ "jobs": "SMN",
+ "stats": "<b>DEF:</b> 11 <b>MP</b> +15 <b>VIT</b> +4<br>Occasionally converts damage taken of avatar's element to MP<br><b>Avatar:</b> <b>Enmity</b> -2",
+ "set": "Evoker's Attire Set",
+ "set_href": "job-smn.html#af",
+ "changes": "<i>none</i>",
+ "other": [
+  [
+   "Artifact Armor Upgrade",
+   "Evoker's Bracers +1 \u2014 trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"
+  ],
+  [
+   "Resale Price",
+   "Cannot be sold to NPCs."
+  ]
+ ],
+ "quest": "Borghertz's Calling Hands",
+ "quest_href": "borghertzs-calling-hands.html",
+ "img": "img/items/evokers-bracers.png"
+}
