@@ -1,0 +1,6 @@
+{"name":"Evoker's Pigaches","slug":"evokers-pigaches","slot":"Feet","races":"All Races","flags":"Rare · Exclusive","level":"56","jobs":"SMN",
+"stats":"<b>DEF:</b> 10 <b>MP</b> +20 <b>AGI</b> +5<br><b>Avatar:</b> <b>Enhances Evasion</b><br><b>Avatar:</b> <b>Enmity</b> -2",
+"set":"Evoker's Attire Set","set_href":"job-smn.html#af",
+"changes":"<b>MP</b> +20 instead of MP +15",
+"other":[["Source","Coffer in Toraimarai Canal — open it on Summoner, with Borghertz's Calling Hands active or completed"],["Artifact Armor Upgrade","Evoker's Pigaches +1 — trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"],["Resale Price","Cannot be sold to NPCs."]],
+"quest":"Borghertz's Calling Hands","quest_href":"borghertzs-calling-hands.html"}
