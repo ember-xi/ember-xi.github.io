@@ -159,3 +159,15 @@ h1.firstHeading{font-size:28px}h2{font-size:21px}h3{font-size:17px}.jobgrid2 h3{
 .article .wikitable td,.article .wikitable th{padding:2px 8px;line-height:1.35}
 .article .wikitable{width:auto;max-width:100%}
 .article .wikitable td:first-child,.article .wikitable th:first-child{white-space:nowrap;width:1%}
+
+/* quest pages */
+.questbox{max-width:760px}
+.questbox .qb-title{text-align:center;font-size:16px}
+.questbox th{width:190px;text-align:left;background:#eaf0f8;color:#1b3a6b}
+.questbox td{background:#fff}
+.questbox ul.rew{margin:0;padding-left:18px}
+.questnav{max-width:760px}
+.questnav th{text-align:left}
+ul.walk{line-height:1.5}
+ul.walk>li{margin-bottom:6px}
+ul.walk ul{margin:4px 0 0;color:#4a4a4a;font-size:14px}
