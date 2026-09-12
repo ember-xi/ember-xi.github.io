@@ -8,8 +8,10 @@ def build(d):
         out=''
         for it in items:
             if isinstance(it,str): out+='<li>%s</li>'%it
+            elif len(it)==1:
+                out+='<li>%s</li>'%it[0]
             else:
-                head_,subs=it
+                head_,subs=it[0],it[1]
                 out+='<li>%s<ul>%s</ul></li>'%(head_,''.join('<li>%s</li>'%x for x in subs))
         return out
     nav='<table class="wikitable questnav" dir="ltr"><tr><th>&larr; Previous quest</th><th>Next quest &rarr;</th></tr><tr><td>%s</td><td>%s</td></tr></table>'%(d.get('prev','—'), d.get('next','—'))
