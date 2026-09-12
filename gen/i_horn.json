@@ -1,6 +1,26 @@
-{"name":"Evoker's Horn","slug":"evokers-horn",
-"slot":"Head","races":"All Races","flags":"Rare · Exclusive","level":"60","jobs":"SMN",
-"stats":"<b>DEF:</b> 15 <b>MP</b> +20 <b>INT</b> +3 <b>Summoning Magic skill</b> +5<br><b>Avatar:</b> <b>Enmity</b> -3",
-"set":"Evoker's Attire Set","set_href":"job-smn.html#af","changes":"<i>none</i>",
-"other":[["Artifact Armor Upgrade","Evoker's Horn +1 — trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"],["Resale Price","Cannot be sold to NPCs."]],
-"quest":"Carbuncle Debacle","quest_href":"carbuncle-debacle.html"}
+{
+ "name": "Evoker's Horn",
+ "slug": "evokers-horn",
+ "slot": "Head",
+ "races": "All Races",
+ "flags": "Rare \u00b7 Exclusive",
+ "level": "60",
+ "jobs": "SMN",
+ "stats": "<b>DEF:</b> 15 <b>MP</b> +20 <b>INT</b> +3 <b>Summoning Magic skill</b> +5<br><b>Avatar:</b> <b>Enmity</b> -3",
+ "set": "Evoker's Attire Set",
+ "set_href": "job-smn.html#af",
+ "changes": "<i>none</i>",
+ "other": [
+  [
+   "Artifact Armor Upgrade",
+   "Evoker's Horn +1 \u2014 trade the piece to Brandt in Lower Jeuno with 4 Alexandrite"
+  ],
+  [
+   "Resale Price",
+   "Cannot be sold to NPCs."
+  ]
+ ],
+ "quest": "Carbuncle Debacle",
+ "quest_href": "carbuncle-debacle.html",
+ "img": "img/items/evokers-horn.png"
+}
