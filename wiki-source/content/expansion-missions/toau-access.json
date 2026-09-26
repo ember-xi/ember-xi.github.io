@@ -1,0 +1,115 @@
+[
+  {
+    "campaign": "toau",
+    "number": "membership",
+    "title": "Tenshodo Membership",
+    "requirements": [
+      "Either a Tenshodo Invite item, or Jeuno fame level 3 for the application route."
+    ],
+    "start": {
+      "npc": "Ghebi Damomohe",
+      "zone": "Lower Jeuno",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Find Ghebi Damomohe at Neptune's Spire in Lower Jeuno.",
+      "Fast route: trade one Tenshodo Invite. The quest grants the member card and returns an invite item, without a fame gate on this trade.",
+      "Application route: with Jeuno fame 3, talk to Ghebi and choose the hidden third dialogue option. Travel to the Tenshodo warehouse in Port Bastok and speak with Jabbar or Silver Owl to obtain the application form.",
+      "Return to Ghebi with the application form key item and speak with her to receive your membership."
+    ],
+    "notes": [
+      "Membership opens the Tenshodo rooms containing Faursel. Keep a free inventory slot for the Tenshodo Invite reward."
+    ],
+    "reward": "Tenshodo Member's Card key item and Tenshodo Invite.",
+    "unlocks": [
+      "Tenshodo area access",
+      "The Road to Aht Urhgan"
+    ],
+    "zones": [
+      "Lower Jeuno",
+      "Port Bastok"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Tenshodo_Membership",
+        "label": "HorizonXI membership guide"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Tenshodo_Membership.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "kind": "quest",
+    "slug": "tenshodo-membership",
+    "reuse_existing": true,
+    "related": [
+      {
+        "key": "road-to-aht-urhgan",
+        "label": "The Road to Aht Urhgan"
+      }
+    ]
+  },
+  {
+    "campaign": "toau",
+    "number": "access",
+    "title": "The Road to Aht Urhgan",
+    "requirements": [
+      "Access to the Tenshodo area in Lower Jeuno; obtain Tenshodo Membership first.",
+      "One complete accepted item set, one accepted coffer key/testimony, or 500,000 gil. No separate job-level minimum in the pinned quest."
+    ],
+    "start": {
+      "npc": "Faursel",
+      "zone": "Lower Jeuno",
+      "grid": "J-8"
+    },
+    "steps": [
+      "Enter the Tenshodo rooms inside Neptune's Spire and talk to Faursel. Choose the hidden third option to hear him out, then talk again to hear the permit conditions.",
+      "Choose the item route and confirm the quest. Trade exactly one of the accepted alternatives listed below, without unrelated items.",
+      "Beginner set: one each of Damselfly Worm, Magicked Skull, Crab Apron, Bloody Robe, Dhalmel Saliva and Wild Rabbit Tail.",
+      "Intermediate set: one Jade Cryptex, one Silver Engraving and one Thirteen-knot Quipu.",
+      "Chip set: one Carmine Chip, one Cyan Chip and one Gray Chip.",
+      "Single-item alternative: one Davoi, Beadeaux, Oztroja, Uggalepih, Rancor Den, Quicksand or Grotto Coffer Key; or one job testimony for any of the 20 level-75-era jobs.",
+      "After the item trade, change areas and wait until the next Vana'diel day. Return to Faursel to receive the Boarding Permit.",
+      "Take the mercenary transport from Mhaura to Whitegate, then enter Salaheem's Sentinels at I-10 to begin the story."
+    ],
+    "notes": [
+      "Optional paid route: choose to pay 500,000 gil instead of trading items. Change areas and wait until the next Vana'diel day; Faursel then sends you to Wajaom Woodlands, where the permit and map are awarded. Return to him later to close the quest log.",
+      "The beginner set combines all six subjob-quest items; submitting only the Selbina three or only the Mhaura three will not satisfy this quest.",
+      "Horizon launch-event access items and Imperial Standing tiers are server-specific and are not the pinned Zenith route. The modern Rhapsodies shortcut is also excluded here."
+    ],
+    "reward": "Boarding Permit key item; the paid route also awards Map of Wajaom Woodlands.",
+    "unlocks": [
+      "Mercenary transport to Aht Urhgan Whitegate",
+      "ToAU 1: Land of Sacred Serpents"
+    ],
+    "zones": [
+      "Lower Jeuno",
+      "Mhaura",
+      "Aht Urhgan Whitegate",
+      "Wajaom Woodlands"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/The_Road_to_Aht_Urhgan",
+        "label": "Horizon reference; its custom launch item list does not apply to Zenith"
+      },
+      {
+        "url": "https://www.bg-wiki.com/ffxi/The_Road_to_Aht_Urhgan",
+        "label": "BG Wiki permit-route reference"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/The_Road_to_Aht_Urhgan.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Tenshodo_Membership.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "kind": "quest",
+    "slug": "road-to-aht-urhgan",
+    "related": [
+      {
+        "key": "tenshodo-membership",
+        "label": "Tenshodo Membership"
+      }
+    ]
+  }
+]

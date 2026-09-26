@@ -1,0 +1,16 @@
+[
+  {
+    "localPath": "assets/world/middle-lands.jpg",
+    "label": "The Middle Lands",
+    "sourceUrl": "https://horizonffxi.wiki/File:Vanadielworldmap.jpg",
+    "width": 700,
+    "height": 700
+  },
+  {
+    "localPath": "assets/world/aradjiah-continent.jpg",
+    "label": "The Aradjiah Continent",
+    "sourceUrl": "https://horizonffxi.wiki/File:Ahturhganbig.jpg",
+    "width": 700,
+    "height": 700
+  }
+]

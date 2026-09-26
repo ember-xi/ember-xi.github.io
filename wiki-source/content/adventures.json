@@ -1,0 +1,4942 @@
+{
+  "gear": [
+    {
+      "id": 12294,
+      "name": "Leather Shield",
+      "level": 48,
+      "jobs": 2421,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12295,
+      "name": "Round Shield",
+      "level": 61,
+      "jobs": 2421,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12301,
+      "name": "Buckler",
+      "level": 45,
+      "jobs": 2385,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12302,
+      "name": "Darksteel Buckler",
+      "level": 59,
+      "jobs": 2385,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12306,
+      "name": "Kite Shield",
+      "level": 28,
+      "jobs": 193,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12308,
+      "name": "Darksteel Shield",
+      "level": 60,
+      "jobs": 193,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12324,
+      "name": "Tower Shield",
+      "level": 65,
+      "jobs": 193,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12415,
+      "name": "Shell Shield",
+      "level": 7,
+      "jobs": 2385,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 12417,
+      "name": "Mythril Sallet",
+      "level": 49,
+      "jobs": 193,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12419,
+      "name": "Darksteel Armet",
+      "level": 65,
+      "jobs": 192,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12424,
+      "name": "Iron Mask",
+      "level": 24,
+      "jobs": 6593,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12433,
+      "name": "Brass Mask",
+      "level": 27,
+      "jobs": 2141649,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12440,
+      "name": "Leather Bandana",
+      "level": 7,
+      "jobs": 2473969,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12441,
+      "name": "Lizard Helm",
+      "level": 17,
+      "jobs": 2473969,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12442,
+      "name": "Studded Bandana",
+      "level": 30,
+      "jobs": 2473969,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12443,
+      "name": "Cuir Bandana",
+      "level": 38,
+      "jobs": 2473969,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12444,
+      "name": "Raptor Helm",
+      "level": 48,
+      "jobs": 2473969,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12448,
+      "name": "Bronze Cap",
+      "level": 1,
+      "jobs": 2472947,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12449,
+      "name": "Brass Cap",
+      "level": 11,
+      "jobs": 2472947,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12451,
+      "name": "Scorpion Mask",
+      "level": 57,
+      "jobs": 2472947,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12452,
+      "name": "Darksteel Cap",
+      "level": 65,
+      "jobs": 2472947,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12454,
+      "name": "Bone Mask",
+      "level": 16,
+      "jobs": 2472947,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12455,
+      "name": "Beetle Mask",
+      "level": 21,
+      "jobs": 2472947,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12456,
+      "name": "Hachimaki",
+      "level": 8,
+      "jobs": 6146,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12457,
+      "name": "Cotton Hachimaki",
+      "level": 18,
+      "jobs": 6146,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12460,
+      "name": "Shinobi Hachigane",
+      "level": 49,
+      "jobs": 6146,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12465,
+      "name": "Cotton Headgear",
+      "level": 23,
+      "jobs": 3662710,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12467,
+      "name": "Wool Cap",
+      "level": 48,
+      "jobs": 3662710,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12474,
+      "name": "Wool Hat",
+      "level": 28,
+      "jobs": 4179646,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12475,
+      "name": "Velvet Hat",
+      "level": 38,
+      "jobs": 4179646,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12476,
+      "name": "Silk Hat",
+      "level": 53,
+      "jobs": 4179646,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12494,
+      "name": "Gold Hairpin",
+      "level": 50,
+      "jobs": 4194303,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12495,
+      "name": "Silver Hairpin",
+      "level": 20,
+      "jobs": 4194303,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12497,
+      "name": "Brass Hairpin",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12498,
+      "name": "Cotton Headband",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12503,
+      "name": "Silk Headband",
+      "level": 54,
+      "jobs": 4194303,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12505,
+      "name": "Bone Hairpin",
+      "level": 5,
+      "jobs": 4194303,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 12545,
+      "name": "Mythril Breastplate",
+      "level": 49,
+      "jobs": 193,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12547,
+      "name": "Darksteel Cuirass",
+      "level": 66,
+      "jobs": 192,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12552,
+      "name": "Chainmail",
+      "level": 24,
+      "jobs": 6593,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12560,
+      "name": "Scale Mail",
+      "level": 10,
+      "jobs": 2141649,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12561,
+      "name": "Brass Scale Mail",
+      "level": 27,
+      "jobs": 2141649,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12568,
+      "name": "Leather Vest",
+      "level": 7,
+      "jobs": 2473969,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12569,
+      "name": "Lizard Jerkin",
+      "level": 17,
+      "jobs": 2473969,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12570,
+      "name": "Studded Vest",
+      "level": 30,
+      "jobs": 2473969,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12571,
+      "name": "Cuir Bouilli",
+      "level": 38,
+      "jobs": 2473969,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12572,
+      "name": "Raptor Jerkin",
+      "level": 48,
+      "jobs": 2473969,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12576,
+      "name": "Bronze Harness",
+      "level": 1,
+      "jobs": 2472947,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12577,
+      "name": "Brass Harness",
+      "level": 11,
+      "jobs": 2472947,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12579,
+      "name": "Scorpion Harness",
+      "level": 57,
+      "jobs": 2472947,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12580,
+      "name": "Darksteel Harness",
+      "level": 65,
+      "jobs": 2472947,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12582,
+      "name": "Bone Harness",
+      "level": 16,
+      "jobs": 2472947,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12583,
+      "name": "Beetle Harness",
+      "level": 21,
+      "jobs": 2472947,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12584,
+      "name": "Kenpogi",
+      "level": 8,
+      "jobs": 6146,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12585,
+      "name": "Cotton Dogi",
+      "level": 18,
+      "jobs": 6146,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12588,
+      "name": "Shinobi Gi",
+      "level": 49,
+      "jobs": 6146,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12592,
+      "name": "Doublet",
+      "level": 11,
+      "jobs": 3662710,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12593,
+      "name": "Cotton Doublet",
+      "level": 23,
+      "jobs": 3662710,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12595,
+      "name": "Wool Gambison",
+      "level": 48,
+      "jobs": 3662710,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12600,
+      "name": "Robe",
+      "level": 1,
+      "jobs": 4179646,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12601,
+      "name": "Linen Robe",
+      "level": 12,
+      "jobs": 4179646,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12602,
+      "name": "Wool Robe",
+      "level": 28,
+      "jobs": 4179646,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12603,
+      "name": "Velvet Robe",
+      "level": 38,
+      "jobs": 4179646,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12604,
+      "name": "Silk Coat",
+      "level": 53,
+      "jobs": 4179646,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12608,
+      "name": "Tunic",
+      "level": 8,
+      "jobs": 3851870,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12612,
+      "name": "Silk Cloak",
+      "level": 64,
+      "jobs": 3851870,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12621,
+      "name": "Scorpion Breastplate",
+      "level": 66,
+      "jobs": 2371507,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 12673,
+      "name": "Mythril Gauntlets",
+      "level": 49,
+      "jobs": 193,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12675,
+      "name": "Darksteel Gauntlets",
+      "level": 67,
+      "jobs": 192,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12680,
+      "name": "Chain Mittens",
+      "level": 24,
+      "jobs": 6593,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12683,
+      "name": "Darksteel Mufflers",
+      "level": 59,
+      "jobs": 6593,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12688,
+      "name": "Scale Finger Gauntlets",
+      "level": 10,
+      "jobs": 2141649,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12689,
+      "name": "Brass Finger Gauntlets",
+      "level": 27,
+      "jobs": 2141649,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12696,
+      "name": "Leather Gloves",
+      "level": 7,
+      "jobs": 2473969,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12697,
+      "name": "Lizard Gloves",
+      "level": 17,
+      "jobs": 2473969,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12698,
+      "name": "Studded Gloves",
+      "level": 30,
+      "jobs": 2473969,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12699,
+      "name": "Cuir Gloves",
+      "level": 38,
+      "jobs": 2473969,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12700,
+      "name": "Raptor Gloves",
+      "level": 48,
+      "jobs": 2473969,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12704,
+      "name": "Bronze Mittens",
+      "level": 1,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12705,
+      "name": "Brass Mittens",
+      "level": 11,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12706,
+      "name": "Iron Mittens",
+      "level": 35,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12707,
+      "name": "Scorpion Mittens",
+      "level": 57,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12708,
+      "name": "Darksteel Mittens",
+      "level": 63,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12710,
+      "name": "Bone Mittens",
+      "level": 16,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12711,
+      "name": "Beetle Mittens",
+      "level": 21,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12712,
+      "name": "Tekko",
+      "level": 8,
+      "jobs": 6146,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12713,
+      "name": "Cotton Tekko",
+      "level": 18,
+      "jobs": 6146,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12716,
+      "name": "Shinobi Tekko",
+      "level": 49,
+      "jobs": 6146,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12720,
+      "name": "Gloves",
+      "level": 11,
+      "jobs": 3662710,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12721,
+      "name": "Cotton Gloves",
+      "level": 23,
+      "jobs": 3662710,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12723,
+      "name": "Wool Bracers",
+      "level": 48,
+      "jobs": 3662710,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12728,
+      "name": "Cuffs",
+      "level": 1,
+      "jobs": 4179646,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12729,
+      "name": "Linen Cuffs",
+      "level": 12,
+      "jobs": 4179646,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12730,
+      "name": "Wool Cuffs",
+      "level": 28,
+      "jobs": 4179646,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12731,
+      "name": "Velvet Cuffs",
+      "level": 38,
+      "jobs": 4179646,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12732,
+      "name": "Silk Cuffs",
+      "level": 53,
+      "jobs": 4179646,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12736,
+      "name": "Mitts",
+      "level": 8,
+      "jobs": 3851870,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12738,
+      "name": "Linen Mitts",
+      "level": 34,
+      "jobs": 3851870,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12740,
+      "name": "Silk Mitts",
+      "level": 61,
+      "jobs": 3851870,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12751,
+      "name": "Scorpion Gauntlets",
+      "level": 66,
+      "jobs": 2371507,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 12801,
+      "name": "Mythril Cuisses",
+      "level": 49,
+      "jobs": 193,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12803,
+      "name": "Darksteel Cuisses",
+      "level": 66,
+      "jobs": 192,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12808,
+      "name": "Chain Hose",
+      "level": 24,
+      "jobs": 6593,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12811,
+      "name": "Darksteel Breeches",
+      "level": 59,
+      "jobs": 6593,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12816,
+      "name": "Scale Cuisses",
+      "level": 10,
+      "jobs": 2141649,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12817,
+      "name": "Brass Cuisses",
+      "level": 27,
+      "jobs": 2141649,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12824,
+      "name": "Leather Trousers",
+      "level": 7,
+      "jobs": 2473969,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12825,
+      "name": "Lizard Trousers",
+      "level": 17,
+      "jobs": 2473969,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12826,
+      "name": "Studded Trousers",
+      "level": 30,
+      "jobs": 2473969,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12827,
+      "name": "Cuir Trousers",
+      "level": 38,
+      "jobs": 2473969,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12828,
+      "name": "Raptor Trousers",
+      "level": 48,
+      "jobs": 2473969,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12832,
+      "name": "Bronze Subligar",
+      "level": 1,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12833,
+      "name": "Brass Subligar",
+      "level": 11,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12834,
+      "name": "Bone Subligar",
+      "level": 16,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12835,
+      "name": "Beetle Subligar",
+      "level": 21,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12836,
+      "name": "Iron Subligar",
+      "level": 35,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12837,
+      "name": "Carapace Subligar",
+      "level": 45,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12838,
+      "name": "Scorpion Subligar",
+      "level": 57,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12839,
+      "name": "Darksteel Subligar",
+      "level": 65,
+      "jobs": 2472947,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12840,
+      "name": "Sitabaki",
+      "level": 8,
+      "jobs": 6146,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12841,
+      "name": "Cotton Sitabaki",
+      "level": 18,
+      "jobs": 6146,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12844,
+      "name": "Shinobi Hakama",
+      "level": 49,
+      "jobs": 6146,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12848,
+      "name": "Brais",
+      "level": 11,
+      "jobs": 3662710,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12849,
+      "name": "Cotton Brais",
+      "level": 23,
+      "jobs": 3662710,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12851,
+      "name": "Wool Hose",
+      "level": 48,
+      "jobs": 3662710,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12856,
+      "name": "Slops",
+      "level": 1,
+      "jobs": 4179646,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12857,
+      "name": "Linen Slops",
+      "level": 12,
+      "jobs": 4179646,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12858,
+      "name": "Wool Slops",
+      "level": 28,
+      "jobs": 4179646,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12859,
+      "name": "Velvet Slops",
+      "level": 38,
+      "jobs": 4179646,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12860,
+      "name": "Silk Slops",
+      "level": 53,
+      "jobs": 4179646,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12864,
+      "name": "Slacks",
+      "level": 8,
+      "jobs": 3851870,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12866,
+      "name": "Linen Slacks",
+      "level": 34,
+      "jobs": 3851870,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12868,
+      "name": "Silk Slacks",
+      "level": 63,
+      "jobs": 3851870,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 12929,
+      "name": "Mythril Leggings",
+      "level": 49,
+      "jobs": 193,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12931,
+      "name": "Darksteel Sabatons",
+      "level": 66,
+      "jobs": 192,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12936,
+      "name": "Greaves",
+      "level": 24,
+      "jobs": 6593,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12939,
+      "name": "Darksteel Sollerets",
+      "level": 59,
+      "jobs": 6593,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12944,
+      "name": "Scale Greaves",
+      "level": 10,
+      "jobs": 2141649,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12945,
+      "name": "Brass Greaves",
+      "level": 27,
+      "jobs": 2141649,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12952,
+      "name": "Leather Highboots",
+      "level": 7,
+      "jobs": 2473969,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12953,
+      "name": "Lizard Ledelsens",
+      "level": 17,
+      "jobs": 2473969,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12954,
+      "name": "Studded Boots",
+      "level": 30,
+      "jobs": 2473969,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12955,
+      "name": "Cuir Highboots",
+      "level": 38,
+      "jobs": 2473969,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12956,
+      "name": "Raptor Ledelsens",
+      "level": 48,
+      "jobs": 2473969,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12960,
+      "name": "Bronze Leggings",
+      "level": 1,
+      "jobs": 2472947,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12961,
+      "name": "Brass Leggings",
+      "level": 11,
+      "jobs": 2472947,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12963,
+      "name": "Scorpion Leggings",
+      "level": 57,
+      "jobs": 2472947,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12964,
+      "name": "Darksteel Leggings",
+      "level": 65,
+      "jobs": 2472947,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12966,
+      "name": "Bone Leggings",
+      "level": 16,
+      "jobs": 2472947,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12967,
+      "name": "Beetle Leggings",
+      "level": 21,
+      "jobs": 2472947,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12968,
+      "name": "Kyahan",
+      "level": 8,
+      "jobs": 6146,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12969,
+      "name": "Cotton Kyahan",
+      "level": 18,
+      "jobs": 6146,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12972,
+      "name": "Shinobi Kyahan",
+      "level": 49,
+      "jobs": 6146,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12976,
+      "name": "Gaiters",
+      "level": 11,
+      "jobs": 3662710,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12977,
+      "name": "Cotton Gaiters",
+      "level": 23,
+      "jobs": 3662710,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12979,
+      "name": "Wool Socks",
+      "level": 48,
+      "jobs": 3662710,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12984,
+      "name": "Ash Clogs",
+      "level": 1,
+      "jobs": 4179646,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12992,
+      "name": "Solea",
+      "level": 8,
+      "jobs": 3851870,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 12996,
+      "name": "Silk Pumps",
+      "level": 61,
+      "jobs": 3851870,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 13061,
+      "name": "Spike Necklace",
+      "level": 21,
+      "jobs": 4194303,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13072,
+      "name": "Bird Whistle",
+      "level": 15,
+      "jobs": 4194303,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13073,
+      "name": "Holy Phial",
+      "level": 26,
+      "jobs": 4194303,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13076,
+      "name": "Fang Necklace",
+      "level": 21,
+      "jobs": 4194303,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13079,
+      "name": "Darksteel Gorget",
+      "level": 67,
+      "jobs": 192,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13081,
+      "name": "Leather Gorget",
+      "level": 7,
+      "jobs": 2473969,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13084,
+      "name": "Mythril Gorget",
+      "level": 49,
+      "jobs": 193,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13085,
+      "name": "Hemp Gorget",
+      "level": 23,
+      "jobs": 3662710,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13088,
+      "name": "Darksteel Nodowa",
+      "level": 63,
+      "jobs": 2048,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13090,
+      "name": "Beetle Gorget",
+      "level": 21,
+      "jobs": 2472947,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13091,
+      "name": "Carapace Gorget",
+      "level": 45,
+      "jobs": 2472947,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13093,
+      "name": "Justice Badge",
+      "level": 7,
+      "jobs": 4194303,
+      "slot": 512,
+      "skill": 0
+    },
+    {
+      "id": 13192,
+      "name": "Leather Belt",
+      "level": 7,
+      "jobs": 2473969,
+      "slot": 1024,
+      "skill": 0
+    },
+    {
+      "id": 13193,
+      "name": "Lizard Belt",
+      "level": 17,
+      "jobs": 4194303,
+      "slot": 1024,
+      "skill": 0
+    },
+    {
+      "id": 13194,
+      "name": "Warriors Belt",
+      "level": 15,
+      "jobs": 2472947,
+      "slot": 1024,
+      "skill": 0
+    },
+    {
+      "id": 13211,
+      "name": "Friars Rope",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 1024,
+      "skill": 0
+    },
+    {
+      "id": 13284,
+      "name": "Eremites Ring",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13312,
+      "name": "Coral Earring",
+      "level": 63,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13317,
+      "name": "Pearl Earring",
+      "level": 31,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13321,
+      "name": "Bone Earring",
+      "level": 16,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13323,
+      "name": "Beetle Earring",
+      "level": 21,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13325,
+      "name": "Fang Earring",
+      "level": 55,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13327,
+      "name": "Silver Earring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13328,
+      "name": "Mythril Earring",
+      "level": 24,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13330,
+      "name": "Tourmaline Earring",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13333,
+      "name": "Amethyst Earring",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13334,
+      "name": "Lapis Lazuli Earring",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13335,
+      "name": "Amber Earring",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13336,
+      "name": "Onyx Earring",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13337,
+      "name": "Opal Earring",
+      "level": 10,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13361,
+      "name": "Drone Earring",
+      "level": 35,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13366,
+      "name": "Dodge Earring",
+      "level": 29,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13369,
+      "name": "Spike Earring",
+      "level": 55,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 13441,
+      "name": "Bone Ring",
+      "level": 16,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13442,
+      "name": "Shell Ring",
+      "level": 11,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13443,
+      "name": "Opal Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13444,
+      "name": "Sardonyx Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13446,
+      "name": "Mythril Ring",
+      "level": 24,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13454,
+      "name": "Copper Ring",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13455,
+      "name": "Coral Ring",
+      "level": 70,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13456,
+      "name": "Silver Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13457,
+      "name": "Beetle Ring",
+      "level": 21,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13458,
+      "name": "Scorpion Ring",
+      "level": 55,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13459,
+      "name": "Horn Ring",
+      "level": 35,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13461,
+      "name": "Carapace Ring",
+      "level": 45,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13465,
+      "name": "Brass Ring",
+      "level": 7,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13468,
+      "name": "Tourmaline Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13469,
+      "name": "Leather Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13471,
+      "name": "Amethyst Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13472,
+      "name": "Lapis Lazuli Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13473,
+      "name": "Amber Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13474,
+      "name": "Onyx Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13477,
+      "name": "Garnet Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13478,
+      "name": "Goshenite Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13479,
+      "name": "Ametrine Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13480,
+      "name": "Turquoise Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13483,
+      "name": "Pearl Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13522,
+      "name": "Courage Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13524,
+      "name": "Balance Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13526,
+      "name": "Stamina Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13528,
+      "name": "Hope Ring",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13529,
+      "name": "Alacrity Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13531,
+      "name": "Wisdom Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13533,
+      "name": "Solace Ring",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 24576,
+      "skill": 0
+    },
+    {
+      "id": 13570,
+      "name": "Ram Mantle",
+      "level": 36,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13571,
+      "name": "Wolf Mantle",
+      "level": 28,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13577,
+      "name": "Black Cape",
+      "level": 32,
+      "jobs": 1753628,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13583,
+      "name": "Cape",
+      "level": 7,
+      "jobs": 1753628,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13584,
+      "name": "Cotton Cape",
+      "level": 18,
+      "jobs": 1753628,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13585,
+      "name": "White Cape",
+      "level": 32,
+      "jobs": 1753628,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13586,
+      "name": "Red Cape",
+      "level": 43,
+      "jobs": 1753628,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13588,
+      "name": "Dhalmel Mantle",
+      "level": 18,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13592,
+      "name": "Lizard Mantle",
+      "level": 17,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13593,
+      "name": "Raptor Mantle",
+      "level": 48,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13594,
+      "name": "Rabbit Mantle",
+      "level": 4,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13597,
+      "name": "Beak Mantle",
+      "level": 58,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13613,
+      "name": "Travelers Mantle",
+      "level": 12,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13645,
+      "name": "Amemet Mantle",
+      "level": 61,
+      "jobs": 2473971,
+      "slot": 32768,
+      "skill": 0
+    },
+    {
+      "id": 13711,
+      "name": "Carapace Mask",
+      "level": 45,
+      "jobs": 2472947,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 13712,
+      "name": "Carapace Harness",
+      "level": 45,
+      "jobs": 2472947,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 13713,
+      "name": "Carapace Mittens",
+      "level": 45,
+      "jobs": 2472947,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 13715,
+      "name": "Carapace Leggings",
+      "level": 45,
+      "jobs": 2472947,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 13750,
+      "name": "Linen Doublet",
+      "level": 33,
+      "jobs": 2615158,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 13752,
+      "name": "Wool Doublet",
+      "level": 42,
+      "jobs": 2615158,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 13783,
+      "name": "Iron Scale Mail",
+      "level": 37,
+      "jobs": 2141649,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 13785,
+      "name": "Steel Scale Mail",
+      "level": 48,
+      "jobs": 2141649,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 13789,
+      "name": "Carapace Breastplate",
+      "level": 61,
+      "jobs": 2371507,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 13833,
+      "name": "Nobles Ribbon",
+      "level": 14,
+      "jobs": 4194303,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 13846,
+      "name": "Scorpion Helm",
+      "level": 66,
+      "jobs": 2371507,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 13871,
+      "name": "Iron Visor",
+      "level": 37,
+      "jobs": 2141649,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 13873,
+      "name": "Steel Visor",
+      "level": 48,
+      "jobs": 2141649,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 13878,
+      "name": "Carapace Helm",
+      "level": 61,
+      "jobs": 2371507,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 13929,
+      "name": "Errant Hat",
+      "level": 72,
+      "jobs": 3850780,
+      "slot": 16,
+      "skill": 0
+    },
+    {
+      "id": 14001,
+      "name": "Iron Finger Gauntlets",
+      "level": 37,
+      "jobs": 2141649,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 14003,
+      "name": "Steel Finger Gauntlets",
+      "level": 48,
+      "jobs": 2141649,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 14008,
+      "name": "Carapace Gauntlets",
+      "level": 61,
+      "jobs": 2371507,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 14078,
+      "name": "Errant Cuffs",
+      "level": 72,
+      "jobs": 3850780,
+      "slot": 64,
+      "skill": 0
+    },
+    {
+      "id": 14118,
+      "name": "Iron Greaves",
+      "level": 37,
+      "jobs": 2141649,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 14120,
+      "name": "Steel Greaves",
+      "level": 47,
+      "jobs": 2141649,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 14182,
+      "name": "Errant Pigaches",
+      "level": 72,
+      "jobs": 3850780,
+      "slot": 256,
+      "skill": 0
+    },
+    {
+      "id": 14243,
+      "name": "Iron Cuisses",
+      "level": 40,
+      "jobs": 2141649,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 14245,
+      "name": "Steel Cuisses",
+      "level": 50,
+      "jobs": 2141649,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 14301,
+      "name": "Errant Slops",
+      "level": 72,
+      "jobs": 3850780,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 14380,
+      "name": "Errant Houppelande",
+      "level": 72,
+      "jobs": 3850780,
+      "slot": 32,
+      "skill": 0
+    },
+    {
+      "id": 14749,
+      "name": "Lizard Earring",
+      "level": 50,
+      "jobs": 4194303,
+      "slot": 6144,
+      "skill": 0
+    },
+    {
+      "id": 15371,
+      "name": "Darksteel Codpiece",
+      "level": 50,
+      "jobs": 257,
+      "slot": 128,
+      "skill": 0
+    },
+    {
+      "id": 16385,
+      "name": "Cesti",
+      "level": 1,
+      "jobs": 263667,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16386,
+      "name": "Lizard Cesti",
+      "level": 12,
+      "jobs": 263667,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16390,
+      "name": "Bronze Knuckles",
+      "level": 5,
+      "jobs": 262643,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16391,
+      "name": "Brass Knuckles",
+      "level": 9,
+      "jobs": 262643,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16393,
+      "name": "Mythril Knuckles",
+      "level": 38,
+      "jobs": 262643,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16394,
+      "name": "Darksteel Knuckles",
+      "level": 54,
+      "jobs": 262643,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16399,
+      "name": "Katars",
+      "level": 33,
+      "jobs": 131219,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16400,
+      "name": "Darksteel Katars",
+      "level": 59,
+      "jobs": 131219,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16406,
+      "name": "Baghnakhs",
+      "level": 24,
+      "jobs": 397747,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16407,
+      "name": "Brass Baghnakhs",
+      "level": 11,
+      "jobs": 397747,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16411,
+      "name": "Claws",
+      "level": 30,
+      "jobs": 135555,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16412,
+      "name": "Mythril Claws",
+      "level": 41,
+      "jobs": 135555,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16413,
+      "name": "Darksteel Claws",
+      "level": 52,
+      "jobs": 135555,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16419,
+      "name": "Patas",
+      "level": 48,
+      "jobs": 135427,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16420,
+      "name": "Bone Patas",
+      "level": 56,
+      "jobs": 135427,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 16448,
+      "name": "Bronze Dagger",
+      "level": 1,
+      "jobs": 1605625,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16449,
+      "name": "Brass Dagger",
+      "level": 9,
+      "jobs": 1605625,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16450,
+      "name": "Dagger",
+      "level": 12,
+      "jobs": 1605625,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16451,
+      "name": "Mythril Dagger",
+      "level": 23,
+      "jobs": 1605625,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16455,
+      "name": "Baselard",
+      "level": 18,
+      "jobs": 1577593,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16456,
+      "name": "Mythril Baselard",
+      "level": 36,
+      "jobs": 1577593,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16457,
+      "name": "Darksteel Baselard",
+      "level": 55,
+      "jobs": 1577593,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16460,
+      "name": "Kris",
+      "level": 27,
+      "jobs": 1589256,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16465,
+      "name": "Bronze Knife",
+      "level": 1,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16466,
+      "name": "Knife",
+      "level": 13,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16467,
+      "name": "Mythril Knife",
+      "level": 31,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16468,
+      "name": "Darksteel Knife",
+      "level": 53,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16473,
+      "name": "Kukri",
+      "level": 20,
+      "jobs": 464033,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16475,
+      "name": "Mythril Kukri",
+      "level": 34,
+      "jobs": 464033,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16476,
+      "name": "Darksteel Kukri",
+      "level": 59,
+      "jobs": 464033,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16496,
+      "name": "Poison Dagger",
+      "level": 20,
+      "jobs": 1605625,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16517,
+      "name": "Degen",
+      "level": 20,
+      "jobs": 336465,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16518,
+      "name": "Mythril Degen",
+      "level": 36,
+      "jobs": 336465,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16521,
+      "name": "Rapier",
+      "level": 64,
+      "jobs": 336465,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16527,
+      "name": "Epee",
+      "level": 68,
+      "jobs": 8208,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16530,
+      "name": "Xiphos",
+      "level": 7,
+      "jobs": 2209777,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16531,
+      "name": "Brass Xiphos",
+      "level": 13,
+      "jobs": 2209777,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16535,
+      "name": "Bronze Sword",
+      "level": 1,
+      "jobs": 2143985,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16536,
+      "name": "Iron Sword",
+      "level": 18,
+      "jobs": 2143985,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16537,
+      "name": "Mythril Sword",
+      "level": 36,
+      "jobs": 2143985,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16538,
+      "name": "Darksteel Sword",
+      "level": 51,
+      "jobs": 2143985,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16545,
+      "name": "Broadsword",
+      "level": 30,
+      "jobs": 2195665,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16552,
+      "name": "Scimitar",
+      "level": 13,
+      "jobs": 34977,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16558,
+      "name": "Falchion",
+      "level": 44,
+      "jobs": 36257,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16559,
+      "name": "Darksteel Falchion",
+      "level": 53,
+      "jobs": 36257,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16560,
+      "name": "Cutlass",
+      "level": 62,
+      "jobs": 36257,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16565,
+      "name": "Spatha",
+      "level": 9,
+      "jobs": 2097361,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16566,
+      "name": "Longsword",
+      "level": 18,
+      "jobs": 2097361,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16568,
+      "name": "Saber",
+      "level": 56,
+      "jobs": 2097361,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16577,
+      "name": "Bastard Sword",
+      "level": 60,
+      "jobs": 2097345,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 16583,
+      "name": "Claymore",
+      "level": 10,
+      "jobs": 2097345,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16584,
+      "name": "Mythril Claymore",
+      "level": 36,
+      "jobs": 2097345,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16585,
+      "name": "Darksteel Claymore",
+      "level": 54,
+      "jobs": 2097345,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16589,
+      "name": "Two-Handed Sword",
+      "level": 20,
+      "jobs": 2097345,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16590,
+      "name": "Greatsword",
+      "level": 41,
+      "jobs": 2097345,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16591,
+      "name": "Zweihander",
+      "level": 60,
+      "jobs": 2097345,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16596,
+      "name": "Flamberge",
+      "level": 69,
+      "jobs": 2097216,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16640,
+      "name": "Bronze Axe",
+      "level": 1,
+      "jobs": 2098561,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16641,
+      "name": "Brass Axe",
+      "level": 8,
+      "jobs": 2098561,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16642,
+      "name": "Bone Axe",
+      "level": 13,
+      "jobs": 2098561,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16643,
+      "name": "Battleaxe",
+      "level": 20,
+      "jobs": 2098561,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16644,
+      "name": "Mythril Axe",
+      "level": 37,
+      "jobs": 2098561,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16645,
+      "name": "Darksteel Axe",
+      "level": 56,
+      "jobs": 2098561,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16649,
+      "name": "Bone Pick",
+      "level": 16,
+      "jobs": 2097537,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16650,
+      "name": "War Pick",
+      "level": 31,
+      "jobs": 2097537,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16651,
+      "name": "Mythril Pick",
+      "level": 50,
+      "jobs": 2097537,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16652,
+      "name": "Darksteel Pick",
+      "level": 62,
+      "jobs": 2097537,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16657,
+      "name": "Tabar",
+      "level": 43,
+      "jobs": 256,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16658,
+      "name": "Darksteel Tabar",
+      "level": 65,
+      "jobs": 256,
+      "slot": 3,
+      "skill": 5
+    },
+    {
+      "id": 16704,
+      "name": "Butterfly Axe",
+      "level": 5,
+      "jobs": 2097281,
+      "slot": 1,
+      "skill": 6
+    },
+    {
+      "id": 16705,
+      "name": "Greataxe",
+      "level": 12,
+      "jobs": 2097281,
+      "slot": 1,
+      "skill": 6
+    },
+    {
+      "id": 16706,
+      "name": "Heavy Axe",
+      "level": 34,
+      "jobs": 2097281,
+      "slot": 1,
+      "skill": 6
+    },
+    {
+      "id": 16746,
+      "name": "Mercenarys Knife",
+      "level": 20,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16754,
+      "name": "Parrying Knife",
+      "level": 25,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16757,
+      "name": "Corsairs Knife",
+      "level": 50,
+      "jobs": 66592,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16759,
+      "name": "Darksteel Kris",
+      "level": 57,
+      "jobs": 1589256,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 16768,
+      "name": "Bronze Zaghnal",
+      "level": 1,
+      "jobs": 385,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16769,
+      "name": "Brass Zaghnal",
+      "level": 10,
+      "jobs": 385,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16770,
+      "name": "Zaghnal",
+      "level": 20,
+      "jobs": 385,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16774,
+      "name": "Scythe",
+      "level": 18,
+      "jobs": 128,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16775,
+      "name": "Mythril Scythe",
+      "level": 40,
+      "jobs": 128,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16789,
+      "name": "Darksteel Scythe",
+      "level": 65,
+      "jobs": 128,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16794,
+      "name": "Bone Scythe",
+      "level": 53,
+      "jobs": 128,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16796,
+      "name": "Mythril Zaghnal",
+      "level": 42,
+      "jobs": 385,
+      "slot": 1,
+      "skill": 7
+    },
+    {
+      "id": 16832,
+      "name": "Harpoon",
+      "level": 1,
+      "jobs": 10305,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16833,
+      "name": "Bronze Spear",
+      "level": 7,
+      "jobs": 10305,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16834,
+      "name": "Brass Spear",
+      "level": 14,
+      "jobs": 10305,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16835,
+      "name": "Spear",
+      "level": 24,
+      "jobs": 10305,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16836,
+      "name": "Halberd",
+      "level": 36,
+      "jobs": 10305,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16837,
+      "name": "Trident",
+      "level": 45,
+      "jobs": 10305,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16845,
+      "name": "Lance",
+      "level": 34,
+      "jobs": 8192,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16847,
+      "name": "Mythril Lance",
+      "level": 48,
+      "jobs": 8192,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16848,
+      "name": "Darksteel Lance",
+      "level": 58,
+      "jobs": 8192,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16853,
+      "name": "Lizard Piercer",
+      "level": 32,
+      "jobs": 10305,
+      "slot": 1,
+      "skill": 8
+    },
+    {
+      "id": 16896,
+      "name": "Kunai",
+      "level": 1,
+      "jobs": 4096,
+      "slot": 3,
+      "skill": 9
+    },
+    {
+      "id": 16900,
+      "name": "Wakizashi",
+      "level": 7,
+      "jobs": 4096,
+      "slot": 3,
+      "skill": 9
+    },
+    {
+      "id": 16901,
+      "name": "Kodachi",
+      "level": 32,
+      "jobs": 4096,
+      "slot": 3,
+      "skill": 9
+    },
+    {
+      "id": 16919,
+      "name": "Shinobi-Gatana",
+      "level": 13,
+      "jobs": 4096,
+      "slot": 3,
+      "skill": 9
+    },
+    {
+      "id": 16950,
+      "name": "Mythril Heart",
+      "level": 66,
+      "jobs": 2097345,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 16960,
+      "name": "Uchigatana",
+      "level": 12,
+      "jobs": 6144,
+      "slot": 1,
+      "skill": 10
+    },
+    {
+      "id": 16966,
+      "name": "Tachi",
+      "level": 8,
+      "jobs": 2048,
+      "slot": 1,
+      "skill": 10
+    },
+    {
+      "id": 16982,
+      "name": "Nodachi",
+      "level": 16,
+      "jobs": 2048,
+      "slot": 1,
+      "skill": 10
+    },
+    {
+      "id": 17024,
+      "name": "Ash Club",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17025,
+      "name": "Chestnut Club",
+      "level": 16,
+      "jobs": 4194303,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17026,
+      "name": "Bone Cudgel",
+      "level": 27,
+      "jobs": 4194303,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17027,
+      "name": "Oak Cudgel",
+      "level": 36,
+      "jobs": 4194303,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17034,
+      "name": "Bronze Mace",
+      "level": 4,
+      "jobs": 1048645,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17035,
+      "name": "Mace",
+      "level": 19,
+      "jobs": 1048645,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17036,
+      "name": "Mythril Mace",
+      "level": 35,
+      "jobs": 1048645,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17037,
+      "name": "Darksteel Mace",
+      "level": 57,
+      "jobs": 1048645,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17042,
+      "name": "Bronze Hammer",
+      "level": 5,
+      "jobs": 1048580,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17043,
+      "name": "Brass Hammer",
+      "level": 12,
+      "jobs": 1048580,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17044,
+      "name": "Warhammer",
+      "level": 20,
+      "jobs": 1048580,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17045,
+      "name": "Maul",
+      "level": 31,
+      "jobs": 1048580,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17046,
+      "name": "Darksteel Maul",
+      "level": 65,
+      "jobs": 1048580,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17049,
+      "name": "Maple Wand",
+      "level": 1,
+      "jobs": 1622044,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17050,
+      "name": "Willow Wand",
+      "level": 9,
+      "jobs": 1622044,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17051,
+      "name": "Yew Wand",
+      "level": 18,
+      "jobs": 1622044,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17052,
+      "name": "Chestnut Wand",
+      "level": 32,
+      "jobs": 1622044,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17053,
+      "name": "Rose Wand",
+      "level": 48,
+      "jobs": 1622044,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17054,
+      "name": "Ebony Wand",
+      "level": 60,
+      "jobs": 1622044,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17059,
+      "name": "Bronze Rod",
+      "level": 5,
+      "jobs": 1589260,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17061,
+      "name": "Mythril Rod",
+      "level": 34,
+      "jobs": 1589260,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17062,
+      "name": "Bone Rod",
+      "level": 43,
+      "jobs": 1589260,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17063,
+      "name": "Darksteel Rod",
+      "level": 61,
+      "jobs": 1589260,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17081,
+      "name": "Brass Rod",
+      "level": 12,
+      "jobs": 1589260,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 17088,
+      "name": "Ash Staff",
+      "level": 1,
+      "jobs": 1590047,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17089,
+      "name": "Holly Staff",
+      "level": 11,
+      "jobs": 1590047,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17090,
+      "name": "Elm Staff",
+      "level": 23,
+      "jobs": 1590047,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17091,
+      "name": "Oak Staff",
+      "level": 39,
+      "jobs": 1590047,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17092,
+      "name": "Mahogany Staff",
+      "level": 59,
+      "jobs": 1590047,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17100,
+      "name": "Ebony Pole",
+      "level": 65,
+      "jobs": 1589262,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17101,
+      "name": "Mythic Pole",
+      "level": 70,
+      "jobs": 1589262,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17301,
+      "name": "Shuriken",
+      "level": 18,
+      "jobs": 4096,
+      "slot": 8,
+      "skill": 27
+    },
+    {
+      "id": 17307,
+      "name": "Dart",
+      "level": 7,
+      "jobs": 2166961,
+      "slot": 8,
+      "skill": 27
+    },
+    {
+      "id": 17312,
+      "name": "Iron Bullet",
+      "level": 50,
+      "jobs": 70688,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 17316,
+      "name": "Bomb Arm",
+      "level": 5,
+      "jobs": 2101409,
+      "slot": 8,
+      "skill": 27
+    },
+    {
+      "id": 17318,
+      "name": "Wooden Arrow",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 17319,
+      "name": "Bone Arrow",
+      "level": 7,
+      "jobs": 7665,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 17320,
+      "name": "Iron Arrow",
+      "level": 14,
+      "jobs": 7665,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 17321,
+      "name": "Silver Arrow",
+      "level": 24,
+      "jobs": 7665,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 17330,
+      "name": "Stone Arrow",
+      "level": 1,
+      "jobs": 7665,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 17336,
+      "name": "Crossbow Bolt",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 17337,
+      "name": "Mythril Bolt",
+      "level": 40,
+      "jobs": 1153,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 17338,
+      "name": "Darksteel Bolt",
+      "level": 52,
+      "jobs": 1153,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 17339,
+      "name": "Bronze Bolt",
+      "level": 1,
+      "jobs": 1153,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 17340,
+      "name": "Bullet",
+      "level": 22,
+      "jobs": 70688,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 17343,
+      "name": "Bronze Bullet",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 17392,
+      "name": "Slice Of Sardine",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17395,
+      "name": "Lugworm",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17396,
+      "name": "Little Worm",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17398,
+      "name": "Rogue Rig",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17399,
+      "name": "Sabiki Rig",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17400,
+      "name": "Sinking Minnow",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17401,
+      "name": "Lizard Lure",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17402,
+      "name": "Shrimp Lure",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17405,
+      "name": "Fly Lure",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17407,
+      "name": "Minnow",
+      "level": 1,
+      "jobs": 4194303,
+      "slot": 8,
+      "skill": 48
+    },
+    {
+      "id": 17523,
+      "name": "Quarterstaff",
+      "level": 45,
+      "jobs": 8262,
+      "slot": 1,
+      "skill": 12
+    },
+    {
+      "id": 17610,
+      "name": "Bone Knife",
+      "level": 46,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 17612,
+      "name": "Beetle Knife",
+      "level": 56,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    },
+    {
+      "id": 17724,
+      "name": "Darksteel Kilij",
+      "level": 65,
+      "jobs": 32768,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 17739,
+      "name": "Steel Kilij",
+      "level": 30,
+      "jobs": 32768,
+      "slot": 3,
+      "skill": 3
+    },
+    {
+      "id": 18148,
+      "name": "Acid Bolt",
+      "level": 15,
+      "jobs": 1185,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 18149,
+      "name": "Sleep Bolt",
+      "level": 20,
+      "jobs": 1185,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 18150,
+      "name": "Blind Bolt",
+      "level": 10,
+      "jobs": 1185,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 18151,
+      "name": "Bloody Bolt",
+      "level": 25,
+      "jobs": 1185,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 18152,
+      "name": "Venom Bolt",
+      "level": 25,
+      "jobs": 1185,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 18153,
+      "name": "Holy Bolt",
+      "level": 30,
+      "jobs": 1153,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 18154,
+      "name": "Beetle Arrow",
+      "level": 17,
+      "jobs": 7665,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 18155,
+      "name": "Scorpion Arrow",
+      "level": 40,
+      "jobs": 7665,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 18159,
+      "name": "Demon Arrow",
+      "level": 60,
+      "jobs": 7665,
+      "slot": 8,
+      "skill": 25
+    },
+    {
+      "id": 18214,
+      "name": "Voulge",
+      "level": 31,
+      "jobs": 1,
+      "slot": 1,
+      "skill": 6
+    },
+    {
+      "id": 18226,
+      "name": "Darksteel Voulge",
+      "level": 55,
+      "jobs": 1,
+      "slot": 1,
+      "skill": 6
+    },
+    {
+      "id": 18382,
+      "name": "Darksteel Falx",
+      "level": 57,
+      "jobs": 128,
+      "slot": 1,
+      "skill": 4
+    },
+    {
+      "id": 18723,
+      "name": "Steel Bullet",
+      "level": 66,
+      "jobs": 66560,
+      "slot": 8,
+      "skill": 26
+    },
+    {
+      "id": 18743,
+      "name": "Darksteel Sainti",
+      "level": 65,
+      "jobs": 135427,
+      "slot": 1,
+      "skill": 1
+    },
+    {
+      "id": 18848,
+      "name": "Brass Jadagna",
+      "level": 71,
+      "jobs": 1048645,
+      "slot": 3,
+      "skill": 11
+    },
+    {
+      "id": 19009,
+      "name": "Brass Grip",
+      "level": 30,
+      "jobs": 4194303,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 19011,
+      "name": "Lizard Leather Strap",
+      "level": 30,
+      "jobs": 4194303,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 19013,
+      "name": "Mythril Grip",
+      "level": 55,
+      "jobs": 4194303,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 19015,
+      "name": "Raptor Leather Strap",
+      "level": 55,
+      "jobs": 4194303,
+      "slot": 2,
+      "skill": 0
+    },
+    {
+      "id": 19103,
+      "name": "Darksteel Jambiya",
+      "level": 54,
+      "jobs": 474849,
+      "slot": 3,
+      "skill": 2
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "name": "Mad Sheep",
+      "zone": 102,
+      "area": "La Theine Plateau",
+      "level": 10,
+      "monsterLow": 11,
+      "monsterHigh": 13,
+      "hard": false,
+      "count": 6,
+      "hint": "Sheep on the plateau. Stay clear of rams and elementals.",
+      "ids": {
+        "17195053": true,
+        "17195054": true,
+        "17195055": true,
+        "17195106": true,
+        "17195107": true,
+        "17195108": true,
+        "17195156": true,
+        "17195157": true,
+        "17195158": true,
+        "17195184": true,
+        "17195185": true,
+        "17195205": true,
+        "17195206": true,
+        "17195207": true,
+        "17195215": true,
+        "17195216": true,
+        "17195264": true,
+        "17195265": true,
+        "17195266": true,
+        "17195267": true,
+        "17195274": true,
+        "17195275": true,
+        "17195276": true,
+        "17195277": true,
+        "17195283": true,
+        "17195284": true,
+        "17195330": true,
+        "17195331": true,
+        "17195332": true,
+        "17195340": true,
+        "17195341": true,
+        "17195342": true
+      },
+      "gift": {
+        "gil": 500,
+        "choices": [
+          {
+            "id": 4376,
+            "quantity": 6,
+            "name": "Meat Jerky"
+          },
+          {
+            "id": 4413,
+            "quantity": 6,
+            "name": "Apple Pie"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Sand Hare",
+      "zone": 103,
+      "area": "Valkurm Dunes",
+      "level": 15,
+      "monsterLow": 15,
+      "monsterHigh": 18,
+      "hard": false,
+      "count": 6,
+      "hint": "Rabbits in the dunes; begin from the H-7 outpost.",
+      "ids": {
+        "17199110": true,
+        "17199111": true,
+        "17199112": true,
+        "17199113": true,
+        "17199121": true,
+        "17199122": true,
+        "17199123": true,
+        "17199124": true,
+        "17199141": true,
+        "17199142": true,
+        "17199143": true,
+        "17199162": true,
+        "17199163": true,
+        "17199164": true,
+        "17199165": true,
+        "17199188": true,
+        "17199189": true,
+        "17199190": true,
+        "17199209": true,
+        "17199210": true,
+        "17199228": true,
+        "17199229": true,
+        "17199230": true,
+        "17199231": true,
+        "17199232": true,
+        "17199233": true,
+        "17199234": true,
+        "17199235": true,
+        "17199291": true,
+        "17199292": true,
+        "17199293": true,
+        "17199354": true,
+        "17199355": true,
+        "17199371": true,
+        "17199372": true,
+        "17199373": true,
+        "17199374": true,
+        "17199409": true,
+        "17199410": true,
+        "17199411": true,
+        "17199412": true,
+        "17199462": true,
+        "17199463": true,
+        "17199481": true,
+        "17199482": true,
+        "17199483": true,
+        "17199484": true,
+        "17199492": true,
+        "17199493": true,
+        "17199494": true,
+        "17199495": true
+      },
+      "gift": {
+        "gil": 750,
+        "choices": [
+          {
+            "id": 4148,
+            "quantity": 6,
+            "name": "Antidote"
+          },
+          {
+            "id": 4151,
+            "quantity": 3,
+            "name": "Echo Drops"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Snipper",
+      "zone": 103,
+      "area": "Valkurm Dunes",
+      "level": 20,
+      "monsterLow": 18,
+      "monsterHigh": 22,
+      "hard": false,
+      "count": 6,
+      "hint": "Crabs along the beaches; watch nearby goblins.",
+      "ids": {
+        "17199147": true,
+        "17199148": true,
+        "17199149": true,
+        "17199150": true,
+        "17199151": true,
+        "17199213": true,
+        "17199214": true,
+        "17199215": true,
+        "17199216": true,
+        "17199217": true,
+        "17199218": true,
+        "17199281": true,
+        "17199282": true,
+        "17199283": true,
+        "17199284": true,
+        "17199285": true,
+        "17199313": true,
+        "17199314": true,
+        "17199315": true,
+        "17199316": true,
+        "17199321": true,
+        "17199322": true,
+        "17199323": true,
+        "17199324": true,
+        "17199325": true,
+        "17199343": true,
+        "17199344": true,
+        "17199345": true,
+        "17199399": true,
+        "17199400": true,
+        "17199401": true,
+        "17199402": true,
+        "17199403": true,
+        "17199429": true,
+        "17199430": true,
+        "17199431": true,
+        "17199432": true,
+        "17199433": true,
+        "17199452": true,
+        "17199453": true,
+        "17199454": true,
+        "17199532": true,
+        "17199533": true,
+        "17199534": true,
+        "17199535": true,
+        "17199536": true,
+        "17199554": true,
+        "17199555": true,
+        "17199556": true
+      },
+      "gift": {
+        "gil": 1000,
+        "choices": [
+          {
+            "id": 4381,
+            "quantity": 6,
+            "name": "Meat Mithkabob"
+          },
+          {
+            "id": 4421,
+            "quantity": 6,
+            "name": "Melon Pie"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Land Worm",
+      "zone": 126,
+      "area": "Qufim Island",
+      "level": 24,
+      "monsterLow": 26,
+      "monsterHigh": 27,
+      "hard": false,
+      "count": 6,
+      "hint": "Worms on the open island. Use the F-6 outpost as your starting point.",
+      "ids": {
+        "17293329": true,
+        "17293330": true,
+        "17293335": true,
+        "17293336": true,
+        "17293337": true,
+        "17293371": true,
+        "17293372": true,
+        "17293394": true,
+        "17293395": true,
+        "17293412": true,
+        "17293413": true,
+        "17293435": true,
+        "17293436": true,
+        "17293437": true,
+        "17293438": true,
+        "17293439": true,
+        "17293446": true,
+        "17293447": true
+      },
+      "gift": {
+        "gil": 1200,
+        "choices": [
+          {
+            "id": 4116,
+            "quantity": 1,
+            "name": "Hi-Potion"
+          },
+          {
+            "id": 4128,
+            "quantity": 1,
+            "name": "Ether"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Clipper",
+      "zone": 126,
+      "area": "Qufim Island",
+      "level": 26,
+      "monsterLow": 28,
+      "monsterHigh": 29,
+      "hard": false,
+      "count": 6,
+      "hint": "Crabs on the open island, outside the F-6 tower/outpost area.",
+      "ids": {
+        "17293331": true,
+        "17293332": true,
+        "17293333": true,
+        "17293334": true,
+        "17293355": true,
+        "17293356": true,
+        "17293357": true,
+        "17293358": true,
+        "17293367": true,
+        "17293368": true,
+        "17293369": true,
+        "17293370": true,
+        "17293390": true,
+        "17293391": true,
+        "17293392": true,
+        "17293393": true,
+        "17293409": true,
+        "17293410": true,
+        "17293411": true,
+        "17293425": true,
+        "17293426": true,
+        "17293427": true,
+        "17293430": true,
+        "17293431": true,
+        "17293432": true,
+        "17293433": true,
+        "17293434": true,
+        "17293442": true,
+        "17293443": true,
+        "17293444": true,
+        "17293445": true,
+        "17293458": true,
+        "17293459": true,
+        "17293460": true,
+        "17293461": true,
+        "17293470": true,
+        "17293471": true,
+        "17293472": true,
+        "17293473": true,
+        "17293487": true,
+        "17293488": true,
+        "17293489": true,
+        "17293490": true,
+        "17293505": true,
+        "17293507": true,
+        "17293508": true,
+        "17293509": true,
+        "17293510": true,
+        "17293511": true,
+        "17293538": true,
+        "17293539": true,
+        "17293540": true,
+        "17293541": true,
+        "17293542": true,
+        "17293564": true,
+        "17293565": true,
+        "17293566": true,
+        "17293567": true,
+        "17293582": true,
+        "17293583": true,
+        "17293584": true,
+        "17293585": true
+      },
+      "gift": {
+        "gil": 1500,
+        "choices": [
+          {
+            "id": 4381,
+            "quantity": 12,
+            "name": "Meat Mithkabob"
+          },
+          {
+            "id": 4421,
+            "quantity": 12,
+            "name": "Melon Pie"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Giant Spider",
+      "zone": 114,
+      "area": "Eastern Altepa Desert",
+      "level": 32,
+      "monsterLow": 30,
+      "monsterHigh": 34,
+      "hard": false,
+      "count": 6,
+      "hint": "Eastern desert. Watch for linking spiders and anticans.",
+      "ids": {
+        "17244166": true,
+        "17244167": true,
+        "17244168": true,
+        "17244170": true,
+        "17244171": true,
+        "17244174": true,
+        "17244179": true,
+        "17244184": true,
+        "17244187": true,
+        "17244195": true,
+        "17244196": true,
+        "17244200": true,
+        "17244201": true,
+        "17244202": true,
+        "17244206": true,
+        "17244207": true,
+        "17244211": true,
+        "17244212": true,
+        "17244216": true,
+        "17244217": true,
+        "17244220": true,
+        "17244221": true,
+        "17244224": true,
+        "17244225": true,
+        "17244231": true,
+        "17244232": true,
+        "17244237": true,
+        "17244238": true,
+        "17244242": true,
+        "17244243": true,
+        "17244246": true,
+        "17244251": true,
+        "17244256": true,
+        "17244262": true,
+        "17244269": true,
+        "17244275": true,
+        "17244281": true,
+        "17244282": true,
+        "17244288": true,
+        "17244298": true,
+        "17244325": true,
+        "17244333": true,
+        "17244387": true,
+        "17244395": true,
+        "17244397": true,
+        "17244406": true,
+        "17244413": true,
+        "17244420": true,
+        "17244428": true,
+        "17244436": true,
+        "17244443": true
+      },
+      "gift": {
+        "gil": 1800,
+        "choices": [
+          {
+            "id": 816,
+            "quantity": 6,
+            "name": "Silk Thread"
+          },
+          {
+            "id": 651,
+            "quantity": 1,
+            "name": "Iron Ingot"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Sand Beetle",
+      "zone": 114,
+      "area": "Eastern Altepa Desert",
+      "level": 38,
+      "monsterLow": 36,
+      "monsterHigh": 40,
+      "hard": false,
+      "count": 6,
+      "hint": "Sand beetles in the open desert; pull one at a time.",
+      "ids": {
+        "17244172": true,
+        "17244175": true,
+        "17244176": true,
+        "17244180": true,
+        "17244181": true,
+        "17244185": true,
+        "17244188": true,
+        "17244191": true,
+        "17244192": true,
+        "17244197": true,
+        "17244203": true,
+        "17244208": true,
+        "17244213": true,
+        "17244222": true,
+        "17244226": true,
+        "17244233": true,
+        "17244234": true,
+        "17244239": true,
+        "17244244": true,
+        "17244247": true,
+        "17244252": true,
+        "17244257": true,
+        "17244258": true,
+        "17244263": true,
+        "17244264": true,
+        "17244270": true,
+        "17244271": true,
+        "17244276": true,
+        "17244277": true,
+        "17244283": true,
+        "17244284": true,
+        "17244289": true,
+        "17244290": true,
+        "17244299": true,
+        "17244306": true,
+        "17244307": true,
+        "17244313": true,
+        "17244323": true,
+        "17244326": true,
+        "17244327": true,
+        "17244334": true,
+        "17244335": true,
+        "17244341": true,
+        "17244342": true,
+        "17244351": true,
+        "17244352": true,
+        "17244358": true,
+        "17244359": true,
+        "17244368": true,
+        "17244375": true,
+        "17244379": true,
+        "17244380": true,
+        "17244388": true,
+        "17244389": true,
+        "17244398": true,
+        "17244399": true,
+        "17244407": true,
+        "17244408": true,
+        "17244414": true,
+        "17244415": true,
+        "17244421": true,
+        "17244429": true,
+        "17244437": true,
+        "17244444": true,
+        "17244445": true
+      },
+      "gift": {
+        "gil": 2200,
+        "choices": [
+          {
+            "id": 652,
+            "quantity": 1,
+            "name": "Steel Ingot"
+          },
+          {
+            "id": 653,
+            "quantity": 1,
+            "name": "Mythril Ingot"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Worker Crawler",
+      "zone": 197,
+      "area": "Crawlers Nest",
+      "level": 42,
+      "monsterLow": 40,
+      "monsterHigh": 44,
+      "hard": false,
+      "count": 6,
+      "hint": "First crawler rooms from the entrance; avoid deeper high-level sections.",
+      "ids": {
+        "17584136": true,
+        "17584137": true,
+        "17584138": true,
+        "17584151": true,
+        "17584152": true,
+        "17584153": true,
+        "17584160": true,
+        "17584161": true,
+        "17584168": true,
+        "17584169": true,
+        "17584174": true,
+        "17584175": true,
+        "17584176": true,
+        "17584177": true,
+        "17584324": true,
+        "17584325": true,
+        "17584326": true,
+        "17584327": true,
+        "17584328": true,
+        "17584329": true,
+        "17584330": true
+      },
+      "gift": {
+        "gil": 2500,
+        "choices": [
+          {
+            "id": 816,
+            "quantity": 12,
+            "name": "Silk Thread"
+          },
+          {
+            "id": 820,
+            "quantity": 6,
+            "name": "Wool Thread"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Desert Spider",
+      "zone": 125,
+      "area": "Western Altepa Desert",
+      "level": 45,
+      "monsterLow": 40,
+      "monsterHigh": 44,
+      "hard": false,
+      "count": 6,
+      "hint": "Spiders in the open desert; avoid anticans and manticores.",
+      "ids": {
+        "17289222": true,
+        "17289223": true,
+        "17289224": true,
+        "17289225": true,
+        "17289228": true,
+        "17289229": true,
+        "17289230": true,
+        "17289231": true,
+        "17289234": true,
+        "17289235": true,
+        "17289236": true,
+        "17289237": true,
+        "17289242": true,
+        "17289243": true,
+        "17289244": true,
+        "17289245": true,
+        "17289249": true,
+        "17289250": true,
+        "17289251": true,
+        "17289258": true,
+        "17289259": true,
+        "17289260": true,
+        "17289267": true,
+        "17289268": true,
+        "17289269": true,
+        "17289273": true,
+        "17289274": true,
+        "17289275": true,
+        "17289448": true,
+        "17289472": true
+      },
+      "gift": {
+        "gil": 2800,
+        "choices": [
+          {
+            "id": 700,
+            "quantity": 2,
+            "name": "Mahogany Log"
+          },
+          {
+            "id": 652,
+            "quantity": 2,
+            "name": "Steel Ingot"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Robber Crab",
+      "zone": 174,
+      "area": "Kuftal Tunnel",
+      "level": 62,
+      "monsterLow": 60,
+      "monsterHigh": 63,
+      "hard": false,
+      "count": 6,
+      "hint": "Crabs on the entrance map. Watch for Guivre and other NMs.",
+      "ids": {
+        "17489935": true,
+        "17489936": true,
+        "17489937": true,
+        "17489938": true,
+        "17489940": true,
+        "17489941": true,
+        "17489948": true,
+        "17489949": true,
+        "17489950": true,
+        "17489951": true,
+        "17489952": true,
+        "17489953": true,
+        "17489954": true,
+        "17489955": true,
+        "17489956": true,
+        "17489961": true,
+        "17489962": true,
+        "17489970": true,
+        "17489972": true,
+        "17489973": true,
+        "17489976": true,
+        "17490006": true,
+        "17490007": true,
+        "17490013": true,
+        "17490014": true,
+        "17490022": true,
+        "17490023": true,
+        "17490040": true,
+        "17490041": true,
+        "17490047": true,
+        "17490048": true,
+        "17490049": true,
+        "17490050": true,
+        "17490051": true,
+        "17490052": true,
+        "17490053": true,
+        "17490054": true,
+        "17490055": true,
+        "17490057": true,
+        "17490058": true,
+        "17490068": true,
+        "17490069": true,
+        "17490070": true,
+        "17490071": true,
+        "17490072": true,
+        "17490073": true,
+        "17490074": true,
+        "17490075": true,
+        "17490076": true,
+        "17490078": true,
+        "17490079": true,
+        "17490080": true,
+        "17490081": true,
+        "17490082": true,
+        "17490083": true,
+        "17490084": true,
+        "17490085": true,
+        "17490139": true,
+        "17490140": true,
+        "17490142": true,
+        "17490143": true
+      },
+      "gift": {
+        "gil": 4000,
+        "choices": [
+          {
+            "id": 4132,
+            "quantity": 1,
+            "name": "Hi-Ether"
+          },
+          {
+            "id": 4116,
+            "quantity": 1,
+            "name": "Hi-Potion"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Robber Crab",
+      "zone": 153,
+      "area": "The Boyahda Tree",
+      "level": 65,
+      "monsterLow": 62,
+      "monsterHigh": 66,
+      "hard": false,
+      "count": 6,
+      "hint": "Lower crab areas; avoid the named crab Aquarius.",
+      "ids": {
+        "17403993": true,
+        "17403994": true,
+        "17403995": true,
+        "17403997": true,
+        "17403998": true,
+        "17403999": true,
+        "17404002": true,
+        "17404003": true,
+        "17404004": true,
+        "17404062": true,
+        "17404063": true,
+        "17404065": true,
+        "17404066": true,
+        "17404067": true,
+        "17404069": true,
+        "17404070": true,
+        "17404166": true,
+        "17404168": true
+      },
+      "gift": {
+        "gil": 4500,
+        "choices": [
+          {
+            "id": 4381,
+            "quantity": 12,
+            "name": "Meat Mithkabob"
+          },
+          {
+            "id": 4446,
+            "quantity": 12,
+            "name": "Pumpkin Pie"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Damselfly",
+      "zone": 103,
+      "area": "Valkurm Dunes",
+      "level": 20,
+      "monsterLow": 20,
+      "monsterHigh": 23,
+      "hard": true,
+      "count": 4,
+      "hint": "Flies in the dunes can link. Pull away from other flies.",
+      "ids": {
+        "17199129": true,
+        "17199130": true,
+        "17199131": true,
+        "17199132": true,
+        "17199133": true,
+        "17199134": true,
+        "17199170": true,
+        "17199171": true,
+        "17199172": true,
+        "17199173": true,
+        "17199174": true,
+        "17199175": true,
+        "17199194": true,
+        "17199195": true,
+        "17199196": true,
+        "17199197": true,
+        "17199198": true,
+        "17199297": true,
+        "17199298": true,
+        "17199299": true,
+        "17199300": true,
+        "17199301": true,
+        "17199302": true,
+        "17199326": true,
+        "17199327": true,
+        "17199328": true,
+        "17199329": true,
+        "17199359": true,
+        "17199360": true,
+        "17199361": true,
+        "17199362": true,
+        "17199363": true,
+        "17199379": true,
+        "17199380": true,
+        "17199381": true,
+        "17199382": true,
+        "17199383": true,
+        "17199417": true,
+        "17199418": true,
+        "17199419": true,
+        "17199420": true,
+        "17199421": true,
+        "17199434": true,
+        "17199435": true,
+        "17199436": true,
+        "17199437": true,
+        "17199467": true,
+        "17199468": true,
+        "17199469": true,
+        "17199537": true,
+        "17199538": true,
+        "17199539": true,
+        "17199540": true
+      },
+      "gift": {
+        "gil": 1500,
+        "choices": [
+          {
+            "id": 4151,
+            "quantity": 6,
+            "name": "Echo Drops"
+          },
+          {
+            "id": 4148,
+            "quantity": 12,
+            "name": "Antidote"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "Giant Ranger",
+      "zone": 126,
+      "area": "Qufim Island",
+      "level": 27,
+      "monsterLow": 29,
+      "monsterHigh": 30,
+      "hard": true,
+      "count": 4,
+      "hint": "Gigas on the open island. Prepare Trusts and avoid links.",
+      "ids": {
+        "17293341": true,
+        "17293346": true,
+        "17293376": true,
+        "17293381": true,
+        "17293399": true,
+        "17293417": true,
+        "17293451": true,
+        "17293496": true,
+        "17293519": true,
+        "17293524": true,
+        "17293550": true,
+        "17293555": true,
+        "17293574": true
+      },
+      "gift": {
+        "gil": 2000,
+        "choices": [
+          {
+            "id": 4116,
+            "quantity": 1,
+            "name": "Hi-Potion"
+          },
+          {
+            "id": 4128,
+            "quantity": 1,
+            "name": "Ether"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "Desert Dhalmel",
+      "zone": 114,
+      "area": "Eastern Altepa Desert",
+      "level": 38,
+      "monsterLow": 39,
+      "monsterHigh": 44,
+      "hard": true,
+      "count": 4,
+      "hint": "Dhalmels in the desert can link. Pull one at a time.",
+      "ids": {
+        "17244169": true,
+        "17244173": true,
+        "17244198": true,
+        "17244204": true,
+        "17244209": true,
+        "17244214": true,
+        "17244218": true,
+        "17244235": true,
+        "17244240": true,
+        "17244245": true,
+        "17244248": true,
+        "17244249": true,
+        "17244253": true,
+        "17244254": true,
+        "17244259": true,
+        "17244260": true,
+        "17244265": true,
+        "17244266": true,
+        "17244274": true,
+        "17244278": true,
+        "17244279": true,
+        "17244345": true,
+        "17244353": true,
+        "17244363": true,
+        "17244424": true,
+        "17244432": true,
+        "17244440": true,
+        "17244447": true,
+        "17244452": true,
+        "17244459": true,
+        "17244467": true,
+        "17244474": true,
+        "17244501": true,
+        "17244507": true,
+        "17244511": true
+      },
+      "gift": {
+        "gil": 3000,
+        "choices": [
+          {
+            "id": 652,
+            "quantity": 2,
+            "name": "Steel Ingot"
+          },
+          {
+            "id": 653,
+            "quantity": 1,
+            "name": "Mythril Ingot"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "name": "Soldier Crawler",
+      "zone": 197,
+      "area": "Crawlers Nest",
+      "level": 47,
+      "monsterLow": 47,
+      "monsterHigh": 49,
+      "hard": true,
+      "count": 4,
+      "hint": "Past the first rooms. Take care around linking crawlers.",
+      "ids": {
+        "17584196": true,
+        "17584197": true,
+        "17584198": true,
+        "17584334": true,
+        "17584335": true,
+        "17584336": true,
+        "17584337": true,
+        "17584338": true,
+        "17584339": true,
+        "17584340": true
+      },
+      "gift": {
+        "gil": 3500,
+        "choices": [
+          {
+            "id": 4132,
+            "quantity": 1,
+            "name": "Hi-Ether"
+          },
+          {
+            "id": 4381,
+            "quantity": 12,
+            "name": "Meat Mithkabob"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "Steelshell",
+      "zone": 153,
+      "area": "The Boyahda Tree",
+      "level": 72,
+      "monsterLow": 73,
+      "monsterHigh": 76,
+      "hard": true,
+      "count": 4,
+      "hint": "Upper crab areas. Bring a prepared party or Trust team.",
+      "ids": {
+        "17404170": true,
+        "17404202": true,
+        "17404203": true,
+        "17404204": true,
+        "17404205": true,
+        "17404206": true
+      },
+      "gift": {
+        "gil": 6000,
+        "choices": [
+          {
+            "id": 654,
+            "quantity": 1,
+            "name": "Darksteel Ingot"
+          },
+          {
+            "id": 745,
+            "quantity": 1,
+            "name": "Gold Ingot"
+          }
+        ]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": 1,
+      "name": "Valkurm Coast",
+      "zone": 103,
+      "area": "Valkurm Dunes",
+      "level": 20,
+      "points": [
+        {
+          "name": "Outpost: Medicine Axe",
+          "grid": "H-7",
+          "pos": [
+            142.495,
+            -7.436,
+            106.956
+          ],
+          "radius": 20
+        },
+        {
+          "name": "Selbina entrance",
+          "grid": "G-9",
+          "pos": [
+            60.003,
+            -7.529,
+            -154.537
+          ],
+          "radius": 35
+        },
+        {
+          "name": "Gustav Tunnel entrance",
+          "grid": "B-8",
+          "pos": [
+            -767.866,
+            -11.956,
+            18.376
+          ],
+          "radius": 35
+        }
+      ],
+      "hint": "Stay in Valkurm Dunes. Approach each entrance; you do not need to enter it.",
+      "gift": {
+        "gil": 1500,
+        "choices": [
+          {
+            "id": 102,
+            "quantity": 1,
+            "name": "Flower Stand"
+          },
+          {
+            "id": 23,
+            "quantity": 1,
+            "name": "Maple Table"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Qufim Watch",
+      "zone": 126,
+      "area": "Qufim Island",
+      "level": 30,
+      "points": [
+        {
+          "name": "Outland conquest guard",
+          "grid": "I-8",
+          "pos": [
+            179.093,
+            -20.575,
+            -15.282
+          ],
+          "radius": 20
+        },
+        {
+          "name": "Outpost: Jiwon",
+          "grid": "F-6",
+          "pos": [
+            -249.333,
+            -19.848,
+            298.052
+          ],
+          "radius": 20
+        },
+        {
+          "name": "Behemoths Dominion entrance",
+          "grid": "D-5",
+          "pos": [
+            -642.015,
+            13.918,
+            459.993
+          ],
+          "radius": 35
+        }
+      ],
+      "hint": "Stay in Qufim Island. Travel by day and prepare Sneak/Invisible where needed.",
+      "gift": {
+        "gil": 2500,
+        "choices": [
+          {
+            "id": 26,
+            "quantity": 1,
+            "name": "Tarutaru Desk"
+          },
+          {
+            "id": 102,
+            "quantity": 1,
+            "name": "Flower Stand"
+          }
+        ]
+      }
+    }
+  ],
+  "nms": [
+    {
+      "id": 17199438,
+      "name": "Valkurm Emperor",
+      "zone": 103,
+      "area": "Valkurm Dunes",
+      "grid": "D-8 to F-8",
+      "level": 28,
+      "monsterLow": 29,
+      "monsterHigh": 30,
+      "item": 15224,
+      "itemName": "Empress Hairpin",
+      "jobs": 4194303,
+      "itemLevel": 24,
+      "hint": "Defeat the Damselfly placeholder around E-9; this NM is a lottery spawn. The drop is not guaranteed."
+    },
+    {
+      "id": 17293537,
+      "name": "Trickster Kinetix",
+      "zone": 126,
+      "area": "Qufim Island",
+      "grid": "southeast of the F-6 outpost",
+      "level": 35,
+      "monsterLow": 35,
+      "monsterHigh": 36,
+      "item": 16657,
+      "itemName": "Tabar",
+      "jobs": 256,
+      "itemLevel": 43,
+      "hint": "Native lottery NM. Hunt Dancing Weapons; this is a longer optional goal, not a timed contract."
+    },
+    {
+      "id": 17244396,
+      "name": "Dune Widow",
+      "zone": 114,
+      "area": "Eastern Altepa Desert",
+      "grid": "western desert",
+      "level": 46,
+      "monsterLow": 45,
+      "monsterHigh": 47,
+      "item": 13137,
+      "itemName": "Spider Torque",
+      "jobs": 4194303,
+      "itemLevel": 64,
+      "hint": "Native spider NM. Hunt Giant Spiders in its region; the drop is not guaranteed."
+    }
+  ],
+  "milestones": [
+    {
+      "id": 1,
+      "name": "Six Hunts Complete",
+      "required": 6,
+      "gift": {
+        "gil": 2000,
+        "choices": [
+          {
+            "id": 13326,
+            "quantity": 1,
+            "name": "Beetle Earring +1",
+            "level": 21,
+            "jobs": 4194303,
+            "stats": "Attack +3, Evasion -2"
+          },
+          {
+            "id": 12495,
+            "quantity": 1,
+            "name": "Silver Hairpin",
+            "level": 20,
+            "jobs": 4194303,
+            "stats": "HP -6, MP +15"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ten Hunts Complete",
+      "required": 10,
+      "gift": {
+        "gil": 4000,
+        "choices": [
+          {
+            "id": 13530,
+            "quantity": 1,
+            "name": "Puissance Ring",
+            "level": 36,
+            "jobs": 4194303,
+            "stats": "STR +3"
+          },
+          {
+            "id": 13529,
+            "quantity": 1,
+            "name": "Alacrity Ring",
+            "level": 36,
+            "jobs": 4194303,
+            "stats": "AGI +3"
+          },
+          {
+            "id": 13531,
+            "quantity": 1,
+            "name": "Wisdom Ring",
+            "level": 36,
+            "jobs": 4194303,
+            "stats": "INT +3"
+          },
+          {
+            "id": 13533,
+            "quantity": 1,
+            "name": "Solace Ring",
+            "level": 36,
+            "jobs": 4194303,
+            "stats": "MND +3"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "All Sixteen Hunts",
+      "required": 16,
+      "gift": {
+        "gil": 8000,
+        "choices": [
+          {
+            "id": 13449,
+            "quantity": 1,
+            "name": "Ruby Ring",
+            "level": 72,
+            "jobs": 4194303,
+            "stats": "STR +4"
+          },
+          {
+            "id": 13448,
+            "quantity": 1,
+            "name": "Emerald Ring",
+            "level": 72,
+            "jobs": 4194303,
+            "stats": "AGI +4"
+          },
+          {
+            "id": 13450,
+            "quantity": 1,
+            "name": "Diamond Ring",
+            "level": 72,
+            "jobs": 4194303,
+            "stats": "INT +4"
+          },
+          {
+            "id": 13452,
+            "quantity": 1,
+            "name": "Sapphire Ring",
+            "level": 72,
+            "jobs": 4194303,
+            "stats": "MND +4"
+          }
+        ]
+      }
+    }
+  ],
+  "nativeQuests": [
+    {
+      "name": "Chocobos Wounds",
+      "npc": "Brutus",
+      "area": "Upper Jeuno: chocobo stables",
+      "task": "Bring 4 Gausebit Wildgrass. Accept from Brutus; feed the nearby Chocobo one grass at a time. Follow the feeding scenes and waits.",
+      "reward": "Chocobo License",
+      "level": 20
+    },
+    {
+      "name": "In Defiant Challenge",
+      "npc": "Maat",
+      "area": "RuLude Gardens: palace courtyard",
+      "task": "Accept from Maat. Bring Exoray Mold, Bomb Coal and Ancient Papyrus from Crawlers Nest, Garlaige Citadel and Eldieme Necropolis.",
+      "reward": "Level limit 55",
+      "level": 50
+    },
+    {
+      "name": "Atop the Highest Mountains",
+      "npc": "Maat",
+      "area": "RuLude Gardens: palace courtyard",
+      "task": "Accept from Maat. Check the ??? near Boreal Hound, Coeurl and Tiger in Xarcabard for the three Frigicite key items. Defeat each guardian first if required; return to Maat.",
+      "reward": "Level limit 60",
+      "level": 55
+    },
+    {
+      "name": "Whence Blows the Wind",
+      "npc": "Maat",
+      "area": "RuLude Gardens: palace courtyard",
+      "task": "Accept from Maat. Collect the Orcish, Quadav and Yagudo crests from the three beastman strongholds; return to Maat.",
+      "reward": "Level limit 65",
+      "level": 60
+    },
+    {
+      "name": "Riding on the Clouds",
+      "npc": "Maat",
+      "area": "RuLude Gardens: palace courtyard",
+      "task": "Accept from Maat and follow his four NPC clues. Trade one Kindred Seal to each assigned NPC, then return.",
+      "reward": "Level limit 70",
+      "level": 65
+    }
+  ]
+}

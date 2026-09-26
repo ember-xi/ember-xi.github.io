@@ -1,0 +1,731 @@
+{
+  "review_date": "2026-09-23",
+  "package": "World Quests v3.1.1",
+  "quest_count": 27,
+  "npc_count": 30,
+  "custom_source_sha256": {
+    "retirement_config.lua": "1e566117999b3c50478c238ee0e7ae2a80f1c39234e3e4d4a4668a09c21cd4c7",
+    "job_journeys.lua": "2b0968b4e26390ee8ba87e49b68e7bafb01a10bf79654f253c814fcd4a3d009f",
+    "progression_common.lua": "a5befca774023ca6eac0ff52341822b3c5568f78d002f6f11575bdafddadbe0a",
+    "adventurer_log.lua": "a59c435443c2c25e0646ac9278d68157936bcd5bdf81904de74a6ea63ba4b00d",
+    "stealth_ring.lua": "3d9e1be317869309c35eb717fa73a922cd49c35150b58dd89ffef57889e36ad6",
+    "quest_trials.lua": "7b5e56253698f73afb4b72a663a253de881441d4d966f15d03dfc32c38468aa7",
+    "adventures.lua": "93bb0ba7a3d1fa17a5dcaccb340a381d4d001c8ed9513128cf1178607ab05889",
+    "world_npcs.lua": "55884f09bfc9ce5bfdebb4c96a3c885b21ca79f1e180f3030af372bd3b835c63",
+    "quest_menus.lua": "b4af3ad8682f5aad9efb1c295fa331991300560a959ae97526745250c25c66ad",
+    "nm_challenges.lua": "f4269c38106ac2b58a27cdc1c0055402fb98c603ecd1b258ab3f808fc061365d",
+    "eco_warrior.lua": "377fa05bcc91827bb5407b5afc8c6dafa213821887b030d3ee439dc006e77585",
+    "clinic.lua": "f99e6631fdf734ed31201b6c0291b8095ceea3f51a44e1d4fb3c29e043411136",
+    "trust_journey.lua": "f06697212a038ff9bb136e806b7457005b03ac02c11ecc8b1576113b528ee38d",
+    "gate_crystals.lua": "9287378c09a15c0b76f2db0ca00695f97ae802ea3776e582b28af4aff9ff5bd3",
+    "clinic_balance.lua": "46aebe23d2df19ff46ea9b0458fa69f0a6282f6f0d34664b546069aa9ff4f08f",
+    "nm_challenge_data.lua": "afedc3ea5fbd9d68829a542f5dee32657831df21159885865ff35386c172d85a",
+    "story_journeys.lua": "9d084bfa20937ff783b2c70184a9167b15ce88c76eda00179f39952dfc5f7a05",
+    "safe_menu.lua": "87775f191be99cbd200fb174623fcfc0b2cab2c102f30968afee12e9a69aa017",
+    "earned_journeys.lua": "cae05e675a6f92e49fbc186a5615c1a3538d9445c4eb56f0578f74048180d678",
+    "camp_atlas.lua": "795985295deb4503f1de1cfa271878b2574212d50c9a8901516526b7b52fc65e",
+    "adventure_goals.lua": "11d3e734c7f077751735870622edcd28a859260112e5693720c214ced736db36",
+    "limit_break.lua": "595044ac24d51467a4601b0b7e7a7cb69689741ca30755e761dcd4772cb418d7"
+  },
+  "native_npc_points": [
+    {
+      "name": "Survival_Guide",
+      "zone": 100,
+      "area": "West_Ronfaure",
+      "position": [
+        -452.571,
+        -19.807,
+        -217.97,
+        128
+      ],
+      "grid": "G-9"
+    },
+    {
+      "name": "Arawn",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -121.492,
+        -4.0,
+        -123.923,
+        119
+      ],
+      "grid": "J-10"
+    },
+    {
+      "name": "Rabid_Wolf_IM",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -346.354,
+        -10.002,
+        -184.252,
+        215
+      ],
+      "grid": "E-11"
+    },
+    {
+      "name": "Reet",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -237.973,
+        -11.999,
+        -41.427,
+        148
+      ],
+      "grid": "H-8"
+    },
+    {
+      "name": "HomePoint#1",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -344.0,
+        -10.0,
+        -155.0,
+        160
+      ],
+      "grid": "E-10"
+    },
+    {
+      "name": "HomePoint#2",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -328.0,
+        -12.0,
+        -33.0
+      ],
+      "grid": "E-7"
+    },
+    {
+      "name": "HomePoint#3",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -189.0,
+        -8.0,
+        26.0,
+        64
+      ],
+      "grid": "I-6"
+    },
+    {
+      "name": "HomePoint#4",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -191.0,
+        -6.0,
+        -69.0,
+        96
+      ],
+      "grid": "I-8"
+    },
+    {
+      "name": "Gulldago",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -364.121,
+        -10.034,
+        -167.456,
+        224
+      ],
+      "grid": "D-11"
+    },
+    {
+      "name": "Isakoth",
+      "zone": 235,
+      "area": "Bastok_Markets",
+      "position": [
+        -343.396,
+        -10.002,
+        -171.542,
+        142
+      ],
+      "grid": "E-11"
+    },
+    {
+      "name": "Survival_Guide",
+      "zone": 106,
+      "area": "North_Gustaberg",
+      "position": [
+        -582.687,
+        40.107,
+        52.281,
+        96
+      ],
+      "grid": "D-10"
+    },
+    {
+      "name": "Hungry_Wolf",
+      "zone": 237,
+      "area": "Metalworks",
+      "position": [
+        -25.861,
+        -10.0,
+        -30.172,
+        2
+      ],
+      "grid": "G-9"
+    },
+    {
+      "name": "Naji",
+      "zone": 237,
+      "area": "Metalworks",
+      "position": [
+        66.865,
+        -13.999,
+        -4.562,
+        128
+      ],
+      "grid": "J-8"
+    },
+    {
+      "name": "HomePoint#1",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        -85.468,
+        1.0,
+        -66.454
+      ],
+      "grid": "G-10"
+    },
+    {
+      "name": "HomePoint#2",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        45.0,
+        2.0,
+        -35.0,
+        64
+      ],
+      "grid": "J-9"
+    },
+    {
+      "name": "HomePoint#3",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        140.0,
+        -2.0,
+        123.0,
+        96
+      ],
+      "grid": "M-5"
+    },
+    {
+      "name": "HomePoint#4",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        -165.0,
+        -1.0,
+        11.0,
+        160
+      ],
+      "grid": "E-8"
+    },
+    {
+      "name": "Norejaie",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        83.924,
+        1.0,
+        110.54,
+        185
+      ],
+      "grid": "K-6"
+    },
+    {
+      "name": "Alaune",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        -92.578,
+        1.0,
+        -57.551,
+        224
+      ],
+      "grid": "G-10"
+    },
+    {
+      "name": "Rolandienne",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        -85.278,
+        1.0,
+        -50.708,
+        185
+      ],
+      "grid": "G-10"
+    },
+    {
+      "name": "Gondebaud",
+      "zone": 230,
+      "area": "Southern_San_dOria",
+      "position": [
+        123.754,
+        0.0,
+        92.125,
+        237
+      ],
+      "grid": "L-6"
+    },
+    {
+      "name": "HomePoint#1",
+      "zone": 234,
+      "area": "Bastok_Mines",
+      "position": [
+        39.189,
+        0.0,
+        -42.618,
+        90
+      ],
+      "grid": "I-8"
+    },
+    {
+      "name": "HomePoint#2",
+      "zone": 234,
+      "area": "Bastok_Mines",
+      "position": [
+        118.0,
+        1.0,
+        -58.0
+      ],
+      "grid": "K-8"
+    },
+    {
+      "name": "HomePoint#3",
+      "zone": 234,
+      "area": "Bastok_Mines",
+      "position": [
+        87.0,
+        7.0,
+        1.0
+      ],
+      "grid": "K-6"
+    },
+    {
+      "name": "Survival_Guide",
+      "zone": 234,
+      "area": "Bastok_Mines",
+      "position": [
+        20.0,
+        0.0,
+        -115.0
+      ],
+      "grid": "I-9"
+    },
+    {
+      "name": "Raifa",
+      "zone": 236,
+      "area": "Port_Bastok",
+      "position": [
+        -166.416,
+        -7.48,
+        7.153,
+        94
+      ],
+      "grid": "D-6"
+    },
+    {
+      "name": "Clarion_Star",
+      "zone": 236,
+      "area": "Port_Bastok",
+      "position": [
+        81.478,
+        7.5,
+        -24.169,
+        18
+      ],
+      "grid": "K-7"
+    },
+    {
+      "name": "HomePoint#1",
+      "zone": 240,
+      "area": "Port_Windurst",
+      "position": [
+        -188.0,
+        -4.0,
+        101.0,
+        192
+      ],
+      "grid": "C-7"
+    },
+    {
+      "name": "HomePoint#2",
+      "zone": 240,
+      "area": "Port_Windurst",
+      "position": [
+        -207.0,
+        -8.16,
+        210.0
+      ],
+      "grid": "B-4"
+    },
+    {
+      "name": "HomePoint#3",
+      "zone": 240,
+      "area": "Port_Windurst",
+      "position": [
+        180.0,
+        -12.0,
+        226.0
+      ],
+      "grid": "L-4"
+    },
+    {
+      "name": "Survival_Guide",
+      "zone": 240,
+      "area": "Port_Windurst",
+      "position": [
+        -220.0,
+        -8.284,
+        179.0,
+        64
+      ],
+      "grid": "B-5"
+    },
+    {
+      "name": "Achantere_TK",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        -247.201,
+        6.999,
+        40.939,
+        253
+      ],
+      "grid": "C-8"
+    },
+    {
+      "name": "Matildie",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        8.109,
+        0.0,
+        64.477,
+        72
+      ],
+      "grid": "J-8"
+    },
+    {
+      "name": "HomePoint#1",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        -178.101,
+        4.0,
+        71.279,
+        190
+      ],
+      "grid": "E-8"
+    },
+    {
+      "name": "HomePoint#2",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        10.0,
+        -0.2,
+        95.0,
+        192
+      ],
+      "grid": "J-7"
+    },
+    {
+      "name": "HomePoint#3",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        70.0,
+        -0.2,
+        10.0,
+        224
+      ],
+      "grid": "K-9"
+    },
+    {
+      "name": "HomePoint#4",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        -133.0,
+        12.0,
+        195.0
+      ],
+      "grid": "F-5"
+    },
+    {
+      "name": "Secodiand",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        -161.097,
+        0.0,
+        137.14,
+        207
+      ],
+      "grid": "E-6"
+    },
+    {
+      "name": "Jeanvirgaud",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        109.813,
+        -0.199,
+        -4.881,
+        32
+      ],
+      "grid": "L-10"
+    },
+    {
+      "name": "Excenmille",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        -229.344,
+        7.999,
+        22.976,
+        182
+      ],
+      "grid": "D-9"
+    },
+    {
+      "name": "Survival_Guide",
+      "zone": 231,
+      "area": "Northern_San_dOria",
+      "position": [
+        -174.0,
+        4.0,
+        80.0
+      ],
+      "grid": "E-8"
+    },
+    {
+      "name": "Brutus",
+      "zone": 244,
+      "area": "Upper_Jeuno",
+      "position": [
+        -57.023,
+        8.199,
+        97.519,
+        36
+      ],
+      "grid": "G-7"
+    },
+    {
+      "name": "Osker",
+      "zone": 244,
+      "area": "Upper_Jeuno",
+      "position": [
+        -61.421,
+        8.199,
+        94.162,
+        81
+      ],
+      "grid": "G-7"
+    },
+    {
+      "name": "Mejuone",
+      "zone": 244,
+      "area": "Upper_Jeuno",
+      "position": [
+        -57.023,
+        8.0,
+        105.061,
+        255
+      ],
+      "grid": "G-7"
+    },
+    {
+      "name": "HomePoint#1",
+      "zone": 244,
+      "area": "Upper_Jeuno",
+      "position": [
+        -98.981,
+        0.0,
+        167.569,
+        8
+      ],
+      "grid": "F-5"
+    },
+    {
+      "name": "HomePoint#2",
+      "zone": 244,
+      "area": "Upper_Jeuno",
+      "position": [
+        32.0,
+        -1.0,
+        -44.0,
+        128
+      ],
+      "grid": "I-11"
+    },
+    {
+      "name": "HomePoint#3",
+      "zone": 244,
+      "area": "Upper_Jeuno",
+      "position": [
+        -52.0,
+        1.0,
+        16.0,
+        192
+      ],
+      "grid": "G-9"
+    },
+    {
+      "name": "Mapitoto",
+      "zone": 244,
+      "area": "Upper_Jeuno",
+      "position": [
+        -54.31,
+        8.2,
+        85.94,
+        172
+      ],
+      "grid": "G-7"
+    },
+    {
+      "name": "Rakoh_Buuma",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        110.462,
+        -5.398,
+        -24.05,
+        126
+      ],
+      "grid": "K-10"
+    },
+    {
+      "name": "Wije_Tiren",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        51.847,
+        -3.749,
+        52.26,
+        231
+      ],
+      "grid": "I-8"
+    },
+    {
+      "name": "HomePoint#1",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        9.088,
+        -2.5,
+        -0.383,
+        244
+      ],
+      "grid": "H-9"
+    },
+    {
+      "name": "HomePoint#2",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        107.0,
+        -5.0,
+        -56.0,
+        128
+      ],
+      "grid": "K-10"
+    },
+    {
+      "name": "HomePoint#3",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        -92.0,
+        -5.0,
+        62.0,
+        64
+      ],
+      "grid": "F-7"
+    },
+    {
+      "name": "HomePoint#4",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        74.0,
+        -7.5,
+        -139.0,
+        128
+      ],
+      "grid": "J-12"
+    },
+    {
+      "name": "HomePoint#5",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        -43.5,
+        0.0,
+        -145.0
+      ],
+      "grid": "G-13"
+    },
+    {
+      "name": "Selele",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        106.83,
+        -5.0,
+        -31.527,
+        125
+      ],
+      "grid": "K-10"
+    },
+    {
+      "name": "Fhelm_Jobeizat",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        89.049,
+        -4.108,
+        -46.195,
+        219
+      ],
+      "grid": "J-10"
+    },
+    {
+      "name": "Wetata",
+      "zone": 241,
+      "area": "Windurst_Woods",
+      "position": [
+        -23.825,
+        2.533,
+        -44.567,
+        64
+      ],
+      "grid": "G-10"
+    },
+    {
+      "name": "Survival_Guide",
+      "zone": 115,
+      "area": "West_Sarutabaruta",
+      "position": [
+        -13.322,
+        -12.459,
+        315.696
+      ],
+      "grid": "H-6"
+    }
+  ],
+  "validation": "27 registered quests have named rewards, start/return map squares and walkthroughs. All generated pages checked for stale menus and XYZ directions; all local references validated.",
+  "server_installation": "Not claimed by this website edit."
+}

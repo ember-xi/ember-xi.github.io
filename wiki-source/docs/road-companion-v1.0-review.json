@@ -1,0 +1,17 @@
+{
+  "package": "ZenithXI-Road-Companion-v1.0.zip",
+  "library_file_id": "libfile_fbf70ecfece48191960786250a79dde5",
+  "sha256": "ee087a27d86e1181662d489776cf3f4124a344d264247e87b0301d3852a35322",
+  "date": "2026-09-18",
+  "tested": "LuaJIT mocked behavior and Python installer/rollback; no live client or Windows run",
+  "status": "ready for installation; user installation unconfirmed",
+  "quest_stops": [
+    "Upper Jeuno Home Point #1",
+    "Upper Jeuno Home Point #3",
+    "Upper Jeuno Home Point #2"
+  ],
+  "reward": [
+    "Trainers Whistle",
+    "Chocobo Companion"
+  ]
+}

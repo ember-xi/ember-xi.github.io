@@ -1,0 +1,13 @@
+{
+  "package": "ZenithXI-Auction-Market-v1.0",
+  "upstream": "f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4",
+  "catalog_count": 689,
+  "catalog_sha256": "fba99b5c51a8a36558026d6f9d6d3f817ae5b20050e8d0bb42325a3cf425c584",
+  "first_stock_max": 3664,
+  "automated_integration_checks": 24,
+  "live_windows_game_verified": false,
+  "database_target": "local zenith_xi only",
+  "scope": "initial fixed essentials catalog, not every era item",
+  "payout": "native auction_house_buy trigger, transactional; no extra direct payment",
+  "package_sha256": "31bf7adb78a92015db4b87c2a2ab926ba8cb525817858b91353f9d4aba7372bc"
+}

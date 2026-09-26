@@ -1,0 +1,655 @@
+[
+  {
+    "campaign": "amk",
+    "number": "1",
+    "title": "A Moogle Kupo d'Etat",
+    "requirements": [
+      "Main job level 10 or higher.",
+      "A Moogle Kupo d'Etat must be enabled on the server."
+    ],
+    "start": {
+      "npc": "Moogle",
+      "zone": "Mog House"
+    },
+    "steps": [
+      "Enter your Mog House in your current home nation with a main job at level 10 or higher.",
+      "Talk to your Moogle after finishing its normal introduction and watch the add-on opening. Confirm Drenched! It Began with a Raindrop appears in the log."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 2"
+    ],
+    "zones": [
+      "Mog House",
+      "Southern San d'Oria",
+      "Bastok Markets",
+      "Windurst Woods"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Moogle_Kupo_d%27Etat_(Mission)",
+        "label": "FFXIclopedia: A Moogle Kupo d'Etat (Mission)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/01_A_Moogle_Kupo_dEtat.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "2",
+    "title": "Drenched! It Began with a Raindrop",
+    "requirements": [
+      "Complete AMK 1."
+    ],
+    "start": {
+      "npc": "Moogle",
+      "zone": "Mog House"
+    },
+    "steps": [
+      "Collect an Orcish Armor Plate from Orcs in Yughott Grotto, a Quadav Backscale from Quadav in Palborough Mines and Yagudo Caulk from Yagudo in Giddeus.",
+      "Return to your home-nation Mog House and trade all three items to the Moogle together. Finish the scene before travelling to Jeuno."
+    ],
+    "notes": [
+      "The White coral key is a repeat-route reward; the first story delivery advances the mission."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 3"
+    ],
+    "zones": [
+      "Mog House",
+      "Yughott Grotto",
+      "Palborough Mines",
+      "Giddeus"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_2",
+        "label": "BG Wiki: Kupo Mission 2",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/02_Drenched_It_Began_with_a_Raindrop.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "3",
+    "title": "Hasten! In a Jam in Jeuno?",
+    "requirements": [
+      "Complete AMK 2."
+    ],
+    "start": {
+      "npc": "Inconspicuous Door",
+      "zone": "Upper Jeuno",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Examine the Inconspicuous Door at H-8 in Upper Jeuno to inspect the Rent-a-Room.",
+      "Watch the scene and confirm Welcome! To My Decrepit Domicile is active before gathering its key items."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 4"
+    ],
+    "zones": [
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_3",
+        "label": "BG Wiki: Kupo Mission 3",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/03_Hasten_In_a_Jam_in_Jeuno.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "4",
+    "title": "Welcome! To My Decrepit Domicile",
+    "requirements": [
+      "Complete AMK 3.",
+      "Mission must be active before gathering.",
+      "Pickaxes, Hatchets and Sickles; spare tools recommended."
+    ],
+    "start": {
+      "npc": "Inconspicuous Door",
+      "zone": "Upper Jeuno",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Bring spare Pickaxes, Hatchets and Sickles. With this mission active, mine in an original or Zilart area until you obtain the Sturdy metal strip key item.",
+      "Log in an original or Zilart area for the Piece of rugged tree bark; avoid Buburimu Peninsula for this objective. Harvest in an original or Zilart area for the Savory lamb roast key item.",
+      "You may collect all three before returning. Examine the Upper Jeuno H-8 door repeatedly to deliver the strip, bark and roast in that order, watching each scene.",
+      "These are gathering key items, including the roast; buying ordinary food does not fulfill the request."
+    ],
+    "notes": [
+      "The items are random gathering results; several attempts or broken tools may be needed."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 5"
+    ],
+    "zones": [
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Welcome!_To_My_Decrepit_Domicile",
+        "label": "FFXIclopedia: Welcome! To My Decrepit Domicile",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/04_Welcome_To_My_Decrepit_Domicile.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "5",
+    "title": "Curses! A Horrifically Harrowing Hex",
+    "requirements": [
+      "Complete AMK 4."
+    ],
+    "start": {
+      "npc": "Shantotto",
+      "zone": "Windurst Walls",
+      "grid": "K-7"
+    },
+    "steps": [
+      "Talk to Shantotto at her Windurst Walls residence at K-7.",
+      "Finish the scene in which she requests the reagent from Outer Horutoto Ruins. Confirm An Errand! The Professor's Price is active before farming Cardians."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 6"
+    ],
+    "zones": [
+      "Windurst Walls"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_5",
+        "label": "BG Wiki: Kupo Mission 5",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/05_Curses_A_Horrifically_Harrowing_Hex.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "6",
+    "title": "An Errand! The Professor's Price",
+    "requirements": [
+      "Complete AMK 5.",
+      "At least one orb key item; all four strongly recommended.",
+      "5,000 gil for Shantotto."
+    ],
+    "start": {
+      "npc": "???",
+      "zone": "Outer Horutoto Ruins"
+    },
+    "steps": [
+      "Farm Cardians for the four orb key items: Swords, Cups, Batons and Coins. Dahlia Tower, entered at West Sarutabaruta F-11, contains all four families.",
+      "Collecting all four on the initiating character removes the damage-type restrictions and reduces the encounter to five Custom Cardians. Each character needing credit should bring at least one orb.",
+      "Enter the separate Outer Horutoto section from East Sarutabaruta H-3. Examine the ??? on the Ancient Magical Gizmo opposite the entrance to start the confrontation.",
+      "Defeat every Custom Cardian without leaving the encounter area. The orbs are consumed; victory grants the Ripe starfruit.",
+      "Return to Shantotto in Windurst Walls K-7 and agree to pay 5,000 gil. Finish her follow-up dialogue, then examine the Inconspicuous Door in Upper Jeuno H-8 to advance and receive the treasure-search destination."
+    ],
+    "notes": [
+      "The reviewed code and wiki disagree on the Cups/Batons damage mapping; gathering all four avoids relying on that disputed mapping."
+    ],
+    "reward": "Ripe starfruit and Peach coral key.",
+    "unlocks": [
+      "AMK 7"
+    ],
+    "zones": [
+      "Outer Horutoto Ruins",
+      "West Sarutabaruta",
+      "East Sarutabaruta",
+      "Windurst Walls",
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/An_Errand!_The_Professor%27s_Price",
+        "label": "FFXIclopedia: An Errand! The Professor's Price",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/06_An_Errand_The_Professors_Price.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "7",
+    "title": "Shock! Arrant Abuse of Authority",
+    "requirements": [
+      "Complete AMK 6.",
+      "Access to chocobo riding/digging; Chocobo License for rental chocobos.",
+      "Gysahl Greens."
+    ],
+    "start": {
+      "npc": "Inconspicuous Door",
+      "zone": "Upper Jeuno",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Read the assigned digging zone in the Rent-a-Room scene. Bring plenty of Gysahl Greens and reach that zone on a chocobo.",
+      "Dig and use the direction and distance messages to narrow the search. Move toward the clue, dig again and repeat until you recover the Moldy, worm-eaten chest key item.",
+      "Stay in the assigned zone while searching: leaving can relocate the treasure.",
+      "Return to the Inconspicuous Door at H-8 for the delivery scene and the next assignment."
+    ],
+    "notes": [
+      "The destination is assigned to your character; another player's digging coordinates need not work."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 8"
+    ],
+    "zones": [
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Shock!_Arrant_Abuse_of_Authority",
+        "label": "FFXIclopedia: Shock! Arrant Abuse of Authority",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/07_Shock_Arrant_Abuse_of_Authority.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "8",
+    "title": "Lender Beware! Read the Fine Print",
+    "requirements": [
+      "Complete AMK 7.",
+      "Sahagin Key access for the Ornamented Door.",
+      "Sneak and a return/escape method recommended."
+    ],
+    "start": {
+      "npc": "Shady Sconce",
+      "zone": "Sea Serpent Grotto",
+      "grid": "hidden room beyond C-8"
+    },
+    "steps": [
+      "Prepare a Sahagin Key before taking the one-way Ornamented Door route. One party member can open it for the group.",
+      "From Sea Serpent Grotto C-8, pass through both Cracked Walls into the hidden room. Examine the Shady Sconce at the back; check again to finish the Moogle scene.",
+      "Go to the Ornamented Door at J-11 and use the Sahagin Key. Beyond it, follow the bridge to the Waterfall Basin at H-6 and examine the basin, not the nearby ???.",
+      "Return to the Inconspicuous Door in Upper Jeuno H-8 for the scene completing this mission."
+    ],
+    "notes": [
+      "The Sahagin Key is consumed when opening the door; avoid accidentally leaving the required section before examining the basin."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 9"
+    ],
+    "zones": [
+      "Sea Serpent Grotto",
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Lender_Beware!_Read_the_Fine_Print",
+        "label": "FFXIclopedia: Lender Beware! Read the Fine Print",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/08_Lender_Beware_Read_the_Fine_Print.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "9",
+    "title": "Rescue! A Moogle's Labor of Love",
+    "requirements": [
+      "Complete AMK 8.",
+      "Map of the Quicksand Caves to follow the assigned markers.",
+      "Sufficient player weight to open the weight doors. The later-retail Loadstone shortcut is an option only if available on Zenith."
+    ],
+    "start": {
+      "npc": "Goblin Geologist",
+      "zone": "Quicksand Caves",
+      "grid": "J-11"
+    },
+    "steps": [
+      "Enter Quicksand Caves through the hidden Western Altepa Desert D-12 entrance and speak to the Goblin Geologist at J-11.",
+      "Use your map markers to find the nine assigned ??? sites. Examine each for a stone; track the ones collected because markers may remain visible.",
+      "Other marked sections may require the Western Altepa G-5/J-9 or Eastern Altepa H-10/K-7 entrances. Collect Surya, Chandra, Mangala, Budha, Brihaspati, Shukra, Shani, Rahu and Ketu.",
+      "Return all nine key items to the geologist for the Navaratna Talisman.",
+      "From the geologist's section, pass the I-9 and H-7 weight doors, drop down and head toward D-4 to reach the Chamber of Oracles. Examine the Shimmering Circle for the story scene."
+    ],
+    "notes": [
+      "Trusts do not substitute for player weight on the standard weight-door route. Stone sites themselves are not behind those doors."
+    ],
+    "reward": "Navaratna Talisman.",
+    "unlocks": [
+      "AMK 10"
+    ],
+    "zones": [
+      "Quicksand Caves",
+      "Western Altepa Desert",
+      "Eastern Altepa Desert",
+      "Chamber of Oracles"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_9",
+        "label": "BG Wiki: Kupo Mission 9",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/09_Rescue_A_Moogles_Labor_of_Love.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "10",
+    "title": "Roar! A Cat Burglar Bares Her Fangs",
+    "requirements": [
+      "Complete AMK 9.",
+      "Navaratna Talisman."
+    ],
+    "start": {
+      "npc": "Shimmering Circle",
+      "zone": "Chamber of Oracles"
+    },
+    "steps": [
+      "After the introductory scene, examine the Shimmering Circle again with the Navaratna Talisman to enter the battlefield.",
+      "Control the three Goblin attendants while focusing on Nanaa Mihgo. Sleep can control the Goblins in the reference encounter.",
+      "Prepare for Nanaa to call Bopa Greso and Cha Lebagta during the battle. Keep vulnerable party members out of her frontal attacks and maintain status-removal support.",
+      "Defeat Nanaa to win, then watch the concluding scene and return to Upper Jeuno."
+    ],
+    "notes": [],
+    "reward": "Red coral key and story progression.",
+    "unlocks": [
+      "AMK 11"
+    ],
+    "zones": [
+      "Chamber of Oracles",
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_10",
+        "label": "BG Wiki: Kupo Mission 10",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/10_Roar_A_Cat_Burglar_Bares_Her_Fangs.lua"
+    ],
+    "native_status": "reviewed mission 10 file repeats Sea Serpent Grotto interactions; correct battlefield handling is not confirmed",
+    "availability_note": "The reviewed mission file does not establish this complete battlefield. Victory and progression on Zenith have not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "11",
+    "title": "Relief! A Triumphant Return",
+    "requirements": [
+      "Complete AMK 10."
+    ],
+    "start": {
+      "npc": "Inconspicuous Door",
+      "zone": "Upper Jeuno",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Return to the Inconspicuous Door at H-8 and examine it.",
+      "Finish the Rent-a-Room scene to receive the invitation and advance to Joy! Summoned to a Fabulous Fete."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 12"
+    ],
+    "zones": [
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_11",
+        "label": "BG Wiki: Kupo Mission 11",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/11_Relief_A_Triumphant_Return.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "12",
+    "title": "Joy! Summoned to a Fabulous Fete",
+    "requirements": [
+      "Complete AMK 11."
+    ],
+    "start": {
+      "npc": "Area entry",
+      "zone": "Castle Zvahl Baileys"
+    },
+    "steps": [
+      "Travel through Xarcabard to Castle Zvahl Baileys and enter the castle.",
+      "Watch the arrival scene. Once A Challenge! You Could Be a Winner is active, approach the Shadowy Pillar near Switchstix to start the festival tasks."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "AMK 13"
+    ],
+    "zones": [
+      "Castle Zvahl Baileys",
+      "Xarcabard"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Joy!_Summoned_to_a_Fabulous_Fete",
+        "label": "FFXIclopedia: Joy! Summoned to a Fabulous Fete",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/12_Joy_Summoned_to_a_Fabulous_Fete.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "13",
+    "title": "A Challenge! You Could Be a Winner",
+    "requirements": [
+      "Complete AMK 12.",
+      "Map of the Northlands.",
+      "Sneak/Invisibility consumables for the level-1 timed gauntlet."
+    ],
+    "start": {
+      "npc": "Shadowy Pillar",
+      "zone": "Castle Zvahl Baileys"
+    },
+    "steps": [
+      "Examine the Shadowy Pillar near Switchstix. Travel to Beaucedine Glacier and examine the Lonely Evergreen at G-7, then speak to the Goblin Grenadier near H-8/H-9 with a Map of the Northlands.",
+      "Inspect the six marked Pips and note their elements. Connect horizontally or vertically adjacent pips whose elements are consecutive weekdays: Fire → Earth → Water → Wind → Ice → Lightning → Light → Dark → Fire. The lines form a digit. Report that digit to the Grenadier; take the Pocket mogbomb to the Lonely Evergreen for the Trivia challenge kupon.",
+      "In Xarcabard, examine Option One (G-8/H-8), Option Two (G-9) or Option Three (G-8). Answer three questions correctly, using your character's displayed statistics when requested, to obtain the Gauntlet challenge kupon.",
+      "Return to the Baileys Shadowy Pillar for the level-1 gauntlet. Reach the Flame of Fate by the Keep approach within eight minutes for the Festival souvenir kupon. Your initial stealth can expire sooner; bring Sneak/Invisibility items.",
+      "In Castle Zvahl Keep, examine the Ominous Pillar, then search the Craggy Pillars along the teleporter route for the Slacker Moogle. Obtain the Mega Bonanza kupon.",
+      "Continue to the Throne Room and examine its door for the final introductory scene."
+    ],
+    "notes": [],
+    "reward": "Mega Bonanza kupon and final battlefield access.",
+    "unlocks": [
+      "AMK 14"
+    ],
+    "zones": [
+      "Castle Zvahl Baileys",
+      "Beaucedine Glacier",
+      "Xarcabard",
+      "Castle Zvahl Keep",
+      "Throne Room"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_13",
+        "label": "BG Wiki: Kupo Mission 13",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Challenge!_You_Could_Be_a_Winner",
+        "label": "FFXIclopedia: A Challenge! You Could Be a Winner",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/13_A_Challenge_You_Could_Be_a_Winner.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/helpers.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "14",
+    "title": "Smash! A Malevolent Menace",
+    "requirements": [
+      "Complete AMK 13.",
+      "Mega Bonanza kupon.",
+      "Prepared level-75 party; Zenith Trust entry and solo balance unconfirmed."
+    ],
+    "start": {
+      "npc": "Throne Room door",
+      "zone": "Throne Room"
+    },
+    "steps": [
+      "Examine the door after the introductory scene and use the Mega Bonanza kupon to enter the final battlefield.",
+      "Fight Riko Kupenreich with healers separated from his frontal bomb attacks and the party prepared for wide-area stun and terror.",
+      "During the first two add phases, Riko retreats to recover while five Black Mage Henchman Moogles attack. Defeat those adds and resume damage when he returns; the White Mage attendants at the throne cannot be targeted.",
+      "In the final add phase Riko remains active. Control the new attackers and finish Riko, then watch the victory scene."
+    ],
+    "notes": [],
+    "reward": "Angel skin key and Oxblood key; title: Mog House Handyperson.",
+    "unlocks": [
+      "AMK 15"
+    ],
+    "zones": [
+      "Throne Room",
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Kupo_Mission_14",
+        "label": "BG Wiki: Kupo Mission 14",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/14_Smash_A_Malevolent_Menace.lua"
+    ],
+    "native_status": "reviewed framework file contains a door scene but does not establish the full final battlefield; not play-tested",
+    "availability_note": "The reviewed mission file does not establish this complete battlefield. Victory and progression on Zenith have not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "amk",
+    "number": "15",
+    "title": "A Moogle Kupo d'Etat (Fin.)",
+    "requirements": [
+      "Complete AMK 14.",
+      "Final battlefield victory and its reward key."
+    ],
+    "start": {
+      "npc": "Treasure Coffer",
+      "zone": "Lower Jeuno",
+      "grid": "J-8"
+    },
+    "steps": [
+      "Return to the Tenshodo headquarters in Neptune's Spire at J-8 and examine the Treasure Coffer.",
+      "Claim the final head-armor reward: Champion's Galea, Anwig Salade or Selenian Cap. Review its augment selections before confirming your choice.",
+      "The Fin. entry marks the end of the story and can remain in the current mission log."
+    ],
+    "notes": [],
+    "reward": "One selected, augmented add-on head armor.",
+    "unlocks": [],
+    "zones": [
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Moogle_Kupo_d%27Etat_(Fin.)",
+        "label": "FFXIclopedia: A Moogle Kupo d'Etat (Fin.)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/amk/14_Smash_A_Malevolent_Menace.lua"
+    ],
+    "native_status": "completion marker; no numbered framework file found, reward handling not play-tested",
+    "availability_note": "Reference reward guide. Claiming this final reward on Zenith has not yet been verified.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  }
+]

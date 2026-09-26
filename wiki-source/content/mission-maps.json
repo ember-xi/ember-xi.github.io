@@ -1,0 +1,708 @@
+{
+  "missions": {
+    "san-doria-1-1.html": [],
+    "san-doria-1-2.html": [
+      {
+        "filename": "East_Ronfaure.png",
+        "source_url": "https://horizonffxi.wiki/w/images/8/85/East_Ronfaure.png",
+        "source_page": "https://horizonffxi.wiki/File:East_Ronfaure.png",
+        "label": "East Ronfaure",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "SouthernSandOria.png",
+        "source_url": "https://horizonffxi.wiki/w/images/6/6c/SouthernSandOria.png",
+        "source_page": "https://horizonffxi.wiki/File:SouthernSandOria.png",
+        "label": "SouthernSandOria",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "NorthernSandOria.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/0d/NorthernSandOria.png",
+        "source_page": "https://horizonffxi.wiki/File:NorthernSandOria.png",
+        "label": "NorthernSandOria",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "KingRanperresTomb1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/b/ba/KingRanperresTomb1.png",
+        "source_page": "https://horizonffxi.wiki/File:KingRanperresTomb1.png",
+        "label": "KingRanperresTomb1",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ],
+    "san-doria-1-3.html": [
+      {
+        "filename": "NorthernSandOria.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/0d/NorthernSandOria.png",
+        "source_page": "https://horizonffxi.wiki/File:NorthernSandOria.png",
+        "label": "NorthernSandOria",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "West_Ronfaure.png",
+        "source_url": "https://horizonffxi.wiki/w/images/a/ac/West_Ronfaure.png",
+        "source_page": "https://horizonffxi.wiki/File:West_Ronfaure.png",
+        "label": "West Ronfaure",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Ghelsba-outpost_1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/3/3b/Ghelsba-outpost_1.png",
+        "source_page": "https://horizonffxi.wiki/File:Ghelsba-outpost_1.png",
+        "label": "Ghelsba-outpost 1",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ],
+    "bastok-1-1.html": [
+      {
+        "filename": "Zeruhn_Mines.jpg",
+        "source_url": "https://horizonffxi.wiki/w/images/3/31/Zeruhn_Mines.jpg",
+        "source_page": "https://horizonffxi.wiki/File:Zeruhn_Mines.jpg",
+        "label": "Zeruhn Mines",
+        "width": 512,
+        "height": 512,
+        "format": "JPEG"
+      },
+      {
+        "filename": "Bastok-mines.png",
+        "source_url": "https://horizonffxi.wiki/w/images/6/6b/Bastok-mines.png",
+        "source_page": "https://horizonffxi.wiki/File:Bastok-mines.png",
+        "label": "Bastok-mines",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Metalworks.jpg",
+        "source_url": "https://horizonffxi.wiki/w/images/a/ab/Metalworks.jpg",
+        "source_page": "https://horizonffxi.wiki/File:Metalworks.jpg",
+        "label": "Metalworks",
+        "width": 512,
+        "height": 512,
+        "format": "JPEG"
+      }
+    ],
+    "bastok-1-2.html": [
+      {
+        "filename": "Metalworks.jpg",
+        "source_url": "https://horizonffxi.wiki/w/images/a/ab/Metalworks.jpg",
+        "source_page": "https://horizonffxi.wiki/File:Metalworks.jpg",
+        "label": "Metalworks",
+        "width": 512,
+        "height": 512,
+        "format": "JPEG"
+      },
+      {
+        "filename": "SouthGustaberg.png",
+        "source_url": "https://horizonffxi.wiki/w/images/a/a9/SouthGustaberg.webp",
+        "source_page": "https://horizonffxi.wiki/File:SouthGustaberg.webp",
+        "label": "SouthGustaberg",
+        "width": 512,
+        "height": 512,
+        "format": "PNG",
+        "source_format_note": "Downloaded source filename ends in .webp but bytes are PNG; renamed extension only, no image edits."
+      },
+      {
+        "filename": "Dangruf_wadi.png",
+        "source_url": "https://horizonffxi.wiki/w/images/8/8d/Dangruf_wadi.png",
+        "source_page": "https://horizonffxi.wiki/File:Dangruf_wadi.png",
+        "label": "Dangruf wadi",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ],
+    "bastok-1-3.html": [
+      {
+        "filename": "North_Gustaberg_Map.jpg",
+        "source_url": "https://horizonffxi.wiki/w/images/0/00/North_Gustaberg_Map.jpg",
+        "source_page": "https://horizonffxi.wiki/File:North_Gustaberg_Map.jpg",
+        "label": "North Gustaberg Map",
+        "width": 512,
+        "height": 512,
+        "format": "JPEG"
+      },
+      {
+        "filename": "Bastok-port.png",
+        "source_url": "https://horizonffxi.wiki/w/images/d/de/Bastok-port.png",
+        "source_page": "https://horizonffxi.wiki/File:Bastok-port.png",
+        "label": "Bastok-port",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "SouthGustaberg.png",
+        "source_url": "https://horizonffxi.wiki/w/images/a/a9/SouthGustaberg.webp",
+        "source_page": "https://horizonffxi.wiki/File:SouthGustaberg.webp",
+        "label": "SouthGustaberg",
+        "width": 512,
+        "height": 512,
+        "format": "PNG",
+        "source_format_note": "Downloaded source filename ends in .webp but bytes are PNG; renamed extension only, no image edits."
+      },
+      {
+        "filename": "Palborough2.png",
+        "source_url": "https://horizonffxi.wiki/w/images/1/17/Palborough2.png",
+        "source_page": "https://horizonffxi.wiki/File:Palborough2.png",
+        "label": "Palborough2",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ],
+    "windurst-1-1.html": [
+      {
+        "filename": "East_Sarutabaruta.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/09/East_Sarutabaruta.png",
+        "source_page": "https://horizonffxi.wiki/File:East_Sarutabaruta.png",
+        "label": "East Sarutabaruta",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "InnerHorutotoRuins1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/03/InnerHorutotoRuins1.png",
+        "source_page": "https://horizonffxi.wiki/File:InnerHorutotoRuins1.png",
+        "label": "InnerHorutotoRuins1",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Windurst-waters-north.png",
+        "source_url": "https://horizonffxi.wiki/w/images/b/b9/Windurst-waters-north.png",
+        "source_page": "https://horizonffxi.wiki/File:Windurst-waters-north.png",
+        "label": "Windurst-waters-north",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Windurst-port.png",
+        "source_url": "https://horizonffxi.wiki/w/images/2/29/Windurst-port.png",
+        "source_page": "https://horizonffxi.wiki/File:Windurst-port.png",
+        "label": "Windurst-port",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Windurst-woods.png",
+        "source_url": "https://horizonffxi.wiki/w/images/7/70/Windurst-woods.png",
+        "source_page": "https://horizonffxi.wiki/File:Windurst-woods.png",
+        "label": "Windurst-woods",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ],
+    "windurst-1-2.html": [
+      {
+        "filename": "Windurst-woods.png",
+        "source_url": "https://horizonffxi.wiki/w/images/7/70/Windurst-woods.png",
+        "source_page": "https://horizonffxi.wiki/File:Windurst-woods.png",
+        "label": "Windurst-woods",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "East_Sarutabaruta.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/09/East_Sarutabaruta.png",
+        "source_page": "https://horizonffxi.wiki/File:East_Sarutabaruta.png",
+        "label": "East Sarutabaruta",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "OuterHorutotoRuins3.png",
+        "source_url": "https://horizonffxi.wiki/w/images/5/50/OuterHorutotoRuins3.png",
+        "source_page": "https://horizonffxi.wiki/File:OuterHorutotoRuins3.png",
+        "label": "OuterHorutotoRuins3",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ],
+    "windurst-1-3.html": [
+      {
+        "filename": "WestSarutabaruta.png",
+        "source_url": "https://horizonffxi.wiki/w/images/2/21/WestSarutabaruta.png",
+        "source_page": "https://horizonffxi.wiki/File:WestSarutabaruta.png",
+        "label": "WestSarutabaruta",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Giddeus1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/05/Giddeus1.png",
+        "source_page": "https://horizonffxi.wiki/File:Giddeus1.png",
+        "label": "Giddeus1",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ],
+    "san-doria-4-1.html": [
+      {
+        "filename": "Davoi_path_wall-of-dark-arts.png",
+        "source_url": "https://horizonffxi.wiki/w/images/8/8b/Davoi_path_wall-of-dark-arts.png",
+        "source_page": "https://horizonffxi.wiki/File:Davoi_path_wall-of-dark-arts.png",
+        "label": "Davoi path wall-of-dark-arts",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Castle-oztroja_path_altar-room-1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/6/67/Castle-oztroja_path_altar-room-1.png",
+        "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-1.png",
+        "label": "Castle-oztroja path altar-room-1",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Castle-oztroja_path_altar-room-2.png",
+        "source_url": "https://horizonffxi.wiki/w/images/9/97/Castle-oztroja_path_altar-room-2.png",
+        "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-2.png",
+        "label": "Castle-oztroja path altar-room-2",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Castle-oztroja_path_altar-room-3.png",
+        "source_url": "https://horizonffxi.wiki/w/images/2/26/Castle-oztroja_path_altar-room-3.png",
+        "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-3.png",
+        "label": "Castle-oztroja path altar-room-3",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Castle-oztroja_path_altar-room-4.png",
+        "source_url": "https://horizonffxi.wiki/w/images/6/61/Castle-oztroja_path_altar-room-4.png",
+        "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-4.png",
+        "label": "Castle-oztroja path altar-room-4",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Beadeaux1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/1/14/Beadeaux1.png",
+        "source_page": "https://horizonffxi.wiki/File:Beadeaux1.png",
+        "label": "Beadeaux1",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Beadeaux_path_qulun-dome-1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/0b/Beadeaux_path_qulun-dome-1.png",
+        "source_page": "https://horizonffxi.wiki/File:Beadeaux_path_qulun-dome-1.png",
+        "label": "Beadeaux path qulun-dome-1",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      },
+      {
+        "filename": "Beadeaux_path_qulun-dome-2.png",
+        "source_url": "https://horizonffxi.wiki/w/images/9/96/Beadeaux_path_qulun-dome-2.png",
+        "source_page": "https://horizonffxi.wiki/File:Beadeaux_path_qulun-dome-2.png",
+        "label": "Beadeaux path qulun-dome-2",
+        "width": 512,
+        "height": 512,
+        "format": "PNG"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "filename": "Davoi_path_wall-of-dark-arts.png",
+      "source_url": "https://horizonffxi.wiki/w/images/8/8b/Davoi_path_wall-of-dark-arts.png",
+      "source_page": "https://horizonffxi.wiki/File:Davoi_path_wall-of-dark-arts.png",
+      "label": "Davoi path wall-of-dark-arts",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Castle-oztroja_path_altar-room-1.png",
+      "source_url": "https://horizonffxi.wiki/w/images/6/67/Castle-oztroja_path_altar-room-1.png",
+      "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-1.png",
+      "label": "Castle-oztroja path altar-room-1",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Castle-oztroja_path_altar-room-2.png",
+      "source_url": "https://horizonffxi.wiki/w/images/9/97/Castle-oztroja_path_altar-room-2.png",
+      "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-2.png",
+      "label": "Castle-oztroja path altar-room-2",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Castle-oztroja_path_altar-room-3.png",
+      "source_url": "https://horizonffxi.wiki/w/images/2/26/Castle-oztroja_path_altar-room-3.png",
+      "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-3.png",
+      "label": "Castle-oztroja path altar-room-3",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Castle-oztroja_path_altar-room-4.png",
+      "source_url": "https://horizonffxi.wiki/w/images/6/61/Castle-oztroja_path_altar-room-4.png",
+      "source_page": "https://horizonffxi.wiki/File:Castle-oztroja_path_altar-room-4.png",
+      "label": "Castle-oztroja path altar-room-4",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Beadeaux1.png",
+      "source_url": "https://horizonffxi.wiki/w/images/1/14/Beadeaux1.png",
+      "source_page": "https://horizonffxi.wiki/File:Beadeaux1.png",
+      "label": "Beadeaux1",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Beadeaux_path_qulun-dome-1.png",
+      "source_url": "https://horizonffxi.wiki/w/images/0/0b/Beadeaux_path_qulun-dome-1.png",
+      "source_page": "https://horizonffxi.wiki/File:Beadeaux_path_qulun-dome-1.png",
+      "label": "Beadeaux path qulun-dome-1",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Beadeaux_path_qulun-dome-2.png",
+      "source_url": "https://horizonffxi.wiki/w/images/9/96/Beadeaux_path_qulun-dome-2.png",
+      "source_page": "https://horizonffxi.wiki/File:Beadeaux_path_qulun-dome-2.png",
+      "label": "Beadeaux path qulun-dome-2",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "East_Ronfaure.png",
+      "source_url": "https://horizonffxi.wiki/w/images/8/85/East_Ronfaure.png",
+      "source_page": "https://horizonffxi.wiki/File:East_Ronfaure.png",
+      "label": "East Ronfaure",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "KingRanperresTomb1.png",
+      "source_url": "https://horizonffxi.wiki/w/images/b/ba/KingRanperresTomb1.png",
+      "source_page": "https://horizonffxi.wiki/File:KingRanperresTomb1.png",
+      "label": "KingRanperresTomb1",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "West_Ronfaure.png",
+      "source_url": "https://horizonffxi.wiki/w/images/a/ac/West_Ronfaure.png",
+      "source_page": "https://horizonffxi.wiki/File:West_Ronfaure.png",
+      "label": "West Ronfaure",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Ghelsba-outpost_1.png",
+      "source_url": "https://horizonffxi.wiki/w/images/3/3b/Ghelsba-outpost_1.png",
+      "source_page": "https://horizonffxi.wiki/File:Ghelsba-outpost_1.png",
+      "label": "Ghelsba-outpost 1",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Zeruhn_Mines.jpg",
+      "source_url": "https://horizonffxi.wiki/w/images/3/31/Zeruhn_Mines.jpg",
+      "source_page": "https://horizonffxi.wiki/File:Zeruhn_Mines.jpg",
+      "label": "Zeruhn Mines",
+      "width": 512,
+      "height": 512,
+      "format": "JPEG"
+    },
+    {
+      "filename": "SouthGustaberg.png",
+      "source_url": "https://horizonffxi.wiki/w/images/a/a9/SouthGustaberg.webp",
+      "source_page": "https://horizonffxi.wiki/File:SouthGustaberg.webp",
+      "label": "SouthGustaberg",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "source_format_note": "Downloaded source filename ends in .webp but bytes are PNG; renamed extension only, no image edits."
+    },
+    {
+      "filename": "Dangruf_wadi.png",
+      "source_url": "https://horizonffxi.wiki/w/images/8/8d/Dangruf_wadi.png",
+      "source_page": "https://horizonffxi.wiki/File:Dangruf_wadi.png",
+      "label": "Dangruf wadi",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "North_Gustaberg_Map.jpg",
+      "source_url": "https://horizonffxi.wiki/w/images/0/00/North_Gustaberg_Map.jpg",
+      "source_page": "https://horizonffxi.wiki/File:North_Gustaberg_Map.jpg",
+      "label": "North Gustaberg Map",
+      "width": 512,
+      "height": 512,
+      "format": "JPEG"
+    },
+    {
+      "filename": "Palborough2.png",
+      "source_url": "https://horizonffxi.wiki/w/images/1/17/Palborough2.png",
+      "source_page": "https://horizonffxi.wiki/File:Palborough2.png",
+      "label": "Palborough2",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "East_Sarutabaruta.png",
+      "source_url": "https://horizonffxi.wiki/w/images/0/09/East_Sarutabaruta.png",
+      "source_page": "https://horizonffxi.wiki/File:East_Sarutabaruta.png",
+      "label": "East Sarutabaruta",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "InnerHorutotoRuins1.png",
+      "source_url": "https://horizonffxi.wiki/w/images/0/03/InnerHorutotoRuins1.png",
+      "source_page": "https://horizonffxi.wiki/File:InnerHorutotoRuins1.png",
+      "label": "InnerHorutotoRuins1",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "OuterHorutotoRuins3.png",
+      "source_url": "https://horizonffxi.wiki/w/images/5/50/OuterHorutotoRuins3.png",
+      "source_page": "https://horizonffxi.wiki/File:OuterHorutotoRuins3.png",
+      "label": "OuterHorutotoRuins3",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "WestSarutabaruta.png",
+      "source_url": "https://horizonffxi.wiki/w/images/2/21/WestSarutabaruta.png",
+      "source_page": "https://horizonffxi.wiki/File:WestSarutabaruta.png",
+      "label": "WestSarutabaruta",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Giddeus1.png",
+      "source_url": "https://horizonffxi.wiki/w/images/0/05/Giddeus1.png",
+      "source_page": "https://horizonffxi.wiki/File:Giddeus1.png",
+      "label": "Giddeus1",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "SouthernSandOria.png",
+      "source_url": "https://horizonffxi.wiki/w/images/6/6c/SouthernSandOria.png",
+      "source_page": "https://horizonffxi.wiki/File:SouthernSandOria.png",
+      "label": "SouthernSandOria",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "NorthernSandOria.png",
+      "source_url": "https://horizonffxi.wiki/w/images/0/0d/NorthernSandOria.png",
+      "source_page": "https://horizonffxi.wiki/File:NorthernSandOria.png",
+      "label": "NorthernSandOria",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Bastok-mines.png",
+      "source_url": "https://horizonffxi.wiki/w/images/6/6b/Bastok-mines.png",
+      "source_page": "https://horizonffxi.wiki/File:Bastok-mines.png",
+      "label": "Bastok-mines",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Metalworks.jpg",
+      "source_url": "https://horizonffxi.wiki/w/images/a/ab/Metalworks.jpg",
+      "source_page": "https://horizonffxi.wiki/File:Metalworks.jpg",
+      "label": "Metalworks",
+      "width": 512,
+      "height": 512,
+      "format": "JPEG"
+    },
+    {
+      "filename": "Bastok-port.png",
+      "source_url": "https://horizonffxi.wiki/w/images/d/de/Bastok-port.png",
+      "source_page": "https://horizonffxi.wiki/File:Bastok-port.png",
+      "label": "Bastok-port",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Windurst-waters-north.png",
+      "source_url": "https://horizonffxi.wiki/w/images/b/b9/Windurst-waters-north.png",
+      "source_page": "https://horizonffxi.wiki/File:Windurst-waters-north.png",
+      "label": "Windurst-waters-north",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Windurst-port.png",
+      "source_url": "https://horizonffxi.wiki/w/images/2/29/Windurst-port.png",
+      "source_page": "https://horizonffxi.wiki/File:Windurst-port.png",
+      "label": "Windurst-port",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    },
+    {
+      "filename": "Windurst-woods.png",
+      "source_url": "https://horizonffxi.wiki/w/images/7/70/Windurst-woods.png",
+      "source_page": "https://horizonffxi.wiki/File:Windurst-woods.png",
+      "label": "Windurst-woods",
+      "width": 512,
+      "height": 512,
+      "format": "PNG"
+    }
+  ],
+  "unique_asset_count": 30,
+  "excluded_to_respect_30_asset_cap": {
+    "san-doria-1-1.html": [],
+    "san-doria-1-2.html": [],
+    "san-doria-1-3.html": [],
+    "bastok-1-1.html": [],
+    "bastok-1-2.html": [],
+    "bastok-1-3.html": [],
+    "windurst-1-1.html": [
+      {
+        "filename": "Windurst-walls.png",
+        "source_url": "https://horizonffxi.wiki/w/images/b/b8/Windurst-walls.png",
+        "source_page": "https://horizonffxi.wiki/File:Windurst-walls.png",
+        "label": "Windurst-walls"
+      }
+    ],
+    "windurst-1-2.html": [],
+    "windurst-1-3.html": [
+      {
+        "filename": "Map_Windurst-Waters-Full.jpg",
+        "source_url": "https://horizonffxi.wiki/w/images/c/ca/Map_Windurst-Waters-Full.jpg",
+        "source_page": "https://horizonffxi.wiki/File:Map_Windurst-Waters-Full.jpg",
+        "label": "Map Windurst-Waters-Full"
+      },
+      {
+        "filename": "Windurst-waters-south.png",
+        "source_url": "https://horizonffxi.wiki/w/images/e/e6/Windurst-waters-south.png",
+        "source_page": "https://horizonffxi.wiki/File:Windurst-waters-south.png",
+        "label": "Windurst-waters-south"
+      }
+    ],
+    "san-doria-4-1.html": [
+      {
+        "filename": "Rulude-gardens.png",
+        "source_url": "https://horizonffxi.wiki/w/images/c/ce/Rulude-gardens.png",
+        "source_page": "https://horizonffxi.wiki/File:Rulude-gardens.png",
+        "label": "Rulude-gardens"
+      },
+      {
+        "filename": "Jeuno-lower.png",
+        "source_url": "https://horizonffxi.wiki/w/images/4/42/Jeuno-lower.png",
+        "source_page": "https://horizonffxi.wiki/File:Jeuno-lower.png",
+        "label": "Jeuno-lower"
+      },
+      {
+        "filename": "Jeuno-upper.png",
+        "source_url": "https://horizonffxi.wiki/w/images/0/02/Jeuno-upper.png",
+        "source_page": "https://horizonffxi.wiki/File:Jeuno-upper.png",
+        "label": "Jeuno-upper"
+      },
+      {
+        "filename": "JugnerForest.png",
+        "source_url": "https://horizonffxi.wiki/w/images/e/e1/JugnerForest.png",
+        "source_page": "https://horizonffxi.wiki/File:JugnerForest.png",
+        "label": "JugnerForest"
+      },
+      {
+        "filename": "Davoi.png",
+        "source_url": "https://horizonffxi.wiki/w/images/c/cd/Davoi.png",
+        "source_page": "https://horizonffxi.wiki/File:Davoi.png",
+        "label": "Davoi"
+      },
+      {
+        "filename": "MeriphataudMountains.png",
+        "source_url": "https://horizonffxi.wiki/w/images/1/1f/MeriphataudMountains.png",
+        "source_page": "https://horizonffxi.wiki/File:MeriphataudMountains.png",
+        "label": "MeriphataudMountains"
+      },
+      {
+        "filename": "CastleOztroja1.png",
+        "source_url": "https://horizonffxi.wiki/w/images/e/ec/CastleOztroja1.png",
+        "source_page": "https://horizonffxi.wiki/File:CastleOztroja1.png",
+        "label": "CastleOztroja1"
+      },
+      {
+        "filename": "CastleOztroja3.png",
+        "source_url": "https://horizonffxi.wiki/w/images/e/ea/CastleOztroja3.png",
+        "source_page": "https://horizonffxi.wiki/File:CastleOztroja3.png",
+        "label": "CastleOztroja3"
+      },
+      {
+        "filename": "CastleOztroja7.png",
+        "source_url": "https://horizonffxi.wiki/w/images/9/9b/CastleOztroja7.png",
+        "source_page": "https://horizonffxi.wiki/File:CastleOztroja7.png",
+        "label": "CastleOztroja7"
+      },
+      {
+        "filename": "CastleOztroja2.png",
+        "source_url": "https://horizonffxi.wiki/w/images/8/8a/CastleOztroja2.png",
+        "source_page": "https://horizonffxi.wiki/File:CastleOztroja2.png",
+        "label": "CastleOztroja2"
+      }
+    ]
+  },
+  "notes": "Original HorizonXI Wiki map files. Selected all beginner field/dungeon maps plus all seven Magicite annotated route maps and Beadeaux1, then city maps to reach cap. Coordinates and HTML tooltip overlays were not added or invented. Underlying game maps belong to Square Enix; no open redistribution license verified. Some annotated route files bear the Vana-diel Atlas / ffxi-atlas.com credit in the source pixels, which has been preserved unchanged."
+}

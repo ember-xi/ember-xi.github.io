@@ -1,0 +1,100 @@
+{
+  "reviewed": "2026-09-18",
+  "packages": [
+    {
+      "name": "ZenithXI-Adventurer-Log-v1.0.zip",
+      "sha256": "470007a74aa21b3987f5479108e371e43a9b3f1b27bd9aaf037ec4280f54f181"
+    },
+    {
+      "name": "ZenithXI-Adventurer-Progression-v1.0.zip",
+      "sha256": "4135fbec261ce80409924bd5ff7ec0d37ed91d040f5672623f8caf32f384b305"
+    },
+    {
+      "name": "ZenithXI-Apururu-Quest-v1.0.zip",
+      "sha256": "4d45ff29847191c6fae87fee7380e3d94d254c6b66ee2b5052b86acda3889c4f"
+    },
+    {
+      "name": "ZenithXI-Complete-v0.9.2.zip",
+      "sha256": "6cc06df1f04ebbe39315a5bdcf84afa0cd61a4a732c787d19ff788c8bac04a36"
+    },
+    {
+      "name": "ZenithXI-Gate-Crystals-v1.0.zip",
+      "sha256": "76a091ff534cea1ac435dd13fb13fa8e5def04bf3acb066b1ce9045e95ba74e9"
+    },
+    {
+      "name": "ZenithXI-Job-Journeys-v1.0.zip",
+      "sha256": "89a3597279823b5ed04f1e9cea47ca821cc09a794c6237daffe138497d162e02"
+    },
+    {
+      "name": "ZenithXI-NPC-Placement-v1.0.zip",
+      "sha256": "1f8f8aa22406418ff3e5dc1eb5e7099b315177933045ac86d459bb8ef712827e"
+    },
+    {
+      "name": "ZenithXI-RoE-Sparks-v1.0.zip",
+      "sha256": "433a38955b447055c5c61cb02354d4d7202c766cfc043914a2ce19b4f1c355ff"
+    },
+    {
+      "name": "ZenithXI-Sparks-Essentials-v1.0.zip",
+      "sha256": "b9a64dc8d440381c713047e97510e8ad984fc5925a2d4a1581e51fcfd0d08415"
+    },
+    {
+      "name": "ZenithXI-Starter-Weapons.zip",
+      "sha256": "362d11db4a09fc0967fbe9d032b8a9ae6889d509d82a033e0b60b9ee40523bc7"
+    },
+    {
+      "name": "ZenithXI-THF20.zip",
+      "sha256": "03c5d1e4e40e9a28c7844c74a651c4eb90afa28fce98350bc814f564a52fadaf"
+    },
+    {
+      "name": "ZenithXI-Three-Roads-v1.0.zip",
+      "sha256": "0829f059bd208035b13ccd34926fcdbc7623e569148809ef9adfee33b93360ff"
+    },
+    {
+      "name": "ZenithXI-Travel-v1.1.zip",
+      "sha256": "bdfde637abe6492c63614329c163387bd2b0509788f0616ea54eed807c261093"
+    },
+    {
+      "name": "ZenithXI-Trust-Combat-v1.0.zip",
+      "sha256": "2baf1aa65db41953f241fe62aaa7b811d0de8d350a85fff2b57ccd5586cf384a"
+    },
+    {
+      "name": "ZenithXI-Trust-Recovery-v1.1.zip",
+      "sha256": "b17872513e025461d75c59fdf6a580396162c2879084c2be4c8300e418b31a68"
+    },
+    {
+      "name": "ZenithXI-Warrior-v1.0.zip",
+      "sha256": "ef3c7e4938ff5dbad5c15ed575d9b7fe461b78099ee7d160ae913f562eb17233"
+    },
+    {
+      "name": "ZenithXI-Quest-Readability-v1.0.zip",
+      "sha256": "ec0d3f9d8d03f4adbbe8ec0a3ebaf02ef2e491f4e26eb75c91c9287c4223ef02"
+    }
+  ],
+  "basis": "Current Library package contents and visible user reports; not a live server connection.",
+  "observed": [
+    "WAR build installed",
+    "Trust Combat v1 build installed; 60-second message reported",
+    "RoE combat objectives and Trust companions visible",
+    "THF dual wield reported",
+    "Zenith Atlas and Scout visible",
+    "Zenith Armsmith visible in Northern San dOria",
+    "Job quest overview shown in screenshot with repeated SystemMessage headers"
+  ],
+  "installation_not_confirmed": [
+    "Adventurer Log v1.0",
+    "Trust Recovery v1.1",
+    "NPC Placement v1.0",
+    "Quest Readability v1.0"
+  ],
+  "new_pending_observation": "Quest Readability v1.0 prepared and locally verified: compact quest messages; Armsmith/Scout face the player on interaction only. Installation and in-game rendering not confirmed; default spawn facing is unchanged.",
+  "not_implemented": [
+    "Personal yellow chocobo quest",
+    "AH automation",
+    "Custom crafting economy",
+    "New daily/weekly quest system",
+    "THF Treasure Hunter changes",
+    "Kupipi AI changes",
+    "Other job balance changes"
+  ],
+  "publication": "No personal account data, credentials, machine paths or compensating-delivery recipient name published."
+}

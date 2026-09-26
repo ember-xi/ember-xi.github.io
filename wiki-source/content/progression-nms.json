@@ -1,0 +1,722 @@
+[
+  {
+    "id": 17195221,
+    "name": "Slumbering Samwell",
+    "area": "La Theine Plateau",
+    "level": 17,
+    "monsterLow": 17,
+    "monsterHigh": 18,
+    "reward": "Samwells Shank",
+    "pos": [
+      65.0,
+      16.0,
+      149.0,
+      0
+    ],
+    "gift": {
+      "gil": 1700,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17195259,
+    "name": "Tumbling Truffle",
+    "area": "La Theine Plateau",
+    "level": 19,
+    "monsterLow": 19,
+    "monsterHigh": 20,
+    "reward": "Fungus Hat",
+    "pos": [
+      339.0,
+      56.0,
+      155.0,
+      0
+    ],
+    "gift": {
+      "gil": 1900,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4151,
+          "quantity": 6,
+          "name": "Echo Drops"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17199564,
+    "name": "Golden Bat",
+    "area": "Valkurm Dunes",
+    "level": 26,
+    "monsterLow": 26,
+    "monsterHigh": 27,
+    "reward": "Night Cape",
+    "pos": [
+      -804.502,
+      -8.567,
+      22.082,
+      0
+    ],
+    "gift": {
+      "gil": 2600,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4151,
+          "quantity": 6,
+          "name": "Echo Drops"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17195317,
+    "name": "Lumbering Lambert",
+    "area": "La Theine Plateau",
+    "level": 27,
+    "monsterLow": 27,
+    "monsterHigh": 28,
+    "reward": "Lumbering Horn, Ram Horn",
+    "pos": [
+      79.0,
+      8.0,
+      -241.0,
+      0
+    ],
+    "gift": {
+      "gil": 2700,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17199438,
+    "name": "Valkurm Emperor",
+    "area": "Valkurm Dunes",
+    "level": 29,
+    "monsterLow": 29,
+    "monsterHigh": 30,
+    "reward": "Empress Hairpin",
+    "pos": [
+      -228.957,
+      2.776,
+      -101.226,
+      0
+    ],
+    "gift": {
+      "gil": 2900,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4151,
+          "quantity": 6,
+          "name": "Echo Drops"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17260907,
+    "name": "Helldiver",
+    "area": "Buburimu Peninsula",
+    "level": 29,
+    "monsterLow": 29,
+    "monsterHigh": 30,
+    "reward": "Wingedge",
+    "pos": [
+      439.685,
+      -0.2,
+      -271.203,
+      0
+    ],
+    "gift": {
+      "gil": 2900,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4151,
+          "quantity": 6,
+          "name": "Echo Drops"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17261003,
+    "name": "Buburimboo",
+    "area": "Buburimu Peninsula",
+    "level": 30,
+    "monsterLow": 30,
+    "monsterHigh": 31,
+    "reward": "Buburimu Gorget",
+    "pos": [
+      443.429,
+      19.5,
+      135.322,
+      0
+    ],
+    "gift": {
+      "gil": 3000,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17293537,
+    "name": "Trickster Kinetix",
+    "area": "Qufim Island",
+    "level": 35,
+    "monsterLow": 35,
+    "monsterHigh": 36,
+    "reward": "Tabar",
+    "pos": [
+      -159,
+      -19,
+      244,
+      0
+    ],
+    "gift": {
+      "gil": 3500,
+      "choices": [
+        {
+          "id": 651,
+          "quantity": 2,
+          "name": "Iron Ingot"
+        },
+        {
+          "id": 816,
+          "quantity": 6,
+          "name": "Silk Thread"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17199351,
+    "name": "Hippomaritimus",
+    "area": "Valkurm Dunes",
+    "level": 37,
+    "monsterLow": 37,
+    "monsterHigh": 38,
+    "reward": "Channeling Robe",
+    "pos": [
+      238.0,
+      4.0,
+      -163.0,
+      0
+    ],
+    "gift": {
+      "gil": 3700,
+      "choices": [
+        {
+          "id": 651,
+          "quantity": 2,
+          "name": "Iron Ingot"
+        },
+        {
+          "id": 816,
+          "quantity": 6,
+          "name": "Silk Thread"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17293389,
+    "name": "Slippery Sucker",
+    "area": "Qufim Island",
+    "level": 41,
+    "monsterLow": 41,
+    "monsterHigh": 42,
+    "reward": "Mystique Earring",
+    "pos": [
+      16.35,
+      -21.3,
+      -25.5,
+      0
+    ],
+    "gift": {
+      "gil": 4100,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17244396,
+    "name": "Dune Widow",
+    "area": "Eastern Altepa Desert",
+    "level": 45,
+    "monsterLow": 45,
+    "monsterHigh": 47,
+    "reward": "Spider Torque",
+    "pos": [
+      -85,
+      2.952,
+      -46,
+      0
+    ],
+    "gift": {
+      "gil": 4500,
+      "choices": [
+        {
+          "id": 651,
+          "quantity": 2,
+          "name": "Iron Ingot"
+        },
+        {
+          "id": 816,
+          "quantity": 6,
+          "name": "Silk Thread"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17289453,
+    "name": "Celphie",
+    "area": "Western Altepa Desert",
+    "level": 47,
+    "monsterLow": 47,
+    "monsterHigh": 50,
+    "reward": "Dhalmel Whistle",
+    "pos": [
+      78.226,
+      -0.497,
+      69.745,
+      0
+    ],
+    "gift": {
+      "gil": 4700,
+      "choices": [
+        {
+          "id": 651,
+          "quantity": 2,
+          "name": "Iron Ingot"
+        },
+        {
+          "id": 816,
+          "quantity": 6,
+          "name": "Silk Thread"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17244471,
+    "name": "Nandi",
+    "area": "Eastern Altepa Desert",
+    "level": 48,
+    "monsterLow": 48,
+    "monsterHigh": 49,
+    "reward": "Rathe Earring",
+    "pos": [
+      -231.1,
+      0.36,
+      -24.0,
+      0
+    ],
+    "gift": {
+      "gil": 4800,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17195318,
+    "name": "Bloodtear Baldurf",
+    "area": "La Theine Plateau",
+    "level": 55,
+    "monsterLow": 55,
+    "monsterHigh": 56,
+    "reward": "Viking Shield",
+    "pos": [
+      79.0,
+      8.0,
+      -241.0,
+      0
+    ],
+    "gift": {
+      "gil": 5500,
+      "choices": [
+        {
+          "id": 653,
+          "quantity": 1,
+          "name": "Mythril Ingot"
+        },
+        {
+          "id": 4132,
+          "quantity": 2,
+          "name": "Hi-Ether"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17244372,
+    "name": "Centurio XII-I",
+    "area": "Eastern Altepa Desert",
+    "level": 56,
+    "monsterLow": 56,
+    "monsterHigh": 57,
+    "reward": "Intruder Earring",
+    "pos": [
+      -44.353,
+      -0.433,
+      -243.704,
+      0
+    ],
+    "gift": {
+      "gil": 5600,
+      "choices": [
+        {
+          "id": 653,
+          "quantity": 1,
+          "name": "Mythril Ingot"
+        },
+        {
+          "id": 4132,
+          "quantity": 2,
+          "name": "Hi-Ether"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17289323,
+    "name": "Dahu",
+    "area": "Western Altepa Desert",
+    "level": 57,
+    "monsterLow": 57,
+    "monsterHigh": 57,
+    "reward": "Lock Of Dahu Hair",
+    "pos": [
+      -442.983,
+      -0.903,
+      288.538,
+      0
+    ],
+    "gift": {
+      "gil": 5700,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17244268,
+    "name": "Donnergugi",
+    "area": "Eastern Altepa Desert",
+    "level": 60,
+    "monsterLow": 60,
+    "monsterHigh": 60,
+    "reward": "Piece Of Thunder Coral",
+    "pos": [
+      217.0,
+      -8.2,
+      376.0,
+      0
+    ],
+    "gift": {
+      "gil": 6000,
+      "choices": [
+        {
+          "id": 653,
+          "quantity": 1,
+          "name": "Mythril Ingot"
+        },
+        {
+          "id": 4132,
+          "quantity": 2,
+          "name": "Hi-Ether"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17584398,
+    "name": "Demonic Tiphia",
+    "area": "Crawlers Nest",
+    "level": 60,
+    "monsterLow": 60,
+    "monsterHigh": 60,
+    "reward": "Tiphia Sting",
+    "pos": [
+      -103.0,
+      -1.0,
+      311.0,
+      0
+    ],
+    "gift": {
+      "gil": 6000,
+      "choices": [
+        {
+          "id": 653,
+          "quantity": 1,
+          "name": "Mythril Ingot"
+        },
+        {
+          "id": 4132,
+          "quantity": 2,
+          "name": "Hi-Ether"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17490016,
+    "name": "Amemet",
+    "area": "Kuftal Tunnel",
+    "level": 65,
+    "monsterLow": 65,
+    "monsterHigh": 66,
+    "reward": "Amemet Skin",
+    "pos": [
+      123.046,
+      0.25,
+      18.642,
+      0
+    ],
+    "gift": {
+      "gil": 6500,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17490217,
+    "name": "Arachne",
+    "area": "Kuftal Tunnel",
+    "level": 67,
+    "monsterLow": 67,
+    "monsterHigh": 69,
+    "reward": "Arachne Web",
+    "pos": [
+      19.0,
+      20.0,
+      37.0,
+      0
+    ],
+    "gift": {
+      "gil": 6700,
+      "choices": [
+        {
+          "id": 654,
+          "quantity": 1,
+          "name": "Darksteel Ingot"
+        },
+        {
+          "id": 745,
+          "quantity": 1,
+          "name": "Gold Ingot"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17404000,
+    "name": "Aquarius",
+    "area": "The Boyahda Tree",
+    "level": 69,
+    "monsterLow": 69,
+    "monsterHigh": 71,
+    "reward": "Fransisca",
+    "pos": [
+      165.93,
+      9.344,
+      -56.348,
+      0
+    ],
+    "gift": {
+      "gil": 6900,
+      "choices": [
+        {
+          "id": 654,
+          "quantity": 1,
+          "name": "Darksteel Ingot"
+        },
+        {
+          "id": 745,
+          "quantity": 1,
+          "name": "Gold Ingot"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17596720,
+    "name": "Serket",
+    "area": "Garlaige Citadel",
+    "level": 70,
+    "monsterLow": 70,
+    "monsterHigh": 70,
+    "reward": "Serket Ring, Serket Shield",
+    "pos": [
+      -155.0,
+      19.0,
+      244.0,
+      0
+    ],
+    "gift": {
+      "gil": 7000,
+      "choices": [
+        {
+          "id": 4381,
+          "quantity": 12,
+          "name": "Meat Mithkabob"
+        },
+        {
+          "id": 4446,
+          "quantity": 12,
+          "name": "Pumpkin Pie"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17584416,
+    "name": "Aqrabuamelu",
+    "area": "Crawlers Nest",
+    "level": 72,
+    "monsterLow": 72,
+    "monsterHigh": 75,
+    "reward": "Aptant Of Ishis, Aptant Of Pera",
+    "pos": [
+      -140.0,
+      -1.5,
+      209.0,
+      0
+    ],
+    "gift": {
+      "gil": 7200,
+      "choices": [
+        {
+          "id": 654,
+          "quantity": 1,
+          "name": "Darksteel Ingot"
+        },
+        {
+          "id": 745,
+          "quantity": 1,
+          "name": "Gold Ingot"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17289547,
+    "name": "Calchas",
+    "area": "Western Altepa Desert",
+    "level": 74,
+    "monsterLow": 74,
+    "monsterHigh": 75,
+    "reward": "Fuchingiri",
+    "pos": [
+      -419.1,
+      -1.44,
+      -293.2,
+      0
+    ],
+    "gift": {
+      "gil": 7400,
+      "choices": [
+        {
+          "id": 654,
+          "quantity": 1,
+          "name": "Darksteel Ingot"
+        },
+        {
+          "id": 745,
+          "quantity": 1,
+          "name": "Gold Ingot"
+        }
+      ]
+    }
+  }
+]

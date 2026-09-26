@@ -1,0 +1,713 @@
+{
+  "pin": "f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4",
+  "audited_main_count": 54,
+  "definitions": {
+    "implemented-handler": "Native progression handlers found, not live tested.",
+    "partial": "Identified battle/instance integration or dependency missing.",
+    "missing-handler": "No dedicated quest handler or identified zone fallback in the pinned source."
+  },
+  "missions": [
+    {
+      "number": 1,
+      "file": "01_Cavernous_Maws.lua",
+      "sha256": "c1e314997eae0ddce23bcb3af804139fd656b817ce263df9a586b5c6e2ab7ff9",
+      "line_count": 87,
+      "callback_count": 6,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 2,
+      "file": "02_Back_to_the_Beginning.lua",
+      "sha256": "67f3d8fa49dcbe8139c412b75c8b6cc9c215b1d22e35556ecf375dc3affbace7",
+      "line_count": 118,
+      "callback_count": 6,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 3,
+      "file": "03_Cait_Sith.lua",
+      "sha256": "776edbe5d21c39fecc8738b2c92a28ebb7dc49780b062dbb1bd6590c277c727d",
+      "line_count": 50,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 4,
+      "file": "04_The_Queen_of_the_Dance.lua",
+      "sha256": "8d346ee84ae5650022ee540d0c4cd77e402d3d3b0384c3d768f696134de6d8ed",
+      "line_count": 123,
+      "callback_count": 4,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 5,
+      "file": "05_While_the_Cat_is_Away.lua",
+      "sha256": "1c7578350c891b7e46bdaf99884258a73b1b92817c39476aebd749009b019f93",
+      "line_count": 56,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 6,
+      "file": "06_A_Timeswept_Butterfly.lua",
+      "sha256": "08cff016ccae3c75f6f1d1338583b4b299a947e6c685fd29b0b4c82e3b6eb72c",
+      "line_count": 42,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 7,
+      "file": "07_Purple_The_New_Black.lua",
+      "sha256": "d856104f2b06a01b0ce6c42076262ee4185473c29feeb4d1da28e0fc95d5fbdb",
+      "line_count": 71,
+      "callback_count": 3,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 8,
+      "file": "08_In_the_Name_of_the_Father.lua",
+      "sha256": "b58d2dfc7fb8e93e86e00e8756c7561ef51d98fafcb6de452afbe9420bae3712",
+      "line_count": 50,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 34,
+          "excerpt": "-- TODO     : What are these args from caps? -- Observed : 1, 100, 0, 0, 0, 0, 0, 0 (San d'Oria, DNC Main)"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "file": "09_Dancers_in_Distress.lua",
+      "sha256": "4ee802a5d0538768302c23a1ebd930356097363a2fff9b24a32cc609f91d0d39",
+      "line_count": 147,
+      "callback_count": 7,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 45,
+          "excerpt": "-- TODO: What are these args from caps? -- Observed (San d'Oria, DNC Main) : 1, 3, 1, 0, 0, 0, 0, 0"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "file": "10_Daughter_of_a_Knight.lua",
+      "sha256": "51d522fe125331a6f63d59bbd77146b86e7985f5a574eda957c5bbf3672e931d",
+      "line_count": 281,
+      "callback_count": 18,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 36,
+          "excerpt": "-- TODO: What are these args from caps? -- Observed: 647298804, 0, 1743, 1, 759, 600, 0, 4"
+        },
+        {
+          "line": 63,
+          "excerpt": "-- TODO: What are these args from caps? -- Observed : 647298804, 0, 1743, 1, 759, 600, 0, 4"
+        },
+        {
+          "line": 149,
+          "excerpt": "return mission:progressEvent(33, 104, 0, 0, 53) -- TODO: What is this?"
+        },
+        {
+          "line": 175,
+          "excerpt": "return mission:progressEvent(34, 104, 300, 200, 100, 0, 1648, 0, 0) -- TODO: What is this?"
+        },
+        {
+          "line": 223,
+          "excerpt": "return mission:progressEvent(939, 0, 0, 0, 31, 0, 0, 1) -- TODO: What is this?"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "file": "11_A_Spoonful_of_Sugar.lua",
+      "sha256": "889681e894f686809e895c6de4a03e9371fae93066d13eb9f92496f287636f5e",
+      "line_count": 44,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 28,
+          "excerpt": "-- TODO     : What are these args from caps? -- Observed : 1, 23, 2964, 0, 0, 0, 0, 0"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "file": "12_Affairs_of_State.lua",
+      "sha256": "2cb194b6f1a9409763da4a00527e84ccba6f93361085896e190d4df1d971a142",
+      "line_count": 130,
+      "callback_count": 8,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 37,
+          "excerpt": "-- TODO: What are these args from caps?"
+        },
+        {
+          "line": 56,
+          "excerpt": "-- TODO: What are these args from caps? -- Observed : 175, 1, 7, 0, 324953651, 58062326, 21829264, 4095, 196677"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "file": "13_Borne_by_the_Wind.lua",
+      "sha256": "10c1124e98d753465f24b3a00f260821e7859aa0689b66f4fb2c3ff6ef3f837f",
+      "line_count": 59,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 43,
+          "excerpt": "-- TODO: What are these args from caps? -- Observed: 98, 5, 1756, 0, 0, 0, 0, 0"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "file": "14_A_Nation_on_the_Brink.lua",
+      "sha256": "4a927f07ad23d83eb8fee08a1ed67cd31a3df9b5af0ba53b211e41231603e1c4",
+      "line_count": 162,
+      "callback_count": 8,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 120,
+          "excerpt": "-- TODO: The assumption for this mission script is to catch Event 10000 which is -- sent once the battlefield has been cleared.  This needs to be verified upon -- implementation of the instance."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "file": "15_Crossroads_of_Time.lua",
+      "sha256": "cf0b8f3ccedff4f4387f2ef2a8236f85c95b8affe03f439137155a2604a7ba33",
+      "line_count": 45,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 16,
+      "file": "16_Sandswept_Memories.lua",
+      "sha256": "e4b2d86af823a30ca8c515cc61056ca848d0d08100f4560a41a3a36e8e3b8c7f",
+      "line_count": 43,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 17,
+      "file": "17_Northland_Exposure.lua",
+      "sha256": "ef6bf8b7236d96b22f81160c068a82b8f619f244ce78092e729196629128d75a",
+      "line_count": 40,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 18,
+      "file": "18_Traitor_in_the_Midst.lua",
+      "sha256": "d850fb4500995bb6b58ef0dd6d7684c2853cb067e399d15edc7b4825ef512002",
+      "line_count": 128,
+      "callback_count": 7,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 61,
+          "excerpt": "-- TODO: Jul 2022 Update will change retry conditions for these minigames.  Not implementing the required -- zoning logic until that time.  Option 2 on event finish is the failure scenario."
+        },
+        {
+          "line": 94,
+          "excerpt": "-- TODO: See if there is reminder text or event at this point prior to completing the required -- minigames."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "file": "19_Betrayal_at_Beaucedine.lua",
+      "sha256": "0a5bd7d1a53e3bbac2f0098e6d61db98a065503c53f20c71fb8c031163a36ff7",
+      "line_count": 92,
+      "callback_count": 3,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 20,
+      "file": "20_On_Thin_Ice.lua",
+      "sha256": "b66c9929b8d9f1a4e9093f9bb144dab4e1963df5975396c1458f341e7c2486d2",
+      "line_count": 42,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 21,
+      "file": "21_Proof_of_Valor.lua",
+      "sha256": "0677133dc3f07176f0df36c9e19bf7639d516ee10fb679de761ee3b2c117318f",
+      "line_count": 532,
+      "callback_count": 26,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 204,
+          "excerpt": "-- TODO: This may not be accurate, and may follow a similar pattern -- discovered with Sabiliont.  A single crossbow bolt may be an -- acceptable trade."
+        },
+        {
+          "line": 318,
+          "excerpt": "-- TODO: This formula is estimated; however, a trade of a single gysahl green -- awards 5 signatures.  While not aligning with Wiki, adding a bonus to that -- base value for each full stack to that."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "file": "22_A_Sanguinary_Prelude.lua",
+      "sha256": "d7f954a09fdd7d6c2f501e8d47c447399bd11172a471df300dd29424f85e2e77",
+      "line_count": 39,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 23,
+      "file": "23_Dungeons_and_Dancers.lua",
+      "sha256": "f830d08670ff5751314c6288213090fb2a7ac72f7d1386bef41d5c6246bc62dc",
+      "line_count": 89,
+      "callback_count": 5,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 42,
+          "excerpt": "-- TODO: For future Instance implementation, on instance fail, -- Timer var should be set to VanadielUniqueDay() + 1"
+        },
+        {
+          "line": 77,
+          "excerpt": "-- TODO: The assumption for this mission script is to catch Event 10000 which is -- sent once the battlefield has been cleared.  This needs to be verified upon -- implementation of the instance."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "file": "24_Distorter_of_Time.lua",
+      "sha256": "3e15fae0671233bd2d4466ef68835a82133711eecd82e723de4cb1c3172981ee",
+      "line_count": 75,
+      "callback_count": 4,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 32,
+          "excerpt": "-- TODO: For future Instance implementation, on instance fail, -- Timer var should be set to VanadielUniqueDay() + 1"
+        },
+        {
+          "line": 63,
+          "excerpt": "-- TODO: The assumption for this mission script is to catch Event 10000 which is -- sent once the battlefield has been cleared.  This needs to be verified upon -- implementation of the instance."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "file": "25_The_Will_of_the_World.lua",
+      "sha256": "fcf4b71d5c4e683cedef4e9d95727d4ddf6e5904584ef216f7b5e32a9bd4ad7f",
+      "line_count": 42,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 26,
+      "file": "26_Fate_in_Haze.lua",
+      "sha256": "8c879227129a718511c7d63f68432e0ba2e80b9d7a71f36ffae7d4189e182793",
+      "line_count": 92,
+      "callback_count": 4,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 38,
+          "excerpt": "-- TODO: Check if this message changes if the player is aligned with a -- different nation, and has/has not completed Blood of Heroes."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "file": "27_The_Scent_of_Battle.lua",
+      "sha256": "36ca93deb82621858d2a9c8b2a3d4e0a0ce1b03f98bf8d89cd40e12b3007f4c4",
+      "line_count": 37,
+      "callback_count": 1,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 28,
+      "file": "28_Another_World.lua",
+      "sha256": "87a8a0c94cab41e5c1fc9f48899f2727a222dc9dd8df5cb8e01ecc64ce1dec75",
+      "line_count": 63,
+      "callback_count": 4,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 45,
+          "excerpt": "-- TODO: Compare the last two parameters if the player is aligned to Bastok -- or Windurst for Campaign Allegiance.  These values may change."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "file": "29_A_Hawk_in_Repose.lua",
+      "sha256": "2cebe25d556390d299a4f67f836555636087e308c4afa1c85ca782c62cf60bf9",
+      "line_count": 58,
+      "callback_count": 3,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 30,
+      "file": "30_The_Battle_of_Xarcabard.lua",
+      "sha256": "70884ba79a0f1505587d04cc2f6999bb4781b952064d67022c18ac61c03dfa58",
+      "line_count": 56,
+      "callback_count": 3,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 29,
+          "excerpt": "-- TODO: Compare the last parameter if the player is aligned to Bastok -- or Windurst for Campaign Allegiance.  This value may change."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "file": "31_Prelude_to_a_Storm.lua",
+      "sha256": "84cb58dac7de82389fbdb4d4293661eefeb1c603f4e36c2c1ecfd5e3b637bb14",
+      "line_count": 123,
+      "callback_count": 5,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 107,
+          "excerpt": "-- TODO: The assumption for this mission script is to catch Event 10000 which is -- sent once the battlefield has been cleared.  This needs to be verified upon -- implementation of the instance."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "file": "32_Storms_Crescendo.lua",
+      "sha256": "2f4d2a7227345868d7c5983194a9c6c26b1734589dd21d2e109265461dbc0e04",
+      "line_count": 125,
+      "callback_count": 6,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 113,
+          "excerpt": "-- TODO: The assumption for this mission script is to catch Event 10000 which is -- sent once the battlefield has been cleared.  This needs to be verified upon -- implementation of the instance."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "file": "33_Into_the_Beasts_Maw.lua",
+      "sha256": "b9068e301dd4ccc071df4bef25ccb3a65f89b9e32029998d0e4495f4ab9b056b",
+      "line_count": 140,
+      "callback_count": 5,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 55,
+          "excerpt": "-- TODO: Instance entry requires the Distress Signal Flare awarded after the -- cutscene (or replaced by the Ornate Block).  Entry Event 6, Options 0, 32. -- Upon entering, the player is sent to Ghoyu's Reverie (467.375, -0.173, 119.999, R=2)"
+        },
+        {
+          "line": 128,
+          "excerpt": "-- TODO: The assumption for this mission script is to catch Event 10000 which is -- sent once the battlefield has been cleared.  This needs to be verified upon -- implementation of the instance."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "file": "34_The_Hunter_Ensnared.lua",
+      "sha256": "05a6be972d5ea7f253c165b2d882ef255f9825e8befe04a63d2a300e2263b68e",
+      "line_count": 37,
+      "callback_count": 1,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 35,
+      "file": "35_Flight_of_the_Lion.lua",
+      "sha256": "33f356844dfe2f9a965a53044963b289d22c281ba3e881365d84572cbed536db",
+      "line_count": 37,
+      "callback_count": 1,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 36,
+      "file": "36_Fall_of_the_Hawk.lua",
+      "sha256": "b159b6838cc97c94efbbcf9c0641ab551f1ba03b38de894c0e1b200666ea6a2b",
+      "line_count": 38,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 37,
+      "file": "37_Darkness_Descends.lua",
+      "sha256": "7f1ceddce5d88e9ca386ab1b7a207758346595c62cfd6c26687fa9988f9cf2e1",
+      "line_count": 81,
+      "callback_count": 2,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 38,
+          "excerpt": "-- TODO: Check this update with Bastok or Windurst as allegiance to verify -- the first parameter."
+        },
+        {
+          "line": 64,
+          "excerpt": "-- TODO: 'battlefieldWin' local var should be set on successful completion of -- the BCNM with its BCNM ID.  See other examples of this pattern implemented -- in various missions."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "file": "38_Adieu_Lilisette.lua",
+      "sha256": "9786d11e5169dc094bd11c9e4b73f7e1b6b7bb3b9bef8ed65fa3c6e418d4165b",
+      "line_count": 57,
+      "callback_count": 3,
+      "native_status": "implemented-handler",
+      "todos": [
+        {
+          "line": 38,
+          "excerpt": "-- TODO: Check if this message changes if the player is aligned with a -- different nation, and has/has not completed Face of the Future."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "file": "39_By_the_Fading_Light.lua",
+      "sha256": "9d7616f0d55213c8cb5f43fbfc92a2cc31773e84074688f059cf01f8b66a5bf1",
+      "line_count": 39,
+      "callback_count": 1,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 40,
+      "file": "40_Edge_of_Existence.lua",
+      "sha256": "c90a759bda10a5940201f5045d4ed60c8adbc4b947aa2b759dfbd3ec33ef690d",
+      "line_count": 115,
+      "callback_count": 6,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 41,
+      "file": "41_Her_Memories.lua",
+      "sha256": "95c8dab852796d9ab8e0da111195ab45b5ddb9ea9f4310ac15b4d3f1ed90aca0",
+      "line_count": 28,
+      "callback_count": 0,
+      "native_status": "partial",
+      "todos": []
+    },
+    {
+      "number": 42,
+      "file": "42_Forget_Me_Not.lua",
+      "sha256": "0c3891ca865af6680d34af90aba317700deb98e317827e60b7bbbdcae20f878f",
+      "line_count": 150,
+      "callback_count": 14,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 43,
+      "file": "43_Pillar_of_Hope.lua",
+      "sha256": "837479d0015a4c14bbad6516bccea96111cd5250ab2caf0bec67cbbc739791e5",
+      "line_count": 52,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 44,
+      "file": "44_Glimmer_of_Life.lua",
+      "sha256": "d27d3027ad8d3e30148a18e164024069335c5931dcbeb263383bcb95784f90fb",
+      "line_count": 50,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 45,
+      "file": "45_Time_Slips_Away.lua",
+      "sha256": "86ed77c661af4e0d349d17a5b85fac08641d0edae37e4336f20098035a518f42",
+      "line_count": 49,
+      "callback_count": 3,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 46,
+      "file": "46_When_Wills_Collide.lua",
+      "sha256": "bfc6d0686d1e41bf891afbf7fe253d317e242a1cf6cfc41f851f1b1f5c41f598",
+      "line_count": 139,
+      "callback_count": 7,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 108,
+          "excerpt": "-- TODO: Add battlefieldWin localVar, and check here once the ID has been -- implemented."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "file": "47_Whispers_of_Dawn.lua",
+      "sha256": "4fb18d421c7d22a3192624f59636f474eedb21f3d3340c947c534828962ee759",
+      "line_count": 50,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 48,
+      "file": "48_A_Dreamy_Interlude.lua",
+      "sha256": "1a7f9135a06b4d0afb5fc6fcecf0f7b6a0d694c4c843bbafc4d98076268af36e",
+      "line_count": 50,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 49,
+      "file": "49_Cait_in_the_Woods.lua",
+      "sha256": "98f2a61cfde5b96a3a023e71601ecaed5622dd9c1ffb1cab96740d8582003ef1",
+      "line_count": 38,
+      "callback_count": 1,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 50,
+      "file": "50_Fork_in_the_Road.lua",
+      "sha256": "efb81017f15582aa8af94dd3249891fa8612122b58816ace1413ecfb0a5f3bd5",
+      "line_count": 172,
+      "callback_count": 14,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 51,
+      "file": "51_Maiden_of_the_Dusk.lua",
+      "sha256": "a2aec0c24d6398d5ae84c97fe94ff4501efeabdb2e7ad3b4e75f21459c256807",
+      "line_count": 159,
+      "callback_count": 5,
+      "native_status": "partial",
+      "todos": [
+        {
+          "line": 71,
+          "excerpt": "-- TODO: BCNM entry requires Primal Glow KI and Status variable set to 3.  BCNM -- Event entry parameters observed: ID: 32000, Params: 0, 0, 383910532, 2 -- KeyItem is consumed on entry."
+        },
+        {
+          "line": 148,
+          "excerpt": "-- TODO: Add battlefieldWin localvar check here, which should be set to battlefield -- ID prior to this event being triggered in BCNM script."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "file": "52_Where_It_All_Began.lua",
+      "sha256": "bbac1a3d0a69cbfedcde86eefafc11157fd0cb0dc019c7ce2656dcb02283e73e",
+      "line_count": 38,
+      "callback_count": 1,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 53,
+      "file": "53_Token_of_Troth.lua",
+      "sha256": "a1f34596b9c8d0e1dae514a4c0566995b99af1cd1c4ba36dc4fd39218fbba2c2",
+      "line_count": 61,
+      "callback_count": 2,
+      "native_status": "implemented-handler",
+      "todos": []
+    },
+    {
+      "number": 54,
+      "file": "54_Lest_We_Forget.lua",
+      "sha256": "a23d2dba911f030f329b7f15fd65f5f5c2678cb05d8b0ff7ba6da146860e8778",
+      "line_count": 141,
+      "callback_count": 3,
+      "native_status": "implemented-handler",
+      "todos": []
+    }
+  ],
+  "memory_quests": [
+    {
+      "title": "Her Memories: Homecoming Queen",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: Old Bean",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: The Faux Pas",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: Grave Resolve",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: Of Malign Maladies",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Of_Malign_Maladies.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: Operation Cupid",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Operation_Cupid.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: Carnelian Footfalls",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Carnelian_Footfalls.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: Azure Footfalls",
+      "native_status": "implemented-handler",
+      "code": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Azure_Footfalls.lua"
+      ]
+    },
+    {
+      "title": "Her Memories: Verdure Footfalls",
+      "native_status": "missing-handler",
+      "code": []
+    }
+  ]
+}

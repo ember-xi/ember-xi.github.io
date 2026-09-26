@@ -1,0 +1,235 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Troubleshooting - Zenith XI Wiki</title><meta name="description" content=""><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/wiki.css?v=42"><script defer src="assets/sidebar.js?v=42"></script><script defer src="assets/search-index.js?v=42"></script><script defer src="assets/wiki.js?v=42"></script><link rel="stylesheet" href="assets/shared-styles.css?v=42"></head><body data-page="troubleshooting"><a class="skip" href="#content">Skip to content</a><header class="topbar" id="shared-topbar"></header><div class="layout"><aside class="sidebar" id="shared-sidebar"><nav aria-label="Wiki navigation"><a href="index.html">Main Page</a><a href="jobs.html">Jobs</a><a href="all-pages.html">All Pages</a></nav></aside><main id="content"><div class="page-tabs"><span class="selected">Reference</span><a href="all-pages.html">Article index</a><button class="print-link" type="button" data-print>Print</button></div><article class="article"><div class="breadcrumb"><a href="era-reference.html">Level 75 Reference</a> <span>›</span> Troubleshooting</div><h1>Troubleshooting</h1><div class="wiki-byline">From Zenith XI Wiki</div><div class="article-overview"><nav class="toc" aria-label="Article contents"><strong>Contents</strong><ol><li><a href="#era-Out_of_game_issues">Out of game issues</a></li><li><a href="#era-FFXI_Error_Codes">FFXI Error Codes</a></li><li><a href="#era-In-game_issues">In-game issues</a></li><li><a href="#era-Quests/Missions">Quests/Missions</a></li></ol></nav></div><div class="article-body"><p><span class="reference-edition">Level 75 reference · <a href="server-rules.html">Zenith rules</a></span></p><div class="era-reference"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="table-wrap era-table"><table cellspacing="0" cellpadding="0" data-ws="113">
+<tbody><tr>
+<td><div data-ws="114"></div>
+</td></tr></tbody></table>
+</div><p>This is the troubleshooting guide for Eden. It's a constant work in progress as issues are resolved or if new ones arise. This page should hopefully be able to help you fix your problems. If it does not, feel free to ask in the 'Tech-Support' channel <a rel="nofollow" class="external text" href="https://discord.gg/S3EAWr2Jec">on the server discord.</a>
+<br>
+<br>
+</p><p><br>
+</p>
+<h2 id="era-Out_of_game_issues">Out of game issues</h2>
+<p><b>Failed to login as <i>ACCOUNTNAME</i></b>
+</p>
+<ul><li><b>Cause:</b> Incorrect loader.</li>
+<li><b>Fix:</b> Redownload loader via website or #install-support-links on discord.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> Incorrect auto-login</li>
+<li><b>Fix:</b> Disable autologin and try to login manually.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> Incorrect password.</li>
+<li><b>Fix:</b> If you are unsure what your password is, you can request a password reset via Discord.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause: </b>The loader can't communicate with the server</li>
+<li><b>Fix: </b>Allow it through your firewall.</li></ul>
+<p><br><br>
+</p><p><b><i>"Sending Key..", "Closing..."</i> or "<i>Hairpin Fix applied! -&gt; Closing..."</i> in red in the loader, and the loader closes</b> 
+</p>
+<ul><li><b>Cause:</b> The loader can't find your game's installation.</li>
+<li><b>Fix:</b> Run the installer again.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> You installed another private server or Retail.</li>
+<li><b>Fix:</b> Check the pinned messages in #tech-support on the discord. It has a guide on how to play on 2 different servers. If you are not trying to play on 2 different servers in a short timespan, simply run the Eden installer again.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> The game is not installed, or you moved your game files.</li>
+<li><b>Fix:</b> Run the Installer again, and don't move the game files from where you installed them from.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> The resolution you're using isn't supported.</li>
+<li><b>Fix:</b> Navigate to \PlayOnline\SquareEnix\FINAL FANTASY XI\ToolsUS\ and open FINAL FANTASY XI Config.exe. Set your graphic settings up how you want them there, and try running the loader by itself. Ashita has caused issues in the past with how it resizes your game with the settings you have there. If after changing your resolution you can load in fine, adjust your Ashita profile settings to match what you put in the FFXI Config.</li></ul>
+<p><br><br>
+</p><p><b>Launcher closes quickly when opened</b>
+</p>
+<ul><li><b>Cause:</b> ashita.exe, xiloader.exe, or other files have been moved or deleted by you or your antivirus.</li>
+<li><b>Fix:</b> Recover the files, potentially in your antivirus program. Add an exclusion for those files as well. At time of posting (November 9th, 2023), any antivirus alerts are false flags and being worked on to stop from happening.</li></ul>
+<p><br><br>
+</p><p><b>Failed to initialize instance of polcore or ffxi</b>
+</p>
+<ul><li><b>Cause</b>: DLL registration failed.</li>
+<li><b>Fix</b>: Typically caused by uninstalling another FFXI install or moving files. Easiest fix is to reinstall using Eden's installer.</li></ul>
+<p><br><br>
+</p><p><b>MSVCP140.dll is missing</b>
+</p>
+<ul><li><b>Cause</b>: Components of Microsoft Visual C++ redist are missing</li>
+<li><b>Fix</b>: Go <a rel="nofollow" class="external text" href="https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe">here</a> to obtain the 2015 for <b>x86 </b>version. REGARDLESS of what version of Windows you're using, you need this one. This normally installs during the installation.</li></ul>
+<p><br><br>
+</p><p><b>api-ms-win-crt-runtime-|1-1-0.dll is missing</b>
+</p>
+<ul><li><b>Cause:</b> Components of Microsoft Visual C++ are out of date</li>
+<li><b>Fix:</b> Perform a Windows Update after installing the C++ redist packages.</li></ul>
+<p><br><br>
+</p><p><b>Failed to open DMSG file: 55702</b>
+</p>
+<ul><li><b>Cause:</b> MSI Afterburner or some other program is causing files to be unable to be opened incorrectly</li>
+<li><b>Fix:</b> Disable/Remove MSI Afterburner or some other program</li>
+<li><b>Fix:</b> If not a program, sometimes this is caused by files being corrupt or missing. Did your install location have enough space to install the game?</li></ul>
+<p><br><br>
+</p><p><b>The feature you are trying to use is on a network resource that is unavailable OR a Windows Installer popup occurs</b>
+</p>
+<ul><li><b>Cause:</b> Typically user error. Not extracting the Eden Installer.zip file correctly, or moving files after installing.</li></ul>
+<ul><li><b>Fix:</b> Running the Eden installer again is the fastest fix.</li></ul>
+<p><br><br>
+</p><p><b>xiloader.exe crashes when launching the game</b>
+</p>
+<ul><li><b>Cause</b>: For some setups, the Ashita Direct3d8 to Direct3d9 proxy causes a crash</li>
+<li><b>Fix</b>: Delete the files d3d8.dll and d3d8.ini if you installed them from your Ashita\ffxi-bootmod folder.</li>
+<li><b>Possible Fix</b>: Don't enable the shadow flickering fix in the d3d8.ini as this can cause crashes.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> Roxio gamecap software hooks into xiloader.exe and causes a crash. Event viewer blames the dsfOggDemix2.dll for the crash.</li>
+<li><b>Fix:</b> Uninstall Roxio software. It is either buggy or incompatible with FFXI.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> Fast vsync on nVidia cards will crash FFXI.</li>
+<li><b>Fix:</b> Go to Nvidia Control Panel, under Manage 3D settings, scroll down to vsync and switch vsync to either on or off, disabling fast sync.</li></ul>
+<p><br><br>
+</p><p><b>xiloader.exe crashes when logging into a specific character, but not others</b>
+</p>
+<ul><li><b>Cause:</b> Corrupt user folder.</li>
+<li><b>Fix:</b> Close all open clients and try to login to that character that crashes. Go to your \SquareEnix\Final Fantasy XI\USER\ folder and click "Date modified". This should make it so that the most recent folder (hopefully the crashing character's) is at the top. Move that folder from your USER folder to your desktop (so that folder no longer exists in the \USER\ folder), and try to login again. If you can login, that's the correct folder and you can delete it from your desktop. NOTE: This will cause you to lose all character settings/macros for that character. There's currently no known way to prevent it as you'd have to figure out which individual file for that character is corrupted.</li></ul>
+<p><br><br>
+</p><p><b>Client crashes when creating a character</b>
+</p>
+<ul><li><b>Cause</b>: For some setups, the character creation screen causes a crash. This is usually related to the Ashita Direct3d8 to Direct3d9 proxy, but there is a workaround that allows you to continue using the proxy.</li>
+<li><b>Fix</b>: Close client/loader -&gt; Navigate to \PlayOnline\SquareEnix\FINAL FANTASY XI\ToolsUS\ and open FINAL FANTASY XI Config.exe -&gt; Misc. tab -&gt; Check "Simplified character creation visuals" -&gt; Hit "Ok" -&gt; Reconnect and try to create a character again</li></ul>
+<p><br><br>
+</p><p><b>Stuck at <i>Downloading data...</i></b>
+</p>
+<ul><li><b>Cause:</b> Your character is still logged in.</li>
+<li><b>Fix:</b> Close the client/loader, wait 5 minutes, and try to reconnect.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> Network communication issue</li>
+<li><b>Fix:</b> Can run the NetworkFix.bat in the pinned message of #tech-support on Discord. If that doesn't work, try restarting your network adapter and router.</li></ul>
+<p><br><br>
+</p><p><b><i>Exception Occurred! Failed to launch boot file.</i></b>
+</p>
+<ul><li><b>Cause:</b> The XILoader for Eden is missing. This might mean it was detected as a virus by your anti-virus. This is a false positive.</li>
+<li><b>Fix:</b> Restore the loader via your anti-virus, and add it to your antivirus' Exceptions/Whitelist.</li></ul>
+<p><br><br>
+</p><p><b>Stuck <i>Checking name and gold world pass</i> then error FFXI-3113</b>
+</p>
+<ul><li><b>Cause:</b> Your character name is already taken on the server</li>
+<li><b>Fix:</b> Re-launch the game. Use a new name. You <b>must</b> relaunch the game if you get stuck on this error. ANY subsequent attempts to use ANY name will get stuck at this point <b>until you re-launch the game</b>.</li></ul>
+<p><br>
+</p>
+<ul><li><b>Cause:</b> You took to long creating your character.</li>
+<li><b>Fix:</b> Re-launch the game and re-create it. Now that you know what to do, it should be quick.</li></ul>
+<p><br><br>
+</p><p><br>
+</p>
+<h2 id="era-FFXI_Error_Codes">FFXI Error Codes</h2>
+<p><b>POL-0033</b>
+</p>
+<ul><li>Run the NetworkFix.bat in the pinned message of #tech-support on <a rel="nofollow" class="external text" href="https://discord.gg/S3EAWr2Jec">Discord</a>. If this doesn't fix it, restart your computer and modem.</li></ul>
+<p><br>
+</p><p><b>FFXI-3001 OR 3101</b> 
+</p>
+<ul><li>Close client -&gt; Wait 5 minutes -&gt; Reconnect</li></ul>
+<ul><li>Try restarting your network adapter or router.</li></ul>
+<ul><li>The server or port is blocked on your networking. If you're tethering using your phone's internet, your mobile data provider may block the ports used by Eden.</li></ul>
+<p><br>
+</p><p><b>FFXI-3305</b>
+</p>
+<ul><li>Your character is still connected according to the server. Close your client/loader and wait 5 minutes, then try to connect again.</li>
+<li>Your network is being bad and causing a desync between your computer and the server</li></ul>
+<p><br>
+</p><p><b>FFXI-3313 or 3322 (in Japanese)</b> 
+</p>
+<ul><li>The name you're using is invalid, whether due to the built-in name filter, being too long, or already in use.</li>
+<li>You <b>must</b> relaunch the game if you get stuck on this error. ANY subsequent attempts to use ANY name will get stuck at this point <b>until you re-launch the game</b>.</li></ul>
+<p><br>
+</p><p><b>POL-5273</b> 
+</p>
+<ul><li>Try turning off your VPN if you use one, changing the server on your VPN, or otherwise use a different internet connection altogether.</li></ul>
+<p><br><br>
+</p>
+<h2 id="era-In-game_issues">In-game issues</h2>
+<p>This is not necessarily a list of bugs. This is a list of common problems, <i>some</i> of which are caused by bugs.
+<br><br>
+</p><p><b>Out of bounds stuck in a battlefield etc</b>
+</p>
+<ul><li>Type !unstuck ingame. You'll be given a 20 minute terror debuff (to prevent abuse), and when it expires you'll be warped to a nearby zone line. Don't logout while you have the debuff or when you login you'll have the same amount left on it and won't be teleported when it wears off.</li>
+<li>If !unstuck doesn't work for you or teleports you to an invalid location again, contact a GM via the in-game Help Desk.</li></ul>
+<p><br>
+</p><p><b>Stuck Online</b>
+</p>
+<ul><li>Close client/loader and wait 5 minutes, then try to connect.</li>
+<li>Open the game but click Decline on the TOS screen. Then, try logging in again like normal.</li></ul>
+<p><br>
+</p><p><b>Stuck looking at a cutscene</b>
+</p>
+<ul><li>Press printscreen. Yes, this takes a screenshot, but it also continues stuck cutscenes. You can also change your FPS (/fps # for Ashita, //config FrameRateDivisor #, # being either 1 or 2. Whatever you don't have it set to)</li>
+<li>Type /ver ingame and if it doesn't say 30181205, then your client files don't match what the server expects you to have and this can cause cutscene issues. Reinstall using the Eden installer.</li>
+<li>For certain cutscenes, not having your fps capped at 30 and/or having Enternity/FastCS loaded can cause issues. If you run into one of those cutscenes and the above 2 solutions doesn't work, close your client &amp; wait 5 minutes then reconnect. Before you start the cutscene again, unload those addons/plugins and cap your FPS to 30 (type /fps 2).</li></ul>
+<p><br>
+</p><p><b>Not dead but HP and MP and TP etc. are 0</b>
+</p>
+<ul><li>Join or start a party.</li>
+<li>Try typing the in-game command '!re'.</li></ul>
+<p><br>
+</p><p><b><i>You do not meet the requirements to obtain x item</i></b>
+</p>
+<ul><li>You either already have one of the rare item in one of your bags or your inventory is full.</li></ul>
+<p><br>
+</p><p><b>Cannot list more on the AH</b>
+</p>
+<ul><li>Even though you can list as many items as you'd like on the Auction House, if you have 7+ listed when you check your Sales Status, you will be unable to list more items. To fix this, simply zone or relog.</li></ul>
+<p><br>
+</p><p><b>Weapon Skill is capped at an earlier level</b>
+</p>
+<ul><li>Re-equipping the weapon will refresh the skill cap list both on the client and server, allowing you to skill up again. You can also try changing or removing/re-equipping any piece of equipment to cause a character model blink, such as head or body gear.</li></ul>
+<p><br>
+</p><p><b>Weapon Skill not obtained at 5</b>
+</p>
+<ul><li>In era, the starting weaponskills were unlocked at level 10, not 5.</li></ul>
+<p><br>
+</p><p><b>Used a scroll/item/XP charge but didn't work</b>
+</p>
+<ul><li>In era, using a item but not finishing it due to being paralyzed will eat the item/charge.</li></ul>
+<p><br>
+</p><p><b>I lost items by removing storage space with items in them</b>
+</p>
+<ul><li>You can get your items back by placing furniture back into your moghouse layout to what your previous capacity was. Remove those items from Storage and you can safely remove the furniture again.</li></ul>
+<p><br>
+</p><p><b><i>NM</i> is not spawning</b>
+</p>
+<ul><li>Did you check to see if the NM in question is out of era? For example, <a rel="nofollow" class="external text" href="https://ffxiclopedia.fandom.com/wiki/Chonchon">Chonchon</a> was introduced in 2009 which means it will not spawn here. See <a href="notorious-monsters-level-guide.html" title="Notorious Monsters: Level Guide">Notorious_Monsters:_Level_Guide</a> for NMs which are verified to be here. If you still believe it's not functioning correctly after verifying it's an in-era NM, ask on Discord.</li></ul>
+<p><br><br>
+</p>
+<h2 id="era-Quests/Missions"><span id="era-Quests.2FMissions"></span>Quests/Missions</h2>
+<p><b>Waited x amount of time but quest did not progress</b>
+</p>
+<ul><li>The FFXI wiki is for modern FFXI. Almost all quests that required waiting long amounts of time were changed in modern FFXI to speed up gameplay. If it says wait 1 earth minute, that probably means at least 1 earth hour here, if not a midnight cycle. Check the Quest's wiki page here for how it operates on Eden.</li></ul>
+<p><br>
+</p><p><b><a href="mission-sandoria-1-2.html" title="Bat Hunt">Bat Hunt</a> guard not accepting Orcish Mail Scales</b>
+</p>
+<ul><li>Go back to the tombstone in KRT and get the cutscene. Continue to interact with the tombstone until you stop getting the cutscene.
+<ul><li>Are you repeating the mission? You need to trade a bat fang on repeating the mission.</li></ul></li></ul>
+<p><br>
+</p><p><b><i>Peace for the Spirit</i> no CS at Sharzalion after trading the Antique Coin</b>
+</p>
+<ul><li>Head back to Fei'Yin and trade the Antique Coin again. Keep trading the Antique Coin until you stop getting the cutscene.</li></ul>
+<p><br>
+</p><p><b><i>Peace for the Spirit</i> no CS upon entering Northern Sandy</b>
+</p>
+<ul><li>Head back to Garlaige Citadel and trade the Nail Puller again. Keep trading the Nail Puller until you stop getting the cutscene.</li></ul>
+<p><br>
+</p><p><b>Can't spawn Dark Spark or continue Borghertz's Hand's (AF gloves) quest</b> 
+</p>
+<ul><li>After getting the hands from the coffer and talking to Guslam, you must talk to Deadly Minnow behind the counter in the same shop as Guslam once.</li></ul>
+<p><br>
+</p><p><b><i>The Rumor</i> with Novalmauge in Bostaunieux Oubliette is not working.</b>
+</p>
+<ul><li>He asks for beast<b>man</b> blood. Not beast blood.</li></ul>
+<p><br>
+</p><p><b><i>Divine Might</i> Not receiving earring, despite following the correct quest path.</b>
+</p>
+<ul><li>Make sure that you're properly on the quest (interact with the quest target in the Shrine), then repeat the fight.</li></ul>
+<p><br>
+</p>
+</div></div><p class="source-credit">Adapted from <a href="https://edenxi.miraheze.org/wiki/Troubleshooting">Eden Wiki: Troubleshooting</a> · <a href="https://edenxi.miraheze.org/wiki/Troubleshooting?action=history">Contributors and history</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Revision 29470. Layout, links and optional background text adapted for Zenith.</p></div><div class="category-footer"><strong>Category:</strong> Reference<span> · </span><a href="era-reference.html">Level 75 Reference</a></div></article><footer class="footer" id="shared-footer"></footer></main></div><noscript><p class="no-js">Search and filters need JavaScript. All articles remain available through the <a href="all-pages.html">page index</a>.</p></noscript></body></html>

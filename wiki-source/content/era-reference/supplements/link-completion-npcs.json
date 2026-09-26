@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "source_review_date": "2026-09-26",
+  "scope": "Concise original linked-reference completions for Dancer NPCs, selected level-75 travel/key items and chocobo raising.",
+  "articles": [
+    {
+      "title": "Laila",
+      "category": "NPCs",
+      "intro": "Leader of Troupe Brilioth and the starting contact for Dancer.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7), beside Rhea Myuliah and Olgald.</p><h2>Unlock Dancer</h2><ol><li>Speak with her on a job of level 30 or above. Choose “I surely do.”, then “Never!” to start <a href=\"wiki:Lakeside Minuet\">Lakeside Minuet</a>.</li><li>Talk with <a href=\"wiki:Rhea Myuliah\">Rhea Myuliah</a> next to her and follow the quest’s tavern and past-Jugner steps.</li><li>Return to Laila after obtaining the Stardust Pebble to unlock <a href=\"wiki:Dancer\">Dancer</a>.</li></ol><h2>Artifact armor</h2><p>Return as Dancer for <a href=\"wiki:The Unfinished Waltz\">The Unfinished Waltz</a>, then <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a> and <a href=\"wiki:Comeback Queen\">Comeback Queen</a>. The linked guides give the level gates, fights and rewards.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Lakeside_Minuet",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF1_The_Unfinished_Waltz.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF2_The_Road_to_Divadom.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF3_Comeback_Queen.lua"
+      ]
+    },
+    {
+      "title": "Rhea Myuliah",
+      "category": "NPCs",
+      "intro": "A Troupe Brilioth dancer involved in the Dancer unlock and artifact quests.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7), beside <a href=\"wiki:Laila\">Laila</a>.</p><h2>When to speak with her</h2><ol><li>For <a href=\"wiki:Lakeside Minuet\">Lakeside Minuet</a>, talk after Laila’s opening scene. Visit Valderotaux in the Lion Springs Tavern in Southern San d’Oria, then return to Rhea before going to Jugner Forest (S).</li><li>For <a href=\"wiki:The Unfinished Waltz\">The Unfinished Waltz</a>, speak after accepting Laila’s quest and before visiting the quest target in Grauberg (S).</li></ol><p>These conversations advance the quest; visiting the target location first can leave its event unavailable.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Lakeside_Minuet",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF1_The_Unfinished_Waltz.lua"
+      ]
+    },
+    {
+      "title": "Olgald",
+      "category": "NPCs",
+      "intro": "The contact who introduces the crafted Dancer artifact armor orders.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7), beside <a href=\"wiki:Laila\">Laila</a>.</p><h2>Unlock armor commissions</h2><ol><li>Complete <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a>.</li><li>Set Dancer as your main job and speak with Olgald.</li><li>Visit Matthias in <a href=\"wiki:Bastok Markets\">Bastok Markets</a> and select the armor piece. Trade the requested materials, then collect it after the next Vana’diel day begins.</li></ol><p>This route makes <a href=\"wiki:Dancer&#x27;s Tiara\">Dancer&#x27;s Tiara</a>, <a href=\"wiki:Dancer&#x27;s Bangles\">Dancer&#x27;s Bangles</a> and <a href=\"wiki:Dancer&#x27;s Toe Shoes\">Dancer&#x27;s Toe Shoes</a>. Open the item or <a href=\"wiki:Dancer\">Dancer</a> page for its material list. Commission one piece at a time.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/hiddenQuests/Crafted_Dancer_Artifact.lua",
+        "https://forum.square-enix.com/ffxi/threads/63254"
+      ]
+    },
+    {
+      "title": "Zonpa-Zippa (S)",
+      "category": "NPCs",
+      "intro": "The Shadowreign-era Manustery minister and commander of the Capricornian Casters.",
+      "body_html": "<h2>Location and role</h2><p>Based in Windurst Waters (S) (K-6). During Campaign deployments, he fights alongside his Ace Cardians in Windurst Waters (S) or West Sarutabaruta (S).</p><p>He is the past-era character. For his present-day Windurst mission appearance, see <a href=\"wiki:Zonpa-Zippa\">Zonpa-Zippa</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zonpa-Zippa_%28S%29"
+      ]
+    },
+    {
+      "title": "Chocobo Egg",
+      "category": "Items",
+      "intro": "An egg used to begin raising your own chocobo.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Check <a href=\"wiki:Dabih Jajalioh\">Dabih Jajalioh</a> in <a href=\"wiki:Ru&#x27;Lude Gardens\">Ru&#x27;Lude Gardens</a> (F-9), down the steps near the Auction House. Her changing stock can include an egg for 1,040 gil.</li><li>If no egg is offered, use the quest <a href=\"wiki:Chocobo on the Loose!\">Chocobo on the Loose!</a> or obtain one from chocobo breeding or an applicable Imperial Standing battlefield; see <a href=\"wiki:Chocobo Raising\">Chocobo Raising</a> for those routes.</li></ol><h2>How to use</h2><p>Trade the egg to a VCS trainer to start raising it. In Bastok, use <a href=\"wiki:Zopago\">Zopago</a> in <a href=\"wiki:Bastok Mines\">Bastok Mines</a> (I-9). Return to that trainer for the care menu. Egg descriptions have several warmth variants.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dabih_Jajalioh",
+        "https://ffxiclopedia.fandom.com/wiki/Chocobo_Raising_Guide",
+        "https://ffxiclopedia.fandom.com/wiki/Zopago"
+      ]
+    },
+    {
+      "title": "Elshimo Lowlands Supplies",
+      "category": "Key Items",
+      "intro": "Temporary supplies for the Yuhtunga Jungle outpost run.",
+      "body_html": "<h2>Get and deliver the supplies</h2><ol><li>While your nation controls <a href=\"wiki:Elshimo Lowlands\">Elshimo Lowlands</a>, ask one of its city Conquest guards for a supply mission and choose Elshimo Lowlands.</li><li>Travel to the outpost in <a href=\"wiki:Yuhtunga Jungle\">Yuhtunga Jungle</a> (G-11).</li><li>Speak with your nation’s outpost overseer before the next weekly Conquest tally. The key item is delivered through conversation.</li></ol><p>Completing the run earns Conquest Points and records the regional outpost teleport unlock; the teleport’s level requirement still applies. See <a href=\"wiki:Supply Run Mission\">Supply Run Mission</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Elshimo_Lowlands_Supplies",
+        "https://horizonffxi.wiki/Supply_Run_Mission"
+      ]
+    },
+    {
+      "title": "Sheep Leather Missive",
+      "category": "Items",
+      "intro": "The trigger item for Yuhtunga Jungle Garrison.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Brook Sahagin\">Brook Sahagin</a> (levels 41–48) or <a href=\"wiki:Riparian Sahagin\">Riparian Sahagin</a> (levels 44–48) in <a href=\"wiki:Sea Serpent Grotto\">Sea Serpent Grotto</a>. The missive is a possible drop, not a guaranteed reward.</p><h2>How to use</h2><p>Prepare for the level-40 <a href=\"wiki:Garrison\">Garrison</a> event, then trade the missive to the eligible Conquest overseer at the <a href=\"wiki:Yuhtunga Jungle\">Yuhtunga Jungle</a> outpost (G-11). Check Garrison’s entry conditions before trading; this starts a defense battle. The item cannot be bought through the Auction House.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Sheep_Leather_Missive",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Garrison"
+      ]
+    },
+    {
+      "title": "Cavernous Maw",
+      "category": "Travel",
+      "intro": "A Wings of the Goddess portal between the present and Shadowreign era.",
+      "body_html": "<h2>First trip to the past</h2><ol><li>Use the maw in <a href=\"wiki:Batallia Downs\">Batallia Downs</a> (H-5) or <a href=\"wiki:Rolanberry Fields\">Rolanberry Fields</a> (H-6). A third starting maw is on the raised ledge in Sauromugue Champaign reached through Garlaige Citadel.</li><li>Examine the maw to start Wings of the Goddess and receive the Pure White Feather. Your first arrival can be in Batallia Downs (S), Rolanberry Fields (S) or Sauromugue Champaign (S), regardless of which entrance you used.</li><li>Before leaving the past, use a convenient maw from its past side to unlock that present-day entrance. Use this method to unlock the other routes as you explore.</li></ol><p>Maws unlocked from the past can then be used for return trips. This page covers Wings of the Goddess travel.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Cavernous_Maw",
+        "https://www.bg-wiki.com/ffxi/Cavernous_Maws_%28Mission%29"
+      ]
+    }
+  ]
+}

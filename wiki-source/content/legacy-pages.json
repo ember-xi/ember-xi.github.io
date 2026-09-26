@@ -1,0 +1,472 @@
+{
+  "getting-started": {
+    "title": "Getting Started",
+    "category": "Explore",
+    "parent": null
+  },
+  "server-rules": {
+    "title": "Server Rules & Features",
+    "category": "Explore",
+    "parent": null
+  },
+  "adventurer-log": {
+    "title": "Adventurer Log",
+    "category": "Adventure",
+    "parent": null
+  },
+  "jobs": {
+    "title": "Jobs & Equipment",
+    "category": "Jobs",
+    "parent": null
+  },
+  "equipment-quests": {
+    "title": "Equipment Quests",
+    "category": "Quests",
+    "parent": null
+  },
+  "adventurer-coupon": {
+    "title": "Adventurer Coupon",
+    "category": "Quests",
+    "parent": null
+  },
+  "records-of-eminence": {
+    "title": "Records of Eminence",
+    "category": "Adventure",
+    "parent": null
+  },
+  "missions": {
+    "title": "Missions",
+    "category": "Missions",
+    "parent": null
+  },
+  "quests": {
+    "title": "Quests",
+    "category": "Quests",
+    "parent": null
+  },
+  "travel": {
+    "title": "Travel & Exploration",
+    "category": "Travel",
+    "parent": null
+  },
+  "gate-crystals": {
+    "title": "Gate Crystals",
+    "category": "Travel",
+    "parent": null
+  },
+  "trusts": {
+    "title": "Trusts",
+    "category": "Trusts",
+    "parent": null
+  },
+  "exp-camps": {
+    "title": "EXP Camps",
+    "category": "EXP Camps",
+    "parent": null
+  },
+  "mounts": {
+    "title": "Chocobo & Mounts",
+    "category": "Travel",
+    "parent": null
+  },
+  "crafting": {
+    "title": "Crafting",
+    "category": "Reference",
+    "parent": null
+  },
+  "auction-house": {
+    "title": "Auction House",
+    "category": "Reference",
+    "parent": null
+  },
+  "daily-activities": {
+    "title": "Daily Activities",
+    "category": "Adventure",
+    "parent": null
+  },
+  "launcher": {
+    "title": "Launcher",
+    "category": "Launcher",
+    "parent": null
+  },
+  "roadmap": {
+    "title": "Development Roadmap",
+    "category": "Reference",
+    "parent": null
+  },
+  "sources": {
+    "title": "Sources",
+    "category": "Reference",
+    "parent": null
+  },
+  "update-log": {
+    "title": "Update Log",
+    "category": "Reference",
+    "parent": null
+  },
+  "warrior": {
+    "title": "Warrior",
+    "category": "Jobs",
+    "parent": "jobs"
+  },
+  "thief": {
+    "title": "Thief",
+    "category": "Jobs",
+    "parent": "jobs"
+  },
+  "thief-equipment": {
+    "title": "Thief Equipment · Levels 20–25",
+    "category": "Jobs",
+    "parent": "jobs"
+  },
+  "warrior-quests": {
+    "title": "Warrior Equipment Quests",
+    "category": "Quests",
+    "parent": "equipment-quests"
+  },
+  "thief-quests": {
+    "title": "Thief Equipment Quests",
+    "category": "Quests",
+    "parent": "equipment-quests"
+  },
+  "breakwater-crab": {
+    "title": "Breakwater Crab",
+    "category": "Quests",
+    "parent": "equipment-quests"
+  },
+  "tutorial-quests": {
+    "title": "Tutorial Quests",
+    "category": "Adventure",
+    "parent": "records-of-eminence"
+  },
+  "daily-roe": {
+    "title": "Daily RoE Objectives",
+    "category": "Adventure",
+    "parent": "records-of-eminence"
+  },
+  "sparks-essentials": {
+    "title": "Sparks Essentials",
+    "category": "Adventure",
+    "parent": "records-of-eminence"
+  },
+  "three-roads": {
+    "title": "Three Roads, One Promise",
+    "category": "Quests",
+    "parent": "quests"
+  },
+  "healers-promise": {
+    "title": "A Healer’s Promise",
+    "category": "Quests",
+    "parent": "quests"
+  },
+  "trust-san-doria": {
+    "title": "Trust: San d’Oria",
+    "category": "Trusts",
+    "parent": "trusts"
+  },
+  "trust-starting-cities": {
+    "title": "Trust Starting Cities",
+    "category": "Trusts",
+    "parent": "trusts"
+  },
+  "trust-ciphers": {
+    "title": "Trust Ciphers",
+    "category": "Trusts",
+    "parent": "trusts"
+  },
+  "summoning-trusts": {
+    "title": "Summoning Trusts",
+    "category": "Trusts",
+    "parent": "trusts"
+  },
+  "trust-recovery": {
+    "title": "Trust Combat Recovery",
+    "category": "Trusts",
+    "parent": "trusts"
+  },
+  "trust-journeys": {
+    "title": "Trust Journeys",
+    "category": "Trusts",
+    "parent": "trusts"
+  },
+  "display-settings": {
+    "title": "Display Settings",
+    "category": "Launcher",
+    "parent": "launcher"
+  },
+  "extensions": {
+    "title": "Addons, Plugins & DAT Packs",
+    "category": "Launcher",
+    "parent": "launcher"
+  },
+  "server-controls": {
+    "title": "Server Controls",
+    "category": "Launcher",
+    "parent": "launcher"
+  },
+  "chocobos-wounds": {
+    "title": "Chocobo’s Wounds",
+    "category": "Quests",
+    "parent": "mounts"
+  },
+  "road-companion": {
+    "title": "A Companion for the Road",
+    "category": "Quests",
+    "parent": "mounts"
+  },
+  "honey": {
+    "title": "Honey",
+    "category": "Items",
+    "parent": "items"
+  },
+  "an-edge-earned": {
+    "title": "An Edge Earned",
+    "category": "Quests",
+    "parent": "warrior-quests"
+  },
+  "hands-that-guard": {
+    "title": "Hands That Guard",
+    "category": "Quests",
+    "parent": "warrior-quests"
+  },
+  "stand-your-ground": {
+    "title": "Stand Your Ground",
+    "category": "Quests",
+    "parent": "warrior-quests"
+  },
+  "a-pair-of-quiet-blades": {
+    "title": "A Pair of Quiet Blades",
+    "category": "Quests",
+    "parent": "thief-quests"
+  },
+  "eyes-on-the-road": {
+    "title": "Eyes on the Road",
+    "category": "Quests",
+    "parent": "thief-quests"
+  },
+  "a-clean-recovery": {
+    "title": "A Clean Recovery",
+    "category": "Quests",
+    "parent": "thief-quests"
+  },
+  "provisions-for-the-road": {
+    "title": "Provisions for the Road",
+    "category": "Quests",
+    "parent": "three-roads"
+  },
+  "a-craftsmans-contribution": {
+    "title": "A Craftsman’s Contribution",
+    "category": "Quests",
+    "parent": "three-roads"
+  },
+  "three-nations-one-promise": {
+    "title": "Three Nations, One Promise",
+    "category": "Quests",
+    "parent": "three-roads"
+  },
+  "companions-of-the-road": {
+    "title": "Companions of the Road",
+    "category": "Quests",
+    "parent": "trust-journeys"
+  },
+  "an-adventurer-leads": {
+    "title": "An Adventurer Leads",
+    "category": "Quests",
+    "parent": "trust-journeys"
+  },
+  "camp-la-theine-plateau-10-14": {
+    "title": "La Theine Plateau · 10–14",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-valkurm-dunes-14-20": {
+    "title": "Valkurm Dunes · 14–20",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-buburimu-peninsula-15-23": {
+    "title": "Buburimu Peninsula · 15–23",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-valkurm-dunes-20-24": {
+    "title": "Valkurm Dunes · 20–24",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-qufim-island-24-30": {
+    "title": "Qufim Island · 24–30",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-eastern-altepa-desert-30-36": {
+    "title": "Eastern Altepa Desert · 30–36",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-eastern-altepa-desert-36-42": {
+    "title": "Eastern Altepa Desert · 36–42",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-crawlers-nest-38-45": {
+    "title": "Crawlers’ Nest · 38–45",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-garlaige-citadel-38-45": {
+    "title": "Garlaige Citadel · 38–45",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-western-altepa-desert-42-50": {
+    "title": "Western Altepa Desert · 42–50",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-crawlers-nest-45-52": {
+    "title": "Crawlers’ Nest · 45–52",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-western-altepa-desert-50-58": {
+    "title": "Western Altepa Desert · 50–58",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-crawlers-nest-52-60": {
+    "title": "Crawlers’ Nest · 52–60",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-the-boyahda-tree-58-66": {
+    "title": "The Boyahda Tree · 58–66",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-kuftal-tunnel-58-65": {
+    "title": "Kuftal Tunnel · 58–65",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-cape-teriggan-63-71": {
+    "title": "Cape Teriggan · 63–71",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-the-boyahda-tree-70-75": {
+    "title": "The Boyahda Tree · 70–75",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "camp-ruaun-gardens-70-75": {
+    "title": "Ru’Aun Gardens · 70–75",
+    "category": "EXP Camps",
+    "parent": "exp-camps"
+  },
+  "zone-la-theine-plateau": {
+    "title": "La Theine Plateau",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-valkurm-dunes": {
+    "title": "Valkurm Dunes",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-buburimu-peninsula": {
+    "title": "Buburimu Peninsula",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-qufim-island": {
+    "title": "Qufim Island",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-eastern-altepa-desert": {
+    "title": "Eastern Altepa Desert",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-crawlers-nest": {
+    "title": "Crawlers’ Nest",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-garlaige-citadel": {
+    "title": "Garlaige Citadel",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-western-altepa-desert": {
+    "title": "Western Altepa Desert",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-the-boyahda-tree": {
+    "title": "The Boyahda Tree",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-kuftal-tunnel": {
+    "title": "Kuftal Tunnel",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-cape-teriggan": {
+    "title": "Cape Teriggan",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "zone-ruaun-gardens": {
+    "title": "Ru’Aun Gardens",
+    "category": "Zones",
+    "parent": "zones"
+  },
+  "camp-travel-rules": {
+    "title": "Camp Travel Rules",
+    "category": "Travel",
+    "parent": "exp-camps"
+  },
+  "gysahl-greens": {
+    "title": "Gysahl Greens",
+    "category": "Items",
+    "parent": "items"
+  },
+  "gausebit-wildgrass": {
+    "title": "Gausebit Wildgrass",
+    "category": "Items",
+    "parent": "items"
+  },
+  "distilled-water": {
+    "title": "Distilled Water",
+    "category": "Items",
+    "parent": "items"
+  },
+  "market-catalog": {
+    "title": "Auction House Price Catalogue",
+    "category": "Reference",
+    "parent": "auction-house"
+  },
+  "items": {
+    "title": "Items",
+    "category": "Items",
+    "parent": null
+  },
+  "zones": {
+    "title": "Zones",
+    "category": "Zones",
+    "parent": null
+  },
+  "index": {
+    "title": "Welcome to Zenith XI",
+    "category": "Home",
+    "parent": null
+  },
+  "all-pages": {
+    "title": "All Pages",
+    "category": "Reference",
+    "parent": null
+  }
+}

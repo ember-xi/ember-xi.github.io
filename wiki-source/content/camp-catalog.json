@@ -1,0 +1,599 @@
+{
+  "books": {
+    "241": {
+      "folder": "Windurst_Woods",
+      "position": [
+        106.83,
+        -5,
+        -34.277,
+        125
+      ]
+    },
+    "235": {
+      "folder": "Bastok_Markets",
+      "position": [
+        -358.121,
+        -10.034,
+        -167.456,
+        224
+      ]
+    },
+    "103": {
+      "position": [
+        131,
+        -7.994,
+        109,
+        64
+      ],
+      "folder": "Valkurm_Dunes"
+    },
+    "118": {
+      "position": [
+        149.125,
+        -1.017,
+        -185.507,
+        117
+      ],
+      "folder": "Buburimu_Peninsula"
+    },
+    "153": {
+      "position": [
+        338.884,
+        8.421,
+        -67.876,
+        149
+      ],
+      "folder": "The_Boyahda_Tree"
+    },
+    "102": {
+      "position": [
+        -574.994,
+        -4.033,
+        661.371,
+        148
+      ],
+      "folder": "La_Theine_Plateau"
+    },
+    "114": {
+      "position": [
+        474.69,
+        -1.165,
+        -63.307,
+        66
+      ],
+      "folder": "Eastern_Altepa_Desert"
+    },
+    "130": {
+      "position": [
+        -12.436,
+        -54.158,
+        -592.972,
+        190
+      ],
+      "folder": "RuAun_Gardens"
+    },
+    "174": {
+      "position": [
+        -20.85,
+        -20.422,
+        -231.314,
+        229
+      ],
+      "folder": "Kuftal_Tunnel"
+    },
+    "126": {
+      "position": [
+        -264.5,
+        -19.969,
+        300,
+        64
+      ],
+      "folder": "Qufim_Island"
+    },
+    "230": {
+      "folder": "Southern_San_dOria",
+      "position": [
+        -88.335,
+        1,
+        -61.794,
+        224
+      ]
+    },
+    "197": {
+      "position": [
+        354.497,
+        -32.327,
+        -22.485,
+        56
+      ],
+      "folder": "Crawlers_Nest"
+    },
+    "200": {
+      "position": [
+        -377.75,
+        -6.414,
+        366.25,
+        0
+      ],
+      "folder": "Garlaige_Citadel"
+    },
+    "125": {
+      "position": [
+        -216.138,
+        -11.411,
+        104.88,
+        41
+      ],
+      "folder": "Western_Altepa_Desert"
+    },
+    "113": {
+      "position": [
+        200.843,
+        -0.253,
+        377.029,
+        70
+      ],
+      "folder": "Cape_Teriggan"
+    }
+  },
+  "cities": [
+    {
+      "folder": "Southern_San_dOria",
+      "position": [
+        -90.457,
+        1,
+        -59.672,
+        224
+      ],
+      "name": "Southern San dOria",
+      "zone": 230
+    },
+    {
+      "folder": "Bastok_Markets",
+      "position": [
+        -361.121,
+        -10.034,
+        -167.456,
+        224
+      ],
+      "name": "Bastok Markets",
+      "zone": 235
+    },
+    {
+      "folder": "Windurst_Woods",
+      "position": [
+        103.83,
+        -5,
+        -31.527,
+        125
+      ],
+      "name": "Windurst Woods",
+      "zone": 241
+    }
+  ],
+  "camps": [
+    {
+      "folder": "La_Theine_Plateau",
+      "zone": 102,
+      "low": 10,
+      "high": 14,
+      "trusts": 3,
+      "page": 2,
+      "book": 17195682,
+      "position": [
+        -576.994,
+        -4.033,
+        661.371,
+        148
+      ],
+      "training": "Field Manual",
+      "sky": false,
+      "pageLow": 11,
+      "pageHigh": 13,
+      "targets": "Mad Sheep 11-13, Akbaba 11-13",
+      "name": "La Theine Plateau",
+      "route": "Southern approach. Start with sheep and birds; avoid rams and elementals."
+    },
+    {
+      "folder": "Valkurm_Dunes",
+      "zone": 103,
+      "low": 14,
+      "high": 20,
+      "trusts": 3,
+      "page": 1,
+      "book": 17199755,
+      "position": [
+        133.164,
+        -7.463,
+        96.594,
+        149
+      ],
+      "training": "Field Manual",
+      "pageLow": 15,
+      "pageHigh": 19,
+      "targets": "Hill Lizard 15-19, Sand Hare 15-18",
+      "route": "Arrive at the native Valkurm outpost teleport point after the Travel and Quest Clarity update. Walk to the nearby Field Manual and select the listed page; watch for goblin links.",
+      "sky": false,
+      "landing": [
+        148.231,
+        -7.975,
+        93.479,
+        154
+      ],
+      "name": "Valkurm Dunes"
+    },
+    {
+      "folder": "Buburimu_Peninsula",
+      "zone": 118,
+      "low": 15,
+      "high": 23,
+      "trusts": 3,
+      "page": 1,
+      "book": 17261204,
+      "position": [
+        147.125,
+        -1.017,
+        -185.507,
+        117
+      ],
+      "training": "Field Manual",
+      "sky": false,
+      "pageLow": 15,
+      "pageHigh": 19,
+      "targets": "Sylvestre 15-19, Mighty Rarab 15-18",
+      "name": "Buburimu Peninsula",
+      "route": "Outpost-side book. Hunt mandragoras and rabbits, then move toward crawlers as you grow stronger."
+    },
+    {
+      "folder": "Valkurm_Dunes",
+      "zone": 103,
+      "low": 20,
+      "high": 24,
+      "trusts": 3,
+      "page": 3,
+      "book": 17199755,
+      "position": [
+        133.164,
+        -7.463,
+        96.594,
+        149
+      ],
+      "training": "Field Manual",
+      "pageLow": 18,
+      "pageHigh": 23,
+      "targets": "Snipper 18-22, Damselfly 20-23",
+      "route": "Arrive at the native Valkurm outpost teleport point after the Travel and Quest Clarity update. Walk to the nearby Field Manual and select the listed page; watch for goblin links.",
+      "sky": false,
+      "landing": [
+        148.231,
+        -7.975,
+        93.479,
+        154
+      ],
+      "name": "Valkurm Dunes"
+    },
+    {
+      "folder": "Qufim_Island",
+      "zone": 126,
+      "low": 24,
+      "high": 30,
+      "trusts": 3,
+      "page": 1,
+      "book": 17293787,
+      "position": [
+        -257.517,
+        -20,
+        299.657,
+        65
+      ],
+      "training": "Field Manual",
+      "pageLow": 26,
+      "pageHigh": 29,
+      "targets": "Land Worm 26-27, Clipper 28-29",
+      "route": "Arrive beside Scout and Atlas at the Qufim outpost, near the Field Manual. Hunt worms and crabs outside; avoid giants and night undead.",
+      "sky": false,
+      "landing": [
+        -262.5,
+        -20.01,
+        296,
+        192
+      ],
+      "name": "Qufim Island"
+    },
+    {
+      "folder": "Eastern_Altepa_Desert",
+      "content": "ROTZ",
+      "zone": 114,
+      "low": 30,
+      "high": 36,
+      "trusts": 3,
+      "page": 1,
+      "book": 17244657,
+      "position": [
+        472.69,
+        -1.165,
+        -63.307,
+        66
+      ],
+      "training": "Field Manual",
+      "sky": false,
+      "pageLow": 30,
+      "pageHigh": 34,
+      "targets": "Giant Spider 30-34",
+      "name": "Eastern Altepa Desert",
+      "route": "Eastern approach book. Start with giant spiders; avoid anticans and casting near elementals."
+    },
+    {
+      "folder": "Eastern_Altepa_Desert",
+      "content": "ROTZ",
+      "zone": 114,
+      "low": 36,
+      "high": 42,
+      "trusts": 4,
+      "page": 2,
+      "book": 17244657,
+      "position": [
+        472.69,
+        -1.165,
+        -63.307,
+        66
+      ],
+      "training": "Field Manual",
+      "sky": false,
+      "pageLow": 35,
+      "pageHigh": 40,
+      "targets": "Sand Beetle 36-40, Desert Dhalmel 39-44",
+      "name": "Eastern Altepa Desert",
+      "route": "Eastern approach book. Beetles first; dhalmels are the stronger option. Beware links and anticans."
+    },
+    {
+      "folder": "Crawlers_Nest",
+      "zone": 197,
+      "low": 38,
+      "high": 45,
+      "trusts": 4,
+      "page": 1,
+      "book": 17584497,
+      "position": [
+        352.497,
+        -32.817,
+        -24.485,
+        56
+      ],
+      "training": "Grounds Tome",
+      "sky": false,
+      "pageLow": 40,
+      "pageHigh": 44,
+      "targets": "Worker Crawler 40-44, Death Jacket 40-42",
+      "name": "Crawlers Nest",
+      "route": "Entrance book. Use the first crawler and bee rooms; do not head into deeper high-level sections."
+    },
+    {
+      "folder": "Garlaige_Citadel",
+      "zone": 200,
+      "low": 38,
+      "high": 45,
+      "trusts": 4,
+      "page": 2,
+      "book": 17596857,
+      "position": [
+        -377,
+        -6.118,
+        363.5,
+        0
+      ],
+      "training": "Grounds Tome",
+      "sky": false,
+      "pageLow": 40,
+      "pageHigh": 44,
+      "targets": "Siege Bat 40-43, Borer Beetle 41-44",
+      "name": "Garlaige Citadel",
+      "route": "Entrance-side book. Stay on the first map for bats and beetles; avoid falling through floor holes."
+    },
+    {
+      "folder": "Western_Altepa_Desert",
+      "content": "ROTZ",
+      "zone": 125,
+      "low": 42,
+      "high": 50,
+      "trusts": 4,
+      "page": 1,
+      "book": 17289802,
+      "position": [
+        -216.138,
+        -11.805,
+        102.13,
+        41
+      ],
+      "training": "Field Manual",
+      "sky": false,
+      "pageLow": 40,
+      "pageHigh": 45,
+      "targets": "Desert Spider 40-44, Desert Dhalmel 44-48",
+      "name": "Western Altepa Desert",
+      "route": "Central book. Spiders first, dhalmels next. The wider desert contains stronger anticans and manticores."
+    },
+    {
+      "folder": "Crawlers_Nest",
+      "zone": 197,
+      "low": 45,
+      "high": 52,
+      "trusts": 4,
+      "page": 2,
+      "book": 17584497,
+      "position": [
+        352.497,
+        -32.817,
+        -24.485,
+        56
+      ],
+      "training": "Grounds Tome",
+      "sky": false,
+      "pageLow": 45,
+      "pageHigh": 49,
+      "targets": "Nest Beetle 45-47, Soldier Crawler 47-49",
+      "name": "Crawlers Nest",
+      "route": "Start at the entrance book, then walk inward to nest beetles and soldier crawlers. Watch links."
+    },
+    {
+      "folder": "Western_Altepa_Desert",
+      "content": "ROTZ",
+      "zone": 125,
+      "low": 50,
+      "high": 58,
+      "trusts": 5,
+      "page": 4,
+      "book": 17289802,
+      "position": [
+        -216.138,
+        -11.805,
+        102.13,
+        41
+      ],
+      "training": "Field Manual",
+      "sky": false,
+      "pageLow": 51,
+      "pageHigh": 56,
+      "targets": "Goblin Welldigger 51-55, Goblin Bouncer 51-55",
+      "name": "Western Altepa Desert",
+      "route": "Central staging book. Travel outward for higher-level goblins; use caution with links and Bomb Toss."
+    },
+    {
+      "folder": "Crawlers_Nest",
+      "zone": 197,
+      "low": 52,
+      "high": 60,
+      "trusts": 5,
+      "page": 4,
+      "book": 17584497,
+      "position": [
+        352.497,
+        -32.817,
+        -24.485,
+        56
+      ],
+      "training": "Grounds Tome",
+      "sky": false,
+      "pageLow": 50,
+      "pageHigh": 54,
+      "targets": "Hornfly 51-53, Exoray 51-53, Blazer Beetle 52-54",
+      "name": "Crawlers Nest",
+      "route": "Entrance staging book. Follow the lower corridors toward flies, exorays and blazer beetles; avoid the 90+ section."
+    },
+    {
+      "folder": "The_Boyahda_Tree",
+      "content": "ROTZ",
+      "zone": 153,
+      "low": 58,
+      "high": 66,
+      "trusts": 5,
+      "page": 1,
+      "book": 17404414,
+      "position": [
+        336.884,
+        8.421,
+        -67.876,
+        149
+      ],
+      "training": "Grounds Tome",
+      "sky": false,
+      "pageLow": 60,
+      "pageHigh": 63,
+      "targets": "Bark Spider 60-63, Death Cap 60-63",
+      "name": "The Boyahda Tree",
+      "route": "Entrance book. Stay on the lower floor for spiders and mushrooms; avoid linking several together."
+    },
+    {
+      "folder": "Kuftal_Tunnel",
+      "content": "ROTZ",
+      "zone": 174,
+      "low": 58,
+      "high": 65,
+      "trusts": 5,
+      "page": 1,
+      "book": 17490326,
+      "position": [
+        -19.6,
+        -20.931,
+        -228.814,
+        229
+      ],
+      "training": "Grounds Tome",
+      "sky": false,
+      "pageLow": 60,
+      "pageHigh": 64,
+      "targets": "Robber Crab 60-63, Sand Lizard 61-64",
+      "name": "Kuftal Tunnel",
+      "route": "Desert entrance book. Use nearby crab and lizard rooms; avoid Guivre and deeper high-level targets."
+    },
+    {
+      "folder": "Cape_Teriggan",
+      "content": "ROTZ",
+      "zone": 113,
+      "low": 63,
+      "high": 71,
+      "trusts": 5,
+      "page": 1,
+      "book": 17240522,
+      "position": [
+        198.843,
+        -0.253,
+        377.029,
+        70
+      ],
+      "training": "Field Manual",
+      "sky": false,
+      "pageLow": 62,
+      "pageHigh": 66,
+      "targets": "Beach Bunny 62-65, Sand Lizard 62-66, Robber Crab 64-67",
+      "name": "Cape Teriggan",
+      "route": "Northern staging book. Travel toward the outpost/lower-level hunting area; manticores near this book are too strong for the lower end of this range."
+    },
+    {
+      "folder": "The_Boyahda_Tree",
+      "content": "ROTZ",
+      "zone": 153,
+      "low": 70,
+      "high": 75,
+      "trusts": 5,
+      "page": 5,
+      "book": 17404414,
+      "position": [
+        336.884,
+        8.421,
+        -67.876,
+        149
+      ],
+      "training": "Grounds Tome",
+      "sky": false,
+      "pageLow": 72,
+      "pageHigh": 76,
+      "targets": "Steelshell 73-76, Processionaire 72-75",
+      "name": "The Boyahda Tree",
+      "route": "Entrance staging book. Upper-floor crabs and crawlers require a walk. Bring Sneak and a healer; avoid linking."
+    },
+    {
+      "folder": "RuAun_Gardens",
+      "content": "ROTZ",
+      "zone": 130,
+      "low": 70,
+      "high": 75,
+      "trusts": 5,
+      "page": 1,
+      "book": 17310108,
+      "position": [
+        -15.186,
+        -54.159,
+        -591.972,
+        190
+      ],
+      "training": "Field Manual",
+      "sky": true,
+      "pageLow": 72,
+      "pageHigh": 76,
+      "targets": "Flamingo 72-74, Sprinkler 73-76",
+      "name": "RuAun Gardens",
+      "route": "Main entrance book. Birds and pots on the outer islands; do not cast near elementals. Story access and an earlier visit are required."
+    }
+  ]
+}

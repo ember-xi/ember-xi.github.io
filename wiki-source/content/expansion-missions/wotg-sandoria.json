@@ -1,0 +1,621 @@
+[
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-00",
+    "slug": "quest-wotg-sandoria-00",
+    "title": "Steamed Rams",
+    "requirements": [
+      "Access the Crystal War through Cavernous Maws.",
+      "For a first enlistment, obtain the Red recommendation letter from Randecque at Garlaige Citadel (S), I-6 on map 2.",
+      "Do not have another nation’s recruitment quest currently active."
+    ],
+    "start": {
+      "npc": "Mainchelite",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "I-9"
+    },
+    "steps": [
+      "Speak to Mainchelite and accept the investigation. First-time recruits surrender the Red recommendation letter.",
+      "In East Ronfaure (S), examine the ??? at southeast H-8 in the dirt for the Charred propeller.",
+      "Examine the waterfall ??? at I-8 where the river divides for the Oxidized plate, and the ??? beside a tree/bush in northwest J-7 for the Piece of shattered lumber.",
+      "Return to Mainchelite with all three key items to finish enlistment."
+    ],
+    "notes": [
+      "This quest sets Campaign allegiance to San d’Oria. Completing any one nation’s recruitment permits the later national story quests; changing allegiance is unnecessary just to follow the Griffon story."
+    ],
+    "reward": "Title: Knight of the Iron Ram. First-time enlistment also awards Sprinter’s Shoes and Bronze Ribbon of Service.",
+    "unlocks": [
+      "Campaign enlistment",
+      "Gifts of the Griffon"
+    ],
+    "zones": [
+      "Garlaige Citadel (S)",
+      "Southern San d'Oria (S)",
+      "East Ronfaure (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Steamed_Rams",
+        "label": "BG Wiki: Steamed Rams"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_0_Steamed_Rams.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "reference-not-live-tested",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-01",
+    "slug": "quest-wotg-sandoria-01",
+    "title": "Gifts of the Griffon",
+    "requirements": [
+      "Finish Steamed Rams, The Fighting Fourth, or Snake on the Plains.",
+      "Have inventory space for seven Plumes d’Or."
+    ],
+    "start": {
+      "npc": "Louxiard",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "G-7"
+    },
+    "steps": [
+      "Speak to Louxiard. Leave Southern San d’Oria (S), return, and speak to him again.",
+      "Speak to Rholont at E-7 to accept the delivery task and receive seven Plumes d’Or.",
+      "Trade one plume each to Machionage C-6, Louxiard G-7, Illeuse H-9, Rongelouts N Distaud I-9, Sabiliont I-11, Elnonde K-9 and Loillie K-9.",
+      "Reach Loillie’s upper ledge using the stairs at L-8. After all seven deliveries, return to Rholont for the reward."
+    ],
+    "notes": [
+      "You can do this story while allied to Bastok or Windurst. Preserve the plumes; native replacement of lost plumes can require a Conquest-tally wait."
+    ],
+    "reward": "Deathstone.",
+    "unlocks": [
+      "Claws of the Griffon after the next Vana’diel day"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Gifts_of_the_Griffon",
+        "label": "BG Wiki: Gifts of the Griffon"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_1_Gifts_of_the_Griffon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "reference-not-live-tested",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-02",
+    "slug": "quest-wotg-sandoria-02",
+    "title": "Claws of the Griffon",
+    "requirements": [
+      "Complete Gifts of the Griffon and wait until the next Vana’diel day."
+    ],
+    "start": {
+      "npc": "Rholont",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "E-7"
+    },
+    "steps": [
+      "Speak to Rholont to begin. Leave the zone, return and speak to him again for the follow-up dialogue.",
+      "Walk into Jugner Forest (S) specifically from East Ronfaure (S) for the required arrival scene.",
+      "Examine the tree-stump ??? at I-6 for a scene. Prepare for battle, then examine it again to spawn Fingerfilcher Dradzad.",
+      "Defeat the Orc and examine the ??? again to finish. For WotG progression, return to an eligible Jeuno-area Cavernous Maw to activate Cait Sith."
+    ],
+    "notes": [
+      "Other routes into Jugner do not set this arrival flag. Fingerfilcher Dradzad cannot be slept."
+    ],
+    "reward": "Angelstone.",
+    "unlocks": [
+      "Cait Sith mission progression",
+      "Boy and the Beast after the Cait Sith introduction"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "East Ronfaure (S)",
+      "Jugner Forest (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Claws_of_the_Griffon",
+        "label": "BG Wiki: Claws of the Griffon"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_2_Claws_of_the_Griffon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "reference-not-live-tested",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-03",
+    "slug": "quest-wotg-sandoria-03",
+    "title": "Boy and the Beast",
+    "requirements": [
+      "Complete Claws of the Griffon and the Back to the Beginning mission; Cait Sith should be active or later."
+    ],
+    "start": {
+      "npc": "Raustigne",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Speak to Raustigne at I-7, then Rholont at E-7.",
+      "In Vunkerl Inlet (S), examine the ??? north of the bridge at H-6 for the Vunkerl Herb Memo and quest acceptance.",
+      "At Ludiwa Spring F-5, examine the Leafy Patch. Choose the color matching the Vana’diel time when picking: red 00:00–07:59, blue 08:00–15:59, green 16:00–23:59.",
+      "Return to the H-6 ??? with the herb. A correctly picked herb completes the quest; if rejected, collect the correct replacement."
+    ],
+    "notes": [
+      "The picking time determines the correct color; delivery time does not. No battle is required."
+    ],
+    "reward": "Carbon Fishing Rod.",
+    "unlocks": [
+      "Wrath of the Griffon"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "Vunkerl Inlet (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Boy_and_the_Beast",
+        "label": "FFXIclopedia: Boy and the Beast"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_3_Boy_and_the_Beast.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "reference-not-live-tested",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-04",
+    "slug": "quest-wotg-sandoria-04",
+    "title": "Wrath of the Griffon",
+    "requirements": [
+      "Complete Boy and the Beast."
+    ],
+    "start": {
+      "npc": "Rholont",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "E-7"
+    },
+    "steps": [
+      "Speak to Rholont for the rescue assignment.",
+      "Reach the ??? under the wooden structure at H-10 in Jugner Forest (S). Examine it for a scene, prepare, and examine it again to spawn Cobraclaw Buchzvotch.",
+      "Defeat Cobraclaw Buchzvotch and re-examine the ??? for the rescue scene.",
+      "Report to Rholont in Southern San d’Oria (S). If desired, take the Military Scrip to Wyatt for its gil payment."
+    ],
+    "notes": [
+      "To continue WotG’s main story, enter Southern San d’Oria (S) on foot from East Ronfaure (S) after completing this quest."
+    ],
+    "reward": "Military Scrip; native redemption at Wyatt pays 20,147 gil.",
+    "unlocks": [
+      "The Queen of the Dance progression",
+      "Perils of the Griffon after Purple, The New Black"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "Jugner Forest (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Wrath_of_the_Griffon",
+        "label": "FFXIclopedia: Wrath of the Griffon"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_4_Wrath_of_the_Griffon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "reference-not-live-tested",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-05",
+    "slug": "quest-wotg-sandoria-05",
+    "title": "Perils of the Griffon",
+    "requirements": [
+      "Complete Wrath of the Griffon and WotG Mission 7, Purple, The New Black.",
+      "After Wrath, leave the zone and wait until the next Vana’diel day."
+    ],
+    "start": {
+      "npc": "Rholont",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "E-7"
+    },
+    "steps": [
+      "Speak to Rholont for the opening scene. Leave and re-enter the zone, then speak to him for the follow-up.",
+      "Speak to Daigraffeaux at I-11, near the chocobo stables. Return to Rholont for the assignment.",
+      "Examine the tree-stump ??? at Jugner Forest (S) I-6, east of the river, to obtain the Orcish warmachine body.",
+      "Return to Rholont and finish the conversation for the reward."
+    ],
+    "notes": [
+      "This is a collection/story step; no new NM fight is required."
+    ],
+    "reward": "Elixir; title: Knight of the Swiftwing Griffin.",
+    "unlocks": [
+      "In a Haze of Glory"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "Jugner Forest (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Perils_of_the_Griffon",
+        "label": "BG Wiki: Perils of the Griffon"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_5_Perils_of_the_Griffon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "reference-not-live-tested",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-06",
+    "slug": "quest-wotg-sandoria-06",
+    "title": "In a Haze of Glory",
+    "requirements": [
+      "Complete Perils of the Griffon.",
+      "Receive the Number eight shelter key from Diordinne."
+    ],
+    "start": {
+      "npc": "Diordinne",
+      "zone": "Garlaige Citadel (S)",
+      "grid": "I-6, map 1"
+    },
+    "steps": [
+      "Speak to Diordinne at I-6 on Garlaige Citadel (S) map 1 and finish the scene to receive the shelter key.",
+      "Reach the Wooden Crates at H-9 on map 2. Examine them for the preparation scene, then have the party leader use them to enter the quest battlefield.",
+      "In Ghoyu’s Reverie, follow the map 15 route south toward H-10, using the western walls after the first ramp. Destroy the Orcish Turret within 30 minutes; clearing every enemy is unnecessary.",
+      "Watch the return scene. Speak to Rholont in Southern San d’Oria (S) at E-7 between 18:00 and 23:59 Vana’diel time to finish."
+    ],
+    "notes": [
+      "Poison devices make status cures useful. The reference retry route is to speak to Diordinne after failure and return after the next Vana’diel day for a replacement key."
+    ],
+    "reward": "Fullmetal Bullet.",
+    "unlocks": [
+      "In the Name of the Father progression",
+      "The Price of Valor after A Nation on the Brink"
+    ],
+    "zones": [
+      "Garlaige Citadel (S)",
+      "Ghoyu's Reverie",
+      "Southern San d'Oria (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/In_a_Haze_of_Glory",
+        "label": "BG Wiki: In a Haze of Glory"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_6_In_a_Haze_of_Glory.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "incomplete-reference",
+    "availability_note": "Reference route: the pinned native quest explicitly awaits its Ghoyu’s Reverie instance implementation. The inspected tree contains only the doomvoid instance for that zone. Battlefield entry/completion is not established for the reviewed Zenith base; this is a known progression gap, not a confirmed playable guide.",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-07",
+    "slug": "quest-wotg-sandoria-07",
+    "title": "The Price of Valor",
+    "requirements": [
+      "Complete In a Haze of Glory, leave the zone and wait until the next Vana’diel day.",
+      "For the intended story order, finish A Nation on the Brink and reach Crossroads of Time.",
+      "Bring multiple Hatchets for logging."
+    ],
+    "start": {
+      "npc": "Rholont",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "E-7"
+    },
+    "steps": [
+      "Speak to Rholont. Examine the nearby Tree Hollow for Long-life biscuits and the Well to the east for Flask of Kingdom water.",
+      "Log in East Ronfaure (S) using Hatchets until you receive Ronfaure maple syrup. Return with all three key items to Rholont for Biscuit a la Rholont.",
+      "Examine Felled Trees at western G-7 in Jugner Forest (S). In Vunkerl Inlet (S), examine Toppled Cresset I-8, then Toppled Cresset at F-8/F-9.",
+      "Examine Underbrush at northeast F-13 for its scene, then again to spawn Madthrasher Zradbodd. Defeat it and immediately re-examine Underbrush before leaving the zone.",
+      "Examine Shimmering Pondweed at northwest G-6 in Pashhow Marshlands (S) to finish."
+    ],
+    "notes": [
+      "Madthrasher uses strong elemental and area spells. The native quest’s acceptance check omits the intended Crossroads gate; that omission is not a reason to skip the story order."
+    ],
+    "reward": "Peiste Skin.",
+    "unlocks": [
+      "Bonds That Never Die"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "East Ronfaure (S)",
+      "Jugner Forest (S)",
+      "Vunkerl Inlet (S)",
+      "Pashhow Marshlands (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/The_Price_of_Valor",
+        "label": "BG Wiki: The Price of Valor"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_7_The_Price_of_Valor.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "reference-not-live-tested",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-08",
+    "slug": "quest-wotg-sandoria-08",
+    "title": "Bonds That Never Die",
+    "requirements": [
+      "Complete The Price of Valor.",
+      "Bring Hatchets and leave inventory space for the quest’s supplied hatchet."
+    ],
+    "start": {
+      "npc": "Rholont",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "E-7"
+    },
+    "steps": [
+      "Speak to Rholont for Letter to Count Aurchiat, then examine Shimmering Pondweed at Pashhow Marshlands (S) G-6.",
+      "In Jugner Forest (S), examine Overgrown Mushrooms beside the F-10 path. Receive the hatchet before continuing.",
+      "Use Hatchets at Jugner Forest (S) Logging Points until you receive Length of Jugner Ivy. Return to the Overgrown Mushrooms for another scene.",
+      "Examine Mossy Stump at southeast F-7 for its scene, then again to enter the Young Behemoth battlefield.",
+      "Defeat Young Behemoth, finish the return scene and report to Rongelouts N Distaud at Southern San d’Oria (S) I-9."
+    ],
+    "notes": [
+      "The reference battle allows six participants and 30 minutes. Failed attempts require a new Length of Jugner Ivy; logging success is not guaranteed on the first attempt."
+    ],
+    "reward": "Behemoth Horn; reference title: Honorary Knight of the Cardinal Stag.",
+    "unlocks": [
+      "Crossroads of Time progression",
+      "Songbirds in a Snowstorm after The Will of the World"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "Pashhow Marshlands (S)",
+      "Jugner Forest (S)",
+      "Everbloom Hollow"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Bonds_That_Never_Die",
+        "label": "BG Wiki: Bonds That Never Die"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_8_Bonds_That_Never_Die.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "incomplete-reference",
+    "availability_note": "Reference route: the native quest contains post-instance handlers, but the pinned Everbloom Hollow tree has only the doomvoid instance. The Young Behemoth mission instance was not present in the inspected base; completion on Zenith is not confirmed.",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-09",
+    "slug": "quest-wotg-sandoria-09",
+    "title": "Songbirds in a Snowstorm",
+    "requirements": [
+      "Complete Bonds That Never Die, leave the zone and wait until the next Vana’diel day.",
+      "Complete The Will of the World so Fate in Haze is active or later.",
+      "Bring a fishing rod, a Flint Stone and inventory room for bait."
+    ],
+    "start": {
+      "npc": "Rholont",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "E-7"
+    },
+    "steps": [
+      "Speak to Rholont, then Daigraffeaux at I-11. Enter Beaucedine Glacier (S) for the arrival scene.",
+      "Examine Colossal Footprint behind the I-7 tower. At the G-10 lake, examine Rocky Perch repeatedly for several Goliath Worms.",
+      "Equip your rod and Goliath Worm bait. Fish up the key items: Paladin Lobster at G-10, Scutum Crab at J-7 and Lance Fish at H-9.",
+      "Return to Colossal Footprint. Trade the Flint Stone to Charred Firewood immediately north of the I-7 tower, two terrain levels above it.",
+      "Examine Compressed Snow by the H-10 tower for a scene, then again to spawn Orcish Bloodletter. Defeat it and re-examine the snow for the ending."
+    ],
+    "notes": [
+      "The quest fishing targets are key items. Extra worms cover unsuccessful attempts."
+    ],
+    "reward": "Icarus Wing.",
+    "unlocks": [
+      "Blood of Heroes"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "Beaucedine Glacier (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Songbirds_in_a_Snowstorm",
+        "label": "BG Wiki: Songbirds in a Snowstorm"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_9_Songbirds_in_a_Snowstorm.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "incomplete-reference",
+    "availability_note": "The pinned quest marks Orcish Bloodletter as awaiting verification/implementation and deliberately assigns an excessively high level. Treat the fight as an unresolved base-server issue; a normal level-75 clear is not promised.",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-10",
+    "slug": "quest-wotg-sandoria-10",
+    "title": "Blood of Heroes",
+    "requirements": [
+      "Complete Songbirds in a Snowstorm.",
+      "Receive Vial of military prism powder before entering the battlefield."
+    ],
+    "start": {
+      "npc": "Animal Spoor",
+      "zone": "Xarcabard (S)",
+      "grid": "J-9"
+    },
+    "steps": [
+      "Examine Animal Spoor at J-9 in Xarcabard (S), near the Beaucedine entrance.",
+      "Examine Wheel Rut in the southern I-9 dead-end tunnel. Return to Animal Spoor to receive the military prism powder.",
+      "Examine Forbidding Portal at northwest I-7 for the scene, then again to enter Blood of Heroes.",
+      "Keep allied Excenmille alive. Defeat Kingslayer Doggvdegg to win; the field also contains Gherrmoga, two Bloodwing Deathrainers and four Bloodwing Maimers. Control the additional enemies while protecting Excenmille.",
+      "After the return scene, examine Wheel Rut at I-9 to complete the quest."
+    ],
+    "notes": [
+      "Reference retry: obtain another powder from Animal Spoor on the next Vana’diel day. Excenmille’s death fails the battle."
+    ],
+    "reward": "Ram Staff; title: House Aurchiat Retainer.",
+    "unlocks": [
+      "Fate in Haze progression",
+      "Chasing Shadows after Darkness Descends"
+    ],
+    "zones": [
+      "Xarcabard (S)",
+      "Ghoyu's Reverie"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Blood_of_Heroes",
+        "label": "BG Wiki: Blood of Heroes"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_10_Blood_of_Heroes.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "incomplete-reference",
+    "availability_note": "Reference route: native Forbidding Portal entry and victory handling explicitly await implementation of the quest instance. No matching Ghoyu’s Reverie instance exists in the inspected pinned tree; this is an unresolved progression blocker.",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-11",
+    "slug": "quest-wotg-sandoria-11",
+    "title": "Chasing Shadows",
+    "requirements": [
+      "Complete Blood of Heroes and wait until the next Vana’diel day.",
+      "For the intended story order, complete Darkness Descends and reach Adieu, Lilisette.",
+      "Keep an inventory slot free for the reward."
+    ],
+    "start": {
+      "npc": "Rongelouts N Distaud",
+      "zone": "Southern San d'Oria (S)",
+      "grid": "I-9"
+    },
+    "steps": [
+      "Speak to Rongelouts N Distaud. Walk into Xarcabard (S) from Beaucedine Glacier (S) for the scene.",
+      "Examine, in order: Backfilled Pit F-8, Compact Footprint at the southern H-8 edge, Sunken Footprint near H-6/H-7, then Compact Footprint again.",
+      "Walk into Batallia Downs (S) from Beaucedine Glacier (S). Examine Fresh Snowmelt beside the H-5 Cavernous Maw for its scene.",
+      "Prepare, then examine Fresh Snowmelt again to fight Menechme alongside Excenmille. After victory, re-examine it for the reward and transport to present-day Batallia Downs."
+    ],
+    "notes": [
+      "The specified zone-line entries matter; direct teleport arrival does not replace them. Face of the Future is automatically accepted after the ending.",
+      "The base quest omits the intended Adieu mission gate, and its predecessor’s timer assignment needs correction; follow the intended order above."
+    ],
+    "reward": "Darksteel Sheet.",
+    "unlocks": [
+      "Face of the Future"
+    ],
+    "zones": [
+      "Southern San d'Oria (S)",
+      "Beaucedine Glacier (S)",
+      "Xarcabard (S)",
+      "Batallia Downs (S)",
+      "Batallia Downs"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Chasing_Shadows",
+        "label": "FFXIclopedia: Chasing Shadows"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_11_Chasing_Shadows.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "incomplete-reference",
+    "availability_note": "The pinned implementation explicitly uses a level-150 placeholder Menechme and does not spawn allied Excenmille. This encounter requires server work before it can be presented as a normal level-75 story fight.",
+    "sequence_group": "past-sandoria"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "S-12",
+    "slug": "quest-wotg-sandoria-12",
+    "title": "Face of the Future",
+    "requirements": [
+      "Complete Chasing Shadows; this quest is accepted automatically.",
+      "Unlock the Batallia Downs Cavernous Maw from its past side before the final scene."
+    ],
+    "start": {
+      "npc": "Bostillette / arrival scene",
+      "zone": "Batallia Downs"
+    },
+    "steps": [
+      "From present-day Batallia Downs, walk into present-day Jugner Forest. Examine Metallic Hodgepodge near the F-9/G-9 border.",
+      "Enter Ghelsba Outpost for the preparation scene. Obtain Orcish infiltration kit; Clandestine Marking at I-10 supplies replacements when needed.",
+      "Reach Yughott Grotto map 1 and examine Scrape Mark at G-9 for the scene, then again to enter Face of the Future.",
+      "Defeat Fangmonger Colossus while keeping allied Excenmille, Maxcimille and Bostillette alive. Removing Tombstones weakens the Colossus; losing an ally fails the encounter.",
+      "After the battle and return scenes, examine the unlocked Cavernous Maw at Batallia Downs H-5. Finish the closing scenes and receive the Griffon Ring in the past."
+    ],
+    "notes": [
+      "This route deliberately returns to present-day zones. The reference battlefield lasts 30 minutes. Keep inventory space for the ring."
+    ],
+    "reward": "Griffon Ring; title: Fangmonger Forestaller.",
+    "unlocks": [
+      "Adieu, Lilisette progression",
+      "San d’Oria’s Crystal War story conclusion"
+    ],
+    "zones": [
+      "Batallia Downs",
+      "Jugner Forest",
+      "Ghelsba Outpost",
+      "Yughott Grotto",
+      "Everbloom Hollow",
+      "Batallia Downs (S)",
+      "Xarcabard (S)"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Face_of_the_Future",
+        "label": "BG Wiki: Face of the Future"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_SAN_12_Face_of_the_Future.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "implementation_status": "incomplete-reference",
+    "availability_note": "Reference route: the native quest defines story flags and an assumed completion handler, but the inspected Everbloom Hollow tree contains only doomvoid. The Face of the Future instance is absent from that pinned base; completion is not confirmed.",
+    "sequence_group": "past-sandoria"
+  }
+]

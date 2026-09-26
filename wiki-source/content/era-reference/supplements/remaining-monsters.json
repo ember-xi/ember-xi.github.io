@@ -1,0 +1,189 @@
+{
+  "articles": [
+    {
+      "title": "Zi'Ghi Boneeater",
+      "category": "Monsters",
+      "intro": "A Paladin Quadav notorious monster in Palborough Mines, around level 15–16.",
+      "body_html": "<h2>Find and defeat</h2><ol><li>Reach the third floor of <a href=\"wiki:Palborough Mines\">Palborough Mines</a> and the east side of the H-shaped room around H-7/H-8.</li><li>Defeat the Veteran Quadav in the Onyx/Veteran/Greater Quadav group. This is a lottery spawn; killing the placeholder does not guarantee the NM. The traditional minimum window is one hour after the previous defeat.</li><li>Expect Banish and Invincible. Save physical weapon skills until Invincible ends; isolate it from nearby Quadav.</li></ol><h2>Notable loot</h2><p><a href=\"wiki:Braveheart\">Braveheart</a> and <a href=\"wiki:Coarse Gauntlets\">Coarse Gauntlets</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zi%27Ghi_Boneeater"
+      ]
+    },
+    {
+      "title": "Zhuu Buxu the Silent",
+      "category": "Monsters",
+      "intro": "Two era versions share this Ninja Yagudo name: a low-level mission target in Giddeus and a stronger NM in Castle Oztroja (S).",
+      "body_html": "<h2>Giddeus: Parana Shield</h2><ol><li>In <a href=\"wiki:Giddeus\">Giddeus</a>, drop to the lower map through the hole near G-8, then head north toward G/H-7 on map 2.</li><li>Defeat the level-16 NM and collect <a href=\"wiki:Parana Shield\">Parana Shield</a>. The shield is used in <a href=\"wiki:Journey Abroad\">Journey Abroad</a> when Windurst is the first foreign nation visited.</li><li>Keep HP topped up for Mijin Gakure. If absent, wait for its timed respawn; classic guides list ten minutes, while later retail reduced this to five.</li></ol><h2>Castle Oztroja (S)</h2><p>The level-80–84 version is a lottery from Yagudo Sentinels near H-10 on the first map. Possible rewards are <a href=\"wiki:Sangoma Lappa\">Sangoma Lappa</a> and <a href=\"wiki:Yagudo Kote\">Yagudo Kote</a>. Pull it clear of the hallway to avoid additional Yagudo; prepare for Mijin Gakure.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zhuu_Buxu_the_Silent",
+        "https://classicffxi.fandom.com/wiki/Journey_Abroad"
+      ]
+    },
+    {
+      "title": "Zo'Khu Blackcloud",
+      "category": "Monsters",
+      "intro": "A Black Mage Quadav NM, level 36–38, in Beadeaux.",
+      "body_html": "<h2>Find and defeat</h2><ol><li>Go to the upper level of <a href=\"wiki:Beadeaux\">Beadeaux</a> around E-11/F-11.</li><li>Kill the Zircon Quadav placeholder and watch subsequent respawns. The classic lottery window opens after about one hour; later retail shortened this, so do not apply the retail timer to an era server without checking.</li><li>The NM uses Manafont. Interrupt dangerous spells and keep nearby Quadav out of the fight.</li></ol><h2>Notable loot</h2><p><a href=\"wiki:Marine Hat\">Marine Hat</a> and <a href=\"wiki:Faerie Shield\">Faerie Shield</a>.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zo%27Khu_Blackcloud",
+        "https://ffxiclopedia.fandom.com/wiki/Zo%27Khu_Blackcloud"
+      ]
+    },
+    {
+      "title": "Ziphius",
+      "category": "Monsters",
+      "intro": "A forced-spawn Pugil NM in Misareaux Coast that can drop Hospitaler Earring.",
+      "body_html": "<h2>Spawn steps</h2><ol><li>Bring six <a href=\"wiki:Slice of Carp\">Slice of Carp</a> to the Rafelous River in <a href=\"wiki:Misareaux Coast\">Misareaux Coast</a>. Five ??? points are near H-5; the sixth is farther away near I-6.</li><li>Bait the points at night. They appear from 22:00; trading before midnight is a safe common window across the source descriptions.</li><li>Between 04:00 and 07:00, examine the baited points. Each check has a chance to produce Ziphius; the bait does not guarantee a spawn.</li><li>Defeat it for a chance at <a href=\"wiki:Hospitaler Earring\">Hospitaler Earring</a>. Its hits have additional water damage.</li></ol><p>The ??? disappear at 07:00. If the traps fail, bring fresh bait for another night.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Ziphius",
+        "https://www.bg-wiki.com/ffxi/Hospitaler_Earring"
+      ]
+    },
+    {
+      "title": "Zuug the Shoreleaper",
+      "category": "Monsters",
+      "intro": "A level-70 Dragoon Sahagin NM in Sea Serpent Grotto, hunted for Narval.",
+      "body_html": "<h2>Where and how</h2><ol><li>Enter <a href=\"wiki:Sea Serpent Grotto\">Sea Serpent Grotto</a> and pass the door opened with a <a href=\"wiki:Gold Beastcoin\">Gold Beastcoin</a>.</li><li>Search the area around F-10. The Sahagin reference lists a timed spawn after at least two hours.</li><li>Prepare for its accompanying <a href=\"wiki:Sahagin&#x27;s Wyvern\">Sahagin&#x27;s Wyvern</a> and nearby Sahagin links.</li></ol><h2>Notable loot</h2><p><a href=\"wiki:Narval\">Narval</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Sahagin",
+        "https://ffxiclopedia.fandom.com/wiki/Sahagin%27s_Wyvern"
+      ]
+    },
+    {
+      "title": "Zipacna",
+      "category": "Monsters",
+      "intro": "A roaming level-83–85 Golem NM in Sky, and a source of Gem of the North.",
+      "body_html": "<h2>Find and defeat</h2><ol><li>Complete <a href=\"wiki:The Hall of the Gods\">The Hall of the Gods</a> access requirements for Sky, then enter <a href=\"wiki:Ve&#x27;Lugannon Palace\">Ve&#x27;Lugannon Palace</a> through the northern entrances from <a href=\"wiki:Ru&#x27;Aun Gardens\">Ru&#x27;Aun Gardens</a>.</li><li>Search the northern route between E-3 and K-3, including the attached lower loops. Open and closed doors affect the patrol route.</li><li>Zipacna is a timed spawn; classic references give a multi-hour window. It moves quickly and can use a TP attack immediately on being pulled.</li><li>Keep support away from Crystal Rain and prepare for repeated Crystal Weapon attacks.</li></ol><h2>Notable loot</h2><p><a href=\"wiki:Gem of the North\">Gem of the North</a> for <a href=\"wiki:Genbu\">Genbu</a>, <a href=\"wiki:Oblation Abjuration\">Oblation Abjuration</a>, and <a href=\"wiki:Ushikirimaru\">Ushikirimaru</a>.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zipacna",
+        "https://horizonffxi.wiki/Zipacna"
+      ]
+    },
+    {
+      "title": "Zoraal Ja's Pkuucha",
+      "category": "Monsters",
+      "intro": "A level-75 Colibri NM in Wajaom Woodlands with an additional Beastmaster opponent during the fight.",
+      "body_html": "<h2>Spawn and battle</h2><ol><li>Defeat Lesser Colibri near I-9 in <a href=\"wiki:Wajaom Woodlands\">Wajaom Woodlands</a> to seek its lottery spawn.</li><li>Damage Pkuucha until <a href=\"wiki:Percipient Zoraal Ja\">Percipient Zoraal Ja</a> appears. The bird recovers its HP when its master arrives.</li><li>Defeat Percipient Zoraal Ja first: he heals the bird, and the bird cannot be finished while he remains alive.</li><li>Resume attacking the bird. Paralyze, Slow and Bind are useful; do not depend on Sleep, Silence or Gravity.</li></ol><h2>Notable loot</h2><p><a href=\"wiki:Zoraal Ja&#x27;s Axe\">Zoraal Ja&#x27;s Axe</a> and <a href=\"wiki:Fowling Earring\">Fowling Earring</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zoraal_Ja%27s_Pkuucha"
+      ]
+    },
+    {
+      "title": "Zizzy Zillah",
+      "category": "Monsters",
+      "intro": "A hard-hitting Cockatrice NM in Mamook, around level 79.",
+      "body_html": "<h2>Find and defeat</h2><ol><li>Hunt <a href=\"wiki:Ziz\">Ziz</a> around I-9 in <a href=\"wiki:Mamook\">Mamook</a> for a chance at this lottery NM.</li><li>Expect frequent Cockatrice TP moves and heavy physical damage. Bring a way to remove petrification.</li><li>Do not depend on Sleep; Bind and Gravity can work for controlling its movement.</li></ol><h2>Notable loot</h2><p><a href=\"wiki:Fencing Bracers\">Fencing Bracers</a>, <a href=\"wiki:Namikirimaru\">Namikirimaru</a>, and <a href=\"wiki:Ziz Meat\">Ziz Meat</a>.</p><p>A separate Nyzul Isle version can appear on floors 21–39. Its appraisal crate can contain a ??? Sword; see <a href=\"wiki:Nyzul Isle\">Nyzul Isle</a> for that reward system.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zizzy_Zillah"
+      ]
+    },
+    {
+      "title": "Zu",
+      "category": "Monsters",
+      "intro": "Ordinary level-20–23 Birds in Buburimu Peninsula.",
+      "body_html": "<h2>Where and drops</h2><p>Find them outdoors in <a href=\"wiki:Buburimu Peninsula\">Buburimu Peninsula</a>. They are regular spawns, with no trigger item or quest required. They can link with nearby Zu, so pull one away from the group.</p><ul><li>Drops: <a href=\"wiki:Bird Egg\">Bird Egg</a> and <a href=\"wiki:Bird Feather\">Bird Feather</a>.</li><li>Steal: Bird Feather.</li><li>Crystal: Fire; elemental weakness: Ice.</li></ul>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zu"
+      ]
+    },
+    {
+      "title": "Zircon Quadav",
+      "category": "Monsters",
+      "intro": "Black Mage Quadav found in present-day and past areas.",
+      "body_html": "<h2>Locations and useful drops</h2><table><thead><tr><th>Area</th><th>Level</th><th>Useful information</th></tr></thead><tbody><tr><td><a href=\"wiki:Rolanberry Fields\">Rolanberry Fields</a></td><td>30–36</td><td>Gil; Silver Beastcoin can be stolen.</td></tr><tr><td><a href=\"wiki:Beadeaux\">Beadeaux</a></td><td>34–38</td><td>Silver Engraving, Wool Hat and Wool Cuffs are listed drops.</td></tr><tr><td><a href=\"wiki:Pashhow Marshlands (S)\">Pashhow Marshlands (S)</a></td><td>71–74</td><td>Higher-level past-area version.</td></tr></tbody></table><p>These are normal spawns that detect sound and link. Interrupt or silence their spells when possible. One upper-floor Beadeaux spawn is the placeholder for <a href=\"wiki:Zo&#x27;Khu Blackcloud\">Zo&#x27;Khu Blackcloud</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zircon_Quadav",
+        "https://www.bg-wiki.com/ffxi/Zo%27Khu_Blackcloud"
+      ]
+    },
+    {
+      "title": "Ziz",
+      "category": "Monsters",
+      "intro": "Cockatrices found in Mamook, Nyzul Isle and the original Zhayolm Remnants.",
+      "body_html": "<h2>Locations and rewards</h2><ul><li><a href=\"wiki:Mamook\">Mamook</a>: level 76–78 regular monsters. Drops include <a href=\"wiki:Giant Bird Feather\">Giant Bird Feather</a> and <a href=\"wiki:Ziz Meat\">Ziz Meat</a>. The group near I-9 can produce <a href=\"wiki:Zizzy Zillah\">Zizzy Zillah</a>.</li><li><a href=\"wiki:Nyzul Isle\">Nyzul Isle</a>: appear as normal floor enemies; Giant Bird Feather and Ziz Meat are listed.</li><li><a href=\"wiki:Zhayolm Remnants\">Zhayolm Remnants</a>: the original Salvage version can drop <a href=\"wiki:Praecipitatio Cell\">Praecipitatio Cell</a>. Follow the floor route for cell distribution.</li></ul><p>They detect by sight. Bring petrification removal for Cockatrice attacks and pull clear of nearby monsters.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Ziz",
+        "https://ffxiclopedia.fandom.com/wiki/Zizzy_Zillah"
+      ]
+    },
+    {
+      "title": "Zephyr",
+      "category": "Items",
+      "intro": "A level-72 throwing ammunition item associated with Sky battles.",
+      "body_html": "<h2>Obtain and use</h2><ol><li>Defeat <a href=\"wiki:Byakko\">Byakko</a> in <a href=\"wiki:Ru&#x27;Aun Gardens\">Ru&#x27;Aun Gardens</a> to obtain Zephyr.</li><li>Equip it in the ammo slot. It has DMG 250 and Delay 276.</li><li>Its special Sky use is a successful ranged hit against <a href=\"wiki:Seiryu\">Seiryu</a> to remove his additional elemental damage effect. It is consumed when thrown.</li></ol>",
+      "source_urls": [
+        "https://www.ffxiah.com/item/18163/",
+        "https://ff11db.sakura.ne.jp/database/buki/touteki/rdm.html"
+      ]
+    },
+    {
+      "title": "Zhayolm Apkallu",
+      "category": "Monsters",
+      "intro": "Level-70–74 Apkallu on Zazalda Island in Mount Zhayolm.",
+      "body_html": "<h2>Where and rewards</h2><p>Look around the L-6 area of <a href=\"wiki:Mount Zhayolm\">Mount Zhayolm</a>. Normal drops include <a href=\"wiki:Apkallu Egg\">Apkallu Egg</a> and <a href=\"wiki:Apkallu Feather\">Apkallu Feather</a>.</p><h2>Battle notes</h2><ul><li>Repeated kills raise shared Apkallu hostility in the zone. Their resistance, aggression and tendency to link can increase.</li><li>Turn your character away when Yawn or Frigid Shuffle begins to avoid the gaze effect.</li><li>At low HP they may run toward another Apkallu. Bind or Gravity can prevent a chase and extra links.</li><li>Blue Mages can use Apkallu for <a href=\"wiki:Yawn\">Yawn</a> learning; see the spell page for learning requirements.</li></ul>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zhayolm_Apkallu",
+        "https://ffxiclopedia.fandom.com/wiki/Yawn"
+      ]
+    },
+    {
+      "title": "Zombie",
+      "category": "Monsters",
+      "intro": "Night-spawning Skeletons, using Warrior or Black Mage behavior depending on the area.",
+      "body_html": "<h2>Where to find</h2><table><thead><tr><th>Area</th><th>Level</th></tr></thead><tbody><tr><td><a href=\"wiki:Jugner Forest\">Jugner Forest</a></td><td>16–26</td></tr><tr><td><a href=\"wiki:Pashhow Marshlands\">Pashhow Marshlands</a></td><td>16–26</td></tr><tr><td><a href=\"wiki:Meriphataud Mountains\">Meriphataud Mountains</a></td><td>16–26</td></tr><tr><td><a href=\"wiki:Buburimu Peninsula\">Buburimu Peninsula</a></td><td>18–22</td></tr><tr><td><a href=\"wiki:Pashhow Marshlands (S)\">Pashhow Marshlands (S)</a></td><td>67–69</td></tr></tbody></table><p>They appear between 20:00 and 04:00 Vana’diel time. No spawn item is required.</p><h2>Drops and fighting</h2><p><a href=\"wiki:Bone Chip\">Bone Chip</a> is both a drop and a steal item. Zombies detect sound and low HP. Avoid approaching while injured; deal with the Black Mage version’s spells and use Fire or Light damage when suitable.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zombie"
+      ]
+    },
+    {
+      "title": "Ziryu",
+      "category": "Monsters",
+      "intro": "Worm adds summoned during the Ouryu battlefield encounters.",
+      "body_html": "<h2>Encounter</h2><p>Four Ziryu accompany <a href=\"wiki:Ouryu\">Ouryu</a> in <a href=\"wiki:Ouryu Cometh\">Ouryu Cometh</a>. They can also appear when Ouryu is summoned during <a href=\"wiki:The Wyrmking Descends\">The Wyrmking Descends</a>. These are battlefield adds, rather than a normal Riverne camp.</p><h2>Handle the adds</h2><p>They cast dangerous earth magic, including Stonega III and Quake. Assign control or interruption while the main group handles Ouryu. Beastmasters can Charm them.</p><h2>Listed drops</h2><p><a href=\"wiki:Worm Mulch\">Worm Mulch</a>; the Riverne A01 listing also includes <a href=\"wiki:Lugworm Sand\">Lugworm Sand</a>. Follow the main battlefield page for entry items and victory rewards.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Ziryu",
+        "https://horizonffxi.wiki/Ouryu_Cometh"
+      ]
+    },
+    {
+      "title": "Zlatorog",
+      "category": "Monsters",
+      "intro": "The Ram boss on floor 2 of the original NW Apollyon Limbus route.",
+      "body_html": "<h2>Access</h2><p>Reach Sea, obtain <a href=\"wiki:Cosmo-Cleanse\">Cosmo-Cleanse</a> and a <a href=\"wiki:Red Card\">Red Card</a>, then enter <a href=\"wiki:NW Apollyon\">NW Apollyon</a> from the Dem-side Al’Taieu entrance. Advance to floor 2.</p><h2>Battle and rewards</h2><p>Zlatorog repeatedly uses Mighty Strikes. Prepare defensive abilities and keep the healer ready; clear or avoid the nearby Mountain Buffalo. <a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a> is a listed drop. Follow the <a href=\"wiki:NW Apollyon\">NW Apollyon</a> route for floor chests and the final Magenta Chip reward.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/North_West_Apollyon",
+        "https://ffxiclopedia.fandom.com/wiki/Zlatorog"
+      ]
+    },
+    {
+      "title": "Zuu Xowu the Darksmoke",
+      "category": "Monsters",
+      "intro": "The Black Mage Yagudo in the level-60 Divine Punishers BCNM.",
+      "body_html": "<h2>How to encounter</h2><p>Enter <a href=\"wiki:Divine Punishers\">Divine Punishers</a> at <a href=\"wiki:Balga&#x27;s Dais\">Balga&#x27;s Dais</a> with a <a href=\"wiki:Moon Orb\">Moon Orb</a>. The original encounter allows six players and lasts 30 minutes.</p><h2>Battle and rewards</h2><p>Zuu Xowu can use Manafont once. Control the other Yagudo and interrupt dangerous magic as your party’s strategy allows. Rewards belong to the battlefield’s Armoury Crate; use the <a href=\"wiki:Divine Punishers\">Divine Punishers</a> loot table. This page covers the original BCNM, not the later high-tier Divine Punishers II.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zuu_Xowu_the_Darksmoke",
+        "https://horizonffxi.wiki/Balga%27s_Dais"
+      ]
+    },
+    {
+      "title": "Zeni",
+      "category": "Guides",
+      "intro": "The currency used to buy Zeni Notorious Monster trigger items from Sanraku.",
+      "body_html": "<h2>Earn Zeni: short steps</h2><ol><li>Speak to <a href=\"wiki:Ryo\">Ryo</a> and <a href=\"wiki:Sanraku\">Sanraku</a> in <a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> at E-8. Ask Ryo which fauna Sanraku currently wants photographed.</li><li>Visit <a href=\"wiki:Zandjarl\">Zandjarl</a> at F-7 inside <a href=\"wiki:The Colosseum\">The Colosseum</a>. Exchange Imperial currency for Jettons and buy a <a href=\"wiki:Soultrapper\">Soultrapper</a> plus <a href=\"wiki:Blank Soul Plate\">Blank Soul Plate</a> ammunition.</li><li>Equip the camera and blank plates. Approach a suitable living monster and use the Soultrapper from your item menu. A successful picture produces a <a href=\"wiki:Soul Plate\">Soul Plate</a>.</li><li>Take pictures close to the monster, from the front, with its HP low when safe. Preferred fauna and better pictures increase the reward.</li><li>Trade the completed plates to Sanraku. The classic limit is ten plates per Vana’diel day.</li><li>Spend the balance on a trigger, then follow <a href=\"wiki:Zeni Notorious Monsters\">Zeni Notorious Monsters</a> for the tier route.</li></ol><p>Exact Zeni yields and prices depend on server settings. This guide uses the era photography method; it does not assume later Rhapsodies bonuses.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zeni",
+        "https://eldelphia.wordpress.com/2009/08/06/eld%E2%80%99s-guide-to-collecting-zenis%E2%80%A6/"
+      ]
+    },
+    {
+      "title": "Zeni Notorious Monsters",
+      "category": "Guides",
+      "intro": "A tiered endgame system: earn Zeni, buy a trigger, defeat the NM and exchange its trophy to unlock the next tier.",
+      "body_html": "<h2>Progression steps</h2><ol><li>Collect <a href=\"wiki:Zeni\">Zeni</a> and speak to <a href=\"wiki:Sanraku\">Sanraku</a> in <a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> E-8. Select the unique-fauna purchase menu.</li><li>Buy a Tier I trigger and trade it to that NM’s ???. The trigger is consumed.</li><li>Take the trophy back to Sanraku for a colored seal. Spend that seal plus Zeni on a Tier II trigger; repeat to reach Tier III.</li><li>For Tier IV, collect all three different Tier III seals on the chosen path. Buying the higher trigger consumes the required seals.</li><li>Tier IV trophies lead to the final <a href=\"wiki:Pandemonium Warden\">Pandemonium Warden</a> path; some are also required for <a href=\"wiki:Mythic Weapons\">Mythic Weapons</a>.</li></ol><h2>Tier III targets needed for each Tier IV boss</h2><table><thead><tr><th>Defeat all three and turn in their trophies</th><th>Unlock</th></tr></thead><tbody><tr><td><a href=\"wiki:Armed Gears\">Armed Gears</a>, <a href=\"wiki:Gotoh Zha the Redolent\">Gotoh Zha the Redolent</a>, <a href=\"wiki:Dea\">Dea</a></td><td><a href=\"wiki:Tinnin\">Tinnin</a></td></tr><tr><td><a href=\"wiki:Achamoth\">Achamoth</a>, <a href=\"wiki:Khromasoul Bhurborlor\">Khromasoul Bhurborlor</a>, <a href=\"wiki:Nosferatu\">Nosferatu</a></td><td><a href=\"wiki:Sarameya\">Sarameya</a></td></tr><tr><td><a href=\"wiki:Experimental Lamia\">Experimental Lamia</a>, <a href=\"wiki:Mahjlaef the Paintorn\">Mahjlaef the Paintorn</a>, <a href=\"wiki:Nuhn\">Nuhn</a></td><td><a href=\"wiki:Tyger\">Tyger</a></td></tr></tbody></table><h2>Tier IV island access</h2><p>Ask Ryo about islets, then buy the appropriate salt key item from Sanraku. Each participant needs their own salt; the classic price is 500 Zeni. Gather everyone on the island before spawning the boss.</p><table><thead><tr><th>Boss</th><th>Salt</th><th>Engraved Tablet</th></tr></thead><tbody><tr><td>Tinnin</td><td><a href=\"wiki:Sicklemoon Salt\">Sicklemoon Salt</a></td><td>Wajaom Woodlands H-13</td></tr><tr><td>Sarameya</td><td><a href=\"wiki:Silver Sea Salt\">Silver Sea Salt</a></td><td>Mount Zhayolm I-10</td></tr><tr><td>Tyger</td><td><a href=\"wiki:Cyan Deep Salt\">Cyan Deep Salt</a></td><td>Caedarva Mire H-6, Hediva Isle</td></tr></tbody></table><p>Open each NM page for its exact trigger, ??? location and loot. Do not assume an era boss is soloable merely because your character has reached 75.</p>",
+      "source_urls": [
+        "https://classicffxi.fandom.com/wiki/Zeni_Notorious_Monsters",
+        "https://www.bg-wiki.com/ffxi/Engraved_Tablet"
+      ]
+    }
+  ]
+}

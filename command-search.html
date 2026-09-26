@@ -1,0 +1,1236 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Command/search - Zenith XI Wiki</title><meta name="description" content=""><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/wiki.css?v=42"><script defer src="assets/sidebar.js?v=42"></script><script defer src="assets/search-index.js?v=42"></script><script defer src="assets/wiki.js?v=42"></script><link rel="stylesheet" href="assets/shared-styles.css?v=42"></head><body data-page="command-search"><a class="skip" href="#content">Skip to content</a><header class="topbar" id="shared-topbar"></header><div class="layout"><aside class="sidebar" id="shared-sidebar"><nav aria-label="Wiki navigation"><a href="index.html">Main Page</a><a href="jobs.html">Jobs</a><a href="all-pages.html">All Pages</a></nav></aside><main id="content"><div class="page-tabs"><span class="selected">Reference</span><a href="all-pages.html">Article index</a><button class="print-link" type="button" data-print>Print</button></div><article class="article"><div class="breadcrumb"><a href="era-reference.html">Level 75 Reference</a> <span>›</span> Command/search</div><h1>Command/search</h1><div class="wiki-byline">From Zenith XI Wiki</div><div class="article-body"><p><span class="reference-edition">Level 75 reference · <a href="server-rules.html">Zenith rules</a></span></p><div class="era-reference"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="table-wrap era-table"><table border="0" cellpadding="0" cellspacing="3">
+<tbody><tr>
+<td valign="top" data-ws="35" width="30%"><b>Aliases:</b>
+</td>
+<td valign="top" data-ws="36">/sea
+</td></tr>
+<tr>
+<td valign="top" data-ws="35"><b>Usage:</b>
+</td>
+<td valign="top" data-ws="36">/search <i>&lt;subcommand1&gt; &lt;subcommand2&gt; &lt;subcommand3&gt;</i>...
+</td></tr>
+<tr>
+<td valign="top" data-ws="35"><b>Description:</b>
+</td>
+<td valign="top" data-ws="36">
+<p>Peforms a search for members fitting a certain criteria.
+</p>
+<table border="0" cellspacing="3" data-ws="93">
+
+<tbody><tr>
+<td colspan="2">Subcommands:
+</td></tr>
+<tr>
+<td valign="top">home
+</td>
+<td>Search for players in your current area.
+</td></tr>
+<tr>
+<td valign="top">all
+</td>
+<td>Search for all players from all areas.
+</td></tr>
+<tr>
+<td valign="top">inv/invite
+</td>
+<td>Search for players with invite or autogroup status on.
+</td></tr>
+<tr>
+<td valign="top">away
+</td>
+<td>Search for players whose online status is Away.
+</td></tr>
+<tr>
+<td valign="top">friend
+</td>
+<td>Search for players on your friend list.
+</td></tr>
+<tr>
+<td valign="top">linkshell
+</td>
+<td>Search for players within your current linkshell.
+</td></tr>
+<tr>
+<td valign="top">ballista
+</td>
+<td>Search for players who are currently engaged in ballista.
+</td></tr>
+<tr>
+<td valign="top"><i>&lt;name&gt;</i>
+</td>
+<td>Search for players with a particular name.
+</td></tr>
+<tr>
+<td valign="top"><i>&lt;race&gt;</i>/<i>&lt;race_abbr&gt;</i>
+</td>
+<td>Search for players of a particular race.
+</td></tr>
+<tr>
+<td valign="top">rank <i>&lt;num1&gt;</i>-<i>&lt;num2&gt;</i>
+</td>
+<td>Search for players within that particular rank range.
+</td></tr>
+<tr>
+<td valign="top"><i>&lt;job&gt;</i>/<i>&lt;job_abbr&gt;</i>
+</td>
+<td>Search for players with that particular main job.
+</td></tr>
+<tr>
+<td valign="top"><i>&lt;lvl_low&gt;</i>-<i>&lt;lvl_hi&gt;</i>
+</td>
+<td>Search for players within that particular level range.
+</td></tr>
+<tr>
+<td valign="top"><i>&lt;nation&gt;</i>/<i>&lt;nation_abbr&gt;</i>
+</td>
+<td>Search for players who are of that particular nation.
+</td></tr>
+<tr>
+<td valign="top">region
+</td>
+<td>Search for players within your current region.
+</td></tr>
+<tr>
+<td valign="top"><i>&lt;area&gt;</i>/<i>&lt;area_abbr&gt;</i>
+</td>
+<td>Search for players who are in that particular area.<br>
+<dl><dd>See Below for Abbreviations.</dd></dl>
+</td></tr>
+<tr>
+<td valign="top">-name
+</td>
+<td>Orders the search results in reverse alphabetical order.<br>
+<dl><dd><i>Does not work when "friend" is a parameter.</i></dd></dl>
+</td></tr>
+<tr>
+<td valign="top">*
+</td>
+<td>Search for players currently in a party.<br>
+</td></tr></tbody></table>
+<p>Performs a search of all players your current<br>
+area when no subcommand is specified.
+</p>
+</td></tr>
+<tr>
+<td>
+</td></tr>
+<tr>
+<td valign="top" data-ws="35"><b>Example:</b>
+</td>
+<td valign="top" data-ws="36">/search all inv whm hume 50-55 rank 2 windurst<br>
+<p>/sea "white mage" all 50-55 win inv rank 2 hum<br>
+</p>
+<dl><dd>Would search for all <a href="hume.html" title="Hume">Hume</a> <a href="white-mage.html" title="White Mage">White Mages</a> that are seeking for party<br></dd>
+<dd>which are between level 50 and 55 and are Rank 2 from <a href="category-windurst.html" class="mw-redirect" title="Windurst">Windurst</a>.<br></dd>
+<dd>Both expressions produce the same results.</dd></dl>
+</td></tr>
+</tbody></table>
+</div><hr>
+<h3 id="era-Notes">Notes</h3>
+<dl><dd><ul><li>Level and rank ranges can either be done singular or for a range of numbers, eg. <i>/search all rank 2</i>, <i>/search all invite 10-15</i>.</li>
+<li>Searching for a particular name will also display characters whose name begins with your query.</li>
+<li>Search subcommands for races, job, or nation may be made using the abbreviated form.</li></ul>
+<dl><dd><i>Area names may be abbreviated with the shortname of a zone. A partial list is given below.</i></dd></dl>
+<ul><li>You may only perform area-specific searches in areas where your character has previously visited.</li></ul>
+<dl><dd><i>You may do a region-specific search which include players from areas you have not visited.</i></dd></dl>
+<ul><li>Performing searches for battlefield and instanced zones from outside of those zones does not work.<span typeof="mw:Error mw:File"><a href="https://edenxi.miraheze.org/wiki/Special:Upload" class="new" title="File:Exclamation.gif"><span class="mw-file-element mw-broken-media" data-width="14">Verification Needed</span></a></span></li>
+<li>After performing a search, it is possible to refine the search results by selecting "more..." (the first line of the Search Results dialog). This process must be done through the menus.</li>
+<li>Searches that return a large amount results will have their search results truncated. The exact number shown (versus truncated) will be displayed in your log. It is not possible to display the truncated hits directly; instead you can refine your search further using the above method or start a new one.</li>
+<li>The colour of a character's name indicates their party status: yellow indicates they are a party or alliance leader; blue indicates they are a member of a party; grey indicates they are not a member of a party.</li></ul></dd></dl>
+<hr>
+<p><b>Please refer to <a href="commands-search-areas.html" title="Commands/search/areas">areas</a> for the below list as it is currently broken. The new list is unfortunately for now a work in progress.</b>
+</p>
+<hr>
+<p><br>
+</p>
+<h2 id="era-Area_Abbreviation_List_(Crossed_out_areas_cannot_be_searched)"><span id="era-Area_Abbreviation_List_.28Crossed_out_areas_cannot_be_searched.29"></span>Area Abbreviation List (Crossed out areas cannot be searched)</h2>
+<div class="table-wrap era-table"><table cellpadding="5">
+<tbody><tr>
+<td width="50%" valign="top" align="left">
+<h3 id="era-The_Republic_of_Bastok"><a href="category-bastok.html" class="mw-redirect" title="Bastok">The Republic of Bastok</a></h3>
+<dl><dd><table data-ws="369">
+
+<tbody><tr>
+<td><a href="zone-bastok-markets.html" title="Bastok Markets">Bastok Markets</a></td>
+<td>  BastokMark
+</td></tr>
+<tr>
+<td><a href="zone-bastok-mines.html" title="Bastok Mines">Bastok Mines</a></td>
+<td>  BastokMine
+</td></tr>
+<tr>
+<td><a href="zone-metalworks.html" title="Metalworks">Metalworks</a></td>
+<td>  Metalworks
+</td></tr>
+<tr>
+<td><a href="zone-port-bastok.html" title="Port Bastok">Port Bastok</a></td>
+<td>  PortBastok
+</td>
+<td width="50%" valign="top" align="left">
+<h3 id="era-The_Kingdom_of_San_d'Oria"><span id="era-The_Kingdom_of_San_d.27Oria"></span><a href="category-san-d-oria.html" class="mw-redirect" title="San d'Oria">The Kingdom of San d'Oria</a></h3>
+<dl><dd><table data-ws="369">
+
+<tbody><tr>
+<td><a href="zone-chateau-doraguille.html" title="Chateau d'Oraguille">Chateau d'Oraguille</a></td>
+<td>  ChatdOrag
+</td></tr>
+<tr>
+<td><a href="zone-northern-san-doria.html" title="Northern San d'Oria">Northern San d'Oria</a></td>
+<td>  NSandOria
+</td></tr>
+<tr>
+<td><a href="zone-port-san-doria.html" title="Port San d'Oria">Port San d'Oria</a></td>
+<td>  PSandOria
+</td></tr>
+<tr>
+<td><a href="zone-southern-san-doria.html" title="Southern San d'Oria">Southern San d'Oria</a></td>
+<td>  SSandOria
+</td>
+<td width="50%" valign="top" align="left">
+<span id="era-Synthesis_Recipes"></span></td>
+<td width="50%" valign="top" align="left">
+<span id="era-Used_in_Recipes"></span></td>
+<td width="50%" valign="top" align="left">
+<span id="era-Desynthesis_Recipe"></span></td>
+<td width="50%" valign="top" align="left">
+<span id="era-Obtained_From_Desynthesis"></span></td></tr></tbody></table></dd></dl>
+<p><br>
+</p>
+<h3 id="era-The_Federation_of_Windurst"><a href="category-windurst.html" class="mw-redirect" title="Windurst">The Federation of Windurst</a></h3>
+<dl><dd><table data-ws="369">
+
+<tbody><tr>
+<td><a href="zone-heavens-tower.html" title="Heavens Tower">Heavens Tower</a></td>
+<td>  HeavenTowr
+</td></tr>
+<tr>
+<td><a href="zone-port-windurst.html" title="Port Windurst">Port Windurst</a></td>
+<td>  PortWind
+</td></tr>
+<tr>
+<td><a href="zone-windurst-walls.html" title="Windurst Walls">Windurst Walls</a></td>
+<td>  WindWalls
+</td></tr>
+<tr>
+<td><a href="zone-windurst-waters.html" title="Windurst Waters">Windurst Waters</a></td>
+<td>  WindWaters
+</td></tr>
+<tr>
+<td><a href="zone-windurst-woods.html" title="Windurst Woods">Windurst Woods</a></td>
+<td>  WindWoods
+</td></tr>
+</tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#fff3f3" width="33%" valign="top" data-ws="295">
+<h3 id="era-The_Grand_Duchy_of_Jeuno"><a href="region-jeuno.html" title="Jeuno">The Grand Duchy of Jeuno</a></h3>
+<dl><dd><table data-ws="369">
+
+<tbody><tr>
+<td><a href="zone-port-jeuno.html" title="Port Jeuno">Port Jeuno</a></td>
+<td>  PortJeuno
+</td></tr>
+<tr>
+<td><a href="zone-lower-jeuno.html" title="Lower Jeuno">Lower Jeuno</a></td>
+<td>  LowJeuno
+</td></tr>
+<tr>
+<td><a href="zone-upper-jeuno.html" title="Upper Jeuno">Upper Jeuno</a></td>
+<td>  UpJeuno
+</td></tr>
+<tr>
+<td><a href="zone-rulude-gardens.html" title="Ru'Lude Gardens">Ru'Lude Gardens</a></td>
+<td>  RuLudeGard
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#fff3f3" width="33%" valign="top" data-ws="295">
+<h3 id="era-Minor_Cities"><font color="blue">Minor Cities</font></h3>
+<dl><dd><table data-ws="369">
+
+<tbody><tr>
+<td><a href="zone-selbina.html" title="Selbina">Selbina</a></td>
+<td>  Selbina
+</td></tr>
+<tr>
+<td><a href="zone-mhaura.html" title="Mhaura">Mhaura</a></td>
+<td>  Mhaura
+</td></tr>
+<tr>
+<td><a href="zone-tavnazian-safehold.html" title="Tavnazian Safehold">Tavnazian Safehold</a></td>
+<td>  TavSafehld
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#fff3f3" width="33%" valign="top" data-ws="185">
+<h3 id="era-Outland_Cities"><font color="blue">Outland Cities</font></h3>
+<dl><dd><table data-ws="369">
+
+<tbody><tr>
+<td><a href="zone-kazham.html" title="Kazham">Kazham</a></td>
+<td>  Kazham
+</td></tr>
+<tr>
+<td><a href="zone-norg.html" title="Norg">Norg</a></td>
+<td>  Norg
+</td></tr>
+<tr>
+<td><a href="zone-rabao.html" title="Rabao">Rabao</a></td>
+<td>  Rabao
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Aragoneu"><a href="region-aragoneu.html" title="Aragoneu">Aragoneu</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-altar-room.html" title="Altar Room">Altar Room</a></td>
+<td>  AltarRoom
+</td></tr>
+<tr>
+<td><a href="zone-attohwa-chasm.html" title="Attohwa Chasm">Attohwa Chasm</a></td>
+<td>  AttohwaCsm
+</td></tr>
+<tr>
+<td><s><a href="zone-boneyard-gully.html" title="Boneyard Gully">Boneyard Gully</a></s></td>
+<td>  <s>BoneyardGl</s>
+</td></tr>
+<tr>
+<td><a href="zone-castle-oztroja.html" title="Castle Oztroja">Castle Oztroja</a></td>
+<td>  Oztroja
+</td></tr>
+<tr>
+<td><a href="zone-garlaige-citadel.html" title="Garlaige Citadel">Garlaige Citadel</a></td>
+<td>  Garlaige
+</td></tr>
+<tr>
+<td><a href="zone-meriphataud-mountains.html" title="Meriphataud Mountains">Meriphataud Mountains</a></td>
+<td>  Meriphataud
+</td></tr>
+<tr>
+<td><a href="zone-sauromugue-champaign.html" title="Sauromugue Champaign">Sauromugue Champaign</a></td>
+<td>  Sauromugue
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Derfland"><a href="region-derfland.html" title="Derfland">Derfland</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-beadeaux.html" title="Beadeaux">Beadeaux</a></td>
+<td>  Beadeaux
+</td></tr>
+<tr>
+<td><a href="zone-crawlers-nest.html" title="Crawlers' Nest">Crawlers' Nest</a></td>
+<td>  CrawlNest
+</td></tr>
+<tr>
+<td><a href="zone-pashhow-marshlands.html" title="Pashhow Marshlands">Pashhow Marshlands</a></td>
+<td>  Pashhow
+</td></tr>
+<tr>
+<td><a href="zone-qulun-dome.html" title="Qulun Dome">Qulun Dome</a></td>
+<td>  QulunDome
+</td></tr>
+<tr>
+<td><a href="zone-rolanberry-fields.html" title="Rolanberry Fields">Rolanberry Fields</a></td>
+<td>  Rolanberry
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Elshimo_Lowlands"><a href="region-elshimo-lowlands.html" title="Elshimo Lowlands">Elshimo Lowlands</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-kazham.html" title="Kazham">Kazham</a></td>
+<td>  Kazham
+</td></tr>
+<tr>
+<td><a href="zone-norg.html" title="Norg">Norg</a></td>
+<td>  Norg
+</td></tr>
+<tr>
+<td><a href="zone-sea-serpent-grotto.html" title="Sea Serpent Grotto">Sea Serpent Grotto</a></td>
+<td>  SeaGrotto
+</td></tr>
+<tr>
+<td><a href="zone-yuhtunga-jungle.html" title="Yuhtunga Jungle">Yuhtunga Jungle</a></td>
+<td>  YuhtunJng
+</td></tr>
+</tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Elshimo_Uplands"><a href="region-elshimo-uplands.html" title="Elshimo Uplands">Elshimo Uplands</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><s><a href="zone-cloister-of-flames.html" title="Cloister of Flames">Cloister of Flames</a></s></td>
+<td>  <s>ClstFlame</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-cloister-of-tides.html" title="Cloister of Tides">Cloister of Tides</a></s></td>
+<td>  <s>ClstTides</s>
+</td></tr>
+<tr>
+<td><a href="zone-den-of-rancor.html" title="Den of Rancor">Den of Rancor</a></td>
+<td>  RancorDen
+</td></tr>
+<tr>
+<td><a href="zone-ifrits-cauldron.html" title="Ifrit's Cauldron">Ifrit's Cauldron</a></td>
+<td>  IfritCldrn
+</td></tr>
+<tr>
+<td><s><a href="zone-sacrificial-chamber.html" title="Sacrificial Chamber">Sacrificial Chamber</a></s></td>
+<td>  <s>SacriChamb</s>
+</td></tr>
+<tr>
+<td><a href="zone-temple-of-uggalepih.html" title="Temple of Uggalepih">Temple of Uggalepih</a></td>
+<td>  Uggalepih
+</td></tr>
+<tr>
+<td><a href="zone-yhoator-jungle.html" title="Yhoator Jungle">Yhoator Jungle</a></td>
+<td>  YhoatorJng
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Fauregandi"><a href="region-fauregandi.html" title="Fauregandi">Fauregandi</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-beaucedine-glacier.html" title="Beaucedine Glacier">Beaucedine Glacier</a></td>
+<td>  Beaucedine
+</td></tr>
+<tr>
+<td><s><a href="zone-cloister-of-frost.html" title="Cloister of Frost">Cloister of Frost</a></s></td>
+<td>  <s>ClstFrost</s>
+</td></tr>
+<tr>
+<td><a href="zone-feiyin.html" title="Fei'Yin">Fei'Yin</a></td>
+<td>  FeiYin
+</td></tr>
+<tr>
+<td><a href="zone-psoxja.html" title="Pso'Xja">Pso'Xja</a></td>
+<td>  PsoXja
+</td></tr>
+<tr>
+<td><s><a href="zone-qubia-arena.html" title="Qu'Bia Arena">Qu'Bia Arena</a></s></td>
+<td>  <s>QuBiaArena</s>
+</td></tr>
+<tr>
+<td><a href="zone-ranguemont-pass.html" title="Ranguemont Pass">Ranguemont Pass</a></td>
+<td>  Ranguemont
+</td></tr>
+<tr>
+<td><s><a href="zone-the-shrouded-maw.html" title="The Shrouded Maw">The Shrouded Maw</a></s></td>
+<td>  <s>TheShroudMaw</s>
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Gustaberg"><a href="category-gustaberg.html" class="mw-redirect" title="Gustaberg">Gustaberg</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-dangruf-wadi.html" title="Dangruf Wadi">Dangruf Wadi</a></td>
+<td>  Dangruf
+</td></tr>
+<tr>
+<td><a href="zone-korroloka-tunnel.html" title="Korroloka Tunnel">Korroloka Tunnel</a></td>
+<td>  Korroloka
+</td></tr>
+<tr>
+<td><a href="zone-north-gustaberg.html" title="North Gustaberg">North Gustaberg</a></td>
+<td>  NGustaberg
+</td></tr>
+<tr>
+<td><a href="zone-palborough-mines.html" title="Palborough Mines">Palborough Mines</a></td>
+<td>  Palborough
+</td></tr>
+<tr>
+<td><a href="zone-south-gustaberg.html" title="South Gustaberg">South Gustaberg</a></td>
+<td>  SGustaberg
+</td></tr>
+<tr>
+<td><s><a href="zone-waughroon-shrine.html" title="Waughroon Shrine">Waughroon Shrine</a></s></td>
+<td>  <s>Waughroon</s>
+</td></tr>
+<tr>
+<td><a href="zone-zeruhn-mines.html" title="Zeruhn Mines">Zeruhn Mines</a></td>
+<td>  Zeruhn
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Kolshushu"><a href="region-kolshushu.html" title="Kolshushu">Kolshushu</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-bibiki-bay.html" title="Bibiki Bay">Bibiki Bay</a></td>
+<td>  BibikiBay
+</td></tr>
+<tr>
+<td><a href="zone-bibiki-bay-purgonorgo-isle.html" title="Bibiki Bay - Purgonorgo Isle">Bibiki Bay - Purgonorgo Isle</a></td>
+<td>  BibikiBay
+</td></tr>
+<tr>
+<td><a href="zone-buburimu-peninsula.html" title="Buburimu Peninsula">Buburimu Peninsula</a></td>
+<td>  Buburimu
+</td></tr>
+<tr>
+<td><a href="zone-labyrinth-of-onzozo.html" title="Labyrinth of Onzozo">Labyrinth of Onzozo</a></td>
+<td>  Onzozo
+</td></tr>
+<tr>
+<td><s><a href="zone-manaclipper.html" title="Manaclipper">Manaclipper</a></s></td>
+<td>  <s>Manaclipper</s>
+</td></tr>
+<tr>
+<td><a href="zone-maze-of-shakhrami.html" title="Maze of Shakhrami">Maze of Shakhrami</a></td>
+<td>  Shakhrami
+</td></tr>
+<tr>
+<td><a href="zone-mhaura.html" title="Mhaura">Mhaura</a></td>
+<td>  Mhaura
+</td></tr>
+<tr>
+<td><a href="zone-tahrongi-canyon.html" title="Tahrongi Canyon">Tahrongi Canyon</a></td>
+<td>  Tahrongi
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Kuzotz"><a href="region-kuzotz.html" title="Kuzotz">Kuzotz</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><s><a href="zone-cloister-of-tremors.html" title="Cloister of Tremors">Cloister of Tremors</a></s></td>
+<td>  <s>ClstTremor</s>
+</td></tr>
+<tr>
+<td><a href="zone-eastern-altepa-desert.html" title="Eastern Altepa Desert">Eastern Altepa Desert</a></td>
+<td>  EastAltepa
+</td></tr>
+<tr>
+<td><s><a href="zone-chamber-of-oracles.html" title="Chamber of Oracles">Chamber of Oracles</a></s></td>
+<td>  <s>OracleChmb</s>
+</td></tr>
+<tr>
+<td><a href="zone-quicksand-caves.html" title="Quicksand Caves">Quicksand Caves</a></td>
+<td>  Quicksands
+</td></tr>
+<tr>
+<td><a href="zone-rabao.html" title="Rabao">Rabao</a></td>
+<td>  Rabao
+</td></tr>
+<tr>
+<td><a href="zone-western-altepa-desert.html" title="Western Altepa Desert">Western Altepa Desert</a></td>
+<td>  WestAltepa
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Li'Telor"><span id="era-Li.27Telor"></span><a href="region-litelor.html" title="Li'Telor">Li'Telor</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-the-boyahda-tree.html" title="The Boyahda Tree">The Boyahda Tree</a></td>
+<td>  Boyahda
+</td></tr>
+<tr>
+<td><s><a href="zone-cloister-of-storms.html" title="Cloister of Storms">Cloister of Storms</a></s></td>
+<td>  <s>ClstStorms</s>
+</td></tr>
+<tr>
+<td><a href="zone-dragons-aery.html" title="Dragon's Aery">Dragon's Aery</a></td>
+<td>  DragonAery
+</td></tr>
+<tr>
+<td><a href="zone-hall-of-the-gods.html" title="Hall of the Gods">Hall of the Gods</a></td>
+<td>  HallOfGods
+</td></tr>
+<tr>
+<td><a href="zone-romaeve.html" title="Ro'Maeve">Ro'Maeve</a></td>
+<td>  RoMaeve
+</td></tr>
+<tr>
+<td><a href="zone-the-sanctuary-of-zitah.html" title="The Sanctuary of Zi'Tah">The Sanctuary of Zi'Tah</a></td>
+<td>  ZiTah
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Lumoria"><a href="region-lumoria.html" title="Lumoria">Lumoria</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-altaieu.html" title="Al'Taieu">Al'Taieu</a></td>
+<td>  AlTaieu
+</td></tr>
+<tr>
+<td><a href="zone-the-garden-of-ruhmet.html" title="The Garden of Ru'Hmet">The Garden of Ru'Hmet</a></td>
+<td>  RuHmet
+</td></tr>
+<tr>
+<td><a href="zone-grand-palace-of-huxzoi.html" title="Grand Palace of Hu'Xzoi">Grand Palace of Hu'Xzoi</a></td>
+<td>  HuXzoi
+</td></tr>
+<tr>
+<td><s><a href="zone-empyreal-paradox.html" title="Empyreal Paradox">Empyreal Paradox</a></s></td>
+<td>  <s>EmParadox</s>
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Movalpolos"><a href="region-movalpolos.html" title="Movalpolos">Movalpolos</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><s><a href="mine-shaft.html" title="Mine Shaft">Mine Shaft #2716</a></s></td>
+<td>  <s>Mine2716</s>
+</td></tr>
+<tr>
+<td><a href="zone-newton-movalpolos.html" title="Newton Movalpolos">Newton Movalpolos</a></td>
+<td>  NewMoval
+</td></tr>
+<tr>
+<td><a href="zone-oldton-movalpolos.html" title="Oldton Movalpolos">Oldton Movalpolos</a></td>
+<td>  OldMoval
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Norvallen"><a href="region-norvallen.html" title="Norvallen">Norvallen</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-batallia-downs.html" title="Batallia Downs">Batallia Downs</a></td>
+<td>  Batallia
+</td></tr>
+<tr>
+<td><a href="zone-carpenters-landing.html" title="Carpenters' Landing">Carpenters' Landing</a></td>
+<td>  CpntLanding
+</td></tr>
+<tr>
+<td><a href="zone-davoi.html" title="Davoi">Davoi</a></td>
+<td>  Davoi
+</td></tr>
+<tr>
+<td><a href="zone-the-eldieme-necropolis.html" title="The Eldieme Necropolis">The Eldieme Necropolis</a></td>
+<td>  Eldieme
+</td></tr>
+<tr>
+<td><a href="zone-jugner-forest.html" title="Jugner Forest">Jugner Forest</a></td>
+<td>  Jugner
+</td></tr>
+<tr>
+<td><a href="zone-monastic-cavern.html" title="Monastic Cavern">Monastic Cavern</a></td>
+<td>  MonastiCav
+</td></tr>
+<tr>
+<td><a href="zone-phanauet-channel.html" title="Phanauet Channel">Phanauet Channel</a></td>
+<td>  PhanauetCh
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Qufim"><a href="region-qufim.html" title="Qufim">Qufim</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-behemoths-dominion.html" title="Behemoth's Dominion">Behemoth's Dominion</a></td>
+<td>  BehemotDom
+</td></tr>
+<tr>
+<td><a href="zone-lower-delkfutts-tower.html" title="Lower Delkfutt's Tower">Lower Delkfutt's Tower</a></td>
+<td>  LowDelkfut
+</td></tr>
+<tr>
+<td><a href="zone-middle-delkfutts-tower.html" title="Middle Delkfutt's Tower">Middle Delkfutt's Tower</a></td>
+<td>  MidDelkfut
+</td></tr>
+<tr>
+<td><a href="zone-qufim-island.html" title="Qufim Island">Qufim Island</a></td>
+<td>  Qufim
+</td></tr>
+<tr>
+<td><s><a href="zone-stellar-fulcrum.html" title="Stellar Fulcrum">Stellar Fulcrum</a></s></td>
+<td>  <s>StlrFulcrm</s>
+</td></tr>
+<tr>
+<td><a href="zone-upper-delkfutts-tower.html" title="Upper Delkfutt's Tower">Upper Delkfutt's Tower</a></td>
+<td>  UpDelkfut
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Ronfaure"><a href="category-ronfaure.html" class="mw-redirect" title="Ronfaure">Ronfaure</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-bostaunieux-oubliette.html" title="Bostaunieux Oubliette">Bostaunieux Oubliette</a></td>
+<td>  Bostaunieu
+</td></tr>
+<tr>
+<td><a href="zone-east-ronfaure.html" title="East Ronfaure">East Ronfaure</a></td>
+<td>  ERonfaure
+</td></tr>
+<tr>
+<td><a href="zone-fort-ghelsba.html" title="Fort Ghelsba">Fort Ghelsba</a></td>
+<td>  FtGhelsba
+</td></tr>
+<tr>
+<td><a href="zone-ghelsba-outpost.html" title="Ghelsba Outpost">Ghelsba Outpost</a></td>
+<td>  GhelsbaOp
+</td></tr>
+<tr>
+<td><s><a href="zone-horlais-peak.html" title="Horlais Peak">Horlais Peak</a></s></td>
+<td>  <s>HorlaisPk </s>
+</td></tr>
+<tr>
+<td><a href="zone-king-ranperres-tomb.html" title="King Ranperre's Tomb">King Ranperre's Tomb</a></td>
+<td>  RanpsTomb
+</td></tr>
+<tr>
+<td><a href="zone-west-ronfaure.html" title="West Ronfaure">West Ronfaure</a></td>
+<td>  WRonfaure
+</td></tr>
+<tr>
+<td><a href="zone-yughott-grotto.html" title="Yughott Grotto">Yughott Grotto</a></td>
+<td>  Yughott
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Tavnazian_Archipelago"><a href="region-tavnazian-archipelago.html" title="Tavnazian Archipelago">Tavnazian Archipelago</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-lufaise-meadows.html" title="Lufaise Meadows">Lufaise Meadows</a></td>
+<td>  LufaiseMds
+</td></tr>
+<tr>
+<td><a href="zone-misareaux-coast.html" title="Misareaux Coast">Misareaux Coast</a></td>
+<td>  Misareaux
+</td></tr>
+<tr>
+<td><s><a href="zone-monarch-linn.html" title="Monarch Linn">Monarch Linn</a></s></td>
+<td>  <s>MonarchLinn</s>
+</td></tr>
+<tr>
+<td><a href="zone-phomiuna-aqueducts.html" title="Phomiuna Aqueducts">Phomiuna Aqueducts</a></td>
+<td>  PhomiunaAq
+</td></tr>
+<tr>
+<td><a href="riverne-site-a01.html" title="Riverne - Site A01">Riverne - Site #A01</a></td>
+<td>  RiverneA01
+</td></tr>
+<tr>
+<td><a href="riverne-site-b01.html" title="Riverne - Site B01">Riverne - Site #B01</a></td>
+<td>  RiverneB01
+</td></tr>
+<tr>
+<td><a href="zone-sacrarium.html" title="Sacrarium">Sacrarium</a></td>
+<td>  Sacrarium
+</td></tr>
+<tr>
+<td><s><a href="zone-sealions-den.html" title="Sealion's Den">Sealion's Den</a></s></td>
+<td>  <s>SealionDen</s>
+</td></tr>
+<tr>
+<td><a href="zone-tavnazian-safehold.html" title="Tavnazian Safehold">Tavnazian Safehold</a></td>
+<td>  TavSafehold
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="20%" valign="top" data-ws="185">
+<h3 id="era-Tu'Lia"><span id="era-Tu.27Lia"></span><a href="region-tulia.html" title="Tu'Lia">Tu'Lia</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><s><a href="zone-celestial-nexus.html" title="Celestial Nexus">Celestial Nexus</a></s></td>
+<td>  <s>CelesNexus</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-laloff-amphitheater.html" title="La'Loff Amphitheater">La'Loff Amphitheater</a></s></td>
+<td>  <s>LaLoff</s>
+</td></tr>
+<tr>
+<td><a href="zone-ruaun-gardens.html" title="Ru'Aun Gardens">Ru'Aun Gardens</a></td>
+<td>  RuAunGard
+</td></tr>
+<tr>
+<td><a href="zone-shrine-of-ruavitau.html" title="Shrine of Ru'Avitau">Shrine of Ru'Avitau</a></td>
+<td>  RuAvitau
+</td></tr>
+<tr>
+<td><a href="zone-velugannon-palace.html" title="Ve'Lugannon Palace">Ve'Lugannon Palace</a></td>
+<td>  VeLugannon
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="20%" valign="top" data-ws="185">
+<h3 id="era-Sarutabaruta"><a href="category-sarutabaruta.html" class="mw-redirect" title="Sarutabaruta">Sarutabaruta</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><s><a href="zone-balgas-dais.html" title="Balga's Dais">Balga's Dais</a></s></td>
+<td>  <s>BalgasDias</s>
+</td></tr>
+<tr>
+<td><a href="zone-east-sarutabaruta.html" title="East Sarutabaruta">East Sarutabaruta</a></td>
+<td>  ESartaBarta
+</td></tr>
+<tr>
+<td><s><a href="zone-full-moon-fountain.html" title="Full Moon Fountain">Full Moon Fountain</a></s></td>
+<td>  <s>FullMoonFn</s>
+</td></tr>
+<tr>
+<td><a href="zone-giddeus.html" title="Giddeus">Giddeus</a></td>
+<td>  Giddeus
+</td></tr>
+<tr>
+<td><a href="zone-inner-horutoto-ruins.html" title="Inner Horutoto Ruins">Inner Horutoto Ruins</a></td>
+<td>  InHorutoto
+</td></tr>
+<tr>
+<td><a href="zone-outer-horutoto-ruins.html" title="Outer Horutoto Ruins">Outer Horutoto Ruins</a></td>
+<td>  OutHorutot
+</td></tr>
+<tr>
+<td><a href="zone-toraimarai-canal.html" title="Toraimarai Canal">Toraimarai Canal</a></td>
+<td>  Toraimarai
+</td></tr>
+<tr>
+<td><a href="zone-west-sarutabaruta.html" title="West Sarutabaruta">West Sarutabaruta</a></td>
+<td>  WSartaBarta
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="20%" valign="top" data-ws="185">
+<h3 id="era-Valdeaunia"><a href="region-valdeaunia.html" title="Valdeaunia">Valdeaunia</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><s><a href="zone-bearclaw-pinnacle.html" title="Bearclaw Pinnacle">Bearclaw Pinnacle</a></s></td>
+<td>  <s>BearclawPn</s>
+</td></tr>
+<tr>
+<td><a href="zone-castle-zvahl-baileys.html" title="Castle Zvahl Baileys">Castle Zvahl Baileys</a></td>
+<td>  ZvahlBails
+</td></tr>
+<tr>
+<td><a href="zone-castle-zvahl-keep.html" title="Castle Zvahl Keep">Castle Zvahl Keep</a></td>
+<td>  ZvahlKeep
+</td></tr>
+<tr>
+<td><s><a href="zone-throne-room.html" title="Throne Room">Throne Room</a></s></td>
+<td>  <s>ThroneRoom</s>
+</td></tr>
+<tr>
+<td><a href="zone-uleguerand-range.html" title="Uleguerand Range">Uleguerand Range</a></td>
+<td>  Uleguerand
+</td></tr>
+<tr>
+<td><a href="zone-xarcabard.html" title="Xarcabard">Xarcabard</a></td>
+<td>  Xarcabard
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="20%" valign="top" data-ws="185">
+<h3 id="era-Vollbow"><a href="region-vollbow.html" title="Vollbow">Vollbow</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-cape-teriggan.html" title="Cape Teriggan">Cape Teriggan</a></td>
+<td>  Teriggan
+</td></tr>
+<tr>
+<td><s><a href="zone-cloister-of-gales.html" title="Cloister of Gales">Cloister of Gales</a></s></td>
+<td>  <s>ClstGales</s>
+</td></tr>
+<tr>
+<td><a href="zone-gustav-tunnel.html" title="Gustav Tunnel">Gustav Tunnel</a></td>
+<td>  Gustav
+</td></tr>
+<tr>
+<td><a href="zone-kuftal-tunnel.html" title="Kuftal Tunnel">Kuftal Tunnel</a></td>
+<td>  Kuftal
+</td></tr>
+<tr>
+<td><a href="zone-valley-of-sorrows.html" title="Valley of Sorrows">Valley of Sorrows</a></td>
+<td>  SorrowVall
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="20%" valign="top" data-ws="185">
+<h3 id="era-Zulkheim"><a href="region-zulkheim.html" title="Zulkheim">Zulkheim</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-gusgen-mines.html" title="Gusgen Mines">Gusgen Mines</a></td>
+<td>  Gusgen
+</td></tr>
+<tr>
+<td><a href="zone-konschtat-highlands.html" title="Konschtat Highlands">Konschtat Highlands</a></td>
+<td>  Konschtat
+</td></tr>
+<tr>
+<td><a href="zone-la-theine-plateau.html" title="La Theine Plateau">La Theine Plateau</a></td>
+<td>  LaTheine
+</td></tr>
+<tr>
+<td><a href="zone-ordelles-caves.html" title="Ordelle's Caves">Ordelle's Caves</a></td>
+<td>  Ordelles
+</td></tr>
+<tr>
+<td><a href="zone-selbina.html" title="Selbina">Selbina</a></td>
+<td>  Selbina
+</td></tr>
+<tr>
+<td><a href="zone-valkurm-dunes.html" title="Valkurm Dunes">Valkurm Dunes</a></td>
+<td>  Valkurm
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#fff3f3" width="20%" valign="top" data-ws="185">
+<h3 id="era-The_Empire_of_Aht_Urhgan"><font color="blue"><a href="the-empire-of-aht-urhgan.html" title="The Empire of Aht Urhgan">The Empire of Aht Urhgan</a></font></h3>
+<dl><dd><table data-ws="369">
+
+<tbody><tr>
+<td><a href="zone-aht-urhgan-whitegate.html" title="Aht Urhgan Whitegate">Aht Urhgan Whitegate</a></td>
+<td>  Whitegate
+</td></tr>
+<tr>
+<td><a href="zone-al-zahbi.html" title="Al Zahbi">Al Zahbi</a></td>
+<td>  AlZahbi
+</td></tr>
+<tr>
+<td><a href="zone-nashmau.html" title="Nashmau">Nashmau</a></td>
+<td>  Nashmau
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Arrapago_Islands"><a href="category-arrapago-islands.html" title="Category:Arrapago Islands">Arrapago Islands</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-arrapago-reef.html" title="Arrapago Reef">Arrapago Reef</a></td>
+<td>  ArrpgoReef
+</td></tr>
+<tr>
+<td><a href="zone-caedarva-mire.html" title="Caedarva Mire">Caedarva Mire</a></td>
+<td>  Caedarva
+</td></tr>
+<tr>
+<td><s><a href="zone-hazhalm-testing-grounds.html" title="Hazhalm Testing Grounds">Hazhalm Testing Grounds</a></s></td>
+<td>  <s>Hazhalm</s>
+</td></tr>
+<tr>
+<td><a href="zone-ilrusi-atoll.html" title="Ilrusi Atoll">Ilrusi Atoll</a></td>
+<td>  Caedarva
+</td></tr>
+<tr>
+<td><s><a href="zone-leujaoam-sanctum.html" title="Leujaoam Sanctum">Leujaoam Sanctum</a></s></td>
+<td>  <s>Leujoam</s>
+</td></tr>
+<tr>
+<td><a href="zone-nashmau.html" title="Nashmau">Nashmau</a></td>
+<td>  Nashmau
+</td></tr>
+<tr>
+<td><s><a href="zone-periqia.html" title="Periqia">Periqia</a></s></td>
+<td>  <s>Periqia</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-talacca-cove.html" title="Talacca Cove">Talacca Cove</a></s></td>
+<td>  <s>Talacca</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-the-ashu-talif.html" title="The Ashu Talif">The Ashu Talif</a></s></td>
+<td>  <s>AshuTalif</s>
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Halvung_Territory"><a href="region-halvung-territory.html" title="Halvung Territory">Halvung Territory</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-halvung.html" title="Halvung">Halvung</a></td>
+<td>  Halvung
+</td></tr>
+<tr>
+<td><s><a href="zone-lebros-cavern.html" title="Lebros Cavern">Lebros Cavern</a></s></td>
+<td>  <s>Lebros</s>
+</td></tr>
+<tr>
+<td><a href="zone-mount-zhayolm.html" title="Mount Zhayolm">Mount Zhayolm</a></td>
+<td>  MtZhayolm
+</td></tr>
+<tr>
+<td><s><a href="zone-navukgo-execution-chamber.html" title="Navukgo Execution Chamber">Navukgo Execution Chamber</a></s></td>
+<td>  <s>Navukgo</s>
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Mamool_Ja_Savagelands"><a href="region-mamool-ja-savagelands.html" title="Mamool Ja Savagelands">Mamool Ja Savagelands</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-aydeewa-subterrane.html" title="Aydeewa Subterrane">Aydeewa Subterrane</a></td>
+<td>  Aydeewa
+</td></tr>
+<tr>
+<td><s><a href="zone-jade-sepulcher.html" title="Jade Sepulcher">Jade Sepulcher</a></s></td>
+<td>  <s>JadeSepul</s>
+</td></tr>
+<tr>
+<td><a href="zone-mamook.html" title="Mamook">Mamook</a></td>
+<td>  Mamook
+</td></tr>
+<tr>
+<td><s><a href="zone-mamool-ja-training-grounds.html" title="Mamool Ja Training Grounds">Mamool Ja Training Grounds</a></s></td>
+<td>  <s>MamoolTrGr</s>
+</td></tr>
+<tr>
+<td><a href="zone-wajaom-woodlands.html" title="Wajaom Woodlands">Wajaom Woodlands</a></td>
+<td>  Wajaom
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Ruins_of_Alzadaal"><a href="region-ruins-of-alzadaal.html" title="Ruins of Alzadaal">Ruins of Alzadaal</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-alzadaal-undersea-ruins.html" title="Alzadaal Undersea Ruins">Alzadaal Undersea Ruins</a></td>
+<td>  AlzaUndrsea
+</td></tr>
+<tr>
+<td><a href="zone-nyzul-isle.html" title="Nyzul Isle">Nyzul Isle</a></td>
+<td>  Nyzul
+</td></tr>
+<tr>
+<td><a href="zone-silver-sea-remnants.html" title="Silver Sea Remnants">Silver Sea Remnants</a></td>
+<td>  SilvSeaRem
+</td></tr>
+<tr>
+<td><a href="zone-arrapago-remnants.html" title="Arrapago Remnants">Arrapago Remnants</a></td>
+<td>  ArrpgoRem
+</td></tr>
+<tr>
+<td><a href="zone-bhaflau-remnants.html" title="Bhaflau Remnants">Bhaflau Remnants</a></td>
+<td>  BhaflauRem
+</td></tr>
+<tr>
+<td><a href="zone-zhayolm-remnants.html" title="Zhayolm Remnants">Zhayolm Remnants</a></td>
+<td>  ZhaylmRem
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-West_Aht_Urhgan"><a href="region-west-aht-urhgan.html" title="West Aht Urhgan">West Aht Urhgan</a></h3>
+<dl><dd><table data-ws="370">
+
+<tbody><tr>
+<td><a href="zone-aht-urhgan-whitegate.html" title="Aht Urhgan Whitegate">Aht Urhgan Whitegate</a></td>
+<td>  Whitegate
+</td></tr>
+<tr>
+<td><a href="zone-al-zahbi.html" title="Al Zahbi">Al Zahbi</a></td>
+<td>  AlZahbi
+</td></tr>
+<tr>
+<td><a href="zone-bhaflau-thickets.html" title="Bhaflau Thickets">Bhaflau Thickets </a></td>
+<td>  BhafThicket
+</td></tr>
+<tr>
+<td><a href="zone-the-colosseum.html" title="The Colosseum">The Colosseum</a></td>
+<td>  Colosseum
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#E3E6FF" width="33%" valign="top" data-ws="185">
+<h3 id="era-Promyvion"><a href="region-promyvion.html" title="Promyvion">Promyvion</a></h3>
+<dl><dd><table data-ws="371">
+
+<tbody><tr valign="top">
+<td nowrap><s><a href="hall-of-transference-dem.html" title="Hall of Transference, Dem">Hall of Transference, Dem</a></s>
+</td>
+<td nowrap width="20%">  <s>HallofTrns</s>
+</td>
+<td nowrap><a href="zone-promyvion-dem.html" title="Promyvion - Dem">Promyvion - Dem</a>
+</td>
+<td nowrap width="20%">  PromvDem
+</td>
+<td nowrap><s><a href="zone-spire-of-dem.html" title="Spire of Dem">Spire of Dem</a></s>
+</td>
+<td nowrap width="20%">  <s>SpireDem</s>
+</td></tr>
+<tr valign="top">
+<td nowrap><s><a href="https://edenxi.miraheze.org/wiki/Hall_of_Transference%2C_Holla" class="new" title="Hall of Transference, Holla (page does not exist)">Hall of Transference, Holla</a></s>
+</td>
+<td nowrap>  <s>HallofTrns</s>
+</td>
+<td nowrap><a href="zone-promyvion-holla.html" title="Promyvion - Holla">Promyvion - Holla</a>
+</td>
+<td nowrap>  PromvHolla
+</td>
+<td nowrap><s><a href="zone-spire-of-holla.html" title="Spire of Holla">Spire of Holla</a></s>
+</td>
+<td nowrap>  <s>SpireHolla</s>
+</td></tr>
+<tr valign="top">
+<td nowrap><s><a href="hall-of-transference-mea.html" title="Hall of Transference, Mea">Hall of Transference, Mea</a></s>
+</td>
+<td nowrap>  <s>HallofTrns</s>
+</td>
+<td nowrap><a href="zone-promyvion-mea.html" title="Promyvion - Mea">Promyvion - Mea</a>
+</td>
+<td nowrap>  PromvMea
+</td>
+<td nowrap><s><a href="zone-spire-of-mea.html" title="Spire of Mea">Spire of Mea</a></s>
+</td>
+<td nowrap>  <s>SpireMea</s>
+</td></tr>
+<tr valign="top">
+<td> </td>
+<td>
+</td>
+<td nowrap><a href="zone-promyvion-vahzl.html" title="Promyvion - Vahzl">Promyvion - Vahzl</a>
+</td>
+<td nowrap>  PromvVahzl
+</td>
+<td nowrap><s><a href="zone-spire-of-vahzl.html" title="Spire of Vahzl">Spire of Vahzl</a></s>
+</td>
+<td nowrap>  <s>SpireVahzl</s>
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#EEEEE0" width="33%" valign="top" data-ws="185">
+<h3 id="era-Limbus"><a href="region-limbus.html" title="Limbus">Limbus</a></h3>
+<dl><dd><table data-ws="371">
+
+<tbody><tr>
+<td><a href="zone-apollyon.html" title="Apollyon">Apollyon</a></td>
+<td>  Apollyon
+</td></tr>
+<tr>
+<td><a href="zone-temenos.html" title="Temenos">Temenos</a></td>
+<td>  Temenos
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#EEEEE0" width="33%" valign="top" data-ws="185">
+<h3 id="era-Dynamis"><a href="category-dynamis.html" class="new" title="Category:Dynamis (page does not exist)">Dynamis</a></h3>
+<dl><dd><table data-ws="371">
+
+<tbody><tr>
+<td><a href="zone-dynamis-bastok.html" title="Dynamis - Bastok">Dynamis - Bastok</a></td>
+<td>  DynamisBas
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-jeuno.html" title="Dynamis - Jeuno">Dynamis - Jeuno</a></td>
+<td>  DynamisJeu
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-san-doria.html" title="Dynamis - San d'Oria">Dynamis - San d'Oria</a></td>
+<td>  DynamisSan
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-windurst.html" title="Dynamis - Windurst">Dynamis - Windurst</a></td>
+<td>  DynamisWin
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-beaucedine.html" title="Dynamis - Beaucedine">Dynamis - Beaucedine</a></td>
+<td>  DynamisBcd
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-xarcabard.html" title="Dynamis - Xarcabard">Dynamis - Xarcabard</a></td>
+<td>  DynamisXar
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#EEEEE0" width="33%" valign="top" data-ws="185">
+<h3 id="era-Dreamworld_Dynamis"><a href="category-dynamis.html" class="new" title="Category:Dynamis (page does not exist)">Dreamworld Dynamis</a></h3>
+<dl><dd><table data-ws="371">
+
+<tbody><tr>
+<td><a href="zone-dynamis-buburimu.html" title="Dynamis - Buburimu">Dynamis - Buburimu</a></td>
+<td>  DynamisBub
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-qufim.html" title="Dynamis - Qufim">Dynamis - Qufim</a></td>
+<td>  DynamisQuf
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-valkurm.html" title="Dynamis - Valkurm">Dynamis - Valkurm</a></td>
+<td>  DynamisVal
+</td></tr>
+<tr>
+<td><a href="zone-dynamis-tavnazia.html" title="Dynamis - Tavnazia">Dynamis - Tavnazia</a></td>
+<td>  DynamisTav
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#EEEEE0" width="33%" valign="top" data-ws="185">
+<h3 id="era-Miscellaneous_Zones"><font color="blue">Miscellaneous Zones</font></h3>
+<dl><dd><table data-ws="371">
+
+<tbody><tr>
+<td><s><a href="zone-mordion-gaol.html" class="new" title="Mordion Gaol (page does not exist)">Mordion Gaol</a></s></td>
+<td>  <s>Mordion</s>
+</td></tr>
+<tr>
+<td><a href="zone-chocobo-circuit.html" title="Chocobo Circuit">Chocobo Circuit</a></td>
+<td>  ChocoCirc
+</td></tr></tbody></table></dd></dl>
+</td></tr>
+<tr>
+<td bgcolor="#EEEEE0" width="33%" valign="top" data-ws="185">
+<h3 id="era-Airships"><font color="blue">Airships</font></h3>
+<dl><dd><table data-ws="371">
+
+<tbody><tr>
+<td><s><a href="zone-bastok-jeuno-airship.html" title="Bastok-Jeuno Airship">Bastok-Jeuno Airship</a></s></td>
+<td>  <s>Airship</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-kazham-jeuno-airship.html" title="Kazham-Jeuno Airship">Kazham-Jeuno Airship</a></s></td>
+<td>  <s>Airship</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-san-doria-jeuno-airship.html" title="San d'Oria-Jeuno Airship">San d'Oria-Jeuno Airship</a></s></td>
+<td>  <s>Airship</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-windurst-jeuno-airship.html" title="Windurst-Jeuno Airship">Windurst-Jeuno Airship</a></s></td>
+<td>  <s>Airship</s>
+</td></tr></tbody></table></dd></dl>
+</td>
+<td bgcolor="#EEEEE0" width="33%" valign="top" data-ws="185">
+<h3 id="era-Ferries"><font color="blue">Ferries</font></h3>
+<dl><dd><table data-ws="371">
+
+<tbody><tr>
+<td><s><a href="zone-ship-bound-for-mhaura.html" class="mw-redirect" title="Open sea route to Mhaura">Open sea route to Mhaura</a></s></td>
+<td>  <s>OpenseaMha</s>
+</td></tr>
+<tr>
+<td><s><a href="ferry-al-zahbi-nashmau.html" class="mw-redirect" title="Silver Sea route to Nashmau">Silver Sea route to Nashmau</a></s></td>
+<td>  <s>SilvSeaNas</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-ship-bound-for-mhaura.html" title="Ship bound for Mhaura">Ship bound for Mhaura</a></s></td>
+<td>  <s>ShipToSelb</s>
+</td></tr>
+<tr>
+<td><s><a href="ferry-mhaura-al-zahbi.html" class="mw-redirect" title="Open sea route to Al Zahbi">Open sea route to Al Zahbi</a></s></td>
+<td>  <s>OpenseaZah</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-silver-sea-route-to-al-zahbi.html" title="Silver Sea route to Al Zahbi">Silver Sea route to Al Zahbi</a></s></td>
+<td>  <s>SilvSeaZah</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-ship-bound-for-mhaura.html" title="Ship bound for Mhaura">Ship bound for Mhaura</a></s></td>
+<td>  <s>ShipToMhau</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-manaclipper.html" title="Manaclipper">Manaclipper</a></s></td>
+<td>  <s>Manaclipper</s>
+</td></tr>
+<tr>
+<td><s><a href="zone-phanauet-channel.html" title="Phanauet Channel">Phanauet Channel</a></s></td>
+<td>  <s>PhanauetCh</s>
+</td></tr></tbody></table></dd></dl>
+</td></tr></tbody></table></dd></dl>
+</td>
+</tr>
+</tbody></table>
+</div></div></div><p class="source-credit">Adapted from <a href="https://edenxi.miraheze.org/wiki/Command/search">Eden Wiki: Command/search</a> · <a href="https://edenxi.miraheze.org/wiki/Command/search?action=history">Contributors and history</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Revision 29561. Layout, links and optional background text adapted for Zenith.</p></div><div class="category-footer"><strong>Category:</strong> Reference<span> · </span><a href="era-reference.html">Level 75 Reference</a></div></article><footer class="footer" id="shared-footer"></footer></main></div><noscript><p class="no-js">Search and filters need JavaScript. All articles remain available through the <a href="all-pages.html">page index</a>.</p></noscript></body></html>

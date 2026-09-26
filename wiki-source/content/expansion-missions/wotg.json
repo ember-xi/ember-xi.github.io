@@ -1,0 +1,2061 @@
+[
+  {
+    "campaign": "wotg",
+    "number": "1",
+    "title": "Cavernous Maws",
+    "requirements": [
+      "Wings of the Goddess content enabled."
+    ],
+    "start": {
+      "npc": "Cavernous Maw",
+      "zone": "Rolanberry Fields",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Examine a starting maw in Rolanberry Fields (H-6), Batallia Downs (H-5), or Sauromugue Champaign (J-10). Rolanberry is a straightforward first route from Jeuno.",
+      "Finish the scene to receive the Pure white feather and enter a Shadowreign area. Check which past zone you arrived in before leaving.",
+      "Use other maws from their past side to activate their present-day entrances. If you leave before opening alternatives, return through the first starting maw that admitted you."
+    ],
+    "notes": [],
+    "reward": "Pure white feather; access to the past.",
+    "unlocks": [
+      "Back to the Beginning"
+    ],
+    "zones": [
+      "Rolanberry Fields",
+      "Batallia Downs",
+      "Sauromugue Champaign"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Cavernous_Maws_(Mission)",
+        "label": "BG Wiki — Cavernous Maws"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/01_Cavernous_Maws.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "2",
+    "title": "Back to the Beginning",
+    "requirements": [
+      "Complete Cavernous Maws.",
+      "To finish this mission: complete one introductory national chain through Claws of the Griffon, Fires of Discontent, or The Tigress Strikes."
+    ],
+    "start": {
+      "npc": "Allied recruitment NPC",
+      "zone": "Garlaige Citadel [S]"
+    },
+    "steps": [
+      "Obtain a recommendation: Randecque in Garlaige Citadel [S] (I-6) for San d'Oria; Turbulent Storm in The Eldieme Necropolis [S] (J-9) for Bastok; or Kalsu-Kalasu in Crawlers' Nest [S] (L-8) for Windurst.",
+      "Join one past army: Steamed Rams (San d'Oria), The Fighting Fourth (Bastok), or Snake on the Plains (Windurst). Past allegiance is separate from your present nation.",
+      "Finish one introductory story pair: Gifts of the Griffon → Claws of the Griffon; Better Part of Valor → Fires of Discontent; or The Tigress Stirs → The Tigress Strikes.",
+      "Touch a Jeuno-area maw in Batallia Downs [S], Rolanberry Fields [S], or Sauromugue Champaign [S]. An already activated present counterpart also works. Watch Cait Sith's scene."
+    ],
+    "notes": [
+      "One qualifying national chain is sufficient. You do not need to complete all three."
+    ],
+    "reward": "Lightsworm; Cait Sith story begins.",
+    "unlocks": [],
+    "zones": [
+      "Garlaige Citadel [S]",
+      "Southern San d'Oria [S]",
+      "Bastok Markets [S]",
+      "Windurst Waters [S]",
+      "The Eldieme Necropolis [S]",
+      "Crawlers' Nest [S]",
+      "Batallia Downs [S]",
+      "Rolanberry Fields [S]",
+      "Sauromugue Champaign [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Back_to_the_Beginning",
+        "label": "BG Wiki — Back to the Beginning"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/02_Back_to_the_Beginning.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "3",
+    "title": "Cait Sith",
+    "requirements": [
+      "Complete Back to the Beginning.",
+      "To finish this mission: complete Wrath of the Griffon, Burden of Suspicion, or A Manifest Problem."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Southern San d'Oria [S]"
+    },
+    "steps": [
+      "Advance one past nation: Light in the Darkness → Burden of Suspicion (Bastok); Boy and the Beast → Wrath of the Griffon (San d'Oria); or Knot Quite There → A Manifest Problem (Windurst).",
+      "Walk into Southern San d'Oria [S] from East Ronfaure [S] for the mission scene. Teleporting directly into the city does not meet this zone-line trigger."
+    ],
+    "notes": [
+      "National quests are in Quests → Crystal War, not the main WotG mission list."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]",
+      "East Ronfaure [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Cait_Sith_(Mission)",
+        "label": "BG Wiki — Cait Sith"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/03_Cait_Sith.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "4",
+    "title": "The Queen of the Dance",
+    "requirements": [
+      "Complete Cait Sith."
+    ],
+    "start": {
+      "npc": "Lion Springs Tavern door",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "K-6"
+    },
+    "steps": [
+      "Examine the Lion Springs Tavern door (K-6). You are asked for a performance ticket.",
+      "Travel to present-day Upper Jeuno and speak with Turlough to receive the Mayakov show ticket.",
+      "Return to the past tavern and examine its door. Let the connected performance scenes finish; the ticket is consumed and the next mission begins."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]",
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Queen_of_the_Dance",
+        "label": "FFXIclopedia — The Queen of the Dance"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/04_The_Queen_of_the_Dance.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "5",
+    "title": "While the Cat is Away",
+    "requirements": [
+      "Complete The Queen of the Dance."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "East Ronfaure [S]"
+    },
+    "steps": [
+      "Leave Southern San d'Oria [S] through its East Ronfaure [S] exit.",
+      "Watch the scene on entering the forest; A Timeswept Butterfly is assigned automatically."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "East Ronfaure [S]",
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/While_the_Cat_is_Away",
+        "label": "BG Wiki — While the Cat is Away"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/05_While_the_Cat_is_Away.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "6",
+    "title": "A Timeswept Butterfly",
+    "requirements": [
+      "Complete While the Cat is Away."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "La Vaule [S]"
+    },
+    "steps": [
+      "Travel through Jugner Forest [S] to the La Vaule [S] entrance at (G-11).",
+      "Enter La Vaule [S] and finish the scene. Prepare for the following battle before continuing deeper."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "La Vaule [S]",
+      "Jugner Forest [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Timeswept_Butterfly",
+        "label": "BG Wiki — A Timeswept Butterfly"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/06_A_Timeswept_Butterfly.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "7",
+    "title": "Purple, The New Black",
+    "requirements": [
+      "Complete A Timeswept Butterfly."
+    ],
+    "start": {
+      "npc": "Reinforced Gateway",
+      "zone": "La Vaule [S]",
+      "grid": "F-9"
+    },
+    "steps": [
+      "Cross La Vaule [S] from (J-7) west to (I-7), then via (G-7)/(G-6) to the large room at (E-6). Follow the outer passage through (E-7), turn east and cross the bridge at (F-8).",
+      "Examine the Reinforced Gateway at (F-9) for a scene, then again to choose the mission battlefield.",
+      "Defeat Galarhigg. Prepare healing and protection against petrification; finish the post-battle scene."
+    ],
+    "notes": [
+      "Avoid Coinbiter Cjaknokk on the approach: its true sight makes ordinary invisibility insufficient."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "La Vaule [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Purple,_The_New_Black",
+        "label": "BG Wiki — Purple, The New Black"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/07_Purple_The_New_Black.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "8",
+    "title": "In the Name of the Father",
+    "requirements": [
+      "Complete Purple, The New Black.",
+      "For the gated story scene: complete In a Haze of Glory, Fire in the Hole, or A Feast for Gnats."
+    ],
+    "start": {
+      "npc": "Lion Springs Tavern door",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "K-6"
+    },
+    "steps": [
+      "Complete one next national pair: Storm on the Horizon → Fire in the Hole (Bastok); Perils of the Griffon → In a Haze of Glory (San d'Oria); or When One Man Is Not Enough → A Feast for Gnats (Windurst).",
+      "Examine the Lion Springs Tavern door at (K-6) in Southern San d'Oria [S] to continue the main story."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/In_the_Name_of_the_Father",
+        "label": "FFXIclopedia — In the Name of the Father"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/08_In_the_Name_of_the_Father.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "9",
+    "title": "Dancers in Distress",
+    "requirements": [
+      "Complete In the Name of the Father."
+    ],
+    "start": {
+      "npc": "Raustigne",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Speak with Raustigne at (I-7), then examine the Elegant Footprints in Jugner Forest [S] at (I-6), by the stump near the H-6 border.",
+      "Finish Lilisette's questionnaire and note her requested item: Lynx Meat, Gold Beastcoin, or Nyumomo Doll. In the pinned core the item is selected randomly; an answer recipe cannot guarantee a particular request.",
+      "Leave Jugner Forest [S], obtain the requested item, return, and trade exactly that item to the Elegant Footprints."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]",
+      "Jugner Forest [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Dancers_in_Distress",
+        "label": "BG Wiki — Dancers in Distress"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/09_Dancers_in_Distress.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "10",
+    "title": "Daughter of a Knight",
+    "requirements": [
+      "Complete Dancers in Distress.",
+      "During this mission, obtain one Cernunnos Bulb for Amaura's request."
+    ],
+    "start": {
+      "npc": "Amaura",
+      "zone": "Southern San d'Oria",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Speak with Amaura (G-6). Obtain a Cernunnos Bulb from Wandering Saplings in Jugner Forest [S] and trade it to her; this first trade shows the bulb without consuming it.",
+      "Trade the bulb to Humus-rich Earth at Maiden's Spring, Jugner Forest [S] (E-6), to plant it.",
+      "Visit the corresponding Humus-rich Earth in present-day Jugner Forest (E-6). Examine it for a scene, then again to spawn Cernunnos.",
+      "Defeat Cernunnos and examine the earth again before leaving to obtain Cernunnos resin.",
+      "Report to Amaura. Wait until the next Vana'diel day, leave the zone and return, then speak with her for the tonic. Talking too early requires another zone change."
+    ],
+    "notes": [],
+    "reward": "Bottle of treant tonic.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria",
+      "Jugner Forest [S]",
+      "Jugner Forest"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Daughter_of_a_Knight",
+        "label": "BG Wiki — Daughter of a Knight"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/10_Daughter_of_a_Knight.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "11",
+    "title": "A Spoonful of Sugar",
+    "requirements": [
+      "Complete Daughter of a Knight.",
+      "Carry the Bottle of treant tonic awarded by Daughter of a Knight."
+    ],
+    "start": {
+      "npc": "Raustigne",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Return to Raustigne at (I-7) with the Bottle of treant tonic key item.",
+      "Speak with him and finish the scene to begin Affairs of State."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Spoonful_of_Sugar",
+        "label": "FFXIclopedia — A Spoonful of Sugar"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/11_A_Spoonful_of_Sugar.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "12",
+    "title": "Affairs of State",
+    "requirements": [
+      "Complete A Spoonful of Sugar."
+    ],
+    "start": {
+      "npc": "Radford or Velda-Galda",
+      "zone": "Bastok Markets [S]",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Speak with Radford in Bastok Markets [S] (H-6).",
+      "Speak with Velda-Galda in Windurst Waters [S] (K-9). Either NPC may be visited first, but both scenes are required.",
+      "After the second conversation, verify that Count Borel's letter appears in your key items."
+    ],
+    "notes": [],
+    "reward": "Count Borel's letter.",
+    "unlocks": [],
+    "zones": [
+      "Bastok Markets [S]",
+      "Windurst Waters [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Affairs_of_State",
+        "label": "FFXIclopedia — Affairs of State"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/12_Affairs_of_State.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "13",
+    "title": "Borne by the Wind",
+    "requirements": [
+      "Complete Affairs of State.",
+      "Carry Count Borel's letter awarded by Affairs of State."
+    ],
+    "start": {
+      "npc": "Bulwark Gate",
+      "zone": "Sauromugue Champaign [S]",
+      "grid": "F-6"
+    },
+    "steps": [
+      "Examine the Bulwark Gate at (F-6), on the approach to Jeuno, with Count Borel's letter.",
+      "Finish the long scene to receive the Underpass hatch key. Your next destination is Batallia Downs [S]."
+    ],
+    "notes": [],
+    "reward": "Underpass hatch key.",
+    "unlocks": [],
+    "zones": [
+      "Sauromugue Champaign [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Borne_by_the_Wind",
+        "label": "FFXIclopedia — Borne by the Wind"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/13_Borne_by_the_Wind.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "14",
+    "title": "A Nation on the Brink",
+    "requirements": [
+      "Complete Borne by the Wind.",
+      "Carry the Underpass hatch key awarded by Borne by the Wind."
+    ],
+    "start": {
+      "npc": "Underpass Hatch",
+      "zone": "Batallia Downs [S]",
+      "grid": "J-9/K-9"
+    },
+    "steps": [
+      "Climb the rampart to the tower at the J-9/K-9 boundary and examine the Underpass Hatch for the scene.",
+      "Examine it again with the Underpass hatch key to enter the Everbloom Hollow battle.",
+      "Assist the three allied units against two beastman waves each: Quadav northwest, Orcs northeast, and Yagudo south. After all waves fall, defeat One-eyed Gwajboj in the central area. Finish all connected scenes after victory.",
+      "After completion, examine the nearby ??? in Batallia Downs [S] for the Jeunoan Flag. If a retry consumes your key, return to the Bulwark Gate in Sauromugue Champaign [S] for a replacement."
+    ],
+    "notes": [],
+    "reward": "Battle of Jeuno Veteran title; Jeunoan Flag from the post-mission ???.",
+    "unlocks": [],
+    "zones": [
+      "Batallia Downs [S]",
+      "Everbloom Hollow",
+      "Sauromugue Champaign [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Nation_on_the_Brink",
+        "label": "BG Wiki — A Nation on the Brink"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/14_A_Nation_on_the_Brink.lua"
+    ],
+    "native_status": "partial",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the A Nation on the Brink instance in Everbloom Hollow unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "15",
+    "title": "Crossroads of Time",
+    "requirements": [
+      "Complete A Nation on the Brink.",
+      "For the gated story scene: complete Bonds That Never Die, Honor Under Fire, or The Forbidden Path."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Southern San d'Oria [S]"
+    },
+    "steps": [
+      "Complete one national pair: Quelling the Storm → Honor Under Fire; The Price of Valor → Bonds That Never Die; or The Long March North → The Forbidden Path.",
+      "Walk into Southern San d'Oria [S] from East Ronfaure [S] to trigger the next main-story scene."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]",
+      "East Ronfaure [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Crossroads_of_Time",
+        "label": "BG Wiki — Crossroads of Time"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/15_Crossroads_of_Time.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "16",
+    "title": "Sandswept Memories",
+    "requirements": [
+      "Complete Crossroads of Time."
+    ],
+    "start": {
+      "npc": "Lion Springs Tavern door",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "K-6"
+    },
+    "steps": [
+      "Examine the Lion Springs Tavern door (K-6) and watch the scene.",
+      "The next objective sends you to Beaucedine Glacier in the past."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Sandswept_Memories",
+        "label": "FFXIclopedia — Sandswept Memories"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/16_Sandswept_Memories.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "17",
+    "title": "Northland Exposure",
+    "requirements": [
+      "Complete Sandswept Memories."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Beaucedine Glacier [S]"
+    },
+    "steps": [
+      "Enter Beaucedine Glacier [S], normally reached through Batallia Downs [S].",
+      "Finish the entry scene to receive a Shadow bug and begin the Cait Sith investigation."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Shadow bug.",
+    "unlocks": [],
+    "zones": [
+      "Beaucedine Glacier [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Northland_Exposure",
+        "label": "FFXIclopedia — Northland Exposure"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/17_Northland_Exposure.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "18",
+    "title": "Traitor in the Midst",
+    "requirements": [
+      "Complete Northland Exposure.",
+      "Carry the Shadow bug awarded by Northland Exposure."
+    ],
+    "start": {
+      "npc": "Regal Pawprints",
+      "zone": "Beaucedine Glacier [S]",
+      "grid": "J-8 / I-7 / G-9 / H-8 / F-7"
+    },
+    "steps": [
+      "Complete the five pawprint minigames in any order: Coig (J-8), Seachd (I-7), Ceithir (G-9), Aon (H-8), and Tri (F-7). These are the tower-side pawprints.",
+      "For Coig, time the blow dart when the target lines up. For the three approach games, move while Cait Sith looks away and stop when she turns back.",
+      "For Tri, use the baby-chocobo actions to draw Cait Sith close; select Stun when it appears before the disguise expires. Retry an unsuccessful game at its pawprints.",
+      "After all five bugs are planted, examine Naoi's Regal Pawprints (H-10), beneath the broken branch near the tower."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Beaucedine Glacier [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Traitor_in_the_Midst",
+        "label": "BG Wiki — Traitor in the Midst"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/18_Traitor_in_the_Midst.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "19",
+    "title": "Betrayal at Beaucedine",
+    "requirements": [
+      "Complete Traitor in the Midst."
+    ],
+    "start": {
+      "npc": "Regal Pawprints",
+      "zone": "Beaucedine Glacier [S]",
+      "grid": "H-9"
+    },
+    "steps": [
+      "Examine the Regal Pawprints at (H-9), distinct from the five tower minigames, to watch the scene.",
+      "Examine them again to confront Count Halphas and four Dark Demons. Defeat Count Halphas; the additional demons disappear with him. Check the same pawprints to finish the mission."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Beaucedine Glacier [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Betrayal_at_Beaucedine",
+        "label": "FFXIclopedia — Betrayal at Beaucedine"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/19_Betrayal_at_Beaucedine.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "20",
+    "title": "On Thin Ice",
+    "requirements": [
+      "Complete Betrayal at Beaucedine."
+    ],
+    "start": {
+      "npc": "Raustigne",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Speak with Raustigne at (I-7) and finish the scene.",
+      "Begin gathering signatures around Southern San d'Oria [S] for Proof of Valor."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/On_Thin_Ice",
+        "label": "FFXIclopedia — On Thin Ice"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/20_On_Thin_Ice.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "21",
+    "title": "Proof of Valor",
+    "requirements": [
+      "Complete On Thin Ice."
+    ],
+    "start": {
+      "npc": "Raustigne",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Collect at least 20 signatures. A route with no item purchases is ten free signatures plus two quizzes.",
+      "Speak with Aissaville (I-7), Illeuse (H-9), Daigraffeaux (I-11), Elnonde (K-9), Remiotte (L-10), Loillie (K-9 upper level), Mailleronce (M-6), Andagge (H-9 upper level), Louxiard (G-7), and Machionage (C-6).",
+      "Answer Farouel (K-7): Smilodons; Tauri; Ghosts. Answer Vichauxdat (I-8): Three; Gutrenders; Grradhod. Correct answers add twelve signatures, bringing this route to 22.",
+      "Return to Raustigne at (I-7). If he still repeats an earlier count after you have enough, leave the zone and return. Accept his assessment to progress."
+    ],
+    "notes": [
+      "Additional quizzes, item donations and the Rongelouts minigame improve the optional reward; they are unnecessary for story access.",
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "20–29 signatures: progression only; 30–40 Oxblood Orb; 41–80 Foulard; 81–99 Angel Skin Orb; 100–119 Orichalcum Ingot; 120 Molybdenum Ingot.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Proof_of_Valor",
+        "label": "FFXIclopedia — Proof of Valor"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/21_Proof_of_Valor.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "22",
+    "title": "A Sanguinary Prelude",
+    "requirements": [
+      "Complete Proof of Valor."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Beaucedine Glacier [S]"
+    },
+    "steps": [
+      "Enter Beaucedine Glacier [S] after the petition is accepted.",
+      "Watch the scene to receive the Aroma bug for the rescue instance."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Aroma bug.",
+    "unlocks": [],
+    "zones": [
+      "Beaucedine Glacier [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Sanguinary_Prelude",
+        "label": "FFXIclopedia — A Sanguinary Prelude"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/22_A_Sanguinary_Prelude.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "23",
+    "title": "Dungeons and Dancers",
+    "requirements": [
+      "Complete A Sanguinary Prelude.",
+      "Carry the Aroma bug awarded by A Sanguinary Prelude."
+    ],
+    "start": {
+      "npc": "Regal Pawprints",
+      "zone": "Beaucedine Glacier [S]",
+      "grid": "G-9"
+    },
+    "steps": [
+      "Examine the high-ground pawprints at (G-9), west of the Campaign tower, for a scene; examine again to enter Everbloom Hollow with the Aroma bug.",
+      "Head northwest, keeping the right wall. Use Ratstail Explosives on walls at (H/I-9) and (H-8). Kill the nearby Goblin Reaver and check its dropped ??? repeatedly to refill explosives.",
+      "Open the southeast wall (I-9), go northeast to (J-7), inspect the dead end for the Firesand explanation, then inspect again to place Firesand.",
+      "Return through (H-8) and activate the green switch at (H/I-7). Return to (J-7) and pass into the second map carrying at least two explosives.",
+      "Open the southeast wall (G-8/9), then the east wall (I-9). Continue southeast to the blue exit ??? before the 30-minute limit."
+    ],
+    "notes": [
+      "On failure, request another Aroma bug at Naoi's pawprints (H-10).",
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Umbra bug.",
+    "unlocks": [],
+    "zones": [
+      "Beaucedine Glacier [S]",
+      "Everbloom Hollow"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Dungeons_and_Dancers",
+        "label": "BG Wiki — Dungeons and Dancers"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/23_Dungeons_and_Dancers.lua"
+    ],
+    "native_status": "partial",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the Dungeons and Dancers maze instance in Everbloom Hollow unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "24",
+    "title": "Distorter of Time",
+    "requirements": [
+      "Complete Dungeons and Dancers.",
+      "Carry the Umbra bug awarded by Dungeons and Dancers."
+    ],
+    "start": {
+      "npc": "Regal Pawprints",
+      "zone": "Beaucedine Glacier [S]",
+      "grid": "H-7"
+    },
+    "steps": [
+      "Reach the lower ledge in the southeast of (H-7); a hole near the Campaign arrival plateau provides access.",
+      "Examine the Regal Pawprints between the rocks with the Umbra bug to enter Ruhotz Silvermines.",
+      "Defeat Cait Sith Ceithir while protecting Lilisette. Atomos periodically drains attributes and transfers them to Ceithir; keep healing available through these weakened periods.",
+      "Finish the victory scene. After failure, a replacement Umbra bug comes from Naoi's pawprints (H-10), subject to the Vana'diel-day retry restriction."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Beaucedine Glacier [S]",
+      "Ruhotz Silvermines"
+    ],
+    "sources": [
+      {
+        "url": "https://wiki.ffo.jp/html/17706.html",
+        "label": "FF11 terminology wiki — Distorter of Time"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/24_Distorter_of_Time.lua"
+    ],
+    "native_status": "partial",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the Distorter of Time battle in Ruhotz Silvermines unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "25",
+    "title": "The Will of the World",
+    "requirements": [
+      "Complete Distorter of Time."
+    ],
+    "start": {
+      "npc": "Raustigne",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Report to Raustigne at (I-7) and finish the scene about Portia.",
+      "Continue your chosen national storyline before attempting Fate in Haze."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Bestrider of Futures title.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Will_of_the_World",
+        "label": "FFXIclopedia — The Will of the World"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/25_The_Will_of_the_World.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "26",
+    "title": "Fate in Haze",
+    "requirements": [
+      "Complete The Will of the World.",
+      "For the gated story scene: complete Blood of Heroes, What Price Loyalty, or Howl from the Heavens."
+    ],
+    "start": {
+      "npc": "Lion Springs Tavern door",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "K-6"
+    },
+    "steps": [
+      "Complete one national pair: Beneath the Mask → What Price Loyalty; Songbirds in a Snowstorm → Blood of Heroes; or Sins of the Mothers → Howl from the Heavens.",
+      "Examine the Lion Springs Tavern door (K-6) and allow the connected scenes to finish."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Fate_in_Haze",
+        "label": "FFXIclopedia — Fate in Haze"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/26_Fate_in_Haze.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "27",
+    "title": "The Scent of Battle",
+    "requirements": [
+      "Complete Fate in Haze."
+    ],
+    "start": {
+      "npc": "Bulwark Gate",
+      "zone": "Sauromugue Champaign [S]",
+      "grid": "F-6"
+    },
+    "steps": [
+      "Examine the Bulwark Gate at (F-6).",
+      "Watch the scene before returning to the present-day San d'Oria storyline."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Sauromugue Champaign [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Scent_of_Battle",
+        "label": "FFXIclopedia — The Scent of Battle"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/27_The_Scent_of_Battle.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "28",
+    "title": "Another World",
+    "requirements": [
+      "Complete The Scent of Battle."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Southern San d'Oria"
+    },
+    "steps": [
+      "Walk into present-day Southern San d'Oria from East Ronfaure to trigger the scene.",
+      "Travel to Chateau d'Oraguille and speak with Halver (I-9)."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria",
+      "East Ronfaure",
+      "Chateau d'Oraguille"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Another_World",
+        "label": "FFXIclopedia — Another World"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/28_Another_World.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "29",
+    "title": "A Hawk in Repose",
+    "requirements": [
+      "Complete Another World.",
+      "One Lilac."
+    ],
+    "start": {
+      "npc": "Weathered Gravestone",
+      "zone": "Batallia Downs",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Obtain one Lilac and reach the Weathered Gravestone at (I-10) in present-day Batallia Downs.",
+      "Examine the gravestone for the scene, then trade the Lilac to it for the next scene. The flower is consumed."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Batallia Downs"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Hawk_in_Repose",
+        "label": "FFXIclopedia — A Hawk in Repose"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/29_A_Hawk_in_Repose.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "30",
+    "title": "The Battle of Xarcabard",
+    "requirements": [
+      "Complete A Hawk in Repose."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Xarcabard [S]"
+    },
+    "steps": [
+      "Enter Xarcabard [S] from Beaucedine Glacier [S] for a scene.",
+      "Examine Rally Point: Red at (F-8) to receive the operation briefing."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Xarcabard [S]",
+      "Beaucedine Glacier [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Battle_of_Xarcabard",
+        "label": "FFXIclopedia — The Battle of Xarcabard"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/30_The_Battle_of_Xarcabard.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "31",
+    "title": "Prelude to a Storm",
+    "requirements": [
+      "Complete The Battle of Xarcabard.",
+      "The Magelight signal flare is obtained during this mission from Rally Point: Green in Xarcabard [S]."
+    ],
+    "start": {
+      "npc": "Rally Point: Green",
+      "zone": "Xarcabard [S]",
+      "grid": "G-9"
+    },
+    "steps": [
+      "Examine Rally Point: Green (G-9) to receive the Magelight signal flare. Check the Spell-worked Snow just southeast to enter Ghoyu's Reverie.",
+      "Speak with Pesoso to begin the operation. Defeat the beastman forces throughout the battlefield; area damage is useful against the numerous enemies.",
+      "When all enemies are defeated, speak with Pesoso again to finish. If entry must be repeated, return to Rally Point: Green for another flare."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "An Elixir, Vile Elixir, or Vile Elixir +1 according to performance in the reference version.",
+    "unlocks": [],
+    "zones": [
+      "Xarcabard [S]",
+      "Ghoyu's Reverie"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Prelude_to_a_Storm",
+        "label": "FFXIclopedia — Prelude to a Storm"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/31_Prelude_to_a_Storm.lua"
+    ],
+    "native_status": "partial",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the Prelude to a Storm instance in Ghoyu's Reverie unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "32",
+    "title": "Storm's Crescendo",
+    "requirements": [
+      "Complete Prelude to a Storm.",
+      "The Alchemical signal flare is obtained during this mission from Rally Point: Blue in Xarcabard [S]."
+    ],
+    "start": {
+      "npc": "Rally Point: Blue",
+      "zone": "Xarcabard [S]",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Examine Rally Point: Blue in northwest (H-8) for an Alchemical signal flare, then use the nearby Excavated Snow to enter the instance.",
+      "Speak with Antje to start the relay and receive Flee. Visit all 24 Republic Operatives while Flee is active; each conversation detonates a charge and refreshes the original effect.",
+      "Start south of Antje and follow the explosions counterclockwise: distant smoke points toward the next operative. The connected maps are 14, 15, 7 and 10. Keep moving past the tigers; ordinary speed equipment does not provide Flee.",
+      "Speaking to an operative without Flee resets the run; return to Antje to restart. After all 24 charges detonate, report to Antje, then examine Rally Point: Red (F-8) outside."
+    ],
+    "notes": [
+      "A replacement flare after failure is limited to one per Vana'diel day. If several players enter, coordinate one runner; starting another speed effect can interfere with the first.",
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Xarcabard [S]",
+      "Ghoyu's Reverie"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Storm%27s_Crescendo",
+        "label": "BG Wiki — Storm's Crescendo"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/32_Storms_Crescendo.lua"
+    ],
+    "native_status": "partial",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the Storm's Crescendo relay instance in Ghoyu's Reverie unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "33",
+    "title": "Into the Beast's Maw",
+    "requirements": [
+      "Complete Storm's Crescendo.",
+      "The Distress signal flare is obtained during this mission through the Peculiar Glint scenes in Castle Zvahl Baileys [S]."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Castle Zvahl Baileys [S]",
+      "grid": "G-7"
+    },
+    "steps": [
+      "After the Red rally-point scenes, enter Castle Zvahl Baileys [S].",
+      "At the first crossroads turn toward the corner room at (G-7). Examine Peculiar Glint near the stacked crates, and finish the scenes to receive the Distress signal flare.",
+      "Examine Peculiar Glint again to enter Ghoyu's Reverie. Defeat Count Bifrons, two Orcish Muscles and two Orcish Manglers.",
+      "Finish the victory scenes. If you fail, wait until the next Vana'diel day and examine the nearby Ornate Block for a replacement flare."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Castle Zvahl Baileys [S]",
+      "Ghoyu's Reverie",
+      "Xarcabard [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://wiki.ffo.jp/html/19510.html",
+        "label": "FF11 terminology wiki — Into the Beast's Maw"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/33_Into_the_Beasts_Maw.lua"
+    ],
+    "native_status": "partial",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the Into the Beast's Maw instance in Ghoyu's Reverie unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "34",
+    "title": "The Hunter Ensnared",
+    "requirements": [
+      "Complete Into the Beast's Maw."
+    ],
+    "start": {
+      "npc": "Rally Point: Red",
+      "zone": "Xarcabard [S]",
+      "grid": "F-8"
+    },
+    "steps": [
+      "Return to Rally Point: Red at (F-8).",
+      "Examine it and complete the scene to begin Flight of the Lion."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Xarcabard [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Hunter_Ensnared",
+        "label": "FFXIclopedia — The Hunter Ensnared"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/34_The_Hunter_Ensnared.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "35",
+    "title": "Flight of the Lion",
+    "requirements": [
+      "Complete The Hunter Ensnared."
+    ],
+    "start": {
+      "npc": "Bulwark Gate",
+      "zone": "Sauromugue Champaign [S]",
+      "grid": "F-6"
+    },
+    "steps": [
+      "Travel to the Bulwark Gate at (F-6).",
+      "Examine it and watch the scene before returning to Castle Zvahl."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Sauromugue Champaign [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Flight_of_the_Lion",
+        "label": "FFXIclopedia — Flight of the Lion"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/35_Flight_of_the_Lion.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "36",
+    "title": "Fall of the Hawk",
+    "requirements": [
+      "Complete Flight of the Lion."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Castle Zvahl Baileys [S]"
+    },
+    "steps": [
+      "Enter Castle Zvahl Baileys [S] for the scene.",
+      "Continue through the past castle toward Castle Zvahl Keep [S] and the Throne Room [S]."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Castle Zvahl Baileys [S]",
+      "Castle Zvahl Keep [S]",
+      "Throne Room [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Fall_of_the_Hawk",
+        "label": "FFXIclopedia — Fall of the Hawk"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/36_Fall_of_the_Hawk.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "37",
+    "title": "Darkness Descends",
+    "requirements": [
+      "Complete Fall of the Hawk."
+    ],
+    "start": {
+      "npc": "Throne Room entrance",
+      "zone": "Throne Room [S]"
+    },
+    "steps": [
+      "Traverse Castle Zvahl Baileys [S] and Castle Zvahl Keep [S], using the Iron Door on the inner route, and enter Throne Room [S] for the scene.",
+      "Examine the Throne Room battlefield entrance and select Darkness Descends.",
+      "Defeat Haudrale and Aquila while keeping Lilisette alive; her defeat ends the attempt. Assign healing to her throughout.",
+      "Haudrale can absorb magic and Aquila can absorb physical damage during their respective modes. Physical attacks against Haudrale and magic against Aquila avoid these absorption periods. Watch Aquila's dangerous spells while controlling both opponents.",
+      "Allow the victory scene to finish."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Wanderer of Time title.",
+    "unlocks": [],
+    "zones": [
+      "Throne Room [S]",
+      "Castle Zvahl Baileys [S]",
+      "Castle Zvahl Keep [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Darkness_Descends",
+        "label": "FFXIclopedia — Darkness Descends"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/37_Darkness_Descends.lua"
+    ],
+    "native_status": "partial",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the Darkness Descends battlefield in Throne Room [S] unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "38",
+    "title": "Adieu, Lilisette",
+    "requirements": [
+      "Complete Darkness Descends.",
+      "For the gated story scene: complete Face of the Future, Bonds of Mythril, or At Journey's End."
+    ],
+    "start": {
+      "npc": "Lion Springs Tavern door",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "K-6"
+    },
+    "steps": [
+      "Finish one national finale pair: The Truth Lies Hid → Bonds of Mythril (Bastok); Chasing Shadows → Face of the Future (San d'Oria); or Manifest Destiny → At Journey's End (Windurst).",
+      "Examine the Lion Springs Tavern door (K-6) for the next story scene."
+    ],
+    "notes": [
+      "The national finale quests and subsequent WotG missions were released as the retail cap rose beyond 75; completing the entire story is a separate balance and implementation decision for Zenith.",
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Adieu%2C_Lilisette",
+        "label": "FFXIclopedia — Adieu, Lilisette"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/38_Adieu_Lilisette.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "native_status": "implemented-handler"
+  },
+  {
+    "campaign": "wotg",
+    "number": "39",
+    "title": "By the Fading Light",
+    "requirements": [
+      "Complete Adieu, Lilisette."
+    ],
+    "start": {
+      "npc": "Rally Point: Red",
+      "zone": "Xarcabard [S]",
+      "grid": "F-8"
+    },
+    "steps": [
+      "Examine Rally Point: Red at (F-8).",
+      "Finish the scene, then prepare to revisit one of the Jeuno-area maws."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Xarcabard [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/By_the_Fading_Light",
+        "label": "FFXIclopedia — By the Fading Light"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/39_By_the_Fading_Light.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "40",
+    "title": "Edge of Existence",
+    "requirements": [
+      "Complete By the Fading Light."
+    ],
+    "start": {
+      "npc": "Cavernous Maw",
+      "zone": "Batallia Downs [S]"
+    },
+    "steps": [
+      "Examine a Cavernous Maw in Batallia Downs, Rolanberry Fields, or Sauromugue Champaign, in either era.",
+      "Watch Cait Sith's scene to begin Her Memories. Note your current Campaign allegiance before starting its national fragment branch."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Batallia Downs [S]",
+      "Rolanberry Fields [S]",
+      "Sauromugue Champaign [S]",
+      "Batallia Downs",
+      "Rolanberry Fields",
+      "Sauromugue Champaign"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Edge_of_Existence",
+        "label": "FFXIclopedia — Edge of Existence"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/40_Edge_of_Existence.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "41",
+    "title": "Her Memories",
+    "requirements": [
+      "Complete Edge of Existence.",
+      "A Lilac, a Philosopher's Stone, Rice Vinegar, Ground Wasabi and Holy Basil are used by the subquests."
+    ],
+    "start": {
+      "npc": "Memory quest NPCs",
+      "zone": "Southern San d'Oria"
+    },
+    "steps": [
+      "Collect Large memory fragments I–IV through the linked subquests; their order is flexible. Start Of Malign Maladies early to run its day wait while doing the other routes.",
+      "For fragment I, start Homecoming Queen by walking from East Ronfaure into Southern San d'Oria, then complete Old Bean, The Faux Pas, and Grave Resolve.",
+      "For fragment II, complete Of Malign Maladies. For fragment III, complete Operation Cupid.",
+      "For fragment IV, complete the branch associated with your past allegiance: Carnelian Footfalls, Azure Footfalls, or Verdure Footfalls. You need one national fragment, not all three. Keep your allegiance unchanged during this stage.",
+      "Once all four large fragments are present, the next mission is assigned automatically."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Four Large memory fragments; progress to Forget Me Not.",
+    "unlocks": [
+      "Her Memories: Homecoming Queen",
+      "Her Memories: Of Malign Maladies",
+      "Her Memories: Operation Cupid",
+      "Her Memories: Carnelian Footfalls",
+      "Her Memories: Azure Footfalls",
+      "Her Memories: Verdure Footfalls"
+    ],
+    "zones": [
+      "Southern San d'Oria"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Her_Memories",
+        "label": "BG Wiki — Her Memories"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/41_Her_Memories.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "native_status": "partial",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance.",
+    "availability_note": "Reference chapter: the four-fragment completion check exists, but the pinned source does not contain a Verdure Footfalls handler for the Windurst branch. Earlier main-story battle gaps also block normal progression.",
+    "related": [
+      {
+        "key": "quest-wotg-her-memories-homecoming-queen",
+        "label": "Her Memories: Homecoming Queen"
+      },
+      {
+        "key": "quest-wotg-her-memories-old-bean",
+        "label": "Her Memories: Old Bean"
+      },
+      {
+        "key": "quest-wotg-her-memories-the-faux-pas",
+        "label": "Her Memories: The Faux Pas"
+      },
+      {
+        "key": "quest-wotg-her-memories-grave-resolve",
+        "label": "Her Memories: Grave Resolve"
+      },
+      {
+        "key": "quest-wotg-her-memories-of-malign-maladies",
+        "label": "Her Memories: Of Malign Maladies"
+      },
+      {
+        "key": "quest-wotg-her-memories-operation-cupid",
+        "label": "Her Memories: Operation Cupid"
+      },
+      {
+        "key": "quest-wotg-her-memories-carnelian-footfalls",
+        "label": "Her Memories: Carnelian Footfalls"
+      },
+      {
+        "key": "quest-wotg-her-memories-azure-footfalls",
+        "label": "Her Memories: Azure Footfalls"
+      },
+      {
+        "key": "quest-wotg-her-memories-verdure-footfalls",
+        "label": "Her Memories: Verdure Footfalls"
+      }
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "number": "42",
+    "title": "Forget Me Not",
+    "requirements": [
+      "Complete Her Memories.",
+      "Carry Large memory fragments I-IV collected during Her Memories."
+    ],
+    "start": {
+      "npc": "Cavernous Maw",
+      "zone": "Batallia Downs [S]"
+    },
+    "steps": [
+      "Examine one of the six Jeuno-area maws (Batallia, Rolanberry, or Sauromugue, in either era) after collecting the four large fragments.",
+      "Let the linked scenes and automatic transfers finish. In the pinned handler, you visit Grauberg during the scene, then return to a Jeuno-area maw; completion is recorded on that return.",
+      "Travel to Grauberg [S] for Pillar of Hope after the mission log updates."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Batallia Downs [S]",
+      "Grauberg [S]",
+      "Rolanberry Fields [S]",
+      "Sauromugue Champaign [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Forget_Me_Not",
+        "label": "FFXIclopedia — Forget Me Not"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/42_Forget_Me_Not.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "43",
+    "title": "Pillar of Hope",
+    "requirements": [
+      "Complete Forget Me Not."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "Reach Witchfire Glen and examine the Veridical Conflux at (F-5).",
+      "Finish the scene. The next mission requires a zone change and the following Vana'diel day."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Pillar_of_Hope",
+        "label": "FFXIclopedia — Pillar of Hope"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/43_Pillar_of_Hope.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "44",
+    "title": "Glimmer of Life",
+    "requirements": [
+      "Complete Pillar of Hope.",
+      "One Vana'diel day transition and a zone change after Pillar of Hope."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "Wait until the next Vana'diel day after Pillar of Hope and leave Grauberg [S].",
+      "Return to the Veridical Conflux (F-5) and examine it for the next scene."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Glimmer_of_Life",
+        "label": "FFXIclopedia — Glimmer of Life"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/44_Glimmer_of_Life.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "45",
+    "title": "Time Slips Away",
+    "requirements": [
+      "Complete Glimmer of Life."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "Examine the Veridical Conflux (F-5) again after Glimmer of Life.",
+      "Finish the scene and obtain the Bottled punch bug used for the next battle."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Bottled punch bug.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Time_Slips_Away",
+        "label": "FFXIclopedia — Time Slips Away"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/45_Time_Slips_Away.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "46",
+    "title": "When Wills Collide",
+    "requirements": [
+      "Complete Time Slips Away.",
+      "Carry the Bottled punch bug awarded by Time Slips Away."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "Examine the Veridical Conflux (F-5) to enter the mission section of Walk of Echoes.",
+      "Go north up the stairs and examine the Ornate Door for a scene. Examine it again with the Bottled punch bug to enter the battle.",
+      "Defeat Portia, Ragelise, Larzos and the Fourth Spitewarden. Finish the victory scene.",
+      "If the entry item is lost, trade one Punch Bug to the Veridical Conflux in Grauberg [S] to receive another Bottled punch bug."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Vanquisher of Spite title.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]",
+      "Walk of Echoes"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/When_Wills_Collide",
+        "label": "FFXIclopedia — When Wills Collide"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/46_When_Wills_Collide.lua"
+    ],
+    "native_status": "partial",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance.",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the When Wills Collide battlefield in Walk of Echoes unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "47",
+    "title": "Whispers of Dawn",
+    "requirements": [
+      "Complete When Wills Collide."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "Return to Grauberg [S] and examine the Veridical Conflux (F-5).",
+      "Complete the scene; this starts the next mission's day wait."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Whispers_of_Dawn",
+        "label": "FFXIclopedia — Whispers of Dawn"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/47_Whispers_of_Dawn.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "48",
+    "title": "A Dreamy Interlude",
+    "requirements": [
+      "Complete Whispers of Dawn.",
+      "Next Vana'diel day and a zone change after Whispers of Dawn."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "After Whispers of Dawn, leave the zone and wait until the next Vana'diel day.",
+      "Return to the Veridical Conflux (F-5), examine it, and finish the scene."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Dreamy_Interlude",
+        "label": "FFXIclopedia — A Dreamy Interlude"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/48_A_Dreamy_Interlude.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "49",
+    "title": "Cait in the Woods",
+    "requirements": [
+      "Complete A Dreamy Interlude."
+    ],
+    "start": {
+      "npc": "Glowing blank target",
+      "zone": "East Ronfaure [S]",
+      "grid": "H-7"
+    },
+    "steps": [
+      "Find the glowing unlabelled target by the riverside tree in northwest (H-7).",
+      "Examine it for the scene and the Ronfaure dawndrop."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Ronfaure dawndrop.",
+    "unlocks": [],
+    "zones": [
+      "East Ronfaure [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Cait_in_the_Woods",
+        "label": "FFXIclopedia — Cait in the Woods"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/49_Cait_in_the_Woods.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "50",
+    "title": "Fork in the Road",
+    "requirements": [
+      "Complete Cait in the Woods.",
+      "Carry the Ronfaure dawndrop awarded by Cait in the Woods."
+    ],
+    "start": {
+      "npc": "Glowing blank targets",
+      "zone": "Jugner Forest [S]",
+      "grid": "I-6"
+    },
+    "steps": [
+      "The Ronfaure dawndrop is already obtained. Collect the other seven by examining their glowing blank targets in any order.",
+      "Visit Jugner Forest [S] (I-6), across the river beside the familiar stump; La Vaule [S] southeast (K-9), beside the house; and Southern San d'Oria [S] (K-6), outside Lion Springs.",
+      "Visit Beaucedine Glacier [S] (H-9), down the ramp from the Campaign tower; Xarcabard [S] (F-8), beside Rally Point: Red; and Throne Room [S], in the central walkway.",
+      "Enter Walk of Echoes through Grauberg [S] (F-5) and examine its target south of the conflux. The eighth dawndrop combines the set into Primal glow.",
+      "If Walk of Echoes was your last stop, leave to Grauberg before starting Maiden of the Dusk."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Primal glow.",
+    "unlocks": [],
+    "zones": [
+      "Jugner Forest [S]",
+      "East Ronfaure [S]",
+      "La Vaule [S]",
+      "Southern San d'Oria [S]",
+      "Beaucedine Glacier [S]",
+      "Xarcabard [S]",
+      "Throne Room [S]",
+      "Walk of Echoes",
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Fork_in_the_Road",
+        "label": "BG Wiki — Fork in the Road"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/50_Fork_in_the_Road.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "51",
+    "title": "Maiden of the Dusk",
+    "requirements": [
+      "Complete Fork in the Road.",
+      "Carry the Primal glow awarded by Fork in the Road."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "Examine the Grauberg [S] conflux at (F-5) for the entry scene. In Walk of Echoes, examine the Ornate Door north of the entrance for another scene, then again to select the mission battle.",
+      "Defeat Lilith's first form. Turn away from Fatal Attraction to avoid its charm; watch area damage and knockback.",
+      "After the transition scene, use the brief opportunity to recover and rebuff. Defeat Lilith Ascendant while avoiding elemental gyves, especially the dark gyves with Doom.",
+      "Move away when she signals Dark Sun. Finish the connected victory scenes before leaving.",
+      "For another Primal glow, examine the Grauberg conflux; if a replacement was already issued that Vana’diel day, wait until the next day."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Moonshade earring story key item; the equipment reward is selected later.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]",
+      "Walk of Echoes"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Maiden_of_the_Dusk",
+        "label": "BG Wiki — Maiden of the Dusk"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/51_Maiden_of_the_Dusk.lua"
+    ],
+    "native_status": "partial",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance.",
+    "availability_note": "Reference walkthrough: the pinned server core contains story scenes but leaves the Maiden of the Dusk battlefield in Walk of Echoes unfinished or unconnected. This is not confirmed playable on Zenith."
+  },
+  {
+    "campaign": "wotg",
+    "number": "52",
+    "title": "Where It All Began",
+    "requirements": [
+      "Complete Maiden of the Dusk."
+    ],
+    "start": {
+      "npc": "Lion Springs Tavern door",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "K-6"
+    },
+    "steps": [
+      "Examine the Lion Springs Tavern door at (K-6).",
+      "Finish the scene and receive the Wedding invitation."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Wedding invitation.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Where_It_All_Began",
+        "label": "FFXIclopedia — Where It All Began"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/52_Where_It_All_Began.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "53",
+    "title": "A Token of Troth",
+    "requirements": [
+      "Complete Where It All Began.",
+      "Carry the Wedding invitation awarded by Where It All Began."
+    ],
+    "start": {
+      "npc": "Bulwark Gate",
+      "zone": "Sauromugue Champaign [S]",
+      "grid": "F-6"
+    },
+    "steps": [
+      "Examine the Bulwark Gate at (F-6) with the Wedding invitation.",
+      "Watch the wedding scenes. The invitation is consumed and Lest We Forget becomes current."
+    ],
+    "notes": [
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Story conclusion; final earring selection becomes available.",
+    "unlocks": [],
+    "zones": [
+      "Sauromugue Champaign [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Token_of_Troth",
+        "label": "FFXIclopedia — A Token of Troth"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/53_Token_of_Troth.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  },
+  {
+    "campaign": "wotg",
+    "number": "54",
+    "title": "Lest We Forget",
+    "requirements": [
+      "Complete A Token of Troth.",
+      "A free inventory slot."
+    ],
+    "start": {
+      "npc": "Veridical Conflux",
+      "zone": "Grauberg [S]",
+      "grid": "F-5"
+    },
+    "steps": [
+      "Leave at least one inventory slot free and examine the Veridical Conflux at (F-5).",
+      "Choose one augment from each of the two displayed groups, review the combination, and confirm to receive the augmented Moonshade Earring.",
+      "The first group offers Accuracy, Attack, Ranged Accuracy, Ranged Attack, Magic Accuracy or Magic Attack Bonus +4, or HP/MP +25. The second group includes TP Bonus, Refresh, Regain and other situational effects; read the options before committing."
+    ],
+    "notes": [
+      "This is the closing mission-log entry. Its presence in the current log after the reward does not itself mean the story is unfinished.",
+      "The pinned core has an incomplete main-story battle at mission 14; later story handlers do not establish that this chapter is currently reachable on Zenith."
+    ],
+    "reward": "Augmented Moonshade Earring.",
+    "unlocks": [],
+    "zones": [
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Lest_We_Forget",
+        "label": "BG Wiki — Lest We Forget"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/54_Lest_We_Forget.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "Later WotG chapter, released after the level cap began rising above 75. Included for story continuity; this guide does not claim a tested level-75 balance."
+  }
+]

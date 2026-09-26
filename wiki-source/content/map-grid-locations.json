@@ -1,0 +1,155 @@
+{
+  "camp_books": {
+    "102": "(D-4)",
+    "103": "(H-7)",
+    "118": "(I-9)",
+    "126": "(F-6)",
+    "114": "(J-8)",
+    "197": "(L-8), entrance map",
+    "200": "(G-7), entrance map",
+    "125": "(G-7)",
+    "153": "(L-9), lower map",
+    "174": "(H-9), desert entrance map",
+    "113": "(I-6)",
+    "130": "(H-11)"
+  },
+  "sources": [
+    "https://github.com/SmithReact/VanaCompass/blob/0cc135b0148cbb1198cb456e88d1e7b324258a8f/data/grid_calibrations.lua",
+    "https://www.ffxidb.com/public/js/maps.js",
+    "https://www.ffxidb.com/zones/153/aquarius",
+    "https://www.ffxidb.com/zones/105/tottering-toby",
+    "https://www.ffxidb.com/zones/197/exoray",
+    "https://www.ffxidb.com/zones/200/explosure",
+    "https://www.ffxidb.com/zones/195/lich",
+    "https://www.ffxidb.com/zones/174/robber-crab",
+    "https://www.ffxidb.com/zones/113/sand-cockatrice"
+  ],
+  "reviewed_points": [
+    {
+      "zone": 231,
+      "position": [
+        -181.101,
+        0,
+        71.279
+      ],
+      "grid": "E-8"
+    },
+    {
+      "zone": 231,
+      "position": [
+        -247.201,
+        0,
+        40.939
+      ],
+      "grid": "C-8"
+    },
+    {
+      "zone": 235,
+      "position": [
+        -346.354,
+        0,
+        -184.252
+      ],
+      "grid": "E-11"
+    },
+    {
+      "zone": 241,
+      "position": [
+        106,
+        0,
+        -23
+      ],
+      "grid": "K-10"
+    },
+    {
+      "zone": 230,
+      "position": [
+        123.754,
+        0,
+        92.125
+      ],
+      "grid": "L-6"
+    },
+    {
+      "zone": 244,
+      "position": [
+        -43,
+        0,
+        -1
+      ],
+      "grid": "G-10"
+    },
+    {
+      "zone": 243,
+      "position": [
+        8,
+        0,
+        118
+      ],
+      "grid": "H-5"
+    },
+    {
+      "zone": 231,
+      "position": [
+        -193.729,
+        0,
+        159.412
+      ],
+      "grid": "E-6"
+    },
+    {
+      "zone": 126,
+      "position": [
+        -264,
+        -19.969,
+        280
+      ],
+      "grid": "F-6"
+    },
+    {
+      "zone": 126,
+      "position": [
+        -264,
+        -19.969,
+        299
+      ],
+      "grid": "F-6"
+    },
+    {
+      "zone": 103,
+      "position": [
+        -228.957,
+        0,
+        -101.226
+      ],
+      "grid": "E-9"
+    },
+    {
+      "zone": 114,
+      "position": [
+        -85,
+        0,
+        -46
+      ],
+      "grid": "G-8"
+    },
+    {
+      "zone": 153,
+      "position": [
+        165.93,
+        8,
+        -56.348
+      ],
+      "grid": "H-9"
+    },
+    {
+      "zone": 105,
+      "position": [
+        -132.889,
+        -0.379,
+        225.931
+      ],
+      "grid": "H-6"
+    }
+  ]
+}

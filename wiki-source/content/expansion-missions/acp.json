@@ -1,0 +1,521 @@
+[
+  {
+    "campaign": "acp",
+    "number": "1",
+    "title": "A Crystalline Prophecy",
+    "requirements": [
+      "Main job level 10 or higher.",
+      "A Crystalline Prophecy must be enabled on the server."
+    ],
+    "start": {
+      "npc": "Area entry",
+      "zone": "Lower Jeuno"
+    },
+    "steps": [
+      "Enter Lower Jeuno with your main job at level 10 or higher and watch the opening scene.",
+      "Check that the mission log now shows The Echo Awakens before collecting the three seedspalls."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ACP 2"
+    ],
+    "zones": [
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Crystalline_Prophecy_(Mission)",
+        "label": "FFXIclopedia: A Crystalline Prophecy (Mission)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/01_A_Crystalline_Prophecy.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "2",
+    "title": "The Echo Awakens",
+    "requirements": [
+      "Complete ACP 1."
+    ],
+    "start": {
+      "npc": "???",
+      "zone": "Qufim Island",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Obtain a Seedspall Astrum from Yagudo in Meriphataud Mountains, near the Castle Oztroja approach at K-8.",
+      "Obtain a Seedspall Luna from Quadav in Pashhow Marshlands, near the Beadeaux approach at K-10.",
+      "Obtain a Seedspall Lux from Orcs in Jugner Forest, near the Davoi approach at G-11.",
+      "Bring all three physical items to Qufim Island. Trade them together to the ??? at G-6 between the two stone pillars near the H-6 path, then watch the scene."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ACP 3"
+    ],
+    "zones": [
+      "Qufim Island",
+      "Meriphataud Mountains",
+      "Pashhow Marshlands",
+      "Jugner Forest"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Echo_Awakens",
+        "label": "FFXIclopedia: The Echo Awakens",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/02_The_Echo_Awakens.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "3",
+    "title": "Gatherer of Light (I)",
+    "requirements": [
+      "Complete ACP 2.",
+      "Access to the raised ledges through Beaucedine Glacier, Crawlers' Nest and Garlaige Citadel."
+    ],
+    "start": {
+      "npc": "???",
+      "zone": "Qufim Island",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Defeat Goblins in Batallia Downs until you receive the bowl of bland Goblin salad key item. Reach the raised F-5 ledge through Beaucedine Glacier, examine its ??? and defeat Vegnix Greenthumb for Seedspall Roseum.",
+      "Defeat Goblins in Rolanberry Fields for the jug of greasy Goblin juice. Reach the raised D-11 ledge through Crawlers' Nest, examine its ??? and defeat Chuglix Berrypaws for Seedspall Caerulum.",
+      "Defeat Goblins in Sauromugue Champaign for the chunk of smoked Goblin grub. Reach the I-9/J-10 cliff through Garlaige Citadel, examine its ??? and defeat Dribblix Greasemaw for Seedspall Viridis.",
+      "Each participant seeking credit must hold the corresponding food key item when that NM dies. After obtaining all three seedspall key items, return to the Qufim G-6 ??? for the scene."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ACP 4"
+    ],
+    "zones": [
+      "Qufim Island",
+      "Batallia Downs",
+      "Beaucedine Glacier",
+      "Rolanberry Fields",
+      "Crawlers' Nest",
+      "Sauromugue Champaign",
+      "Garlaige Citadel"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Gatherer_of_Light_(I)",
+        "label": "FFXIclopedia: Gatherer of Light (I)",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Crystalline_Mission_3",
+        "label": "BG Wiki: Crystalline Mission 3",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/03_Gatherer_Of_Light_I.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "4",
+    "title": "Gatherer of Light (II)",
+    "requirements": [
+      "Complete ACP 3."
+    ],
+    "start": {
+      "npc": "???",
+      "zone": "Qufim Island",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Prepare beside the same G-6 ??? with the participating party nearby, then examine it again to start the confrontation.",
+      "Defeat all 30 Seed Mandragoras within the 30-minute field battle. Keep the fight inside the encounter area and do not zone away.",
+      "After victory, examine the ??? again for the concluding scene. Confirm that Those Who Lurk in Shadows (I) is active."
+    ],
+    "notes": [
+      "If the fight fails, recollect the three Goblin NM seedspall key items before trying again.",
+      "The reference confrontation dismisses Trusts on entry; Zenith behavior is not confirmed."
+    ],
+    "reward": "Amber key and story progression.",
+    "unlocks": [
+      "ACP 5"
+    ],
+    "zones": [
+      "Qufim Island"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Gatherer_of_Light_(II)",
+        "label": "FFXIclopedia: Gatherer of Light (II)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/04_Gatherer_Of_Light_II.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "5",
+    "title": "Those Who Lurk in Shadows (I)",
+    "requirements": [
+      "Complete ACP 4."
+    ],
+    "start": {
+      "npc": "Area entry",
+      "zone": "Fei'Yin"
+    },
+    "steps": [
+      "Travel through Beaucedine Glacier into Fei'Yin and watch the arrival scene.",
+      "Confirm the log advances to Those Who Lurk in Shadows (II); this stage is the introduction to the timed seed search."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ACP 6"
+    ],
+    "zones": [
+      "Fei'Yin",
+      "Beaucedine Glacier"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Those_Who_Lurk_in_Shadows_(I)",
+        "label": "FFXIclopedia: Those Who Lurk in Shadows (I)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/05_Those_Who_Lurk_In_Shadows_I.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/FeiYin/Zone.lua"
+    ],
+    "native_status": "legacy FeiYin onZoneIn and onEventFinish implement this transition; no live test",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "6",
+    "title": "Those Who Lurk in Shadows (II)",
+    "requirements": [
+      "Complete ACP 5.",
+      "Sneak/Invisibility supplies and a route through both floors recommended."
+    ],
+    "start": {
+      "npc": "Seed Afterglows",
+      "zone": "Fei'Yin"
+    },
+    "steps": [
+      "Search both floors of Fei'Yin for the nine differently colored Seed Afterglows. Examine all nine within 30 minutes; their positions can move, so use the route maps and check nearby rooms.",
+      "The required colors are red, orange, yellow, green, cerulean, blue, golden, silver and white. Keep track of colors received in your key items.",
+      "At the reward choice, select the Mark of Seed to continue the story. The Azure key is an alternative reward and does not replace the battlefield entry item.",
+      "If the timer expires, leave Fei'Yin and re-enter to restart the search. Take the Mark of Seed to the Burning Circle in Qu'Bia Arena."
+    ],
+    "notes": [],
+    "reward": "Mark of Seed for the next battlefield.",
+    "unlocks": [
+      "ACP 7"
+    ],
+    "zones": [
+      "Fei'Yin",
+      "Qu'Bia Arena"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Crystalline_Mission_6",
+        "label": "BG Wiki: Crystalline Mission 6",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Those_Who_Lurk_in_Shadows_(II)",
+        "label": "FFXIclopedia: Those Who Lurk in Shadows (II)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/06_Those_Who_Lurk_In_Shadows_II.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "7",
+    "title": "Those Who Lurk in Shadows (III)",
+    "requirements": [
+      "Complete ACP 6.",
+      "Mark of Seed for each character requiring mission credit."
+    ],
+    "start": {
+      "npc": "Burning Circle",
+      "zone": "Qu'Bia Arena"
+    },
+    "steps": [
+      "Examine the Burning Circle for the opening scene, then examine it again to select the mission battlefield.",
+      "Enter with your Mark of Seed and defeat the four Seed beastmen: Orc, Quadav, Yagudo and Goblin. Coordinate crowd control and concentrate damage on one target at a time.",
+      "Watch the post-battle scene. Your next story destination is the Hall of the Gods."
+    ],
+    "notes": [],
+    "reward": "Ivory key and story progression.",
+    "unlocks": [
+      "ACP 8"
+    ],
+    "zones": [
+      "Qu'Bia Arena",
+      "Hall of the Gods"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Those_Who_Lurk_in_Shadows_(III)",
+        "label": "FFXIclopedia: Those Who Lurk in Shadows (III)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/07_Those_Who_Lurk_In_Shadows_III.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "8",
+    "title": "Remember Me in Your Dreams",
+    "requirements": [
+      "Complete ACP 7."
+    ],
+    "start": {
+      "npc": "Area entry",
+      "zone": "Hall of the Gods"
+    },
+    "steps": [
+      "Travel through The Sanctuary of Zi'Tah and Ro'Maeve to the Hall of the Gods.",
+      "Enter the Hall from Ro'Maeve and watch the scene. This advances the log to Born of Her Nightmares. Sky access is not required to reach this entrance."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ACP 9"
+    ],
+    "zones": [
+      "Hall of the Gods",
+      "The Sanctuary of Zi'Tah",
+      "Ro'Maeve"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Remember_Me_in_Your_Dreams",
+        "label": "FFXIclopedia: Remember Me in Your Dreams",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/08_Remember_Me_In_Your_Dreams.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Hall_of_the_Gods/Zone.lua"
+    ],
+    "native_status": "legacy Hall_of_the_Gods Zone event 5 implements transition when arriving from RoMaeve; no live test",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "9",
+    "title": "Born of Her Nightmares",
+    "requirements": [
+      "Complete ACP 8."
+    ],
+    "start": {
+      "npc": "Area entry",
+      "zone": "Lower Delkfutt's Tower"
+    },
+    "steps": [
+      "Return to Qufim Island and enter Lower Delkfutt's Tower for the scene.",
+      "Confirm Banishing the Echo is active before starting the level-restricted ascent."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ACP 10"
+    ],
+    "zones": [
+      "Lower Delkfutt's Tower",
+      "Qufim Island"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Born_of_Her_Nightmares",
+        "label": "FFXIclopedia: Born of Her Nightmares",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/09_Born_Of_Her_Nightmares.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Lower_Delkfutts_Tower/Zone.lua"
+    ],
+    "native_status": "legacy Lower_Delkfutts_Tower Zone arrival event implements transition; no live test",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "10",
+    "title": "Banishing the Echo",
+    "requirements": [
+      "Complete ACP 9.",
+      "Travel supplies usable under a level-30 restriction."
+    ],
+    "start": {
+      "npc": "Seed Fragment",
+      "zone": "Lower Delkfutt's Tower"
+    },
+    "steps": [
+      "Examine the Seed Fragment near the entrance to accept the level-30 restriction and start the ascent. Prepare Sneak/Invisibility consumables before accepting it.",
+      "Collect the Seed Afterglow on every floor. Lower tower: floor 1 J-11 Amicitia; floor 2 H-7 Veritas; floor 3 I-9 Sapientia.",
+      "Middle tower: floor 4 H-10 Sanctitas; floor 5 G-7 Felicitas; floor 6 F-8 Divitia; floor 7 H-9 Studium; floor 8 I-8 Amoris; floor 9 G-8 Caritas.",
+      "Upper tower: floor 10 G-9 Constantia; floor 11 H-7 Spei; floor 12 H-7 Salus. Follow the stairs through every floor rather than skipping the required afterglows.",
+      "At the Stellar Fulcrum, examine the Seed Fragment with all twelve key items to receive the Omnis Stone. Examine the Qe'Iov Gate for the scene leading to the final battle."
+    ],
+    "notes": [],
+    "reward": "Omnis Stone.",
+    "unlocks": [
+      "ACP 11"
+    ],
+    "zones": [
+      "Lower Delkfutt's Tower",
+      "Middle Delkfutt's Tower",
+      "Upper Delkfutt's Tower",
+      "Stellar Fulcrum"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Banishing_the_Echo",
+        "label": "FFXIclopedia: Banishing the Echo",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Seed_Afterglow",
+        "label": "BG Wiki: Seed Afterglow",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/10_Banishing_The_Echo.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "11",
+    "title": "Ode of Life Bestowing",
+    "requirements": [
+      "Complete ACP 10.",
+      "Omnis Stone.",
+      "A prepared level-75 party is recommended; Zenith Trust entry and solo balance are unconfirmed."
+    ],
+    "start": {
+      "npc": "Qe'Iov Gate",
+      "zone": "Stellar Fulcrum"
+    },
+    "steps": [
+      "Examine the Qe'Iov Gate with an Omnis Stone and choose Ode of Life Bestowing. The reference battlefield allows six participants and lasts 30 minutes.",
+      "Defeat the Seed Crystal while handling its summoned Seed Thralls. Establish a tank, healing coverage and an add-control role before entering.",
+      "Complete the victory scene and retain the Prismatic key for your armor reward in Lower Jeuno."
+    ],
+    "notes": [],
+    "reward": "Prismatic key, Ebon key; title: Silencer of the Echo.",
+    "unlocks": [
+      "ACP 12"
+    ],
+    "zones": [
+      "Stellar Fulcrum",
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Ode_of_Life_Bestowing",
+        "label": "FFXIclopedia: Ode of Life Bestowing",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/11_Ode_Of_Life_Bestowing.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "acp",
+    "number": "12",
+    "title": "A Crystalline Prophecy (Fin.)",
+    "requirements": [
+      "Complete ACP 11.",
+      "Prismatic key from the final battlefield."
+    ],
+    "start": {
+      "npc": "Treasure Coffer",
+      "zone": "Lower Jeuno",
+      "grid": "J-8"
+    },
+    "steps": [
+      "Go to the Tenshodo headquarters inside Neptune's Spire at J-8 and examine the Treasure Coffer.",
+      "Use the Prismatic key reward choice to select one body: Nuevo Coselete, Mirke Wardecors or Royal Redingote. Review the two augment selections before confirming.",
+      "Fin. is the completed storyline marker. It can remain in the mission log; there is no additional story objective to clear."
+    ],
+    "notes": [],
+    "reward": "One selected, augmented add-on body armor.",
+    "unlocks": [],
+    "zones": [
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Crystalline_Prophecy_(Fin.)",
+        "label": "FFXIclopedia: A Crystalline Prophecy (Fin.)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/acp/12_A_Crystalline_Prophecy_Fin.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  }
+]

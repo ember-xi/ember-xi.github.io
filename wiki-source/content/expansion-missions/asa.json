@@ -1,0 +1,699 @@
+[
+  {
+    "campaign": "asa",
+    "number": "1",
+    "title": "A Shantotto Ascension",
+    "requirements": [
+      "Main job level 10 or higher.",
+      "A Shantotto Ascension must be enabled on the server."
+    ],
+    "start": {
+      "npc": "Area entry",
+      "zone": "Windurst Walls"
+    },
+    "steps": [
+      "With your main job at level 10 or higher, enter Windurst Walls on foot from Windurst Waters or Windurst Woods.",
+      "Watch the opening scenes and confirm Burgeoning Dread is active. Coming directly from your Mog House is not the required entrance trigger."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ASA 2"
+    ],
+    "zones": [
+      "Windurst Walls",
+      "Windurst Waters",
+      "Windurst Woods"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Shantotto_Ascension_(Mission)",
+        "label": "FFXIclopedia: A Shantotto Ascension (Mission)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/01_A_Shantotto_Ascension.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "2",
+    "title": "Burgeoning Dread",
+    "requirements": [
+      "Complete ASA 1.",
+      "Travel on foot for the exit scene."
+    ],
+    "start": {
+      "npc": "Area exit",
+      "zone": "Windurst Woods"
+    },
+    "steps": [
+      "Leave Windurst Woods for East Sarutabaruta on foot. Alternatively, leave Windurst Waters or Port Windurst for West Sarutabaruta.",
+      "Watch the scene and record which Enfeeblement Kit was requested: Poison, Blind, Sleep or Silence. Your assignment determines the potion needed for the next synthesis."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ASA 3"
+    ],
+    "zones": [
+      "Windurst Woods",
+      "East Sarutabaruta",
+      "West Sarutabaruta",
+      "Windurst Waters",
+      "Port Windurst"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Burgeoning_Dread",
+        "label": "FFXIclopedia: Burgeoning Dread",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/02_Burgeoning_Dread.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "3",
+    "title": "That Which Curdles Blood",
+    "requirements": [
+      "Complete ASA 2.",
+      "Assigned kit from ASA 2.",
+      "Alchemy around 10 recommended; the final synthesis caps at 8.",
+      "Final kit is Exclusive and must be synthesized by your own character."
+    ],
+    "start": {
+      "npc": "Trodden Snow",
+      "zone": "Qufim Island",
+      "grid": "H-7"
+    },
+    "steps": [
+      "Read your assigned kit type. Recipe information is available from Kuroido-Moido (Port Windurst E-7), Faulpie (Southern San d'Oria E-8) or Abd-al-Raziq (Bastok Mines L-7).",
+      "Prepare one Padded Box, two Fine Parchments and two Enchanted Inks. You may obtain the components from other players or synthesize them yourself.",
+      "Padded Box recipe: Earth Crystal + two Bast Parchments + one Inferior Cocoon. Fine Parchment recipe, twice: Dark Crystal + Parchment + Pumice Stone. Enchanted Ink recipe, twice: Dark Crystal + Black Ink + Magicked Blood.",
+      "Synthesize the requested kit yourself: Earth Crystal + Padded Box + two Fine Parchments + two Enchanted Inks + the assigned Poison, Blind, Sleep or Silence Potion.",
+      "Trade the completed matching kit to the Trodden Snow at Qufim H-7 for the scene and six Domina seals."
+    ],
+    "notes": [],
+    "reward": "Moogle key and six Domina seals.",
+    "unlocks": [
+      "ASA 4"
+    ],
+    "zones": [
+      "Qufim Island",
+      "Port Windurst",
+      "Southern San d'Oria",
+      "Bastok Mines"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_3",
+        "label": "BG Wiki: A Shantotto Ascension Mission 3",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Enfeeb._Kit%3A_Silence",
+        "label": "BG Wiki: Enfeeb. Kit: Silence",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/03_That_Which_Curdles_Blood.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "4",
+    "title": "Sugar-coated Directive",
+    "requirements": [
+      "Complete ASA 3.",
+      "Domina seals from ASA 3.",
+      "Access to at least three cloisters and a party prepared for Prime-avatar battles."
+    ],
+    "start": {
+      "npc": "Protocrystals",
+      "zone": "Cloister of Frost"
+    },
+    "steps": [
+      "Choose at least three elemental cloisters. Routes: Frost through Fei'Yin; Flames through Ifrit's Cauldron; Gales through Cape Teriggan; Storms through The Boyahda Tree; Tides through Den of Rancor; Tremors through Quicksand Caves.",
+      "At each destination, examine the Protocrystal and choose Sugar-coated Directive. Defeat that element's Prime avatar.",
+      "After winning, examine the Protocrystal again to apply the Domina seal and obtain its counterseal. A battlefield win without this second interaction does not finish that destination.",
+      "Return to Qufim H-7 and examine the Trodden Snow with at least three counterseals. Three completes the mission; four, five or six increase the gil reward. Decide before handing them in."
+    ],
+    "notes": [],
+    "reward": "Bird key; 3,000 / 10,000 / 30,000 / 50,000 gil for 3 / 4 / 5 / 6 counterseals.",
+    "unlocks": [
+      "ASA 5"
+    ],
+    "zones": [
+      "Cloister of Frost",
+      "Fei'Yin",
+      "Cloister of Flames",
+      "Ifrit's Cauldron",
+      "Cloister of Gales",
+      "Cape Teriggan",
+      "Cloister of Storms",
+      "The Boyahda Tree",
+      "Cloister of Tides",
+      "Den of Rancor",
+      "Cloister of Tremors",
+      "Quicksand Caves",
+      "Qufim Island"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Sugar-coated_Directive",
+        "label": "FFXIclopedia: Sugar-coated Directive",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/04_Sugar-Coated_Directive.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "5",
+    "title": "Enemy of the Empire (I)",
+    "requirements": [
+      "Complete ASA 4.",
+      "Soultrapper and Blank Soul Plates.",
+      "Ability to reach the assigned Sea Serpent Grotto targets."
+    ],
+    "start": {
+      "npc": "Andrause",
+      "zone": "Norg",
+      "grid": "I-8"
+    },
+    "steps": [
+      "Speak to Andrause at I-8 and record the three monster names he assigns. These targets vary between characters.",
+      "Obtain a Soultrapper camera and Blank Soul Plates, equip them in the appropriate ranged/ammunition slots and travel into Sea Serpent Grotto.",
+      "Use the Soultrapper on living monsters with the requested names to create Soul Plates. Take additional photographs if necessary; ordinary monster drops are not the requested evidence.",
+      "Return to Andrause and trade the three matching Soul Plates individually. After he accepts the full set, finish his dialogue and receive the Black book."
+    ],
+    "notes": [
+      "Confirm the item names if using Andrause's supply menu: the reviewed source has an inconsistent item constant in its plate-purchase branch."
+    ],
+    "reward": "Black book.",
+    "unlocks": [
+      "ASA 6"
+    ],
+    "zones": [
+      "Norg",
+      "Sea Serpent Grotto"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Enemy_of_the_Empire_(I)",
+        "label": "FFXIclopedia: Enemy of the Empire (I)",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/05_Enemy_Of_The_Empire_I.lua"
+    ],
+    "native_status": "native interactions found; complete route not play-tested",
+    "availability_note": "The route has been checked against references and available code; completion on Zenith has not yet been play-tested.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "6",
+    "title": "Enemy of the Empire (II)",
+    "requirements": [
+      "Complete ASA 5.",
+      "Black book.",
+      "Prepared level-75 battle party."
+    ],
+    "start": {
+      "npc": "Outcropping",
+      "zone": "Gustav Tunnel",
+      "grid": "F-10"
+    },
+    "steps": [
+      "Reach the Outcropping at F-10 in Gustav Tunnel and examine it for the scene, then prepare for the confrontation.",
+      "Fight the agents Bompupu, Gorattz and Renfred. Their initial copies lead into the real agents and further clones.",
+      "Identify the real agents by their greater durability and ninjutsu casting. Defeating a real agent removes that agent's copies; keep healing and crowd control ready as the groups overlap.",
+      "After victory, examine the Outcropping again for the required concluding scene before leaving."
+    ],
+    "notes": [],
+    "reward": "Cactuar key and story progression.",
+    "unlocks": [
+      "ASA 7"
+    ],
+    "zones": [
+      "Gustav Tunnel"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_6",
+        "label": "BG Wiki: A Shantotto Ascension Mission 6",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/06_Enemy_Of_The_Empire_II.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "7",
+    "title": "Sugar-coated Subterfuge",
+    "requirements": [
+      "Complete ASA 6."
+    ],
+    "start": {
+      "npc": "Aldo",
+      "zone": "Lower Jeuno",
+      "grid": "J-8"
+    },
+    "steps": [
+      "Enter the Tenshodo headquarters inside Neptune's Spire at J-8.",
+      "Talk to Aldo and finish the scene. Confirm Shantotto in Chains is active before hunting its six fragment NMs."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ASA 8"
+    ],
+    "zones": [
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_7",
+        "label": "BG Wiki: A Shantotto Ascension Mission 7",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/07_Sugar-Coated_Subterfuge.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "8",
+    "title": "Shantotto in Chains",
+    "requirements": [
+      "Complete ASA 7.",
+      "Slashing, blunt, piercing melee, ranged and suitable elemental magic damage.",
+      "Nighttime access for the Zi'Tah NMs."
+    ],
+    "start": {
+      "npc": "Ensorcelled Door",
+      "zone": "Ro'Maeve",
+      "grid": "B-10"
+    },
+    "steps": [
+      "Find the Ensorcelled Door at B-10. Gather all six luminous fragment key items from the following NMs; bring the required damage types.",
+      "In Ro'Maeve: Lode Golem at E-9/E-10 takes Blizzard, Water or Stone magic (blue fragment); Fired Urn at K-9/K-10 takes slashing damage (purple); Steely Weapon at G-10/G-11 takes ranged attacks (yellow).",
+      "In The Sanctuary of Zi'Tah, search at night, 17:00–07:00: Holey Horror at H-8 takes piercing melee damage (green); Skeleton Scuffler at F-8 takes blunt damage (red); Blest Bones near F-7 takes Thunder, Fire or Wind magic (beige).",
+      "Check your key items after each victory. Once you hold all six, return to the Ensorcelled Door and examine it for the story scene."
+    ],
+    "notes": [],
+    "reward": "Bomb key and story progression.",
+    "unlocks": [
+      "ASA 9"
+    ],
+    "zones": [
+      "Ro'Maeve",
+      "The Sanctuary of Zi'Tah"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_8",
+        "label": "BG Wiki: A Shantotto Ascension Mission 8",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/08_Shantotto_In_Chains.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "9",
+    "title": "Fountain of Trouble",
+    "requirements": [
+      "Complete ASA 8.",
+      "Access to Toraimarai Canal through the Three Mage Gate route or the Rhinostery Certificate entrance."
+    ],
+    "start": {
+      "npc": "??? sites",
+      "zone": "Toraimarai Canal"
+    },
+    "steps": [
+      "Enter Toraimarai Canal and examine the sap ??? sites. Bring at least one elemental sap to the next fight; collecting all eight is recommended at level 75 because each weakens the matching avatar attack.",
+      "Map 1 search areas: Dark F-8; Earth J-8/H-7; Water H-7/J-9; Fire J-9; Lightning H-7.",
+      "Map 2 search areas: Fire F-10/J-8; Ice I-8/H-7; Light G-8; Lightning G-10/G-11; Wind H-9/J-9. Some elements have alternative spawn points, so inspect the listed alternatives if one is absent.",
+      "Continue to Full Moon Fountain and examine the Moon Spiral for the scene that advances the mission."
+    ],
+    "notes": [],
+    "reward": "Elemental sap key items for the next battle.",
+    "unlocks": [
+      "ASA 10"
+    ],
+    "zones": [
+      "Toraimarai Canal",
+      "Full Moon Fountain"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_9",
+        "label": "BG Wiki: A Shantotto Ascension Mission 9",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/09_Fountain_Of_Trouble.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "10",
+    "title": "Battaru Royale",
+    "requirements": [
+      "Complete ASA 9.",
+      "At least one elemental sap; all eight recommended for level-75 attempts."
+    ],
+    "start": {
+      "npc": "Moon Spiral",
+      "zone": "Full Moon Fountain"
+    },
+    "steps": [
+      "After the introductory scene, examine the Moon Spiral again while holding at least one elemental sap and choose Battaru Royale.",
+      "Defeat the eight elemental Tarutaru clones. Control the group and fight them individually where possible, keeping a recovery area clear.",
+      "At roughly half health, each clone calls its matching avatar for an Astral Flow attack. The corresponding sap collected beforehand reduces that danger; keep the party healed before pushing each clone through this point.",
+      "Finish all eight and watch the victory sequence. Return to Aldo in Lower Jeuno for the next mission."
+    ],
+    "notes": [],
+    "reward": "Chocobo key and story progression.",
+    "unlocks": [
+      "ASA 11"
+    ],
+    "zones": [
+      "Full Moon Fountain",
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_10",
+        "label": "BG Wiki: A Shantotto Ascension Mission 10",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Battaru_Royale",
+        "label": "FFXIclopedia: Battaru Royale",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/10_Battaru_Royale.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "11",
+    "title": "Romancing the Clone",
+    "requirements": [
+      "Complete ASA 10."
+    ],
+    "start": {
+      "npc": "Aldo",
+      "zone": "Lower Jeuno",
+      "grid": "J-8"
+    },
+    "steps": [
+      "Return to Aldo at the Tenshodo headquarters in Neptune's Spire, J-8.",
+      "Watch his scene to complete the mission and receive the next destination: the Sacrificial Chamber."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "ASA 12"
+    ],
+    "zones": [
+      "Lower Jeuno",
+      "Sacrificial Chamber"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Romancing_the_Clone",
+        "label": "FFXIclopedia: Romancing the Clone",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/11_Romancing_The_Clone.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "12",
+    "title": "Sisters in Arms",
+    "requirements": [
+      "Complete ASA 11.",
+      "Paintbrush of Souls on one party member for the normal Temple of Uggalepih → Den of Rancor route.",
+      "Unlit Lanterns for the four-flame chamber gate."
+    ],
+    "start": {
+      "npc": "Tablet ??? sites",
+      "zone": "Temple of Uggalepih"
+    },
+    "steps": [
+      "Gather the sixteen Tablet of Hexes key items on the route to Sacrificial Chamber. The complete set supplies the intended level-75 battle enhancements.",
+      "Temple map 1: Malice F-10, Deceit F-8. Temple map 2: Envy F-8, Greed G-10, Pride J-11, Bale I-8.",
+      "Den of Rancor map 1: Strife H-6, Regret E-5, Dolor J-9, Agony E-10, Rancor F-11, Rage K-11, Despair J-13.",
+      "Den map 3: Penury F-9. Den map 2: Death L-13 and Blight H-9. Check that all sixteen are in key items before entering the battle.",
+      "For the normal Sacrificial Chamber route, light all four access lanterns using Rancor Flames from the Den's D-5/E-5 Altar of Rancor. An Unlit Lantern can be reused by returning to the altar after each lighting.",
+      "Enter Sacrificial Chamber and examine the Mahogany Door for the scene that starts Project: Shantottofication."
+    ],
+    "notes": [
+      "The references differ on whether a tablet is compulsory for credit. Collecting all sixteen avoids that ambiguity and supplies the battle bonuses."
+    ],
+    "reward": "Tablet enhancements and access to the final story battlefield.",
+    "unlocks": [
+      "ASA 13"
+    ],
+    "zones": [
+      "Temple of Uggalepih",
+      "Den of Rancor",
+      "Sacrificial Chamber"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Sisters_in_Arms",
+        "label": "FFXIclopedia: Sisters in Arms",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Unlit_Lantern",
+        "label": "FFXIclopedia: Unlit Lantern",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_12",
+        "label": "BG Wiki: A Shantotto Ascension Mission 12",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Paintbrush_of_Souls",
+        "label": "FFXIclopedia: Paintbrush of Souls",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/12_Sisters_In_Arms.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith.",
+    "related": [
+      {
+        "key": "mission-roz-4",
+        "label": "Temple of Uggalepih and Den of Rancor access route (RoZ 4)"
+      }
+    ]
+  },
+  {
+    "campaign": "asa",
+    "number": "13",
+    "title": "Project: Shantottofication",
+    "requirements": [
+      "Complete ASA 12.",
+      "Final introductory scene from ASA 12.",
+      "All sixteen tablets strongly recommended for level-75 attempts."
+    ],
+    "start": {
+      "npc": "Mahogany Door",
+      "zone": "Sacrificial Chamber"
+    },
+    "steps": [
+      "After the opening scene, examine the Mahogany Door again and choose Project: Shantottofication. The collected tablets are consumed on entry and supply their battle enhancements.",
+      "Fight D. Shantotto and Shantotto with a plan to manage both targets. D. Shantotto uses scythe attacks and poison/paralysis; Shantotto uses staff attacks with stun, slow, silence and plague. Bring appropriate status-removal supplies.",
+      "Near half health, either can trigger a rage phase that brings them together for skillchains. The raging target cannot be finished during that phase, even at 1% HP; prioritize survival until it ends.",
+      "Defeat both, finish the scene and then return to Windurst Walls for the epilogue."
+    ],
+    "notes": [
+      "The full tablet set raises attributes/resistances and triples HP/MP, with a special Reraise effect. It is not a permanent character bonus."
+    ],
+    "reward": "Tonberry key and story progression.",
+    "unlocks": [
+      "ASA 14"
+    ],
+    "zones": [
+      "Sacrificial Chamber",
+      "Windurst Walls"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Shantotto_Ascension_Mission_13",
+        "label": "BG Wiki: A Shantotto Ascension Mission 13",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Project_-_Shantottofication",
+        "label": "FFXIclopedia: Project - Shantottofication",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/13_Project_Shantottofication.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "14",
+    "title": "An Uneasy Peace",
+    "requirements": [
+      "Complete ASA 13."
+    ],
+    "start": {
+      "npc": "Area entry",
+      "zone": "Windurst Walls"
+    },
+    "steps": [
+      "Enter Windurst Walls from an adjacent Windurst district for the ending scene. Walk in through the zone line instead of using the Mog House exit.",
+      "Watch the scene to receive the Behemoth key and finish the story.",
+      "Take the key to the Treasure Coffer at the Tenshodo headquarters in Lower Jeuno J-8 for the final armor selection."
+    ],
+    "notes": [],
+    "reward": "Behemoth key; title: Arrester of the Ascension.",
+    "unlocks": [
+      "ASA 15"
+    ],
+    "zones": [
+      "Windurst Walls",
+      "Windurst Waters",
+      "Windurst Woods",
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/An_Uneasy_Peace",
+        "label": "FFXIclopedia: An Uneasy Peace",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/14_An_Uneasy_Peace.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  },
+  {
+    "campaign": "asa",
+    "number": "15",
+    "title": "A Shantotto Ascension (Fin.)",
+    "requirements": [
+      "Complete ASA 14.",
+      "Behemoth key from the ending scene."
+    ],
+    "start": {
+      "npc": "Treasure Coffer",
+      "zone": "Lower Jeuno",
+      "grid": "J-8"
+    },
+    "steps": [
+      "Examine the Treasure Coffer in the Tenshodo headquarters at J-8 with your Behemoth key.",
+      "Choose one leg armor reward: Blitzer Poleyn, Desultor Tassets or Tatsumaki Sitagoromo. Review the augment selections before confirming.",
+      "Fin. is the completed campaign marker and does not contain another story task."
+    ],
+    "notes": [],
+    "reward": "One selected, augmented add-on leg armor.",
+    "unlocks": [],
+    "zones": [
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Shantotto_Ascension_(Fin.)",
+        "label": "FFXIclopedia: A Shantotto Ascension (Fin.)",
+        "checked": "2026-09-25"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/An_Uneasy_Peace",
+        "label": "FFXIclopedia: An Uneasy Peace",
+        "checked": "2026-09-25"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/asa/15_A_Shantotto_Ascension_Fin.lua"
+    ],
+    "native_status": "framework-placeholder; legacy coverage not fully audited",
+    "availability_note": "The reviewed mission framework is unfinished. Completion through Zenith's other scripts has not yet been confirmed.",
+    "checked": "2026-09-25",
+    "era_note": "2009 level-75-era add-on. Modern retail shortcuts and item-level solo claims are not assumed on Zenith."
+  }
+]

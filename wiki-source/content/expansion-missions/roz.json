@@ -1,0 +1,978 @@
+[
+  {
+    "campaign": "roz",
+    "number": "1",
+    "title": "The New Frontier",
+    "requirements": [
+      "Finish your nation’s Mission 5-2 (the Shadow Lord) and reach Rank 6; have access to the Rise of the Zilart areas.",
+      "If you changed nationality, the native Norg trigger checks Rank 6 in your current nation."
+    ],
+    "start": {
+      "npc": "Zone entry; Tales’ Beginning if postponed",
+      "zone": "Norg",
+      "grid": "H-9"
+    },
+    "steps": [
+      "Travel to Norg through Sea Serpent Grotto, reached from Yuhtunga Jungle. Enter Norg to receive the story introduction.",
+      "Choose to view the Zilart story. Finish the cutscene and confirm that the mission log now shows Welcome t’Norg.",
+      "If you previously postponed the story, examine Tales’ Beginning at Norg H-9 and choose to start it."
+    ],
+    "notes": [
+      "The pinned native script uses Tales’ Beginning to resume a postponed start; merely zoning again may not resume it."
+    ],
+    "reward": "Map of Norg key item; Welcome t’Norg becomes available.",
+    "unlocks": [
+      "Rise of the Zilart mission progression"
+    ],
+    "zones": [
+      "Yuhtunga Jungle",
+      "Sea Serpent Grotto",
+      "Norg"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_1",
+        "label": "HorizonXI Wiki: Zilart Mission 1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/01_The_New_Frontier.lua"
+    ],
+    "slug": "mission-roz-1"
+  },
+  {
+    "campaign": "roz",
+    "number": "2",
+    "title": "Welcome t’Norg",
+    "requirements": [
+      "Complete The New Frontier."
+    ],
+    "start": {
+      "npc": "Oaken Door",
+      "zone": "Norg",
+      "grid": "K-8"
+    },
+    "steps": [
+      "Go upstairs in Norg and follow the corridor to the Oaken Door at K-8.",
+      "Examine the door, agree to open it, and watch the meeting with Gilgamesh. Check that Kazham’s Chieftainess is now active."
+    ],
+    "notes": [],
+    "reward": "Story progression; no separate item reward.",
+    "unlocks": [],
+    "zones": [
+      "Norg"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_2",
+        "label": "HorizonXI Wiki: Zilart Mission 2"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/02_Welcome_to_Norg.lua"
+    ],
+    "slug": "mission-roz-2"
+  },
+  {
+    "campaign": "roz",
+    "number": "3",
+    "title": "Kazham’s Chieftainess",
+    "requirements": [
+      "Complete Welcome t’Norg."
+    ],
+    "start": {
+      "npc": "Jakoh Wahcondalo",
+      "zone": "Kazham",
+      "grid": "J-9"
+    },
+    "steps": [
+      "Travel to Kazham and speak with Jakoh Wahcondalo at J-9.",
+      "Finish her cutscene and check your key items for the Sacrificial Chamber Key before leaving for the temple."
+    ],
+    "notes": [
+      "Every character needing mission credit should complete this conversation; a party member’s key does not advance your mission."
+    ],
+    "reward": "Sacrificial Chamber Key.",
+    "unlocks": [
+      "The Temple of Uggalepih battlefield story step"
+    ],
+    "zones": [
+      "Kazham"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_3",
+        "label": "HorizonXI Wiki: Zilart Mission 3"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/03_Kazhams_Chieftainess.lua"
+    ],
+    "slug": "mission-roz-3"
+  },
+  {
+    "campaign": "roz",
+    "number": "4",
+    "title": "The Temple of Uggalepih",
+    "requirements": [
+      "Complete Kazham’s Chieftainess and possess the Sacrificial Chamber Key.",
+      "Prepare an Unlit Lantern and access to Paintbrush of Souls; one lantern can be reused for four trips. A group can bring four lanterns to reduce travel."
+    ],
+    "start": {
+      "npc": "Mahogany Door (battlefield entrance)",
+      "zone": "Sacrificial Chamber"
+    },
+    "steps": [
+      "Obtain Paintbrush of Souls if needed: get an Uggalepih Key from Tonberry Cutters, trade it to the temple’s Granite Door at F-7 (map 1), read all three Worn Books for an Old Rusty Key, then open the Old Casket.",
+      "Farm Unlit Lanterns from Tonberry Maledictors in the temple or Tonberry Imprecators in the Den. Reduce accumulated Tonberry hate before the boss fight.",
+      "From the temple’s main map, leave at F-5 and re-enter from Yhoator Jungle H-11. Defeat Temple Guardian at I-10 (map 2), pass its door, then reach the painting room at I-7.",
+      "Face the empty eastern frame closely with Paintbrush of Souls. Once the painting message appears, wait at least 30 seconds before advancing the dialogue. Enter the Den of Rancor through the opened passage.",
+      "Trade an Unlit Lantern to the Altar of Rancor at E-5 (map 1). Carry the resulting Rancor Flame through the F-7 drop to E-5 (map 2), and trade it to one unlit stone lantern. Light all four; repeat the altar journey if necessary.",
+      "Enter the Sacrificial Chamber and select the mission battle at its Mahogany Door. Defeat Grav’iton, Molyb’iton and Tungs’iton. Watch the post-battle scenes to receive the Dark Fragment."
+    ],
+    "notes": [
+      "Grav’iton cannot be slept; keep the casters controlled. Everyone’s Rancor punishes accumulated Tonberry kills, and Tungs’iton can use Astral Flow.",
+      "The pinned native battlefield allows Trusts, up to six participants and 30 minutes, with the server maximum level as its cap. This is a code check, not a completed Zenith solo test."
+    ],
+    "reward": "Dark Fragment; title: Bearer of the Wisewoman’s Hope.",
+    "unlocks": [
+      "Headstone Pilgrimage"
+    ],
+    "zones": [
+      "Yhoator Jungle",
+      "Temple of Uggalepih",
+      "Den of Rancor",
+      "Sacrificial Chamber"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_4",
+        "label": "HorizonXI Wiki: Zilart Mission 4"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Paintbrush_of_Souls",
+        "label": "HorizonXI Wiki: Paintbrush of Souls"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Unlit_Lantern",
+        "label": "HorizonXI Wiki: Unlit Lantern"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Uggalepih_Key",
+        "label": "HorizonXI Wiki: Uggalepih Key"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/04_The_Temple_of_Uggalepih.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Sacrificial_Chamber/temple_of_uggalepih.lua"
+    ],
+    "slug": "mission-roz-4"
+  },
+  {
+    "campaign": "roz",
+    "number": "5",
+    "title": "Headstone Pilgrimage",
+    "requirements": [
+      "Complete The Temple of Uggalepih; keep its Dark Fragment."
+    ],
+    "start": {
+      "npc": "Cermet Headstones (seven locations)",
+      "zone": "Behemoth's Dominion",
+      "grid": "G-9"
+    },
+    "steps": [
+      "Collect in any order. Approach each headstone closely and accept its prompt; after spawning enemies, defeat them and re-examine it.",
+      "Ice: descend Fei’Yin at G-9; use I-5 to reach Cloister of Frost. Examine the headstone beyond the crystal.",
+      "Water: enter Ordelle’s from La Theine F-7; follow I-6 → G-8 → H-9 stairs → H-12 drop → eastern tunnel → I-6 → H-9 → G-11 exit. Follow the isolated canyon.",
+      "Earth: enter Quicksand Caves from Western Altepa J-9, drop at K-6, exit to the desert, then follow tunnels southwest to H-9.",
+      "Lightning: Behemoth’s Dominion G-9; defeat Ancient Weapon and Legendary Weapon.",
+      "Fire: Ifrit’s Cauldron entrance Yhoator G-6; map/grid route 4/H-8 → 7/D-12 → 5/J-8 → 2/E-7 → 7/G-7 → 8/C-7. Wait for spouts or trade Ice Clusters. In isolated Yuhtunga, turn left to the L-6/L-7 tunnels; defeat Carthi and Tipha.",
+      "Wind: Cape Teriggan F-7 tunnel → G-5 passage → H-5; defeat Axesarion the Wanderer.",
+      "Light: Zi’Tah J-9 path → I-7; defeat Doomed Pilgrims. Claim the final fragment to advance."
+    ],
+    "notes": [
+      "Ice, Water and Earth require no headstone fight. Native interaction range is 1.92 yalms."
+    ],
+    "reward": "Seven fragments; title: Bearer of the Eight Prayers.",
+    "unlocks": [
+      "Through the Quicksand Caves"
+    ],
+    "zones": [
+      "Fei'Yin",
+      "Cloister of Frost",
+      "La Theine Plateau",
+      "Ordelle's Caves",
+      "Western Altepa Desert",
+      "Quicksand Caves",
+      "Behemoth's Dominion",
+      "Ifrit's Cauldron",
+      "Yhoator Jungle",
+      "Yuhtunga Jungle",
+      "Cape Teriggan",
+      "The Sanctuary of Zi'Tah"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_5",
+        "label": "HorizonXI Wiki: Zilart Mission 5"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Fire_Fragment",
+        "label": "HorizonXI Wiki: Fire Fragment"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Water_Fragment",
+        "label": "HorizonXI Wiki: Water Fragment"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Earth_Fragment",
+        "label": "HorizonXI Wiki: Earth Fragment"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Ifrit's_Cauldron",
+        "label": "HorizonXI Wiki: Ifrit's Cauldron"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Ordelle's_Caves",
+        "label": "HorizonXI Wiki: Ordelle's Caves"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/05_Headstone_Pilgrimage.lua"
+    ],
+    "slug": "mission-roz-5"
+  },
+  {
+    "campaign": "roz",
+    "number": "6",
+    "title": "Through the Quicksand Caves",
+    "requirements": [
+      "Complete Headstone Pilgrimage and have all eight fragment key items.",
+      "The traditional route contains weight-operated doors: arrange sufficient player weight or a verified alternative access method."
+    ],
+    "start": {
+      "npc": "Ancient Door",
+      "zone": "Chamber of Oracles"
+    },
+    "steps": [
+      "In Western Altepa Desert, enter the off-map tunnel southwest of C-11. Follow it to the hidden D-12 entrance of Quicksand Caves.",
+      "On Quicksand Caves map 4, open the pressure doors at I-9 and H-7. Drop at F-7 and follow the hidden route to the Chamber of Oracles exit at D-4.",
+      "Prepare before entering the mission battlefield. Defeat Triarius V-VIII (BLM), Centurio V-III (PLD) and Princeps V-XI (RNG). Controlling the other two while removing the BLM reduces incoming spell pressure.",
+      "After the victory scene, remain in the chamber: the next mission uses the eight pedestals here."
+    ],
+    "notes": [
+      "Traditional door weight: one Galka, two Hume/Elvaan/Mithra, or three Tarutaru. Trusts are not a substitute for verifying the door mechanism. Echo Drops help against Silence.",
+      "The pinned native battlefield allows Trusts, up to six participants and 30 minutes, with the server maximum level as its cap. This is a code check, not a completed Zenith solo test."
+    ],
+    "reward": "Story progression to The Chamber of Oracles.",
+    "unlocks": [],
+    "zones": [
+      "Western Altepa Desert",
+      "Quicksand Caves",
+      "Chamber of Oracles"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_6",
+        "label": "HorizonXI Wiki: Zilart Mission 6"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/06_Through_the_Quicksand_Caves.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Chamber_of_Oracles/through_the_quicksand_caves.lua"
+    ],
+    "slug": "mission-roz-6"
+  },
+  {
+    "campaign": "roz",
+    "number": "7",
+    "title": "The Chamber of Oracles",
+    "requirements": [
+      "Win Through the Quicksand Caves; retain all eight elemental fragments."
+    ],
+    "start": {
+      "npc": "Eight elemental pedestals",
+      "zone": "Chamber of Oracles"
+    },
+    "steps": [
+      "In the room reached after the Antican battle, examine each of the eight pedestals: Darkness, Earth, Fire, Ice, Light, Lightning, Water and Wind.",
+      "Finish the cutscene after placing the last fragment. If interrupted, examine a pedestal again to resume it.",
+      "Check for the Prismatic Fragment and Return to Delkfutt’s Tower in your mission log before departing."
+    ],
+    "notes": [
+      "This step requires no additional fight. The native completion scene removes the eight fragments and awards the Prismatic Fragment."
+    ],
+    "reward": "Prismatic Fragment; title: Lightweaver.",
+    "unlocks": [
+      "Return to Delkfutt’s Tower"
+    ],
+    "zones": [
+      "Chamber of Oracles"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_7",
+        "label": "HorizonXI Wiki: Zilart Mission 7"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/07_The_Chamber_of_Oracles.lua"
+    ],
+    "slug": "mission-roz-7"
+  },
+  {
+    "campaign": "roz",
+    "number": "8",
+    "title": "Return to Delkfutt’s Tower",
+    "requirements": [
+      "Complete The Chamber of Oracles.",
+      "A Delkfutt key enables the basement shortcut; without it, use the normal tower ascent."
+    ],
+    "start": {
+      "npc": "Zone entry, then Qe’Lov Gate",
+      "zone": "Stellar Fulcrum"
+    },
+    "steps": [
+      "Enter Lower Delkfutt’s Tower for the story scene. With a Delkfutt key, use the E-8 Cermet Door, continue through the basement J-8 door, and examine the H-8 ??? to reach the upper tower.",
+      "From Upper Delkfutt’s Tower floor 10, use the F-8 doorway and stairs. On floor 11, take J-6 upstairs; on floor 12, reach F-10 and the Stellar Fulcrum portal.",
+      "Watch the arrival scene, prepare, and enter the mission battle at Qe’Lov Gate. Defeat Kam’lanaut.",
+      "Finish the victory scenes and check that Ro’Maeve is the active mission."
+    ],
+    "notes": [
+      "Avoid magic near dolls and pots. Kam’lanaut can remove buffs, inflict Silence/Slow and reset hate. His active Elemental Blade absorbs matching elemental damage; change elements or stop that damage.",
+      "The pinned native battlefield allows Trusts, up to six participants and 30 minutes, with the server maximum level as its cap. This is a code check, not a completed Zenith solo test."
+    ],
+    "reward": "Title: Destroyer of Antiquity; story progression.",
+    "unlocks": [],
+    "zones": [
+      "Lower Delkfutt's Tower",
+      "Middle Delkfutt's Tower",
+      "Upper Delkfutt's Tower",
+      "Stellar Fulcrum"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_8",
+        "label": "HorizonXI Wiki: Zilart Mission 8"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Delkfutt_Key",
+        "label": "HorizonXI Wiki: Delkfutt Key"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/08_Return_to_Delkfutts_Tower.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Stellar_Fulcrum/return_to_delkfutts_tower.lua"
+    ],
+    "slug": "mission-roz-8"
+  },
+  {
+    "campaign": "roz",
+    "number": "9",
+    "title": "Ro’Maeve",
+    "requirements": [
+      "Complete Return to Delkfutt’s Tower."
+    ],
+    "start": {
+      "npc": "Oaken Door",
+      "zone": "Norg",
+      "grid": "K-8"
+    },
+    "steps": [
+      "Return to Norg and examine the Oaken Door at K-8.",
+      "Watch the conversation about the ruins north of The Sanctuary of Zi’Tah. Confirm that The Temple of Desolation is active."
+    ],
+    "notes": [],
+    "reward": "Story progression; no separate item reward.",
+    "unlocks": [],
+    "zones": [
+      "Norg"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_9",
+        "label": "HorizonXI Wiki: Zilart Mission 9"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/09_RoMaeve.lua"
+    ],
+    "slug": "mission-roz-9"
+  },
+  {
+    "campaign": "roz",
+    "number": "10",
+    "title": "The Temple of Desolation",
+    "requirements": [
+      "Complete Ro’Maeve.",
+      "Travel supplies for magic-detecting enemies in Ro’Maeve."
+    ],
+    "start": {
+      "npc": "Cermet Gate",
+      "zone": "Hall of the Gods"
+    },
+    "steps": [
+      "Travel through The Sanctuary of Zi’Tah into Ro’Maeve. Continue north to the Hall of the Gods entrance at H-5.",
+      "Cross the Hall and examine the Cermet Gate at the far end. Examine it again to finish the discovery dialogue and advance to The Hall of the Gods."
+    ],
+    "notes": [
+      "Apply Sneak/Invisible before approaching magic-sensitive monsters, or use oils and powders. Reaching this gate alone does not unlock Sky."
+    ],
+    "reward": "Story progression; title: Sealer of the Portal of the Gods.",
+    "unlocks": [],
+    "zones": [
+      "The Sanctuary of Zi'Tah",
+      "Ro'Maeve",
+      "Hall of the Gods"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_10",
+        "label": "HorizonXI Wiki: Zilart Mission 10"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/10_The_Temple_of_Desolation.lua"
+    ],
+    "slug": "mission-roz-10"
+  },
+  {
+    "campaign": "roz",
+    "number": "11",
+    "title": "The Hall of the Gods",
+    "requirements": [
+      "Complete The Temple of Desolation."
+    ],
+    "start": {
+      "npc": "Gilgamesh / Oaken Door",
+      "zone": "Norg",
+      "grid": "K-8"
+    },
+    "steps": [
+      "Return to Norg and revisit Gilgamesh through the Oaken Door.",
+      "Finish the discussion about the Mithra who offered a crystal. The mission changes to The Mithra and the Crystal."
+    ],
+    "notes": [],
+    "reward": "Story progression; no separate item reward.",
+    "unlocks": [],
+    "zones": [
+      "Norg"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_11",
+        "label": "HorizonXI Wiki: Zilart Mission 11"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/11_The_Hall_of_the_Gods.lua"
+    ],
+    "slug": "mission-roz-11"
+  },
+  {
+    "campaign": "roz",
+    "number": "12",
+    "title": "The Mithra and the Crystal",
+    "requirements": [
+      "Complete The Hall of the Gods.",
+      "Prepare to pass Quicksand Caves weight doors and defeat Ancient Vessel."
+    ],
+    "start": {
+      "npc": "Maryoh Comyujah",
+      "zone": "Rabao",
+      "grid": "G-7"
+    },
+    "steps": [
+      "Speak to Maryoh Comyujah beside Rabao’s windmill at G-7 and agree to her request.",
+      "Use Western Altepa’s C-11 hidden tunnel and D-12 Quicksand Caves entrance. This time pass the K-8 pressure door on map 4, then G-8 on map 7. Drop through the opening beyond.",
+      "Prepare beside the ??? near the landing point. Accept its prompt to spawn Ancient Vessel; defeat it and examine the same ??? immediately afterward to obtain a Scrap of Papyrus.",
+      "Return to Maryoh Comyujah in Rabao and exchange the papyrus through her conversation for the Cerulean Crystal key item.",
+      "Travel to Hall of the Gods, examine the Cermet Gate and pass through. Examine the Shimmering Circle farther inside and watch its scene; the pinned native script completes this mission here."
+    ],
+    "notes": [
+      "Stand close to the ??? (native check: within 1.5 yalms). Claim the papyrus before leaving the zone.",
+      "Receiving the crystal in Rabao does not finish the whole Sky route; continue through Hall of the Gods."
+    ],
+    "reward": "Cerulean Crystal.",
+    "unlocks": [
+      "Hall of the Gods gate passage; The Gate of the Gods"
+    ],
+    "zones": [
+      "Rabao",
+      "Western Altepa Desert",
+      "Quicksand Caves",
+      "Hall of the Gods"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_12",
+        "label": "HorizonXI Wiki: Zilart Mission 12"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/12_The_Mithra_and_the_Crystal.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Hall_of_the_Gods/npcs/_6z0.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Hall_of_the_Gods/npcs/Shimmering_Circle.lua"
+    ],
+    "slug": "mission-roz-12"
+  },
+  {
+    "campaign": "roz",
+    "number": "13",
+    "title": "The Gate of the Gods",
+    "requirements": [
+      "Obtain the Cerulean Crystal in The Mithra and the Crystal and complete the Shimmering Circle scene in Hall of the Gods."
+    ],
+    "start": {
+      "npc": "Shimmering Circle",
+      "zone": "Hall of the Gods"
+    },
+    "steps": [
+      "Continue from the Shimmering Circle at the northern end of Hall of the Gods. If needed, examine it again to use the lift.",
+      "Proceed through the upper passage and enter Ru’Aun Gardens.",
+      "Watch the Ru’Aun Gardens arrival scene. You have reached Tu’Lia (Sky), and Ark Angels becomes the next story mission."
+    ],
+    "notes": [
+      "Sky opens during this transition; defeating the Ark Angels or Eald’narche is not a prerequisite for your first Sky visit.",
+      "Crag teleports and Home Point registration are travel conveniences with their own conditions. They do not replace this first-access story route."
+    ],
+    "reward": "Access to Tu’Lia / Sky.",
+    "unlocks": [
+      "Sky: Ru’Aun Gardens and connected areas",
+      "Ark Angels"
+    ],
+    "zones": [
+      "Hall of the Gods",
+      "Ru'Aun Gardens"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_13",
+        "label": "HorizonXI Wiki: Zilart Mission 13"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/13_The_Gate_of_the_Gods.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Hall_of_the_Gods/npcs/Shimmering_Circle.lua"
+    ],
+    "slug": "mission-roz-13"
+  },
+  {
+    "campaign": "roz",
+    "number": "14",
+    "title": "Ark Angels",
+    "requirements": [
+      "Complete The Gate of the Gods.",
+      "Read the shrine’s Blank Target scene before attempting the fights; native mission credit requires that flag."
+    ],
+    "start": {
+      "npc": "Blank Target",
+      "zone": "Shrine of Ru'Avitau",
+      "grid": "G/H-11"
+    },
+    "steps": [
+      "From Ru’Aun Gardens H-9, enter The Shrine of Ru’Avitau. Walk north to the Blank Target at G/H-11 and finish its scene.",
+      "Return outside. Use each island’s red portal to reach a La’Loff Amphitheater entrance. Activate the blue pincerstone/portal when moving onward around the garden islands.",
+      "Complete the five separate battlefields: Ark Angel HM, TT, MR, EV and GK. Each entrance leads to its corresponding Ark Angel, so visit all five.",
+      "Check for all five shard key items after winning. The final shard advances the mission to The Sealed Shrine."
+    ],
+    "notes": [
+      "HM threatens Mijin Gakure; TT inflicts Petrification/Paralysis; MR can Charm; EV has dangerous Spirits Within; GK chains weaponskills. Prepare control and status cures.",
+      "Divine Might is an optional alternative that fights all five simultaneously and can award the same mission credit. Its earring requires separately accepting that quest.",
+      "The pinned native battlefield allows Trusts, up to six participants and 30 minutes, with the server maximum level as its cap. This is a code check, not a completed Zenith solo test."
+    ],
+    "reward": "Shards of Apathy, Arrogance, Cowardice, Envy and Rage.",
+    "unlocks": [
+      "The Sealed Shrine"
+    ],
+    "zones": [
+      "Ru'Aun Gardens",
+      "Shrine of Ru'Avitau",
+      "La'Loff Amphitheater"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_14",
+        "label": "HorizonXI Wiki: Zilart Mission 14"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Divine_Might",
+        "label": "HorizonXI Wiki: Divine Might"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/14_Ark_Angels.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/LaLoff_Amphitheater/ark_angels_1.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/LaLoff_Amphitheater/ark_angels_2.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/LaLoff_Amphitheater/ark_angels_3.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/LaLoff_Amphitheater/ark_angels_4.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/LaLoff_Amphitheater/ark_angels_5.lua"
+    ],
+    "slug": "mission-roz-14"
+  },
+  {
+    "campaign": "roz",
+    "number": "15",
+    "title": "The Sealed Shrine",
+    "requirements": [
+      "Obtain all five Ark Angel shards and advance beyond Ark Angels."
+    ],
+    "start": {
+      "npc": "Oaken Door",
+      "zone": "Norg",
+      "grid": "K-8"
+    },
+    "steps": [
+      "Return to Norg and examine the Oaken Door at K-8 for the mission conversation.",
+      "Travel back to Sky and enter The Shrine of Ru’Avitau. Finish the arrival scene to activate The Celestial Nexus."
+    ],
+    "notes": [
+      "The pinned mission requires the Oaken Door scene before the shrine arrival. Speaking only to Gilgamesh’s normal dialogue does not set that door-scene flag.",
+      "If you used Divine Might, collect its earring at the shrine Blank Target as a separate quest reward."
+    ],
+    "reward": "Story progression; no separate item reward.",
+    "unlocks": [],
+    "zones": [
+      "Norg",
+      "Ru'Aun Gardens",
+      "Shrine of Ru'Avitau"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_15",
+        "label": "HorizonXI Wiki: Zilart Mission 15"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/15_The_Sealed_Shrine.lua"
+    ],
+    "slug": "mission-roz-15"
+  },
+  {
+    "campaign": "roz",
+    "number": "16",
+    "title": "The Celestial Nexus",
+    "requirements": [
+      "Complete The Sealed Shrine.",
+      "Prepare for a two-stage boss battle and the shrine’s colored-door route."
+    ],
+    "start": {
+      "npc": "Celestial Gate",
+      "zone": "Celestial Nexus"
+    },
+    "steps": [
+      "Enter The Shrine of Ru’Avitau from Ru’Aun Gardens I-6, near Genbu’s island. On shrine map 2 go south past J-7 through the yellow door, then west to the paired monolith room at H-7.",
+      "Open the yellow door with a monolith if necessary. From H-7, proceed south through the first Dark Elemental room, then follow either outer corridor to the second Dark Elemental room at H-10. Take its northbound descending stairs at H-9 into Celestial Nexus.",
+      "Follow the Celestial Gates and enter the mission battlefield at the final gate. In stage one, control the Orbitals, destroy the Exoplates protecting Eald’narche, then defeat him. Keep health high for Phase Shift.",
+      "Defeat his second form, which teleports and applies dangerous status effects. Finish the victory scenes and the return to Hall of the Gods."
+    ],
+    "notes": [
+      "The pinned native battlefield allows Trusts, up to six participants and 30 minutes, with the server maximum level as its cap. This is a code check, not a completed Zenith solo test.",
+      "The route’s dolls, pots and elementals detect magic; carry oils/powders. The native battlefield has two phases, so the first apparent victory does not complete it."
+    ],
+    "reward": "Title: Burier of the Illusion; Awakening becomes active.",
+    "unlocks": [
+      "Awakening"
+    ],
+    "zones": [
+      "Ru'Aun Gardens",
+      "Shrine of Ru'Avitau",
+      "Celestial Nexus",
+      "Hall of the Gods"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_16",
+        "label": "HorizonXI Wiki: Zilart Mission 16"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Celestial_Nexus",
+        "label": "HorizonXI Wiki: Celestial Nexus entrance"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Celestial_Nexus",
+        "label": "FFXIclopedia: detailed shrine corridor route"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/16_The_Celestial_Nexus.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/The_Celestial_Nexus/celestial_nexus.lua"
+    ],
+    "slug": "mission-roz-16"
+  },
+  {
+    "campaign": "roz",
+    "number": "17",
+    "title": "Awakening",
+    "requirements": [
+      "Win The Celestial Nexus and finish its exit scenes."
+    ],
+    "start": {
+      "npc": "Norg entry; Neptune’s Spire door",
+      "zone": "Norg"
+    },
+    "steps": [
+      "Enter Norg and watch its post-victory scene with Gilgamesh.",
+      "In Lower Jeuno, examine the Neptune’s Spire door for the Aldo epilogue. These two scenes can be viewed in either order.",
+      "For the joint RoZ/CoP ending, complete CoP’s Dawn epilogue, then Storms of Fate, Shadows of the Departed and Apocalypse Nigh. The connecting quest pages give the full sequence."
+    ],
+    "notes": [
+      "Awakening can remain the active mission after these two scenes. In the pinned implementation, Apocalypse Nigh’s earring selection completes Awakening and advances the log to The Last Verse.",
+      "The epilogue alone adds no extra boss fight. Sky access was already obtained during The Gate of the Gods."
+    ],
+    "reward": "RoZ epilogue scenes; prerequisite progress for Shadows of the Departed.",
+    "unlocks": [
+      "Joint RoZ/CoP ending quest chain, after its other prerequisites"
+    ],
+    "zones": [
+      "Norg",
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Zilart_Mission_17",
+        "label": "HorizonXI Wiki: Zilart Mission 17"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/17_Awakening.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Shadows_of_the_Departed.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Apocalypse_Nigh.lua"
+    ],
+    "slug": "mission-roz-17"
+  },
+  {
+    "campaign": "roz",
+    "number": "18",
+    "title": "The Last Verse",
+    "requirements": [
+      "Complete the RoZ and CoP closing sequences, including Apocalypse Nigh’s reward selection."
+    ],
+    "start": {
+      "npc": "Gilgamesh",
+      "zone": "Norg"
+    },
+    "steps": [
+      "Finish Apocalypse Nigh, speak to Aldo, and complete Gilgamesh’s reward conversation in Norg after the required wait.",
+      "Choose the quest earring with inventory space available. The native ending handlers advance both Awakening and Dawn to The Last Verse.",
+      "No further battle or collection task belongs to The Last Verse; it is the completed storyline’s final mission entry."
+    ],
+    "notes": [
+      "This finale is shared by Rise of the Zilart and Chains of Promathia. The earring is Apocalypse Nigh’s reward, not a second reward from this entry."
+    ],
+    "reward": "Final RoZ/CoP story-log entry; no additional reward.",
+    "unlocks": [],
+    "zones": [
+      "Norg"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/The_Last_Verse",
+        "label": "HorizonXI Wiki: The Last Verse"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/17_Awakening.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/8_4_Dawn.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Apocalypse_Nigh.lua"
+    ],
+    "slug": "mission-roz-18"
+  },
+  {
+    "campaign": "roz",
+    "number": "Q1",
+    "title": "Storms of Fate",
+    "requirements": [
+      "Finish CoP Dawn’s post-battle epilogue and reward sequence; the pinned script checks Dawn Status 8.",
+      "Reach Riverne - Site #B01; take a Giant Scale for its displacement route."
+    ],
+    "start": {
+      "npc": "Esha’ntarl (palace entrance scene)",
+      "zone": "Ru'Lude Gardens",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Enter the Ducal Palace in Ru’Lude Gardens and accept Esha’ntarl’s request.",
+      "Examine the Dilapidated Gate in Misareaux Coast for the quest scene, then enter Riverne - Site #B01.",
+      "Use a Giant Scale on the required unstable displacement to reach the western E-7 island. Examine the green Unstable Displacement for its scene, then again to select Storms of Fate.",
+      "Defeat Bahamut. Maintain magical protection and health before his flare attacks; keep support away from the tank and avoid drawing hate from behind him.",
+      "After receiving Whisper of the Wyrmking, return to the Ru’Lude Gardens palace for the final scene. This return completes the quest and starts the wait for Shadows of the Departed."
+    ],
+    "notes": [
+      "The native battlefield allows Trusts, up to 18 participants and 30 minutes. This does not establish that it is balanced for a single level-75 player.",
+      "Native progression waits until the next Vana’diel day after the return scene; Horizon’s guide describes a different real-world wait."
+    ],
+    "reward": "Whisper of the Wyrmking; title: Conqueror of Fate.",
+    "unlocks": [
+      "Shadows of the Departed, after both Awakening epilogues and the wait"
+    ],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Misareaux Coast",
+      "Riverne - Site #B01"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Storms_of_Fate",
+        "label": "HorizonXI Wiki: Storms of Fate"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Storms_of_Fate.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Riverne_Site_B01/storms_of_fate.lua"
+    ],
+    "kind": "quest",
+    "slug": "quest-storms-of-fate",
+    "era_note": "The reviewed Zenith modules list enabled custom/zenith only. The pinned base scripts therefore supply the waits described here; optional era modules that restore JST-midnight waits were not enabled in that snapshot. Live installation may differ."
+  },
+  {
+    "campaign": "roz",
+    "number": "Q2",
+    "title": "Shadows of the Departed",
+    "requirements": [
+      "Complete Storms of Fate, including the palace return scene.",
+      "View both Awakening epilogues (Norg and the Neptune’s Spire door).",
+      "Wait until the next Vana’diel day after finishing Storms of Fate, as required by the pinned native script."
+    ],
+    "start": {
+      "npc": "Esha’ntarl (palace entrance scene)",
+      "zone": "Ru'Lude Gardens",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Approach the Ducal Palace audience area to receive the Note Written by Esha’ntarl.",
+      "Climb Promyvion - Holla to its fourth floor and examine the Memory Flux at J-10 for the Holla Sliver.",
+      "Climb Promyvion - Dem to its fourth floor and examine the Memory Flux at K-4 for the Dem Sliver.",
+      "Climb Promyvion - Mea to its fourth floor and examine the Memory Flux at K-6 for the Mea Sliver. The three zones may be visited in any order.",
+      "Return to the palace entrance in Ru’Lude Gardens with all three slivers. Finish the scene; it consumes the slivers and starts the Apocalypse Nigh wait. Leave the zone afterward."
+    ],
+    "notes": [
+      "Use the Promyvion floor maps and Memory Receptacle/Memory Stream ascent described in CoP’s opening missions. No spire boss battle is required for these slivers.",
+      "The pinned script uses a Vana’diel-day wait, not a weekly Conquest tally."
+    ],
+    "reward": "Note Written by Esha’ntarl; quest completion after handing over the three slivers.",
+    "unlocks": [
+      "Apocalypse Nigh after the next Vana’diel day and zoning"
+    ],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Promyvion - Holla",
+      "Promyvion - Dem",
+      "Promyvion - Mea"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Shadows_of_the_Departed",
+        "label": "HorizonXI Wiki: Shadows of the Departed"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Shadows_of_the_Departed.lua"
+    ],
+    "kind": "quest",
+    "slug": "quest-shadows-of-the-departed",
+    "era_note": "The reviewed Zenith modules list enabled custom/zenith only. The pinned base scripts therefore supply the waits described here; optional era modules that restore JST-midnight waits were not enabled in that snapshot. Live installation may differ."
+  },
+  {
+    "campaign": "roz",
+    "number": "Q3",
+    "title": "Apocalypse Nigh",
+    "requirements": [
+      "Complete Shadows of the Departed; leave Ru’Lude Gardens and wait until the next Vana’diel day.",
+      "Have access to Sea, the Grand Palace of Hu’Xzoi, the Garden of Ru’Hmet and the Empyreal Paradox from CoP.",
+      "Keep an inventory slot free for your earring."
+    ],
+    "start": {
+      "npc": "Esha’ntarl (palace entrance scene)",
+      "zone": "Ru'Lude Gardens",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Re-enter Ru’Lude Gardens and approach the palace audience area for Esha’ntarl’s new scene.",
+      "Enter Sealion’s Den for Prishe’s scene. Then examine the Gate of the Gods in the Grand Palace of Hu’Xzoi, leading into The Garden of Ru’Hmet; the native quest advances at this door interaction.",
+      "Reach the Empyreal Paradox. Examine Transcendental Radiance for the scene, then again to select Apocalypse Nigh.",
+      "Defeat Eald’narche and Kam’lanaut together. A common approach is controlling Kam’lanaut while concentrating damage on Eald’narche; avoid matching Kam’lanaut’s elemental blade with elemental damage.",
+      "Finish the victory scene and speak directly to Aldo in Lower Jeuno’s Tenshodo.",
+      "After the next Vana’diel day following the victory, speak to Gilgamesh in Norg and select Static, Magnetic, Hollow or Ethereal Earring. If an earlier visit asked you to return later, leave and re-enter Norg."
+    ],
+    "notes": [
+      "The pinned native battlefield allows Trusts, up to six participants and 30 minutes, with the server maximum level as its cap. This is a code check, not a completed Zenith solo test.",
+      "The pinned Aldo step checks current-nation Rank 5 or higher; Horizon documents Rank 6. The native wait is a Vana’diel day rather than Horizon’s JP midnight.",
+      "The earring is a choice of one. This conversation also advances the two expansion logs to The Last Verse."
+    ],
+    "reward": "One of Static Earring, Magnetic Earring, Hollow Earring or Ethereal Earring; title: Breaker of the Chains.",
+    "unlocks": [
+      "The Last Verse in both RoZ and CoP"
+    ],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Sealion's Den",
+      "Grand Palace of Hu'Xzoi",
+      "The Garden of Ru'Hmet",
+      "Empyreal Paradox",
+      "Lower Jeuno",
+      "Norg"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Apocalypse_Nigh",
+        "label": "HorizonXI Wiki: Apocalypse Nigh"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Apocalypse_Nigh.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Empyreal_Paradox/apocalypse_nigh.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/17_Awakening.lua"
+    ],
+    "kind": "quest",
+    "slug": "quest-apocalypse-nigh",
+    "era_note": "The reviewed Zenith modules list enabled custom/zenith only. The pinned base scripts therefore supply the waits described here; optional era modules that restore JST-midnight waits were not enabled in that snapshot. Live installation may differ."
+  },
+  {
+    "campaign": "roz",
+    "number": "Q4",
+    "title": "Divine Might",
+    "requirements": [
+      "Reach Ark Angels and examine the shrine Blank Target for the mission scene.",
+      "Accept Divine Might separately at the Blank Target before fighting; bring one Ark Pentasphere for the group."
+    ],
+    "start": {
+      "npc": "Blank Target",
+      "zone": "Shrine of Ru'Avitau",
+      "grid": "G/H-11"
+    },
+    "steps": [
+      "Enter the shrine from Ru’Aun Gardens H-9. Examine the G/H-11 Blank Target again after its mission scene until Divine Might appears in your Outlands quest log.",
+      "Obtain an Illuminink and Parchment. During a full moon with clear weather, trade both to Qu’Hau Spring at Ro’Maeve H-6 between 00:00 and 03:00 Vana’diel time to create an Ark Pentasphere.",
+      "Trade the pentasphere to a La’Loff Amphitheater Shimmering Circle. Enter Divine Might with your prepared group and defeat all five Ark Angels in the same battle.",
+      "Return to the shrine’s Blank Target and select one earring: Abyssal Earring, Beastly Earring, Bushinomimi, Knight’s Earring or Suppanomimi."
+    ],
+    "notes": [
+      "This optional alliance encounter can supply all five Ark Angels mission shards when the mission is correctly flagged. The five separate mission fights remain another route.",
+      "Control separate enemies and their pets; prepare for Charm and Mijin Gakure. Do not confuse the earring quest flag with the Ark Angels mission flag.",
+      "The pinned native pentasphere trade accepts full-moon hours 18:00–05:59 without a weather check. The narrower clear-weather 00:00–03:00 route above also works within those conditions."
+    ],
+    "reward": "One of five earrings; title: Pentacide Perpetrator; Ark Angels credit when eligible.",
+    "unlocks": [
+      "Optional route through Ark Angels"
+    ],
+    "zones": [
+      "Ru'Aun Gardens",
+      "Shrine of Ru'Avitau",
+      "Ro'Maeve",
+      "La'Loff Amphitheater"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Divine_Might",
+        "label": "HorizonXI Wiki: Divine Might"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/outlands/Divine_Might.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/14_Ark_Angels.lua"
+    ],
+    "kind": "quest",
+    "slug": "quest-divine-might"
+  }
+]

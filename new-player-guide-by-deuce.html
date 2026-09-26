@@ -1,0 +1,1206 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>New Player Guide by Deuce - Zenith XI Wiki</title><meta name="description" content=""><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/wiki.css?v=42"><script defer src="assets/sidebar.js?v=42"></script><script defer src="assets/search-index.js?v=42"></script><script defer src="assets/wiki.js?v=42"></script></head><body data-page="new-player-guide-by-deuce"><a class="skip" href="#content">Skip to content</a><header class="topbar" id="shared-topbar"></header><div class="layout"><aside class="sidebar" id="shared-sidebar"><nav aria-label="Wiki navigation"><a href="index.html">Main Page</a><a href="jobs.html">Jobs</a><a href="all-pages.html">All Pages</a></nav></aside><main id="content"><div class="page-tabs"><span class="selected">Reference</span><a href="all-pages.html">Article index</a><button class="print-link" type="button" data-print>Print</button></div><article class="article"><div class="breadcrumb"><a href="era-reference.html">Level 75 Reference</a> <span>›</span> New Player Guide by Deuce</div><h1>New Player Guide by Deuce</h1><div class="wiki-byline">From Zenith XI Wiki</div><div class="article-overview"><nav class="toc" aria-label="Article contents"><strong>Contents</strong><ol><li><a href="#era-In-Depth_New_Player_Guide_by_Deuce">In-Depth New Player Guide by Deuce</a></li><li><a href="#era-About_Eden_Private_Server">About Eden Private Server</a></li><li><a href="#era-Getting_Started">Getting Started</a></li><li><a href="#era-Creating_a_Character">Creating a Character</a></li><li><a href="#era-Beginning_the_Game">Beginning the Game</a></li><li><a href="#era-Earning_EXP">Earning EXP</a></li><li><a href="#era-Gameplay">Gameplay</a></li><li><a href="#era-Inventory">Inventory</a></li><li><a href="#era-Making_Gil">Making Gil</a></li><li><a href="#era-Macros">Macros</a></li><li><a href="#era-Equipsets">Equipsets</a></li><li><a href="#era-Partying">Partying</a></li><li><a href="#era-In-Game_Content">In-Game Content</a></li><li><a href="#era-Progressing_through_the_Game">Progressing through the Game</a></li><li><a href="#era-3rd_Party_Add-Ons_&amp;_Plugins">3rd Party Add-Ons &amp; Plugins</a></li></ol></nav></div><div class="article-body"><p><span class="reference-edition">Level 75 reference · <a href="server-rules.html">Zenith rules</a></span></p><div class="era-reference"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><h2 id="era-In-Depth_New_Player_Guide_by_Deuce">In-Depth New Player Guide by Deuce</h2>
+<p><i>This guide is still a WIP and may be split into several smaller guides for ease of navigation in the future.</i>
+</p>
+<h2 id="era-About_Eden_Private_Server">About Eden Private Server</h2>
+<p>Eden is a FFXI private server not affiliated with Square Enix or any other company and is free to play.  The server is focused on emulating the official game circa September 2008 excluding the Wings of the Goddess expansion.  There are currently no plans to add this content at this time.  This means the level cap is 75 and Trusts are not available; although the menu option for Trusts exists due to the client version used.
+</p><p>As of writing, several pieces of content from this era such as Salvage, Einherjar, ZNM, and Besieged have yet to be added to the server, but will be in the future.  Patches are still being made to tweak certain game mechanics in order to achieve greater accuracy to 2008 FFXI; however, as it stands Eden provides one of the most accurate representations of 75-cap FFXI.  Further information about available content can be found in the Discord or on the Website.
+</p>
+<h2 id="era-Getting_Started">Getting Started</h2>
+<p><i>Install guide adapted from instructions created by players in the tech-support channel of the Eden Discord including Mozzy, Bliven, and others.</i>
+</p>
+<h3 id="era-Installing_the_Game">Installing the Game</h3>
+<p><b>Important Note</b>: If you currently have FFXI installed whether its for retail or another private server then you should read this part of the guide carefully including the section Switching Between Retail and Eden.
+</p><p>This must be done even if you already have retail XI installed.  Eden does not use the current retail client.
+</p>
+<ol><li>Download the Eden installer from the pinned messages in the discord as this will have the most recent version.</li>
+<li>Unzip the installer to a location on your computer.</li>
+<li>Open the folder labeled that was unzipped and open the Application "Installer"</li>
+<li>Go through the process of installing the game files after choosing a location on a drive.  By default it should be installed in a folder labeled "Eden" on your C:/ drive.</li></ol>
+<h3 id="era-Using_Ashita_or_Windower">Using Ashita or Windower</h3>
+<p>Both programs are included within the Eden installer that should have been downloaded and can be found in your Eden folder after installation.  These programs are used to force FFXI to run in windowed mode or borderless window as this was not natively supported by the original retail client.  In addition both programs have various third party tools available, however some of these are banned on Eden, check the rules on the discord!
+</p>
+<h4 id="era-Ashita">Ashita</h4>
+<p>Used by most players to play FFXI on Eden.  A recent change to the retail FFXI client forced Ashita to update their client to fix some bugs, which in turn created some bugs for private servers running older versions of the game.  This is solved by creating a specific shortcut that never updates Ashita otherwise the program will update automatically by default when started.
+</p>
+<ol><li>Navigate to the Ashita folder found within your Eden folder and open it.</li>
+<li>Right click the Ashita application and choose Create Shortcut</li>
+<li>Find the shortcut on your desktop or wherever it was saved.</li>
+<li>Right-click the shortcut and select Properties.</li>
+<li>In the field "Target", add --noupdate after Ashita.exe, apply, and click OK.</li>
+<li>It's recommended to change the name of the shortcut to highlight this change.</li></ol>
+<p>Now you should be ready to launch Ashita, so let's do that.
+</p>
+<ol><li>Open your shortcut to Ashita</li>
+<li>In Ashita there should be some default profiles, but you'll likely need to edit one of these or create your own to properly launch the game.</li>
+<li>Click on the + symbol on the bottom left to create a new configuration</li>
+<li>Change the configuration name to something you prefer, this can be changed again later.</li>
+<li>We will need to change the file under Boot Configurations, click on the three dots to browse your folders.</li>
+<li>Navigate to your Eden install folder, then Ashita, then ffxi-bootmod</li>
+<li>Select xiloader, this should be an application within this folder.  If you do not have this it can be downloaded from the pinned messages in the discord and copy pasted to the ffxi-bootmod folder.</li>
+<li>In the Command field, add the text --server play.edenxi.com --hairpin</li>
+<li>If you wish to change your resolution the game runs at click on Window.</li>
+<li>Set your Window Size using numerical values, typical window sizes are recommended; 1600x900, 1920x1080, 800x600, etc.</li>
+<li>Click Save Configuration at the bottom.</li></ol>
+<p>We should now be able to launch the game by hitting the Play button found in or Configs for Ashita.  If you are having issues such as the launcher keeps crashing and you're using any AntiVirus software then you may need to whitelist the launcher application found within the ffxi-bootmod folder.  Otherwise help is best found on the discord.  
+</p>
+<h4 id="era-Windower">Windower</h4>
+<p>The original project created to force windowed mode or alt-tabbing in FFXI.  Later additions were made to allow for various 3rd party tools.  Similar to Ashita, not all of these tools are allowed by Eden's rules.
+</p>
+<ol><li>Navigate to your Eden install folder and then the folder for Windower.</li>
+<li>Place the xiloader application into the Windower folder.  Download this file from the discord if you have not already done so.</li>
+<li>Right-click settings and open with an application such as Notepad.</li>
+<li>Add the following,  &lt;args&gt;--server play.edenxi.com&lt;/args&gt;&lt;executable&gt;xiloader.exe&lt;/executable&gt;, to your settings at the bottom before &lt;/profile&gt;.</li>
+<li>Save the file and close notepad.</li></ol>
+<p><b>If you already had retail installed before Eden, then please skip to Switching Between Eden and Retail before launching Eden.</b>
+</p>
+<h3 id="era-Launching_Eden,_Creating_an_Account_&amp;_Logging_In"><span id="era-Launching_Eden.2C_Creating_an_Account_.26_Logging_In"></span>Launching Eden, Creating an Account &amp; Logging In</h3>
+<p>After setting up either Ashita or Windower we should now be able to launch Eden via the profiles saved in whichever program we configured.  If you had previously installed another version of the game, be sure to follow the steps in the Switching Between Retail and Eden section before coming back here.
+</p>
+<ol><li>Launch the game.  This should load an application window.</li>
+<li>We're given several options, Login, Create Account, or Quit.</li>
+<li>If you're a new player then you will need to create an account.</li>
+<li>This requires a code, which can only be obtained from other players via the discord.</li>
+<li>Open the Eden discord, navigate to the new-players channel, and ask for a code.  Codes are given through discord DMs only by other players who are logged into Eden and capable of giving them out.  Players who are level 15+ with a minimum of 72 hours of playtime on the server are able to do so.  <b>Codes expire after five minutes.</b>  Depending on time of day this can take several minutes or a couple hours if its very early in the morning in the US Eastern time zone.</li>
+<li>After acquiring a code we can enter it into the launcher.  If you wish to create more than one account, you'll need a code for each one.  If this is the case, be sure to ask for more than one the discord.</li>
+<li>Follow the next several steps in the launcher.</li>
+<li>A recovery e-mail isn't needed, but is helpful in case you ever need to recover your account after a lost password or account name.  Remembering other information such as character names and account creation dates are also helpful to the staff assisting with account recovery.</li></ol>
+<p>The game should now load and we can either choose to continue on to character creation or close the client and continue setting up some other things to make our time easier when it comes to playing and/or logging in.
+</p><p>If you wish to continue setting up, close the game and we can do things like setting up a controller and changing some settings in Ashita so that we can automatically input our login information so we don't have to manually do it each time.
+</p>
+<h4 id="era-Auto-Login_with_Ashita">Auto-Login with Ashita</h4>
+<ol><li>In Ashita, click on the profile we configured in order to highlight it.</li>
+<li>Click on the pencil at the bottom left to edit our configuration for this profile.</li>
+<li>Find the Boot Configurations and then the Command field.</li>
+<li>After --server play.edenxi.com --hairpin, add --username YourUserName --password YourPassword</li>
+<li>Save your configuration and then hit the play button for the given profile.</li></ol>
+<p>If entered correctly this should now automatically login to the account using the given information after pressing the play button for the configured profile.
+</p>
+<h3 id="era-Controller_Settings">Controller Settings</h3>
+<p>Various controllers that are compatible with Windows can be made to work with FFXI.  The game was originally developed for the PlayStation 2 and is well suited to controller play.  Players are able to edit their controller configs and will need to do so in order to properly get them working before using them in game.  If you wish to make changes to controller settings then all instances of the game must be closed in order to do so.
+</p>
+<ol><li>Navigate to the Eden install folder.</li>
+<li>Navigate to the SquareEnix/FinalFantasyXI/ToolsUS folder.</li>
+<li>Right-click FFXiPadConfig and run as Administrator.  This should open the GamePad config settings.</li>
+<li>First click on Test Gamepad to ensure that the controller being used is being detected.</li>
+<li>If it's not, be sure to check Enable Gamepad and Enable XInput and then Test Gamepad again.</li>
+<li>Once our controller is detected we can setup our button configs.  Not all of the buttons or the options need to be mapped.</li>
+<li>Be sure that basic movement and camera settings are properly calibrated.</li>
+<li>Check or uncheck "Enable gamepad when game is inactive" depending on preference.</li>
+<li>Enable or disable Force Feedback.  This does work in game, but only is in effect around certain large enemies when they're moving.</li>
+<li>Click Ok.</li>
+<li>Launch the Game and play the game a little to be sure everything is working based on preference.</li>
+<li>If not, close the game and make changes where necessary following the steps above.</li></ol>
+<h3 id="era-Switching_Between_Retail_and_Eden">Switching Between Retail and Eden</h3>
+<p>If you desire to play retail and Eden on the same machine then follow the steps in this guide.  In order to properly play both versions of the game, certain registry values need to be changed each time we wish to switch between clients.  Both retail and Eden, as well as other private servers can be played simultaneously; however, retail often causes Eden to crash when loaded second.  To prevent this, load retail before Eden and this should be prevented.  From here there are two branching paths which differ somewhat depending on the order of installation.
+</p>
+<h4 id="era-I_already_had_Retail_installed...">I already had Retail installed...</h4>
+<ol><li>Download and Install the Eden installer per the Install Guide above.</li>
+<li>Open the discord and check the pinned messages in the tech-support channel.  There should be a message titled "How to Run 2 FFXI Installs".</li>
+<li>Per those instructions we need to download a .bat file, that should be found within the same post.  This is a simple batch file which switches registry values for FFXI on your computer.</li>
+<li>Copy this file into both your \PlayOnline\SquareEnix\ &amp; Eden\SquareEnix\ folders.</li>
+<li>Next create a desktop shortcut for each of these folders on the desktop.  Otherwise you will have to navigate to these folders every time you wish to switch between clients.</li>
+<li>Run the .bat file as Administrator within your retail \PlayOnline\SquareEnix\ folder and follow the simple instructions.</li>
+<li>Load PlayOnline however you choose and login to your retail account.</li>
+<li>Load FFXI, this should require you to update the game.  One way to tell the proper files are being updated is by having your \PlayOnline\SquareEnix\FinalFantasyXI\ folder open and observing the patch files towards the bottom, particularly the patch.cfg file.  This file should be updating while the game is initially patching.  If it is not then you are likely updating your Eden install, which will require you to uninstall and reinstall the Eden client.</li>
+<li>Play retail FFXI a bit to ensure everything is working normally.</li>
+<li>Use your shortcut to the \Eden\SquareEnix\ folder to run the switch.bat file as administrator in this folder.  This will switch registry values for FFXI to Eden now.  Your retail client can continue running as normal, but if you close it, then you'll need to run the switch.bat in your retail folder again before loading the retail game.</li>
+<li>Check your profile configuration in Ashita, particularly Boot Configuration and ensure the proper loader is being used.</li>
+<li>Launch Eden.</li></ol>
+<h4 id="era-If_you_installed_Eden_first...">If you installed Eden first...</h4>
+<ol><li>After installing and playing retail, you will need a switch.bat file to fix registry values to play Eden again.  This batch file differs slightly from the one used above.</li>
+<li>Navigate to the tech-support channel on the Eden discord.</li>
+<li>Find the Switch_to_Eden.bat file posted by Bliven in response to Blu.  Searching "oh then you need this" should help you find it easily.</li>
+<li>Download this file and place it into both your \PlayOnline\SquareEnix &amp; \Eden\SquareEnix\ folders.</li>
+<li>Create shortcuts to both of theses folders for easy navigation.</li>
+<li>Run the batch file in your \Eden\SquareEnix\ folder as administrator and follow the instructions.</li>
+<li>Load Eden and check that everything is working properly.</li></ol>
+<p>Now that you have multiple installs of the game working it is important to remember that <b>one must always use the switch.bat file found in each specific install folder as administrator before running that version of the game.</b>  If you wish to easily switch between FFXI clients while multiple are running then it is best to download FFOSwitchMon from the discord and begin using that.
+</p>
+<h3 id="era-SwitchMon">SwitchMon</h3>
+<p>FFOSwitchMon is a third party program that allows for easy switching between FFXI windows while using a controller.  It allows players to map buttons for cycling backwards or forwards between game windows only.  Due to it not being updated in some time it has a few minor bugs, so it's best to always exit and restart the program each time when you play.
+</p>
+<ol><li>Download FFOSwitchMon from the links in the Eden discord.</li>
+<li>Place the folder wherever desired.</li>
+<li>Open the folder and create a shortcut for the application if desired.</li>
+<li>Run as administrator.</li>
+<li>Click on the Gamepad tab to assign buttons.</li></ol>
+<p>Any new FFXI game windows will be automatically detected by SwitchMon.
+</p><p>If you wish to prevent switching to one or more windows you can...
+</p>
+<ol><li>Right-click on the application found in your system tray on Windows and select settings.</li>
+<li>On the General tab, right-click any character or window you wish to lock or unlock.</li>
+<li>Select Allow/Deny</li></ol>
+<h4 id="era-Having_Issues_with_FFOSwitchMon?"><span id="era-Having_Issues_with_FFOSwitchMon.3F"></span>Having Issues with FFOSwitchMon?</h4>
+<p>Some users have reported an issue with SwitchMon not working even after following all of the instructions found in the ReadMe included with the downloaded program.  This is typically reported by players using Xbox One controllers in Windows.  If SwitchMon does not work you may need to download an additional file named XInputPlus, this can be found on the discord.  This file will modify the config settings of FFOSwitchMon and download multiple dll files that will be placed into your FFOSwitchMon folder.  To do this, follow the instructions below:
+</p>
+<ol><li>Download XInputPlus, links to which can be found from searching for it on the discord.</li>
+<li>Extract the download to a location on your computer.</li>
+<li>Run the application "XInputPlus".</li>
+<li>Select FFOSwitchMon as the target program.</li>
+<li>Choose "Enable directinput output" found under the directinput tab.</li>
+<li>Enable all the .dll files under Settings / DLL files, click Apply.</li></ol>
+<p>If you are still having issues after this "Fix" please visit the tech-support channel on the discord.
+</p>
+<h3 id="era-Troubleshooting">Troubleshooting</h3>
+<p>Some players have reported various issues with connecting properly to the Eden server.  If your launcher keeps crashing when loading the game, be sure any AntiVirus software isn't killing the program and preventing it from running.  If it is, whitelist it.  This guide isn't going to be able to cover all of the issues and their solutions without becoming very convoluted.  The best place to find help is within the discord, particularly in the tech-support channel.  Check any pinned messages and try to do a few searches for your problem before asking for help.
+</p>
+<h4 id="era-Account_Recovery">Account Recovery</h4>
+<p>Are you a returning player who no longer has access to their login information?  Visit the discord and type "account recovery" in the tech-support channel.  A discord bot will respond to your message with instructions for requesting a password reset.  Please note, it may take up to several days for an Eden staff member to respond to your request.  Insufficient information may make it difficult if not impossible to reset any information for the account in question.  
+</p>
+<h2 id="era-Creating_a_Character">Creating a Character</h2>
+<h3 id="era-Races">Races</h3>
+<p>There are five playable races in Final Fantasy XI.  Similar to other early MMORPGs such as Everquest, which XI was heavily inspired by, the races possess stat differences that players who min-max may wish to pay attention to.  Although, by no means does one have to choose the race best suited to one job or another.  Aesthetic preferences are arguably more important to most.
+</p>
+<h4 id="era-Elvaan"><a href="elvaan.html" title="Elvaan">Elvaan</a></h4>
+<p>Long necked and proud, Elvaan call San d'Oria home.  Possessing the second highest HP and second lowest MP make Elvaan good for a few specific roles including tanking and meleeing.  Their lowest INT in the game makes them the worst Black Mages, however, they have the highest MND stat which make them good White Mages.  High VIT coupled with their HP, make them good Paladins.  
+</p>
+<h4 id="era-Galka"><a href="galka.html" title="Galka">Galka</a></h4>
+<p>Big and burly, Galka have taken refuge in Bastok for many years.  The highest HP and strength makes Galka strong and powerful as melee or tanks.  The second lowest INT with the second lowest MP makes them mediocre Black Mages, but with many options for converting HP to MP later in the game they can make decent Red Mages.
+</p>
+<h4 id="era-Hume"><a href="hume.html" title="Hume">Hume</a></h4>
+<p>Average and unassuming, Humes are the founders of Bastok.  Being average has its advantages and disadvantages, so while Hume don't particularly excel at any job they can perform well enough to not be hindered from low stats in one category or another.
+</p>
+<h4 id="era-Mithra"><a href="mithra.html" title="Mithra">Mithra</a></h4>
+<p>Fierce and independent, Mithra made Windurst their home away from home.  The second highest MP, the highest DEX, and second highest INT makes Mithra good for playing melee as well as mages.  Thief particularly benefits from their high DEX as well as Samurai and Dark Knight, which both have weaponskills that use DEX as a modifier.
+</p>
+<h4 id="era-Tarutaru"><a href="tarutaru.html" title="Tarutaru">Tarutaru</a></h4>
+<p>Small and quirky, Tarutaru built Windurst with magic or something.  The highest INT, the highest MP, the lowest HP, the lowest VIT make them perfect for glass cannon play as a Black Mage.  While their small stature and low STR may dissuade one from playing melee, it is still possible, but if you wish to tank then this may not be the best choice especially during early levels.
+</p>
+<h3 id="era-Starting_Jobs">Starting Jobs</h3>
+<p>New characters are only able to choose from one of the six starting jobs available during character creation prior to level 30.  Choosing one job does not lock you into that specific job until 30.  A player can immediately change their job to one of the other six inside the Mog House upon starting the game.
+</p>
+<h4 id="era-Warrior"><a href="warrior.html" title="Warrior">Warrior</a></h4>
+<p>A pure melee, Warrior is one of the easier jobs to level early on.  Provoke, which is a job ability earned upon reaching level 5 is often in demand by parties.  Warriors have access to equipping ranged weapons at level 1 that make leveling to 10 significantly faster and easier.  It is one of the best melee jobs in the game at 75 when properly geared.
+</p>
+<h4 id="era-Monk"><a href="monk.html" title="Monk">Monk</a></h4>
+<p>Another pure melee, Monk is easy to level to 10 and is the best subjob for Warrior and Thief until Ninja can be unlocked at 30.  Boost, earned at level 5 raises the player's attack for one swing and is useful for boosting damage marginally, but it can be used every 15 seconds.  Above level 20, Monk can have a difficult time finding parties due to their lower utility and damage.  At 75 Monks won't be in as high of demand until Salvage is released on the server.
+</p>
+<h4 id="era-Thief"><a href="thief.html" title="Thief">Thief</a></h4>
+<p>A somewhat mediocre melee job that is often overlooked for better melee by parties.  This makes earning EXP for it somewhat frustrating as the most consistent option are arrowburn parties in Korroloka Tunnel at level 15.  It's greatest value comes with its job specific trait Treasure Hunter obtained at level 15, which can be raised through levels and gear up to Treasure Hunter IV at 75.  A Thief will always be in demand when a group is aiming for something rare to drop that is not obtained via a treasure chest.  If you enjoy farming, having Thief leveled can be quite valuable even as a sub job for Treasure Hunter 1 and Flee.
+</p>
+<h4 id="era-White_Mage"><a href="white-mage.html" title="White Mage">White Mage</a></h4>
+<p>A pure healer, White Mages are quite useful early on due to access to Cure II at level 11.  Other spells such as Poisona, Paralyna, and other -na spells, which remove status ailments are accessible only to White Mages as a main or sub job.  However, due to focusing on healing magic, their offensive capabilities are quite limited.  This makes leveling to 10 or 11 somewhat time consuming relative to the other five starting jobs.  Also, because all spells are obtained through either questing, mob drops, or NPC shops, this can make them more expensive to level early on.
+</p>
+<h4 id="era-Black_Mage"><a href="black-mage.html" title="Black Mage">Black Mage</a></h4>
+<p>A pure offensive magic caster, Black Mage is useful in a lot of Endgame content due to their high burst damage.  Unfortunately, getting to said content or level 75 can be quite the grind.  Black Mages after level 20 rarely receive invites to normal parties.  While there are regular Black Mage parties active on Eden at all hours, there can be lines to join them, and relative to exp earned in normal parties it can be quite the grind.  One advantage/disadvantage though is these parties are relatively straight forward and always level sync from 20 to 24.  Unfortunately, this will require Black Mages to skill up their magic skills later on, something most melee, support, and healers will have to do less often.  Soloing on Black Mage is possible at a certain point, but it can be slow and is really only recommended to those most dedicated to learning the ins and outs of Black Mage solo exp.  Similar to White Mage, Black Mage has to often buy their spells and because of the rarity and difficulty to obtain some black magic, it is the most expensive.
+</p>
+<h4 id="era-Red_Mage"><a href="red-mage.html" title="Red Mage">Red Mage</a></h4>
+<p>Often used as a healer, Red Mage can be found in place of a White Mage in many instances.  After level 41 when Refresh can be learned, and later Haste at level 48, Red Mage becomes the primary healer of choice for a majority of experience parties.  Due to possessing the highest enfeebling magic skill rating and the best gear for it, Red Mages are quite useful at endgame and lowmanning content.  Their overall utility is the greatest in the game, whether it's healing, enfeebling, <a href="chainspell.html" title="Chainspell">chainspell</a> stunning with Dark Knight sub, or tanking using Ninja sub, Red Mage can do just about everything other than damage.  Although, this does not mean they lack offensive spells, as they have access to tier III black magic.  A Red Mage and just about any other job in a duo can be a powerful combination.
+</p>
+<h3 id="era-Home_Nations">Home Nations</h3>
+<p>There are three starting nations that players can choose from when beginning the game.  These choices are not permanent and can be changed for an in-game fee later on.
+</p>
+<h4 id="era-San_d'Oria"><span id="era-San_d.27Oria"></span><a href="category-san-d-oria.html" title="Category:San d'Oria">San d'Oria</a></h4>
+<p>Home of the Elvaan, the Kingdom of San d'Oria is a good choice for new players.  Often in 1st Place during Conquest with ownership of valuable outposts, San d'Orian citizens won't have to struggle too hard to get where they need to early on, including the <a href="zone-valkurm-dunes.html" title="Valkurm Dunes">Valkurm Dunes</a>.  It also has easy access to some decent places to farm items for selling on the auction house.  The <a href="category-leathercraft.html" title="Category:Leathercraft">Leathercraft</a>, <a href="category-woodworking.html" title="Category:Woodworking">Woodworking</a>, and <a href="category-smithing.html" title="Category:Smithing">Smithing</a> guilds are located here.
+</p>
+<h4 id="era-Bastok"><a href="category-bastok.html" title="Category:Bastok">Bastok</a></h4>
+<p>Respite of the Humes and the Galka, the Republic of Bastok is arguably the most popular choice for players to settle on Eden.  Bastok often challenges San d'Oria for 1st Place in Conquest.  Most outposts are easily obtained by players from this nation, but reaching Valkurm Dunes is slightly more treacherous than San d'Oria.  The <a href="category-goldsmithing.html" title="Category:Goldsmithing">Goldsmithing</a>, Smithing, and <a href="category-alchemy.html" title="Category:Alchemy">Alchemy</a> guilds can be found here.
+</p>
+<h4 id="era-Windurst"><a href="category-windurst.html" title="Category:Windurst">Windurst</a></h4>
+<p>Sanctuary of the Tarutaru and Mithra, the Federation of Windurst is the least popular nation on Eden.  Due to its lack of popularity Windurst is rarely in 1st Place during Conquest.  This position often forces Windurst players to band together and focus specifically on obtaining certain Outposts.  One common dislike of Windurst by most is that it has a sprawling layout relative to the other two nations.  Also, being on the opposite continent of Bastok and San d'Oria requires Windurst citizens to travel to Valkurm Dunes via the ferry found in <a href="zone-mhaura.html" title="Mhaura">Mhaura</a>.  The <a href="category-bonecraft.html" title="Category:Bonecraft">Bonecraft</a>, <a href="category-clothcraft.html" title="Category:Clothcraft">Clothcraft</a>, <a href="category-cooking.html" title="Category:Cooking">Cooking</a>, and <a href="category-fishing.html" title="Category:Fishing">Fishing</a> guilds are found here.
+</p>
+<h3 id="era-Choosing_a_Name">Choosing a Name</h3>
+<p>There is a character limit for names in FFXI, 16 characters, with only the first character being capitalized and no special characters.  Players with offensive names may eventually be contacted by a GM and given the opportunity to rename said character to something non-offensive.
+</p>
+<h3 id="era-Completing_Character_Creation">Completing Character Creation</h3>
+<p>After choosing your race, character appearance, job, nation, and name, you'll be able to start the game.  The first time a new character loads into the game they will be shown an unskippable cutscene overviewing the nation they have selected.  Once this completes players will immediately be in a conversation with a starter NPC that has some basic information.
+</p><p><b>Warning: The default volume levels in-game are set to max and cannot be adjusted until after viewing the initial cutscene.  Consider turning down your desktop volume.</b>
+</p>
+<h2 id="era-Beginning_the_Game">Beginning the Game</h2>
+<p>Final Fantasy XI is an older MMORPG first developed for the PS2 and then ported to the PC.  Due to these factors the gameplay and UI and feel a little archaic and clunky at times.  Before we get to adventuring, we should familiarize ourselves with various configuration settings.
+</p>
+<h3 id="era-Config_Settings">Config Settings</h3>
+<p>There are a few configuration options available on the main menu screen of the game, which are limited to changing settings for this menu.
+</p>
+<h4 id="era-In-Game">In-Game</h4>
+<p>Open the menu by pressing the "-" key and navigate to Config, using the arrow keys. Opening Config will display multiple options.  Begin by opening the Gameplay menu, this is where we can adjust the game volume and turn on inventory sorting.  In addition we can adjust the gamma settings, but these are best left on the default setting.
+</p>
+<h4 id="era-Window_Settings">Window Settings</h4>
+<p>Open the Window menu and then Shared.  Here we can enable multi-window, timestamps, change window type, and turn off window effects.
+</p>
+<h5 id="era-Multi-Window">Multi-Window</h5>
+<p>If you wish to use multi-window, select either vertical or horizontal, whichever you prefer.  Horizontal mode will require resizing the window width, which can be done individually for each window in their respective menus.  In addition we can set our minimum and maximum lines as well as the decay rate of our windows.
+</p>
+<h4 id="era-Logs">Logs</h4>
+<p>If we wish to adjust which text is displayed in each window we can do that in this menu.  Turn ON or OFF settings in each window to move chat from one to another.
+</p>
+<h4 id="era-Misc._&amp;_Misc._2"><span id="era-Misc._.26_Misc._2"></span>Misc. &amp; Misc. 2</h4>
+<p>These menus have options for shadows, weather effects, and other graphical settings.  In Misc. 2, be sure to match your aspect ratios between your game window resolution and the setting in-game.
+</p>
+<h4 id="era-Misc._3">Misc. 3</h4>
+<p>Turn on Area Display, Party Icon Display, and Timer Display
+</p>
+<h3 id="era-Communication">Communication</h3>
+<ul><li><b>/say, /s</b> - Type in say chat.</li>
+<li><b>/shout, /sh</b> - Type in shout chat.  Zone wide communication.</li>
+<li><b>/yell</b> - Type in yell, limited to one yell every 15 minutes. Primarily used for global communication to find parties or sell/trade items.  Inappropriate yells can lead to a player being muted in this chat group.</li>
+<li><b>/party, /p</b> - Type in party chat.  Visible to anyone in your party or alliance.</li>
+<li><b>/tell, /t</b> - Whispers a specific player, ex.: "/t PlayerName message here"</li>
+<li><b>/linkshell, /l</b> - Type in linkshell chat for the linkshell equipped in slot 1.</li>
+<li><b>/linkshell2, /l2</b> - Type in linkshell chat for the linkshell equipped in slot 2.</li>
+<li><b>/cm *</b> - Sets a specific chat group as your default.  The default upon logging in is always /say.  ex.: /cm s, /cm p, /cm l, /cm l2</li>
+<li><b>/echo</b> - Only visible to oneself.</li></ul>
+<p>Responding to tells can be easily done by pressing CTRL + R.  Holding CTRL and pressing R over and over will cycle through previous players whom we shared private conversations with.
+</p>
+<h4 id="era-Server_Commands">Server Commands</h4>
+<p>Type <b>!menu</b> in-game to bring up a list of commands available to all players on the server.  
+</p>
+<h4 id="era-Need_a_GM?"><span id="era-Need_a_GM.3F"></span>Need a GM?</h4>
+<p>There are several players who also act as GMs for Eden.  If you ever need assistance with anything that cannot be handled via server commands and the issue is in-game, then submit a ticket to the GMs.  This can be done by opening the menu and navigating through to Help Desk &gt; Help Desk &gt; I can't Move &gt; Other &gt; I would like to call a GM.  GMs are volunteers and there are many who play on the server, so response times may vary.  Please be patient when waiting for a GM.
+</p>
+<h3 id="era-Tutorial_NPCs"><a href="tutorial-npc.html" title="Tutorial NPC">Tutorial NPCs</a></h3>
+<p>As of mid-April 2022, tutorial NPCs were added to Eden.  Characters created after this date will have the option to complete a series of quests designed to guide new players through a few game mechanics.  While it is not required to complete them, some players may find the early rewards and information useful.  The NPCs can be found at the following location:
+</p>
+<ul><li>Alaune - Southern San d'Oria (G-10)</li>
+<li>Gulldago - Bastok Markets (D-11)</li>
+<li>Selele - Windurst Woods (K-10)</li></ul>
+<h2 id="era-Earning_EXP">Earning EXP</h2>
+<p>Experience is primarily earned through defeating monsters that rate from Easy Prey to Incredibly Tough.  It is possible to gauge a monster's difficulty through the check command in the battle menu that is displayed when selecting a targeted monster.  Enemies which check as Too Weak will not give any experience.
+</p>
+<ul><li>Too Weak - 10 levels or below the player's current level.  Do not give experience points, drop crystals, or conquest points.</li>
+<li>Easy Prey</li>
+<li>Decent Challenge</li>
+<li>Even Match</li>
+<li>Tough</li>
+<li>Very Tough</li>
+<li>Incredibly Tough</li>
+<li>Impossible to Gauge - typically reserved for Notorious Monsters, these enemies will be tougher than those of the same level; however, they will always check as this even if the player is well beyond their level.</li></ul>
+<p><i>Note: Players will begin losing experience upon death at level 5, the penalty will increase with subsequent levels gained.  This maxes out at 2,400 exp lost at 75.  The White Magic spells Raise, Raise II, and Raise III will reduce the amount of experience lost when compared to going back to a home point.</i>
+</p>
+<h3 id="era-Beastmen's_Seals"><span id="era-Beastmen.27s_Seals"></span>Beastmen's Seals</h3>
+<p>From the beginning of the game players will find a golden looking coin that drops from enemies.  Be sure to save all of those which drop to your inventory.  If they're sitting in your treasure pool because of a full inventory, then throw away something such as a bat wing or flint stone to make room.  They will be used later in exchange for Orbs used to enter <a href="bcnm.html" title="BCNM">Burning Circle Notorious Monster</a> battles that can drop good loot.  Beastmen Seals can only be obtained once every 5 minutes from enemies which give experience.  In parties the common rule is to allow these to drop randomly unless a party is in the process of disbanding at which point it is usually customary to lot on them.
+</p>
+<h3 id="era-Level_1-10">Level 1-10</h3>
+<p>Before EXPing be sure to grab <a href="signet.html" title="Signet">Signet</a> from a gate guard in your nation, found near the main exits.  This buff provides several benefits including the accumulation of conquest points, crystals from enemies, increased healing HP while resting, no TP loss during rest, among others.  Never leave town without refreshing it, while it should last several hours it can be disappointing when it wears off.
+</p><p>Prior to level 10, most experience will be earned solo; even though, you can party up with others beginning at level 1.  Partying only seriously begins around level 10 or 11 when players have access to better spells and abilities useful in group play such as White Mage's <a href="cure-ii.html" title="Cure II">Cure II</a>.  At level 1 mobs which are level 1 and an Even Match will be considerably weaker than even those which are level 2 or 3.  As you level up mobs will become stronger relative to the player meaning that at level 10 an Even Match enemy will be a difficult solo even for most melee jobs.  This is why you will often see players who are level 7-9 still fighting level 1-3 mobs.  Due to their lower HP, level 1 mobs tend to be much faster to kill than even those which are only level 3 or 4.
+</p>
+<h4 id="era-Recovering_HP_and_MP">Recovering HP and MP</h4>
+<p>Resting is vitally important while leveling.  It is the only way to recover HP and MP without the use of items, equipment, or spells most of which are only available in later parts of the game.  Also, when a player levels, their HP and MP will instantly recover back to full.  Resting can be achieved in multiple ways:
+</p>
+<ul><li>Pressing the "H" key on the keyboard.</li>
+<li>Pressing "*" on the numberpad.</li>
+<li>Pressing the left thumbstick of the controller.  (Custom controller settings may change this.)</li>
+<li>Typing /heal</li></ul>
+<p>All of these will perform the same action and cause your character to go into a race specific pose to begin recovering HP and MP incrementally over time.  
+</p>
+<h3 id="era-Level_10+"><span id="era-Level_10.2B"></span>Level 10+</h3>
+<p>Solo experience after this point is usually only reserved for slowly killing Easy Prey enemies by most jobs especially mages.  Some jobs such as Summoner, Puppetmaster, and some melee can choose to solo tougher enemies based on their ability and gear while Beastmasters tend to often solo or party in groups of 2 or 3.  While it is possible for Black Mage to solo EXP in some instances later beyond level 30 to 40, most other jobs will primarily earn their experience from partying.
+</p><p><b>Recommended</b>: Before deciding to join a party, it can help to level more than one job to level 10.  This is in order to make some more money for the main job you wish to level.  Players will need to do this for their subjobs anyways, so it can help to tackle this earlier on.  If those who play mages are feeling ambitious they can level Warrior and/or Thief to 10 for an easier time farming solo early on in the game.
+</p>
+<h3 id="era-Valkurm_Dunes"><a href="zone-valkurm-dunes.html" title="Valkurm Dunes">Valkurm Dunes</a></h3>
+<p>When you are level 10 or ideally level 11 you should begin seeking for a party, <i>see Partying</i>, and begin venturing your way towards the Valkurm Dunes.  The dunes are the first place most players will party for the first time and is where most will earn experience from 10-18.  Located in the <a href="region-zulkheim.html" title="Zulkheim">Zulkheim</a> region and accessed by...
+</p>
+<ul><li>San d'Orians from the south side of <a href="zone-la-theine-plateau.html" title="La Theine Plateau">La Theine Plateau</a></li>
+<li>Bastokans from the north side of <a href="zone-konschtat-highlands.html" title="Konschtat Highlands">Konschtat Highlands</a>, there will always be bats in the tunnel which divide Konschtat Highlands from the main area of the map.  Bring a form of sneak to make your way through more easily.</li>
+<li>Windurstians from <a href="zone-selbina.html" title="Selbina">Selbina</a> by way of the ferry from <a href="zone-mhaura.html" title="Mhaura">Mhaura</a>, accessible from <a href="zone-buburimu-peninsula.html" title="Buburimu Peninsula">Buburimu Peninsula</a>, which itself is located on the east side of <a href="zone-tahrongi-canyon.html" title="Tahrongi Canyon">Tahrongi Canyon</a>.</li></ul>
+<p><a href="sneak-status-effect.html" title="Sneak (Status Effect)">Sneak</a> and <a href="invisible-status-effect.html" title="Invisible (Status Effect)">Invis</a> which can be obtained from <a href="silent-oil.html" title="Silent Oil">Silent Oil</a> and <a href="prism-powder.html" title="Prism Powder">Prism Powder</a> respectively (purchased under Medicines on the Auction House) are recommended for safe and easy navigation of the dunes in some sections.
+</p><p>In addition, you may want to obtain outpost supplies from a gate guard before you head out.  Check the Conquest map by opening the Region menu option and determine which nation owns the outpost in the Zulkheim region.  This outpost is located in the Valkurm Dunes and can be used to easily teleport back and forth from your home nation via the warp NPC, explained further in the Outpost Warp section of this guide.
+</p><p>After the dunes players will venture to various other camps found throughout the world.  More information about different camps can be found in this <a href="guide-to-exp-camps-by-falzum.html" title="Guide to EXP Camps by Falzum">guide</a>.
+</p>
+<h4 id="era-Subjob">Subjob</h4>
+<p>While in the dunes be on the lookout for your subjob items; <a href="magicked-skull.html" title="Magicked Skull">Magicked Skull</a>, <a href="crab-apron.html" title="Crab Apron">Crab Apron</a>, and <a href="damselfly-worm.html" title="Damselfly Worm">Damselfly Worm</a> for the quest <a href="elder-memories.html" title="Elder Memories">Elder Memories</a> started in Selbina.  There is another similar quest, <a href="the-old-lady.html" title="The Old Lady">The Old Lady</a>, in Mhaura which asks for a completely different set of items.
+</p>
+<h3 id="era-Experience_Rings">Experience Rings</h3>
+<p>There are several rings in the game that can be obtained to temporarily boost a player's ability to earn EXP through an item enhancement.  Players must equip the ring, wait 30 seconds, and then use the item.  A charge a will be consumed after which the ring can be unequipped with the status effect remaining active.  All of the following rings can only be used once every 16 hours!
+</p>
+<ul><li><a href="chariot-band.html" title="Chariot Band">Chariot Band</a> - Purchased from your nation's guards for 500 Conquest Points, provides a bonus of +75% that lasts 90 minutes, which caps at 500 experience earned. 3 Total Charges for a bonus of 1,500.</li>
+<li><a href="emperor-band.html" title="Emperor Band">Emperor Band</a> - Purchased from your nation's guards for 2,000 Conquest Points, provides a bonus of +50% that lasts 210 minutes, which caps at 2000 experience earned.  3 total charges for a bonus of 6,000.</li>
+<li><a href="empress-band.html" title="Empress Band">Empress Band</a> - Purchased from your nation's guards for 1,000 Conquest Points, provides a bonus of +50% that lasts 180 minutes, which caps at 1000 experience earned.  7 total charges for a bonus of 7,000.</li>
+<li><a href="anniversary-ring.html" title="Anniversary Ring">Anniversary Ring</a> - Only available in May to characters created prior to the anniversary event on Eden.  Provides a bonus of +100% that lasts 720 minutes, which caps at 3000 experience earned.  Obtained via an event moogle near one of the gates in your nation.  10 total charges for a bonus of 30,000.</li></ul>
+<p>Other than the Anniversary Ring, all of the rings mentioned above can be recharged once per conquest tally (weekly) by trading it to a gate guard NPC for less than the cost of purchasing a new ring.  However, the game will only allow you to hold one of the rings from conquest NPCs in your inventory at a time.
+</p>
+<h2 id="era-Gameplay">Gameplay</h2>
+<h3 id="era-Combat">Combat</h3>
+<p>By modern MMORPG standards FFXI's combat is a bit slow and clunky, especially when playing without a controller.  As you play the game you will want to familiarize yourself with the macro system in order to make the gameplay smoother and an overall more enjoyable experience.
+</p>
+<h4 id="era-Enemy_Behavior">Enemy Behavior</h4>
+<p>Before engaging in combat it is important to understand how monsters behave.  Early on in the game the majority of monsters will be non-aggressive to players unless attacked.  The primary exception are the beastmen; for instance, Goblins, Orcs, Quadav, and the Yagudo.  Except for the Quadav who aggro by sound, these beastmen initially encountered in the game will all aggro by sight.  At night players may also come across undead enemies. Skeletons and ghosts mainly, which aggro by sound and low HP from a greater range, so be careful of your proximity to them.  Additionally, some mob types aggro by magic casting, notably Bombs and Elementals.  Lastly, later in the game the player will encounter mobs which aggro the use of Job Abilities, as well as those which aggro through the effects of sneak and/or invisible, referred to as True Sight and True Sound.
+</p>
+<h5 id="era-Linking">Linking</h5>
+<p>Some monster types will link with one another if they notice a player engaged to one of their family type, saplings and lizards are two examples.  All beastmen will link with one another from the same family.  Linking is based on the method of detection that a monster uses.  For example, a monster which detects by sound and links will cause a link if another of the same type is within a certain range.  On the other hand, monsters which detect by sight and link can be standing immediately next to one another with one being aggroed while the other is facing away.  In this instance, the other monster will not detect the player having aggroed the other monster and will not link.
+</p>
+<h4 id="era-Targeting">Targeting</h4>
+<p>There are a few methods of targeting NPCs in FFXI:
+</p>
+<ul><li>Pressing F8 on the keyboard will target the closest NPC to the player.  This includes both monsters and non-aggressive NPCs, as well as doors, ???s, and other misc. targets.</li>
+<li>Pressing Tab on the keyboard will cycle through all NPCs and PCs nearest to the player from left to right.</li>
+<li>On controller, pressing the confirm button will target the nearest NPC or PC to the player.</li>
+<li>On controller, using left or right on the Directional Pad will cycle through NPCs and PCs by splitting your field of view in half.  The Left D-Pad will target NPCs on the left half of your screen and the Right D-Pad will target the right half.</li></ul>
+<h5 id="era-Attacking_Enemies">Attacking Enemies</h5>
+<p>There are two main methods of attacking or engaging enemies for combat in FFXI:
+</p>
+<ul><li>Open the menu while targeting an NPC and confirm the attack option.  This will draw your weapon and lock your camera onto the targeted enemy.</li>
+<li>Typing /attack and pressing enter while targeting an enemy will engage and similarly draw your weapon and lock your camera.</li></ul>
+<p>Later in a party, the player can type /assist PlayerName, which if said player is engaged to an enemy will cause your character to target and engage the same enemy.
+</p><p><b>Two Helpful Tips:</b> 
+</p>
+<ol><li>Running in the same direction and in front of a moving target while engaged will allow you to swing causing them to stop moving.</li>
+<li>Ranged weapons are a great tool for initially attacking monsters which leads to less moving around.  Mages can use magic to achieve similar results.</li></ol>
+<h4 id="era-Weaponskills">Weaponskills</h4>
+<p>In FFXI the majority of melee combat is done through auto-attacks except when a player has greater than 1000 TP, which can be used to perform a weaponskill.  Auto-attack speed is determined by a formula which calculates the delay of the weapon being used, traits, and haste.
+</p><p>Weaponskills are learned automatically based on the combat skill for the weapon being used, ranged weaponskills can only be used by Rangers and Corsairs, except when equipped as a sub.  
+</p>
+<ul><li>To use a weaponskill, while engaged to an enemy, open abilities, then open the weaponskill menu and select one of the weaponskills which have been learned, confirm to use.</li>
+<li>Alternatively, typing /ws "WeaponskillName" &lt;t&gt; will use the specified weaponskill.</li></ul>
+<p>To view your combat skills, open the menu, go to Status, and select combat skills.
+</p><p><b>Note:</b> Due to an occasional bug, your combat skills may not immediately uncap upon leveling.  To fix this, go into your equipment and unequip and then re-equip your weapon.
+</p>
+<h4 id="era-Ranged_Attacks">Ranged Attacks</h4>
+<p>In order to use ranged attacks the player must equip a ranged weapon and any relevant ammo.  Performing a ranged attack can be done by one of two methods:
+</p>
+<ul><li>Using the menu, opening abilities, select ranged attack, and confirm.</li>
+<li>Typing /ra &lt;t&gt; which will use a ranged attack on the enemy that is currently targeted.</li></ul>
+<h4 id="era-Abilities">Abilities</h4>
+<p>Job abilities are specific to each job and learned at various levels.  Some jobs such as Red Mage, Black Mage, and White Mage have few Job Abilities while others such as Thief or Samurai can end up with many more than those three combined.  Typically melee jobs will have more job abilities than mages.  Subjobs will give the player access to the abilities available the level of said subjob, albeit in some instances in a reduced state.  Two-hour abilities from a subjob cannot be used.
+</p>
+<ul><li>Job abilities can be used from the combat menu, opening abilities, selecting Job Abilities, then selecting an ability, and confirming to use.</li>
+<li>Typing /ja "JobAbilityName" &lt;me&gt; or &lt;t&gt; depending on the ability.</li></ul>
+<h4 id="era-Spells">Spells</h4>
+<p>Spells are learned from the use of scrolls, which can be obtained from enemies, quests, treasure chests, purchased from NPC shops, or the auction house.  Purchasing from the auction house should be reserved for spells that cannot be obtained from NPC shops or easily farmed unless there is an urgent need to acquire said spell.  Once learned by a character that spell will be able to be used.  The potency of magic spells are determined by magic skill, which can be viewed by opening the main menu, selecting Status, then selecting Magic Skills.
+</p>
+<ul><li>To cast a spell, open the combat menu, select Magic, scroll through the list of learned spells, select a spell, select a target, and confirm to begin casting.</li>
+<li>Typing /ma "SpellName" &lt;t&gt; or &lt;me&gt; or &lt;stpc&gt;.  &lt;stpc&gt; is used to cast on other players, more will be explained in the section on Macros.</li></ul>
+<h5 id="era-White_Magic">White Magic</h5>
+<p>Healing, Divine, Enhancing, and Enfeebling Magic.
+</p>
+<h5 id="era-Black_Magic">Black Magic</h5>
+<p>Elemental, Dark, and Enfeebling Magic
+</p>
+<h5 id="era-Summoning_Magic">Summoning Magic</h5>
+<p>Most Summons must be obtained through completing various quests.  Level six fame is required to begin the quests for the Prime versions of avatars.  These quests require higher level players to complete.  For new players there are mini versions of the fights involved in these quests that grant the use of less powerful versions.
+</p>
+<h5 id="era-Ninjutsu">Ninjutsu</h5>
+<p>Spells for Ninja, often used by other jobs while subbed.
+</p>
+<h5 id="era-Songs">Songs</h5>
+<p>Effectiveness determined by Singing, Wind, String skills.  Singing skill increases both Wind and String skills.
+</p>
+<h5 id="era-Blue_Magic">Blue Magic</h5>
+<p>Used by Blue Mages and learned differently from all other forms of magic in the game.  Blue Mages must fight enemies that use the spell or ability they wish to learn.  This process can sometimes take significant amounts of time, because even if an enemy uses an ability one wishes to learn, learning it is actually random.  Continue fighting these enemies and you'll eventually learn what you're after.
+</p>
+<h2 id="era-Inventory">Inventory</h2>
+<p>On Eden players only have access to the main inventory and mog wardrobes while outside the mog house.  While the menu contains other inventory options such as Mog Sack, Case, and Satchel, none of these are enabled on Eden as they were later additions to the game.  Initially, the player's inventory will have 30 slots.  This can be later expanded, five slots at a time, through quests received in Lower Jeuno known as the <a href="gobbiebag.html" title="Gobbiebag">Gobbiebag Quests</a>.  Players can only unlock a total of 60 inventory slots.
+</p>
+<h4 id="era-Mog_Safe">Mog Safe</h4>
+<p>Players on Eden start out with access to two mog safes of equal size, 50 slots each.  These spaces can be expanded three times through quests received from the moogle found within the mog house.  After each quest is completed the mog safe will be expanded by 10 slots.  If all three quests are completed then the Mog Safe will reach its maximum size of 80 slots.  To receive these quests specific beds must be placed inside the mog house:
+</p>
+<ul><li>Bronze Bed - Completing this quest expands the mog safe from 50 to 60 slots.</li>
+<li>Mahogany Bed - Completing this quest expands the mog safe from 60 to 70 slots.</li>
+<li>Noble's Bed - Completing this quest expands the mog safe from 70 to 80 slots.</li></ul>
+<p>After placing the bed, player's must wait until the next conquest tally occurs before the moogle will ask them for a favor, initiating a quest.  Only one quest can be completed per conquest tally; however, they can be completed back to back.  Certain levels of fame are required to receive each quest with the first requiring level three fame in one's home nation.
+</p>
+<h4 id="era-Storage">Storage</h4>
+<p>Storage is obtained via the placement of furniture inside the player's mog house.  Each piece of furniture adds to the total storage space based on the number seen on its item description.  Storage caps at 80 slots, additional furniture will not increase this amount beyond this point.
+</p>
+<h4 id="era-Mog_Locker"><a href="mog-locker.html" title="Mog Locker">Mog Locker</a></h4>
+<p>To gain access to a mog locker, players must be able to visit Aht Urhgan Whitegate, reachable after level 30 and obtaining access via the Tenshodo.  Once in Aht Urhgan players must complete the second mission for Treasures of Aht Urhgan, <a href="aht-urhgan-mission-2-immortal-sentries.html" title="Aht Urhgan Mission 2: Immortal Sentries">Immortal Sentries</a>, and then speak to Fubruhn outside the Mog House in Whitegate.  Mog lockers are leased to the player and require Imperial Bronze Pieces to extend the lease.  Players start with 30 slots and can expand this 10 slots at a time to a maximum of 80 slots.  To expand Mog Locker capacity trade the following to Fubruhn:
+</p>
+<ul><li>Expand to 40 Slots - 4 Imperial Mythril Pieces</li>
+<li>Expand to 50 Slots - 2 Imperial Gold Pieces</li>
+<li>Expand to 60 Slots - 3 Imperial Gold Pieces</li>
+<li>Expand to 70 Slots - 5 Imperial Gold Pieces</li>
+<li>Expand to 80 Slots - 10 Imperial Gold Pieces</li></ul>
+<p>A conquest tally must occur between each expansion.
+</p>
+<h4 id="era-Wardrobes">Wardrobes</h4>
+<p>Currently there are three wardrobes which players on Eden can unlock by completing various content.  Players can place equipment including ammo into their wardrobes alleviating inventory space.  Each wardrobe has 80 slots.
+</p>
+<ul><li>Wardrobe 1 - Reach Rank 3 and speak to the moogle found within the Mog House.</li>
+<li>Wardrobe 2 - Reach Rank 6</li>
+<li>Wardrobe 3 - Fully Complete both Zilart and CoP storylines including their epilogues.</li></ul>
+<h2 id="era-Making_Gil">Making Gil</h2>
+<p>Gil to fund adventures is one of the first challenges a new player must overcome.  Options will be limited, especially at level 1 as the primary method of earning gil is by selling drops to others on the Auction House or completing certain repeatable quests, both of which require defeating enemies.  There are a few options that can be done at level 1 without venturing outside the city gates, but these methods, Fishing and Mining, often require some invested gil to begin with.  While there is Gardening, this takes a reasonable investment in both time and money before one will begin to see decent returns.
+</p>
+<h4 id="era-Where_to_Begin">Where to Begin</h4>
+<p>Adventuring outside and beginning to gain experience is where all players should start.  Don't forget to receive signet from a gate guard and have auto-sorting of your inventory turned on.  If you see a treasure pool while solo, this means your inventory is full and the game is waiting for you to sort it before depositing the items to you.  The treasure pool has a maximum of 10 spaces and items that drop and are found within it will remain for 5 minutes before falling to the ground forever.  While earning experience crystals will drop occasionally from enemies, these are used frequently by crafters, and are a good early source of gil, fire crystals especially.  Most items you receive early on will be of little value except in stacks of 12.
+</p><p><i>The <a rel="nofollow" class="external text" href="https://edenxi.com/tools/item">item search</a> function on the Eden website is a quick way of finding out the value of items you come across.</i>
+</p>
+<h5 id="era-Drops_by_Enemy_Type">Drops by Enemy Type</h5>
+<ul><li>Bats - Wind Crystals and Bat Wings; Bat Wings are used in a repeatable quest in North San d'Oria, 200g per 2 wings.</li>
+<li>Worms - Earth Crystals, Flint Stones, Copper Ore, and Zinc Ore; Zinc Ores are used in a repeatable quest in Port Bastok, Flint Stones ~800g per stack on AH.</li>
+<li>Bees - Wind Crystals, Honey and Beehive Chips; Beehive Chips only drop from bees level 4+, ~3,500g per stack.</li>
+<li>Birds - Fire Crystals, Bird Feathers</li>
+<li>Lizards - Fire Crystals, Lizard Skins, Lizard Tails</li>
+<li>Crawlers - Earth Crystals, Silk Thread, Crawler Cocoon; Thread and Cocoons have value to clothcrafters, sell on the AH.</li>
+<li>Saplings - Earth Crystals, Seeds of various types; sell on the AH or keep for gardening.</li>
+<li>Rabbits - Earth Crystals, Hare Meat, Rabbit Hide; sell both in stacks on the AH.</li>
+<li>Mandragora - Earth Crystals,</li></ul>
+<p>There will be some differences between the three nations, below are some tips specific to each starting location:
+</p>
+<h5 id="era-Bastok_2">Bastok</h5>
+<p>Early access to mining and some good farming opportunities including beehive chips.  Not recommended for players who wish to start out fishing.  Also, 
+</p><p>Enemies found in this region - Worms, Bees, Birds, Lizards, Bats, Saplings
+</p>
+<h5 id="era-San_d'Oria_2"><span id="era-San_d.27Oria_2"></span>San d'Oria</h5>
+<p>Early access to a good spot for fishing moat carp.  Gheslba Outpost and King Ranperre's Tomb are both close by which provide access to some decent farming around level 10.
+</p><p>Enemies found in this region - Worms, Bats, Rabbits, Birds
+</p>
+<h5 id="era-Windurst_2">Windurst</h5>
+<p>Early access to silk thread and fishing, the fishing guild is located in Port Windurst.  There are also a few low level quests that are easy to do which provide equipment worth several thousand gil.  Provided Windurst can manage to reach second or first place in conquest, some of their items are highly sought after.  Not recommended for players who want to mine early on.
+</p><p>Enemies found in this region - Rabbits, Birds, Mandragora, Crawlers, Bees, Bats
+</p><p><i>Once you've saved up several thousand gil you can begin to explore additional options such as Mining, Fishing, and Gardening.</i>
+</p>
+<h5 id="era-Fishing">Fishing</h5>
+<p>Enough gil to buy a fishing rod and some bait, 3,000-15,000g.  Fishing rods can be found under weapons on the Auction House.  The most common fish for players to target early on is Moat Carp, used in the Lu Shang's fishing rod quest.  These can be caught easily at zero skill around San d'Oria and Windurst.  If a player wishes to delve deeper into fishing then there are several resources one should become familiar with.  This includes several <a rel="nofollow" class="external text" href="category-guides-fishing.html">fishing guides</a> which have recommendations for when and where to skill up on certain fish.  Fishing can be a great activity for those who are new to dualboxing or who wish to relax and watch a TV show or movie while slowly accumulating some gil.
+</p>
+<h5 id="era-Gardening">Gardening</h5>
+<p>About 18,000 gil is adequate to get started, but you can begin with as little as 2000g to buy a single pot, a wildgrass seed, and a few crystals.  Use this <a href="new-and-casual-player-gardening-guide.html" title="New and Casual Player Gardening Guide">gardening guide</a> to learn more.  Gardening requires patience and care, it will take 7 days before first harvest, and another 7 days before you will begin to see profits.  Per Eden's rules players can only garden on three characters with a total of 30 pots, 10 per character.  <i>The game has a limit of 10 flowerpots in each character's mog house.</i>
+</p>
+<h5 id="era-Mining">Mining</h5>
+<p>Getting started properly is quite expensive, about 35-40,000g to purchase the Field Tunica, Boots, and Gloves, the legs are not needed for mining.  This cost can be postponed if the player chooses to mine without the gear, break rates on pickaxes will increase significantly as a result.  Pickaxes can be purchased from vendors with the cost decreased the higher the player's fame in the city they are purchased.  The earliest a player can access mining is by starting in Bastok.  Below are the initial areas players can easily mine:
+</p>
+<ul><li><a href="zone-zeruhn-mines.html" title="Zeruhn Mines">Zeruhn Mines</a> can be accessed safely from Bastok Mines at level 1.  Iron and Zinc ores are the primary spoils.</li>
+<li><a href="zone-yughott-grotto.html" title="Yughott Grotto">Yughott Grotto</a>, near San d'Oria, accessed from Ghelsba Outpost; Iron, Zinc, Darksteel Ores.  Recommended level 30+</li>
+<li><a href="zone-gusgen-mines.html" title="Gusgen Mines">Gusgen Mines</a>, connected to Konschtat Highlands, can be mined with Sneak and Invis.  Darksteel and Iron ores.</li></ul>
+<p>There are a few other areas players can mine, but each will require a form of Sneak and Invisible from even level 75 players.  Alternatively, since there is nowhere to mine near Windurst players can harvest in Giddeus, recommended level of 30 to avoid aggro.
+</p>
+<h3 id="era-Auction_House_&amp;_Bazaars"><span id="era-Auction_House_.26_Bazaars"></span>Auction House &amp; Bazaars</h3>
+<p>There are a few methods of buying and selling goods while playing the game.  This includes the Auction House, player Bazaars, and NPC shops.  Each of the three starting nations has their own auction house.  On Eden these are all linked together as well as all other auction houses in the game.  While not a feature originally in the game, this was done for a better functioning economy on Eden.  Auctions are blind bids, meaning the only information to buyer and seller are the previous sales.  The least expensive item will always sell first regardless of bid.
+</p><p>Players can list an unlimited number of items; however, checking the Sales Status when there are more seven or more items listed will cause a bug that requires zoning.  This bug only prevents players from listing additional items until they have zoned.  Items will be de-listed and returned to sellers if not sold within 30 days.
+</p>
+<ul><li class="mw-empty-elt"></ul>
+<h2 id="era-Macros">Macros</h2>
+<p>Macros play an integral role in the gameplay of FFXI.  While the entire game can be played from the menus available in the game, macros make most things quicker and smoother.  All new characters begin the game with a default a set of macros, which do various things.  These can be either edited or deleted outright.
+</p><p>Macros are separated by macrobooks and then further divided by macrosets.  Players have access to 20 books containing 10 sets of both 10 ALT &amp; 10 CTRL macros, providing us with a total of 4000 possible macros.  Only one book of sets may be accessed at a time without manually switching through the use of inputs or macros
+</p>
+<h3 id="era-How_to_Create_a_Macro">How to Create a Macro</h3>
+<p>Open the menu and navigate to macros and select edit macros.  This will open our list of books.  By default all books will be named as "Book#", these can later be changed.  Select a book with macros we wish to edit, select Confirm, and confirm.  This will open said book to our current set number.
+</p>
+<figure class="mw-default-size mw-halign-center" typeof="mw:Error mw:File"><a href="https://edenxi.miraheze.org/wiki/Special:Upload" class="new" title="File:MacroSet.png"><span class="mw-file-element mw-broken-media">File:MacroSet.png</span></a><figcaption></figcaption></figure>
+<p><br>
+To change macro sets or macros in this menu...
+</p>
+<ul><li>On Keyboard, navigate with the arrow keys</li>
+<li>On Controller, use the D-Pad</li></ul>
+<p>Once we've found and highlighted the macro we wish to edit, confirming will open a new window with seven configurable lines.  The smaller top line is the macro name, the six larger lines are where we will place our macro commands.  Anything input on these lines will only be permanently saved upon logging out.
+</p>
+<figure class="mw-default-size mw-halign-center" typeof="mw:Error mw:File"><a href="https://edenxi.miraheze.org/wiki/Special:Upload" class="new" title="File:MacroWindow.png"><span class="mw-file-element mw-broken-media">File:MacroWindow.png</span></a><figcaption></figcaption></figure>
+<p><br>
+To exit this window to configure another macro, press ESC on keyboard or the "cancel" button on controller.
+</p>
+<h4 id="era-Macro_Commands">Macro Commands</h4>
+<p>There are various macro commands we can use to improve gameplay, below are several tables which contain information about the possible macro commands available.
+</p>
+<div class="table-wrap era-table"><table class="fandom-table">
+<tbody><tr>
+<th>Commands
+</th>
+<th>Action
+</th>
+<th>Example
+</th>
+<th>Ex. 2
+</th></tr>
+<tr>
+<td>/ma
+</td>
+<td>Casts a spell
+</td>
+<td>/ma "Cure" &lt;t&gt;
+</td>
+<td>/ma "Cure II" PlayerName
+</td></tr>
+<tr>
+<td>/ja
+</td>
+<td>Uses a job ability
+</td>
+<td>/ja "Provoke" &lt;t&gt;
+</td>
+<td>/ja "Boost" &lt;me&gt;
+</td></tr>
+<tr>
+<td>/ra
+</td>
+<td>Uses a ranged attack
+</td>
+<td>/ra &lt;t&gt;
+</td>
+<td>/ra &lt;stnpc&gt;
+</td></tr>
+<tr>
+<td>/ws
+</td>
+<td>Uses a weapon skill
+</td>
+<td>/ws "Shark Bite" &lt;t&gt;
+</td>
+<td>/ws "Tachi: Gekko" &lt;t&gt;
+</td></tr>
+<tr>
+<td>/pet
+</td>
+<td>Uses a pet command
+</td>
+<td>/pet "Predator Claws" &lt;t&gt;
+</td>
+<td>/pet "Diamond Dust" &lt;stpc&gt;
+</td></tr>
+<tr>
+<td>/item
+</td>
+<td>Uses an item
+</td>
+<td>/item "Ginger Cookie" &lt;me&gt;
+</td>
+<td>/item "Melon Juice" &lt;stpc&gt;
+</td></tr>
+<tr>
+<td>/target
+</td>
+<td>Targets an object
+</td>
+<td>/target PlayerName
+</td>
+<td>
+</td></tr>
+<tr>
+<td>/targetnpc
+</td>
+<td>Target closest NPC
+</td>
+<td>/argetnpc
+</td>
+<td>
+</td></tr>
+<tr>
+<td>/targetbnpc
+</td>
+<td>Target closest enemy NPC
+</td>
+<td>/targetbnpc
+</td>
+<td>
+</td></tr>
+<tr>
+<td>/lockon
+</td>
+<td>Locks player's camera to current selected target
+</td>
+<td>/lockon
+</td>
+<td>
+</td></tr>
+<tr>
+<td>/check
+</td>
+<td>Examines a player or monster
+</td>
+<td>/check PlayerName
+</td>
+<td>/check &lt;stnpc&gt;
+</td></tr>
+<tr>
+<td>/lastsynth
+</td>
+<td>Repeats the last synthesis performed, persists through logout
+</td>
+<td>/lastsynth
+</td>
+<td>
+</td></tr>
+<tr>
+<td>/assist
+</td>
+<td>Targets current assist's target
+</td>
+<td>/assist PlayerName
+</td>
+<td>/assist &lt;p3&gt;
+</td></tr></tbody></table>
+</div><h4 id="era-Target_Commands">Target Commands</h4>
+<p>When using a spell or ability a target is required.  Below are the various types and ways we can target various entities.
+</p>
+<div class="table-wrap era-table"><table class="fandom-table">
+<tbody><tr>
+<th>Target
+</th>
+<th>Action
+</th>
+<th>Example
+</th></tr>
+<tr>
+<td>&lt;me&gt;
+</td>
+<td>Sets oneself as target
+</td>
+<td>/ja "Berserk" &lt;me&gt;
+</td></tr>
+<tr>
+<td>&lt;t&gt;
+</td>
+<td>Sets target to current target
+</td>
+<td>/ws "Fast Blade" &lt;t&gt;
+</td></tr>
+<tr>
+<td>&lt;bt&gt;
+</td>
+<td>Sets target last claimed by party
+</td>
+<td>/ma "Thunder" &lt;bt&gt;
+</td></tr>
+<tr>
+<td>&lt;ht&gt;
+</td>
+<td>Sets target to a target that is Call For Help
+</td>
+<td>/attack &lt;ht&gt;
+</td></tr>
+<tr>
+<td>&lt;ft&gt;
+</td>
+<td>Sets target to Adventuring Fellow
+</td>
+<td>/ma "Cure II" &lt;ft&gt;
+</td></tr>
+<tr>
+<td>&lt;st&gt;
+</td>
+<td>Creates a subtarget
+</td>
+<td>/ma "Cure" &lt;st&gt;
+</td></tr>
+<tr>
+<td>&lt;stpc&gt;
+</td>
+<td>Subtarget, playable characters only
+</td>
+<td>/ma "Poisona" &lt;stpc&gt;
+</td></tr>
+<tr>
+<td>&lt;stpt&gt;
+</td>
+<td>Subtarget, players in your party
+</td>
+<td>/ma "Erase" &lt;stpt&gt;
+</td></tr>
+<tr>
+<td>&lt;stal&gt;
+</td>
+<td>Subtarget, players in your alliance
+</td>
+<td>/ma "Cure IV" &lt;stal&gt;
+</td></tr>
+<tr>
+<td>&lt;stnpc&gt;
+</td>
+<td>Subtarget, non-player characters
+</td>
+<td>/ma "Stun" &lt;stnpc&gt;
+</td></tr>
+<tr>
+<td>&lt;lastst&gt;
+</td>
+<td>Targets last subtarget
+</td>
+<td>/ma "Silena" &lt;lastst&gt;
+</td></tr>
+<tr>
+<td>&lt;r&gt;
+</td>
+<td>Sets target to the last player to send you a tell
+</td>
+<td>/ma "Cure 3" &lt;r&gt;
+</td></tr>
+<tr>
+<td>&lt;pet&gt;
+</td>
+<td>Sets target to pet's target
+</td>
+<td>/p &lt;pet&gt; Earthen Ward
+</td></tr>
+<tr>
+<td>&lt;scan&gt;
+</td>
+<td>Sets target to wide scan track
+</td>
+<td>/ra &lt;scan&gt;
+</td></tr>
+<tr>
+<td>&lt;p0&gt; - &lt;p5&gt;
+</td>
+<td>Sets target to party member based on order of party list
+</td>
+<td>/ma "Regen" &lt;p3&gt;
+</td></tr>
+<tr>
+<td>&lt;a10&gt; - &lt;a15&gt;
+</td>
+<td>Sets target to an alliance member in the 1st party
+</td>
+<td>/ma "Cure III" &lt;a11&gt;
+</td></tr>
+<tr>
+<td>&lt;a20&gt; - &lt;a25&gt;
+</td>
+<td>Sets target to an alliance member in the 2nd party
+</td>
+<td>/ma "Cure V" &lt;a22&gt;
+</td></tr>
+<tr>
+<td>&lt;focust&gt;
+</td>
+<td>Sets target to your focus target
+</td>
+<td>/ma "Haste" &lt;focust&gt;
+</td></tr></tbody></table>
+</div><h3 id="era-Informative_Commands">Informative Commands</h3>
+<p>Several commands are capable of providing us with useful information.
+</p>
+<div class="table-wrap era-table"><table class="fandom table">
+<tbody><tr>
+<th>Command
+</th>
+<th>Action
+</th>
+<th>Example
+</th></tr>
+<tr>
+<td>&lt;hp&gt;
+</td>
+<td>Displays Current HP / Max HP
+</td>
+<td>/p &lt;hp&gt; HP
+</td></tr>
+<tr>
+<td>&lt;hpp&gt;
+</td>
+<td>Current HP%
+</td>
+<td>/p &lt;hpp&gt; HP
+</td></tr>
+<tr>
+<td>&lt;mp&gt;
+</td>
+<td>Current MP / Max MP
+</td>
+<td>/p &lt;mp&gt; Resting
+</td></tr>
+<tr>
+<td>&lt;mpp&gt;
+</td>
+<td>Current MP / Max MP
+</td>
+<td>/p &lt;mpp&gt; MP
+</td></tr>
+<tr>
+<td>&lt;tp&gt;
+</td>
+<td>Current TP
+</td>
+<td>/p &lt;tp&gt; TP, ready!
+</td></tr>
+<tr>
+<td>&lt;pethpp&gt;
+</td>
+<td>Pet's HP%
+</td>
+<td>/p &lt;pet&gt;'s is &lt;pethpp&gt;
+</td></tr>
+<tr>
+<td>&lt;petmpp&gt;
+</td>
+<td>Pet's MP%
+</td>
+<td>/p &lt;pet&gt;'s is &lt;petmpp&gt;
+</td></tr>
+<tr>
+<td>&lt;pettp&gt;
+</td>
+<td>Pet's TP
+</td>
+<td>/p &lt;pet&gt; is at &lt;pettp&gt; TP
+</td></tr>
+<tr>
+<td>&lt;fthpp&gt;
+</td>
+<td>Adventuring Fellow's HP%
+</td>
+<td>/echo &lt;fthpp&gt; Fellow HP
+</td></tr>
+<tr>
+<td>&lt;call&gt;
+</td>
+<td>Creates a sound for party members that also vibrates controllers
+</td>
+<td>/p &lt;call19&gt;
+</td></tr>
+<tr>
+<td>&lt;ncall&gt;
+</td>
+<td>Creates a sound for party members
+</td>
+<td>/p &lt;call11&gt; ready?
+</td></tr>
+<tr>
+<td>&lt;scall&gt;
+</td>
+<td>Creates a sound that doesn't vibrate controllers
+</td>
+<td>/p &lt;ncall12&gt;
+</td></tr>
+<tr>
+<td>&lt;job&gt;, &lt;mjob&gt;, &lt;sjob&gt;
+</td>
+<td>Displays current job, main job, or subjob
+</td>
+<td>/p &lt;job&gt;
+</td></tr>
+<tr>
+<td>&lt;pos&gt;
+</td>
+<td>Displays current grid position on the map
+</td>
+<td>/sh or /yell Raise Can I have it? &lt;pos&gt; Valkurm Dunes
+</td></tr>
+<tr>
+<td>&lt;recast="x"&gt;
+</td>
+<td>Displays the recast of a spell or ability
+</td>
+<td>/echo &lt;recast="Berserk"&gt;
+</td></tr></tbody></table>
+</div><h3 id="era-Equipment_Macros">Equipment Macros</h3>
+<p>These commands are especially useful when utilizing equipsets which are explained in the next section.
+</p>
+<div class="table-wrap era-table"><table class="fandom table">
+<tbody><tr>
+<th>Command
+</th>
+<th>Subcommands
+</th>
+<th>Used to
+</th>
+<th>Example
+</th></tr>
+<tr>
+<td>/equip
+</td>
+<td>[area (main, sub, range, ammo, head, neck, L.ear, R.ear, body, hands, L.ring, R.ring, back, waist, legs, feet)] ["item name"] [storage number (0-8)]
+</td>
+<td>Equips a piece of gear to specified area. To unequip, omit the item name. Specifying a storage number will limit equipment to the Mog Wardrobe number selected (Inventory=0)
+</td>
+<td>/equip neck "Justice Badge"
+</td></tr>
+<tr>
+<td>/equipset
+</td>
+<td>[set number] [options (echo,&lt;blank&gt;)]
+</td>
+<td>Equips a gear set. Displays resultant text if "echo" option is specified; options can be blank.
+</td>
+<td>
+</td></tr>
+<tr>
+<td>/macro
+</td>
+<td>[options (set, book)]
+</td>
+<td>Changes your active macro set/book
+</td>
+<td>/macro set 5
+</td></tr>
+<tr>
+<td>/wait OR &lt;waitX&gt;
+</td>
+<td>[wait time]
+</td>
+<td>Waits for X amount of seconds.
+</td>
+<td>/wait 5 or /ma "Thunder" &lt;wait9&gt;
+</td></tr></tbody></table>
+</div><h3 id="era-Chat_and_Party/Alliance_Commands"><span id="era-Chat_and_Party.2FAlliance_Commands"></span>Chat and Party/Alliance Commands</h3>
+<p>Various commands that are useful for group play and communication.
+</p>
+<div class="table-wrap era-table"><table cellpadding="2">
+<tbody><tr>
+<th>Command
+</th>
+<th>Action
+</th>
+<th>Example
+</th></tr>
+<tr>
+<td>/pcmd
+</td>
+<td>Party specific commands
+</td>
+<td>/pcmd add, kick, leader PlayerName, or /join, /leave
+</td></tr>
+<tr>
+<td>/acmd
+</td>
+<td>Alliance specific commands
+</td>
+<td>/acmd join, /acmd leave, /acmd kick PartyLeaderName
+</td></tr>
+<tr>
+<td>/p
+</td>
+<td>Sends a message to party chat
+</td>
+<td>/p Pulling &lt;t&gt; &lt;call14&gt;
+</td></tr>
+<tr>
+<td>/l
+</td>
+<td>Sends a message to linkshell chat
+</td>
+<td>/l Send bids to PlayerName
+</td></tr></tbody></table>
+</div><p><br>
+</p>
+<h4 id="era-Edit_Macrobook_Name">Edit Macrobook Name</h4>
+<p>To do so, select a book, select Change Name and confirm, which will allow us to edit the name.  Pressing Enter will confirm the edit and save it.
+</p>
+<h3 id="era-To_Change_Macros">To Change Macros</h3>
+<p>We can change the macros in a few ways.  In a limited capacity, we can change sets using the keyboard or controller inputs...
+</p>
+<ul><li>On Keyboard</li>
+<li>"/macro book 1" will set our current book to 1.</li>
+<li>"/macro set 3" will set our current set to 3 of our current book.</li></ul>
+<p>Macro books and sets cannot be changed simultaneously.  
+</p>
+<h3 id="era-To_use_a_Macro">To use a Macro</h3>
+<ul><li>On Keyboard, holding CTRL and ALT will display our current macro book and page.</li>
+<li>On Controller, hold the LEFT or RIGHT trigger and use the D-Pad to scroll through macros.</li></ul>
+<h2 id="era-Equipsets">Equipsets</h2>
+<p>Equipsets are a subset of macros, but are worthy of their own section to explain their use in greater depth.  The main function of these is to change equipment with the use of macros beyond the capability of a normal macro.  Instead of changing each piece of equipment with a single line in a macro, we can change every piece of equipment with a single line by using an equipset.  Both Ashita and Windower contain plugins which perform the same function of equipsets with more features and a higher degree of complexity.
+</p>
+<h3 id="era-How_to_Use_an_Equipset">How to Use an Equipset</h3>
+<p>In the same Macros menu, the option to "Edit Equip. Set" can be found, select it.  Similar to Macrobooks there is a list of 20 equipsets; however, unlike macro books we can change to another page.  There are five pages in total allowing for the use of 100 equipsets.  This number is adequate for gameplay as a new player, but as you begin to level more jobs and do more content you may find this number being insufficient.  At that point it may be best to look into either Ashitacast or GearSwap for Ashita and Windower respectively.
+</p><p>When we select an equipset to edit, we see many of the same options as well as three others, Use Current, Equip, and Style Lock.  Style Lock is not enabled on Eden.  Use Current will save the selected equipset with our currently equipped gear.  Equip will equip the currently selected equipset.
+</p>
+<h3 id="era-Configuring_an_Equipset">Configuring an Equipset</h3>
+<p>To configure gear for an equipset simply select the "Edit" option.  This will open a window in which we can place gear from our wardrobes or inventory.  In addition, there are two options, "Remove Piece" and "Keep same piece".  "Remove Piece" will place a red X in that equipslot, "Keep same piece" will leave it empty.
+</p><p>Once we've chosen our equipment we can exit the window.  At this point we should be sure to remember the number of the set we changed, as this will always remain the same and be used when equipping said set.  We can also change the name of the set based on our preference.  After configuring all of our equipsets we can begin by adding them to macros.  Some examples include...
+</p>
+<ul><li>Line 1: /equipset 1 Line 2: /ws "Dancing Edge" &lt;t&gt; &lt;wait2&gt; Line 3: /equipset 2 Line 4: /echo TP Set</li></ul>
+<h2 id="era-Partying">Partying</h2>
+<p>Parties in FFXI are a core aspect of the game.  A party consists of 2 to 6 players with alliances being formed by 2 to 3 parties for a total of 18 players.  To start a party one player must send invites to others who then have to accept them.  After the first player accepts an invite a party will be formed, which subsequent players will join, up to total of 6.  Parties and alliances share monster claims and loot pools with the notable exception being Dynamis which is zone wide loot.
+</p>
+<ul><li>Party Leaders are denoted by a yellow name in search results.</li>
+<li>Party Members or players currently in a party will have their name in light blue.</li></ul>
+<h3 id="era-Joining_a_Party">Joining a Party</h3>
+<p>Before we can join a party others must know that we are seeking.  This can be done through one of two ways:
+</p>
+<ul><li>Typing /invite or /inv</li>
+<li>By going into the menu, navigating to the Party menu, and selecting seek party.</li></ul>
+<p>Either action will put our party flag up which will make our character more visible to others attempting to form a party.  To stop seeking a party one of the two actions can be repeated to remove the flag.  Consequently, joining a party will also drop our flag.  When our flag is up players will only be able to see the job we are currently on, so be mindful of switching jobs while seeking a party.
+</p>
+<h4 id="era-Accepting_an_Invite">Accepting an Invite</h4>
+<p>There are a two methods of accepting party invites:
+</p>
+<ul><li>Open the Menu, navigate to Party and select "Yes".  Selecting "No" will decline the invite.</li>
+<li>Typing /join, declining an invite can be done by typing /decline.</li></ul>
+<p>It is often customary for players to send a /tell to a player before sending them an invite asking if they'd like to party.  The easiest way to respond to these messages is by pressing CTRL + R.  This will respond to the last person who messaged you.  Conversations with players can be cycled through by holding CTRL and pressing R over and over to cycle whisper targets.
+</p>
+<h4 id="era-Leaving_a_Party">Leaving a Party</h4>
+<p>It is best etiquette to inform our party that we need to leave well before the time to do so, with emergency situations being the exception.  At least 15 minutes, but 30+ minutes prior to us leaving is recommended assuming it is possible to know this ahead of time.  This information should encourage the party leader to prepare a replacement for us by the time we leave.  While it is possible to find a replacement for yourself, most party leaders would prefer for you to ask before doing this.  When it is time, leaving from or disbanding a party is quite simple...
+</p>
+<ul><li>Navigate to the Party menu and select disband</li>
+<li>Type /pcmd leave</li></ul>
+<p>If all other players have left our party, the party will still exist with us remaining as the leader.  To remove this just disband the party using one of the methods above.
+</p>
+<h4 id="era-Search_Comments">Search Comments</h4>
+<figure class="mw-default-size" typeof="mw:Error mw:File/Thumb"><a href="https://edenxi.miraheze.org/wiki/Special:Upload" class="new" title="File:SeaALLinv.png"><span class="mw-file-element mw-broken-media" data-width="180">File:SeaALLinv.png</span></a><figcaption>Eden search results.</figcaption></figure>
+<p>SeaCom are a great way of informing other players about your intentions.  Players who have a search comment will have a colored dot to the left of their name in the search results.  These dots are color coded with experience related search comments being green.  To view a player's a search comment simply select their character from the search window.  
+</p><p>To create our own we will open the menu and open the Search option.  At the bottom of this menu will be the option Edit Comment, select this option.  The next menu will have multiple types to choose from with differing colored dots.  We will want to use the top option, EXP Party.  There will be three options in the next menu, it doesn't matter which one is selected as they all share the same text window.  Selecting an option will pop up a text window that can be typed in.
+</p>
+<figure class="mw-default-size mw-halign-center" typeof="mw:Error mw:File"><a href="https://edenxi.miraheze.org/wiki/Special:Upload" class="new" title="File:EdtiSeaCom.png"><span class="mw-file-element mw-broken-media">Search Comment Window, empty</span></a><figcaption>Search Comment Window, empty</figcaption></figure>
+<p>In this window we can type anything we want on the three lines up to the character limit.  When seeking a party we can inform players about certain information such as the subjobs we have leveled, what camps we are okay or not okay with, how low we're willing to level sync, and so on.
+</p>
+<h3 id="era-Inviting_Players">Inviting Players</h3>
+<p>In order to invite other players to a party a search must be performed.  We want to primarily find the other players seeking a party.  The easiest way to do this is through typing /sea all inv.  This can be modified by adding a level range at the end, for example /sea all inv 40-65, which will return results including all players seeking a party between the level range specified.
+</p><p>Once we have done our search and found a player we wish to invite it is best to ask them via a /tell whether or not they would like a party specifying the level and the camp.  For example, "41 Level Sync party Altepa desert", or using auto-translate "Party Do You Need It? Level Sync 33 Zi'Tah".  If the party has a Bard and/or a Corsair it helps to include this information in your /tell.  In this case, "Party Do You Need It? Level Sync 33 Zi'Tah have BRD" or "have BRD+COR".  Parties with one or both of these supports will entice players to join your party, but they are not necessary to earn experience.
+</p><p>If the player accepts our request to join the party we can either invite them by:
+</p>
+<ul><li>Typing /pcmd add PlayerName</li>
+<li>Adding them from the search window by selecting their name and confirming "Invite"</li></ul>
+<p>Another way to find players for a party is to perform a /yell.  Many players may not actively seek a party, but if there is a /yell from a party that they may wish to join they will inform us via a /tell.  Depending on the popularity of the sort of party that is being built, we may become inundated with responses.  It is typical to invite the first person who responded to your /yell, but if they come in quick succession don't be discouraged from picking the one which best suits your needs.  Here's are some examples of yells...
+</p>
+<ul><li>Level Sync 33 Zi'Tah pt 3/6 have BRD</li>
+<li>Mount Z pt 5/6 need healer</li>
+<li>LF1M Healer's Roll Can I Have It? w/ BRD and COR 5/6</li></ul>
+<p>As time goes on you'll find a preferred way of yelling for party members.  Remember that /yell is on a 15min. cooldown, so make it count.  If you need to do additional yells, party members can be asked to perform a /yell for you.  It is best to include a "PST PartyLeader'sName" at the end of the /yell; although, not every player pays attention to this part of the message.
+</p>
+<h3 id="era-Leading_a_Party">Leading a Party</h3>
+<p>Being a party leader can be a bit intimidating for new players unfamiliar with the game's meta; however, proactiveness is the best approach to earning experience in FFXI.  The basics of party EXP can be quite simple, particularly at early levels.  Earlier in this guide we learned how to invite other players to a party, here we will put those methods into use.  To begin, each party needs at least one healer, one tank, and someone willing to be a puller.  For the last three spots in the party it is best to fill them with damage, preferably at least two melee.
+</p>
+<h4 id="era-Healers">Healers</h4>
+<p>In the early game, the most effective healer is a White Mage as they have access to spells such as Cure II (Lv.11), Poisona (7), Protectra(7), and Regen (21).  Red Mages are capable healers even at level 10 or 11, but parties may find their ability to heal lots of HP in emergency situations a bit lacking until level 14 when they receive Cure II.  However, a party with both a White Mage and Red Mage is hardly discouraged as the Red Mage can perform other roles besides healing such as enfeebling and some nuking.
+</p>
+<h4 id="era-Tanks">Tanks</h4>
+<p>Tanks in the dunes are typically a role filled by Warriors as they are the most common.  Provoke is Warriors first job ability and through their use of a great axe enmity is easier to maintain early on through damage.  Conversely, Paladins are capable of healing themselves, but their ability to maintain enmity or threat on enemies is largely dependent on their pool of MP as Provoke is on a 30-second cooldown.  Unless the player playing Paladin is using some form of MP refresh provided by drinks such as Pineapple or Melon Juice, the party may sometimes have to wait for them to recover MP.  Ninjas at level 12 gain the use of Utsusemi which provide three shadows that absorb single-target attacks, this makes them a desirable tank for healers and parties because it means less healing and in theory less downtime for a party.  Additionally, in the dunes, it helps to have a second provoke whether that's from another Warrior or a melee subbing warrior in the party.
+</p>
+<h4 id="era-Pullers">Pullers</h4>
+<p>Every party needs someone to pull, but few players have the desire to perform this role.  It's arguably one of the most active roles in any party as it has the least downtime.  That is why it is best to ask a player if they're willing to "pull", as pulling also requires some form of ranged attack.  This role often falls to a Thief if they are in the party as their lower damage relative to most other melee means less loss when pulling.  Bards usually fill a support role, but can also be the puller of a party, especially after level 24 when it is possible for them to use Ninja as their subjob.
+</p>
+<h4 id="era-Damage">Damage</h4>
+<p>Due to the game mechanics most parties will prefer for their damage or damage dealers (DD), to be of the melee type.  This does not mean we should never invite Black Mages or Summoners.  However, in best practice each party may limit themselves to only one or none of these.  Black Mages will greatly appreciate it if you assist them in reaching level 20 at which point they will spend most of their time level synced in Qufim.  Summoners, capable of some good damage at early levels, would also appreciate the invites and later with the proper party setup they can fill a support/healer role.  For melee, two-handed; Dark Knight, Samurai, Dragoon, and Warrior, tend to be preferred and the most common type in places such as the dunes.  Other DD include Monk, Blue Mage, and Ranger, the latter of which being the best of the three listed.  Monks who are appropriately geared can be good, especially around level 40.  Blue Mages unfortunately are dependent on their pool of MP and will require some form of MP refresh to keep in the fight without occasionally resting.  Lastly, Puppetmaster and Beastmaster are probably the least desired for party DD.
+</p>
+<h4 id="era-Support">Support</h4>
+<p>There are only two dedicated support jobs in FFXI, Bard and Corsair.  One sings, the other rolls the dice, literally.  Players will desire one or both being in the party, but in the dunes it is never a requirement to earn experience.  There aren't always players seeking on these jobs, and if they are they will get gobbled up quickly by other parties.  They may even reject our invitation to a dunes party if they are of a sufficient level, typically 55+, as their ability to earn experience is often double what can be achieved in even the best dunes parties.
+</p>
+<h4 id="era-Alliances">Alliances</h4>
+<p>As was mentioned at the beginning of this section, alliances are formed by two to three parties with up to 18 players total.  To form an alliance one party leader must request to form one with another party leader.  This is done by finding the other party leader, denoted by their name in yellow, in a search window, then select their name and the option to "Form" should appear.  If we confirm this option a request to form an alliance will be sent.  To accept an alliance formation request, go to your Party menu. 
+</p>
+<h3 id="era-Level_Sync">Level Sync</h3>
+<p>Earlier in this guide Level Sync was mentioned a few times.  This system was added to the game in 2008 and is available for use on Eden.  Early on in retail Level Sync was limited to players being within 10 levels of one another, on Eden players can level sync from 75 all the way down to 10 if they choose.
+</p>
+<h4 id="era-How_Level_Sync_Works">How Level Sync Works</h4>
+<p>One player from the party is chosen as a level sync target.  This party member cannot be anonymous or /anon.  When level sync is active, the player who is synced to will have a red dot to the right of their name in the party list.  All players in the party who are of higher level will be synced down to the same level as the designated sync.  Any players who are below the level of the sync will not have their levels raised.  After the party has synced to a player, we can begin earning experience.  Everyone in the party will earn experience as though they were that level.
+</p><p><b>To set a level sync target, go into the menu, select Party, select Level Sync, select a player, confirm the prompt that appears.  In order to level sync to a player, their current job must be at least level 10.</b>
+</p><p>Note: Power levels will dirty a level synced party's experience if they ever become the focus of the enemy which is being fought.  It is possible for them to heal while the party is fighting, but this requires caution to perform well.
+</p>
+<h2 id="era-In-Game_Content">In-Game Content</h2>
+<h3 id="era-Quests">Quests</h3>
+<p>Unlike modern MMORPGs NPCs will not tell you whether or not they have a quest for you until you've spoken to them.  Availability of some quests is dependent upon the player's <a href="reputation.html" title="Reputation">fame</a> or reputation in that city or region.  Several NPCs scattered about the world can be used to help determine player fame.
+</p><p><i>Active and completed quests can be viewed from the player's Quests menu found under the Missions menu in the main menu.</i>
+</p>
+<h3 id="era-Missions">Missions</h3>
+<p>Aside from quests there are various sets of missions that contain the main plot of FFXI.  These missions often provide the player with rewards that are of significant import.
+</p>
+<h4 id="era-Nation_Missions">Nation Missions</h4>
+<p>Each of the three nations has their own set missions that often intersect with one another.  New characters begin the game at Rank 1 and players must complete a set of three missions before being able to reach Rank 2.  Achieving higher ranks provides the player with various rewards including an Airship Pass, gil, and custom on Eden, the unlocking of Wardrobe 1 for achieving rank 3.  The highest rank for each nation is rank 10, and players are able to switch nations upon which their rank will be back to one.  Other than gil previously obtained rewards will not be given again.
+</p><p>To begin completing missions for your nation speak to one of the guards at a gate, guides can be found below:
+</p>
+<ul><li><a href="category-bastok-missions.html" title="Category:Bastok Missions">Bastok Missions</a></li>
+<li><a href="category-san-d-oria-missions.html" title="Category:San d'Oria Missions">San d'Oria Missions</a></li>
+<li><a href="category-windurst-missions.html" title="Category:Windurst Missions">Windurst Missions</a></li></ul>
+<h5 id="era-Bonus_Conquest_Points">Bonus Conquest Points</h5>
+<p>From Rank 2 players will be able to trade stacks of crystals to raise their rank bar and obtain hyper efficient conquest points until rank 6.  In order to receive bonus conquest points, players must raise their rank bar by trading a specific amount of crystals to a gate guard for each rank.  Once the rank bar has been sufficiently raised, extra crystals may be traded one time in exchange for conquest points.  To achieve the maximum amount of bonus conquest points it is required that the player must trade eight stacks to the NPC all at once.
+</p>
+<ul><li>Rank 2 - Trade 12 crystals to fill the rank bar, then trade 8 stacks of crystals to receive 31,364 conquest points.</li>
+<li>Rank 3 - Trade 24 crystals to fill the rank bar, then trade 8 stacks of crystals to receive 15,200 conquest points.</li>
+<li>Rank 4 - Trade 36 crystals to fill the rank bar, then trade 8 stacks of crystals to receive 10,652 conquest points.</li>
+<li>Rank 5 - Trade 48 crystals to fill the rank bar, then trade 8 stacks of crystals to receive 7,952 conquest points.</li>
+<li>Rank 6 - Trade 60 crystals to fill the rank bar, then trade 8 stacks of crystals to receive 6,296 conquest points.</li></ul>
+<p><b>Note: If you complete any missions prior to trading crystals, this will raise your rank bar changing the number of crystals required to fill it.  It is recommended to trade crystals just after ranking up to avoid issues.</b>
+</p>
+<h4 id="era-Zilart_Missions">Zilart Missions</h4>
+<p>Added along with the Rise of the Zilart expansion, the <a href="category-rise-of-the-zilart-missions.html" title="Category:Rise of the Zilart Missions">Zilart Missions</a> are a short series of missions that can be completed with relative ease.  While these missions go all the way up to 18, players will unlock access to Sky after ZM-12.
+</p>
+<h4 id="era-Chains_of_Promathia">Chains of Promathia</h4>
+<p>Prepare yourself, for cutscenes!  Jokes aside, the <a href="chains-of-promathia.html" title="Chains of Promathia">Chains of Promathia</a> storyline and its missions, beginning with <a href="mission-cop-1-1.html" title="The Rites of Life">The Rites of Life</a>,  is arguably the longest in the game.  Coupled with their number and the fact that the majority of these missions include many cutscenes, level capped areas, and battles makes for a long road that requires patience.  Progressing through these missions grants players access to new areas and content including ENMs, Lumoria or Sea, Dreamlands Dynamis, and Limbus.  Upon completion of the main part of this storyline players will be rewarded with their choice of a ring from a set of three: Tamas Ring, <a href="rajas-ring.html" title="Rajas Ring">Rajas Ring</a>, and Sattva Ring.  These rings can be exchanged one time if the player changes their mind, instructions at the bottom of this section.  The complete list of missions can be found <a href="category-chains-of-promathia-missions.html" title="Category:Chains of Promathia Missions">here</a>.
+</p><p>Due to their higher degree of difficulty, these missions are typically best tackled by a static group of players.  That is why it is best to do one's research before approaching this content.  Players will be expected to bring food, medicines, and other consumables that increase the chance of success at winning these battles.  Some jobs are quite beneficial to have in this content due to their two hour abilities, SMN, RNG, and WAR.  Other jobs which give players a greater advantage include Blue Mage, because of headbutt stun, and Puppetmaster.  Both of these jobs came out after this content was released and thus some of their abilities are overpowered.
+</p>
+<h5 id="era-How_to_Exchange_CoP_Rings">How to Exchange CoP Rings</h5>
+<p>Per the guide for CoP Mission 8-4...
+</p>
+<ul><li>If a player discards their ring, they will be able to obtain one of the three rings again by revisiting the Marble Bridge in Upper Jeuno. If the ring is discarded a again, one must wait 27 real life days before you will be able to once again choose and obtain another ring.</li></ul>
+<h4 id="era-ToAU_Missions">ToAU Missions</h4>
+<p>Another relatively lengthy series of missions, there are 44 in total with some Japanese midnight waits in between missions.  This storyline and its battles can be quite enjoyable with some decent rewards at the end.  All players will begin these missions as part of their basic introduction to Aht Urhgan Whitegate from <a href="naja-salaheem.html" title="Naja Salaheem">Naja Salaheem</a> in Salaheem's Sentinels, the mercenary group.  Being level 75 is recommended for all missions in Aht Urhgan.
+</p>
+<h3 id="era-Endgame">Endgame</h3>
+<p>The era in which Eden is set possesses a plethora of content to enjoy, especially once it is all available.   All of it being released over several years and expansions as part of a horizontal progression system unlike modern MMORPGs a majority of it is all relevant at 75.  While gearing a specific job or character players will find themselves partaking in almost every bit of content in the game.
+</p>
+<h4 id="era-Dynamis"><a href="region-dynamis.html" title="Dynamis">Dynamis</a></h4>
+<p>Originally released with the first expansion, <a href="rise-of-the-zilart.html" title="Rise of the Zilart">Rise of the Zilart</a>, and further expanded upon in the second expansion, <a href="chains-of-promathia.html" title="Chains of Promathia">Chains of Promathia</a>, Dynamis is the quintessential large group raid content in FFXI.  Entry requires having achieved Nation Rank 6 as well as level 65 and visiting <a href="zone-xarcabard.html" title="Xarcabard">Xarcabard</a> for a cutscene.  After these requirements are met players can first venture into one of the three city Dynamis zones or <a href="zone-dynamis-jeuno.html" title="Dynamis - Jeuno">Dynamis-Jeuno</a> with any number of players up to 64 or three full alliances every 72 hours.  The main goal is to obtain full Outlands access which is first done by obtaining key items from the ???s that appear on the ground where zone bosses were felled in each of the four main zones.  This will unlock access to <a href="zone-dynamis-beaucedine.html" title="Dynamis - Beaucedine">Dynamis - Beaucedine</a> which then must be cleared to access <a href="zone-dynamis-xarcabard.html" title="Dynamis - Xarcabard">Dynamis - Xarcabard</a>.
+</p>
+<h5 id="era-Dreamland_Dynamis">Dreamland Dynamis</h5>
+<p>Released during the Chains of the Promathia expansion period, this content can only be accessed after progressing beyond CoP mission 3-5.  There are no other requirements for entering these zones aside from <a href="zone-dynamis-tavnazia.html" title="Dynamis - Tavnazia">Dynamis - Tavnazia</a> which requires clearing the other three Dreamlands zones.  Dreamlands Dynamis areas are noticeably more challenging than their original counterparts as some of the enemies are tougher along with subjob level restrictions at the beginning requiring clearing certain objectives.
+</p>
+<h4 id="era-HNMs">HNMs</h4>
+<p>High-level Notorious Monsters, a source of great controversy for the playerbase during this era of the game.  Several HNMs are camped daily by linkshells all competing for claims that are available roughly once per real life day or in some cases every several days.  A majority of these special NMs possess drops that are highly sought after by a number of players, but are by no means required to play the game.
+</p>
+<h4 id="era-Sky"><a href="sky.html" title="Sky">Sky</a></h4>
+<p>Accessed through completing Zilart mission 12, Tu'Lia or Sky as it is commonly referred to by players was one of the first major pieces of content in FFXI.  This region has three zones that are all part of an NM system utilizing pop items all obtained in these areas culminating in players fighting against the god Kirin.  Multiple pieces of equipment found in this content are a staple of 75 cap FFXI and are seen as a stepping stone into later content.
+</p>
+<h4 id="era-Sea"><a href="sea.html" title="Sea">Sea</a></h4>
+<p>After the long road that is the Chains of Promathia storyline, Lumoria or Sea, uses a similar NM popping system to Sky.  Drop rates on several items that are considerably lower compared to Sky and a lack of marketable drops makes Sea less popular with players.  However, Sea Torques and various other accessories are still highly sought after, so one may find themselves spending quite a lot of time here.
+</p>
+<h4 id="era-Limbus"><a href="region-limbus.html" title="Limbus">Limbus</a></h4>
+<p>Once players have access to the outside area of Sea they can speak to Sagheera in Port Jeuno to buy a Cosmo Cleanse also known as Soap, to participate in Limbus every 72 hours.  This content drops AF upgrade materials and ancient beastcoins used to redeem equipment and upgrade Artifact equipment along with other materials to their +1 versions.  If a zone is cleared and the chest opened players will receive one of the items used to challenge Omega or Ultima for a chance at some good equipment.
+</p>
+<h4 id="era-Assault_&amp;_Salvage"><span id="era-Assault_.26_Salvage"></span>Assault &amp; Salvage</h4>
+<h5 id="era-Assault"><a href="assault.html" title="Assault">Assault</a></h5>
+<p>Assault is party sized content found in Aht Urghan.  Players can first challenge this content after progressing to Aht Urghan mission three and being level 50.  Entry is permitted through the possession of an Assault tag, which is given once daily up to three in reserve on the NPC, or four if a player is in possession of the key item as well.  Before entering one player in the party must purchase an armband from an NPC inside the staging point for 50 imperial standing points.  This player will receive a 10% bonus to their assault points obtained from winning and exiting via the Rune of Release.  Attunement to an area's runic portal is required to do assaults there.  Only the first two tiers of Assaults are available on Eden at this time.
+</p>
+<h5 id="era-Nyzul_Isle_Investigation"><a href="nyzul-isle-investigation.html" title="Nyzul Isle Investigation">Nyzul Isle Investigation</a></h5>
+<p>Part of assault, Nyzul Isle uses the same assault tag as the other five assault areas.  This content consists of multiple floors, 1-100, that are somewhat randomized.  Players can climb through the floors while under a time limit and save progress every five levels.  Various monsters can be found on each floor, often varying by type, including Notorious Monsters that can drop ??? equipment that have a chance of being appraised into their original open world drops.  Every twenty floors players will encounter a floor boss that has a chance to drop some good equipment.
+</p>
+<h5 id="era-Salvage"><a href="salvage.html" title="Salvage">Salvage</a></h5>
+<p>Currently not implemented on Eden, Salvage is similar to Assault in some ways, but can be taken on by an alliance of players.  However, most players will do this content in small groups, usually one full party.  In order to participate in this content players must purchase a Salvage permit with 1500 assault points from one of the five Assault areas.
+</p><p>Upon entering one of the Salvage areas players will be placed with various restrictions that can be removed through the use of specific items found in these areas.  How this system works is explained in greater depth on the salvage page.  The rewards from Salvage are some of the most desired pieces of equipment in 75-cap FFXI and require a lot of work to obtain.
+</p>
+<h4 id="era-Einherjar"><a href="einherjar.html" title="Einherjar">Einherjar</a></h4>
+<p>Currently not implemented on Eden.
+</p>
+<h4 id="era-ZNM">ZNM</h4>
+<p>Currently not implemented on Eden.
+</p>
+<h2 id="era-Progressing_through_the_Game">Progressing through the Game</h2>
+<h3 id="era-Unlocking_Subjobs">Unlocking Subjobs</h3>
+<p>One of the first milestones in FFXI is unlocking the ability to set a <a href="subjob.html" title="Subjob">subjob</a>.  This can be done after reaching level 18 and completing either the quest <a href="elder-memories.html" title="Elder Memories">Elder Memories</a> started in Selbina or <a href="the-old-lady.html" title="The Old Lady">The Old Lady</a> which begins in Mhaura.  Once one of these quests is completed players will be able to visit a Moogle capable of changing the player's job who will now be able to change the player's subjob.
+</p>
+<h3 id="era-Advanced_Jobs">Advanced Jobs</h3>
+<p>Upon reaching level 30 players will be able to begin unlocking the advanced jobs.  Advanced jobs each have their own individual quests and some require completing multiple prerequisite quests in order to begin the quest which unlocks the job.  There are a few advanced jobs that are essentially must haves, especially by the time players reach level 75 and begin tackling endgame.  The best way to find information about unlocking a specific job is to open its page on this wiki.
+</p>
+<h3 id="era-Limit_Break">Limit Break</h3>
+<p>Beginning at level 50, players must visit Maat located in Ru'Lude Gardens every 5 levels to begin their first of several <a href="limit-break.html" title="Limit Break">Genkai</a> quests that will remove caps on their ability to earn experience and level.  This all culminates in challenging Maat to a fight and defeating him to unlock the ability to level from 70-75.  These quests only need to be completed once per character.
+</p>
+<h3 id="era-Getting_Around">Getting Around</h3>
+<p>There are various methods of traveling around the world of Vana'diel.  Acquiring these methods of transportation can take varying amounts of time, but are well worth the effort.
+</p>
+<h4 id="era-Outpost_Warps">Outpost Warps</h4>
+<p>Obtained by delivering supplies to the various regional outposts around Vana'diel.  Speak to any gate guard from your nation to inquire about delivering supplies to an outpost.  Supplies can be picked up once per game day, resetting at midnight. Players can only hold one set of supplies at a time.  Only outposts which are located in regions your nation controls through conquest are available for delivery.  After delivering supplies to an outpost it becomes available for teleportation in your home nation from one of these respective NPCs:
+</p>
+<ul><li>Bastok - Conrad located outside the Moghouse in Bastok Mines K-8.</li>
+<li>San d'Oria - Jeanvirgaud located outside the Moghouse in Northern San d'Oria L-10.</li>
+<li>Windurst - Rottata located outside the Moghouse in Port Windurst D-5.</li></ul>
+<p>Note: Warping from your home nation to an outpost is restricted by level and varies from one to another.  Players must be a minimum of level 10 to use outpost warps.  If a region is under beastman control, you will be unable to teleport back to your home nation from that outpost.
+</p>
+<h4 id="era-Teleportation">Teleportation</h4>
+<p>White Mage has access to several teleportation spells that can transport themselves and their party members near them to one of the gate crystals; <a href="holla-gate-crystal.html" title="Holla Gate Crystal">Holla</a>, <a href="dem-gate-crystal.html" title="Dem Gate Crystal">Dem</a>, <a href="mea-gate-crystal.html" title="Mea Gate Crystal">Mea</a>, <a href="yhoator-gate-crystal.html" title="Yhoator Gate Crystal">Yhoat</a>, <a href="altepa-gate-crystal.html" title="Altepa Gate Crystal">Altep</a>, and <a href="vahzl-gate-crystal.html" title="Vahzl Gate Crystal">Vahzl</a>.  In order for a player to be teleported to one of these locations they must first visit the location and examine the crystal to receive a permanent key item.
+</p>
+<h5 id="era-Warp_&amp;_Warp_II_(D2)"><span id="era-Warp_.26_Warp_II_.28D2.29"></span>Warp &amp; Warp II (D2)</h5>
+<p><a href="warp.html" title="Warp">Warp</a> is a Black Mage spell available at level 17 that can be cast on oneself to send a player back to their home point.  Alternatively, <a href="warp-ii.html" title="Warp II">Warp II</a> or D2 as it is more commonly called, is a level 40 Black Mage spell that can be cast on party members.
+</p>
+<h5 id="era-Escape">Escape</h5>
+<p><a href="escape.html" title="Escape">Escape</a> is another Black Mage spell this time available at level 29.  This spell can only be used in dungeons and will warp the player and any nearby party members out of a dungeon placing them near one of its entrances.
+</p>
+<h4 id="era-Mounts">Mounts</h4>
+<p>In this era the only available mounts were Chocobos, rented from NPCs in cities, Kazham, or any of the teleport locations exlcuding Vahzl.  Rideable by characters level 20 or above that have obtained a Chocobo License upon completion of the quest <a href="chocobos-wounds.html" title="Chocobo's Wounds">Chocobo's Wounds</a>.  This quest requires players to be level 20 and is located at the Chocobo Stables in Upper Jeuno.  Players were able to raise their own chocobos in this era, unfortunately, this content has yet to be implemented on any private server due to its complexity.
+</p><p><b>Note:</b>  This quest can take several game days or real life hours to complete (roughly 5 hours).
+</p>
+<h4 id="era-Airships_and_Boats/Ferries"><span id="era-Airships_and_Boats.2FFerries"></span>Airships and Boats/Ferries</h4>
+<p>There are several different Boats and Airships that players can ride for a 200 gil fee to travel from one destination to another.  They all run on a set schedule and take upwards of 15min. for each trip.
+</p>
+<h5 id="era-Selbina/Mhaura_Boat"><span id="era-Selbina.2FMhaura_Boat"></span>Selbina/Mhaura Boat</h5>
+<p>This boat travels back and forth between Selbina and Mhaura connecting the two main continents of Vana'diel.  More importantly this boat gives players from Windurst easier access to the Valkurm Dunes.  Accessible to players at any level who pay the fee.
+</p>
+<h5 id="era-Kazham-Jeuno_Airship"><a href="zone-kazham-jeuno-airship.html" title="Kazham-Jeuno Airship">Kazham-Jeuno Airship</a></h5>
+<p>Airship that flies from <a href="zone-port-jeuno.html" title="Port Jeuno">Port-Jeuno</a> to <a href="zone-kazham.html" title="Kazham">Kazham</a>.  This is the only way for players to initially access the areas found in <a href="elshimo-island.html" title="Elshimo Island">Elshimo</a>.  Players must obtain the Airship pass for Kazham key item to ride this airship.  This is obtained via the quest <a href="kazham-airship-pass.html" title="Kazham Airship Pass">Kazham Airship Pass</a> which requires three keys; a <a href="giddeus-chest-key.html" title="Giddeus Chest Key">Giddeus Chest Key</a>, a <a href="palborough-chest-key.html" title="Palborough Chest Key">Palborough Chest Key</a>, and a <a href="ghelsba-chest-key.html" title="Ghelsba Chest Key">Ghelsba Chest Key</a>.  Players can bypass this quest by paying a one time fee of 148,000 gil to the same NPC which gives the quest.
+</p>
+<h5 id="era-Jeuno_Airships">Jeuno Airships</h5>
+<p>The other three airships in Jeuno that are used to fly to the three nations.  Players must obtain an <a href="key-item-airship-pass.html" title="Airship pass">Airship pass</a> from reaching Rank 5 in their home nation.  Alternatively, players can purchase this key item from <a href="derrick.html" title="Derrick">Derrick</a> in <a href="zone-lower-jeuno.html" title="Lower Jeuno">Lower Jeuno</a> for a fee of 500,000 gil.
+</p>
+<h5 id="era-Boat_to_Aht_Urhgan">Boat to Aht Urhgan</h5>
+<p>Located in Mhaura this boat takes the player to Aht Urhgan Whitegate.  In order to ride this boat players must obtain a Boarding Permit from the quest <a href="road-to-aht-urhgan.html" title="The Road to Aht Urhgan">The Road to Aht Urhgan</a>.  Tenshodo membership is required to access the area where the quest NPC <a href="faursel.html" title="Faursel">Faursel</a> is located in Lower Jeuno.  He will give the player several options to complete the quest.
+</p>
+<h4 id="era-Runic_Portals"><a href="runic-portal.html" title="Runic Portal">Runic Portals</a></h4>
+<p>Teleportation in the Treasures of Aht Urhgan regions.  Accessible only after completing and attuning oneself with the respective runic portal located inside each staging point.  Visiting the Chamber of Passage in Aht Urhgan Whitegate and purchasing a Runic Portal Use Permit from Sharin-Garin with 200 Imperial Standing will allow the player to teleport to one of the staging points.  Possessing an Assault Order will only allow a player to teleport to the Staging Point for that order.  Either complete the assault or cancel the orders to allow normal passage through the runic portal.
+</p>
+<h4 id="era-Items">Items</h4>
+<p>There are various items that can be used for teleportation around Vana'diel obtained through various means.
+</p>
+<ul><li><a href="scroll-of-instant-warp.html" title="Scroll of Instant Warp">Scroll of Instant Warp</a> - Warps the player to their home point.  Purchased from gate guards for 750 conquest points.</li>
+<li><a href="item-17040-warp-cudgel.html" title="Warp Cudgel">Warp Cudgel</a> - Warps the player to their home point.  Crafted or purchased from the auction house.</li>
+<li><a href="return-ring.html" title="Return Ring">Return Ring</a> - Warps the player to the outpost for the region they're in, only if it's under their nations control and they already have done its supplies quest.  Purchased with 2,500 conquest points.   10 total charges.</li>
+<li><a href="homing-ring.html" title="Homing Ring">Homing Ring</a> - Warps the player to the outpost for the region they're in, only if it's under their nations control and they already have done its supplies quest.  Purchased with 9,000 conquest points.  30 total charges.</li>
+<li>Teleport Rings; <a href="holla-ring.html" title="Holla Ring">Holla Ring</a>, <a href="dem-ring.html" title="Dem Ring">Dem Ring</a>, <a href="mea-ring.html" title="Mea Ring">Mea Ring</a>, <a href="vahzl-ring.html" title="Vahzl Ring">Vahzl Ring</a>, <a href="yhoat-ring.html" title="Yhoat Ring">Yhoat Ring</a>, <a href="altep-ring.html" title="Altep Ring">Altep Ring</a> - Teleports the player.  All rings are level 65.</li>
+<li><a href="tavnazian-ring.html" title="Tavnazian Ring">Tavnazian Ring</a> - Teleports the player to the ground floor of Tavnazian Safehold.  Obtained by completing <a href="the-garden-of-antiquity.html" title="The Garden of Antiquity">CoP Mission 8-1</a>.</li>
+<li><a href="olduum-ring.html" title="Olduum Ring">Olduum Ring</a> - Teleports the player to the <a href="leypoint.html" title="Leypoint">Leypoint</a> in <a href="zone-wajaom-woodlands.html" title="Wajaom Woodlands">Wajaom Woodlands</a>.  Obtained from the quest <a href="olduum.html" title="Olduum">Olduum</a> started by talking to the NPC <a href="dkhaaya.html" title="Dkhaaya">Dkhaaya</a> at G-9 in Aht Urhgan Whitegate.</li>
+<li><a href="ducal-guard-s-ring.html" title="Ducal Guard's Ring">Ducal Guard's Ring</a> - Teleports the player to Ru'Lude Gardens, cannot be recharged.  Obtained after completing <a href="mission-cop-6-4.html" title="One to be Feared">CoP Mission 6-4</a>.</li>
+<li><a href="maat-s-cap.html" title="Maat's Cap">Maat's Cap</a> - Teleports the player to Maat's location in Ru'Lude Gardens.  Challenge and defeat Maat on all of the jobs other than Puppetmaster, Blue Mage, and Corsair.</li>
+<li><a href="treat-staff-ii.html" title="Treat Staff II">Treat Staff II</a> - Warps the player, useable once per 20 hours, unlimited charges.  Obtained via the Halloween Event.</li></ul>
+<h3 id="era-Leveling">Leveling</h3>
+<p>After the dunes the number of camps players will explore begins to increase.  This <a href="guide-to-exp-camps-by-falzum.html" title="Guide to EXP Camps by Falzum">guide</a> to EXP camps can be quite useful in finding places to earn experience.
+</p><p>For most jobs standard camps will apply.  Certain jobs such as Thief will find it harder to receive invites beyond level 20, which is why many Thieves choose to level in arrowburn parties in places such as Korroloka Tunnel.  Black Mages will spend much of their time in Qufim syncing from level 20 to 24.
+</p>
+<h2 id="era-3rd_Party_Add-Ons_&amp;_Plugins"><span id="era-3rd_Party_Add-Ons_.26_Plugins"></span>3rd Party Add-Ons &amp; Plugins</h2>
+<p>Both Ashita and Windower provide the ability for players to use add-ons &amp; plugins for FFXI.  Each program has its own set 3rd party tools, some share similar or the same capabilities, but there are others which do not.  These are not always cross compatible.  Eden's installer comes pre-packaged with many of the tools approved in the rules.  To see which 3rd party tools are allowed on Eden, please visit the Rules channel on the discord.
+</p>
+</div></div><p class="source-credit">Adapted from <a href="https://edenxi.miraheze.org/wiki/New_Player_Guide_by_Deuce">Eden Wiki: New Player Guide by Deuce</a> · <a href="https://edenxi.miraheze.org/wiki/New_Player_Guide_by_Deuce?action=history">Contributors and history</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Revision 42104. Layout, links and optional background text adapted for Zenith.</p></div><div class="category-footer"><strong>Category:</strong> Reference<span> · </span><a href="era-reference.html">Level 75 Reference</a></div></article><footer class="footer" id="shared-footer"></footer></main></div><noscript><p class="no-js">Search and filters need JavaScript. All articles remain available through the <a href="all-pages.html">page index</a>.</p></noscript></body></html>

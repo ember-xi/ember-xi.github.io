@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "scope": "Scholar level75-era reference and acquisition chains",
+  "authorship": "Original concise walkthroughs and factual tables; source references retained per article.",
+  "reviewed_base_revision": "f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4",
+  "articles": [
+    {
+      "title": "A Little Knowledge",
+      "category": "Quests",
+      "intro": "Any job level 30+; access to the past via <a href=\"wiki:Cavernous Maw\">Cavernous Maw</a>. Bring 12 <a href=\"wiki:Vellum\">Vellum</a>. Finish on BLM, RDM, SMN or BLU with its special ability ready.",
+      "body_html": "<h2>Before you start</h2><p>Any job level 30+; access to the past via <a href=\"wiki:Cavernous Maw\">Cavernous Maw</a>. Bring 12 <a href=\"wiki:Vellum\">Vellum</a>. Finish on BLM, RDM, SMN or BLU with its special ability ready.</p><h2>Steps</h2><ol><li>Talk to Erlene in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8, first map), reached from <a href=\"wiki:Batallia Downs (S)\">Batallia Downs (S)</a> (J-10). Accept the quest.</li><li>Trade Erlene all 12 sheets of Vellum. You can buy them from the Auction House or obtain them through <a href=\"wiki:Tucker\">Tucker</a>.</li><li>As BLM, RDM, SMN or BLU, activate Manafont, Chainspell, Astral Flow or Azure Lore respectively. Talk to Erlene while that effect is active.</li><li>Finish the scene, then change to Scholar at a Mog House. Next equipment quest: <a href=\"wiki:On Sabbatical\">On Sabbatical</a> at SCH 40.</li></ol><h2>Reward</h2><p>Unlocks <a href=\"wiki:Scholar\">Scholar</a>; Grimoire key item; Schultz Scholar title.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/A_Little_Knowledge",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/A_Little_Knowledge.lua"
+      ]
+    },
+    {
+      "title": "Tucker",
+      "category": "NPCs",
+      "intro": "Vellum exchange for the Scholar unlock quest.",
+      "body_html": "<p>Find Tucker in <a href=\"wiki:Crawlers&#x27; Nest (S)\">Crawlers&#x27; Nest (S)</a> (K-8).</p><ol><li>Start <a href=\"wiki:A Little Knowledge\">A Little Knowledge</a> with Erlene first, then speak to Tucker.</li><li>For the full unlock requirement, bring 144 <a href=\"wiki:Rolanberry\">Rolanberry</a> (12 stacks). Make three trades of 48 berries (four stacks) to receive four <a href=\"wiki:Vellum\">Vellum</a> each time.</li><li>Take the resulting 12 Vellum to Erlene.</li></ol><p>The reviewed Zenith base allows three exchanges, up to four Vellum each. Trading only one stack in each exchange will leave you short; use the full quantities above.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/A_Little_Knowledge",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/A_Little_Knowledge.lua"
+      ]
+    },
+    {
+      "title": "On Sabbatical",
+      "category": "Quests",
+      "intro": "Scholar level 40+; <a href=\"wiki:A Little Knowledge\">A Little Knowledge</a> complete.",
+      "body_html": "<h2>Before you start</h2><p>Scholar level 40+; <a href=\"wiki:A Little Knowledge\">A Little Knowledge</a> complete.</p><h2>Steps</h2><ol><li>Talk to Erlene in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8) on Scholar to receive Ulbrecht's Sealed Letter.</li><li>Speak to Gentle Tiger in <a href=\"wiki:Bastok Markets (S)\">Bastok Markets (S)</a> (H-6), by the Metalworks entrance. If another quest scene takes priority, talk again.</li><li>Check Indescript Markings on the northern edge of (E-11) in <a href=\"wiki:Pashhow Marshlands (S)\">Pashhow Marshlands (S)</a> for Schultz's Sealed Letter. Nearby Peistes detect by sight; approach carefully.</li><li>Return to Erlene for the scroll. For <a href=\"wiki:Downward Helix\">Downward Helix</a>, reach SCH 50 and wait until the next Vana'diel day.</li></ol><h2>Reward</h2><p><a href=\"wiki:Klimaform\">Klimaform</a> scroll, usable at SCH 46.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/On_Sabbatical",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/SCH_AF1_On_Sabbatical.lua"
+      ]
+    },
+    {
+      "title": "Downward Helix",
+      "category": "Quests",
+      "intro": "Scholar level 50+; <a href=\"wiki:On Sabbatical\">On Sabbatical</a> complete. Zone and wait for the next Vana'diel day.",
+      "body_html": "<h2>Before you start</h2><p>Scholar level 50+; <a href=\"wiki:On Sabbatical\">On Sabbatical</a> complete. Zone and wait for the next Vana'diel day.</p><h2>Steps</h2><ol><li>Speak to Erlene in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8) as Scholar.</li><li>Walk into <a href=\"wiki:Southern San d&#x27;Oria (S)\">Southern San d&#x27;Oria (S)</a> from <a href=\"wiki:East Ronfaure (S)\">East Ronfaure (S)</a> to trigger the scene. Teleporting directly into town does not replace this entrance.</li><li>Return to Erlene and speak to her.</li><li>Walk into <a href=\"wiki:Sauromugue Champaign (S)\">Sauromugue Champaign (S)</a> from <a href=\"wiki:Rolanberry Fields (S)\">Rolanberry Fields (S)</a> for the next scene.</li><li>Check Indescript Markings at the southeast edge of (J-7) for Ulbrecht's Mortarboard. If hidden by dusty weather, return when it clears.</li><li>Return to Erlene for your bracers. Visit <a href=\"wiki:Loussaire\">Loussaire</a> for feet, legs and body; <a href=\"wiki:Seeing Blood-red\">Seeing Blood-red</a> is the headpiece quest.</li></ol><h2>Reward</h2><p><a href=\"wiki:Scholar&#x27;s Bracers\">Scholar&#x27;s Bracers</a>; unlocks Loussaire's three armor commissions.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Downward_Helix",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/SCH_AF2_Downward_Helix.lua"
+      ]
+    },
+    {
+      "title": "Seeing Blood-red",
+      "category": "Quests",
+      "intro": "Scholar level 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; zone and wait for the next Vana'diel day.",
+      "body_html": "<h2>Before you start</h2><p>Scholar level 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; zone and wait for the next Vana'diel day.</p><h2>Steps</h2><ol><li>Speak to Erlene in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8) on Scholar.</li><li>Check Indescript Markings at <a href=\"wiki:Pashhow Marshlands (S)\">Pashhow Marshlands (S)</a> (E-11) for the Unaddressed Sealed Letter.</li><li>Return to Erlene for a scene. Read the letter in Temporary Key Items, then speak again for a Porting Magic Transcript.</li><li>Enter the cave opposite the waterfall on the (E-10)/(F-10) boundary in <a href=\"wiki:Grauberg (S)\">Grauberg (S)</a>. Check the sparkling light, then the Indescript Markings.</li><li>The party leader must have the active quest and entry key item. The retail battlefield in <a href=\"wiki:Ruhotz Silvermines\">Ruhotz Silvermines</a> allows up to six players and 30 minutes; you may fight on another job.</li><li>Fight Ulbrecht until he concedes at roughly 20% HP. Save defensive resources for his Tabula Rasa around half HP. Return to Erlene for the headpiece.</li><li>After a failed attempt, trade one <a href=\"wiki:Vellum\">Vellum</a> to Erlene for a replacement transcript.</li></ol><h2>Reward</h2><p><a href=\"wiki:Scholar&#x27;s Mortarboard\">Scholar&#x27;s Mortarboard</a>; Summa Cum Laude title.</p><h2>Zenith availability</h2><p>Retail walkthrough supplied for reference. The reviewed base revision does not contain a complete Seeing Blood-red / Ulbrecht instance handler. Completion and Trust entry on Zenith are not confirmed; do not spend retry materials until the encounter is verified.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Seeing_Blood-red",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Grauberg_[S]/npcs/Indescript_Markings.lua"
+      ]
+    },
+    {
+      "title": "Loussaire",
+      "category": "NPCs",
+      "intro": "Scholar AF commissions in Bastok Markets (S).",
+      "body_html": "<p>Location: <a href=\"wiki:Bastok Markets (S)\">Bastok Markets (S)</a> (G-10). Complete <a href=\"wiki:Downward Helix\">Downward Helix</a> and speak on SCH 50+. Choose one piece, collect its two key items, and return on Scholar with inventory space.</p><table><thead><tr><th>Piece</th><th>Required key items</th><th>Guide</th></tr></thead><tbody><tr><td><a href=\"wiki:Scholar&#x27;s Loafers\">Scholar&#x27;s Loafers</a></td><td>Rafflesia Dreamspit + Drogarogan Bonemeal</td><td><a href=\"wiki:Scholar&#x27;s Loafers Quest\">Scholar&#x27;s Loafers Quest</a></td></tr><tr><td><a href=\"wiki:Scholar&#x27;s Pants\">Scholar&#x27;s Pants</a></td><td>Slug Mucus + Djinn Ember</td><td><a href=\"wiki:Scholar&#x27;s Pants Quest\">Scholar&#x27;s Pants Quest</a></td></tr><tr><td><a href=\"wiki:Scholar&#x27;s Gown\">Scholar&#x27;s Gown</a></td><td>Peiste Dung + Sample of Grauberg Chert</td><td><a href=\"wiki:Scholar&#x27;s Gown Quest\">Scholar&#x27;s Gown Quest</a></td></tr></tbody></table><p>These are commissions rather than ordinary quest-log entries. Start the selected piece before searching for its markings. Historical retail guides require a zone change and a new game day between pieces; the reviewed Loussaire handler does not enforce that delay. Speak again after collection.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Loussaire",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Bastok_Markets_[S]/npcs/Loussaire.lua"
+      ]
+    },
+    {
+      "title": "Scholar's Loafers Quest",
+      "category": "Quests",
+      "intro": "SCH 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; choose Loafers from <a href=\"wiki:Loussaire\">Loussaire</a> in Bastok Markets (S) (G-10).",
+      "body_html": "<h2>Before you start</h2><p>SCH 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; choose Loafers from <a href=\"wiki:Loussaire\">Loussaire</a> in Bastok Markets (S) (G-10).</p><h2>Steps</h2><ol><li>In <a href=\"wiki:Fort Karugo-Narugo (S)\">Fort Karugo-Narugo (S)</a>, search outdoor map 1 for Indescript Markings at (I-9), (I-10), (H-8), (G-7), (H-5) or (G-5). Check the active spot for Rafflesia Dreamspit; it moves after collection.</li><li>In <a href=\"wiki:Meriphataud Mountains (S)\">Meriphataud Mountains (S)</a>, check the markings at southwest (E-7), on the south side of Drogaroga's Spine, for Drogarogan Bonemeal. Historical appearance window: 07:00–17:00 game time.</li><li>Return to Loussaire on Scholar with a free inventory slot. Checking these markings removes Sneak; renew protection before moving on.</li></ol><h2>Reward</h2><p><a href=\"wiki:Scholar&#x27;s Loafers\">Scholar&#x27;s Loafers</a> (SCH 54).</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Loafers_Quest",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Meriphataud_Mountains_[S]/npcs/Indescript_Markings.lua"
+      ]
+    },
+    {
+      "title": "Scholar's Pants Quest",
+      "category": "Quests",
+      "intro": "SCH 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; choose Pants from <a href=\"wiki:Loussaire\">Loussaire</a>.",
+      "body_html": "<h2>Before you start</h2><p>SCH 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; choose Pants from <a href=\"wiki:Loussaire\">Loussaire</a>.</p><h2>Steps</h2><ol><li>Find Indescript Markings among Slugs in <a href=\"wiki:Pashhow Marshlands (S)\">Pashhow Marshlands (S)</a> at (K-5), (J-6), (I-6), (I-7) or (G-6) for Slug Mucus. The active spot moves after collection.</li><li>Check the markings on the fire at <a href=\"wiki:Vunkerl Inlet (S)\">Vunkerl Inlet (S)</a> (D-11), near the Jugner Forest (S) entrance, for Djinn Ember. Historical guides recommend 16:00–06:00; weather-related reports conflict, so use a visible marker rather than assuming it must be absent.</li><li>Return to Loussaire on Scholar with inventory space. Markings remove Sneak; watch the surrounding Djinn.</li></ol><h2>Reward</h2><p><a href=\"wiki:Scholar&#x27;s Pants\">Scholar&#x27;s Pants</a> (SCH 56).</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Pants_Quest",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Vunkerl_Inlet_[S]/npcs/Indescript_Markings.lua"
+      ]
+    },
+    {
+      "title": "Scholar's Gown Quest",
+      "category": "Quests",
+      "intro": "SCH 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; choose Gown from <a href=\"wiki:Loussaire\">Loussaire</a>.",
+      "body_html": "<h2>Before you start</h2><p>SCH 50+; <a href=\"wiki:Downward Helix\">Downward Helix</a> complete; choose Gown from <a href=\"wiki:Loussaire\">Loussaire</a>.</p><h2>Steps</h2><ol><li>Search the Peiste area of <a href=\"wiki:Pashhow Marshlands (S)\">Pashhow Marshlands (S)</a> for Indescript Markings: (K-8), (K-9), (J-9), (K-10), (J-10), (I-10) or (H-10). Collect Peiste Dung; the active spot moves.</li><li>At the stone pillars in <a href=\"wiki:Grauberg (S)\">Grauberg (S)</a> (D-8), check Indescript Markings for a Sample of Grauberg Chert. Inspect around the pillars; the marker relocates after use.</li><li>Return to Loussaire on Scholar with a free slot. Checking a marker removes Sneak. Retail reports disagree about rain/wind restrictions; the reviewed collection handler does not test weather.</li></ol><h2>Reward</h2><p><a href=\"wiki:Scholar&#x27;s Gown\">Scholar&#x27;s Gown</a> (SCH 58).</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Gown_Quest",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Grauberg_[S]/npcs/Indescript_Markings.lua"
+      ]
+    },
+    {
+      "title": "Scholar's Mortarboard",
+      "category": "Equipment",
+      "intro": "Head · SCH level 60 · Artifact armor.",
+      "body_html": "<p>DEF 15; MP +15; INT +4; enhances Sublimation.</p><h2>How to obtain</h2><p>Complete <a href=\"wiki:Seeing Blood-red\">Seeing Blood-red</a>. Open the quest for prerequisites, locations and steps.</p><h2>Upgrade</h2><p><a href=\"wiki:Scholar&#x27;s Mortarboard +1\">Scholar&#x27;s Mortarboard +1</a> is wearable at SCH 74. See <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> for materials and the Sagheera hand-in.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Mortarboard",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Artifact/Relic_Sets_Comparison"
+      ]
+    },
+    {
+      "title": "Scholar's Mortarboard +1",
+      "category": "Equipment",
+      "intro": "Head · SCH level 74 · Artifact +1.",
+      "body_html": "<p>DEF 16; MP +20; INT +5; enhances Sublimation; Enmity -1.</p><h2>Materials</h2><ul><li><a href=\"wiki:Scholar&#x27;s Mortarboard\">Scholar&#x27;s Mortarboard</a></li><li><a href=\"wiki:Electrum Stud\">Electrum Stud</a> ×1</li><li><a href=\"wiki:Brilliantine\">Brilliantine</a> ×1</li><li><a href=\"wiki:Electrum Ingot\">Electrum Ingot</a> ×1</li><li><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a> ×20</li></ul><h2>How to obtain</h2><ol><li>Unlock <a href=\"wiki:Limbus\">Limbus</a> access by reaching <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> (CoP8-1 / Sea).</li><li>Deposit the required Ancient Beastcoins with <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8) first.</li><li>Trade the original armor, Electrum Stud, Brilliantine and crafted material together.</li><li>Return after the next Vana'diel midnight to collect the upgraded piece. Only one upgrade can be pending.</li></ol><p>Recipe and completion timer checked against Zenith's reviewed base revision. <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> lists the whole set.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Mortarboard_%2B1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Artifact_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Scholar's Gown",
+      "category": "Equipment",
+      "intro": "Body · SCH level 58 · Artifact armor.",
+      "body_html": "<p>DEF 38; MP +13; INT +1; MND +1; enhances Dark Arts.</p><h2>How to obtain</h2><p>Complete <a href=\"wiki:Scholar&#x27;s Gown Quest\">Scholar&#x27;s Gown Quest</a>. Open the quest for prerequisites, locations and steps.</p><h2>Upgrade</h2><p><a href=\"wiki:Scholar&#x27;s Gown +1\">Scholar&#x27;s Gown +1</a> is wearable at SCH 74. See <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> for materials and the Sagheera hand-in.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Gown",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Artifact/Relic_Sets_Comparison"
+      ]
+    },
+    {
+      "title": "Scholar's Gown +1",
+      "category": "Equipment",
+      "intro": "Body · SCH level 74 · Artifact +1.",
+      "body_html": "<p>DEF 39; MP +18; INT +3; MND +3; enhances Dark Arts; MP recovered while healing +5.</p><h2>Materials</h2><ul><li><a href=\"wiki:Scholar&#x27;s Gown\">Scholar&#x27;s Gown</a></li><li><a href=\"wiki:Electrum Stud\">Electrum Stud</a> ×1</li><li><a href=\"wiki:Brilliantine\">Brilliantine</a> ×1</li><li><a href=\"wiki:Lynx Leather\">Lynx Leather</a> ×1</li><li><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a> ×40</li></ul><h2>How to obtain</h2><ol><li>Unlock <a href=\"wiki:Limbus\">Limbus</a> access by reaching <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> (CoP8-1 / Sea).</li><li>Deposit the required Ancient Beastcoins with <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8) first.</li><li>Trade the original armor, Electrum Stud, Brilliantine and crafted material together.</li><li>Return after the next Vana'diel midnight to collect the upgraded piece. Only one upgrade can be pending.</li></ol><p>Recipe and completion timer checked against Zenith's reviewed base revision. <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> lists the whole set.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Gown_%2B1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Artifact_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Scholar's Bracers",
+      "category": "Equipment",
+      "intro": "Hands · SCH level 52 · Artifact armor.",
+      "body_html": "<p>DEF 13; MP +15; MND +3; spell interruption rate down 20%; Enmity -2.</p><h2>How to obtain</h2><p>Complete <a href=\"wiki:Downward Helix\">Downward Helix</a>. Open the quest for prerequisites, locations and steps.</p><h2>Upgrade</h2><p><a href=\"wiki:Scholar&#x27;s Bracers +1\">Scholar&#x27;s Bracers +1</a> is wearable at SCH 74. See <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> for materials and the Sagheera hand-in.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Bracers",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Artifact/Relic_Sets_Comparison"
+      ]
+    },
+    {
+      "title": "Scholar's Bracers +1",
+      "category": "Equipment",
+      "intro": "Hands · SCH level 74 · Artifact +1.",
+      "body_html": "<p>DEF 14; MP +20; MND +5; spell interruption rate down 20%; Enmity -3.</p><h2>Materials</h2><ul><li><a href=\"wiki:Scholar&#x27;s Bracers\">Scholar&#x27;s Bracers</a></li><li><a href=\"wiki:Electrum Stud\">Electrum Stud</a> ×1</li><li><a href=\"wiki:Brilliantine\">Brilliantine</a> ×1</li><li><a href=\"wiki:Lynx Leather\">Lynx Leather</a> ×1</li><li><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a> ×25</li></ul><h2>How to obtain</h2><ol><li>Unlock <a href=\"wiki:Limbus\">Limbus</a> access by reaching <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> (CoP8-1 / Sea).</li><li>Deposit the required Ancient Beastcoins with <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8) first.</li><li>Trade the original armor, Electrum Stud, Brilliantine and crafted material together.</li><li>Return after the next Vana'diel midnight to collect the upgraded piece. Only one upgrade can be pending.</li></ol><p>Recipe and completion timer checked against Zenith's reviewed base revision. <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> lists the whole set.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Bracers_%2B1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Artifact_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Scholar's Pants",
+      "category": "Equipment",
+      "intro": "Legs · SCH level 56 · Artifact armor.",
+      "body_html": "<p>DEF 27; MP +20; Enmity -1; enhances Light Arts.</p><h2>How to obtain</h2><p>Complete <a href=\"wiki:Scholar&#x27;s Pants Quest\">Scholar&#x27;s Pants Quest</a>. Open the quest for prerequisites, locations and steps.</p><h2>Upgrade</h2><p><a href=\"wiki:Scholar&#x27;s Pants +1\">Scholar&#x27;s Pants +1</a> is wearable at SCH 74. See <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> for materials and the Sagheera hand-in.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Pants",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Artifact/Relic_Sets_Comparison"
+      ]
+    },
+    {
+      "title": "Scholar's Pants +1",
+      "category": "Equipment",
+      "intro": "Legs · SCH level 74 · Artifact +1.",
+      "body_html": "<p>DEF 28; MP +25; VIT +3; MND +3; Enmity -2; enhances Light Arts.</p><h2>Materials</h2><ul><li><a href=\"wiki:Scholar&#x27;s Pants\">Scholar&#x27;s Pants</a></li><li><a href=\"wiki:Electrum Stud\">Electrum Stud</a> ×1</li><li><a href=\"wiki:Brilliantine\">Brilliantine</a> ×1</li><li><a href=\"wiki:Ether Leather\">Ether Leather</a> ×1</li><li><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a> ×25</li></ul><h2>How to obtain</h2><ol><li>Unlock <a href=\"wiki:Limbus\">Limbus</a> access by reaching <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> (CoP8-1 / Sea).</li><li>Deposit the required Ancient Beastcoins with <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8) first.</li><li>Trade the original armor, Electrum Stud, Brilliantine and crafted material together.</li><li>Return after the next Vana'diel midnight to collect the upgraded piece. Only one upgrade can be pending.</li></ol><p>Recipe and completion timer checked against Zenith's reviewed base revision. <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> lists the whole set.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Pants_%2B1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Artifact_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Scholar's Loafers",
+      "category": "Equipment",
+      "intro": "Feet · SCH level 54 · Artifact armor.",
+      "body_html": "<p>DEF 10; MP +15; Enmity -2; Grimoire reduces spellcasting time.</p><h2>How to obtain</h2><p>Complete <a href=\"wiki:Scholar&#x27;s Loafers Quest\">Scholar&#x27;s Loafers Quest</a>. Open the quest for prerequisites, locations and steps.</p><h2>Upgrade</h2><p><a href=\"wiki:Scholar&#x27;s Loafers +1\">Scholar&#x27;s Loafers +1</a> is wearable at SCH 74. See <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> for materials and the Sagheera hand-in.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Loafers",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Artifact/Relic_Sets_Comparison"
+      ]
+    },
+    {
+      "title": "Scholar's Loafers +1",
+      "category": "Equipment",
+      "intro": "Feet · SCH level 74 · Artifact +1.",
+      "body_html": "<p>DEF 11; MP +20; AGI +3; INT +3; Enmity -2; Grimoire reduces spellcasting time.</p><h2>Materials</h2><ul><li><a href=\"wiki:Scholar&#x27;s Loafers\">Scholar&#x27;s Loafers</a></li><li><a href=\"wiki:Electrum Stud\">Electrum Stud</a> ×1</li><li><a href=\"wiki:Brilliantine\">Brilliantine</a> ×1</li><li><a href=\"wiki:Karakul Cloth\">Karakul Cloth</a> ×1</li><li><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a> ×25</li></ul><h2>How to obtain</h2><ol><li>Unlock <a href=\"wiki:Limbus\">Limbus</a> access by reaching <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> (CoP8-1 / Sea).</li><li>Deposit the required Ancient Beastcoins with <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8) first.</li><li>Trade the original armor, Electrum Stud, Brilliantine and crafted material together.</li><li>Return after the next Vana'diel midnight to collect the upgraded piece. Only one upgrade can be pending.</li></ol><p>Recipe and completion timer checked against Zenith's reviewed base revision. <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> lists the whole set.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Loafers_%2B1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Artifact_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Scholar's Attire Set",
+      "category": "Equipment",
+      "intro": "Scholar artifact armor, levels 52–60; first quest rewards a spell instead of a weapon.",
+      "body_html": "<table><thead><tr><th>Level</th><th>Piece</th><th>How to obtain</th></tr></thead><tbody><tr><td>46</td><td><a href=\"wiki:Klimaform\">Klimaform</a></td><td><a href=\"wiki:On Sabbatical\">On Sabbatical</a></td></tr><tr><td>52</td><td><a href=\"wiki:Scholar&#x27;s Bracers\">Scholar&#x27;s Bracers</a></td><td><a href=\"wiki:Downward Helix\">Downward Helix</a></td></tr><tr><td>54</td><td><a href=\"wiki:Scholar&#x27;s Loafers\">Scholar&#x27;s Loafers</a></td><td><a href=\"wiki:Scholar&#x27;s Loafers Quest\">Scholar&#x27;s Loafers Quest</a></td></tr><tr><td>56</td><td><a href=\"wiki:Scholar&#x27;s Pants\">Scholar&#x27;s Pants</a></td><td><a href=\"wiki:Scholar&#x27;s Pants Quest\">Scholar&#x27;s Pants Quest</a></td></tr><tr><td>58</td><td><a href=\"wiki:Scholar&#x27;s Gown\">Scholar&#x27;s Gown</a></td><td><a href=\"wiki:Scholar&#x27;s Gown Quest\">Scholar&#x27;s Gown Quest</a></td></tr><tr><td>60</td><td><a href=\"wiki:Scholar&#x27;s Mortarboard\">Scholar&#x27;s Mortarboard</a></td><td><a href=\"wiki:Seeing Blood-red\">Seeing Blood-red</a></td></tr></tbody></table><p>Scholar has no AF coffer pieces. The three Loussaire pieces use key-item collection commissions. <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> covers all level 74 upgrades.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Category:Artifact_Armor",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Attire_Set"
+      ]
+    },
+    {
+      "title": "Scholar Artifact Upgrades",
+      "category": "Equipment",
+      "intro": "Complete recipes for Scholar artifact armor +1.",
+      "body_html": "<p>Unlock Sea / <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> and speak to <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8). Every piece requires the original armor, one <a href=\"wiki:Electrum Stud\">Electrum Stud</a> from <a href=\"wiki:Apollyon\">Apollyon</a>, and one <a href=\"wiki:Brilliantine\">Brilliantine</a> from <a href=\"wiki:Temenos\">Temenos</a>.</p><table><thead><tr><th>Upgrade (SCH 74)</th><th>Ancient Beastcoins</th><th>Additional material</th></tr></thead><tbody><tr><td><a href=\"wiki:Scholar&#x27;s Mortarboard +1\">Scholar&#x27;s Mortarboard +1</a></td><td>20</td><td><a href=\"wiki:Electrum Ingot\">Electrum Ingot</a> ×1</td></tr><tr><td><a href=\"wiki:Scholar&#x27;s Gown +1\">Scholar&#x27;s Gown +1</a></td><td>40</td><td><a href=\"wiki:Lynx Leather\">Lynx Leather</a> ×1</td></tr><tr><td><a href=\"wiki:Scholar&#x27;s Bracers +1\">Scholar&#x27;s Bracers +1</a></td><td>25</td><td><a href=\"wiki:Lynx Leather\">Lynx Leather</a> ×1</td></tr><tr><td><a href=\"wiki:Scholar&#x27;s Pants +1\">Scholar&#x27;s Pants +1</a></td><td>25</td><td><a href=\"wiki:Ether Leather\">Ether Leather</a> ×1</td></tr><tr><td><a href=\"wiki:Scholar&#x27;s Loafers +1\">Scholar&#x27;s Loafers +1</a></td><td>25</td><td><a href=\"wiki:Karakul Cloth\">Karakul Cloth</a> ×1</td></tr></tbody></table><ol><li>Collect the two Limbus materials and the crafted item. The crafted material can be purchased from the Auction House.</li><li>Deposit the listed Ancient Beastcoins with Sagheera separately. Then trade the four recipe items together.</li><li>Wait until the next Vana'diel midnight and speak to Sagheera to collect. Finish the current order before starting another.</li></ol><p>The listed costs follow the reviewed Zenith base: Mortarboard 20, Gown 40, and 25 for each other slot. This avoids conflicting retail-wiki tables.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://horizonffxi.wiki/Artifact_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Scholar's Attire +1 Set",
+      "category": "Equipment",
+      "intro": "All five Scholar artifact upgrades require level 74.",
+      "body_html": "<table><thead><tr><th>Slot</th><th>Piece</th><th>Materials</th></tr></thead><tbody><tr><td>Head</td><td><a href=\"wiki:Scholar&#x27;s Mortarboard +1\">Scholar&#x27;s Mortarboard +1</a></td><td><a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a></td></tr><tr><td>Body</td><td><a href=\"wiki:Scholar&#x27;s Gown +1\">Scholar&#x27;s Gown +1</a></td><td><a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a></td></tr><tr><td>Hands</td><td><a href=\"wiki:Scholar&#x27;s Bracers +1\">Scholar&#x27;s Bracers +1</a></td><td><a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a></td></tr><tr><td>Legs</td><td><a href=\"wiki:Scholar&#x27;s Pants +1\">Scholar&#x27;s Pants +1</a></td><td><a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a></td></tr><tr><td>Feet</td><td><a href=\"wiki:Scholar&#x27;s Loafers +1\">Scholar&#x27;s Loafers +1</a></td><td><a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a></td></tr></tbody></table>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar%27s_Attire_%2B1_Set"
+      ]
+    },
+    {
+      "title": "Argute Mortarboard",
+      "category": "Equipment",
+      "intro": "Head · SCH level 75 · Relic armor.",
+      "body_html": "<p>DEF 16; HP +10; MP +10; MND +5; Elemental Magic skill +7; Grimoire reduces spellcasting time.</p><h2>How to obtain</h2><p>Obtain the base piece from <a href=\"wiki:Dynamis - Xarcabard\">Dynamis - Xarcabard</a> or <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Follow <a href=\"wiki:Dynamis\">Dynamis</a> for entry requirements and the zone guide for enemy routes. Drops are not guaranteed.</p><h2>Upgrade</h2><p>Trade the base piece, <a href=\"wiki:Argute Mortarboard -1\">Argute Mortarboard -1</a>, <a href=\"wiki:Platinum Ingot\">Platinum Ingot</a> and 28 <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> to <a href=\"wiki:Sagheera\">Sagheera</a> for <a href=\"wiki:Argute Mortarboard +1\">Argute Mortarboard +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Mortarboard",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Attire_Set",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Mortarboard -1",
+      "category": "Items",
+      "intro": "Damaged Scholar relic armor; cannot be equipped.",
+      "body_html": "<p>Farm Nightmare enemies in <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a>. Use this damaged piece together with <a href=\"wiki:Argute Mortarboard\">Argute Mortarboard</a>, <a href=\"wiki:Platinum Ingot\">Platinum Ingot</a> ×1 and <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28 to make <a href=\"wiki:Argute Mortarboard +1\">Argute Mortarboard +1</a> at <a href=\"wiki:Sagheera\">Sagheera</a>.</p><p>See <a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a> for the hand-in order and all five recipes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Mortarboard_-1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Relic_Armor_-1",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Mortarboard +1",
+      "category": "Equipment",
+      "intro": "Head · SCH level 75 · Relic +1.",
+      "body_html": "<p>DEF 17; HP +12; MP +12; MND +6; Elemental Magic skill +7; Grimoire reduces spellcasting time.</p><h2>Materials</h2><ul><li><a href=\"wiki:Argute Mortarboard\">Argute Mortarboard</a></li><li><a href=\"wiki:Argute Mortarboard -1\">Argute Mortarboard -1</a> from <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a></li><li><a href=\"wiki:Platinum Ingot\">Platinum Ingot</a> ×1</li><li><a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28</li></ul><h2>How to obtain</h2><ol><li>Reach Sea / <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> to use <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8).</li><li>Trade the base armor, damaged -1 armor, crafted material and 28 One Byne Bills together.</li><li>Wait until the next Vana'diel midnight, then return for the +1 armor. Only one Sagheera upgrade may be pending.</li></ol>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Mortarboard_%2B1",
+        "https://www.bg-wiki.com/ffxi/Argute_Mortarboard_%2B1"
+      ]
+    },
+    {
+      "title": "Argute Gown",
+      "category": "Equipment",
+      "intro": "Body · SCH level 74 · Relic armor.",
+      "body_html": "<p>DEF 38; HP +15; MP +15; Enhancing Magic skill +7; Magic Defense Bonus +5; enhances Sublimation.</p><h2>How to obtain</h2><p>Obtain the base piece from <a href=\"wiki:Dynamis - Beaucedine\">Dynamis - Beaucedine</a> or <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Follow <a href=\"wiki:Dynamis\">Dynamis</a> for entry requirements and the zone guide for enemy routes. Drops are not guaranteed.</p><h2>Upgrade</h2><p>Trade the base piece, <a href=\"wiki:Argute Gown -1\">Argute Gown -1</a>, <a href=\"wiki:Scarlet Linen\">Scarlet Linen</a> and 28 <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> to <a href=\"wiki:Sagheera\">Sagheera</a> for <a href=\"wiki:Argute Gown +1\">Argute Gown +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Gown",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Attire_Set",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Gown -1",
+      "category": "Items",
+      "intro": "Damaged Scholar relic armor; cannot be equipped.",
+      "body_html": "<p>Farm Nightmare enemies in <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Use this damaged piece together with <a href=\"wiki:Argute Gown\">Argute Gown</a>, <a href=\"wiki:Scarlet Linen\">Scarlet Linen</a> ×1 and <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28 to make <a href=\"wiki:Argute Gown +1\">Argute Gown +1</a> at <a href=\"wiki:Sagheera\">Sagheera</a>.</p><p>See <a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a> for the hand-in order and all five recipes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Gown_-1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Relic_Armor_-1",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Gown +1",
+      "category": "Equipment",
+      "intro": "Body · SCH level 75 · Relic +1.",
+      "body_html": "<p>DEF 39; HP +17; MP +17; Enhancing Magic skill +7; Magic Defense Bonus +6; enhances Sublimation.</p><h2>Materials</h2><ul><li><a href=\"wiki:Argute Gown\">Argute Gown</a></li><li><a href=\"wiki:Argute Gown -1\">Argute Gown -1</a> from <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></li><li><a href=\"wiki:Scarlet Linen\">Scarlet Linen</a> ×1</li><li><a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28</li></ul><h2>How to obtain</h2><ol><li>Reach Sea / <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> to use <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8).</li><li>Trade the base armor, damaged -1 armor, crafted material and 28 One Byne Bills together.</li><li>Wait until the next Vana'diel midnight, then return for the +1 armor. Only one Sagheera upgrade may be pending.</li></ol>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Gown_%2B1",
+        "https://www.bg-wiki.com/ffxi/Argute_Gown_%2B1"
+      ]
+    },
+    {
+      "title": "Argute Bracers",
+      "category": "Equipment",
+      "intro": "Hands · SCH level 71 · Relic armor.",
+      "body_html": "<p>DEF 14; MP +20; INT +3; MND +3; Enfeebling Magic skill +7; Enmity -2.</p><h2>How to obtain</h2><p>Obtain the base piece from <a href=\"wiki:Dynamis - San d&#x27;Oria\">Dynamis - San d&#x27;Oria</a> or <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a>. Follow <a href=\"wiki:Dynamis\">Dynamis</a> for entry requirements and the zone guide for enemy routes. Drops are not guaranteed.</p><h2>Upgrade</h2><p>Trade the base piece, <a href=\"wiki:Argute Bracers -1\">Argute Bracers -1</a>, <a href=\"wiki:Lynx Leather\">Lynx Leather</a> and 28 <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> to <a href=\"wiki:Sagheera\">Sagheera</a> for <a href=\"wiki:Argute Bracers +1\">Argute Bracers +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Bracers",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Attire_Set",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Bracers -1",
+      "category": "Items",
+      "intro": "Damaged Scholar relic armor; cannot be equipped.",
+      "body_html": "<p>Farm Nightmare enemies in <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a>. Use this damaged piece together with <a href=\"wiki:Argute Bracers\">Argute Bracers</a>, <a href=\"wiki:Lynx Leather\">Lynx Leather</a> ×1 and <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28 to make <a href=\"wiki:Argute Bracers +1\">Argute Bracers +1</a> at <a href=\"wiki:Sagheera\">Sagheera</a>.</p><p>See <a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a> for the hand-in order and all five recipes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Bracers_-1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Relic_Armor_-1",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Bracers +1",
+      "category": "Equipment",
+      "intro": "Hands · SCH level 75 · Relic +1.",
+      "body_html": "<p>DEF 15; MP +20; INT +4; MND +4; Enfeebling Magic skill +7; Enmity -3.</p><h2>Materials</h2><ul><li><a href=\"wiki:Argute Bracers\">Argute Bracers</a></li><li><a href=\"wiki:Argute Bracers -1\">Argute Bracers -1</a> from <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a></li><li><a href=\"wiki:Lynx Leather\">Lynx Leather</a> ×1</li><li><a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28</li></ul><h2>How to obtain</h2><ol><li>Reach Sea / <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> to use <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8).</li><li>Trade the base armor, damaged -1 armor, crafted material and 28 One Byne Bills together.</li><li>Wait until the next Vana'diel midnight, then return for the +1 armor. Only one Sagheera upgrade may be pending.</li></ol>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Bracers_%2B1",
+        "https://www.bg-wiki.com/ffxi/Argute_Bracers_%2B1"
+      ]
+    },
+    {
+      "title": "Argute Pants",
+      "category": "Equipment",
+      "intro": "Legs · SCH level 73 · Relic armor.",
+      "body_html": "<p>DEF 27; HP +15; MP +15; INT +5; Dark Magic skill +7; Enmity -2.</p><h2>How to obtain</h2><p>Obtain the base piece from <a href=\"wiki:Dynamis - Bastok\">Dynamis - Bastok</a> or <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a>. Follow <a href=\"wiki:Dynamis\">Dynamis</a> for entry requirements and the zone guide for enemy routes. Drops are not guaranteed.</p><h2>Upgrade</h2><p>Trade the base piece, <a href=\"wiki:Argute Pants -1\">Argute Pants -1</a>, <a href=\"wiki:Ether Leather\">Ether Leather</a> and 28 <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> to <a href=\"wiki:Sagheera\">Sagheera</a> for <a href=\"wiki:Argute Pants +1\">Argute Pants +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Pants",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Attire_Set",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Pants -1",
+      "category": "Items",
+      "intro": "Damaged Scholar relic armor; cannot be equipped.",
+      "body_html": "<p>Farm Nightmare enemies in <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Use this damaged piece together with <a href=\"wiki:Argute Pants\">Argute Pants</a>, <a href=\"wiki:Ether Leather\">Ether Leather</a> ×1 and <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28 to make <a href=\"wiki:Argute Pants +1\">Argute Pants +1</a> at <a href=\"wiki:Sagheera\">Sagheera</a>.</p><p>See <a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a> for the hand-in order and all five recipes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Pants_-1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Relic_Armor_-1",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Pants +1",
+      "category": "Equipment",
+      "intro": "Legs · SCH level 75 · Relic +1.",
+      "body_html": "<p>DEF 28; HP +17; MP +17; INT +6; Dark Magic skill +7; Enmity -3.</p><h2>Materials</h2><ul><li><a href=\"wiki:Argute Pants\">Argute Pants</a></li><li><a href=\"wiki:Argute Pants -1\">Argute Pants -1</a> from <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></li><li><a href=\"wiki:Ether Leather\">Ether Leather</a> ×1</li><li><a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28</li></ul><h2>How to obtain</h2><ol><li>Reach Sea / <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> to use <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8).</li><li>Trade the base armor, damaged -1 armor, crafted material and 28 One Byne Bills together.</li><li>Wait until the next Vana'diel midnight, then return for the +1 armor. Only one Sagheera upgrade may be pending.</li></ol>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Pants_%2B1",
+        "https://www.bg-wiki.com/ffxi/Argute_Pants_%2B1"
+      ]
+    },
+    {
+      "title": "Argute Loafers",
+      "category": "Equipment",
+      "intro": "Feet · SCH level 72 · Relic armor.",
+      "body_html": "<p>DEF 13; MP +20; Healing Magic skill +7; weather enhances Celerity and Alacrity.</p><h2>How to obtain</h2><p>Obtain the base piece from <a href=\"wiki:Dynamis - Windurst\">Dynamis - Windurst</a> or <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a>. Follow <a href=\"wiki:Dynamis\">Dynamis</a> for entry requirements and the zone guide for enemy routes. Drops are not guaranteed.</p><h2>Upgrade</h2><p>Trade the base piece, <a href=\"wiki:Argute Loafers -1\">Argute Loafers -1</a>, <a href=\"wiki:Incombustible Wool\">Incombustible Wool</a> and 28 <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> to <a href=\"wiki:Sagheera\">Sagheera</a> for <a href=\"wiki:Argute Loafers +1\">Argute Loafers +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Loafers",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Attire_Set",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Loafers -1",
+      "category": "Items",
+      "intro": "Damaged Scholar relic armor; cannot be equipped.",
+      "body_html": "<p>Farm Nightmare enemies in <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a>. Use this damaged piece together with <a href=\"wiki:Argute Loafers\">Argute Loafers</a>, <a href=\"wiki:Incombustible Wool\">Incombustible Wool</a> ×1 and <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28 to make <a href=\"wiki:Argute Loafers +1\">Argute Loafers +1</a> at <a href=\"wiki:Sagheera\">Sagheera</a>.</p><p>See <a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a> for the hand-in order and all five recipes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Loafers_-1",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Relic_Armor_-1",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Argute Loafers +1",
+      "category": "Equipment",
+      "intro": "Feet · SCH level 75 · Relic +1.",
+      "body_html": "<p>DEF 14; MP +25; Healing Magic skill +9; weather enhances Celerity and Alacrity.</p><h2>Materials</h2><ul><li><a href=\"wiki:Argute Loafers\">Argute Loafers</a></li><li><a href=\"wiki:Argute Loafers -1\">Argute Loafers -1</a> from <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a></li><li><a href=\"wiki:Incombustible Wool\">Incombustible Wool</a> ×1</li><li><a href=\"wiki:1 Byne Bill\">1 Byne Bill</a> ×28</li></ul><h2>How to obtain</h2><ol><li>Reach Sea / <a href=\"wiki:The Garden of Antiquity\">Garden of Antiquity</a> to use <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8).</li><li>Trade the base armor, damaged -1 armor, crafted material and 28 One Byne Bills together.</li><li>Wait until the next Vana'diel midnight, then return for the +1 armor. Only one Sagheera upgrade may be pending.</li></ol>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Loafers_%2B1",
+        "https://www.bg-wiki.com/ffxi/Argute_Loafers_%2B1"
+      ]
+    },
+    {
+      "title": "Argute Attire Set",
+      "category": "Equipment",
+      "intro": "Scholar relic armor from Dynamis; levels 71–75.",
+      "body_html": "<table><thead><tr><th>Level</th><th>Piece</th><th>Base drop areas</th></tr></thead><tbody><tr><td>71</td><td><a href=\"wiki:Argute Bracers\">Argute Bracers</a></td><td><a href=\"wiki:Dynamis - San d&#x27;Oria\">Dynamis - San d&#x27;Oria</a> / <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a></td></tr><tr><td>72</td><td><a href=\"wiki:Argute Loafers\">Argute Loafers</a></td><td><a href=\"wiki:Dynamis - Windurst\">Dynamis - Windurst</a> / <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a></td></tr><tr><td>73</td><td><a href=\"wiki:Argute Pants\">Argute Pants</a></td><td><a href=\"wiki:Dynamis - Bastok\">Dynamis - Bastok</a> / <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a></td></tr><tr><td>74</td><td><a href=\"wiki:Argute Gown\">Argute Gown</a></td><td><a href=\"wiki:Dynamis - Beaucedine\">Dynamis - Beaucedine</a> / <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td></tr><tr><td>75</td><td><a href=\"wiki:Argute Mortarboard\">Argute Mortarboard</a></td><td><a href=\"wiki:Dynamis - Xarcabard\">Dynamis - Xarcabard</a> / <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td></tr></tbody></table><p>Related accessory: <a href=\"wiki:Argute Belt\">Argute Belt</a> at level 70. <a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a> explains the +1 versions.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Attire_Set",
+        "https://horizonffxi.wiki/Category%3ARelic_Armor"
+      ]
+    },
+    {
+      "title": "Scholar Relic Upgrades",
+      "category": "Equipment",
+      "intro": "Recipes for all five level 75 Argute +1 pieces.",
+      "body_html": "<p>Each recipe uses its matching base Argute armor, the matching damaged -1 piece, one crafted material, and 28 <a href=\"wiki:1 Byne Bill\">1 Byne Bill</a>. Trade all items together to <a href=\"wiki:Sagheera\">Sagheera</a> in Port Jeuno (I-8), after unlocking Sea. Collect after the next Vana'diel midnight.</p><table><thead><tr><th>Upgrade</th><th>Damaged piece area</th><th>Crafted material</th></tr></thead><tbody><tr><td><a href=\"wiki:Argute Mortarboard +1\">Argute Mortarboard +1</a></td><td><a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a></td><td><a href=\"wiki:Platinum Ingot\">Platinum Ingot</a></td></tr><tr><td><a href=\"wiki:Argute Gown +1\">Argute Gown +1</a></td><td><a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td><td><a href=\"wiki:Scarlet Linen\">Scarlet Linen</a></td></tr><tr><td><a href=\"wiki:Argute Bracers +1\">Argute Bracers +1</a></td><td><a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a></td><td><a href=\"wiki:Lynx Leather\">Lynx Leather</a></td></tr><tr><td><a href=\"wiki:Argute Pants +1\">Argute Pants +1</a></td><td><a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td><td><a href=\"wiki:Ether Leather\">Ether Leather</a></td></tr><tr><td><a href=\"wiki:Argute Loafers +1\">Argute Loafers +1</a></td><td><a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a></td><td><a href=\"wiki:Incombustible Wool\">Incombustible Wool</a></td></tr></tbody></table><p>Damaged -1 pieces come from Nightmare enemies in Dreamland Dynamis. They are materials, not wearable armor. <a href=\"wiki:Argute Attire Set\">Argute Attire Set</a> lists where the original armor drops.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Relic_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Argute Attire +1 Set",
+      "category": "Equipment",
+      "intro": "All Scholar relic +1 pieces are wearable at level 75.",
+      "body_html": "<table><thead><tr><th>Slot</th><th>Piece</th><th>Recipe</th></tr></thead><tbody><tr><td>Head</td><td><a href=\"wiki:Argute Mortarboard +1\">Argute Mortarboard +1</a></td><td><a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a></td></tr><tr><td>Body</td><td><a href=\"wiki:Argute Gown +1\">Argute Gown +1</a></td><td><a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a></td></tr><tr><td>Hands</td><td><a href=\"wiki:Argute Bracers +1\">Argute Bracers +1</a></td><td><a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a></td></tr><tr><td>Legs</td><td><a href=\"wiki:Argute Pants +1\">Argute Pants +1</a></td><td><a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a></td></tr><tr><td>Feet</td><td><a href=\"wiki:Argute Loafers +1\">Argute Loafers +1</a></td><td><a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a></td></tr></tbody></table>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Attire_%2B1_Set"
+      ]
+    },
+    {
+      "title": "Argute Belt",
+      "category": "Equipment",
+      "intro": "Waist · SCH level 70 · Dynamis accessory.",
+      "body_html": "<p>DEF6; MP+20; INT+5; MND+5; Magic Accuracy+2; Magic Defense Bonus+2.</p><h2>How to obtain</h2><p>Drops from Nightmare enemies in <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a>. See the area guide for entry and farming routes. There is no matching belt recipe in Sagheera's level 75 relic+1 set.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Argute_Belt",
+        "https://www.ffxiah.com/item/15925/argute-belt",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Electrum Stud",
+      "category": "Items",
+      "intro": "Apollyon material used for every Scholar artifact+1 piece.",
+      "body_html": "<p>Obtain from <a href=\"wiki:Apollyon\">Apollyon</a> item chests. One documented route is <a href=\"wiki:NE Apollyon\">NE Apollyon</a> floor 1; it is a possible drop, not guaranteed. <a href=\"wiki:NW Apollyon\">NW Apollyon</a> and <a href=\"wiki:SE Apollyon\">SE Apollyon</a> also have Scholar material pools.</p><p>Each <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> recipe needs one Electrum Stud plus one <a href=\"wiki:Brilliantine\">Brilliantine</a>. These exclusive materials are earned in Limbus rather than bought on the Auction House.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Electrum_Stud",
+        "https://horizonffxi.wiki/NE_Apollyon",
+        "https://horizonffxi.wiki/NW_Apollyon",
+        "https://horizonffxi.wiki/SE_Apollyon"
+      ]
+    },
+    {
+      "title": "Brilliantine",
+      "category": "Items",
+      "intro": "Temenos material used for every Scholar artifact+1 piece.",
+      "body_html": "<p>Farm item chests in <a href=\"wiki:Temenos\">Temenos</a>. <a href=\"wiki:Temenos - Western Tower\">Temenos - Western Tower</a> has Scholar material opportunities on floors3 and 5; drops are not guaranteed.</p><p>Bring one Brilliantine and one <a href=\"wiki:Electrum Stud\">Electrum Stud</a> per piece to <a href=\"wiki:Sagheera\">Sagheera</a> with the original armor, crafted material and deposited coins shown in <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Brilliantine",
+        "https://horizonffxi.wiki/Temenos_-_Western_Tower",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Scholar Stratagems",
+      "category": "Job Abilities",
+      "intro": "Select an Art, then use the matching stratagem before casting.",
+      "body_html": "<table><thead><tr><th>Level</th><th>Light Arts</th><th>Dark Arts</th><th>Use</th></tr></thead><tbody><tr><td>10</td><td><a href=\"wiki:Penury\">Penury</a></td><td><a href=\"wiki:Parsimony\">Parsimony</a></td><td>Halves the next matching spell's MP cost.</td></tr><tr><td>10</td><td><a href=\"wiki:Addendum: White\">Addendum: White</a></td><td>—</td><td>Enables additional white spells while Light Arts remains active.</td></tr><tr><td>25</td><td><a href=\"wiki:Celerity\">Celerity</a></td><td><a href=\"wiki:Alacrity\">Alacrity</a></td><td>Shortens the next matching spell's cast and recast.</td></tr><tr><td>30</td><td>—</td><td><a href=\"wiki:Addendum: Black\">Addendum: Black</a></td><td>Enables additional black spells while Dark Arts remains active.</td></tr><tr><td>40</td><td><a href=\"wiki:Accession\">Accession</a></td><td><a href=\"wiki:Manifestation\">Manifestation</a></td><td>Turns an eligible next spell into an area effect; increases its cost. Not every spell qualifies.</td></tr><tr><td>55</td><td><a href=\"wiki:Rapture\">Rapture</a></td><td><a href=\"wiki:Ebullience\">Ebullience</a></td><td>Raises potency of the next eligible white healing / black damage spell.</td></tr><tr><td>75 merit</td><td><a href=\"wiki:Altruism\">Altruism</a></td><td><a href=\"wiki:Focalization\">Focalization</a></td><td>Raises accuracy of the next matching spell; requires merits.</td></tr><tr><td>75 merit</td><td><a href=\"wiki:Tranquility\">Tranquility</a></td><td><a href=\"wiki:Equanimity\">Equanimity</a></td><td>Reduces enmity of the next matching spell; requires merits.</td></tr></tbody></table><h2>Charges at level 75 cap</h2><table><thead><tr><th>Scholar level</th><th>Maximum charges</th><th>Time per charge</th></tr></thead><tbody><tr><td>10</td><td>1</td><td>4 minutes</td></tr><tr><td>30</td><td>2</td><td>2 minutes</td></tr><tr><td>50</td><td>3</td><td>80 seconds</td></tr><tr><td>70</td><td>4</td><td>60 seconds</td></tr></tbody></table><p>Switching Arts removes the opposite Addendum. Reapply the needed Addendum after switching. A scroll must still be learned before its Addendum spell becomes usable.</p>",
+      "source_urls": [
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar",
+        "https://ffxiclopedia.fandom.com/wiki/Stratagems"
+      ]
+    },
+    {
+      "title": "Scholar Spell List",
+      "category": "Spells",
+      "intro": "Historical Scholar spells through level 75, with Addendum requirements and acquisition links.",
+      "body_html": "<p>Historical level 75-era main-job progression. White or Black in the last column means the matching Addendum is required. Support-job spells are separate. Modern retail shifted some levels and added low-level spells; those changes are not silently included here.</p><h2>Healing</h2><table><thead><tr><th>Level</th><th>Spell</th><th>Addendum</th></tr></thead><tbody><tr><td>5</td><td><a href=\"wiki:Cure\">Cure</a></td><td>None</td></tr><tr><td>10</td><td><a href=\"wiki:Poisona\">Poisona</a></td><td>White</td></tr><tr><td>12</td><td><a href=\"wiki:Paralyna\">Paralyna</a></td><td>White</td></tr><tr><td>17</td><td><a href=\"wiki:Blindna\">Blindna</a></td><td>White</td></tr><tr><td>17</td><td><a href=\"wiki:Cure II\">Cure II</a></td><td>None</td></tr><tr><td>22</td><td><a href=\"wiki:Silena\">Silena</a></td><td>White</td></tr><tr><td>30</td><td><a href=\"wiki:Cure III\">Cure III</a></td><td>None</td></tr><tr><td>32</td><td><a href=\"wiki:Cursna\">Cursna</a></td><td>White</td></tr><tr><td>35</td><td><a href=\"wiki:Raise\">Raise</a></td><td>None</td></tr><tr><td>39</td><td><a href=\"wiki:Erase\">Erase</a></td><td>White</td></tr><tr><td>40</td><td><a href=\"wiki:Reraise\">Reraise</a></td><td>White</td></tr><tr><td>46</td><td><a href=\"wiki:Viruna\">Viruna</a></td><td>White</td></tr><tr><td>50</td><td><a href=\"wiki:Stona\">Stona</a></td><td>White</td></tr><tr><td>55</td><td><a href=\"wiki:Cure IV\">Cure IV</a></td><td>None</td></tr><tr><td>70</td><td><a href=\"wiki:Raise II\">Raise II</a></td><td>White</td></tr><tr><td>75</td><td><a href=\"wiki:Reraise II\">Reraise II</a></td><td>White</td></tr></tbody></table><h2>Enhancing</h2><table><thead><tr><th>Level</th><th>Spell</th><th>Addendum</th></tr></thead><tbody><tr><td>10</td><td><a href=\"wiki:Protect\">Protect</a></td><td>None</td></tr><tr><td>15</td><td><a href=\"wiki:Deodorize\">Deodorize</a></td><td>None</td></tr><tr><td>18</td><td><a href=\"wiki:Regen\">Regen</a></td><td>None</td></tr><tr><td>20</td><td><a href=\"wiki:Shell\">Shell</a></td><td>None</td></tr><tr><td>20</td><td><a href=\"wiki:Sneak\">Sneak</a></td><td>None</td></tr><tr><td>25</td><td><a href=\"wiki:Invisible\">Invisible</a></td><td>None</td></tr><tr><td>30</td><td><a href=\"wiki:Protect II\">Protect II</a></td><td>None</td></tr><tr><td>37</td><td><a href=\"wiki:Regen II\">Regen II</a></td><td>None</td></tr><tr><td>40</td><td><a href=\"wiki:Shell II\">Shell II</a></td><td>None</td></tr><tr><td>50</td><td><a href=\"wiki:Protect III\">Protect III</a></td><td>None</td></tr><tr><td>60</td><td><a href=\"wiki:Shell III\">Shell III</a></td><td>None</td></tr><tr><td>66</td><td><a href=\"wiki:Protect IV\">Protect IV</a></td><td>None</td></tr><tr><td>71</td><td><a href=\"wiki:Shell IV\">Shell IV</a></td><td>None</td></tr></tbody></table><h2>Dark and enfeebling</h2><table><thead><tr><th>Level</th><th>Spell</th><th>Addendum</th></tr></thead><tbody><tr><td>21</td><td><a href=\"wiki:Drain\">Drain</a></td><td>None</td></tr><tr><td>30</td><td><a href=\"wiki:Sleep\">Sleep</a></td><td>Black</td></tr><tr><td>32</td><td><a href=\"wiki:Dispel\">Dispel</a></td><td>Black</td></tr><tr><td>36</td><td><a href=\"wiki:Aspir\">Aspir</a></td><td>None</td></tr><tr><td>65</td><td><a href=\"wiki:Sleep II\">Sleep II</a></td><td>Black</td></tr></tbody></table><h2>Elemental I–III</h2><table><thead><tr><th>Level</th><th>Spell</th><th>Addendum</th></tr></thead><tbody><tr><td>4</td><td><a href=\"wiki:Stone\">Stone</a></td><td>None</td></tr><tr><td>8</td><td><a href=\"wiki:Water\">Water</a></td><td>None</td></tr><tr><td>12</td><td><a href=\"wiki:Aero\">Aero</a></td><td>None</td></tr><tr><td>16</td><td><a href=\"wiki:Fire\">Fire</a></td><td>None</td></tr><tr><td>20</td><td><a href=\"wiki:Blizzard\">Blizzard</a></td><td>None</td></tr><tr><td>24</td><td><a href=\"wiki:Thunder\">Thunder</a></td><td>None</td></tr><tr><td>30</td><td><a href=\"wiki:Stone II\">Stone II</a></td><td>None</td></tr><tr><td>34</td><td><a href=\"wiki:Water II\">Water II</a></td><td>None</td></tr><tr><td>38</td><td><a href=\"wiki:Aero II\">Aero II</a></td><td>None</td></tr><tr><td>42</td><td><a href=\"wiki:Fire II\">Fire II</a></td><td>None</td></tr><tr><td>46</td><td><a href=\"wiki:Blizzard II\">Blizzard II</a></td><td>None</td></tr><tr><td>51</td><td><a href=\"wiki:Thunder II\">Thunder II</a></td><td>None</td></tr><tr><td>54</td><td><a href=\"wiki:Stone III\">Stone III</a></td><td>None</td></tr><tr><td>57</td><td><a href=\"wiki:Water III\">Water III</a></td><td>None</td></tr><tr><td>60</td><td><a href=\"wiki:Aero III\">Aero III</a></td><td>None</td></tr><tr><td>63</td><td><a href=\"wiki:Fire III\">Fire III</a></td><td>None</td></tr><tr><td>66</td><td><a href=\"wiki:Blizzard III\">Blizzard III</a></td><td>None</td></tr><tr><td>69</td><td><a href=\"wiki:Thunder III\">Thunder III</a></td><td>None</td></tr></tbody></table><h2>Elemental IV</h2><table><thead><tr><th>Level</th><th>Spell</th><th>Addendum</th></tr></thead><tbody><tr><td>70</td><td><a href=\"wiki:Stone IV\">Stone IV</a></td><td>Black</td></tr><tr><td>71</td><td><a href=\"wiki:Water IV\">Water IV</a></td><td>Black</td></tr><tr><td>72</td><td><a href=\"wiki:Aero IV\">Aero IV</a></td><td>Black</td></tr><tr><td>73</td><td><a href=\"wiki:Fire IV\">Fire IV</a></td><td>Black</td></tr><tr><td>74</td><td><a href=\"wiki:Blizzard IV\">Blizzard IV</a></td><td>Black</td></tr><tr><td>75</td><td><a href=\"wiki:Thunder IV\">Thunder IV</a></td><td>Black</td></tr></tbody></table><h2>Storms</h2><table><thead><tr><th>Level</th><th>Spell</th><th>Addendum</th></tr></thead><tbody><tr><td>41</td><td><a href=\"wiki:Sandstorm\">Sandstorm</a></td><td>None</td></tr><tr><td>43</td><td><a href=\"wiki:Rainstorm\">Rainstorm</a></td><td>None</td></tr><tr><td>45</td><td><a href=\"wiki:Windstorm\">Windstorm</a></td><td>None</td></tr><tr><td>47</td><td><a href=\"wiki:Firestorm\">Firestorm</a></td><td>None</td></tr><tr><td>49</td><td><a href=\"wiki:Hailstorm\">Hailstorm</a></td><td>None</td></tr><tr><td>51</td><td><a href=\"wiki:Thunderstorm\">Thunderstorm</a></td><td>None</td></tr><tr><td>53</td><td><a href=\"wiki:Voidstorm\">Voidstorm</a></td><td>None</td></tr><tr><td>55</td><td><a href=\"wiki:Aurorastorm\">Aurorastorm</a></td><td>None</td></tr></tbody></table><h2>Helices and Klimaform</h2><table><thead><tr><th>Level</th><th>Spell</th><th>Addendum</th></tr></thead><tbody><tr><td>46</td><td><a href=\"wiki:Klimaform\">Klimaform</a></td><td>None</td></tr><tr><td>61</td><td><a href=\"wiki:Geohelix\">Geohelix</a></td><td>None</td></tr><tr><td>63</td><td><a href=\"wiki:Hydrohelix\">Hydrohelix</a></td><td>None</td></tr><tr><td>65</td><td><a href=\"wiki:Anemohelix\">Anemohelix</a></td><td>None</td></tr><tr><td>67</td><td><a href=\"wiki:Pyrohelix\">Pyrohelix</a></td><td>None</td></tr><tr><td>69</td><td><a href=\"wiki:Cryohelix\">Cryohelix</a></td><td>None</td></tr><tr><td>71</td><td><a href=\"wiki:Ionohelix\">Ionohelix</a></td><td>None</td></tr><tr><td>73</td><td><a href=\"wiki:Noctohelix\">Noctohelix</a></td><td>None</td></tr><tr><td>75</td><td><a href=\"wiki:Luminohelix\">Luminohelix</a></td><td>None</td></tr></tbody></table><h2>Get your spells</h2><ul><li>Buy Storm and Helix scrolls from <a href=\"wiki:Layton\">Layton</a> beside Erlene in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a>.</li><li>Earn <a href=\"wiki:Klimaform\">Klimaform</a> through <a href=\"wiki:On Sabbatical\">On Sabbatical</a>.</li><li>Other spells use ordinary scrolls. Open each spell page for its NPC, quest or monster source; buying a scroll at the Auction House also works.</li><li>Zenith may retain later base-server learning levels. Use the in-game scroll requirement if it differs; this historical table is not a claim that every modern adjustment has been disabled.</li></ul>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/How-To_Guide:_Scholar",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar:_The_Flexible_Mage",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Spells_and_Abilities",
+        "https://ffxiclopedia.fandom.com/wiki/Talk:Scholar",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html"
+      ]
+    },
+    {
+      "title": "Layton",
+      "category": "NPCs",
+      "intro": "Scholar magic vendor in The Eldieme Necropolis (S).",
+      "body_html": "<p>Find Layton near Erlene in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8). Buy the Storm and Helix scrolls here, then use each scroll when your Scholar meets its learning level.</p><p><a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> shows the historical 75 progression. <a href=\"wiki:Klimaform\">Klimaform</a> is a quest reward from <a href=\"wiki:On Sabbatical\">On Sabbatical</a>, not part of the ordinary Storm/Helix purchase route.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Layton",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Spells_and_Abilities"
+      ]
+    },
+    {
+      "title": "Scholar",
+      "category": "Jobs",
+      "intro": "SCH is a Wings of the Goddess job that switches between healing/support and black magic through Arts and stratagems.",
+      "body_html": "<h2>Unlock and progression</h2><p>Unlock with <a href=\"wiki:A Little Knowledge\">A Little Knowledge</a> at level 30. Begin <a href=\"wiki:On Sabbatical\">On Sabbatical</a> at SCH 40; continue <a href=\"wiki:Downward Helix\">Downward Helix</a> at SCH 50 for artifact armor and <a href=\"wiki:Loussaire\">Loussaire</a> commissions.</p><h2>Job abilities through 75</h2><table><thead><tr><th>Level</th><th>Ability</th><th>Practical use</th></tr></thead><tbody><tr><td>1</td><td><a href=\"wiki:Tabula Rasa\">Tabula Rasa</a></td><td>Opens both Arts and removes stratagem-charge costs during the effect.</td></tr><tr><td>10</td><td><a href=\"wiki:Light Arts\">Light Arts</a></td><td>Use for healing, support and white magic.</td></tr><tr><td>10</td><td><a href=\"wiki:Dark Arts\">Dark Arts</a></td><td>Use for elemental, dark and black enfeebling magic.</td></tr><tr><td>35</td><td><a href=\"wiki:Sublimation\">Sublimation</a></td><td>First activation stores MP while draining HP; activate again to recover stored MP.</td></tr><tr><td>65</td><td><a href=\"wiki:Modus Veritas\">Modus Veritas</a></td><td>Use on a Helix effect to increase damage per tick while shortening its remaining duration.</td></tr><tr><td>75 merit</td><td><a href=\"wiki:Enlightenment\">Enlightenment</a></td><td>Spend merits to unlock; permits one spell outside your current Addendum.</td></tr></tbody></table><h2>Traits</h2><table><thead><tr><th>Level</th><th>Trait</th></tr></thead><tbody><tr><td>10</td><td><a href=\"wiki:Resist Silence\">Resist Silence</a></td></tr><tr><td>20</td><td><a href=\"wiki:Clear Mind\">Clear Mind</a></td></tr><tr><td>25</td><td><a href=\"wiki:Conserve MP\">Conserve MP</a></td></tr><tr><td>30</td><td><a href=\"wiki:Max MP Boost\">Max MP Boost</a></td></tr><tr><td>35</td><td><a href=\"wiki:Clear Mind\">Clear Mind II</a></td></tr><tr><td>40</td><td><a href=\"wiki:Resist Silence\">Resist Silence II</a></td></tr><tr><td>50</td><td><a href=\"wiki:Clear Mind\">Clear Mind III</a></td></tr><tr><td>65</td><td><a href=\"wiki:Clear Mind\">Clear Mind IV</a></td></tr><tr><td>70</td><td><a href=\"wiki:Resist Silence\">Resist Silence III</a></td></tr><tr><td>75 merit</td><td><a href=\"wiki:Stormsurge\">Stormsurge</a></td></tr></tbody></table><h2>Stratagems and magic</h2><p>Use <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for every Light/Dark pair and charge timings. <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> lists the complete historical 75 main-job spell progression and links to acquisition sources.</p><h2>Skill ratings at 75</h2><table><thead><tr><th>Skill</th><th>Rank</th><th>Base cap 75</th></tr></thead><tbody><tr><td>Club / Staff</td><td>C+</td><td>230</td></tr><tr><td>Dagger / Throwing</td><td>D</td><td>210</td></tr><tr><td>Evasion / Parrying</td><td>E</td><td>200</td></tr><tr><td>Divine / Healing / Enhancing / Enfeebling / Elemental / Dark</td><td>D</td><td>210</td></tr></tbody></table><p>Light Arts raises Divine, Healing, Enhancing and Enfeebling to B+ (256 at 75). Dark Arts raises Dark, Elemental and Enfeebling to B+ (256). Gear and merits can add skill beyond these base values.</p><h2>Artifact and relic equipment</h2><table><thead><tr><th>Slot</th><th>Artifact</th><th>Artifact+1 (74)</th><th>Relic</th><th>Relic+1 (75)</th></tr></thead><tbody><tr><td>Head</td><td><a href=\"wiki:Scholar&#x27;s Mortarboard\">Scholar&#x27;s Mortarboard</a> (60)</td><td><a href=\"wiki:Scholar&#x27;s Mortarboard +1\">Scholar&#x27;s Mortarboard +1</a></td><td><a href=\"wiki:Argute Mortarboard\">Argute Mortarboard</a> (75)</td><td><a href=\"wiki:Argute Mortarboard +1\">Argute Mortarboard +1</a></td></tr><tr><td>Body</td><td><a href=\"wiki:Scholar&#x27;s Gown\">Scholar&#x27;s Gown</a> (58)</td><td><a href=\"wiki:Scholar&#x27;s Gown +1\">Scholar&#x27;s Gown +1</a></td><td><a href=\"wiki:Argute Gown\">Argute Gown</a> (74)</td><td><a href=\"wiki:Argute Gown +1\">Argute Gown +1</a></td></tr><tr><td>Hands</td><td><a href=\"wiki:Scholar&#x27;s Bracers\">Scholar&#x27;s Bracers</a> (52)</td><td><a href=\"wiki:Scholar&#x27;s Bracers +1\">Scholar&#x27;s Bracers +1</a></td><td><a href=\"wiki:Argute Bracers\">Argute Bracers</a> (71)</td><td><a href=\"wiki:Argute Bracers +1\">Argute Bracers +1</a></td></tr><tr><td>Legs</td><td><a href=\"wiki:Scholar&#x27;s Pants\">Scholar&#x27;s Pants</a> (56)</td><td><a href=\"wiki:Scholar&#x27;s Pants +1\">Scholar&#x27;s Pants +1</a></td><td><a href=\"wiki:Argute Pants\">Argute Pants</a> (73)</td><td><a href=\"wiki:Argute Pants +1\">Argute Pants +1</a></td></tr><tr><td>Feet</td><td><a href=\"wiki:Scholar&#x27;s Loafers\">Scholar&#x27;s Loafers</a> (54)</td><td><a href=\"wiki:Scholar&#x27;s Loafers +1\">Scholar&#x27;s Loafers +1</a></td><td><a href=\"wiki:Argute Loafers\">Argute Loafers</a> (72)</td><td><a href=\"wiki:Argute Loafers +1\">Argute Loafers +1</a></td></tr></tbody></table><p>Accessory: <a href=\"wiki:Argute Belt\">Argute Belt</a> (70). Open any piece for its stats, source, quest or exact upgrade ingredients. <a href=\"wiki:Scholar Artifact Upgrades\">Scholar Artifact Upgrades</a> and <a href=\"wiki:Scholar Relic Upgrades\">Scholar Relic Upgrades</a> collect the recipes.</p><h2>Weapons</h2><p>The first AF quest gives <a href=\"wiki:Klimaform\">Klimaform</a> instead of a weapon. Scholar can use <a href=\"wiki:Staff\">Staff</a>, <a href=\"wiki:Club\">Club</a> and <a href=\"wiki:Dagger\">Dagger</a>; <a href=\"wiki:Staves\">Elemental Staves</a> are common magic tools at 51. Its level 75 Mythic staff is <a href=\"wiki:Tupsimati\">Tupsimati</a>, associated with <a href=\"wiki:Omniscience\">Omniscience</a>. Standard 75 <a href=\"wiki:Claustrum\">Claustrum</a> is for BLM/SMN, not Scholar.</p><h2>Level75 merits</h2><table><thead><tr><th>Group</th><th>Options</th></tr></thead><tbody><tr><td>1</td><td>Grimoire Recast; Modus Veritas Duration; Helix Magic Accuracy/Attack; Maximum Sublimation.</td></tr><tr><td>2</td><td>Altruism; Focalization; Tranquility; Equanimity; Enlightenment; Stormsurge.</td></tr></tbody></table><h2>Quick use</h2><ol><li>For healing, select Light Arts and Addendum: White when status-removal or Reraise spells are needed.</li><li>For damage, select Dark Arts. Use Addendum: Black for Sleep, Dispel and tierIV nukes.</li><li>Match a Storm to the element you plan to cast; use Klimaform when available. Save charges for spells that matter.</li><li>Charge Sublimation between MP demands, then activate it again when you need the stored MP.</li></ol><p>This page follows historical 75 progression. Zenith-specific custom changes should be read from its dedicated job-balance notes; a level 75 cap alone does not prove every later base-game spell adjustment is disabled.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Scholar",
+        "https://ffxiclopedia.fandom.com/wiki/How-To_Guide:_Scholar",
+        "https://ffxiclopedia.fandom.com/wiki/Scholar_Artifact/Relic_Sets_Comparison",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html",
+        "https://ffxiclopedia.fandom.com/ja/wiki/%E5%AD%A6%E8%80%85",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html"
+      ],
+      "image_key": "job-sch"
+    },
+    {
+      "title": "Tabula Rasa",
+      "category": "Job Abilities",
+      "intro": "Scholar level 1.",
+      "body_html": "<h2>How to obtain</h2><p>Unlocked by reaching the listed Scholar level.</p><h2>How to use</h2><p>Activate when you need several stratagems in succession. During its short effect, stratagem use does not spend charges and both white and black magic receive the Grimoire benefits.</p><p>The historical special ability has a two-hour recast. Kaustra and Embrava were added after the level 75 era and are not included in this reference.</p><p>Related: <a href=\"wiki:Scholar\">Scholar</a> · <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> · <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a></p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Tabula_Rasa",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Light Arts",
+      "category": "Job Abilities",
+      "intro": "Scholar level 10.",
+      "body_html": "<h2>How to obtain</h2><p>Unlocked by reaching the listed Scholar level.</p><h2>How to use</h2><p>Activate before healing, protective buffs or white enfeebling magic. White magic becomes more efficient; the relevant low magic skills are raised to B+ rank.</p><p>Use Addendum: White when you need Scholar's additional white spells. Switching to Dark Arts removes that Addendum.</p><p>Related: <a href=\"wiki:Scholar\">Scholar</a> · <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> · <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a></p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Light_Arts",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Dark Arts",
+      "category": "Job Abilities",
+      "intro": "Scholar level 10.",
+      "body_html": "<h2>How to obtain</h2><p>Unlocked by reaching the listed Scholar level.</p><h2>How to use</h2><p>Activate before elemental damage, dark magic or black enfeebling magic. Black magic becomes more efficient; the relevant low magic skills are raised to B+ rank.</p><p>Use Addendum: Black for Sleep, Dispel and high-tier spells. Switching to Light Arts removes that Addendum.</p><p>Related: <a href=\"wiki:Scholar\">Scholar</a> · <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> · <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a></p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dark_Arts",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Sublimation",
+      "category": "Job Abilities",
+      "intro": "Scholar level 35.",
+      "body_html": "<h2>How to obtain</h2><p>Unlocked by reaching the listed Scholar level.</p><h2>How to use</h2><p>Activate once to store MP while your HP slowly decreases. Activate again when you need the stored MP. Storage stops when full or when HP becomes too low.</p><p>Prepare it between MP demands. The HP drain interferes with resting unless prevented; do not assume Refresh and Sublimation will operate together.</p><p>Related: <a href=\"wiki:Scholar\">Scholar</a> · <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> · <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a></p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Sublimation",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Modus Veritas",
+      "category": "Job Abilities",
+      "intro": "Scholar level 65.",
+      "body_html": "<h2>How to obtain</h2><p>Unlocked by reaching the listed Scholar level.</p><h2>How to use</h2><p>Land a Helix spell on the enemy, then use this ability on that enemy. It increases the Helix damage per tick while shortening the remaining duration.</p><p>It needs an active Helix effect and can fail. It is not an ordinary direct-damage spell; save it for a useful Helix already on the target.</p><p>Related: <a href=\"wiki:Scholar\">Scholar</a> · <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> · <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a></p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Modus_Veritas",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Enlightenment",
+      "category": "Job Abilities",
+      "intro": "Scholar level 75 merit.",
+      "body_html": "<h2>How to obtain</h2><p>Reach Scholar75, enable merits and purchase Enlightenment in Scholar Group 2.</p><h2>How to use</h2><p>Unlock the ability in Scholar Group 2 merits. Activate it, then cast the needed learned spell that is normally locked behind an Addendum.</p><p>It provides access for the next spell; it does not permanently change your Arts or teach a missing scroll.</p><p>Related: <a href=\"wiki:Scholar\">Scholar</a> · <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> · <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a></p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Enlightenment",
+        "https://blog.square-enix.com/ff11/2008/11/"
+      ]
+    },
+    {
+      "title": "Penury",
+      "category": "Job Abilities",
+      "intro": "SCH 10 · Light Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Light Arts\">Light Arts</a>.</li><li>Halves MP cost for the next white-magic spell. Use it immediately before a costly Cure or support spell.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Penury",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Parsimony",
+      "category": "Job Abilities",
+      "intro": "SCH 10 · Dark Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Dark Arts\">Dark Arts</a>.</li><li>Halves MP cost for the next black-magic spell. Use it before a costly nuke or dark-magic spell.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Parsimony",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Addendum: White",
+      "category": "Job Abilities",
+      "intro": "SCH 10 · Light Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Light Arts\">Light Arts</a>.</li><li>Unlocks additional Scholar white spells while the Addendum remains active. Learn their scrolls first; see the spell list for required levels.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Addendum:_White",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Celerity",
+      "category": "Job Abilities",
+      "intro": "SCH 25 · Light Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Light Arts\">Light Arts</a>.</li><li>Reduces casting and recast time for the next white-magic spell. Useful when a heal or status-removal spell must land quickly.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Celerity",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Alacrity",
+      "category": "Job Abilities",
+      "intro": "SCH 25 · Dark Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Dark Arts\">Dark Arts</a>.</li><li>Reduces casting and recast time for the next black-magic spell. Use before a spell whose timing matters.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Alacrity",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Addendum: Black",
+      "category": "Job Abilities",
+      "intro": "SCH 30 · Dark Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Dark Arts\">Dark Arts</a>.</li><li>Unlocks additional Scholar black spells while the Addendum remains active. Learn their scrolls first; see the spell list for required levels.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Addendum:_Black",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Accession",
+      "category": "Job Abilities",
+      "intro": "SCH 40 · Light Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Light Arts\">Light Arts</a>.</li><li>Spreads the next eligible healing or enhancing white spell across nearby party members, with increased MP and recast costs. Cure, Protect, Shell and Storm spells are useful examples; not every white spell qualifies.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Accession",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Manifestation",
+      "category": "Job Abilities",
+      "intro": "SCH 40 · Dark Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Dark Arts\">Dark Arts</a>.</li><li>Spreads the next eligible black enfeebling spell to enemies around its target, with increased MP and recast costs. Check nearby enemies before using area Sleep or Dispel.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Manifestation",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Rapture",
+      "category": "Job Abilities",
+      "intro": "SCH 55 · Light Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Light Arts\">Light Arts</a>.</li><li>Improves the next eligible healing spell. Activate before a Cure when extra healing is useful.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Rapture",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Ebullience",
+      "category": "Job Abilities",
+      "intro": "SCH 55 · Dark Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Dark Arts\">Dark Arts</a>.</li><li>Improves the next eligible black damage spell. Activate before a nuke or Helix; it does not improve every spell.</li></ol><p>Uses one stratagem charge. Charges are shared between the two Arts.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Ebullience",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html"
+      ]
+    },
+    {
+      "title": "Altruism",
+      "category": "Job Abilities",
+      "intro": "SCH 75 merit · Light Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Light Arts\">Light Arts</a>.</li><li>Improves accuracy for the next white spell. Unlock it with Scholar Group 2 merits.</li></ol><p>Historical level 75 merit stratagems use two charges. Later retail changed this cost; check Zenith's in-game behavior if different.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Altruism",
+        "https://blog.square-enix.com/ff11/2008/11/"
+      ]
+    },
+    {
+      "title": "Focalization",
+      "category": "Job Abilities",
+      "intro": "SCH 75 merit · Dark Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Dark Arts\">Dark Arts</a>.</li><li>Improves accuracy for the next black spell. Unlock it with Scholar Group 2 merits.</li></ol><p>Historical level 75 merit stratagems use two charges. Later retail changed this cost; check Zenith's in-game behavior if different.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Focalization",
+        "https://blog.square-enix.com/ff11/2008/11/"
+      ]
+    },
+    {
+      "title": "Tranquility",
+      "category": "Job Abilities",
+      "intro": "SCH 75 merit · Light Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Light Arts\">Light Arts</a>.</li><li>Reduces the enmity generated by the next white spell. Unlock it with Scholar Group 2 merits.</li></ol><p>Historical level 75 merit stratagems use two charges. Later retail changed this cost; check Zenith's in-game behavior if different.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Tranquility",
+        "https://blog.square-enix.com/ff11/2008/11/"
+      ]
+    },
+    {
+      "title": "Equanimity",
+      "category": "Job Abilities",
+      "intro": "SCH 75 merit · Dark Arts stratagem.",
+      "body_html": "<h2>Use</h2><ol><li>Activate <a href=\"wiki:Dark Arts\">Dark Arts</a>.</li><li>Reduces the enmity generated by the next black spell. Unlock it with Scholar Group 2 merits.</li></ol><p>Historical level 75 merit stratagems use two charges. Later retail changed this cost; check Zenith's in-game behavior if different.</p><p>See <a href=\"wiki:Scholar Stratagems\">Scholar Stratagems</a> for charge recovery and <a href=\"wiki:Scholar Spell List\">Scholar Spell List</a> for spell access.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Equanimity",
+        "https://blog.square-enix.com/ff11/2008/11/"
+      ]
+    },
+    {
+      "title": "Stormsurge",
+      "category": "Job Traits",
+      "intro": "Scholar Group 2 merit trait at level 75.",
+      "body_html": "<p>Purchase Stormsurge with merits. Storm spells you cast then add a bonus to an attribute associated with their element. More upgrades increase the bonus.</p><table><thead><tr><th>Storm</th><th>Attribute</th></tr></thead><tbody><tr><td><a href=\"wiki:Firestorm\">Firestorm</a></td><td>STR</td></tr><tr><td><a href=\"wiki:Sandstorm\">Sandstorm</a></td><td>VIT</td></tr><tr><td><a href=\"wiki:Rainstorm\">Rainstorm</a></td><td>MND</td></tr><tr><td><a href=\"wiki:Windstorm\">Windstorm</a></td><td>AGI</td></tr><tr><td><a href=\"wiki:Hailstorm\">Hailstorm</a></td><td>INT</td></tr><tr><td><a href=\"wiki:Thunderstorm\">Thunderstorm</a></td><td>DEX</td></tr><tr><td><a href=\"wiki:Aurorastorm\">Aurorastorm</a></td><td>CHR</td></tr><tr><td><a href=\"wiki:Voidstorm\">Voidstorm</a></td><td>All seven attributes at reduced potency</td></tr></tbody></table><p>Cast the relevant Storm on the party member who benefits. You still need its scroll and required casting level.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Stormsurge",
+        "https://www.bg-wiki.com/ffxi/Stormsurge",
+        "https://blog.square-enix.com/ff11/2008/11/"
+      ]
+    },
+    {
+      "title": "Sandstorm",
+      "category": "Spells",
+      "intro": "SCH 41 in the level 75 era · Earth weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Geohelix\">Geohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Sandstorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Geohelix",
+      "category": "Spells",
+      "intro": "SCH 61 in the level 75 era · Earth damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Sandstorm\">Sandstorm</a> to provide matching weather when helpful.</li><li>Cast Geohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Geohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Rainstorm",
+      "category": "Spells",
+      "intro": "SCH 43 in the level 75 era · Water weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Hydrohelix\">Hydrohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Rainstorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Hydrohelix",
+      "category": "Spells",
+      "intro": "SCH 63 in the level 75 era · Water damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Rainstorm\">Rainstorm</a> to provide matching weather when helpful.</li><li>Cast Hydrohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Hydrohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Windstorm",
+      "category": "Spells",
+      "intro": "SCH 45 in the level 75 era · Wind weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Anemohelix\">Anemohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Windstorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Anemohelix",
+      "category": "Spells",
+      "intro": "SCH 65 in the level 75 era · Wind damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Windstorm\">Windstorm</a> to provide matching weather when helpful.</li><li>Cast Anemohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Anemohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Firestorm",
+      "category": "Spells",
+      "intro": "SCH 47 in the level 75 era · Fire weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Pyrohelix\">Pyrohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Firestorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Pyrohelix",
+      "category": "Spells",
+      "intro": "SCH 67 in the level 75 era · Fire damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Firestorm\">Firestorm</a> to provide matching weather when helpful.</li><li>Cast Pyrohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Pyrohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Hailstorm",
+      "category": "Spells",
+      "intro": "SCH 49 in the level 75 era · Ice weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Cryohelix\">Cryohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Hailstorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Cryohelix",
+      "category": "Spells",
+      "intro": "SCH 69 in the level 75 era · Ice damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Hailstorm\">Hailstorm</a> to provide matching weather when helpful.</li><li>Cast Cryohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Cryohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Thunderstorm",
+      "category": "Spells",
+      "intro": "SCH 51 in the level 75 era · Lightning weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Ionohelix\">Ionohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Thunderstorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Ionohelix",
+      "category": "Spells",
+      "intro": "SCH 71 in the level 75 era · Lightning damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Thunderstorm\">Thunderstorm</a> to provide matching weather when helpful.</li><li>Cast Ionohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Ionohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Voidstorm",
+      "category": "Spells",
+      "intro": "SCH 53 in the level 75 era · Dark weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Noctohelix\">Noctohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Voidstorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Noctohelix",
+      "category": "Spells",
+      "intro": "SCH 73 in the level 75 era · Dark damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Voidstorm\">Voidstorm</a> to provide matching weather when helpful.</li><li>Cast Noctohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Noctohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Aurorastorm",
+      "category": "Spells",
+      "intro": "SCH 55 in the level 75 era · Light weather · Enhancing magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy the scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or buy it from the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><p>Gives one party member a single-weather effect of the listed element. It can support matching elemental magic and weather-sensitive equipment. <a href=\"wiki:Accession\">Accession</a> can spread the buff to nearby party members.</p><p>Pair it with <a href=\"wiki:Luminohelix\">Luminohelix</a> or <a href=\"wiki:Klimaform\">Klimaform</a>. <a href=\"wiki:Stormsurge\">Stormsurge</a> adds an attribute bonus after purchasing the merit trait.</p><p>This is the historical learning level. Later retail lowered some Storm levels; follow the scroll requirement shown in Zenith if it differs.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Aurorastorm",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Luminohelix",
+      "category": "Spells",
+      "intro": "SCH 75 in the level 75 era · Light damage over time · Elemental magic.",
+      "body_html": "<h2>Learn the spell</h2><ol><li>Buy its scroll from <a href=\"wiki:Layton\">Layton</a> in <a href=\"wiki:The Eldieme Necropolis (S)\">The Eldieme Necropolis (S)</a> (J-8), or the Auction House.</li><li>Use the scroll at the required Scholar level.</li></ol><h2>Use</h2><ol><li>Select <a href=\"wiki:Dark Arts\">Dark Arts</a>. Use <a href=\"wiki:Aurorastorm\">Aurorastorm</a> to provide matching weather when helpful.</li><li>Cast Luminohelix on the enemy. It deals initial damage followed by repeated damage. Avoid applying it to a target your party needs to keep asleep.</li><li>Use <a href=\"wiki:Modus Veritas\">Modus Veritas</a> after the Helix lands if you want to concentrate its damage into a shorter remaining period.</li></ol><p>Historical learning level shown. Later retail moved Helix spells much earlier; this page does not assume Zenith has reverted those changes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Luminohelix",
+        "https://www.playonline.com/pcd/update/ff11us/200711203OoKA3/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/Layton"
+      ]
+    },
+    {
+      "title": "Klimaform",
+      "category": "Spells",
+      "intro": "SCH 46 · Dark magic · Scholar artifact-quest reward.",
+      "body_html": "<h2>How to obtain</h2><p>Complete <a href=\"wiki:On Sabbatical\">On Sabbatical</a>, available at SCH 40 after unlocking Scholar. Its reward is the Klimaform scroll; learn it at SCH 46.</p><h2>Use</h2><ol><li>Give yourself weather matching the element you plan to cast, using a Storm spell when needed.</li><li>Cast Klimaform on yourself.</li><li>Cast spells of the matching element while its effect lasts for improved magic accuracy.</li></ol><p>The spell depends on matching weather. It is not a damage spell and is not an AF weapon.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Klimaform",
+        "https://www.playonline.com/pcd/update/ff11us/20080311cPxl31/detail.html",
+        "https://ffxiclopedia.fandom.com/wiki/On_Sabbatical"
+      ]
+    },
+    {
+      "title": "Vellum",
+      "category": "Items",
+      "intro": "Material required for Scholar unlock and AF3 retry transcripts.",
+      "body_html": "<p>For <a href=\"wiki:A Little Knowledge\">A Little Knowledge</a>, bring 12 sheets. Buy them from the Auction House, or start the quest and use <a href=\"wiki:Tucker\">Tucker</a>'s exchange in Crawlers' Nest (S).</p><p>The full Tucker route is 144 Rolanberries, traded as three batches of 48 for four Vellum each. See his page before exchanging; the reviewed base limits the number of trades.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Vellum",
+        "https://ffxiclopedia.fandom.com/wiki/A_Little_Knowledge",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/A_Little_Knowledge.lua"
+      ]
+    },
+    {
+      "title": "Elder Staff",
+      "category": "Weapons",
+      "intro": "Staff · SCH 75 · DMG55 · Delay402.",
+      "body_html": "<p>Obtain from notorious monsters in <a href=\"wiki:Nyzul Isle Investigation\">Nyzul Isle Investigation</a>. On the documented floor 100 route, the player selecting the starting floor should be Scholar: the boss drops a weapon matching that player's job.</p><h2>What to do with it</h2><ul><li>Equip it and start <a href=\"wiki:Unlocking a Myth (Scholar)\">Unlocking a Myth (Scholar)</a> to unlock <a href=\"wiki:Omniscience\">Omniscience</a>.</li><li>It is also the starting Scholar weapon used in the <a href=\"wiki:Tupsimati\">Tupsimati</a> Mythic chain. Unlocking the weapon skill alone does not build the Mythic weapon.</li></ul>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Elder_Staff",
+        "https://ffxiclopedia.fandom.com/wiki/Nyzul_Isle_Investigation",
+        "https://ffxiclopedia.fandom.com/wiki/Unlocking_a_Myth_%28Scholar%29"
+      ]
+    },
+    {
+      "title": "Unlocking a Myth (Scholar)",
+      "category": "Quests",
+      "intro": "Scholar75; Treasures of Aht Urhgan access; <a href=\"wiki:Elder Staff\">Elder Staff</a> and personal Runic Disc.",
+      "body_html": "<h2>Before you start</h2><p>Scholar75; Treasures of Aht Urhgan access; <a href=\"wiki:Elder Staff\">Elder Staff</a> and personal Runic Disc.</p><h2>Steps</h2><ol><li>Equip Elder Staff as your main weapon. Talk to Zalsuhm in Muckvix's Junk Shop, <a href=\"wiki:Lower Jeuno\">Lower Jeuno</a> (H-9), and accept his offer.</li><li>Build weapon-skill points while Elder Staff remains equipped, fighting experience-yielding enemies. Weapon skills and closing skillchains earn points.</li><li>Historical requirement depends on your own saved Nyzul progress: clearing floor 100 reduces it to 250 points; no progress requires 16000. Completing someone else's floor 100 run does not automatically give your disc that progress.</li><li>When Omniscience appears in the weapon-skill list with Elder Staff equipped, trade the staff to Zalsuhm to finish the unlock.</li></ol><h2>Reward</h2><p><a href=\"wiki:Omniscience\">Omniscience</a> permanently usable as Scholar with an equipped staff.</p><h2>Zenith availability</h2><p>Retail reduced every floor tier to 250 points in July 2014. Zenith's exact floor/point rule must be checked in its active implementation; this guide labels the historical rule rather than assuming the later reduction.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Unlocking_a_Myth_%28Scholar%29",
+        "https://classicffxi.fandom.com/wiki/Unlocking_a_Myth",
+        "https://www.bg-wiki.com/ffxi/Unlocking_a_Myth"
+      ]
+    },
+    {
+      "title": "Omniscience",
+      "category": "Weapon Skills",
+      "intro": "Scholar Mythic staff weapon skill.",
+      "body_html": "<p>Deals darkness damage and can reduce the target's magic attack. It is associated with <a href=\"wiki:Tupsimati\">Tupsimati</a>.</p><h2>How to learn</h2><p>Complete <a href=\"wiki:Unlocking a Myth (Scholar)\">Unlocking a Myth (Scholar)</a> using <a href=\"wiki:Elder Staff\">Elder Staff</a> from Nyzul. This quest allows use with other staves on Scholar; finishing a Tupsimati is not required for the standalone unlock.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Omniscience",
+        "https://ffxiclopedia.fandom.com/wiki/Unlocking_a_Myth_%28Scholar%29"
+      ]
+    },
+    {
+      "title": "Tupsimati",
+      "category": "Weapons",
+      "intro": "Staff · SCH 75 · Mythic weapon.",
+      "body_html": "<p>Level75 version: DMG62, Delay402, Accuracy+30, Magic Accuracy+10 and Magic Attack Bonus+20. Matching elemental weather reduces enmity; Omniscience activates its Mythic aftermath.</p><h2>How to obtain</h2><ol><li>Obtain <a href=\"wiki:Elder Staff\">Elder Staff</a> from <a href=\"wiki:Nyzul Isle Investigation\">Nyzul Isle Investigation</a>.</li><li>Meet the Captain-rank and story requirements in <a href=\"wiki:An Imperial Heist\">An Imperial Heist</a>, then begin the Mythic chain with your Scholar weapon.</li><li>Continue <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>, <a href=\"wiki:Forging a New Myth\">Forging a New Myth</a> and <a href=\"wiki:Coming Full Circle\">Coming Full Circle</a>. Follow those quest pages for the title checks, currencies, materials and final battle.</li></ol><p>This page describes the level 75 weapon. Higher-level Trial of the Magians upgrades are outside this era guide. For only the weapon skill, use <a href=\"wiki:Unlocking a Myth (Scholar)\">Unlocking a Myth (Scholar)</a> instead.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Tupsimati",
+        "https://www.ffxiah.com/item/18990/tupsimati",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Mythic_Weapons"
+      ]
+    },
+    {
+      "title": "Electrum Ingot",
+      "category": "Items",
+      "intro": "Goldsmithing material for Scholar's Mortarboard +1.",
+      "body_html": "<p>Buy from Auction House → Materials → Goldsmithing. Standard synthesis: Goldsmithing42, Fire Crystal, Silver Ore ×1 and Gold Ore ×3; yield one ingot.</p><p>Use one in <a href=\"wiki:Scholar&#x27;s Mortarboard +1\">Scholar&#x27;s Mortarboard +1</a>. This is the ordinary recipe; Horizon's custom Terminal Alloy recipe is not assumed to exist on Zenith.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Electrum_Ingot",
+        "https://ffxiclopedia.fandom.com/wiki/Goldsmithing_Guide_by_Ctownwoody"
+      ]
+    },
+    {
+      "title": "Lynx Leather",
+      "category": "Items",
+      "intro": "Leathercraft material used in Scholar artifact and relic upgrades.",
+      "body_html": "<p>Buy from Auction House → Materials → Leathercraft. Standard synthesis: Leathercraft71, Dark Crystal, Lynx Hide ×1, Windurstian Tea Leaves ×1 and Distilled Water ×1; yield one leather.</p><p>Farm Lynx Hide from Lynxes in <a href=\"wiki:Meriphataud Mountains (S)\">Meriphataud Mountains (S)</a> or purchase the hide. Use the finished leather for <a href=\"wiki:Scholar&#x27;s Gown +1\">Scholar&#x27;s Gown +1</a>, <a href=\"wiki:Scholar&#x27;s Bracers +1\">Scholar&#x27;s Bracers +1</a> or <a href=\"wiki:Argute Bracers +1\">Argute Bracers +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Lynx_Leather",
+        "https://horizonffxi.wiki/Lynx_Leather",
+        "https://ffxiclopedia.fandom.com/wiki/Lynx"
+      ]
+    },
+    {
+      "title": "Incombustible Wool",
+      "category": "Items",
+      "intro": "Clothcraft material, abbreviated Incomb. Wool in the game.",
+      "body_html": "<p>Buy from Auction House → Materials → Clothcraft. One square is required for <a href=\"wiki:Argute Loafers +1\">Argute Loafers +1</a>. Ordinary Wool Cloth is a different item and cannot replace it.</p><p>The synthesis uses Clothcraft37 and Cloth Ensorcellment: Earth Crystal, Wool Thread ×3, Fire Anima ×1, Ice Anima ×1 and Dark Anima ×1. A crafter with the required key item can make it.</p>",
+      "source_urls": [
+        "https://www.ffxiah.com/item/2424/square-of-incombustible-wool",
+        "https://www.bg-wiki.com/ffxi/Incomb._Wool",
+        "https://wikiwiki.jp/ffxigousei/%E7%B4%A0%E6%9D%90/%E5%B8%83%E6%9D%90/%E8%80%90%E7%86%B1%E6%AF%9B%E7%B9%94%E7%89%A9"
+      ]
+    }
+  ]
+}

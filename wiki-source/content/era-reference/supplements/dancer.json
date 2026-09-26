@@ -1,0 +1,691 @@
+{
+  "schema": 1,
+  "source_review_date": "2026-09-26",
+  "scope": "Original concise Dancer level-75 supplement. Historical facts and acquisition routes, not proof of installed Zenith quest completion.",
+  "articles": [
+    {
+      "title": "Lakeside Minuet",
+      "category": "Quests",
+      "intro": "Unlock Dancer. Start with any main job at level 30 or higher.",
+      "body_html": "<h2>Requirements</h2><p>Level 30+, Wings of the Goddess access, and a route into <a href=\"wiki:Jugner Forest (S)\">Jugner Forest (S)</a>. No item purchase is required.</p><h2>Steps</h2><ol><li>Speak to <a href=\"wiki:Laila\">Laila</a> at the dancer group in <a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7). Choose “I surely do.”, then “Never!” to accept.</li><li>Speak to <a href=\"wiki:Rhea Myuliah\">Rhea Myuliah</a> beside Laila.</li><li>Visit <a href=\"wiki:Valderotaux\">Valderotaux</a> inside Lion Springs Tavern, <a href=\"wiki:Southern San d&#x27;Oria\">Southern San d&#x27;Oria</a> (K-6), and complete the dance conversation.</li><li>Return to Rhea Myuliah in Upper Jeuno.</li><li>Enter <a href=\"wiki:Jugner Forest (S)\">Jugner Forest (S)</a> and examine <a href=\"wiki:Glowing Pebbles\">Glowing Pebbles</a> by Lake Mechieume (I-5). Receive the Stardust Pebble key item. The target name matters; the ground need not visibly glow.</li><li>Return to Laila in Upper Jeuno to unlock <a href=\"wiki:Dancer\">Dancer</a>.</li></ol><h2>Reward</h2><p>Dancer becomes selectable at your Mog House. Title: Troupe Brilioth Dancer.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Lakeside_Minuet",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Lakeside_Minuet.lua"
+      ]
+    },
+    {
+      "title": "The Unfinished Waltz",
+      "category": "Quests",
+      "intro": "Dancer artifact weapon quest: obtain War Hoop.",
+      "body_html": "<h2>Requirements</h2><p>Dancer level 40+; <a href=\"wiki:Lakeside Minuet\">Lakeside Minuet</a> completed. Remain on Dancer for the Grauberg events and fight.</p><h2>Steps</h2><ol><li>Talk to <a href=\"wiki:Laila\">Laila</a>, then <a href=\"wiki:Rhea Myuliah\">Rhea Myuliah</a>, in <a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7).</li><li>Travel to <a href=\"wiki:Grauberg (S)\">Grauberg (S)</a> and find the ??? among three close trees in Witchfire Glen (F-5). Use the past zone, not Abyssea.</li><li>Examine ??? for the scene, then examine it again without leaving the zone to spawn <a href=\"wiki:Migratory Hippogryph\">Migratory Hippogryph</a>. Defeat it.</li><li>Examine ??? again to receive The Essence of Dance.</li><li>Open your permanent key-item list and read The Essence of Dance.</li><li>Speak to Laila as Dancer to receive <a href=\"wiki:War Hoop\">War Hoop</a>.</li></ol><h2>Next</h2><p>Change zones and wait until the next Vana’diel day before starting <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a>.</p><p><strong>Zenith availability:</strong> this is the original quest route. Completion on the current Zenith server has not been confirmed; a wiki entry does not install the quest.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/The_Unfinished_Waltz",
+        "https://ffxiclopedia.fandom.com/wiki/The_Unfinished_Waltz",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF1_The_Unfinished_Waltz.lua"
+      ]
+    },
+    {
+      "title": "The Road to Divadom",
+      "category": "Quests",
+      "intro": "Obtain Dancer's Tights and open the three commissioned artifact pieces.",
+      "body_html": "<h2>Requirements</h2><p>Dancer level 50+; <a href=\"wiki:The Unfinished Waltz\">The Unfinished Waltz</a> completed; zone and next Vana’diel day after completion. Bring one <a href=\"wiki:Yagudo Glue\">Yagudo Glue</a>.</p><h2>Steps</h2><ol><li>Talk to <a href=\"wiki:Laila\">Laila</a> in <a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7) as Dancer.</li><li>Enter <a href=\"wiki:Jugner Forest (S)\">Jugner Forest (S)</a> for a scene. Stay on Dancer.</li><li>Examine <a href=\"wiki:Glowing Pebbles\">Glowing Pebbles</a> at Lake Mechieume (I-5).</li><li>Trade one <a href=\"wiki:Yagudo Glue\">Yagudo Glue</a> to Glowing Pebbles.</li><li>Return to Laila as Dancer for <a href=\"wiki:Dancer&#x27;s Tights\">Dancer&#x27;s Tights</a>.</li><li>Talk to <a href=\"wiki:Olgald\">Olgald</a> beside the dancers to open <a href=\"wiki:Matthias\">Matthias</a> commissions for the tiara, bangles and shoes.</li></ol><h2>Next</h2><p>After zoning and the next Vana’diel day, start <a href=\"wiki:Comeback Queen\">Comeback Queen</a>.</p><p><strong>Zenith availability:</strong> this is the original quest route. Completion on the current Zenith server has not been confirmed; a wiki entry does not install the quest.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/The_Road_to_Divadom",
+        "https://www.bg-wiki.com/ffxi/The_Road_to_Divadom",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF2_The_Road_to_Divadom.lua"
+      ]
+    },
+    {
+      "title": "Comeback Queen",
+      "category": "Quests",
+      "intro": "Win the dance performance to receive Dancer's Casaque.",
+      "body_html": "<h2>Requirements</h2><p>Dancer level 50+; <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a> completed; change zones and wait for the next Vana’diel day.</p><h2>Steps</h2><ol><li>Speak to <a href=\"wiki:Laila\">Laila</a> in <a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7) as Dancer to obtain Wyatt’s Proposal.</li><li>Take the proposal to <a href=\"wiki:Harmodios\">Harmodios</a> inside the music shop in <a href=\"wiki:Bastok Markets\">Bastok Markets</a> (K-10).</li><li>Return to Laila, then talk to <a href=\"wiki:Rhea Myuliah\">Rhea Myuliah</a> to practice the audience minigame.</li><li>After the next Vana’diel day, speak to Laila for the real performance. Choose dances promptly: children favor Jigs, young adults favor Waltzes, older adults favor Sambas.</li><li>Keep at least four of seven spectators watching your troupe. Alternating Jigs and Waltzes targets the five children/young adults. Continue responding until the scene ends.</li><li>Win to receive <a href=\"wiki:Dancer&#x27;s Casaque\">Dancer&#x27;s Casaque</a>. If you lose, zone and wait until the next Vana’diel day to retry.</li></ol><p><strong>Zenith availability:</strong> this is the original quest route. Completion on the current Zenith server has not been confirmed; a wiki entry does not install the quest.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Comeback_Queen",
+        "https://www.bg-wiki.com/ffxi/Comeback_Queen",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF3_Comeback_Queen.lua"
+      ]
+    },
+    {
+      "title": "Matthias",
+      "category": "NPCs",
+      "intro": "Crafts three pieces of Dancer artifact armor in Bastok Markets.",
+      "body_html": "<h2>Unlock the service</h2><p>Finish <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a>, then speak to <a href=\"wiki:Olgald\">Olgald</a> in <a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7). Keep Dancer as your main job when speaking to Olgald and using Matthias’s service.</p><h2>What to bring</h2><table><thead><tr><th>Reward</th><th>Level</th><th>Trade one of each</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Bangles\">Dancer&#x27;s Bangles</a></td><td>52</td><td><a href=\"wiki:Karakul Cloth\">Karakul Cloth</a>, <a href=\"wiki:Rainbow Cloth\">Rainbow Cloth</a>, <a href=\"wiki:Rainbow Velvet\">Rainbow Velvet</a></td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Tiara\">Dancer&#x27;s Tiara</a></td><td>54</td><td><a href=\"wiki:Imperial Silk Cloth\">Imperial Silk Cloth</a>, <a href=\"wiki:Silver Brocade\">Silver Brocade</a>, <a href=\"wiki:Wolf Felt\">Wolf Felt</a></td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Toe Shoes\">Dancer&#x27;s Toe Shoes</a></td><td>56</td><td><a href=\"wiki:Wamoura Cloth\">Wamoura Cloth</a>, <a href=\"wiki:Moblinweave\">Moblinweave</a>, <a href=\"wiki:Gold Brocade\">Gold Brocade</a></td></tr></tbody></table><h2>Steps</h2><ol><li>Find Matthias on the bridge near the music shop in <a href=\"wiki:Bastok Markets\">Bastok Markets</a> (J-9).</li><li>Choose one armor piece. Trade all three listed materials for that piece.</li><li>Change zones and return after the next Vana’diel day to collect it.</li><li>Order the next piece after collection. Only one order can be active, and a chosen order cannot be cancelled.</li></ol><p>These are material commissions, not treasure-coffer drops.</p><p><strong>Zenith availability:</strong> this is the original quest route. Completion on the current Zenith server has not been confirmed; a wiki entry does not install the quest.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Category:Artifact_Armor",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Bangles",
+        "https://forum.square-enix.com/ffxi/threads/63254",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/hiddenQuests/Crafted_Dancer_Artifact.lua"
+      ]
+    },
+    {
+      "title": "A Furious Finale",
+      "category": "Quests",
+      "intro": "Original Dancer route for raising the level limit from 70 to 75.",
+      "body_html": "<h2>Requirements</h2><p>Dancer level 66+, the prior level-limit quest completed, and <a href=\"wiki:Comeback Queen\">Comeback Queen</a> completed. Zone and wait until the next Vana’diel day.</p><h2>Steps</h2><ol><li>Talk to <a href=\"wiki:Laila\">Laila</a> in <a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> (G-7) on Dancer.</li><li>Obtain <a href=\"wiki:Dancer&#x27;s Testimony\">Dancer&#x27;s Testimony</a>. Verified examples are <a href=\"wiki:Amber Quadav\">Amber Quadav</a> in <a href=\"wiki:North Gustaberg (S)\">North Gustaberg (S)</a> and <a href=\"wiki:Young Quadav\">Young Quadav</a> in <a href=\"wiki:Grauberg (S)\">Grauberg (S)</a>.</li><li>Trade the testimony to Laila and accept her challenge to travel to <a href=\"wiki:Qu&#x27;Bia Arena\">Qu&#x27;Bia Arena</a>.</li><li>Trade the testimony to the Burning Circle. Defeat Laila within the ten-minute battle. Preserve TP for healing; use Quickstep to help land hits.</li><li>After the victory, complete the exit scene and check the raised limit.</li></ol><p>Do not repeat a level-limit unlock already cleared on another job. Follow Zenith’s current limit-break page if a custom progression route is installed. Retail Rhapsody-based Trust access is outside this 75-era route.</p><p><strong>Zenith availability:</strong> this is the original quest route. Completion on the current Zenith server has not been confirmed; a wiki entry does not install the quest.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/A_Furious_Finale",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Testimony"
+      ]
+    },
+    {
+      "title": "Dancer's Tiara",
+      "category": "Armor",
+      "intro": "Dancer artifact head; level 54.",
+      "body_html": "<h2>Stats</h2><p>DEF 18; HP +10; CHR +4; Enmity -2; longer Sambas.</p><h2>How to get it</h2><p>Commission this piece from <a href=\"wiki:Matthias\">Matthias</a>. The linked guide lists its requirements and steps.</p><p>Trade: <a href=\"wiki:Imperial Silk Cloth\">Imperial Silk Cloth</a>, <a href=\"wiki:Silver Brocade\">Silver Brocade</a>, <a href=\"wiki:Wolf Felt\">Wolf Felt</a>.</p><h2>Upgrade</h2><p>At level 74, use <a href=\"wiki:Dancer&#x27;s Tiara +1\">Dancer&#x27;s Tiara +1</a>. <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> lists the required coins and materials.</p><p>Male and female artifact versions share the displayed name and equivalent stats; use the version for your character.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Dancer%27s_Attire_Set_%2B1",
+        "https://www.bg-wiki.com/ffxi/Category:Artifact_Armor",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Tiara"
+      ]
+    },
+    {
+      "title": "Dancer's Tiara +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer artifact head; level 74.",
+      "body_html": "<h2>Stats</h2><p>DEF 19; HP +15; DEX +4; CHR +4; Enmity -2; longer Sambas.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Tiara\">Dancer&#x27;s Tiara</a></td><td>1</td></tr><tr><td><a href=\"wiki:Filet Lace\">Filet Lace</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Stud\">Gold Stud</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a></td><td>30</td></tr></tbody></table><h2>Steps</h2><p>Follow <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>: deposit the coins with Sagheera, trade the base piece and three materials, then collect after the next Vana’diel midnight.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Attire_%2B1_Set",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Tiara_%2B1"
+      ]
+    },
+    {
+      "title": "Dancer's Casaque",
+      "category": "Armor",
+      "intro": "Dancer artifact body; level 60.",
+      "body_html": "<h2>Stats</h2><p>DEF 38; HP +20; STR +2; DEX +2; Waltz potency +10%; Enmity -2.</p><h2>How to get it</h2><p>Complete <a href=\"wiki:Comeback Queen\">Comeback Queen</a> to obtain this piece. The linked guide lists its requirements and steps.</p><h2>Upgrade</h2><p>At level 74, use <a href=\"wiki:Dancer&#x27;s Casaque +1\">Dancer&#x27;s Casaque +1</a>. <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> lists the required coins and materials.</p><p>Male and female artifact versions share the displayed name and equivalent stats; use the version for your character.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Dancer%27s_Attire_Set_%2B1",
+        "https://www.bg-wiki.com/ffxi/Category:Artifact_Armor",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Casaque"
+      ]
+    },
+    {
+      "title": "Dancer's Casaque +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer artifact body; level 74.",
+      "body_html": "<h2>Stats</h2><p>DEF 39; HP +25; STR +5; DEX +5; Waltz potency +10%; Enmity -2.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Casaque\">Dancer&#x27;s Casaque</a></td><td>1</td></tr><tr><td><a href=\"wiki:Filet Lace\">Filet Lace</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Stud\">Gold Stud</a></td><td>1</td></tr><tr><td><a href=\"wiki:Scarlet Linen\">Scarlet Linen</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a></td><td>35</td></tr></tbody></table><h2>Steps</h2><p>Follow <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>: deposit the coins with Sagheera, trade the base piece and three materials, then collect after the next Vana’diel midnight.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Attire_%2B1_Set",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Casaque_%2B1"
+      ]
+    },
+    {
+      "title": "Dancer's Bangles",
+      "category": "Armor",
+      "intro": "Dancer artifact hands; level 52.",
+      "body_html": "<h2>Stats</h2><p>DEF 15; HP +12; DEX +2; AGI +2; greater Step accuracy.</p><h2>How to get it</h2><p>Commission this piece from <a href=\"wiki:Matthias\">Matthias</a>. The linked guide lists its requirements and steps.</p><p>Trade: <a href=\"wiki:Karakul Cloth\">Karakul Cloth</a>, <a href=\"wiki:Rainbow Cloth\">Rainbow Cloth</a>, <a href=\"wiki:Rainbow Velvet\">Rainbow Velvet</a>.</p><h2>Upgrade</h2><p>At level 74, use <a href=\"wiki:Dancer&#x27;s Bangles +1\">Dancer&#x27;s Bangles +1</a>. <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> lists the required coins and materials.</p><p>Male and female artifact versions share the displayed name and equivalent stats; use the version for your character.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Dancer%27s_Attire_Set_%2B1",
+        "https://www.bg-wiki.com/ffxi/Category:Artifact_Armor",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Bangles"
+      ]
+    },
+    {
+      "title": "Dancer's Bangles +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer artifact hands; level 74.",
+      "body_html": "<h2>Stats</h2><p>DEF 16; HP +17; DEX +4; AGI +4; Attack +5; greater Step accuracy.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Bangles\">Dancer&#x27;s Bangles</a></td><td>1</td></tr><tr><td><a href=\"wiki:Filet Lace\">Filet Lace</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Stud\">Gold Stud</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a></td><td>25</td></tr></tbody></table><h2>Steps</h2><p>Follow <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>: deposit the coins with Sagheera, trade the base piece and three materials, then collect after the next Vana’diel midnight.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Attire_%2B1_Set",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Bangles_%2B1"
+      ]
+    },
+    {
+      "title": "Dancer's Tights",
+      "category": "Armor",
+      "intro": "Dancer artifact legs; level 58.",
+      "body_html": "<h2>Stats</h2><p>DEF 28; HP +10; CHR +3; Accuracy +3; Enmity -1.</p><h2>How to get it</h2><p>Complete <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a> to obtain this piece. The linked guide lists its requirements and steps.</p><h2>Upgrade</h2><p>At level 74, use <a href=\"wiki:Dancer&#x27;s Tights +1\">Dancer&#x27;s Tights +1</a>. <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> lists the required coins and materials.</p><p>Male and female artifact versions share the displayed name and equivalent stats; use the version for your character.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Dancer%27s_Attire_Set_%2B1",
+        "https://www.bg-wiki.com/ffxi/Category:Artifact_Armor",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Tights"
+      ]
+    },
+    {
+      "title": "Dancer's Tights +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer artifact legs; level 74.",
+      "body_html": "<h2>Stats</h2><p>DEF 29; HP +15; VIT +5; CHR +5; Accuracy +5; Attack +5; Enmity -1.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Tights\">Dancer&#x27;s Tights</a></td><td>1</td></tr><tr><td><a href=\"wiki:Filet Lace\">Filet Lace</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Stud\">Gold Stud</a></td><td>1</td></tr><tr><td><a href=\"wiki:Silky Suede\">Silky Suede</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a></td><td>25</td></tr></tbody></table><h2>Steps</h2><p>Follow <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>: deposit the coins with Sagheera, trade the base piece and three materials, then collect after the next Vana’diel midnight.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Attire_%2B1_Set",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Tights_%2B1"
+      ]
+    },
+    {
+      "title": "Dancer's Toe Shoes",
+      "category": "Armor",
+      "intro": "Dancer artifact feet; level 56.",
+      "body_html": "<h2>Stats</h2><p>DEF 14; HP +7; Attack +5; Evasion +5; longer Jigs.</p><h2>How to get it</h2><p>Commission this piece from <a href=\"wiki:Matthias\">Matthias</a>. The linked guide lists its requirements and steps.</p><p>Trade: <a href=\"wiki:Wamoura Cloth\">Wamoura Cloth</a>, <a href=\"wiki:Moblinweave\">Moblinweave</a>, <a href=\"wiki:Gold Brocade\">Gold Brocade</a>.</p><h2>Upgrade</h2><p>At level 74, use <a href=\"wiki:Dancer&#x27;s Toe Shoes +1\">Dancer&#x27;s Toe Shoes +1</a>. <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> lists the required coins and materials.</p><p>Male and female artifact versions share the displayed name and equivalent stats; use the version for your character.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Dancer%27s_Attire_Set_%2B1",
+        "https://www.bg-wiki.com/ffxi/Category:Artifact_Armor",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Toe_Shoes"
+      ]
+    },
+    {
+      "title": "Dancer's Toe Shoes +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer artifact feet; level 74.",
+      "body_html": "<h2>Stats</h2><p>DEF 15; HP +12; STR +3; AGI +3; Attack +5; Evasion +5; longer Jigs.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Toe Shoes\">Dancer&#x27;s Toe Shoes</a></td><td>1</td></tr><tr><td><a href=\"wiki:Filet Lace\">Filet Lace</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Stud\">Gold Stud</a></td><td>1</td></tr><tr><td><a href=\"wiki:Silky Suede\">Silky Suede</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ancient Beastcoin\">Ancient Beastcoin</a></td><td>20</td></tr></tbody></table><h2>Steps</h2><p>Follow <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>: deposit the coins with Sagheera, trade the base piece and three materials, then collect after the next Vana’diel midnight.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Attire_%2B1_Set",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Toe_Shoes_%2B1"
+      ]
+    },
+    {
+      "title": "Etoile Tiara",
+      "category": "Armor",
+      "intro": "Dancer relic head; level 72.",
+      "body_html": "<h2>Stats</h2><p>DEF 18; HP +20; STR +4; Attack +5; Waltz potency +5%.</p><h2>How to get it</h2><p>A relic drop in <a href=\"wiki:Dynamis - Bastok\">Dynamis - Bastok</a>, <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a>. Open the zone guide for entry requirements and eligible enemies; a drop is not guaranteed.</p><h2>Upgrade</h2><p>Keep the base piece for <a href=\"wiki:Etoile Tiara +1\">Etoile Tiara +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor"
+      ]
+    },
+    {
+      "title": "Etoile Tiara +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer relic head; level 75.",
+      "body_html": "<h2>Stats</h2><p>DEF 19; HP +20; STR +5; Attack +7; Waltz potency +5%.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Etoile Tiara\">Etoile Tiara</a></td><td>1</td></tr><tr><td><a href=\"wiki:Etoile Tiara -1\">Etoile Tiara -1</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a></td><td>30</td></tr></tbody></table><h2>Steps</h2><p>Collect the damaged piece in <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a>. Trade the full listed set to Sagheera in Port Jeuno, then collect after the next Vana’diel midnight. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_%2B1_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Etoile Tiara -1",
+      "category": "Materials",
+      "intro": "Damaged relic material used to upgrade Etoile Tiara.",
+      "body_html": "<h2>How to get it</h2><p>Drops from Nightmare enemies in <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a>. Use the zone guide for access and enemy details.</p><h2>Use</h2><p>Combine with <a href=\"wiki:Etoile Tiara\">Etoile Tiara</a>, <a href=\"wiki:Gold Ingot\">Gold Ingot</a> and 30 <a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a> at Sagheera for <a href=\"wiki:Etoile Tiara +1\">Etoile Tiara +1</a>. This damaged item cannot be equipped.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dynamis_-_Valkurm",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Etoile Casaque",
+      "category": "Armor",
+      "intro": "Dancer relic body; level 75.",
+      "body_html": "<h2>Stats</h2><p>DEF 39; DEX +4; Accuracy +10; Attack +12; improves Violent Flourish.</p><h2>How to get it</h2><p>A relic drop in <a href=\"wiki:Dynamis - Xarcabard\">Dynamis - Xarcabard</a>, <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Open the zone guide for entry requirements and eligible enemies; a drop is not guaranteed.</p><h2>Upgrade</h2><p>Keep the base piece for <a href=\"wiki:Etoile Casaque +1\">Etoile Casaque +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor"
+      ]
+    },
+    {
+      "title": "Etoile Casaque +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer relic body; level 75.",
+      "body_html": "<h2>Stats</h2><p>DEF 40; DEX +4; Accuracy +12; Attack +14; improves Violent Flourish.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Etoile Casaque\">Etoile Casaque</a></td><td>1</td></tr><tr><td><a href=\"wiki:Etoile Casaque -1\">Etoile Casaque -1</a></td><td>1</td></tr><tr><td><a href=\"wiki:Cilice\">Cilice</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a></td><td>30</td></tr></tbody></table><h2>Steps</h2><p>Collect the damaged piece in <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Trade the full listed set to Sagheera in Port Jeuno, then collect after the next Vana’diel midnight. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_%2B1_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Etoile Casaque -1",
+      "category": "Materials",
+      "intro": "Damaged relic material used to upgrade Etoile Casaque.",
+      "body_html": "<h2>How to get it</h2><p>Drops from Nightmare enemies in <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Use the zone guide for access and enemy details.</p><h2>Use</h2><p>Combine with <a href=\"wiki:Etoile Casaque\">Etoile Casaque</a>, <a href=\"wiki:Cilice\">Cilice</a> and 30 <a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a> at Sagheera for <a href=\"wiki:Etoile Casaque +1\">Etoile Casaque +1</a>. This damaged item cannot be equipped.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dynamis_-_Tavnazia",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Etoile Bangles",
+      "category": "Armor",
+      "intro": "Dancer relic hands; level 71.",
+      "body_html": "<h2>Stats</h2><p>DEF 17; HP +15; VIT +3; AGI +3; Attack +5; Evasion +5; Enmity +2.</p><h2>How to get it</h2><p>A relic drop in <a href=\"wiki:Dynamis - Windurst\">Dynamis - Windurst</a>, <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a>. Open the zone guide for entry requirements and eligible enemies; a drop is not guaranteed.</p><h2>Upgrade</h2><p>Keep the base piece for <a href=\"wiki:Etoile Bangles +1\">Etoile Bangles +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor"
+      ]
+    },
+    {
+      "title": "Etoile Bangles +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer relic hands; level 75.",
+      "body_html": "<h2>Stats</h2><p>DEF 18; HP +15; VIT +4; AGI +4; Attack +5; Evasion +5; Enmity +3.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Etoile Bangles\">Etoile Bangles</a></td><td>1</td></tr><tr><td><a href=\"wiki:Etoile Bangles -1\">Etoile Bangles -1</a></td><td>1</td></tr><tr><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a></td><td>30</td></tr></tbody></table><h2>Steps</h2><p>Collect the damaged piece in <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a>. Trade the full listed set to Sagheera in Port Jeuno, then collect after the next Vana’diel midnight. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_%2B1_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Etoile Bangles -1",
+      "category": "Materials",
+      "intro": "Damaged relic material used to upgrade Etoile Bangles.",
+      "body_html": "<h2>How to get it</h2><p>Drops from Nightmare enemies in <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a>. Use the zone guide for access and enemy details.</p><h2>Use</h2><p>Combine with <a href=\"wiki:Etoile Bangles\">Etoile Bangles</a>, <a href=\"wiki:Gold Ingot\">Gold Ingot</a> and 30 <a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a> at Sagheera for <a href=\"wiki:Etoile Bangles +1\">Etoile Bangles +1</a>. This damaged item cannot be equipped.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dynamis_-_Buburimu",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Etoile Tights",
+      "category": "Armor",
+      "intro": "Dancer relic legs; level 74.",
+      "body_html": "<h2>Stats</h2><p>DEF 28; STR +3; CHR +3; Haste +3%; longer Jigs.</p><h2>How to get it</h2><p>A relic drop in <a href=\"wiki:Dynamis - Beaucedine\">Dynamis - Beaucedine</a>, <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Open the zone guide for entry requirements and eligible enemies; a drop is not guaranteed.</p><h2>Upgrade</h2><p>Keep the base piece for <a href=\"wiki:Etoile Tights +1\">Etoile Tights +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor"
+      ]
+    },
+    {
+      "title": "Etoile Tights +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer relic legs; level 75.",
+      "body_html": "<h2>Stats</h2><p>DEF 29; STR +4; CHR +4; Haste +3%; longer Jigs.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Etoile Tights\">Etoile Tights</a></td><td>1</td></tr><tr><td><a href=\"wiki:Etoile Tights -1\">Etoile Tights -1</a></td><td>1</td></tr><tr><td><a href=\"wiki:Smooth Velvet\">Smooth Velvet</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a></td><td>30</td></tr></tbody></table><h2>Steps</h2><p>Collect the damaged piece in <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Trade the full listed set to Sagheera in Port Jeuno, then collect after the next Vana’diel midnight. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_%2B1_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Etoile Tights -1",
+      "category": "Materials",
+      "intro": "Damaged relic material used to upgrade Etoile Tights.",
+      "body_html": "<h2>How to get it</h2><p>Drops from Nightmare enemies in <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a>. Use the zone guide for access and enemy details.</p><h2>Use</h2><p>Combine with <a href=\"wiki:Etoile Tights\">Etoile Tights</a>, <a href=\"wiki:Smooth Velvet\">Smooth Velvet</a> and 30 <a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a> at Sagheera for <a href=\"wiki:Etoile Tights +1\">Etoile Tights +1</a>. This damaged item cannot be equipped.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dynamis_-_Tavnazia",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Etoile Toe Shoes",
+      "category": "Armor",
+      "intro": "Dancer relic feet; level 73.",
+      "body_html": "<h2>Stats</h2><p>DEF 16; HP +15; DEX +4; Accuracy +3; greater Step accuracy.</p><h2>How to get it</h2><p>A relic drop in <a href=\"wiki:Dynamis - Jeuno\">Dynamis - Jeuno</a>, <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a>. Open the zone guide for entry requirements and eligible enemies; a drop is not guaranteed.</p><h2>Upgrade</h2><p>Keep the base piece for <a href=\"wiki:Etoile Toe Shoes +1\">Etoile Toe Shoes +1</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor"
+      ]
+    },
+    {
+      "title": "Etoile Toe Shoes +1",
+      "category": "Armor",
+      "intro": "Upgraded Dancer relic feet; level 75.",
+      "body_html": "<h2>Stats</h2><p>DEF 17; HP +20; DEX +4; Accuracy +5; greater Step accuracy.</p><h2>What to bring</h2><table><thead><tr><th>Material</th><th>Quantity</th></tr></thead><tbody><tr><td><a href=\"wiki:Etoile Toe Shoes\">Etoile Toe Shoes</a></td><td>1</td></tr><tr><td><a href=\"wiki:Etoile Toe Shoes -1\">Etoile Toe Shoes -1</a></td><td>1</td></tr><tr><td><a href=\"wiki:Holy Leather\">Holy Leather</a></td><td>1</td></tr><tr><td><a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a></td><td>30</td></tr></tbody></table><h2>Steps</h2><p>Collect the damaged piece in <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a>. Trade the full listed set to Sagheera in Port Jeuno, then collect after the next Vana’diel midnight. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_%2B1_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "Etoile Toe Shoes -1",
+      "category": "Materials",
+      "intro": "Damaged relic material used to upgrade Etoile Toe Shoes.",
+      "body_html": "<h2>How to get it</h2><p>Drops from Nightmare enemies in <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a>. Use the zone guide for access and enemy details.</p><h2>Use</h2><p>Combine with <a href=\"wiki:Etoile Toe Shoes\">Etoile Toe Shoes</a>, <a href=\"wiki:Holy Leather\">Holy Leather</a> and 30 <a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a> at Sagheera for <a href=\"wiki:Etoile Toe Shoes +1\">Etoile Toe Shoes +1</a>. This damaged item cannot be equipped.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dynamis_-_Qufim",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Etoile Cape",
+      "category": "Armor",
+      "intro": "Dancer relic back piece; level 70.",
+      "body_html": "<h2>Stats</h2><p>DEF 5; DEX +5; CHR +5; Accuracy +5; Evasion +5.</p><h2>How to get it</h2><p>Drops from Nightmare monsters in <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a>. There is no level-75 +1 upgrade for this accessory.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Etoile_Attire_Set",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor"
+      ]
+    },
+    {
+      "title": "Dancer Artifact and Relic Upgrades",
+      "category": "Guides",
+      "intro": "One place for the Dancer armor upgrade hand-ins.",
+      "body_html": "<h2>Before starting</h2><p>Unlock Sea by reaching <a href=\"wiki:Garden of Antiquity\">Garden of Antiquity</a> in Chains of Promathia. Visit <a href=\"wiki:Sagheera\">Sagheera</a> in <a href=\"wiki:Port Jeuno\">Port Jeuno</a> (I-8).</p><h2>Artifact +1: level 74</h2><p>Each recipe needs its matching base AF piece, one <a href=\"wiki:Filet Lace\">Filet Lace</a>, one <a href=\"wiki:Gold Stud\">Gold Stud</a>, the crafted material and the listed coins.</p><table><thead><tr><th>Reward</th><th>Crafted material</th><th>Ancient Beastcoins</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Tiara +1\">Dancer&#x27;s Tiara +1</a></td><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td><td>30</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Casaque +1\">Dancer&#x27;s Casaque +1</a></td><td><a href=\"wiki:Scarlet Linen\">Scarlet Linen</a></td><td>35</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Bangles +1\">Dancer&#x27;s Bangles +1</a></td><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td><td>25</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Tights +1\">Dancer&#x27;s Tights +1</a></td><td><a href=\"wiki:Silky Suede\">Silky Suede</a></td><td>25</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Toe Shoes +1\">Dancer&#x27;s Toe Shoes +1</a></td><td><a href=\"wiki:Silky Suede\">Silky Suede</a></td><td>20</td></tr></tbody></table><ol><li>Collect the armor and materials. <a href=\"wiki:Filet Lace\">Filet Lace</a> comes from Temenos; <a href=\"wiki:Gold Stud\">Gold Stud</a> from Apollyon. Ancient Beastcoins are Limbus currency.</li><li>Trade the required Ancient Beastcoins to Sagheera first to add them to your stored balance.</li><li>Trade the base piece, Filet Lace, Gold Stud and crafted material together. Sagheera deducts the recipe’s coins.</li><li>Return after the next Vana’diel midnight and collect the finished piece before placing another order.</li></ol><h2>Relic +1: level 75</h2><p>Trade the base relic piece, its matching -1 item, the material below and 30 <a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a> together. Collect after the next Vana’diel midnight.</p><table><thead><tr><th>Reward</th><th>-1 drop zone</th><th>Crafted material</th></tr></thead><tbody><tr><td><a href=\"wiki:Etoile Tiara +1\">Etoile Tiara +1</a></td><td><a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a></td><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td></tr><tr><td><a href=\"wiki:Etoile Casaque +1\">Etoile Casaque +1</a></td><td><a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td><td><a href=\"wiki:Cilice\">Cilice</a></td></tr><tr><td><a href=\"wiki:Etoile Bangles +1\">Etoile Bangles +1</a></td><td><a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a></td><td><a href=\"wiki:Gold Ingot\">Gold Ingot</a></td></tr><tr><td><a href=\"wiki:Etoile Tights +1\">Etoile Tights +1</a></td><td><a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td><td><a href=\"wiki:Smooth Velvet\">Smooth Velvet</a></td></tr><tr><td><a href=\"wiki:Etoile Toe Shoes +1\">Etoile Toe Shoes +1</a></td><td><a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a></td><td><a href=\"wiki:Holy Leather\">Holy Leather</a></td></tr></tbody></table><p>These hand-in recipes and the next-midnight collection rule are present in the reviewed server base. Exact Limbus and Dynamis loot availability still follows Zenith’s installed content.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/item_basic.sql",
+        "https://www.bg-wiki.com/ffxi/Category:Artifact_Armor_%2B1",
+        "https://www.bg-wiki.com/ffxi/Category:Relic_Armor_%2B1"
+      ]
+    },
+    {
+      "title": "War Hoop",
+      "category": "Weapons",
+      "intro": "Level-40 Dancer artifact throwing weapon.",
+      "body_html": "<h2>How to get it</h2><p>Complete <a href=\"wiki:The Unfinished Waltz\">The Unfinished Waltz</a>. The quest includes a spawned Hippogryph fight in Grauberg (S) and requires reading The Essence of Dance before returning to Laila.</p><h2>Use</h2><p>This is a throwing weapon, not the dagger for your melee weapon skills.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/The_Unfinished_Waltz"
+      ]
+    },
+    {
+      "title": "Yagudo Glue",
+      "category": "Materials",
+      "intro": "Bring one block for The Road to Divadom.",
+      "body_html": "<h2>How to get it</h2><p>Farm Yagudo bard types in Shadowreign zones: Yagudo Piper, Lutenist, Chanter, Conductor or Drummer. <a href=\"wiki:Castle Oztroja (S)\">Castle Oztroja (S)</a> is one farming area. Open the enemy or zone page for its location.</p><h2>Use</h2><p>During <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a>, trade it to <a href=\"wiki:Glowing Pebbles\">Glowing Pebbles</a> in <a href=\"wiki:Jugner Forest (S)\">Jugner Forest (S)</a> (I-5) as Dancer.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/The_Road_to_Divadom",
+        "https://ffxiclopedia.fandom.com/wiki/Yagudo_Glue"
+      ]
+    },
+    {
+      "title": "Trance",
+      "category": "Job Abilities",
+      "intro": "Dancer level 1: special.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 1. No scroll or purchase.</p><h2>Use</h2><p>Temporarily removes TP costs from dances. Use it when repeated healing would otherwise empty your TP.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/trance.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Drain Samba",
+      "category": "Job Abilities",
+      "intro": "Dancer level 5: samba.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 5. No scroll or purchase.</p><h2>Use</h2><p>Apply the samba to yourself, then hit the enemy to inflict a drain daze. Party melee attacks against that enemy can drain HP.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/drain_samba.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Curing Waltz",
+      "category": "Job Abilities",
+      "intro": "Dancer level 15: waltz.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 15. No scroll or purchase.</p><h2>Use</h2><p>Spend TP to heal one eligible target.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/curing_waltz.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Quickstep",
+      "category": "Job Abilities",
+      "intro": "Dancer level 20: step.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 20. No scroll or purchase.</p><h2>Use</h2><p>Spend TP on a melee-range step that lowers evasion when it lands and earns Finishing Moves.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/quickstep.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Animated Flourish",
+      "category": "Job Abilities",
+      "intro": "Dancer level 20: flourish i.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 20. No scroll or purchase.</p><h2>Use</h2><p>Spend Finishing Moves to draw enemy attention.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/animated_flourish.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Aspir Samba",
+      "category": "Job Abilities",
+      "intro": "Dancer level 25: samba.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 25. No scroll or purchase.</p><h2>Use</h2><p>Hit an MP-bearing enemy to give party melee attacks an MP-drain effect against it.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/aspir_samba.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Divine Waltz",
+      "category": "Job Abilities",
+      "intro": "Dancer level 25: waltz.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 25. No scroll or purchase.</p><h2>Use</h2><p>Spend TP to heal nearby party members around the target.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/divine_waltz.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Spectral Jig",
+      "category": "Job Abilities",
+      "intro": "Dancer level 25: jig.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 25. No scroll or purchase.</p><h2>Use</h2><p>Give yourself Sneak and Invisible for travel. Cancel existing Sneak before refreshing it.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/spectral_jig.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Curing Waltz II",
+      "category": "Job Abilities",
+      "intro": "Dancer level 30: waltz.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 30. No scroll or purchase.</p><h2>Use</h2><p>A stronger single-target heal that spends more TP than Curing Waltz.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/curing_waltz_ii.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Box Step",
+      "category": "Job Abilities",
+      "intro": "Dancer level 30: step.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 30. No scroll or purchase.</p><h2>Use</h2><p>A successful step lowers defense and earns Finishing Moves.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/box_step.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Desperate Flourish",
+      "category": "Job Abilities",
+      "intro": "Dancer level 30: flourish i.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 30. No scroll or purchase.</p><h2>Use</h2><p>Spend Finishing Moves on an attack that can inflict Weight.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/desperate_flourish.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Drain Samba II",
+      "category": "Job Abilities",
+      "intro": "Dancer level 35: samba.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 35. No scroll or purchase.</p><h2>Use</h2><p>A stronger HP-drain samba for attacks against an enemy you have struck.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/drain_samba_ii.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Healing Waltz",
+      "category": "Job Abilities",
+      "intro": "Dancer level 35: waltz.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 35. No scroll or purchase.</p><h2>Use</h2><p>Spend TP to remove an eligible harmful status from a target. It does not remove every status.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/healing_waltz.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Stutter Step",
+      "category": "Job Abilities",
+      "intro": "Dancer level 40: step.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 40. No scroll or purchase.</p><h2>Use</h2><p>A successful step lowers magic evasion and earns Finishing Moves.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/stutter_step.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Reverse Flourish",
+      "category": "Job Abilities",
+      "intro": "Dancer level 40: flourish ii.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 40. No scroll or purchase.</p><h2>Use</h2><p>Convert stored Finishing Moves into TP. More stored moves produce more TP.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/reverse_flourish.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Curing Waltz III",
+      "category": "Job Abilities",
+      "intro": "Dancer level 45: waltz.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 45. No scroll or purchase.</p><h2>Use</h2><p>A stronger single-target TP heal.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/curing_waltz_iii.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Haste Samba",
+      "category": "Job Abilities",
+      "intro": "Dancer level 45: samba.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 45. No scroll or purchase.</p><h2>Use</h2><p>Strike the enemy to let party melee attacks against it receive the samba haste effect.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/haste_samba.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Violent Flourish",
+      "category": "Job Abilities",
+      "intro": "Dancer level 45: flourish i.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 45. No scroll or purchase.</p><h2>Use</h2><p>Spend Finishing Moves on an attack that can Stun. A hit does not guarantee that Stun lands.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/violent_flourish.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Building Flourish",
+      "category": "Job Abilities",
+      "intro": "Dancer level 50: flourish ii.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 50. No scroll or purchase.</p><h2>Use</h2><p>Spend Finishing Moves to improve the next weapon skill. Save it for a weapon skill you can use promptly.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/building_flourish.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Chocobo Jig",
+      "category": "Job Abilities",
+      "intro": "Dancer level 55: jig.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 55. No scroll or purchase.</p><h2>Use</h2><p>Increase your own movement speed. This is the level-55 single-target jig.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/chocobo_jig.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Aspir Samba II",
+      "category": "Job Abilities",
+      "intro": "Dancer level 60: samba.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 60. No scroll or purchase.</p><h2>Use</h2><p>A stronger MP-drain samba; the enemy must have MP.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/aspir_samba_ii.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Wild Flourish",
+      "category": "Job Abilities",
+      "intro": "Dancer level 60: flourish ii.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 60. No scroll or purchase.</p><h2>Use</h2><p>Spend Finishing Moves to prepare the target for a skillchain. Follow with a compatible weapon skill.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/wild_flourish.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Drain Samba III",
+      "category": "Job Abilities",
+      "intro": "Dancer level 65: samba.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 65. No scroll or purchase.</p><h2>Use</h2><p>The strongest Drain Samba available in the level-75 era.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/drain_samba_iii.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Curing Waltz IV",
+      "category": "Job Abilities",
+      "intro": "Dancer level 70: waltz.",
+      "body_html": "<h2>How to obtain</h2><p>Learned automatically as Dancer at level 70. No scroll or purchase.</p><h2>Use</h2><p>The strongest single-target Curing Waltz available by level 75.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/curing_waltz_iv.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Saber Dance",
+      "category": "Job Abilities",
+      "intro": "Dancer level 75: merit ability.",
+      "body_html": "<h2>How to obtain</h2><p>Unlock with Dancer Group 2 merits at level 75.</p><h2>Use</h2><p>Increase Double Attack while disabling Waltzes. Cancel the stance before emergency Waltz healing.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/saber_dance.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Fan Dance",
+      "category": "Job Abilities",
+      "intro": "Dancer level 75: merit ability.",
+      "body_html": "<h2>How to obtain</h2><p>Unlock with Dancer Group 2 merits at level 75.</p><h2>Use</h2><p>Reduce physical damage while disabling Sambas. Choose it when you need to survive incoming hits.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/fan_dance.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "No Foot Rise",
+      "category": "Job Abilities",
+      "intro": "Dancer level 75: merit ability.",
+      "body_html": "<h2>How to obtain</h2><p>Unlock with Dancer Group 2 merits at level 75.</p><h2>Use</h2><p>Generate Finishing Moves without landing a Step. Requires Group 2 merits.</p><p>Return to <a href=\"wiki:Dancer\">Dancer</a> for the complete level-75 dance list. Exact TP costs and cooldowns use your installed Zenith rules.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/actions/abilities/no_foot_rise.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/job_utils/dancer.lua"
+      ]
+    },
+    {
+      "title": "Dancer",
+      "category": "Jobs",
+      "intro": "A melee support job that uses TP for healing, travel dances and party support, with Steps and Finishing Moves for control.",
+      "body_html": "<h2>Start here</h2><p>Unlock with <a href=\"wiki:Lakeside Minuet\">Lakeside Minuet</a>. Build TP through melee attacks, use Steps for Finishing Moves, and reserve enough TP to heal. <a href=\"wiki:Reverse Flourish\">Reverse Flourish</a> converts those moves back into TP.</p><h2>Abilities and dances through level 75</h2><table><thead><tr><th>Level</th><th>Ability</th><th>Family</th><th>Practical use</th></tr></thead><tbody><tr><td>1</td><td><a href=\"wiki:Trance\">Trance</a></td><td>Special</td><td>Temporarily removes TP costs from dances. Use it when repeated healing would otherwise empty your TP.</td></tr><tr><td>5</td><td><a href=\"wiki:Drain Samba\">Drain Samba</a></td><td>Samba</td><td>Apply the samba to yourself, then hit the enemy to inflict a drain daze. Party melee attacks against that enemy can drain HP.</td></tr><tr><td>15</td><td><a href=\"wiki:Curing Waltz\">Curing Waltz</a></td><td>Waltz</td><td>Spend TP to heal one eligible target.</td></tr><tr><td>20</td><td><a href=\"wiki:Quickstep\">Quickstep</a></td><td>Step</td><td>Spend TP on a melee-range step that lowers evasion when it lands and earns Finishing Moves.</td></tr><tr><td>20</td><td><a href=\"wiki:Animated Flourish\">Animated Flourish</a></td><td>Flourish I</td><td>Spend Finishing Moves to draw enemy attention.</td></tr><tr><td>25</td><td><a href=\"wiki:Aspir Samba\">Aspir Samba</a></td><td>Samba</td><td>Hit an MP-bearing enemy to give party melee attacks an MP-drain effect against it.</td></tr><tr><td>25</td><td><a href=\"wiki:Divine Waltz\">Divine Waltz</a></td><td>Waltz</td><td>Spend TP to heal nearby party members around the target.</td></tr><tr><td>25</td><td><a href=\"wiki:Spectral Jig\">Spectral Jig</a></td><td>Jig</td><td>Give yourself Sneak and Invisible for travel. Cancel existing Sneak before refreshing it.</td></tr><tr><td>30</td><td><a href=\"wiki:Curing Waltz II\">Curing Waltz II</a></td><td>Waltz</td><td>A stronger single-target heal that spends more TP than Curing Waltz.</td></tr><tr><td>30</td><td><a href=\"wiki:Box Step\">Box Step</a></td><td>Step</td><td>A successful step lowers defense and earns Finishing Moves.</td></tr><tr><td>30</td><td><a href=\"wiki:Desperate Flourish\">Desperate Flourish</a></td><td>Flourish I</td><td>Spend Finishing Moves on an attack that can inflict Weight.</td></tr><tr><td>35</td><td><a href=\"wiki:Drain Samba II\">Drain Samba II</a></td><td>Samba</td><td>A stronger HP-drain samba for attacks against an enemy you have struck.</td></tr><tr><td>35</td><td><a href=\"wiki:Healing Waltz\">Healing Waltz</a></td><td>Waltz</td><td>Spend TP to remove an eligible harmful status from a target. It does not remove every status.</td></tr><tr><td>40</td><td><a href=\"wiki:Stutter Step\">Stutter Step</a></td><td>Step</td><td>A successful step lowers magic evasion and earns Finishing Moves.</td></tr><tr><td>40</td><td><a href=\"wiki:Reverse Flourish\">Reverse Flourish</a></td><td>Flourish II</td><td>Convert stored Finishing Moves into TP. More stored moves produce more TP.</td></tr><tr><td>45</td><td><a href=\"wiki:Curing Waltz III\">Curing Waltz III</a></td><td>Waltz</td><td>A stronger single-target TP heal.</td></tr><tr><td>45</td><td><a href=\"wiki:Haste Samba\">Haste Samba</a></td><td>Samba</td><td>Strike the enemy to let party melee attacks against it receive the samba haste effect.</td></tr><tr><td>45</td><td><a href=\"wiki:Violent Flourish\">Violent Flourish</a></td><td>Flourish I</td><td>Spend Finishing Moves on an attack that can Stun. A hit does not guarantee that Stun lands.</td></tr><tr><td>50</td><td><a href=\"wiki:Building Flourish\">Building Flourish</a></td><td>Flourish II</td><td>Spend Finishing Moves to improve the next weapon skill. Save it for a weapon skill you can use promptly.</td></tr><tr><td>55</td><td><a href=\"wiki:Chocobo Jig\">Chocobo Jig</a></td><td>Jig</td><td>Increase your own movement speed. This is the level-55 single-target jig.</td></tr><tr><td>60</td><td><a href=\"wiki:Aspir Samba II\">Aspir Samba II</a></td><td>Samba</td><td>A stronger MP-drain samba; the enemy must have MP.</td></tr><tr><td>60</td><td><a href=\"wiki:Wild Flourish\">Wild Flourish</a></td><td>Flourish II</td><td>Spend Finishing Moves to prepare the target for a skillchain. Follow with a compatible weapon skill.</td></tr><tr><td>65</td><td><a href=\"wiki:Drain Samba III\">Drain Samba III</a></td><td>Samba</td><td>The strongest Drain Samba available in the level-75 era.</td></tr><tr><td>70</td><td><a href=\"wiki:Curing Waltz IV\">Curing Waltz IV</a></td><td>Waltz</td><td>The strongest single-target Curing Waltz available by level 75.</td></tr><tr><td>75</td><td><a href=\"wiki:Saber Dance\">Saber Dance</a></td><td>Merit ability</td><td>Increase Double Attack while disabling Waltzes. Cancel the stance before emergency Waltz healing.</td></tr><tr><td>75</td><td><a href=\"wiki:Fan Dance\">Fan Dance</a></td><td>Merit ability</td><td>Reduce physical damage while disabling Sambas. Choose it when you need to survive incoming hits.</td></tr><tr><td>75</td><td><a href=\"wiki:No Foot Rise\">No Foot Rise</a></td><td>Merit ability</td><td>Generate Finishing Moves without landing a Step. Requires Group 2 merits.</td></tr></tbody></table><h2>Era traits</h2><table><thead><tr><th>Level</th><th>Trait</th><th>Effect</th></tr></thead><tbody><tr><td>15 / 45 / 75</td><td>Evasion Bonus</td><td>Higher evasion in three ranks.</td></tr><tr><td>20 / 55</td><td>Resist Slow</td><td>Chance to resist Slow.</td></tr><tr><td>25 / 45 / 65</td><td>Subtle Blow</td><td>Reduces TP given to enemies by your attacks.</td></tr><tr><td>30 / 60</td><td>Accuracy Bonus</td><td>Higher accuracy in two ranks.</td></tr><tr><td>75 merits</td><td>Closed Position</td><td>Accuracy and evasion benefit when facing the enemy.</td></tr></tbody></table><h2>Combat skills in the 75 era</h2><table><thead><tr><th>Skill</th><th>Rank</th><th>Cap at level 75</th></tr></thead><tbody><tr><td>Dagger</td><td>B+</td><td>256</td></tr><tr><td>Hand-to-Hand</td><td>D</td><td>210</td></tr><tr><td>Sword</td><td>D</td><td>210</td></tr><tr><td>Throwing</td><td>C+</td><td>230</td></tr><tr><td>Evasion</td><td>B+</td><td>256</td></tr><tr><td>Parrying</td><td>B</td><td>250</td></tr></tbody></table><p>These are historical ratings. The reviewed server base uses Dagger A+ unless an era module changes it. Modern low-level additions such as natural Dual Wield, Skillchain Bonus, Contradance and Chocobo Jig II are not part of this historical table; their low level requirements alone do not make them 75-era content.</p><h2>Artifact armor</h2><table><thead><tr><th>Piece</th><th>Level</th><th>How to obtain</th><th>Upgrade</th></tr></thead><tbody><tr><td><a href=\"wiki:Dancer&#x27;s Tiara\">Dancer&#x27;s Tiara</a></td><td>54</td><td><a href=\"wiki:Matthias\">Matthias</a></td><td><a href=\"wiki:Dancer&#x27;s Tiara +1\">Dancer&#x27;s Tiara +1</a> · level 74</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Casaque\">Dancer&#x27;s Casaque</a></td><td>60</td><td><a href=\"wiki:Comeback Queen\">Comeback Queen</a></td><td><a href=\"wiki:Dancer&#x27;s Casaque +1\">Dancer&#x27;s Casaque +1</a> · level 74</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Bangles\">Dancer&#x27;s Bangles</a></td><td>52</td><td><a href=\"wiki:Matthias\">Matthias</a></td><td><a href=\"wiki:Dancer&#x27;s Bangles +1\">Dancer&#x27;s Bangles +1</a> · level 74</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Tights\">Dancer&#x27;s Tights</a></td><td>58</td><td><a href=\"wiki:The Road to Divadom\">The Road to Divadom</a></td><td><a href=\"wiki:Dancer&#x27;s Tights +1\">Dancer&#x27;s Tights +1</a> · level 74</td></tr><tr><td><a href=\"wiki:Dancer&#x27;s Toe Shoes\">Dancer&#x27;s Toe Shoes</a></td><td>56</td><td><a href=\"wiki:Matthias\">Matthias</a></td><td><a href=\"wiki:Dancer&#x27;s Toe Shoes +1\">Dancer&#x27;s Toe Shoes +1</a> · level 74</td></tr></tbody></table><p>Artifact weapon: <a href=\"wiki:War Hoop\">War Hoop</a> (40), from <a href=\"wiki:The Unfinished Waltz\">The Unfinished Waltz</a>. Dancer’s three extra AF pieces are <a href=\"wiki:Matthias\">Matthias</a> commissions; there is no Dancer AF coffer route.</p><h2>Relic armor</h2><table><thead><tr><th>Piece</th><th>Level</th><th>Drop zones</th><th>Upgrade</th></tr></thead><tbody><tr><td><a href=\"wiki:Etoile Tiara\">Etoile Tiara</a></td><td>72</td><td><a href=\"wiki:Dynamis - Bastok\">Dynamis - Bastok</a>, <a href=\"wiki:Dynamis - Buburimu\">Dynamis - Buburimu</a></td><td><a href=\"wiki:Etoile Tiara +1\">Etoile Tiara +1</a> · level 75</td></tr><tr><td><a href=\"wiki:Etoile Casaque\">Etoile Casaque</a></td><td>75</td><td><a href=\"wiki:Dynamis - Xarcabard\">Dynamis - Xarcabard</a>, <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td><td><a href=\"wiki:Etoile Casaque +1\">Etoile Casaque +1</a> · level 75</td></tr><tr><td><a href=\"wiki:Etoile Bangles\">Etoile Bangles</a></td><td>71</td><td><a href=\"wiki:Dynamis - Windurst\">Dynamis - Windurst</a>, <a href=\"wiki:Dynamis - Valkurm\">Dynamis - Valkurm</a></td><td><a href=\"wiki:Etoile Bangles +1\">Etoile Bangles +1</a> · level 75</td></tr><tr><td><a href=\"wiki:Etoile Tights\">Etoile Tights</a></td><td>74</td><td><a href=\"wiki:Dynamis - Beaucedine\">Dynamis - Beaucedine</a>, <a href=\"wiki:Dynamis - Tavnazia\">Dynamis - Tavnazia</a></td><td><a href=\"wiki:Etoile Tights +1\">Etoile Tights +1</a> · level 75</td></tr><tr><td><a href=\"wiki:Etoile Toe Shoes\">Etoile Toe Shoes</a></td><td>73</td><td><a href=\"wiki:Dynamis - Jeuno\">Dynamis - Jeuno</a>, <a href=\"wiki:Dynamis - Qufim\">Dynamis - Qufim</a></td><td><a href=\"wiki:Etoile Toe Shoes +1\">Etoile Toe Shoes +1</a> · level 75</td></tr></tbody></table><p><a href=\"wiki:Etoile Cape\">Etoile Cape</a> is the level-70 relic accessory. All recipes: <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a>.</p><h2>Weapons and weapon skills</h2><p>Use <a href=\"wiki:Dagger\">Dagger</a> as your main weapon family. <a href=\"wiki:Cloak and Dagger\">Cloak and Dagger</a> unlocks <a href=\"wiki:Evisceration\">Evisceration</a> at job level 71+ and base dagger skill 230+. <a href=\"wiki:Unlocking a Myth (Dancer)\">Unlocking a Myth (Dancer)</a> uses <a href=\"wiki:Main Gauche\">Main Gauche</a> to unlock <a href=\"wiki:Pyrrhic Kleos\">Pyrrhic Kleos</a> at 75.</p><p>The original level-75 Dancer special weapon is the Mythic dagger <a href=\"wiki:Terpsichore\">Terpsichore</a>. Dancer cannot equip <a href=\"wiki:Mandau\">Mandau</a> in the original rules; do not follow a Thief relic route expecting a Dancer weapon.</p><h2>Merits</h2><table><thead><tr><th>Group</th><th>Options</th></tr></thead><tbody><tr><td>1</td><td>Haste Samba Effect; Reverse Flourish Effect; Step Accuracy; Building Flourish Effect</td></tr><tr><td>2</td><td><a href=\"wiki:Saber Dance\">Saber Dance</a>, <a href=\"wiki:Fan Dance\">Fan Dance</a>, <a href=\"wiki:No Foot Rise\">No Foot Rise</a>; Closed Position</td></tr></tbody></table><h2>Progression</h2><p><a href=\"wiki:Lakeside Minuet\">Lakeside Minuet</a> → <a href=\"wiki:The Unfinished Waltz\">The Unfinished Waltz</a> → <a href=\"wiki:The Road to Divadom\">The Road to Divadom</a> → <a href=\"wiki:Comeback Queen\">Comeback Queen</a>. <a href=\"wiki:A Furious Finale\">A Furious Finale</a> is the original level-limit battle; use Zenith’s installed limit-break route when it differs.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/abilities.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/traits.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/skill_ranks.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/modules/era/sql/soa/pre_2014_skill_ranks.sql",
+        "https://www.bg-wiki.com/ffxi/Dancer",
+        "https://ffxiclopedia.fandom.com/wiki/Dancer",
+        "https://www.bg-wiki.com/ffxi/Mandau_(Level_75)",
+        "https://www.bg-wiki.com/ffxi/Terpsichore_(Level_75)"
+      ]
+    }
+  ]
+}

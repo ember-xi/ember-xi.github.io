@@ -1,0 +1,3355 @@
+{
+  "license": "CC BY-SA 4.0",
+  "source": "https://edenxi.miraheze.org",
+  "date": "2026-09-26",
+  "redirect_titles": 836,
+  "edges": [
+    {
+      "from": "Bastok Missions",
+      "to": "Category:Bastok Missions"
+    },
+    {
+      "from": "Bastok Quests",
+      "to": "Category:Bastok Quests"
+    },
+    {
+      "from": "Bastok",
+      "to": "Category:Bastok"
+    },
+    {
+      "from": "BST",
+      "to": "Beastmaster"
+    },
+    {
+      "from": "BLM",
+      "to": "Black Mage"
+    },
+    {
+      "from": "AoE",
+      "to": "AOE"
+    },
+    {
+      "from": "Alchemist Water",
+      "to": "Alchemist's Water"
+    },
+    {
+      "from": "Aeroga III",
+      "to": "Scroll of Aeroga III"
+    },
+    {
+      "from": "BRD",
+      "to": "Bard"
+    },
+    {
+      "from": "BLU",
+      "to": "Blue Mage"
+    },
+    {
+      "from": "Artifact Armor",
+      "to": "Category:Artifact Armor"
+    },
+    {
+      "from": "Alchemy Skill",
+      "to": "Category:Alchemy"
+    },
+    {
+      "from": "Ammo",
+      "to": "Category:Ammunition"
+    },
+    {
+      "from": "Bar Status Effect",
+      "to": "Resistance"
+    },
+    {
+      "from": "Bastok Mission 1-1",
+      "to": "The Zeruhn Report"
+    },
+    {
+      "from": "Bastok Mission 2-1",
+      "to": "The Crystal Line"
+    },
+    {
+      "from": "Bastok Mission 1-3",
+      "to": "Fetichism"
+    },
+    {
+      "from": "Bastok Mission 2-2",
+      "to": "Wading Beast"
+    },
+    {
+      "from": "Bastok Mission 2-3",
+      "to": "The Emissary"
+    },
+    {
+      "from": "Bastok Mission 3-1",
+      "to": "The Four Musketeers"
+    },
+    {
+      "from": "Bastok Mission 3-2",
+      "to": "To the Forsaken Mines"
+    },
+    {
+      "from": "Bastok Mission 3-3",
+      "to": "Appointment to Jeuno"
+    },
+    {
+      "from": "Armor",
+      "to": "Category:Armor"
+    },
+    {
+      "from": "Alchemy",
+      "to": "Category:Alchemy"
+    },
+    {
+      "from": "Ammunition",
+      "to": "Category:Ammunition"
+    },
+    {
+      "from": "Archery",
+      "to": "Category:Archery"
+    },
+    {
+      "from": "Aern",
+      "to": "Category:Aern"
+    },
+    {
+      "from": "Antica",
+      "to": "Category:Antica"
+    },
+    {
+      "from": "Artifact Armor Plus 1",
+      "to": "Artifact Armor +1"
+    },
+    {
+      "from": "Arrabbiato",
+      "to": "Arrabbiata"
+    },
+    {
+      "from": "Arrabbiato Plus 1",
+      "to": "Arrabbiata +1"
+    },
+    {
+      "from": "Arhats Jinpachi",
+      "to": "Arhat's Jinpachi"
+    },
+    {
+      "from": "Arhat's Gi Set +1",
+      "to": "Arhat's Gi +1 Set"
+    },
+    {
+      "from": "Arrabbiato +1",
+      "to": "Arrabbiata +1"
+    },
+    {
+      "from": "A Mercenary Life",
+      "to": "Aht Urhgan Mission 8: A Mercenary Life"
+    },
+    {
+      "from": "??? Items",
+      "to": "Category:??? Items"
+    },
+    {
+      "from": "Alchemy Guide by Ctownwoody",
+      "to": "Alchemy Guide by Ctownwoody - First published 2009"
+    },
+    {
+      "from": "Accuracy Down",
+      "to": "Accuracy Down (Status Effect)"
+    },
+    {
+      "from": "Amnesia",
+      "to": "Amnesia (Status Effect)"
+    },
+    {
+      "from": "Angel Flute Plus 1",
+      "to": "Angel Flute +1"
+    },
+    {
+      "from": "Areas",
+      "to": "Category:Areas"
+    },
+    {
+      "from": "Airship, Windurst - Jeuno",
+      "to": "Airship, Jeuno - Windurst"
+    },
+    {
+      "from": "Archery Skill",
+      "to": "Category:Archery"
+    },
+    {
+      "from": "Amorphs",
+      "to": "Bestiary"
+    },
+    {
+      "from": "Aquans",
+      "to": "Bestiary"
+    },
+    {
+      "from": "Adargas Plus 1",
+      "to": "Adargas +1"
+    },
+    {
+      "from": "Adventuring Fellow Weapons",
+      "to": "Adventuring Fellow Equipment"
+    },
+    {
+      "from": "Adder Jambiya Plus 1",
+      "to": "Adder Jambiya +1"
+    },
+    {
+      "from": "AH",
+      "to": "Auction House"
+    },
+    {
+      "from": "AF",
+      "to": "Category:Artifact Armor"
+    },
+    {
+      "from": "Bestiary",
+      "to": "Category:Bestiary"
+    },
+    {
+      "from": "Beastmen",
+      "to": "Category:Beastmen"
+    },
+    {
+      "from": "Beetle",
+      "to": "Category:Beetles"
+    },
+    {
+      "from": "Black Magic",
+      "to": "Category:Black Magic"
+    },
+    {
+      "from": "Bee",
+      "to": "Category:Bees"
+    },
+    {
+      "from": "Bastok Mission 4-1",
+      "to": "Magicite (Bastok)"
+    },
+    {
+      "from": "Bastok Mission 5-1",
+      "to": "Darkness Rising"
+    },
+    {
+      "from": "Bastok Mission 5-2",
+      "to": "Xarcabard, Land of Truths"
+    },
+    {
+      "from": "Bastok Mission 9-2",
+      "to": "Where Two Paths Converge"
+    },
+    {
+      "from": "Bastok Mission 9-1",
+      "to": "The Salt of the Earth"
+    },
+    {
+      "from": "Bastok Mission 8-2",
+      "to": "Enter the Talekeeper"
+    },
+    {
+      "from": "Bastok Mission 8-1",
+      "to": "The Chains That Bind Us"
+    },
+    {
+      "from": "Bastok Mission 7-2",
+      "to": "On My Way"
+    },
+    {
+      "from": "Bastok Mission 7-1",
+      "to": "The Final Image"
+    },
+    {
+      "from": "Beastmaster Jugs",
+      "to": "Category:Familiars"
+    },
+    {
+      "from": "Batagreen Sautee",
+      "to": "Batagreen Saute"
+    },
+    {
+      "from": "Back",
+      "to": "Category:Back"
+    },
+    {
+      "from": "Bastok Mission 1-2",
+      "to": "A Geological Survey"
+    },
+    {
+      "from": "Bastok Mission 6-1",
+      "to": "Return of the Talekeeper"
+    },
+    {
+      "from": "Bat",
+      "to": "Category:Giant Bats"
+    },
+    {
+      "from": "Axe",
+      "to": "Category:Axes"
+    },
+    {
+      "from": "Axes",
+      "to": "Category:Axes"
+    },
+    {
+      "from": "Balik Sis Plus 1",
+      "to": "Balik Sis +1"
+    },
+    {
+      "from": "Automaton Oil Plus 1",
+      "to": "Automaton Oil Plus +1"
+    },
+    {
+      "from": "Automaton Oil Plus 2",
+      "to": "Automaton Oil Plus +2"
+    },
+    {
+      "from": "Blind Knife Plus 1",
+      "to": "Blind Knife +1"
+    },
+    {
+      "from": "Attribute Down",
+      "to": "Attribute Down (Status Effect)"
+    },
+    {
+      "from": "Bastok Mission 6-2",
+      "to": "The Pirate's Cove"
+    },
+    {
+      "from": "Bard's Cannions Plus 1",
+      "to": "Bard's Cannions +1"
+    },
+    {
+      "from": "Bard's Justaucorps Plus 1",
+      "to": "Bard's Justaucorps +1"
+    },
+    {
+      "from": "Bard's Roundlet Plus 1",
+      "to": "Bard's Roundlet +1"
+    },
+    {
+      "from": "Bard's Slippers Plus 1",
+      "to": "Bard's Slippers +1"
+    },
+    {
+      "from": "Bard's Cuffs Plus 1",
+      "to": "Bard's Cuffs +1"
+    },
+    {
+      "from": "Battleaxe Plus 1",
+      "to": "Battleaxe +1"
+    },
+    {
+      "from": "Beast Gaiters Plus 1",
+      "to": "Beast Gaiters +1"
+    },
+    {
+      "from": "Beast Trousers Plus 1",
+      "to": "Beast Trousers +1"
+    },
+    {
+      "from": "Attachments",
+      "to": "Category:Automaton Attachments"
+    },
+    {
+      "from": "Baghnakhs Plus 1",
+      "to": "Baghnakhs +1"
+    },
+    {
+      "from": "Beasts",
+      "to": "Bestiary"
+    },
+    {
+      "from": "Black Adargas Plus 1",
+      "to": "Black Adargas +1"
+    },
+    {
+      "from": "Behemoth Cesti Plus 1",
+      "to": "Behemoth Cesti +1"
+    },
+    {
+      "from": "Blind Dagger Plus 1",
+      "to": "Blind Dagger +1"
+    },
+    {
+      "from": "Baselard Plus 1",
+      "to": "Baselard +1"
+    },
+    {
+      "from": "Beetle Knife Plus 1",
+      "to": "Beetle Knife +1"
+    },
+    {
+      "from": "Behemoth Knife Plus 1",
+      "to": "Behemoth Knife +1"
+    },
+    {
+      "from": "Birds",
+      "to": "Category:Birds"
+    },
+    {
+      "from": "Bar Spell",
+      "to": "Barspell"
+    },
+    {
+      "from": "Bat Triplets",
+      "to": "Category:Bat Triplets"
+    },
+    {
+      "from": "Beetles",
+      "to": "Category:Beetles"
+    },
+    {
+      "from": "Auction House Navigation",
+      "to": "Auction House"
+    },
+    {
+      "from": "Chains of Promathia Missions",
+      "to": "Category:Chains of Promathia Missions"
+    },
+    {
+      "from": "Combat Skills",
+      "to": "Category:Combat Skills"
+    },
+    {
+      "from": "Bugbear",
+      "to": "Category:Bugbears"
+    },
+    {
+      "from": "Clubs",
+      "to": "Category:Clubs"
+    },
+    {
+      "from": "Blue Magic",
+      "to": "Category:Blue Magic"
+    },
+    {
+      "from": "Blue Magic Skill",
+      "to": "Category:Blue Magic"
+    },
+    {
+      "from": "Cardian",
+      "to": "Category:Cardians"
+    },
+    {
+      "from": "Cooking",
+      "to": "Category:Cooking"
+    },
+    {
+      "from": "Bonecraft",
+      "to": "Category:Bonecraft"
+    },
+    {
+      "from": "Clothcraft",
+      "to": "Category:Clothcraft"
+    },
+    {
+      "from": "Bow",
+      "to": "Category:Archery"
+    },
+    {
+      "from": "Bugbears",
+      "to": "Category:Bugbears"
+    },
+    {
+      "from": "Breads & Rice",
+      "to": "Category:Breads & Rice"
+    },
+    {
+      "from": "COP Missions",
+      "to": "Category:Chains of Promathia Missions"
+    },
+    {
+      "from": "Club",
+      "to": "Category:Clubs"
+    },
+    {
+      "from": "Bronze Axe Plus 1",
+      "to": "Bronze Axe +1"
+    },
+    {
+      "from": "Brass Axe Plus 1",
+      "to": "Brass Axe +1"
+    },
+    {
+      "from": "Body",
+      "to": "Category:Body"
+    },
+    {
+      "from": "Bronze Sword Plus 1",
+      "to": "Bronze Sword +1"
+    },
+    {
+      "from": "Byrnie Plus 1",
+      "to": "Byrnie +1"
+    },
+    {
+      "from": "Bone Earring Plus 1",
+      "to": "Bone Earring +1"
+    },
+    {
+      "from": "Boscaiola Plus 1",
+      "to": "Boscaiola +1"
+    },
+    {
+      "from": "Bronze Mittens Plus 1",
+      "to": "Bronze Mittens +1"
+    },
+    {
+      "from": "Carbonara Plus 1",
+      "to": "Carbonara +1"
+    },
+    {
+      "from": "Bronze Leggings Plus 1",
+      "to": "Bronze Leggings +1"
+    },
+    {
+      "from": "Bronze Subligar Plus 1",
+      "to": "Bronze Subligar +1"
+    },
+    {
+      "from": "Cesti Plus 1",
+      "to": "Cesti +1"
+    },
+    {
+      "from": "Bronze Knife Plus 1",
+      "to": "Bronze Knife +1"
+    },
+    {
+      "from": "Bone Mittens Plus 1",
+      "to": "Bone Mittens +1"
+    },
+    {
+      "from": "Charmed",
+      "to": "Charm (Status Effect)"
+    },
+    {
+      "from": "Bokuto Plus 1",
+      "to": "Bokuto +1"
+    },
+    {
+      "from": "Cermet Sword Plus 1",
+      "to": "Cermet Sword +1"
+    },
+    {
+      "from": "Cat Baghnakhs Plus 1",
+      "to": "Cat Baghnakhs +1"
+    },
+    {
+      "from": "Bronze Knuckles Plus 1",
+      "to": "Bronze Knuckles +1"
+    },
+    {
+      "from": "Brass Knuckles Plus 1",
+      "to": "Brass Knuckles +1"
+    },
+    {
+      "from": "Bonecraft Skill",
+      "to": "Category:Bonecraft"
+    },
+    {
+      "from": "Brass Baghnakhs Plus 1",
+      "to": "Brass Baghnakhs +1"
+    },
+    {
+      "from": "Bone Patas Plus 1",
+      "to": "Bone Patas +1"
+    },
+    {
+      "from": "Cermet Claws Plus 1",
+      "to": "Cermet Claws +1"
+    },
+    {
+      "from": "CP",
+      "to": "Conquest Points"
+    },
+    {
+      "from": "Bronze Dagger Plus 1",
+      "to": "Bronze Dagger +1"
+    },
+    {
+      "from": "Brass Dagger Plus 1",
+      "to": "Brass Dagger +1"
+    },
+    {
+      "from": "Bone Knife Plus 1",
+      "to": "Bone Knife +1"
+    },
+    {
+      "from": "Cermet Knife Plus 1",
+      "to": "Cermet Knife +1"
+    },
+    {
+      "from": "Cermet Kukri Plus 1",
+      "to": "Cermet Kukri +1"
+    },
+    {
+      "from": "Brass Finger Gauntlets Plus 1",
+      "to": "Brass Finger Gauntlets +1"
+    },
+    {
+      "from": "C",
+      "to": "C Wildcat Badge"
+    },
+    {
+      "from": "Building Bridges",
+      "to": "Assault Mission - Building Bridges"
+    },
+    {
+      "from": "COR",
+      "to": "Corsair"
+    },
+    {
+      "from": "Chain Mittens Plus 1",
+      "to": "Chain Mittens +1"
+    },
+    {
+      "from": "Damage Dealer",
+      "to": "Party"
+    },
+    {
+      "from": "DRK",
+      "to": "Dark Knight"
+    },
+    {
+      "from": "DRG",
+      "to": "Dragoon"
+    },
+    {
+      "from": "Crab",
+      "to": "Category:Crabs"
+    },
+    {
+      "from": "Critical",
+      "to": "Critical Hit"
+    },
+    {
+      "from": "Critical Hits",
+      "to": "Critical Hit"
+    },
+    {
+      "from": "Dark Magic Skill",
+      "to": "Category:Dark Magic"
+    },
+    {
+      "from": "Dark",
+      "to": "Category:Dark Magic"
+    },
+    {
+      "from": "Crafts",
+      "to": "Category:Crafting"
+    },
+    {
+      "from": "DEF",
+      "to": "Defense"
+    },
+    {
+      "from": "Daggers",
+      "to": "Category:Daggers"
+    },
+    {
+      "from": "Cotton Cape Plus 1",
+      "to": "Cotton Cape +1"
+    },
+    {
+      "from": "Coeurl Sub Plus 1",
+      "to": "Coeurl Sub +1"
+    },
+    {
+      "from": "Confessions of Royalty",
+      "to": "Aht Urhgan Mission 5: Confessions of Royalty"
+    },
+    {
+      "from": "Culverin Plus 1",
+      "to": "Culverin +1"
+    },
+    {
+      "from": "Crossbow Plus 1",
+      "to": "Crossbow +1"
+    },
+    {
+      "from": "Crystals",
+      "to": "Crystal"
+    },
+    {
+      "from": "Cornette Plus 1",
+      "to": "Cornette +1"
+    },
+    {
+      "from": "Cornette Plus 2",
+      "to": "Cornette +2"
+    },
+    {
+      "from": "Crumhorn Plus 1",
+      "to": "Crumhorn +1"
+    },
+    {
+      "from": "Crumhorn Plus 2",
+      "to": "Crumhorn +2"
+    },
+    {
+      "from": "Dark Magic",
+      "to": "Category:Dark Magic"
+    },
+    {
+      "from": "Cleric's Cap Plus 1",
+      "to": "Cleric's Cap +1"
+    },
+    {
+      "from": "Cythara Anglica Plus 1",
+      "to": "Cythara Anglica +1"
+    },
+    {
+      "from": "Choral Slippers Plus 1",
+      "to": "Choral Slippers +1"
+    },
+    {
+      "from": "Choral Roundlet Plus 1",
+      "to": "Choral Roundlet +1"
+    },
+    {
+      "from": "Choral Cannions Plus 1",
+      "to": "Choral Cannions +1"
+    },
+    {
+      "from": "Choral Justaucorps Plus 1",
+      "to": "Choral Justaucorps +1"
+    },
+    {
+      "from": "Choral Cuffs Plus 1",
+      "to": "Choral Cuffs +1"
+    },
+    {
+      "from": "Commands",
+      "to": "Category:Commands"
+    },
+    {
+      "from": "Cooking Skill",
+      "to": "Category:Cooking"
+    },
+    {
+      "from": "Cooking Guide by CtownWoody",
+      "to": "Cooking Guide by Ctownwoody"
+    },
+    {
+      "from": "Cuir Trousers Plus 1",
+      "to": "Cuir Trousers +1"
+    },
+    {
+      "from": "Cursed Items",
+      "to": "Category:Cursed Items"
+    },
+    {
+      "from": "Cutlass Plus 1",
+      "to": "Cutlass +1"
+    },
+    {
+      "from": "Craft",
+      "to": "Category:Crafting"
+    },
+    {
+      "from": "Claws Plus 1",
+      "to": "Claws +1"
+    },
+    {
+      "from": "Darksteel Claws Plus 1",
+      "to": "Darksteel Claws +1"
+    },
+    {
+      "from": "Command",
+      "to": "Category:Commands"
+    },
+    {
+      "from": "Darksteel Knuckles Plus 1",
+      "to": "Darksteel Knuckles +1"
+    },
+    {
+      "from": "Darksteel Katars Plus 1",
+      "to": "Darksteel Katars +1"
+    },
+    {
+      "from": "Citizens of Windurst",
+      "to": "Category:Windurst"
+    },
+    {
+      "from": "Dagger Plus 1",
+      "to": "Dagger +1"
+    },
+    {
+      "from": "Combat Caster's Dagger Plus 1",
+      "to": "Combat Caster's Dagger +1"
+    },
+    {
+      "from": "Combat Caster's Dagger Plus 2",
+      "to": "Combat Caster's Dagger +2"
+    },
+    {
+      "from": "Darksteel Knife Plus 1",
+      "to": "Darksteel Knife +1"
+    },
+    {
+      "from": "Darksteel Baselard Plus 1",
+      "to": "Darksteel Baselard +1"
+    },
+    {
+      "from": "Cockatrices",
+      "to": "Category:Cockatrice"
+    },
+    {
+      "from": "CoP",
+      "to": "Category:Chains of Promathia Missions"
+    },
+    {
+      "from": "Coeurl Sautee",
+      "to": "Coeurl Saute"
+    },
+    {
+      "from": "Enfeebling Magic",
+      "to": "Category:Enfeebling Magic"
+    },
+    {
+      "from": "Ferry - Mhaura/Selbina",
+      "to": "Ship bound for Mhaura"
+    },
+    {
+      "from": "Elemental Magic",
+      "to": "Category:Elemental Magic"
+    },
+    {
+      "from": "Eden FAQ",
+      "to": "FAQ"
+    },
+    {
+      "from": "Emote",
+      "to": "Emotes"
+    },
+    {
+      "from": "Elemental Magic Skill",
+      "to": "Category:Elemental Magic"
+    },
+    {
+      "from": "Divine Magic Skill",
+      "to": "Category:Divine Magic"
+    },
+    {
+      "from": "Elemental",
+      "to": "Category:Elemental Magic"
+    },
+    {
+      "from": "Enfeebling Magic Skill",
+      "to": "Category:Enfeebling Magic"
+    },
+    {
+      "from": "Ecosystems",
+      "to": "Beast Strength Chart"
+    },
+    {
+      "from": "Defense Down",
+      "to": "Weakens Defense"
+    },
+    {
+      "from": "Earrings",
+      "to": "Category:Earrings"
+    },
+    {
+      "from": "Easy Prey",
+      "to": "Check"
+    },
+    {
+      "from": "Enhancing Magic Skill",
+      "to": "Category:Enhancing Magic"
+    },
+    {
+      "from": "ENM",
+      "to": "Category:ENM"
+    },
+    {
+      "from": "Earring",
+      "to": "Category:Earrings"
+    },
+    {
+      "from": "Doo Wapa the Desolator",
+      "to": "Dee Wapa the Desolator"
+    },
+    {
+      "from": "Doggvdegg",
+      "to": "Kingslayer Doggvdegg"
+    },
+    {
+      "from": "Dhalmel Pie Plus 1",
+      "to": "Dhalmel Pie +1"
+    },
+    {
+      "from": "Enhancing Magic",
+      "to": "Category:Enhancing Magic"
+    },
+    {
+      "from": "Dream Hat Plus 1",
+      "to": "Dream Hat +1"
+    },
+    {
+      "from": "Dhalmel Mantle Plus 1",
+      "to": "Dhalmel Mantle +1"
+    },
+    {
+      "from": "Easterly Winds",
+      "to": "Aht Urhgan Mission 6: Easterly Winds"
+    },
+    {
+      "from": "Delete",
+      "to": "Template:NPC"
+    },
+    {
+      "from": "Ebony Harp Plus 2",
+      "to": "Ebony Harp +2"
+    },
+    {
+      "from": "Ebony Harp Plus 1",
+      "to": "Ebony Harp +1"
+    },
+    {
+      "from": "Enfeebling",
+      "to": "Category:Enfeebling Magic"
+    },
+    {
+      "from": "Darksteel Sainti Plus 1",
+      "to": "Darksteel Sainti +1"
+    },
+    {
+      "from": "Dragon Claws Plus 1",
+      "to": "Dragon Claws +1"
+    },
+    {
+      "from": "Diamond Knuckles Plus 1",
+      "to": "Diamond Knuckles +1"
+    },
+    {
+      "from": "Depending on day",
+      "to": "Day"
+    },
+    {
+      "from": "Elemental Debuff Guide",
+      "to": "Elemental Debuff"
+    },
+    {
+      "from": "Darksteel Mufflers Plus 1",
+      "to": "Darksteel Mufflers +1"
+    },
+    {
+      "from": "Darksteel Kris Plus 1",
+      "to": "Darksteel Kris +1"
+    },
+    {
+      "from": "Darksteel Kukri Plus 1",
+      "to": "Darksteel Kukri +1"
+    },
+    {
+      "from": "Demon's Knife Plus 1",
+      "to": "Demon's Knife +1"
+    },
+    {
+      "from": "Daytime",
+      "to": "Time of Day"
+    },
+    {
+      "from": "Divine Magic",
+      "to": "Category:Divine Magic"
+    },
+    {
+      "from": "Cure 2",
+      "to": "Cure II"
+    },
+    {
+      "from": "Elm Staff Plus 1",
+      "to": "Elm Staff +1"
+    },
+    {
+      "from": "Dolls",
+      "to": "Category:Dolls"
+    },
+    {
+      "from": "Elementals",
+      "to": "Category:Elementals"
+    },
+    {
+      "from": "Crabs",
+      "to": "Category:Crabs"
+    },
+    {
+      "from": "Ear",
+      "to": "Category:Earrings"
+    },
+    {
+      "from": "Eden Custom Changes",
+      "to": "Custom Changes"
+    },
+    {
+      "from": "Elshimo",
+      "to": "Elshimo Island"
+    },
+    {
+      "from": "Empire of Aht Urhgan",
+      "to": "Aht Urhgan"
+    },
+    {
+      "from": "Devotee's Mitts Plus 1",
+      "to": "Devotee's Mitts +1"
+    },
+    {
+      "from": "Dice",
+      "to": "Category:Dice"
+    },
+    {
+      "from": "Engetsuto Plus 1",
+      "to": "Engetsuto +1"
+    },
+    {
+      "from": "Fomor",
+      "to": "Category:Fomors"
+    },
+    {
+      "from": "Funguar",
+      "to": "Category:Funguars"
+    },
+    {
+      "from": "Full Moon",
+      "to": "Moon Phase"
+    },
+    {
+      "from": "Fishing",
+      "to": "Category:Fishing"
+    },
+    {
+      "from": "Ghrah",
+      "to": "Category:Ghrah"
+    },
+    {
+      "from": "Golem",
+      "to": "Category:Golems"
+    },
+    {
+      "from": "Euvhi",
+      "to": "Category:Euvhi"
+    },
+    {
+      "from": "Great Sword",
+      "to": "Category:Great Swords"
+    },
+    {
+      "from": "Furnishings",
+      "to": "Category:Furnishings"
+    },
+    {
+      "from": "First Dark Mana Orb",
+      "to": "Dark Mana Orb"
+    },
+    {
+      "from": "Feet",
+      "to": "Category:Feet"
+    },
+    {
+      "from": "Fish",
+      "to": "Category:Fish"
+    },
+    {
+      "from": "Garlic Cracker Plus 1",
+      "to": "Garlic Cracker +1"
+    },
+    {
+      "from": "Fishing Gear",
+      "to": "Category:Fishing Gear"
+    },
+    {
+      "from": "Gardening",
+      "to": "Category:Gardening"
+    },
+    {
+      "from": "Equipment",
+      "to": "Category:Equipment"
+    },
+    {
+      "from": "Gallant Gauntlets Plus 1",
+      "to": "Gallant Gauntlets +1"
+    },
+    {
+      "from": "Evoker's Horn Plus 1",
+      "to": "Evoker's Horn +1"
+    },
+    {
+      "from": "Evoker's Doublet Plus 1",
+      "to": "Evoker's Doublet +1"
+    },
+    {
+      "from": "Evoker's Bracers Plus 1",
+      "to": "Evoker's Bracers +1"
+    },
+    {
+      "from": "Evoker's Spats Plus 1",
+      "to": "Evoker's Spats +1"
+    },
+    {
+      "from": "Evoker's Pigaches Plus 1",
+      "to": "Evoker's Pigaches +1"
+    },
+    {
+      "from": "Fighter's Mask Plus 1",
+      "to": "Fighter's Mask +1"
+    },
+    {
+      "from": "Fighter's Lorica Plus 1",
+      "to": "Fighter's Lorica +1"
+    },
+    {
+      "from": "Fighter's Mufflers Plus 1",
+      "to": "Fighter's Mufflers +1"
+    },
+    {
+      "from": "Fighter's Cuisses Plus 1",
+      "to": "Fighter's Cuisses +1"
+    },
+    {
+      "from": "Fighter's Calligae Plus 1",
+      "to": "Fighter's Calligae +1"
+    },
+    {
+      "from": "Flounder Meuniere Plus 1",
+      "to": "Flounder Meuniere +1"
+    },
+    {
+      "from": "Fomors",
+      "to": "Category:Fomors"
+    },
+    {
+      "from": "Gardening: Wildgrass Seeds Recipes",
+      "to": "Gardening/Wildgrass Seeds Recipes"
+    },
+    {
+      "from": "Gardening: Vegetable Seeds Recipes",
+      "to": "Gardening/Vegetable Seeds Recipes"
+    },
+    {
+      "from": "Gardening/Wildgrass Seeds/Recipes",
+      "to": "Gardening/Wildgrass Seeds Recipes"
+    },
+    {
+      "from": "Gardening/Vegetable Seeds/Recipes",
+      "to": "Gardening/Vegetable Seeds Recipes"
+    },
+    {
+      "from": "Gardening: Tree Saplings Recipes",
+      "to": "Gardening/Tree Saplings Recipes"
+    },
+    {
+      "from": "Gardening: Herb Seeds Recipes",
+      "to": "Gardening/Herb Seeds Recipes"
+    },
+    {
+      "from": "Gardening: Grain Seeds Recipes",
+      "to": "Gardening/Grain Seeds Recipes"
+    },
+    {
+      "from": "Gardening: Fruit Seeds Recipes",
+      "to": "Gardening/Fruit Seeds Recipes"
+    },
+    {
+      "from": "Gardening: Tree Cuttings Recipes",
+      "to": "Gardening/Tree Cuttings Recipes"
+    },
+    {
+      "from": "Gardening: Cactus Stems Recipes",
+      "to": "Gardening/Cactus Stems Recipes"
+    },
+    {
+      "from": "Fishing Skill",
+      "to": "Category:Fishing"
+    },
+    {
+      "from": "Finale",
+      "to": "Magic Finale"
+    },
+    {
+      "from": "Even Match",
+      "to": "Check"
+    },
+    {
+      "from": "Flame Degen Plus 1",
+      "to": "Flame Degen +1"
+    },
+    {
+      "from": "Equipment Set",
+      "to": "Equipment Set Macros"
+    },
+    {
+      "from": "Espadon Plus 1",
+      "to": "Espadon +1"
+    },
+    {
+      "from": "Furniture",
+      "to": "Category:Furnishings"
+    },
+    {
+      "from": "Evil Weapons",
+      "to": "Category:Evil Weapons"
+    },
+    {
+      "from": "Extermination",
+      "to": "Assault Mission - Extermination"
+    },
+    {
+      "from": "Fishing Tackle",
+      "to": "Category:Fishing Gear"
+    },
+    {
+      "from": "Fame",
+      "to": "Reputation"
+    },
+    {
+      "from": "Guard",
+      "to": "Guard Skill"
+    },
+    {
+      "from": "Hand-to-Hand",
+      "to": "Category:Hand-to-Hand"
+    },
+    {
+      "from": "Great Katana Skill",
+      "to": "Category:Great Katana"
+    },
+    {
+      "from": "Healing Magic Skill",
+      "to": "Category:Healing Magic"
+    },
+    {
+      "from": "Great Sword Skill",
+      "to": "Category:Great Swords"
+    },
+    {
+      "from": "Great Axe Skill",
+      "to": "Category:Great Axes"
+    },
+    {
+      "from": "Hand-to-Hand Skill",
+      "to": "Category:Hand-to-Hand"
+    },
+    {
+      "from": "Head",
+      "to": "Category:Head"
+    },
+    {
+      "from": "Great Axe",
+      "to": "Category:Great Axes"
+    },
+    {
+      "from": "Great Katana",
+      "to": "Category:Great Katana"
+    },
+    {
+      "from": "Goldsmithing",
+      "to": "Category:Goldsmithing"
+    },
+    {
+      "from": "Guild Merchant",
+      "to": "Category:Guild Merchant"
+    },
+    {
+      "from": "Goblins",
+      "to": "Category:Goblins"
+    },
+    {
+      "from": "Gigas",
+      "to": "Category:Gigas"
+    },
+    {
+      "from": "Goblin",
+      "to": "Category:Goblins"
+    },
+    {
+      "from": "Great Swords",
+      "to": "Category:Great Swords"
+    },
+    {
+      "from": "Great Axes",
+      "to": "Category:Great Axes"
+    },
+    {
+      "from": "Grips",
+      "to": "Category:Grips"
+    },
+    {
+      "from": "Hands",
+      "to": "Category:Hands"
+    },
+    {
+      "from": "Hanger Plus 1",
+      "to": "Hanger +1"
+    },
+    {
+      "from": "Haubergeon Plus 1",
+      "to": "Haubergeon +1"
+    },
+    {
+      "from": "Haubergeon Plus +1",
+      "to": "Haubergeon +1"
+    },
+    {
+      "from": "Healer's Cap Plus 1",
+      "to": "Healer's Cap +1"
+    },
+    {
+      "from": "Healer's Briault Plus 1",
+      "to": "Healer's Briault +1"
+    },
+    {
+      "from": "Healer's Mitts Plus 1",
+      "to": "Healer's Mitts +1"
+    },
+    {
+      "from": "Healer's Pantaloons Plus 1",
+      "to": "Healer's Pantaloons +1"
+    },
+    {
+      "from": "Healer's Duckbills Plus 1",
+      "to": "Healer's Duckbills +1"
+    },
+    {
+      "from": "Hellsteak Plus 1",
+      "to": "Hellsteak +1"
+    },
+    {
+      "from": "Ghosts",
+      "to": "Category:Ghosts"
+    },
+    {
+      "from": "Gorget Plus 1",
+      "to": "Gorget +1"
+    },
+    {
+      "from": "Gustaberg",
+      "to": "Category:Gustaberg"
+    },
+    {
+      "from": "Guild Point Merchant",
+      "to": "Category:Guild Point Merchants"
+    },
+    {
+      "from": "Guild Sell Price",
+      "to": "Category:Guild Merchant"
+    },
+    {
+      "from": "HQ",
+      "to": "High Quality"
+    },
+    {
+      "from": "Healing Magic",
+      "to": "Category:Healing Magic"
+    },
+    {
+      "from": "Harp Plus 1",
+      "to": "Harp +1"
+    },
+    {
+      "from": "Gemshorn Plus 1",
+      "to": "Gemshorn +1"
+    },
+    {
+      "from": "Guild",
+      "to": "Category:Crafting"
+    },
+    {
+      "from": "Hellish Bugle Plus 1",
+      "to": "Hellish Bugle +1"
+    },
+    {
+      "from": "Guide to Dispelling Effects",
+      "to": "How to Dispel Effects"
+    },
+    {
+      "from": "Guides",
+      "to": "Category:Guides"
+    },
+    {
+      "from": "Heavens Earring Plus 1",
+      "to": "Heavens Earring +1"
+    },
+    {
+      "from": "Hades Earring+1",
+      "to": "Hades Earring +1"
+    },
+    {
+      "from": "Greatsword",
+      "to": "Greatsword (Weapon)"
+    },
+    {
+      "from": "Gold Patas Plus 1",
+      "to": "Gold Patas +1"
+    },
+    {
+      "from": "Hades Sainti Plus 1",
+      "to": "Hades Sainti +1"
+    },
+    {
+      "from": "Guild Resale Price",
+      "to": "Category:Guild Merchant"
+    },
+    {
+      "from": "Hawker's Knife Plus 1",
+      "to": "Hawker's Knife +1"
+    },
+    {
+      "from": "Gully Plus 1",
+      "to": "Gully +1"
+    },
+    {
+      "from": "Giant Bats",
+      "to": "Category:Giant Bats"
+    },
+    {
+      "from": "Jobs",
+      "to": "Category:Jobs"
+    },
+    {
+      "from": "Key Item",
+      "to": "Category:Key Items"
+    },
+    {
+      "from": "Katana",
+      "to": "Category:Katana"
+    },
+    {
+      "from": "Land of Sacred Serpents",
+      "to": "Aht Urhgan Mission 1: Land of Sacred Serpents"
+    },
+    {
+      "from": "Immortal Sentries",
+      "to": "Aht Urhgan Mission 2: Immortal Sentries"
+    },
+    {
+      "from": "Leathercraft",
+      "to": "Category:Leathercraft"
+    },
+    {
+      "from": "Kenpogi Plus 1",
+      "to": "Kenpogi +1"
+    },
+    {
+      "from": "Ilm-long Salmon Sub",
+      "to": "Fulm-long Salmon Sub"
+    },
+    {
+      "from": "Insect Ball",
+      "to": "Insect Paste"
+    },
+    {
+      "from": "Kazham Quests",
+      "to": "Kazham"
+    },
+    {
+      "from": "Hunter's Jerkin Plus 1",
+      "to": "Hunter's Jerkin +1"
+    },
+    {
+      "from": "Hunter's Bracers Plus 1",
+      "to": "Hunter's Bracers +1"
+    },
+    {
+      "from": "Hunter's Socks Plus 1",
+      "to": "Hunter's Socks +1"
+    },
+    {
+      "from": "Hi-Potion Plus 2",
+      "to": "Hi-Potion +2"
+    },
+    {
+      "from": "Ic Pilav Plus 1",
+      "to": "Ic Pilav +1"
+    },
+    {
+      "from": "Karni Yarik Plus 1",
+      "to": "Karni Yarik +1"
+    },
+    {
+      "from": "Knight of Gold",
+      "to": "Aht Urhgan Mission 4: Knight of Gold"
+    },
+    {
+      "from": "Imps",
+      "to": "Category:Imps"
+    },
+    {
+      "from": "Knife Plus +1",
+      "to": "Knife +1"
+    },
+    {
+      "from": "Knife Plus 1",
+      "to": "Knife +1"
+    },
+    {
+      "from": "Lamiae",
+      "to": "Category:Lamiae"
+    },
+    {
+      "from": "Keo-Horuo",
+      "to": "Keo-Koruo"
+    },
+    {
+      "from": "Kaskara Plus 1",
+      "to": "Kaskara +1"
+    },
+    {
+      "from": "Horn Plus 1",
+      "to": "Horn +1"
+    },
+    {
+      "from": "Hymnus",
+      "to": "Goddess's Hymnus"
+    },
+    {
+      "from": "Hi-Ether Plus 1",
+      "to": "Hi-Ether +1"
+    },
+    {
+      "from": "High Quality Synth",
+      "to": "High Quality"
+    },
+    {
+      "from": "Kotetsu Plus 1",
+      "to": "Kotetsu +1"
+    },
+    {
+      "from": "Ice Shield Plus 1",
+      "to": "Ice Shield +1"
+    },
+    {
+      "from": "Hydro Baghnakhs Plus 1",
+      "to": "Hydro Baghnakhs +1"
+    },
+    {
+      "from": "Hydro Claws Plus 1",
+      "to": "Hydro Claws +1"
+    },
+    {
+      "from": "Katars Plus 1",
+      "to": "Katars +1"
+    },
+    {
+      "from": "Himantes Plus 1",
+      "to": "Himantes +1"
+    },
+    {
+      "from": "Hydro Patas Plus 1",
+      "to": "Hydro Patas +1"
+    },
+    {
+      "from": "Jamadhars Plus 1",
+      "to": "Jamadhars +1"
+    },
+    {
+      "from": "Increases elemental weapon skill damage",
+      "to": "Increases Elemental Weapon Skill Damage"
+    },
+    {
+      "from": "Latent effect",
+      "to": "Latent Effect"
+    },
+    {
+      "from": "In Dynamis",
+      "to": "Dynamis"
+    },
+    {
+      "from": "Kukri Plus 1",
+      "to": "Kukri +1"
+    },
+    {
+      "from": "Kris Plus 1",
+      "to": "Kris +1"
+    },
+    {
+      "from": "Lauan Shield Plus 1",
+      "to": "Lauan Shield +1"
+    },
+    {
+      "from": "Heko Obi Plus 1",
+      "to": "Heko Obi +1"
+    },
+    {
+      "from": "Jambiya Plus 1",
+      "to": "Jambiya +1"
+    },
+    {
+      "from": "Iron Scale Mail Plus 1",
+      "to": "Iron Scale Mail +1"
+    },
+    {
+      "from": "Kindred",
+      "to": "Category:Demons"
+    },
+    {
+      "from": "Hecatomb Leggings Plus 1",
+      "to": "Hecatomb Leggings +1"
+    },
+    {
+      "from": "Key Items",
+      "to": "Category:Key Items"
+    },
+    {
+      "from": "LB",
+      "to": "Limit Break"
+    },
+    {
+      "from": "HMP",
+      "to": "MP Recovered While Healing"
+    },
+    {
+      "from": "Leather Ring Plus 1",
+      "to": "Leather Ring +1"
+    },
+    {
+      "from": "Missions",
+      "to": "Category:Missions"
+    },
+    {
+      "from": "NPC Sell Price",
+      "to": "Category:Standard Merchants"
+    },
+    {
+      "from": "NM",
+      "to": "Notorious Monsters"
+    },
+    {
+      "from": "New Moon",
+      "to": "Moon Phase"
+    },
+    {
+      "from": "NIN",
+      "to": "Ninja"
+    },
+    {
+      "from": "Moblin",
+      "to": "Category:Moblins"
+    },
+    {
+      "from": "Marksmanship Skill",
+      "to": "Category:Marksmanship"
+    },
+    {
+      "from": "Mana Orb",
+      "to": "Glowing Mana Orb"
+    },
+    {
+      "from": "Marksmanship",
+      "to": "Category:Marksmanship"
+    },
+    {
+      "from": "Moccasins Plus 1",
+      "to": "Moccasins +1"
+    },
+    {
+      "from": "Mercenary's Greatsword",
+      "to": "Mrc. Greatsword"
+    },
+    {
+      "from": "Lower Delkfutt Tower",
+      "to": "Lower Delkfutt's Tower"
+    },
+    {
+      "from": "Medicines",
+      "to": "Category:Medicines"
+    },
+    {
+      "from": "Neck",
+      "to": "Category:Neck"
+    },
+    {
+      "from": "Legs",
+      "to": "Category:Legs"
+    },
+    {
+      "from": "Mikazuki Plus 1",
+      "to": "Mikazuki +1"
+    },
+    {
+      "from": "Myochin Kabuto Plus 1",
+      "to": "Myochin Kabuto +1"
+    },
+    {
+      "from": "Myochin Kote Plus 1",
+      "to": "Myochin Kote +1"
+    },
+    {
+      "from": "Myochin Haidate Plus 1",
+      "to": "Myochin Haidate +1"
+    },
+    {
+      "from": "Mineral Worm",
+      "to": "Mineral Eater"
+    },
+    {
+      "from": "Lizard Mantle Plus 1",
+      "to": "Lizard Mantle +1"
+    },
+    {
+      "from": "Longbow Plus 1",
+      "to": "Longbow +1"
+    },
+    {
+      "from": "Macro",
+      "to": "Command/Macro"
+    },
+    {
+      "from": "Magicite",
+      "to": "Magicite (Bastok)"
+    },
+    {
+      "from": "Leathercraft Skill",
+      "to": "Category:Leathercraft"
+    },
+    {
+      "from": "Magicite: San d'Oria",
+      "to": "San d'Oria Mission 4-1"
+    },
+    {
+      "from": "Moghancement",
+      "to": "Moghancements"
+    },
+    {
+      "from": "Lightningsday",
+      "to": "Days of the Week"
+    },
+    {
+      "from": "Message Wall:Rappy 4187",
+      "to": "Message Wall:Rappy"
+    },
+    {
+      "from": "Message Wall:Cloudydesarroi",
+      "to": "Message Wall:TranquilleHeart"
+    },
+    {
+      "from": "Main",
+      "to": "Category:Equipment/Main Weapon"
+    },
+    {
+      "from": "Metal Knuckles Plus 1",
+      "to": "Metal Knuckles +1"
+    },
+    {
+      "from": "Luminions",
+      "to": "Bestiary"
+    },
+    {
+      "from": "Luminians",
+      "to": "Bestiary"
+    },
+    {
+      "from": "Manoples Plus 1",
+      "to": "Manoples +1"
+    },
+    {
+      "from": "Maple Shield Plus 1",
+      "to": "Maple Shield +1"
+    },
+    {
+      "from": "Misericorde Plus 1",
+      "to": "Misericorde +1"
+    },
+    {
+      "from": "Lizard Helm Plus 1",
+      "to": "Lizard Helm +1"
+    },
+    {
+      "from": "Magic Pots",
+      "to": "Category:Magic Pots"
+    },
+    {
+      "from": "Lizards",
+      "to": "Category:Lizards"
+    },
+    {
+      "from": "Mimics",
+      "to": "Category:Mimics"
+    },
+    {
+      "from": "Leeches",
+      "to": "Category:Leeches"
+    },
+    {
+      "from": "Magus jubbah +1",
+      "to": "Magus Jubbah +1"
+    },
+    {
+      "from": "Map",
+      "to": "Map Guide"
+    },
+    {
+      "from": "Mission",
+      "to": "Category:Missions"
+    },
+    {
+      "from": "Limit break",
+      "to": "Limit Break"
+    },
+    {
+      "from": "MNK",
+      "to": "Monk"
+    },
+    {
+      "from": "Melody Earring Plus 1",
+      "to": "Melody Earring +1"
+    },
+    {
+      "from": "Limit Points",
+      "to": "Merit Points"
+    },
+    {
+      "from": "Main Page",
+      "to": "Classic FFXI community"
+    },
+    {
+      "from": "San d'Oria Mission 4-1",
+      "to": "Magicite (San d'Oria)"
+    },
+    {
+      "from": "Patch Notes",
+      "to": "Category:Version Updates"
+    },
+    {
+      "from": "Quests",
+      "to": "Category:Quests"
+    },
+    {
+      "from": "Parrying",
+      "to": "Parrying Skill"
+    },
+    {
+      "from": "RDM",
+      "to": "Red Mage"
+    },
+    {
+      "from": "PLD",
+      "to": "Paladin"
+    },
+    {
+      "from": "Orc",
+      "to": "Category:Orcs"
+    },
+    {
+      "from": "RSE",
+      "to": "Category:Race Specific Equipment"
+    },
+    {
+      "from": "Piercing",
+      "to": "Damage Types"
+    },
+    {
+      "from": "Opo-opo",
+      "to": "Category:Opo-opo"
+    },
+    {
+      "from": "Physical Damage Taken",
+      "to": "Damage"
+    },
+    {
+      "from": "Nin",
+      "to": "Ninja"
+    },
+    {
+      "from": "Ninjutsu",
+      "to": "Category:Ninjutsu"
+    },
+    {
+      "from": "Phuabo",
+      "to": "Category:Phuabo"
+    },
+    {
+      "from": "Odorous Knife Plus 1",
+      "to": "Odorous Knife +1"
+    },
+    {
+      "from": "Phoenix",
+      "to": "Phoenix (Server)"
+    },
+    {
+      "from": "Norg Quests",
+      "to": "Norg"
+    },
+    {
+      "from": "Ninjutsu Skill",
+      "to": "Category:Ninjutsu"
+    },
+    {
+      "from": "Pescatora Plus 1",
+      "to": "Pescatora +1"
+    },
+    {
+      "from": "Party Leader",
+      "to": "Partying"
+    },
+    {
+      "from": "New Player FAQ",
+      "to": "New Player Guide"
+    },
+    {
+      "from": "Pitchfork Plus 1",
+      "to": "Pitchfork +1"
+    },
+    {
+      "from": "Mythril Kukri+1",
+      "to": "Mythril Kukri +1"
+    },
+    {
+      "from": "Mythril Kukri Plus 1",
+      "to": "Mythril Kukri +1"
+    },
+    {
+      "from": "Myochin Sune-Ate Plus 1",
+      "to": "Myochin Sune-Ate +1"
+    },
+    {
+      "from": "Mokuto Plus 1",
+      "to": "Mokuto Plus +1"
+    },
+    {
+      "from": "Piccolo Plus 1",
+      "to": "Piccolo +1"
+    },
+    {
+      "from": "Mythic Harp Plus 1",
+      "to": "Mythic Harp +1"
+    },
+    {
+      "from": "Open sea route to Mhaura",
+      "to": "Ship bound for Mhaura"
+    },
+    {
+      "from": "Open sea route to Al Zahbi",
+      "to": "Ferry - Mhaura/Al Zahbi"
+    },
+    {
+      "from": "Mythril Earring Plus 1",
+      "to": "Mythril Earring +1"
+    },
+    {
+      "from": "Moogle (Mog House)",
+      "to": "Moogle"
+    },
+    {
+      "from": "Plantoids",
+      "to": "Bestiary"
+    },
+    {
+      "from": "Mythril Knuckles Plus 1",
+      "to": "Mythril Knuckles +1"
+    },
+    {
+      "from": "Mythril Claws Plus 1",
+      "to": "Mythril Claws +1"
+    },
+    {
+      "from": "Patas Plus 1",
+      "to": "Patas +1"
+    },
+    {
+      "from": "On Firesdays",
+      "to": "Firesday"
+    },
+    {
+      "from": "Occasionally attacks twice",
+      "to": "Occasionally Attacks X Times"
+    },
+    {
+      "from": "Placeholder",
+      "to": "Final Fantasy XI Dictionary of Terms and Slang",
+      "tofragment": "P"
+    },
+    {
+      "from": "Mythril Dagger Plus 1",
+      "to": "Mythril Dagger +1"
+    },
+    {
+      "from": "Mythril Knife Plus 1",
+      "to": "Mythril Knife +1"
+    },
+    {
+      "from": "Occasionally attacks 2 to 3 times",
+      "to": "Occasionally Attacks X Times"
+    },
+    {
+      "from": "Platinum Ring Plus 1",
+      "to": "Platinum Ring +1"
+    },
+    {
+      "from": "Muscle Belt Plus 1",
+      "to": "Muscle Belt +1"
+    },
+    {
+      "from": "On Windsdays",
+      "to": "Days of the Week"
+    },
+    {
+      "from": "Mythril Musketeer Cornelia",
+      "to": "Cornelia (Mythril Musketeer)"
+    },
+    {
+      "from": "PFC",
+      "to": "PFC Wildcat Badge"
+    },
+    {
+      "from": "Musketeer Gun Plus 1",
+      "to": "Musketeer Gun +1"
+    },
+    {
+      "from": "PUP",
+      "to": "Puppetmaster"
+    },
+    {
+      "from": "New player guide to Eden",
+      "to": "New player guide to Eden by Falzum"
+    },
+    {
+      "from": "Path of Darkness",
+      "to": "Aht Urhgan Mission 42: Path of Darkness"
+    },
+    {
+      "from": "RNG",
+      "to": "Ranger"
+    },
+    {
+      "from": "Quadav",
+      "to": "Category:Quadav"
+    },
+    {
+      "from": "Polearm Skill",
+      "to": "Category:Polearms"
+    },
+    {
+      "from": "Promathia Mission 3-5",
+      "to": "Darkness Named"
+    },
+    {
+      "from": "Promathia Mission 3-4",
+      "to": "Tending Aged Wounds"
+    },
+    {
+      "from": "Promathia Mission 3-3",
+      "to": "Road Forks"
+    },
+    {
+      "from": "Race",
+      "to": "Category:Races"
+    },
+    {
+      "from": "Promathia Missions",
+      "to": "Category:Chains of Promathia Missions"
+    },
+    {
+      "from": "Quest",
+      "to": "Category:Quests"
+    },
+    {
+      "from": "Rabao Quests",
+      "to": "Rabao"
+    },
+    {
+      "from": "Promathia Mission 1-1",
+      "to": "The Rites of Life"
+    },
+    {
+      "from": "Promathia Mission 1-2",
+      "to": "Below the Arks"
+    },
+    {
+      "from": "Promathia Mission 3-2",
+      "to": "Vessel Without a Captain"
+    },
+    {
+      "from": "Promathia Mission 3-1",
+      "to": "Call of the Wyrmking"
+    },
+    {
+      "from": "Promathia Mission 2-5",
+      "to": "Ancient Vows"
+    },
+    {
+      "from": "Promathia Mission 2-4",
+      "to": "An Eternal Melody"
+    },
+    {
+      "from": "Promathia Mission 2-3",
+      "to": "Distant Beliefs"
+    },
+    {
+      "from": "Promathia Mission 2-2",
+      "to": "The Lost City"
+    },
+    {
+      "from": "Polearm",
+      "to": "Category:Polearms"
+    },
+    {
+      "from": "Polearms",
+      "to": "Category:Polearms"
+    },
+    {
+      "from": "President Salaheem",
+      "to": "Aht Urhgan Mission 3: President Salaheem"
+    },
+    {
+      "from": "Pumpkin Pie Plus 1",
+      "to": "Pumpkin Pie +1"
+    },
+    {
+      "from": "Qiqirn",
+      "to": "Category:Qiqirn"
+    },
+    {
+      "from": "Poroggos",
+      "to": "Category:Poroggos"
+    },
+    {
+      "from": "Primate Staff Plus 1",
+      "to": "Primate Staff +1"
+    },
+    {
+      "from": "Poison Dagger Plus +1",
+      "to": "Poison Dagger +1"
+    },
+    {
+      "from": "Poison Dagger Plus 1",
+      "to": "Poison Dagger +1"
+    },
+    {
+      "from": "Poison Knife Plus 1",
+      "to": "Poison Knife Plus +1"
+    },
+    {
+      "from": "Poison Kukri Plus 1",
+      "to": "Poison Kukri +1"
+    },
+    {
+      "from": "Poison Cesti Plus 1",
+      "to": "Poison Cesti +1"
+    },
+    {
+      "from": "Promathia Mission 1-3",
+      "to": "The Mothercrystals"
+    },
+    {
+      "from": "Promathia Mission 2-1",
+      "to": "An Invitation West"
+    },
+    {
+      "from": "Promathia Mission 4-1",
+      "to": "Sheltering Doubt"
+    },
+    {
+      "from": "Promathia Mission 4-2",
+      "to": "The Savage"
+    },
+    {
+      "from": "Promathia Mission 4-3",
+      "to": "The Secrets of Worship"
+    },
+    {
+      "from": "Promathia Mission 4-4",
+      "to": "Slanderous Utterings"
+    },
+    {
+      "from": "Promathia Mission 5-1",
+      "to": "The Enduring Tumult of War"
+    },
+    {
+      "from": "Promathia Mission 5-2",
+      "to": "Desires of Emptiness"
+    },
+    {
+      "from": "Promathia Mission 5-3",
+      "to": "Three Paths"
+    },
+    {
+      "from": "Promathia Mission 6-1",
+      "to": "For Whom the Verse is Sung"
+    },
+    {
+      "from": "Promathia Mission 6-2",
+      "to": "A Place to Return"
+    },
+    {
+      "from": "Promathia Mission 6-3",
+      "to": "More Questions Than Answers"
+    },
+    {
+      "from": "Promathia Mission 6-4",
+      "to": "One to be Feared"
+    },
+    {
+      "from": "Promathia Mission 7-1",
+      "to": "Chains and Bonds"
+    },
+    {
+      "from": "Promathia Mission 7-2",
+      "to": "Flames in the Darkness"
+    },
+    {
+      "from": "Promathia Mission 7-3",
+      "to": "Fire in the Eyes of Men"
+    },
+    {
+      "from": "Promathia Mission 7-4",
+      "to": "Calm Before the Storm"
+    },
+    {
+      "from": "Promathia Mission 7-5",
+      "to": "The Warrior's Path"
+    },
+    {
+      "from": "Promathia Mission 8-1",
+      "to": "The Garden of Antiquity"
+    },
+    {
+      "from": "Promathia Mission 8-2",
+      "to": "A Fate Decided"
+    },
+    {
+      "from": "San d'Oria Missions",
+      "to": "Category:San d'Oria Missions"
+    },
+    {
+      "from": "Races",
+      "to": "Category:Races"
+    },
+    {
+      "from": "San d'Oria",
+      "to": "Category:San d'Oria"
+    },
+    {
+      "from": "San D'oria Gate Guard",
+      "to": "San d'Oria Gate Guard"
+    },
+    {
+      "from": "Sapling",
+      "to": "Category:Saplings"
+    },
+    {
+      "from": "SMN",
+      "to": "Summoner"
+    },
+    {
+      "from": "Sahagin",
+      "to": "Category:Sahagin"
+    },
+    {
+      "from": "SAM",
+      "to": "Samurai"
+    },
+    {
+      "from": "Sabotender Bailaor",
+      "to": "Sabotender Bailarina"
+    },
+    {
+      "from": "Ranged",
+      "to": "Category:Ranged"
+    },
+    {
+      "from": "Renkei",
+      "to": "Skillchain Properties"
+    },
+    {
+      "from": "Regional Merchant",
+      "to": "Category:Regional Merchants"
+    },
+    {
+      "from": "Regional Merchants",
+      "to": "Category:Regional Merchants"
+    },
+    {
+      "from": "Relic Armor",
+      "to": "Category:Relic Armor"
+    },
+    {
+      "from": "Ronfaure",
+      "to": "Category:Ronfaure"
+    },
+    {
+      "from": "Salmon Sub",
+      "to": "Salmon Sub Sandwich"
+    },
+    {
+      "from": "San d'Oria Mission 1-1",
+      "to": "Smash the Orcish Scouts"
+    },
+    {
+      "from": "San d'Oria Mission 1-2",
+      "to": "Bat Hunt"
+    },
+    {
+      "from": "San d'Oria Mission 1-3",
+      "to": "Save the Children"
+    },
+    {
+      "from": "San d'Oria Mission 2-1",
+      "to": "The Rescue Drill"
+    },
+    {
+      "from": "San d'Oria Mission 2-2",
+      "to": "The Davoi Report"
+    },
+    {
+      "from": "San d'Oria Mission 2-3",
+      "to": "Journey Abroad"
+    },
+    {
+      "from": "San d'Oria Mission 3-1",
+      "to": "Infiltrate Davoi"
+    },
+    {
+      "from": "San d'Oria Mission 3-2",
+      "to": "The Crystal Spring"
+    },
+    {
+      "from": "San d'Oria Mission 9-2",
+      "to": "The Heir to the Light"
+    },
+    {
+      "from": "San d'Oria Mission 9-1",
+      "to": "Breaking Barriers"
+    },
+    {
+      "from": "San d'Oria Mission 8-2",
+      "to": "Lightbringer"
+    },
+    {
+      "from": "Relic Armor +1",
+      "to": "Category:Relic Armor +1"
+    },
+    {
+      "from": "Sapara Plus 1",
+      "to": "Sapara +1"
+    },
+    {
+      "from": "Rings",
+      "to": "Category:Rings"
+    },
+    {
+      "from": "Rolanberry Pie Plus 1",
+      "to": "Rolanberry Pie +1"
+    },
+    {
+      "from": "Rogue's Bonnet Plus 1",
+      "to": "Rogue's Bonnet +1"
+    },
+    {
+      "from": "Rogue's Vest Plus 1",
+      "to": "Rogue's Vest +1"
+    },
+    {
+      "from": "Rogue's Armlets Plus 1",
+      "to": "Rogue's Armlets +1"
+    },
+    {
+      "from": "Rogue's Culotte Plus 1",
+      "to": "Rogue's Culotte +1"
+    },
+    {
+      "from": "Red Cape Plus 1",
+      "to": "Red Cape +1"
+    },
+    {
+      "from": "Race Specific Equipment",
+      "to": "Category:Race Specific Equipment"
+    },
+    {
+      "from": "Promathia Mission 8-3",
+      "to": "When Angels Fall"
+    },
+    {
+      "from": "Promathia Mission 8-4",
+      "to": "Dawn"
+    },
+    {
+      "from": "Poison Katars Plus 1",
+      "to": "Poison Katars +1"
+    },
+    {
+      "from": "Quest List - Still being worked on, please do not edit",
+      "to": "Category:Quests"
+    },
+    {
+      "from": "Resist",
+      "to": "Resistance"
+    },
+    {
+      "from": "Poison Baghnakhs Plus 1",
+      "to": "Poison Baghnakhs +1"
+    },
+    {
+      "from": "Poison Claws Plus 1",
+      "to": "Poison Claws +1"
+    },
+    {
+      "from": "Relic Weapon Quest",
+      "to": "Category:Relic Weapons"
+    },
+    {
+      "from": "Rabbit",
+      "to": "Category:Rabbits"
+    },
+    {
+      "from": "Raptors",
+      "to": "Category:Raptors"
+    },
+    {
+      "from": "Pugils",
+      "to": "Category:Pugils"
+    },
+    {
+      "from": "Regular Monsters",
+      "to": "Category:Bestiary"
+    },
+    {
+      "from": "Rank Bar",
+      "to": "Rank"
+    },
+    {
+      "from": "Shield",
+      "to": "Category:Shields"
+    },
+    {
+      "from": "Scroll Of Reraise Ii",
+      "to": "Scroll Of Reraise II"
+    },
+    {
+      "from": "Scythes",
+      "to": "Category:Scythes"
+    },
+    {
+      "from": "Shields",
+      "to": "Category:Shields"
+    },
+    {
+      "from": "Scorpion Harness Plus 1",
+      "to": "Scorpion Harness +1"
+    },
+    {
+      "from": "Shell Earring Plus 1",
+      "to": "Shell Earring +1"
+    },
+    {
+      "from": "Rogue's Poulaines Plus 1",
+      "to": "Rogue's Poulaines +1"
+    },
+    {
+      "from": "San d'Oria Quests",
+      "to": "Category:San d'Oria Quests"
+    },
+    {
+      "from": "Sarutabaruta",
+      "to": "Category:Sarutabaruta"
+    },
+    {
+      "from": "San d'Oria Mission 5-2",
+      "to": "The Shadow Lord"
+    },
+    {
+      "from": "San d'Oria Mission 6-1",
+      "to": "Leaute's Last Wishes"
+    },
+    {
+      "from": "San d'Oria Mission 8-1",
+      "to": "Coming of Age"
+    },
+    {
+      "from": "San d'Oria Mission 7-2",
+      "to": "The Secret Weapon"
+    },
+    {
+      "from": "San d'Oria Mission 7-1",
+      "to": "Prestige of the Papsque"
+    },
+    {
+      "from": "Rose Harp Plus 1",
+      "to": "Rose Harp +1"
+    },
+    {
+      "from": "Sha'ir Attire Set",
+      "to": "Sha'ir Manteel Set"
+    },
+    {
+      "from": "Sea (This hasn't been implemented yet)",
+      "to": "Sea"
+    },
+    {
+      "from": "Scythe Skill",
+      "to": "Category:Scythes"
+    },
+    {
+      "from": "Shadow Images",
+      "to": "Blink (Status Effect)"
+    },
+    {
+      "from": "Saber Plus 1",
+      "to": "Saber +1"
+    },
+    {
+      "from": "Sainti Plus 1",
+      "to": "Sainti +1"
+    },
+    {
+      "from": "Sheep",
+      "to": "Category:Sheep"
+    },
+    {
+      "from": "Sabotenders",
+      "to": "Category:Sabotenders"
+    },
+    {
+      "from": "Scroll of Reraise III",
+      "to": "Reraise III"
+    },
+    {
+      "from": "Scroll of Shellra IV",
+      "to": "Shellra IV"
+    },
+    {
+      "from": "Sea Monks",
+      "to": "Category:Sea Monks"
+    },
+    {
+      "from": "Scorpions",
+      "to": "Category:Scorpions"
+    },
+    {
+      "from": "Scroll of Raise II",
+      "to": "Raise II"
+    },
+    {
+      "from": "Scroll of Reraise",
+      "to": "Reraise"
+    },
+    {
+      "from": "Scroll of Carnage Elegy",
+      "to": "Carnage Elegy"
+    },
+    {
+      "from": "Scroll of Foe Requiem V",
+      "to": "Foe Requiem V"
+    },
+    {
+      "from": "Scroll of Gold Capriccio",
+      "to": "Gold Capriccio"
+    },
+    {
+      "from": "Scroll of Foe Requiem VI",
+      "to": "Foe Requiem VI"
+    },
+    {
+      "from": "Scroll of Goddess's Hymnus",
+      "to": "Goddess's Hymnus"
+    },
+    {
+      "from": "Scroll of Knight's Minne IV",
+      "to": "Knight's Minne IV"
+    },
+    {
+      "from": "Scroll of Shining Fantasia",
+      "to": "Shining Fantasia"
+    },
+    {
+      "from": "Scroll of Uncanny Etude",
+      "to": "Uncanny Etude"
+    },
+    {
+      "from": "Scroll of Victory March",
+      "to": "Victory March"
+    },
+    {
+      "from": "Scroll of Warding Round",
+      "to": "Warding Round"
+    },
+    {
+      "from": "Scroll of Doton: Ni",
+      "to": "Doton: Ni"
+    },
+    {
+      "from": "Scroll of Huton: Ni",
+      "to": "Huton: Ni"
+    },
+    {
+      "from": "Scroll of Katon: Ni",
+      "to": "Katon: Ni"
+    },
+    {
+      "from": "Scroll of Raiton: Ni",
+      "to": "Raiton: Ni"
+    },
+    {
+      "from": "Scroll of Suiton: Ni",
+      "to": "Suiton: Ni"
+    },
+    {
+      "from": "Scroll of Foe Lullaby",
+      "to": "Foe Lullaby"
+    },
+    {
+      "from": "Scroll of Horde Lullaby",
+      "to": "Horde Lullaby"
+    },
+    {
+      "from": "Scroll of Magic Finale",
+      "to": "Magic Finale"
+    },
+    {
+      "from": "SP",
+      "to": "SP Wildcat Badge"
+    },
+    {
+      "from": "Royal Sautee",
+      "to": "Royal Saute"
+    },
+    {
+      "from": "Stats",
+      "to": "Category:Stats"
+    },
+    {
+      "from": "Silk Thread",
+      "to": "Spool of Silk Thread"
+    },
+    {
+      "from": "Singing Skill",
+      "to": "Category:Singing Skill"
+    },
+    {
+      "from": "Summoning Magic Skill",
+      "to": "Category:Summoning Magic"
+    },
+    {
+      "from": "String Instrument Skill",
+      "to": "Category:String Instrument Skill"
+    },
+    {
+      "from": "Staff Skill",
+      "to": "Category:Staves"
+    },
+    {
+      "from": "Songs",
+      "to": "Category:Songs"
+    },
+    {
+      "from": "Summoning Magic",
+      "to": "Category:Summoning Magic"
+    },
+    {
+      "from": "Smithing",
+      "to": "Category:Smithing"
+    },
+    {
+      "from": "Simulacra",
+      "to": "Category:Simulacra"
+    },
+    {
+      "from": "Soil Hachimaki Plus 1",
+      "to": "Soil Hachimaki +1"
+    },
+    {
+      "from": "Soil Tekko Plus 1",
+      "to": "Soil Tekko +1"
+    },
+    {
+      "from": "Soil Kyahan Plus 1",
+      "to": "Soil Kyahan +1"
+    },
+    {
+      "from": "Standard Merchant",
+      "to": "Category:Standard Merchants"
+    },
+    {
+      "from": "Staff",
+      "to": "Category:Staves"
+    },
+    {
+      "from": "Summoning Skill",
+      "to": "Category:Summoning Magic"
+    },
+    {
+      "from": "Sis Kebabi Plus 1",
+      "to": "Sis Kebabi +1"
+    },
+    {
+      "from": "Staves",
+      "to": "Category:Staves"
+    },
+    {
+      "from": "Silence Dagger Plus 1",
+      "to": "Silence Dagger +1"
+    },
+    {
+      "from": "Silence Baghnakhs Plus 1",
+      "to": "Silence Baghnakhs +1"
+    },
+    {
+      "from": "Singing",
+      "to": "Category:Singing Skill"
+    },
+    {
+      "from": "Shinobi-gatana Plus 1",
+      "to": "Shinobi-gatana Plus +1"
+    },
+    {
+      "from": "Song",
+      "to": "Song (Status Effect)"
+    },
+    {
+      "from": "Smithing Skill",
+      "to": "Category:Smithing"
+    },
+    {
+      "from": "Shofar Plus 1",
+      "to": "Shofar +1"
+    },
+    {
+      "from": "Silver Sea route to Nashmau",
+      "to": "Ferry - Al Zahbi/Nashmau"
+    },
+    {
+      "from": "Shura Haidate Plus 1",
+      "to": "Shura Haidate +1"
+    },
+    {
+      "from": "Stun Jamadhar",
+      "to": "Stun Jamadhars"
+    },
+    {
+      "from": "Super Ether Plus 1",
+      "to": "Super Ether +1"
+    },
+    {
+      "from": "Super Ether Plus 2",
+      "to": "Super Ether +2"
+    },
+    {
+      "from": "Super Ether Plus 3",
+      "to": "Super Ether +3"
+    },
+    {
+      "from": "Stun Claws Plus 1",
+      "to": "Stun Claws +1"
+    },
+    {
+      "from": "Stun Jamadhars Plus 1",
+      "to": "Stun Jamadhars +1"
+    },
+    {
+      "from": "Spark Dagger Plus 1",
+      "to": "Spark Dagger +1"
+    },
+    {
+      "from": "Slimes",
+      "to": "Category:Slimes"
+    },
+    {
+      "from": "Scroll of Hyoton: Ni",
+      "to": "Hyoton: Ni"
+    },
+    {
+      "from": "Scroll of Blade Madrigal",
+      "to": "Blade Madrigal"
+    },
+    {
+      "from": "Scroll of Dragonfoe Mambo",
+      "to": "Dragonfoe Mambo"
+    },
+    {
+      "from": "Scroll of Aero III",
+      "to": "Aero III"
+    },
+    {
+      "from": "Scroll of Aero IV",
+      "to": "Aero IV"
+    },
+    {
+      "from": "Scroll of Aeroga II",
+      "to": "Aeroga II"
+    },
+    {
+      "from": "Scroll of Tornado",
+      "to": "Tornado"
+    },
+    {
+      "from": "Scroll of Barparalyzra",
+      "to": "Barparalyzra"
+    },
+    {
+      "from": "Scroll of Barpoisonra",
+      "to": "Barpoisonra"
+    },
+    {
+      "from": "Scroll of Deodorize",
+      "to": "Deodorize"
+    },
+    {
+      "from": "Scroll of Invisible",
+      "to": "Invisible"
+    },
+    {
+      "from": "Scroll of Protectra",
+      "to": "Protectra"
+    },
+    {
+      "from": "Scroll of Silence",
+      "to": "Silence"
+    },
+    {
+      "from": "Scroll of Sneak",
+      "to": "Sneak"
+    },
+    {
+      "from": "Scroll of Erase",
+      "to": "Erase"
+    },
+    {
+      "from": "Treasures of Aht Urhgan Missions",
+      "to": "Category:Treasures of Aht Urhgan Missions"
+    },
+    {
+      "from": "Tank",
+      "to": "Party"
+    },
+    {
+      "from": "WAR",
+      "to": "Warrior"
+    },
+    {
+      "from": "Tonberry",
+      "to": "Category:Tonberries"
+    },
+    {
+      "from": "THF",
+      "to": "Thief"
+    },
+    {
+      "from": "WHM",
+      "to": "White Mage"
+    },
+    {
+      "from": "Water IV",
+      "to": "Scroll of Water IV"
+    },
+    {
+      "from": "Swords",
+      "to": "Category:Swords"
+    },
+    {
+      "from": "TP",
+      "to": "Tactical Points"
+    },
+    {
+      "from": "Weapon",
+      "to": "Category:Weapons"
+    },
+    {
+      "from": "Sword Skill",
+      "to": "Category:Swords"
+    },
+    {
+      "from": "To The Forsaken Mines",
+      "to": "To the Forsaken Mines"
+    },
+    {
+      "from": "Throwing",
+      "to": "Category:Throwing"
+    },
+    {
+      "from": "Sword",
+      "to": "Category:Swords"
+    },
+    {
+      "from": "Trolls",
+      "to": "Category:Trolls"
+    },
+    {
+      "from": "Sweets",
+      "to": "Category:Sweets"
+    },
+    {
+      "from": "Tenshodo Merchant",
+      "to": "Category:Tenshodo Merchants"
+    },
+    {
+      "from": "Vegan Sautee",
+      "to": "Vegan Saute"
+    },
+    {
+      "from": "Waist",
+      "to": "Category:Waist"
+    },
+    {
+      "from": "Temple Crown Plus 1",
+      "to": "Temple Crown +1"
+    },
+    {
+      "from": "Temple Cyclas Plus 1",
+      "to": "Temple Cyclas +1"
+    },
+    {
+      "from": "Temple Gloves Plus 1",
+      "to": "Temple Gloves +1"
+    },
+    {
+      "from": "Temple Hose Plus 1",
+      "to": "Temple Hose +1"
+    },
+    {
+      "from": "Temple Gaiters Plus 1",
+      "to": "Temple Gaiters +1"
+    },
+    {
+      "from": "Throwing Skill",
+      "to": "Category:Throwing"
+    },
+    {
+      "from": "Sutlac Plus 1",
+      "to": "Sutlac +1"
+    },
+    {
+      "from": "Traversiere Plus 1",
+      "to": "Traversiere +1"
+    },
+    {
+      "from": "Traversiere Plus 2",
+      "to": "Traversiere +2"
+    },
+    {
+      "from": "Sword Enhancement Spell Damage",
+      "to": "Enspell"
+    },
+    {
+      "from": "Thunderbolt",
+      "to": "Thunderbolt (Behemoth)"
+    },
+    {
+      "from": "Too Weak To Be Worthwhile",
+      "to": "Check"
+    },
+    {
+      "from": "Tropical Punches Plus 1",
+      "to": "Tropical Punches +1"
+    },
+    {
+      "from": "Tactician Magician's Hooks Plus 1",
+      "to": "Tactician Magician's Hooks +1"
+    },
+    {
+      "from": "Tactician Magician's Hooks Plus 2",
+      "to": "Tactician Magician's Hooks +2"
+    },
+    {
+      "from": "Used in Quests",
+      "to": "Category:Quests"
+    },
+    {
+      "from": "Used in Mission",
+      "to": "Category:Missions"
+    },
+    {
+      "from": "Spark Baselard Plus 1",
+      "to": "Spark Baselard +1"
+    },
+    {
+      "from": "Spark Kris Plus 1",
+      "to": "Spark Kris +1"
+    },
+    {
+      "from": "Stun Knife Plus 1",
+      "to": "Stun Knife +1"
+    },
+    {
+      "from": "Used to Spawn",
+      "to": "Pop NMs"
+    },
+    {
+      "from": "Stun Kukri Plus 1",
+      "to": "Stun Kukri +1"
+    },
+    {
+      "from": "String Instruments",
+      "to": "Category:String Instruments"
+    },
+    {
+      "from": "Summoning",
+      "to": "Category:Summoning Magic"
+    },
+    {
+      "from": "Tavnazia",
+      "to": "Tavnazian Safehold"
+    },
+    {
+      "from": "Spiders",
+      "to": "Category:Spiders"
+    },
+    {
+      "from": "Tigers",
+      "to": "Category:Tigers"
+    },
+    {
+      "from": "Used In Quests",
+      "to": "Category:Quests"
+    },
+    {
+      "from": "Troll Fugitives",
+      "to": "Assault Mission - Troll Fugitives"
+    },
+    {
+      "from": "Used in Quest",
+      "to": "Category:Quests"
+    },
+    {
+      "from": "Tmp",
+      "to": "Category:Temporary"
+    },
+    {
+      "from": "Windurst Missions",
+      "to": "Category:Windurst Missions"
+    },
+    {
+      "from": "Weapon Skills",
+      "to": "Category:Weapon Skills"
+    },
+    {
+      "from": "Windurst",
+      "to": "Category:Windurst"
+    },
+    {
+      "from": "Yagudo",
+      "to": "Category:Yagudo"
+    },
+    {
+      "from": "Wide Scan",
+      "to": "Widescan"
+    },
+    {
+      "from": "Xzomit",
+      "to": "Category:Xzomit"
+    },
+    {
+      "from": "Weapon Skill",
+      "to": "Category:Weapon Skills"
+    },
+    {
+      "from": "Weapon skill",
+      "to": "Category:Weapon Skills"
+    },
+    {
+      "from": "White Magic",
+      "to": "Category:White Magic"
+    },
+    {
+      "from": "Wind Instruments",
+      "to": "Category:Wind Instruments"
+    },
+    {
+      "from": "Windurst Quests",
+      "to": "Category:Windurst Quests"
+    },
+    {
+      "from": "Windurst Mission 1-1",
+      "to": "The Horutoto Ruins Experiment"
+    },
+    {
+      "from": "Windurst Mission 1-2",
+      "to": "The Heart of the Matter"
+    },
+    {
+      "from": "Weapons",
+      "to": "Category:Weapons"
+    },
+    {
+      "from": "Woodworking",
+      "to": "Category:Woodworking"
+    },
+    {
+      "from": "Windurst Mission 3-2",
+      "to": "Written in the Stars"
+    },
+    {
+      "from": "Windurst Mission 3-3",
+      "to": "A New Journey"
+    },
+    {
+      "from": "Windurst Mission 7-2",
+      "to": "Awakening of the Gods"
+    },
+    {
+      "from": "Windurst Mission 7-1",
+      "to": "The Sixth Ministry"
+    },
+    {
+      "from": "Windurst Mission 6-2",
+      "to": "Saintly Invitation"
+    },
+    {
+      "from": "Windurst Mission 8-1",
+      "to": "Vain"
+    },
+    {
+      "from": "Windurst Mission 8-2",
+      "to": "The Jester Who'd Be King"
+    },
+    {
+      "from": "Windurst Mission 9-1",
+      "to": "Doll of the Dead"
+    },
+    {
+      "from": "Windurst Mission 9-2",
+      "to": "Moon Reading"
+    },
+    {
+      "from": "Windurst Mission 5-2",
+      "to": "The Shadow Awaits"
+    },
+    {
+      "from": "Windurst Mission 5-1",
+      "to": "The Final Seal"
+    },
+    {
+      "from": "Wax Sword Plus 1",
+      "to": "Wax Sword +1"
+    },
+    {
+      "from": "Xiphos Plus 1",
+      "to": "Xiphos +1"
+    },
+    {
+      "from": "Warlock's Chapeau Plus 1",
+      "to": "Warlock's Chapeau +1"
+    },
+    {
+      "from": "Warlock's Tabard Plus 1",
+      "to": "Warlock's Tabard +1"
+    },
+    {
+      "from": "Warlock's Gloves Plus 1",
+      "to": "Warlock's Gloves +1"
+    },
+    {
+      "from": "Warlock's Tights Plus 1",
+      "to": "Warlock's Tights +1"
+    },
+    {
+      "from": "Warlock's Boots Plus 1",
+      "to": "Warlock's Boots +1"
+    },
+    {
+      "from": "Westerly Winds",
+      "to": "Aht Urhgan Mission 7: Westerly Winds"
+    },
+    {
+      "from": "X-Potion Plus 1",
+      "to": "X-Potion+1"
+    },
+    {
+      "from": "X-Potion Plus 2",
+      "to": "X-Potion +2"
+    },
+    {
+      "from": "War Bow Plus 1",
+      "to": "War Bow Plus +1"
+    },
+    {
+      "from": "Virelai",
+      "to": "Maiden's Virelai"
+    },
+    {
+      "from": "Warrior: Guide to Playing the Job",
+      "to": "Warrior Guide by Falaras"
+    },
+    {
+      "from": "Vigor Earring Plus 1",
+      "to": "Vigor Earring +1"
+    },
+    {
+      "from": "Vile Elixir Plus 1",
+      "to": "Vile Elixir +1"
+    },
+    {
+      "from": "Vermin",
+      "to": "Bestiary"
+    },
+    {
+      "from": "Venom Claws Plus 1",
+      "to": "Venom Claws +1"
+    },
+    {
+      "from": "Venom Katars Plus 1",
+      "to": "Venom Katars +1"
+    },
+    {
+      "from": "Virtue stone equipped",
+      "to": "Virtue Stone"
+    },
+    {
+      "from": "Venom Knife Plus 1",
+      "to": "Venom Knife +1"
+    },
+    {
+      "from": "Venom Kris Plus 1",
+      "to": "Venom Kris +1"
+    },
+    {
+      "from": "Venom Baselard Plus 1",
+      "to": "Venom Baselard +1"
+    },
+    {
+      "from": "Venom Kukri Plus 1",
+      "to": "Venom Kukri +1"
+    },
+    {
+      "from": "Weakened",
+      "to": "Weakness"
+    },
+    {
+      "from": "Zilart Missions",
+      "to": "Category:Rise of the Zilart Missions"
+    },
+    {
+      "from": "Zilart Mission 4",
+      "to": "The Temple of Uggalepih"
+    },
+    {
+      "from": "Zilart Mission 1",
+      "to": "The New Frontier"
+    },
+    {
+      "from": "Zilart Mission 2",
+      "to": "Welcome t'Norg"
+    },
+    {
+      "from": "Zilart Mission 3",
+      "to": "Kazham's Chieftainess"
+    },
+    {
+      "from": "Zilart Mission 7",
+      "to": "The Chamber of Oracles"
+    },
+    {
+      "from": "Zilart Mission 6",
+      "to": "Through the Quicksand Caves"
+    },
+    {
+      "from": "Zilart Mission 5",
+      "to": "Headstone Pilgrimage"
+    },
+    {
+      "from": "Yali",
+      "to": "Vyala"
+    },
+    {
+      "from": "Zilart Mission 8",
+      "to": "Return to Delkfutt's Tower"
+    },
+    {
+      "from": "Yayla Corbasi Plus 1",
+      "to": "Yayla Corbasi +1"
+    },
+    {
+      "from": "X-Potion Plus 3",
+      "to": "X-Potion +3"
+    },
+    {
+      "from": "Zovriance",
+      "to": "Zovriace"
+    },
+    {
+      "from": "Windurst Mission 3-1",
+      "to": "To Each His Own Right"
+    },
+    {
+      "from": "Windurst Mission 1-3",
+      "to": "The Price of Peace"
+    },
+    {
+      "from": "Windurst Mission 2-1",
+      "to": "Lost for Words"
+    },
+    {
+      "from": "Windurst Mission 2-2",
+      "to": "A Testing Time"
+    },
+    {
+      "from": "Windurst Mission 2-3",
+      "to": "The Three Kingdoms"
+    },
+    {
+      "from": "Windurst Mission 4-1",
+      "to": "Magicite (Windurst)"
+    },
+    {
+      "from": "Windurst Mission 6-1",
+      "to": "Full Moon Fountain (Mission)"
+    },
+    {
+      "from": "Windurst Mission 6-1: Full Moon Fountain",
+      "to": "Full Moon Fountain (Mission)"
+    },
+    {
+      "from": "Zilart Mission 10",
+      "to": "The Temple of Desolation"
+    },
+    {
+      "from": "Zilart Mission 9",
+      "to": "Ro'Maeve (Mission)"
+    },
+    {
+      "from": "Zilart Mission 11",
+      "to": "The Hall of the Gods"
+    },
+    {
+      "from": "Zilart Mission 12",
+      "to": "The Mithra and the Crystal"
+    },
+    {
+      "from": "Zilart Mission 13",
+      "to": "The Gate of the Gods"
+    },
+    {
+      "from": "Zilart Mission 14",
+      "to": "Ark Angels"
+    },
+    {
+      "from": "Zilart Mission 15",
+      "to": "The Sealed Shrine"
+    },
+    {
+      "from": "Zilart Mission 16",
+      "to": "The Celestial Nexus"
+    },
+    {
+      "from": "Zilart Mission 17",
+      "to": "Awakening"
+    },
+    {
+      "from": "Woodworking Skill",
+      "to": "Category:Woodworking"
+    },
+    {
+      "from": "Zenith Crown Plus 1",
+      "to": "Zenith Crown +1"
+    },
+    {
+      "from": "West Aht Urghan",
+      "to": "West Aht Urhgan"
+    },
+    {
+      "from": "Wyrms",
+      "to": "Category:Wyrm"
+    },
+    {
+      "from": "Wyverns",
+      "to": "Category:Wyverns"
+    },
+    {
+      "from": "Worms",
+      "to": "Category:Worms"
+    }
+  ],
+  "normalized": [],
+  "unique_edges": 836
+}

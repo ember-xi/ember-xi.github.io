@@ -1,0 +1,96 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ranger Guide by Hotarubi - Zenith XI Wiki</title><meta name="description" content=""><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/wiki.css?v=42"><script defer src="assets/sidebar.js?v=42"></script><script defer src="assets/search-index.js?v=42"></script><script defer src="assets/wiki.js?v=42"></script><link rel="stylesheet" href="assets/shared-styles.css?v=42"></head><body data-page="ranger-guide-by-hotarubi"><a class="skip" href="#content">Skip to content</a><header class="topbar" id="shared-topbar"></header><div class="layout"><aside class="sidebar" id="shared-sidebar"><nav aria-label="Wiki navigation"><a href="index.html">Main Page</a><a href="jobs.html">Jobs</a><a href="all-pages.html">All Pages</a></nav></aside><main id="content"><div class="page-tabs"><span class="selected">Reference</span><a href="all-pages.html">Article index</a><button class="print-link" type="button" data-print>Print</button></div><article class="article"><div class="breadcrumb"><a href="era-reference.html">Level 75 Reference</a> <span>›</span> Ranger Guide by Hotarubi</div><h1>Ranger Guide by Hotarubi</h1><div class="wiki-byline">From Zenith XI Wiki</div><div class="article-overview"><nav class="toc" aria-label="Article contents"><strong>Contents</strong><ol><li><a href="#era-Introduction!">Introduction!</a></li><li><a href="#era-Abilities!">Abilities!</a></li><li><a href="#era-Support_Jobs!">Support Jobs!</a></li><li><a href="#era-Equipment!">Equipment!</a></li><li><a href="#era-Food!">Food!</a></li><li><a href="#era-Merits!">Merits!</a></li><li><a href="#era-Formulas!">Formulas!</a></li></ol></nav></div><div class="article-body"><p><span class="reference-edition">Level 75 reference · <a href="server-rules.html">Zenith rules</a></span></p><div class="era-reference"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><figure typeof="mw:Error mw:File/Thumb"><a href="https://edenxi.miraheze.org/wiki/Special:Upload" class="new" title="File:Splash.png"><span class="mw-file-element mw-broken-media" data-width="574" data-height="574">File:Splash.png</span></a><figcaption></figcaption></figure>
+<p><br>
+</p><p><br>
+</p>
+<h2 id="era-Introduction!"><span id="era-Introduction.21"></span><span data-ws="372"><b><big>Introduction!</big></b></span></h2>
+<h3 id="era-Ranger_Overview"><u><i>Ranger Overview</i></u></h3>
+<p>a
+</p>
+<h3 id="era-Strengths">Strengths</h3>
+<p>aa
+</p>
+<h3 id="era-Weaknesses">Weaknesses</h3>
+<p>aaa
+</p>
+<h3 id="era-Guide_Structure">Guide Structure</h3>
+<p>aaaa
+</p><p><br>
+</p>
+<h2 id="era-Abilities!"><span id="era-Abilities.21"></span><span data-ws="372"><b><big>Abilities!</big></b></span></h2>
+<h3 id="era-Job_Abilities">Job Abilities</h3>
+<p>Eagle Eye Shot
+</p><p>This is Ranger's 2-hour job special ability and one of the most straightforward in the game. It instantly deals a huge spike of physical damage to a single target based on your ranged weapon and ranged attack parameters. This attack <b>can and will miss its target</b>. It generates the same amount of TP as any other ranged attack. EES makes for a pretty good "oh, shit!" button in dire party situations where the tank is about to die and you want to change the monster's attention to you with its high enmity generation (or just get the mob dead faster). Other than unplanned usage, it fits well into huge burst combos for battlefield or mission fights like Meditate -&gt; Meditate -&gt; Slug -&gt; Barrage -&gt; EES -&gt; Slug -&gt; Icarus Wing -&gt; Slug which is pretty much how your Maat fight will end in 20 seconds.
+</p><p>Sharpshot (5)
+</p><p>
+Can be used every 5 minutes for a temporary 1-minute ranged accuracy boost of +40. Sharpshot is mostly just going to be used in conjunction with Barrage (explained a few paragraphs down) since they share the exact same cooldown and have great synergy. Other than as a combo with barrage, the +40 ranged accuracy can be nice. Later on in end game once you optimize your builds to maximize accuracy, the +40 accuracy will have little effect so if you want to be a lil' cheeky you can add a conditional line in Ashitacast to swap out 40 points worth of R.accuracy pieces for STR and R.attack pieces while Sharpshot is active (for non-barrage shots) and the effects of the ability can be felt a bit more as a raw damage increase. Think of it as a bit of an aftermath effect on your barrages 8) Ashitacast below... the elseif is very important if you keep the accuracy during Barrage.</p><div class="mw-highlight mw-highlight-lang-xml mw-content-ltr" dir="ltr"><pre><span></span><span class="nt">&lt;midranged&gt;</span>
+<span class="w">    </span><span class="nt">&lt;if</span><span class="w"> </span><span class="na">buffactive=</span><span class="s">"Barrage"</span><span class="nt">&gt;</span><span class="w"> </span><span class="nt">&lt;equip</span><span class="w"> </span><span class="na">set=</span><span class="s">"barrageSet"</span><span class="w"> </span><span class="nt">/&gt;</span><span class="w"> </span><span class="nt">&lt;/if&gt;</span>
+<span class="w">    </span><span class="nt">&lt;elseif</span><span class="w"> </span><span class="na">buffactive=</span><span class="s">"Sharpshot"</span><span class="nt">&gt;</span><span class="w"> </span><span class="nt">&lt;equip</span><span class="w"> </span><span class="na">set=</span><span class="s">"minus40AccSet"</span><span class="w"> </span><span class="nt">/&gt;</span><span class="w"> </span><span class="nt">&lt;/elseif&gt;</span>
+<span class="nt">&lt;/midranged&gt;</span>
+</pre></div>
+<p><br>
+Scavenge (10)
+</p><p>Scavenge returns a percentage of the ammunition you've used since you've either (1) last changed zones, (2) last used Scavenge or (3) last swapped your ammunition. When you first acquire this ability, it will refund 5% of ammunition used and at level 75 it will refund 37%. The scaling on the levels in between is linear; you can simply divide your job level by 2 (i.e. check your subjob level) to see what the refund rate is. Scavenge Effect can be merited for an additional 25% increase and Hunter's Socks can be macro'd or Ashitacasted in for an additional 5% increase, making the maximum return on this ability an impressive 67%, cutting the cost on ammo down to just one-third at level 75. Just remember to Scavenge frequently -- you get no returns if you forget to use it!
+</p><p>Camouflage (20)
+</p><p>This ability turns you invisible for a minute or two with a five-minute cooldown. There's not much to say about Camouflage in a world with easy access to infinite uptime invisibilities via Prism Powders and Tonko; I guess it might save you a buck here or there. The only notable advantage over other invisibility sources is that the application for Camouflage is instantaneous so there might be a very rare situation where cutting that half-second will save you in a pinch if you have the quick draw on your ctrl+J shortcut since no sane person is going to make a macro for this thing.
+</p><p>Barrage (30)
+</p><p>abc
+</p><p>Shadowbind (40)
+</p><p>abc
+</p><p>Velocity Shot (45)
+</p><p>abc
+</p><p><i><small>...the merited abilities Flashy Shot and Stealth Shot have not yet been implemented into Eden. Their applications are extremely niche anyway so I doubt anyone is holding their breath waiting for them to be added.</small></i>
+</p>
+<h3 id="era-Traits">Traits</h3>
+<p>Widescan (1/20/40/60)
+</p><p>abc
+</p><p>Alertness (5)
+</p><p>Nooooo! This trait does not work!! Ninja's equivalent (Stealth) is coded and implemented on Eden but not Alertness? This is obvious Ninja favoritism!! WTF unplayable, Valve pls fix. Oh well... if this does ever get fixed, it should make Rangers less detectable by sight. How so is unclear since Square's descriptions are vague and their ways mysterious, but the way Ninja has it on Eden is that they can get 3 yalms closer to enemies before being detected by sight (the trait is only level 5 so if you have Ninja subbed on Ranger you will have this). Maybe one day us Rangers will get that too.
+</p><p>Accuracy Bonus (10/30/50/70)
+</p><p>This one is a... wait for it... bonus to your accuracy. At levels 10/30/50/70 you will get +10/+22/+35/+48 <b>melee accuracy and</b> <b>ranged accuracy</b>. The melee accuracy part is what makes Ranger a contender as a subjob on melee damage-dealing jobs in the early 20's for EXP. The ranged accuracy is quite nice and what I would call an absolute necessity to make the job work via more reliable Slug Shots and Sidewinders (which have accuracy penalties). The melee accuracy is not really used although it might catch you a bit of extra TP here and there on your dagger/axe hits, who knows. Its only real application is (was?) for Ranger builds that used multi-hit melee weapons (Kraken Club or Mercurial Kris) to quickly gain TP for Slug Shot/Sidewinder spam which I believe are mostly obsolete due to the distance penalty being introduced into Eden -- more on that at in the Formulas section at the end of the article.
+</p><p>Rapid Shot (15)
+</p><p>aaa
+</p><p>Resist Poison (20)
+</p><p>Incredible trait. Insane DPS increase. Couldn't live without it. ಠ_ಠ
+</p><p><br>
+</p>
+<h2 id="era-Support_Jobs!"><span id="era-Support_Jobs.21"></span><span data-ws="372"><b><big>Support Jobs!</big></b></span></h2>
+<h3 id="era-Warrior">Warrior</h3>
+<p>c
+</p>
+<h3 id="era-Ninja">Ninja</h3>
+<p>cc
+</p>
+<h3 id="era-Samurai">Samurai</h3>
+<p>ccc
+</p>
+<h3 id="era-White_Mage">White Mage</h3>
+<p>cccc
+</p><p><br>
+</p>
+<h2 id="era-Equipment!"><span id="era-Equipment.21"></span><span data-ws="372"><b><big>Equipment!</big></b></span></h2>
+<h3 id="era-EXP_Gear_(1-74)"><span id="era-EXP_Gear_.281-74.29"></span>EXP Gear (1-74)</h3>
+<p>d
+</p>
+<h3 id="era-Endgame_Gear_Sets">Endgame Gear Sets</h3>
+<p>dd
+</p><p><br>
+</p>
+<h2 id="era-Food!"><span id="era-Food.21"></span><span data-ws="372"><b><big>Food!</big></b></span></h2>
+<p>g
+</p><p><br>
+</p>
+<h2 id="era-Merits!"><span id="era-Merits.21"></span><span data-ws="372"><b><big>Merits!</big></b></span></h2>
+<p>h
+</p><p><br>
+</p>
+<h2 id="era-Formulas!"><span id="era-Formulas.21"></span><span data-ws="372"><b><big>Formulas!</big></b></span></h2>
+<h3 id="era-Ranged_Attack">Ranged Attack</h3>
+<p>a
+</p>
+<h3 id="era-Ranged_Weapon_Skill">Ranged Weapon Skill</h3>
+<p>b
+</p>
+<h3 id="era-Ranged_Distance_Penalty">Ranged Distance Penalty</h3>
+<p>c
+</p>
+</div></div><p class="source-credit">Adapted from <a href="https://edenxi.miraheze.org/wiki/Ranger_Guide_by_Hotarubi">Eden Wiki: Ranger Guide by Hotarubi</a> · <a href="https://edenxi.miraheze.org/wiki/Ranger_Guide_by_Hotarubi?action=history">Contributors and history</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Revision 41336. Layout, links and optional background text adapted for Zenith.</p></div><div class="category-footer"><strong>Category:</strong> Reference<span> · </span><a href="era-reference.html">Level 75 Reference</a></div></article><footer class="footer" id="shared-footer"></footer></main></div><noscript><p class="no-js">Search and filters need JavaScript. All articles remain available through the <a href="all-pages.html">page index</a>.</p></noscript></body></html>

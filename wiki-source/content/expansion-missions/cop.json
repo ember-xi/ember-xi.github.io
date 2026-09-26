@@ -1,0 +1,1751 @@
+[
+  {
+    "campaign": "cop",
+    "number": "1-1",
+    "title": "The Rites of Life",
+    "requirements": [
+      "Chains of Promathia enabled; reach Qufim Island. No national Rank 6 requirement."
+    ],
+    "start": {
+      "npc": "Entrance from Qufim Island",
+      "zone": "Lower Delkfutt's Tower"
+    },
+    "steps": [
+      "Enter Lower Delkfutt's Tower directly from Qufim Island. Accept and finish the opening story sequence.",
+      "Enter Upper Jeuno for the clinic scene.",
+      "Speak to Monberaux inside the infirmary at G-10. Finish the following scenes and receive the Mysterious Amulet."
+    ],
+    "notes": [
+      "The opening can be declined. If you declined it, use Tales’ Beginning inside Lower Delkfutt’s Tower to begin it later."
+    ],
+    "reward": "Mysterious Amulet key item.",
+    "unlocks": [
+      "CoP 1-2: Below the Arks"
+    ],
+    "zones": [
+      "Lower Delkfutt's Tower",
+      "Qufim Island",
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_1-1",
+        "label": "HorizonXI: CoP 1-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/1_1_The_Rites_of_Life.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "1-2",
+    "title": "Below the Arks",
+    "requirements": [
+      "Complete CoP 1-1."
+    ],
+    "start": {
+      "npc": "Pherimociel",
+      "zone": "Ru'Lude Gardens",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Speak to Pherimociel in the palace guard room; repeat if another storyline takes priority. Speak to Harith at H-5 for his explanation of Emptiness.",
+      "Choose one crag: Holla in La Theine Plateau, Dem in Konschtat Highlands, or Mea in Tahrongi Canyon. Examine its Shattered Telepoint and then the Large Apparatus inside the Hall of Transference.",
+      "Enter that Promyvion. Defeat Memory Receptacles and use the resulting Memory Streams to climb. If no stream appears, search another receptacle on the same floor.",
+      "On floor four, enter the corresponding Spire and win Ancient Flames Beckon. Holla has Wreaker, Dem Progenerator, and Mea Delver. The first victory advances your log to 1-3; finish the other two there."
+    ],
+    "notes": [
+      "Entering a Promyvion alone does not complete this mission. If switching an unfinished Promyvion, accept the prompt to seal its memories.",
+      "Anima made by Harith are optional boss weakening items; they are not keys required for entry."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "Access to Promyvion - Holla, Promyvion - Dem and Promyvion - Mea"
+    ],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Hall of Transference",
+      "La Theine Plateau",
+      "Konschtat Highlands",
+      "Tahrongi Canyon",
+      "Promyvion - Holla",
+      "Promyvion - Dem",
+      "Promyvion - Mea",
+      "Spire of Holla",
+      "Spire of Dem",
+      "Spire of Mea"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_1-2",
+        "label": "HorizonXI: CoP 1-2"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Promyvion_Guide",
+        "label": "HorizonXI: Promyvion Guide"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/1_2_Below_the_Arks.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Spire_of_Holla/ancient_flames_beckon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Spire_of_Dem/ancient_flames_beckon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Spire_of_Mea/ancient_flames_beckon.lua"
+    ],
+    "native_status": "implemented",
+    "era_note": "Historical reference cap: 30. Native battlefields use the server MAX_LEVEL instead. The referenced native battlefield permits Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "1-3",
+    "title": "The Mothercrystals",
+    "requirements": [
+      "Complete CoP 1-2.",
+      "Collect all three lights by winning the three different Promyvion battlefields; the first light was obtained during 1-2."
+    ],
+    "start": {
+      "npc": "Shattered Telepoints",
+      "zone": "La Theine Plateau"
+    },
+    "steps": [
+      "Clear the two Promyvions whose lights you still lack. Use Holla/La Theine, Dem/Konschtat, and Mea/Tahrongi; the order is your choice.",
+      "For each ascent, defeat Memory Receptacles until a working Memory Stream appears. Enter the streams to reach floor four, then the Spire.",
+      "Win Ancient Flames Beckon at each Spire. Against Holla's Wreaker prepare Sleep/Curse recovery; against Dem's Progenerator control its offspring; against Mea's Delver prepare immediate healing after Impalement.",
+      "After the third total victory and its scenes, you arrive in Lufaise Meadows. Continue west to Tavnazian Safehold for 2-1."
+    ],
+    "notes": [
+      "Empty enemies detect through Sneak and Invisible; avoid them rather than relying on those effects.",
+      "Psychoanima and Hysteroanima can reduce boss pressure. Coordinate their use instead of spending several simultaneously."
+    ],
+    "reward": "Light of Holla, Light of Dem and Light of Mea; Tavnazian Archipelago access.",
+    "unlocks": [
+      "Lufaise Meadows",
+      "Tavnazian Safehold",
+      "CoP 2-1"
+    ],
+    "zones": [
+      "La Theine Plateau",
+      "Konschtat Highlands",
+      "Tahrongi Canyon",
+      "Promyvion - Holla",
+      "Promyvion - Dem",
+      "Promyvion - Mea",
+      "Spire of Holla",
+      "Spire of Dem",
+      "Spire of Mea",
+      "Lufaise Meadows"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_1-3",
+        "label": "HorizonXI: CoP 1-3"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/1_3_The_Mothercrystals.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Spire_of_Holla/ancient_flames_beckon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Spire_of_Dem/ancient_flames_beckon.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Spire_of_Mea/ancient_flames_beckon.lua"
+    ],
+    "native_status": "implemented",
+    "era_note": "Historical reference cap: 30. Native battlefields use the server MAX_LEVEL instead. The referenced native battlefield permits Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "2-1",
+    "title": "An Invitation West",
+    "requirements": [
+      "Complete CoP 1-3."
+    ],
+    "start": {
+      "npc": "Arrival cutscene",
+      "zone": "Lufaise Meadows"
+    },
+    "steps": [
+      "Finish the scene after your third Promyvion victory.",
+      "Travel west across Lufaise Meadows to either Safehold entrance, E-8 or F-10. Use suitable stealth around the field monsters.",
+      "Enter Tavnazian Safehold and finish the arrival scene."
+    ],
+    "notes": [
+      "Visit the Safehold before leaving the archipelago; this establishes the story destination for the next mission."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 2-2"
+    ],
+    "zones": [
+      "Lufaise Meadows",
+      "Tavnazian Safehold"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_2-1",
+        "label": "HorizonXI: CoP 2-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/2_1_An_Invitation_West.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "2-2",
+    "title": "The Lost City",
+    "requirements": [
+      "Complete CoP 2-1."
+    ],
+    "start": {
+      "npc": "Despachiaire",
+      "zone": "Tavnazian Safehold",
+      "grid": "K-10, upper floor"
+    },
+    "steps": [
+      "Go upstairs, pass the Walnut Door at K-9 and speak to Despachiaire at K-10.",
+      "Descend to the basement and inspect the Sewer Entrance at I-7 for the mission scene.",
+      "Check the entrance again when ready to enter Phomiuna Aqueducts for Distant Beliefs."
+    ],
+    "notes": [
+      "Justinius on the upper floor offers optional context. The map quest Unforgiven is optional."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "Phomiuna Aqueducts",
+      "CoP 2-3"
+    ],
+    "zones": [
+      "Tavnazian Safehold",
+      "Phomiuna Aqueducts"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_2-2",
+        "label": "HorizonXI: CoP 2-2"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/2_2_The_Lost_City.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "2-3",
+    "title": "Distant Beliefs",
+    "requirements": [
+      "Complete CoP 2-2.",
+      "Bronze Key, a THF who can pick the Iron Door, or someone able to open it."
+    ],
+    "start": {
+      "npc": "Sewer Entrance",
+      "zone": "Tavnazian Safehold",
+      "grid": "I-7, basement"
+    },
+    "steps": [
+      "Enter Phomiuna Aqueducts. Reach Minotaur at J-2 on map 2 and defeat it; turn away from Mortal Ray. Move away before it respawns.",
+      "Open the Iron Door at G-8, map 2, using a Bronze Key from the local Fomors, or a THF's lock-picking tool. Do not drop from the ledge beside it.",
+      "Examine the Wooden Ladder at E-8 for the scene, then climb. Take the northern corridor to the map-3 F-7 room.",
+      "Use the southwest bookshelf ??? in F-7 to reveal the southern passage. Enter F-8 and operate the correct two Oil Lamps quickly together.",
+      "Lamp pairs by day: Firesday Fire/Ice; Icesday Ice/Wind; Windsday Wind/Earth; Earthsday Earth/Thunder; Lightningday Thunder/Water; Watersday Water/Fire; Lightsday Light/Dark; Darksday Dark/Light.",
+      "Pass the western hidden door and inspect the second Ornate Gate for the scene. Return to Justinius, Tavnazian Safehold upper floor J-6, to finish."
+    ],
+    "notes": [
+      "Historical Aqueducts cap is 40; check Zenith’s actual zone rule. Tauri have true sight.",
+      "The mission continues beyond Minotaur: both the ladder and final Ornate Gate scenes matter."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Tavnazian Safehold",
+      "Phomiuna Aqueducts"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_2-3",
+        "label": "HorizonXI: CoP 2-3"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Phomiuna_Aqueducts",
+        "label": "HorizonXI: Phomiuna Aqueducts"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/2_3_Distant_Beliefs.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "2-4",
+    "title": "An Eternal Melody",
+    "requirements": [
+      "Complete CoP 2-3."
+    ],
+    "start": {
+      "npc": "Walnut Door",
+      "zone": "Tavnazian Safehold",
+      "grid": "K-7, upper floor"
+    },
+    "steps": [
+      "Inspect the Walnut Door at K-7 upstairs and finish the scene with Prishe to recover the Mysterious Amulet.",
+      "Leave the Safehold for Misareaux Coast. Examine the Dilapidated Gate at I-11 for Ulmia's scene.",
+      "Return to the Safehold and approach its central bridge for the final scene."
+    ],
+    "notes": [],
+    "reward": "Mysterious Amulet returned.",
+    "unlocks": [
+      "Riverne - Site #A01",
+      "CoP 2-5"
+    ],
+    "zones": [
+      "Tavnazian Safehold",
+      "Misareaux Coast"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_2-4",
+        "label": "HorizonXI: CoP 2-4"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/2_4_An_Eternal_Melody.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "2-5",
+    "title": "Ancient Vows",
+    "requirements": [
+      "Complete CoP 2-4.",
+      "Two Giant Scales for the party’s Riverne route; these can be farmed on the way."
+    ],
+    "start": {
+      "npc": "Dilapidated Gate",
+      "zone": "Misareaux Coast",
+      "grid": "F-7"
+    },
+    "steps": [
+      "Inspect the F-7 gate, then the Spatial Displacement on the cliff to enter Riverne - Site #A01.",
+      "Use the displacement at L-8. Obtain two Giant Scales from Firedrakes if needed. Gather everyone before trading a scale to the Unstable Displacement at G-10.",
+      "Cross that opening, reach E-10 and trade the second scale. Avoid true-sight hippogryphs and follow the remaining displacements into Monarch Linn.",
+      "Choose Ancient Vows at the battlefield displacement. Defeat all three Mammets-19 Epsilon. Stop physical damage during Transmogrification; stop offensive magic during Mind Wall. Yellow Liquid optionally holds a Mammet's current weapon form.",
+      "Finish the victory scenes; the story moves you to South Gustaberg. Proceed to Port Bastok for 3-1."
+    ],
+    "notes": [
+      "This gate is F-7, not the I-11 gate used in 2-4."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [],
+    "zones": [
+      "Misareaux Coast",
+      "Riverne - Site #A01",
+      "Monarch Linn",
+      "South Gustaberg",
+      "Port Bastok"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_2-5",
+        "label": "HorizonXI: CoP 2-5"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/2_5_Ancient_Vows.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Monarch_Linn/ancient_vows.lua"
+    ],
+    "native_status": "implemented",
+    "era_note": "Historical reference cap: 40. Native battlefields use the server MAX_LEVEL instead. The referenced native battlefield permits Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "3-1",
+    "title": "The Call of the Wyrmking",
+    "requirements": [
+      "Complete CoP 2-5."
+    ],
+    "start": {
+      "npc": "Airship departure entrance",
+      "zone": "Port Bastok"
+    },
+    "steps": [
+      "Travel from South Gustaberg to Port Bastok. Approach the Air Travel Agency departure entrance for the scene.",
+      "Visit Cid in the Metalworks, H-8. Speak again if unrelated dialogue plays; finish the mission scene before returning to Jeuno."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 3-2"
+    ],
+    "zones": [
+      "Port Bastok",
+      "South Gustaberg",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_3-1",
+        "label": "HorizonXI: CoP 3-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/3_1_The_Call_of_the_Wyrmking.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "3-2",
+    "title": "A Vessel Without a Captain",
+    "requirements": [
+      "Complete CoP 3-1."
+    ],
+    "start": {
+      "npc": "Door to Tenshodo headquarters",
+      "zone": "Lower Jeuno",
+      "grid": "J-8"
+    },
+    "steps": [
+      "Enter Neptune's Spire in Lower Jeuno and inspect the back door leading into Tenshodo headquarters.",
+      "Go to Ru'Lude Gardens and approach the palace stairs toward the Audience Chamber for the next scene."
+    ],
+    "notes": [
+      "Follow the story door interaction; this mission does not require joining the Tenshodo first."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 3-3"
+    ],
+    "zones": [
+      "Lower Jeuno",
+      "Ru'Lude Gardens"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_3-2",
+        "label": "HorizonXI: CoP 3-2"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/3_2_A_Vessel_Without_a_Captain.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "3-3",
+    "title": "The Road Forks",
+    "requirements": [
+      "Complete CoP 3-2.",
+      "Both branch routes, including their NM fights and the Mimeo Jewel mountain climb."
+    ],
+    "start": {
+      "npc": "City arrival scenes",
+      "zone": "Northern San d'Oria"
+    },
+    "steps": [
+      "Complete both branch guides: 3-3A Emerald Waters in San d'Oria, and 3-3B Memories of a Maiden in Windurst. Either order works and their progress is tracked separately.",
+      "Once both branches are complete, speak to Cid at Metalworks H-8 for the concluding scene."
+    ],
+    "notes": [
+      "The fights in these branches are open-world fights, not level-40 BCNM entries. Level 40 is not a guarantee of being able to solo them."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 3-4"
+    ],
+    "zones": [
+      "Northern San d'Oria",
+      "Windurst Waters",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_3-3",
+        "label": "HorizonXI: CoP 3-3"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/3_3_The_Road_Forks.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "3-3A",
+    "title": "Emerald Waters — San d’Oria branch",
+    "requirements": [
+      "Complete CoP 3-2.",
+      "The Road Forks active."
+    ],
+    "start": {
+      "npc": "Arrival scene",
+      "zone": "Northern San d'Oria"
+    },
+    "steps": [
+      "Enter Northern San d'Oria. Speak to Arnau in the cathedral at M-6, then Chasalvige in its manuscript room at L-6.",
+      "Enter Carpenters' Landing from Jugner Forest E-6. Find Guilloud at H-10 and talk to him to spawn Overgrown Ivy.",
+      "Defeat Overgrown Ivy, then speak to Guilloud again before leaving the zone.",
+      "Visit Hinaree upstairs in Count Caffaule's Manor, Southern San d'Oria B-6. Her scene completes this branch.",
+      "Finish the Windurst branch too, then report to Cid in Metalworks H-8."
+    ],
+    "notes": [
+      "Overgrown Ivy can use Hundred Fists; prepare healing and a way to survive its burst."
+    ],
+    "reward": "San d’Oria branch completed.",
+    "unlocks": [],
+    "zones": [
+      "Northern San d'Oria",
+      "Jugner Forest",
+      "Carpenters' Landing",
+      "Southern San d'Oria",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_3-3",
+        "label": "HorizonXI: CoP 3-3"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/3_3_The_Road_Forks.lua"
+    ],
+    "native_status": "implemented",
+    "branch_of": "3-3",
+    "kind": "branch"
+  },
+  {
+    "campaign": "cop",
+    "number": "3-3B",
+    "title": "Memories of a Maiden — Windurst branch",
+    "requirements": [
+      "Complete CoP 3-2.",
+      "The Road Forks active; complete the Windurst NPC sequence before collecting the jewel."
+    ],
+    "start": {
+      "npc": "Arrival scene",
+      "zone": "Windurst Waters"
+    },
+    "steps": [
+      "Enter Windurst Waters. Speak in order to Ohbiru-Dohbiru (south J-9), Yoran-Oran (Windurst Walls E-5), Kyume-Romeh (Waters north F-10), Honoi-Gomoi (Waters south E-7, upstairs rear entrance), then Yoran-Oran again.",
+      "Reach Attohwa Chasm through the Maze of Shakhrami. Examine Loose Sand at K-8 to spawn Lioumere. Pull it away and reclaim its attention after special attacks so it cannot return home and heal.",
+      "After victory, inspect Loose Sand again for the Mimeo Jewel. You have 30 real minutes to carry it up Parradamo Tor.",
+      "Start on the Tor's southeast side. Follow the narrow ledge around its lower circuit; the first two permanent vents require dropping carefully onto the ledge below. At temporary vents, wait for the opening. At the low ledge after the counterclockwise circuit, take the rising path and continue clockwise to the summit. Use the route map; avoid auto-follow.",
+      "Examine Cradle of Rebirth at the summit to obtain the three Mimeo Feathers. If the jewel breaks, return to Loose Sand for another; the NM need not be repeated after the recorded kill.",
+      "Speak to Yoran-Oran, Yujuju (Port Windurst M-6), Tosuka-Porika (Waters north G-8), then Yoran-Oran again. With both branches finished, report to Cid."
+    ],
+    "notes": [
+      "The jewel breaks when you leave Attohwa or log out. The mountain timer is real time, not Vana’diel time."
+    ],
+    "reward": "Windurst branch completed; Mimeo Feathers used in its scenes.",
+    "unlocks": [],
+    "zones": [
+      "Windurst Waters",
+      "Windurst Walls",
+      "Port Windurst",
+      "Maze of Shakhrami",
+      "Attohwa Chasm",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_3-3",
+        "label": "HorizonXI: CoP 3-3"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Parradamo_Tor",
+        "label": "HorizonXI: Parradamo Tor"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/3_3_The_Road_Forks.lua"
+    ],
+    "native_status": "implemented",
+    "branch_of": "3-3",
+    "kind": "branch"
+  },
+  {
+    "campaign": "cop",
+    "number": "3-4",
+    "title": "Tending Aged Wounds",
+    "requirements": [
+      "Complete CoP 3-3."
+    ],
+    "start": {
+      "npc": "Arrival scene",
+      "zone": "Lower Jeuno"
+    },
+    "steps": [
+      "Enter Lower Jeuno from another Jeuno district to trigger the arrival scene.",
+      "Inspect the Tenshodo headquarters door at the back of Neptune's Spire for the second scene."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 3-5"
+    ],
+    "zones": [
+      "Lower Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_3-4",
+        "label": "HorizonXI: CoP 3-4"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/3_4_Tending_Aged_Wounds.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "3-5",
+    "title": "Darkness Named",
+    "requirements": [
+      "Complete CoP 3-4.",
+      "One colored chip per character, traded to obtain the Pso’Xja Pass."
+    ],
+    "start": {
+      "npc": "Monberaux",
+      "zone": "Upper Jeuno",
+      "grid": "G-10"
+    },
+    "steps": [
+      "Speak to Monberaux, then Ghebi Damomohe at Neptune's Spire, Lower Jeuno I-7.",
+      "Obtain one chip in Pso'Xja: Gray from Diremites, Carmine from Snow/Frost Lizards, or Cyan from a Treasure Chest mimic. Trade your chip to Ghebi Damomohe for the Pso'Xja Pass and 500 gil.",
+      "Enter Pso'Xja through Beaucedine Glacier H-8. Follow the colored walls in this order: red, black, red, black. Reapply stealth after transitions.",
+      "Ride the elevator down and open the pass-locked gate to The Shrouded Maw. Select Darkness Named.",
+      "Defeat Diabolos. Stay on safe floor tiles and interrupt Nightmare where possible; ordinary damage does not wake its victims. Prepare Cure-based wakeups and avoid knockback into the pit.",
+      "Return to Monberaux in Upper Jeuno after victory to complete the mission."
+    ],
+    "notes": [],
+    "reward": "Pso’Xja Pass retained; story progression.",
+    "unlocks": [
+      "CoP 4-1"
+    ],
+    "zones": [
+      "Upper Jeuno",
+      "Lower Jeuno",
+      "Pso'Xja",
+      "Beaucedine Glacier",
+      "The Shrouded Maw"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_3-5",
+        "label": "HorizonXI: CoP 3-5"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Gray_Chip",
+        "label": "HorizonXI: Gray Chip"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Carmine_Chip",
+        "label": "HorizonXI: Carmine Chip"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Cyan_Chip",
+        "label": "HorizonXI: Cyan Chip"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/3_5_Darkness_Named.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/The_Shrouded_Maw/darkness_named.lua"
+    ],
+    "native_status": "implemented",
+    "era_note": "Historical reference cap: 40. Native battlefields use the server MAX_LEVEL instead. The referenced native battlefield permits Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "4-1",
+    "title": "Sheltering Doubt",
+    "requirements": [
+      "Complete CoP 3-5."
+    ],
+    "start": {
+      "npc": "Arrival scene",
+      "zone": "Tavnazian Safehold"
+    },
+    "steps": [
+      "Enter Tavnazian Safehold for the arrival scene.",
+      "Speak to Despachiaire upstairs at K-10 behind the Walnut Door; obtain the scene involving Tenzen.",
+      "Speak to Justinius upstairs at J-6.",
+      "Visit the Dilapidated Gate at Misareaux Coast I-11 and inspect it for the final scene."
+    ],
+    "notes": [
+      "This is the I-11 story gate. The next mission uses the separate Riverne entrance."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "Riverne - Site #B01",
+      "CoP 4-2"
+    ],
+    "zones": [
+      "Tavnazian Safehold",
+      "Misareaux Coast"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_4-1",
+        "label": "HorizonXI: CoP 4-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/4_1_Sheltering_Doubt.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "4-2",
+    "title": "The Savage",
+    "requirements": [
+      "Complete CoP 4-1.",
+      "One Giant Scale for the route. Mistmelt is optional, obtained through Fly High."
+    ],
+    "start": {
+      "npc": "Riverne entrance",
+      "zone": "Misareaux Coast",
+      "grid": "E-6"
+    },
+    "steps": [
+      "Enter Riverne - Site #B01 from the Riverne gate at Misareaux Coast E-6. Obtain one Giant Scale from a Pyrodrake or Ignidrake if needed.",
+      "Cross B01 using the route map toward Monarch Linn at E-8. Trade the scale at the Unstable Displacement on the route.",
+      "Enter The Savage and fight Ouryu until it yields. Keep the tank toward its front flank and avoid drawing hate from behind. Optional Mistmelt items bring the airborne wyrm down.",
+      "After the victory scene, return to Justinius at Tavnazian Safehold J-6 to finish."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 4-3; next mission opens Sacrarium"
+    ],
+    "zones": [
+      "Misareaux Coast",
+      "Riverne - Site #B01",
+      "Monarch Linn",
+      "Tavnazian Safehold"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_4-2",
+        "label": "HorizonXI: CoP 4-2"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Riverne_-_Site_B01",
+        "label": "HorizonXI: Riverne - Site B01"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/4_2_The_Savage.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Monarch_Linn/savage.lua"
+    ],
+    "native_status": "implemented",
+    "era_note": "Historical reference cap: 50. Native battlefields use the server MAX_LEVEL instead. The referenced native battlefield permits Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "4-3",
+    "title": "The Secrets of Worship",
+    "requirements": [
+      "Complete CoP 4-2.",
+      "A working plan to open the H-7 two-lock door twice. Trusts cannot trade physical keys for you."
+    ],
+    "start": {
+      "npc": "Justinius",
+      "zone": "Tavnazian Safehold",
+      "grid": "J-6, upper floor"
+    },
+    "steps": [
+      "Speak to Justinius, then inspect the upstairs K-7 Walnut Door. Enter Sacrarium through the Iron Gate at Misareaux Coast G-4.",
+      "Cross map 1's shifting maze toward J-10 to enter map 2. Prepare access to the two-lock door: farm two Coral Crest Keys from Fomors and a Sealion Crest Key from Keremet, or bring a Temple Knight Key holder.",
+      "Before fighting Keremet in the eastern K-8/L-8 hall, clear the twelve corridor skeletons that join it. Prepare for Charm and Silence its casting when possible.",
+      "At map-2 H-7, one character trades a Coral Crest Key to the Small Keyhole; a different character promptly trades the Sealion Crest Key to the Large Keyhole. The coral key breaks. A Temple Knight Key provides another way to open the door.",
+      "Inside, inspect the Wooden Gate at G-8 for the required scene, then leave to search the six classrooms: F/G/H-5 and F/G/H-11.",
+      "Check their ??? until Old Professor Mariselle appears. Defeat it; inspect a classroom ??? afterward for the Reliquiarium Key.",
+      "Reopen H-7 using the second coral key and the sealion key, or the Temple Knight Key. Inspect the G-8 Wooden Gate again to finish."
+    ],
+    "notes": [
+      "Historical Sacrarium cap is 50; confirm the actual Zenith zone rule.",
+      "The permanent Temple Knight Key is obtained from Quelveuiat after A Hard Day’s Knight by trading a Coral Crest Key and Sealion Crest Key; it is not automatically awarded by this mission."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "Sacrarium",
+      "CoP 4-4"
+    ],
+    "zones": [
+      "Tavnazian Safehold",
+      "Misareaux Coast",
+      "Sacrarium"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_4-3",
+        "label": "HorizonXI: CoP 4-3"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Sacrarium",
+        "label": "HorizonXI: Sacrarium"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/4_3_The_Secrets_of_Worship.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/otherAreas/A_Hard_Days_Knight.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Sacrarium/npcs/Small_Keyhole.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Sacrarium/npcs/Large_Keyhole.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "4-4",
+    "title": "Slanderous Utterings",
+    "requirements": [
+      "Complete CoP 4-3."
+    ],
+    "start": {
+      "npc": "Approach Despachiaire",
+      "zone": "Tavnazian Safehold",
+      "grid": "K-10, upper floor"
+    },
+    "steps": [
+      "Approach Despachiaire's room behind the Walnut Door upstairs for the scene.",
+      "Go to the Safehold basement and enter Sealion's Den.",
+      "Inspect the Iron Gate at H-6 to finish this mission."
+    ],
+    "notes": [],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 5-1"
+    ],
+    "zones": [
+      "Tavnazian Safehold",
+      "Sealion's Den"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_4-4",
+        "label": "HorizonXI: CoP 4-4"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/4_4_Slanderous_Utterings.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "5-1",
+    "title": "The Enduring Tumult of War",
+    "requirements": [
+      "Complete CoP 4-4."
+    ],
+    "start": {
+      "npc": "Arrival scene",
+      "zone": "Port Bastok"
+    },
+    "steps": [
+      "For the story's San d'Oria lead, speak to Chasalvige at Northern San d'Oria L-6 and Anoki at Port San d'Oria H-6. These are optional clues in the pinned native script.",
+      "Enter Port Bastok for the mission scene, then speak to Cid at Metalworks H-8.",
+      "Enter the Pso'Xja tower at Beaucedine Glacier F-7 for a scene. Follow the path to the Stone Door and inspect it to spawn Nunyunuwi.",
+      "Defeat Nunyunuwi with sustained damage against its strong regeneration. Examine the door again to pass through.",
+      "Inspect the next Stone Door and finish the sequence into Promyvion - Vahzl."
+    ],
+    "notes": [
+      "The F-7 tower is different from the H-8 tower used for Diabolos.",
+      "Some Horizon revisions require the San d’Oria conversations. They are included here as a safe story route; native Port Bastok progression does not check those optional bits."
+    ],
+    "reward": "Light of Vahzl, drained Mysterious Amulet, and access to Promyvion - Vahzl.",
+    "unlocks": [
+      "Promyvion - Vahzl",
+      "CoP 5-2"
+    ],
+    "zones": [
+      "Port Bastok",
+      "Northern San d'Oria",
+      "Port San d'Oria",
+      "Metalworks",
+      "Beaucedine Glacier",
+      "Pso'Xja",
+      "Promyvion - Vahzl"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_5-1",
+        "label": "HorizonXI: CoP 5-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/5_1_The_Enduring_Tumult_of_War.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "5-2",
+    "title": "Desires of Emptiness",
+    "requirements": [
+      "Complete CoP 5-1.",
+      "Three Memory Flux victories and their cutscenes before battlefield entry."
+    ],
+    "start": {
+      "npc": "Arrival in Vahzl",
+      "zone": "Promyvion - Vahzl"
+    },
+    "steps": [
+      "Climb through Memory Receptacles and working Memory Streams as in the first Promyvions. Vahzl has five floors.",
+      "On floor three, inspect Memory Flux, defeat Propagator, and inspect the flux again for its scene.",
+      "On floor four, repeat with Solicitor; on floor five, repeat with Ponderer. All three post-fight scenes are required.",
+      "Enter Spire of Vahzl and choose Desires of Emptiness at the Web of Recollections. Defeat Procreator, Cumulator and Agonizer.",
+      "The next boss activates as the current one becomes weak. Finish the injured target while controlling the newcomer; save healing and anima for that overlap.",
+      "After victory, return to Cid at Metalworks H-8 to finish and begin Three Paths."
+    ],
+    "notes": [
+      "Historical Vahzl zone and battlefield cap is 50. The native battlefield uses MAX_LEVEL; zone overrides are a separate setting.",
+      "The completed flux scenes provide return checkpoints from the Vahzl entrance."
+    ],
+    "reward": "Story progression; the Light of Vahzl was received on arrival during 5-1.",
+    "unlocks": [
+      "CoP 5-3"
+    ],
+    "zones": [
+      "Promyvion - Vahzl",
+      "Spire of Vahzl",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_5-2",
+        "label": "HorizonXI: CoP 5-2"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/5_2_Desires_of_Emptiness.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Spire_of_Vahzl/desires_of_emptiness.lua"
+    ],
+    "native_status": "implemented",
+    "era_note": "Historical reference cap: 50. Native battlefields use the server MAX_LEVEL instead. The referenced native battlefield permits Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "5-3",
+    "title": "Three Paths",
+    "requirements": [
+      "Complete CoP 5-2.",
+      "All three branch completion flags, not just one selected dialogue path."
+    ],
+    "start": {
+      "npc": "Cid",
+      "zone": "Metalworks",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Speak to Cid. Complete all three branch guides: Tenzen's Pursuit of Paradise, Ulmia's Where Messengers Gather, and Louverance's Past Sins.",
+      "You may choose any order or progress branches together. Choosing a name in Cid's dialogue does not lock the other branches.",
+      "Report to Cid at the end of each branch. Finishing the last branch and its Cid scene advances to 6-1."
+    ],
+    "notes": [
+      "Shopping checklist: a Gold Key per character for Louverance; Snow Lilies for the convenient Mine Shaft transport; optional Blackened Muddy Siredon and Shu’Meyo Salt for Ulmia’s battles."
+    ],
+    "reward": "Story progression.",
+    "unlocks": [
+      "CoP 6-1"
+    ],
+    "zones": [
+      "Metalworks",
+      "Tavnazian Safehold",
+      "La Theine Plateau",
+      "Southern San d'Oria"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_5-3",
+        "label": "HorizonXI: CoP 5-3"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/5_3_Three_Paths.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "5-3T",
+    "title": "The Pursuit of Paradise — Tenzen’s Path",
+    "requirements": [
+      "Complete CoP 5-2.",
+      "Three Paths active."
+    ],
+    "start": {
+      "npc": "Carbuncle’s ???",
+      "zone": "La Theine Plateau",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Inspect the G-6 ??? until the scene includes Tenzen. Unrelated Carbuncle quest scenes do not advance this path.",
+      "Spiral: enter Pso'Xja from Beaucedine J-8. Pass sixteen Stone Doors, defeating each triggered Gargoyle. Move everyone through promptly after each victory; the doors close again. A THF can try lock-picking instead.",
+      "After the last door, take the elevator down and inspect the Avatar Gate at H-8.",
+      "Branded: speak to Monberaux (Upper Jeuno G-10) for his Envelope, then Pherimociel (Ru'Lude Gardens G-6), then Monberaux again.",
+      "Pride and Honor: leave Upper Jeuno into Batallia Downs. Just outside the city gate, turn left and inspect the ??? twice to receive the Delkfutt Recognition Device.",
+      "At Lower Delkfutt's Tower, inspect the first-floor northern Cermet Door at H-5. Defeat Disaster Idol and inspect the door again before zoning.",
+      "And the Compass Guides: enter Pso'Xja from Beaucedine H-10. Keep the outer wall on your right until I-8; turn west and drop, continue south through the hall, then turn right toward the elevator. Descend and inspect the Avatar Gate.",
+      "Report to Cid in Metalworks H-8. Complete the other paths if they remain."
+    ],
+    "notes": [
+      "The two Pso’Xja entrances are J-8 and H-10; using the wrong tower will not reach the required gate.",
+      "The sixteen-door tower historically caps at 50; the final tower is uncapped. Avoid magic near magic-aggressive enemies."
+    ],
+    "reward": "Tenzen’s Ally title; Tenzen branch completion.",
+    "unlocks": [],
+    "zones": [
+      "La Theine Plateau",
+      "Beaucedine Glacier",
+      "Pso'Xja",
+      "Upper Jeuno",
+      "Ru'Lude Gardens",
+      "Batallia Downs",
+      "Lower Delkfutt's Tower",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_5-3/Tenzen%27s_Path",
+        "label": "HorizonXI: Promathia Mission 5-3/Tenzen's Path"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Pso%27Xja",
+        "label": "HorizonXI: Pso'Xja"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/5_3_Three_Paths.lua"
+    ],
+    "native_status": "implemented",
+    "branch_of": "5-3",
+    "kind": "branch"
+  },
+  {
+    "campaign": "cop",
+    "number": "5-3U",
+    "title": "Where Messengers Gather — Ulmia’s Path",
+    "requirements": [
+      "Complete CoP 5-2.",
+      "Three Paths active. Salt and siredon are optional, not entry keys."
+    ],
+    "start": {
+      "npc": "Hinaree",
+      "zone": "Southern San d'Oria",
+      "grid": "B-6"
+    },
+    "steps": [
+      "Speak to Hinaree upstairs in Count Caffaule's Manor. Entanglement: enter Port San d'Oria, then speak to Chasalvige at the Northern San d'Oria cathedral, L-6.",
+      "Head Wind: speak to Kerutoto (Windurst Waters south J-8), then Yoran-Oran (Windurst Walls E-5) until he discusses Attohwa.",
+      "Travel through Maze of Shakhrami to Attohwa Chasm. Follow its route to Boneyard Gully at the northwest F-6 exit; examine the Dark Miasma inside and select Head Wind.",
+      "Defeat Shikaree X, Y and Z. Control spare targets and interrupt their coordinated skillchains. Blackened Muddy Siredon is an optional weakening item.",
+      "Flames for the Dead: enter Bearclaw Pinnacle through Uleguerand Range J-9. Select that battlefield and prepare before approaching Snoll Tzar.",
+      "Burst Snoll Tzar down before Hypothermal Combustion ends the encounter. Optional Shu'Meyo Salt buys time; its use takes ten seconds, and simultaneous salt effects do not stack.",
+      "Return to Cid at Metalworks H-8 to record Ulmia's branch."
+    ],
+    "notes": [
+      "Head Wind and Flames for the Dead are separate fights; winning the Mithra fight alone does not finish this branch.",
+      "The historical guide gives Snoll Tzar a 45-second fuse. The pinned native monster instead grows through timed stages and can trigger combustion at its final stage; do not assume that exact historical timer."
+    ],
+    "reward": "Ulmia’s Soulmate title; Ulmia branch completion.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria",
+      "Port San d'Oria",
+      "Northern San d'Oria",
+      "Windurst Waters",
+      "Windurst Walls",
+      "Maze of Shakhrami",
+      "Attohwa Chasm",
+      "Boneyard Gully",
+      "Uleguerand Range",
+      "Bearclaw Pinnacle",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_5-3/Ulmia%27s_Path",
+        "label": "HorizonXI: Promathia Mission 5-3/Ulmia's Path"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Shu%27Meyo_Salt",
+        "label": "HorizonXI: Shu'Meyo Salt"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/5_3_Three_Paths.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Boneyard_Gully/head_wind.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Bearclaw_Pinnacle/flames_for_the_dead.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Bearclaw_Pinnacle/mobs/Snoll_Tzar.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/battlefield.lua"
+    ],
+    "native_status": "implemented",
+    "branch_of": "5-3",
+    "kind": "branch",
+    "era_note": "Historical reference cap: 50 for Head Wind; 60 for Flames for the Dead. Native battlefields use the server MAX_LEVEL instead. Native Head Wind permits Trusts; native Flames for the Dead defaults to no Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "5-3L",
+    "title": "Past Sins — Louverance’s Path",
+    "requirements": [
+      "Complete CoP 5-2.",
+      "One Gold Key per character, used after the battlefield and first Cid report.",
+      "Snow Lilies are the convenient transport option; buy the Manaclipper ticket for the correct island trip."
+    ],
+    "start": {
+      "npc": "Despachiaire",
+      "zone": "Tavnazian Safehold",
+      "grid": "K-10, upper floor"
+    },
+    "steps": [
+      "Speak to Despachiaire. Southern Legend: visit Perih Vashai in Windurst Woods K-7.",
+      "Partners Without Fame: take the Purgonorgo-bound Manaclipper from Bibiki Bay H-7. Check the ??? Warmachine on Purgonorgo Isle at H-11.",
+      "A Century of Hardship: enter Oldton Movalpolos for Louverance's scene. Trade a Snow Lily to Tarnotik at K-10 for direct transport to Mine Shaft #2716.",
+      "Choose A Century of Hardship. Defeat Chekochuk, Movamuq, Swipostik, Trikotrak and Bugbby. Silence the casters and control Bugbby while reducing the number of Moblins.",
+      "Departures: report to Cid in Metalworks H-8 after winning. Obtain a Gold Key per character from Newton Movalpolos enemies such as Moblin Workman, Yardman or Tankman.",
+      "Return to Mine Shaft #2716; another Snow Lily supplies a second Tarnotik trip. Trade your Gold Key to the battlefield entrance for the scene; this moves you to the exit side.",
+      "Speak to Cid again to complete Louverance's branch. Finish the other branches if needed."
+    ],
+    "notes": [
+      "The Gold Key cutscene is after the battle; using it while helping another group places you at the exit."
+    ],
+    "reward": "Companion of Louverance title; Louverance branch completion.",
+    "unlocks": [],
+    "zones": [
+      "Tavnazian Safehold",
+      "Windurst Woods",
+      "Bibiki Bay",
+      "Oldton Movalpolos",
+      "Newton Movalpolos",
+      "Mine Shaft #2716",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_5-3/Louverance%27s_Path",
+        "label": "HorizonXI: Promathia Mission 5-3/Louverance's Path"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Tarnotik",
+        "label": "HorizonXI: Tarnotik"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Newton_Movalpolos/Navigation",
+        "label": "HorizonXI: Newton Movalpolos/Navigation"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Gold_Key",
+        "label": "HorizonXI: Gold Key"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/5_3_Three_Paths.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Mine_Shaft_2716/century_of_hardship.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Oldton_Movalpolos/npcs/Tarnotik.lua"
+    ],
+    "native_status": "implemented",
+    "branch_of": "5-3",
+    "kind": "branch",
+    "era_note": "Historical reference cap: 60. Native battlefields use the server MAX_LEVEL instead. The referenced native battlefield permits Trusts; optional era modules or Zenith overrides can change entry rules. This is code review, not a completed Zenith battlefield test."
+  },
+  {
+    "campaign": "cop",
+    "number": "6-1",
+    "title": "For Whom the Verse is Sung",
+    "requirements": [
+      "Complete CoP 5-3: Three Paths."
+    ],
+    "start": {
+      "npc": "Pherimociel",
+      "zone": "Ru'Lude Gardens",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Speak to Pherimociel inside the palace guard room in Ru'Lude Gardens (G-6).",
+      "Check the Marble Bridge Eatery door in Upper Jeuno (F-7).",
+      "Zone back into Ru'Lude Gardens and watch the arrival scene."
+    ],
+    "notes": [],
+    "reward": "Progress to the next Chains of Promathia mission.",
+    "unlocks": [],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_6-1",
+        "label": "HorizonXI: Promathia Mission 6-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/6_1_For_Whom_the_Verse_is_Sung.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "6-2",
+    "title": "A Place to Return",
+    "requirements": [
+      "Complete CoP 6-1: For Whom the Verse is Sung."
+    ],
+    "start": {
+      "npc": "Palace approach",
+      "zone": "Ru'Lude Gardens",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Approach the Grand Duke Palace for the scene, then speak to Pherimociel in the guard room (G-6).",
+      "Travel to the Dilapidated Gate in Misareaux Coast (I-11). Prepare before examining it: Warder Aglaia, Warder Euphrosyne and Warder Thalia appear together.",
+      "Defeat all three Warders. Concentrate damage on one at a time and control the others; their synchronized area attacks can hit the whole group.",
+      "Examine the same gate again to register the victory and watch the concluding scene."
+    ],
+    "notes": [
+      "This is a field encounter. The mission checks all three deaths before the gate advances."
+    ],
+    "reward": "Progress to the next Chains of Promathia mission.",
+    "unlocks": [],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Misareaux Coast"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_6-2",
+        "label": "HorizonXI: Promathia Mission 6-2"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/6_2_A_Place_to_Return.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "6-3",
+    "title": "More Questions Than Answers",
+    "requirements": [
+      "Complete CoP 6-2: A Place to Return."
+    ],
+    "start": {
+      "npc": "Pherimociel",
+      "zone": "Ru'Lude Gardens",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Speak to Pherimociel in the palace guard room (G-6).",
+      "Examine the Audience Chamber door upstairs in the palace (H-6).",
+      "Speak to Mathilde in Selbina's Weavers' Guild (H-9). This finishes 6-3 in the native mission script.",
+      "Continue to Cid in the Metalworks (H-8) to begin 6-4 before travelling to Sealion's Den."
+    ],
+    "notes": [],
+    "reward": "Progress to the next Chains of Promathia mission.",
+    "unlocks": [],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Selbina",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_6-3",
+        "label": "HorizonXI: Promathia Mission 6-3"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/6_3_More_Questions_than_Answers.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "6-4",
+    "title": "One to be Feared",
+    "requirements": [
+      "Complete CoP 6-3: More Questions Than Answers."
+    ],
+    "start": {
+      "npc": "Cid",
+      "zone": "Metalworks",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Speak to Cid (H-8), then enter Sealion's Den for the scene. Check the Iron Gate for the briefing, then select One to be Feared when ready.",
+      "Complete three consecutive airship rounds within the shared 45-minute limit: five Mammet-22 Zeta, then Omega, then Ultima. Use the between-round preparation area to recover and rebuff; operate the communication-room door to continue.",
+      "Mammets: assign targets, silence casters and use Yellow Liquid to hold a manageable weapon form. Stop physical attacks during Transmogrification, which converts that damage into healing.",
+      "Omega: keep support away from the tank and respond quickly to its low-health attacks. A CCB Polymer Pump suppresses special moves for one minute.",
+      "Ultima: remove defense boosts and debilitating effects; reserve healing and damage for the final part. Stagger any remaining pumps instead of using them together.",
+      "After victory, finish the Sealion's Den scene and the arrival scene in Lufaise Meadows. Leave an inventory space for the Ducal Guard's Ring awarded at the transition into 7-1."
+    ],
+    "notes": [
+      "CCB Polymer Pumps are optional consumables, obtainable through Chips or the Auction House.",
+      "The native battlefield supports Trusts, six participants and a 45-minute limit; this does not establish that every solo setup can win."
+    ],
+    "reward": "Ducal Guard's Ring during the following Lufaise Meadows scene; Chapter 7 opens.",
+    "unlocks": [],
+    "zones": [
+      "Metalworks",
+      "Sealion's Den",
+      "Lufaise Meadows"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_6-4",
+        "label": "HorizonXI: Promathia Mission 6-4"
+      },
+      {
+        "url": "https://horizonffxi.wiki/CCB_Polymer_Pump",
+        "label": "HorizonXI: CCB Polymer Pump"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/6_4_One_to_be_Feared.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Sealions_Den/one_to_be_feared.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/7_1_Chains_and_Bonds.lua"
+    ],
+    "era_note": "Horizon documents the historical level-60 cap. The pinned native battlefield instead uses the server maximum level; enabled era overrides can change that cap.",
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "7-1",
+    "title": "Chains and Bonds",
+    "requirements": [
+      "Complete CoP 6-4: One to be Feared."
+    ],
+    "start": {
+      "npc": "Arrival scene",
+      "zone": "Lufaise Meadows"
+    },
+    "steps": [
+      "Finish the Lufaise Meadows arrival scene and receive the Ducal Guard's Ring. If your inventory was full, free a slot and check the nearby ??? to collect the stashed ring.",
+      "Enter Tavnazian Safehold for a scene.",
+      "Visit Sealion's Den for another scene.",
+      "Back in the Safehold, examine the basement Sewer Entrance (I-7) and the upper-floor Walnut Door (K-7). All three companion scenes are required."
+    ],
+    "notes": [],
+    "reward": "Progress to the next Chains of Promathia mission.",
+    "unlocks": [],
+    "zones": [
+      "Lufaise Meadows",
+      "Tavnazian Safehold",
+      "Sealion's Den"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_7-1",
+        "label": "HorizonXI: Promathia Mission 7-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/7_1_Chains_and_Bonds.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "7-2",
+    "title": "Flames in the Darkness",
+    "requirements": [
+      "Complete CoP 7-1: Chains and Bonds."
+    ],
+    "start": {
+      "npc": "Dilapidated Gate",
+      "zone": "Misareaux Coast",
+      "grid": "F-7"
+    },
+    "steps": [
+      "Examine the Dilapidated Gate at Misareaux Coast (F-7), near the Riverne entrance.",
+      "Speak to Sueleen in Sealion's Den (H-6).",
+      "Approach the palace in Ru'Lude Gardens (H-8).",
+      "Examine the Marble Bridge Eatery door in Upper Jeuno (F-7)."
+    ],
+    "notes": [],
+    "reward": "Title: Esha'ntarl's Comrade in Arms; next mission.",
+    "unlocks": [],
+    "zones": [
+      "Misareaux Coast",
+      "Sealion's Den",
+      "Ru'Lude Gardens",
+      "Upper Jeuno"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_7-2",
+        "label": "HorizonXI: Promathia Mission 7-2"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/7_2_Flames_in_the_Darkness.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "7-3",
+    "title": "Fire in the Eyes of Men",
+    "requirements": [
+      "Complete CoP 7-2: Flames in the Darkness."
+    ],
+    "start": {
+      "npc": "Shaft Entrance",
+      "zone": "Mine Shaft #2716"
+    },
+    "steps": [
+      "Reach Mine Shaft #2716. One established route is to trade a Snow Lily to Tarnotik in Oldton Movalpolos (K-10); eligibility begins during Three Paths, which you have already cleared.",
+      "Examine the Shaft Entrance for the mission scene.",
+      "Speak to Cid in the Metalworks (H-8). Wait for the next Vana'diel date, then speak to him again to complete the airship repairs and advance."
+    ],
+    "notes": [
+      "The wait is a Vana'diel day change, not a real-world midnight. Snow Lily is an optional travel expense, not a mission turn-in."
+    ],
+    "reward": "Title: Prishe's Buddy; next mission.",
+    "unlocks": [],
+    "zones": [
+      "Oldton Movalpolos",
+      "Mine Shaft #2716",
+      "Metalworks"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_7-3",
+        "label": "HorizonXI: Promathia Mission 7-3"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Newton_Movalpolos/Navigation",
+        "label": "HorizonXI: reaching Mine Shaft #2716"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/7_3_Fire_in_the_Eyes_of_Men.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "7-4",
+    "title": "Calm Before the Storm",
+    "requirements": [
+      "Complete CoP 7-3: Fire in the Eyes of Men."
+    ],
+    "start": {
+      "npc": "Cid",
+      "zone": "Metalworks",
+      "grid": "H-8"
+    },
+    "steps": [
+      "After Cid's repair scene advances the log, complete the following three field encounters in any order.",
+      "Bibiki Bay (F-6): examine the ??? inside the cave, defeat Dalham, then examine the ??? again. Its attacks accelerate as its health falls.",
+      "Carpenters' Landing: enter from Jugner Forest (J-8), then examine the waterfront ??? at (I-9). Damage Cryptonberry Executor to bring out three Assassins. Defeat all four and recheck the ???; expect dangerous special abilities, including Mijin Gakure.",
+      "Misareaux Coast (E-7): examine the Storage Compartment in the shed, defeat Boggelmann and check it again for the Vessel of light. Remove its defense boost and prepare for Blood Weapon.",
+      "Return to Cid (H-8) for the Letters from Ulmia and Prishe, then speak to Sueleen in Sealion's Den (H-6)."
+    ],
+    "notes": [
+      "Recheck each encounter object before leaving its zone. Native Carpenter's Landing credit requires all four Tonberries; older advice to let the adds disappear does not satisfy that check."
+    ],
+    "reward": "Vessel of light; Letters from Ulmia and Prishe; access to the Tenzen mission battle.",
+    "unlocks": [],
+    "zones": [
+      "Metalworks",
+      "Bibiki Bay",
+      "Jugner Forest",
+      "Carpenters' Landing",
+      "Misareaux Coast",
+      "Sealion's Den"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_7-4",
+        "label": "HorizonXI: Promathia Mission 7-4"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/7_4_Calm_Before_the_Storm.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "7-5",
+    "title": "The Warrior's Path",
+    "requirements": [
+      "Complete CoP 7-4: Calm Before the Storm."
+    ],
+    "start": {
+      "npc": "Iron Gate",
+      "zone": "Sealion's Den"
+    },
+    "steps": [
+      "Check the Iron Gate for the scene, then check it again and choose The Warrior's Path.",
+      "Fight Tenzen. The three Chebukki siblings support him but cannot be defeated, so focus attacks on Tenzen while spreading out against their area spells.",
+      "Keep damage ready for Meikyo Shisui: his completed Cosmic Elucidation sequence can end the attempt. Remove his buffs and interrupt or finish him before the sequence completes.",
+      "After winning, finish the Sealion's Den departure scene and the arrival scene in Al'Taieu. The mission then advances to Garden of Antiquity: this is the exact Sea unlock.",
+      "For later visits, speak to Sueleen in Sealion's Den and accept travel to Al'Taieu. The Auroral Updraft near Al'Taieu (H-12) provides the return route."
+    ],
+    "notes": [
+      "Native battlefield: six participants, 30 minutes, server maximum level and Trusts permitted.",
+      "Sea access makes the area reachable; Limbus still has its own entry items and conditions."
+    ],
+    "reward": "Title: Seeker of the Light; Al'Taieu access.",
+    "unlocks": [
+      "Sea — Al'Taieu",
+      "Chapter 8",
+      "Sueleen's Sea travel"
+    ],
+    "zones": [
+      "Sealion's Den",
+      "Al'Taieu"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_7-5",
+        "label": "HorizonXI: Promathia Mission 7-5"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_8-1",
+        "label": "HorizonXI: Sea return route"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/7_5_The_Warriors_Path.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Sealions_Den/warriors_path.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "8-1",
+    "title": "Garden of Antiquity",
+    "requirements": [
+      "Complete CoP 7-5: The Warrior's Path."
+    ],
+    "start": {
+      "npc": "Crystalline Field",
+      "zone": "Al'Taieu",
+      "grid": "H-11"
+    },
+    "steps": [
+      "Approach the palace bridge and examine the Crystalline Field at Al'Taieu (H-11).",
+      "Visit each Rubious Crystal and defeat its three Ru'aern, then recheck that same crystal for credit: south (H-13), west (D-10), and east (L-10).",
+      "The southern group is WHM/WAR/SAM; the western group is RDM/DRK/RNG; the eastern group is BLM/PLD/MNK. Prepare for their job abilities and keep clear of nearby roaming monsters, especially at the eastern tower.",
+      "With all three crystal scenes complete, return to the Crystalline Field and enter the Grand Palace of Hu'Xzoi.",
+      "Check the Gate of the Gods in the entrance hall for the Tavnazian Ring. Then check the Particle Gate on the right for the next scene; in the native script this final interaction advances the mission log to A Fate Decided."
+    ],
+    "notes": [
+      "Leave an inventory slot for the ring. The three post-fight crystal interactions are required, not just the kills."
+    ],
+    "reward": "Tavnazian Ring; access to the palace mission route.",
+    "unlocks": [
+      "Grand Palace of Hu'Xzoi mission route"
+    ],
+    "zones": [
+      "Al'Taieu",
+      "Grand Palace of Hu'Xzoi"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_8-1",
+        "label": "HorizonXI: Promathia Mission 8-1"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/8_1_Garden_of_Antiquity.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "8-2",
+    "title": "A Fate Decided",
+    "requirements": [
+      "Complete CoP 8-1: Garden of Antiquity."
+    ],
+    "start": {
+      "npc": "Particle Gate",
+      "zone": "Grand Palace of Hu'Xzoi"
+    },
+    "steps": [
+      "Pass through the right-hand Particle Gate from the palace entrance hall. Follow the escort route rather than a door or ??? offering a return to the lobby.",
+      "At each Cermet Alcove, start its Quasilumin escort, clear threats ahead, and interact to pause or resume it. When it reaches its destination, speak to it again to open the final gate. A failed escort must be restarted at its alcove.",
+      "Route: map 1 (J-8) escort → (L-7) transporter → map 2 (L-8) escort → (I-10) escort → (G-12) transporter → map 1 (G-10) escort → (G-4) transporter → map 2 (H-8).",
+      "At the end, pass the first Cermet Portal and examine the next to spawn Ix'ghrah. Defeat it, adapting to its changing forms, then examine the portal again for completion."
+    ],
+    "notes": [
+      "The palace traversal is a long escort sequence. Carry a recovery method; returning to the lobby requires repeating the route. Optional map-NPC detours are separate from the mission."
+    ],
+    "reward": "Progress to the next Chains of Promathia mission.",
+    "unlocks": [
+      "The Garden of Ru'Hmet"
+    ],
+    "zones": [
+      "Grand Palace of Hu'Xzoi"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_8-2",
+        "label": "HorizonXI: Promathia Mission 8-2"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/8_2_A_Fate_Decided.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "8-3",
+    "title": "When Angels Fall",
+    "requirements": [
+      "Complete CoP 8-2: A Fate Decided."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "The Garden of Ru'Hmet"
+    },
+    "steps": [
+      "Enter the Garden for the opening scene. Climb your race's tower using its alternating elevators: Hume north, Elvaan east, Mithra west, Tarutaru southwest, Galka southeast.",
+      "At the enemy-free top floor, check the Ebon Panel for the shared scene, then check your own race's panel again from close range. Receive the missing light: Hume/Vahzl, Elvaan/Mea, Tarutaru/Holla, Mithra/Dem, Galka/Al'Taieu.",
+      "Reach the central elevator. The Qn'zdei gate rooms close while their sentries are away from their starting positions; avoid detection or clear the obstruction before continuing.",
+      "Ascend and obtain both brands on this level: Dawn to the north, Twilight to the south. Follow the floor map's warps, then return to the central elevator and ascend again.",
+      "Check the Particle Gate for the scene and enter When Angels Fall. Defeat four Ix'zdei; the two smaller BLMs are priority targets. Interrupt a retreat to a pedestal to prevent recovery.",
+      "After victory, cross the room and examine the Luminous Convergence. Finally zone into Al'Taieu for the scene that advances the native mission log to Dawn."
+    ],
+    "notes": [
+      "Each character needs their own light and both brands.",
+      "Native battlefield: six participants, 30 minutes, server maximum level and Trusts permitted."
+    ],
+    "reward": "Warrior of the Crystal title; path to the final battle.",
+    "unlocks": [
+      "Dawn",
+      "Empyreal Paradox story route"
+    ],
+    "zones": [
+      "The Garden of Ru'Hmet",
+      "Al'Taieu"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_8-3",
+        "label": "HorizonXI: Promathia Mission 8-3"
+      },
+      {
+        "url": "https://horizonffxi.wiki/The_Garden_of_Ru%27Hmet/Maps",
+        "label": "HorizonXI: Garden floor and tower maps"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/8_3_When_Angels_Fall.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/The_Garden_of_RuHmet/when_angels_fall.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "8-4",
+    "title": "Dawn",
+    "requirements": [
+      "Complete CoP 8-3: When Angels Fall."
+    ],
+    "start": {
+      "npc": "Transcendental Radiance",
+      "zone": "Empyreal Paradox"
+    },
+    "steps": [
+      "After the Al'Taieu transition scene, return through the Garden of Ru'Hmet. Use the central elevator's descend option from the first floor to reach the Empyreal Paradox.",
+      "Examine Transcendental Radiance for the scene, then enter Dawn. Defeat both Promathia phases within 30 minutes alongside Prishe and Selh'teus. Keep Prishe supported; Selh'teus's defeat ends the encounter. Avoid clustering during Meteor and respond to the second phase's physical or magical shields.",
+      "Finish the victory scenes and receive the Tear of Altana. Wait until the next Japanese midnight before the farewell branches. These five branches can be completed in any order, but keep each branch's internal sequence.",
+      "Louverance: speak to Hinaree in the Count's Manor, Southern San d'Oria (B-6); enter Uleguerand Range; then approach the manor again.",
+      "Chebukkis: speak to Chipmy-Popmy in Port Windurst (C-8), travel to Purgonorgo Isle and examine the Warmachine at (H-11).",
+      "Shikarees: enter Mhaura. Jabbos: enter Oldton Movalpolos. Tenzen: speak to Cid in the Metalworks (H-8). Each gives its own farewell scene.",
+      "After all five branches, approach the palace in Ru'Lude Gardens, then examine the Marble Bridge Eatery door in Upper Jeuno (F-7). Check the door again to choose one ring: Rajas, Sattva or Tamas. Leave an inventory space; the choice can be deferred.",
+      "Examine the upper-floor Walnut Door in Tavnazian Safehold (K-7). Then approach Blueblade Fell in Lufaise Meadows (J-6) for the final scene and Banisher of Emptiness title. Prepare Sneak/Invisible for the approach and surrounding enemies.",
+      "Continue with Storms of Fate, then Shadows of the Departed and Apocalypse Nigh after meeting the Zilart prerequisites. The native log can keep Dawn active during this shared epilogue; claiming the final Apocalypse Nigh reward advances it to The Last Verse."
+    ],
+    "notes": [
+      "Native battlefield: six participants, server maximum level and Trusts permitted.",
+      "Japanese midnight is 15:00 UTC / 18:00 Kuwait time. The Dawn farewell timer is explicitly Japanese midnight in the pinned native script."
+    ],
+    "reward": "Choice of Rajas Ring, Sattva Ring or Tamas Ring; Tear of Altana; Banisher of Emptiness title.",
+    "unlocks": [
+      "Storms of Fate after the Blueblade Fell scene",
+      "Shared CoP/Zilart epilogue"
+    ],
+    "zones": [
+      "Empyreal Paradox",
+      "The Garden of Ru'Hmet",
+      "Al'Taieu",
+      "Southern San d'Oria",
+      "Uleguerand Range",
+      "Port Windurst",
+      "Bibiki Bay",
+      "Mhaura",
+      "Oldton Movalpolos",
+      "Metalworks",
+      "Ru'Lude Gardens",
+      "Upper Jeuno",
+      "Tavnazian Safehold",
+      "Lufaise Meadows"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/Promathia_Mission_8-4",
+        "label": "HorizonXI: Promathia Mission 8-4"
+      },
+      {
+        "url": "https://horizonffxi.wiki/Promathia",
+        "label": "HorizonXI: Promathia encounter"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/8_4_Dawn.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Empyreal_Paradox/dawn.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Storms_of_Fate.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Apocalypse_Nigh.lua"
+    ],
+    "native_status": "implemented"
+  },
+  {
+    "campaign": "cop",
+    "number": "8-5",
+    "title": "The Last Verse",
+    "requirements": [
+      "Complete the RoZ and CoP closing sequences, including Apocalypse Nigh’s reward selection."
+    ],
+    "start": {
+      "npc": "Gilgamesh",
+      "zone": "Norg"
+    },
+    "steps": [
+      "Finish Apocalypse Nigh, speak to Aldo, and complete Gilgamesh’s reward conversation in Norg after the required wait.",
+      "Choose the quest earring with inventory space available. The native ending handlers advance both Awakening and Dawn to The Last Verse.",
+      "No further battle or collection task belongs to The Last Verse; it is the completed storyline’s final mission entry."
+    ],
+    "notes": [
+      "This finale is shared by Rise of the Zilart and Chains of Promathia. The earring is Apocalypse Nigh’s reward, not a second reward from this entry."
+    ],
+    "reward": "Final RoZ/CoP story-log entry; no additional reward.",
+    "unlocks": [],
+    "zones": [
+      "Norg"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/The_Last_Verse",
+        "label": "HorizonXI Wiki: The Last Verse"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/rotz/17_Awakening.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/cop/8_4_Dawn.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Apocalypse_Nigh.lua"
+    ],
+    "slug": "mission-cop-8-5"
+  }
+]

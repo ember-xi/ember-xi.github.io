@@ -1,0 +1,17 @@
+{
+  "mission-cop-3-3b": [
+    {
+      "mission": "3-3B",
+      "title": "Parradamo Tor climbing route",
+      "filename": "parradamo-tor-route.jpg",
+      "source_page": "https://horizonffxi.wiki/Parradamo_Tor",
+      "source_image": "https://horizonffxi.wiki/w/images/3/3c/ParradamoTor.JPG",
+      "width": 927,
+      "height": 624,
+      "sha256": "89a267938ae6d325ac1176fd9e26cf4ffabe43ff8c491210ebe761fe90aaf3cb",
+      "credit": "Parradamo Tor route map, via HorizonXI Wiki; original FFXIclopedia watermark retained.",
+      "visually_verified": true,
+      "localPath": "assets/missions/parradamo-tor-89a267938ae6-web.webp"
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+[
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-00",
+    "slug": "quest-wotg-bastok-00",
+    "title": "The Fighting Fourth",
+    "requirements": [
+      "Reach the past through the opening Wings of the Goddess missions.",
+      "For a first Campaign enlistment, obtain the Blue Recommendation Letter from Turbulent Storm in The Eldieme Necropolis [S]."
+    ],
+    "start": {
+      "npc": "Adelbrecht",
+      "zone": "Bastok Markets [S]",
+      "grid": "E-8"
+    },
+    "steps": [
+      "Speak with Turbulent Storm at J-9 in The Eldieme Necropolis [S] and accept the Blue Recommendation Letter. The Batallia Downs [S] J-10 entrance reaches this section.",
+      "Travel to Bastok Markets [S] and speak to Adelbrecht near the Auction House at E-8. Accept enlistment and receive the Battle Rations key item.",
+      "Leave for North Gustaberg [S]. Enter Zegham Hill’s ascending path near I-8 and follow its ramps to Gebhardt at the Eduard Watchtower, I-6. Speak to him to deliver the rations.",
+      "Speak to Roderich at E-11 in North Gustaberg [S]. Then examine the Barricade at E-7 in the same zone.",
+      "Return to Adelbrecht in Bastok Markets [S] to finish and join Bastok’s Campaign army."
+    ],
+    "notes": [
+      "This is the Bastok enlistment quest, numbered B-00 here; it precedes the twelve story quests.",
+      "The first Campaign enlistment grants Sprinter’s Shoes and the Bronze Ribbon of Service. Joining another Campaign nation later is a separate allegiance decision.",
+      "The source has unfinished checks around existing Campaign allegiance. The guide is written for a first enlistment; it does not confirm switching rules."
+    ],
+    "reward": "Fourth Division Soldier title; Bastok Campaign allegiance. First enlistment also grants Sprinter’s Shoes and Bronze Ribbon of Service.",
+    "unlocks": [
+      "B-01: Better Part of Valor",
+      "Bastok Campaign services"
+    ],
+    "zones": [
+      "The Eldieme Necropolis [S]",
+      "Batallia Downs [S]",
+      "Bastok Markets [S]",
+      "North Gustaberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/The_Fighting_Fourth",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Fighting_Fourth",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_0_The_Fighting_Fourth.lua"
+    ],
+    "native_status": "implemented_with_allegiance_todo_not_live_tested",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-01",
+    "slug": "quest-wotg-bastok-01",
+    "title": "Better Part of Valor",
+    "requirements": [
+      "Complete one Campaign enlistment quest: The Fighting Fourth, Steamed Rams, or Snake on the Plains.",
+      "Bring one Gnole Claw for the later trade."
+    ],
+    "start": {
+      "npc": "Zone boundary from Bastok Markets [S]",
+      "zone": "North Gustaberg [S]",
+      "grid": "J-9"
+    },
+    "steps": [
+      "Exit Bastok Markets [S] into North Gustaberg [S] for the opening scene and Clump of Animal Hair key item.",
+      "Speak with Engelhart outside the music shop in Bastok Markets [S], K-10.",
+      "Return to North Gustaberg [S] and examine the ??? at F-8 beside Drachenfall, on the right side of the waterfall.",
+      "Speak to Leadavox at J-6 in Vunkerl Inlet [S], then trade her one Gnole Claw to obtain the Xhifhut key item.",
+      "Return to Engelhart to finish, receive 10,000 gil, and obtain the Warning Letter. Leave and re-enter the zone before starting the next quest."
+    ],
+    "notes": [
+      "This story quest is open after any nation’s first enlistment; it does not itself change Campaign allegiance.",
+      "Gnole Claws come from gnoles and may also be available through the Auction House. Keep the Warning Letter for later story progression."
+    ],
+    "reward": "10,000 gil; Warning Letter key item.",
+    "unlocks": [
+      "B-02: Fires of Discontent"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "North Gustaberg [S]",
+      "Vunkerl Inlet [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Better_Part_of_Valor",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Better_Part_of_Valor",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_1_Better_Part_of_Valor.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-02",
+    "slug": "quest-wotg-bastok-02",
+    "title": "Fires of Discontent",
+    "requirements": [
+      "Complete B-01: Better Part of Valor and leave/re-enter Bastok Markets [S]."
+    ],
+    "start": {
+      "npc": "Engelhart",
+      "zone": "Bastok Markets [S]",
+      "grid": "K-10"
+    },
+    "steps": [
+      "Speak to Engelhart at K-10 to begin, then speak to Pagdako at H-9 in Bastok Markets [S].",
+      "Travel to present-day Metalworks and speak with Iron Eater at J-8 near the President’s Office. This step is in the present, not Bastok’s past.",
+      "Return to Engelhart in Bastok Markets [S].",
+      "In Grauberg [S], enter the cave near the H-5/I-5 border and examine the ??? inside, at the northwestern corner of I-6.",
+      "Report to Engelhart, then speak with Gentle Tiger at H-6 outside the Metalworks entrance.",
+      "Speak to Engelhart once more to complete the quest."
+    ],
+    "notes": [
+      "If Iron Eater has another active quest’s dialogue, speak to him again until the requested scene occurs.",
+      "The audited handler has no additional game-day timer for this quest. The preceding quest requests zoning."
+    ],
+    "reward": "10,000 gil.",
+    "unlocks": [
+      "The Bastok route’s requirement for finishing WotG 2: Back to the Beginning",
+      "B-03: Light in the Darkness, after reaching Cait Sith"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "Metalworks",
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Fires_of_Discontent",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Fires_of_Discontent",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_2_Fires_of_Discontent.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-03",
+    "slug": "quest-wotg-bastok-03",
+    "title": "Light in the Darkness",
+    "requirements": [
+      "Complete B-02: Fires of Discontent.",
+      "Complete WotG 2: Back to the Beginning; Cait Sith should be the current mission.",
+      "Bring 30 Goblin Chocolates or 5,000 gil. Every entrant needs a Mine Shaft Key."
+    ],
+    "start": {
+      "npc": "Gentle Tiger",
+      "zone": "Bastok Markets [S]",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Speak with Gentle Tiger at H-6, Pagdako at H-9, then Blatherix at F-8 in Bastok Markets [S].",
+      "Trade Blatherix exactly 30 Goblin Chocolates or 5,000 gil to receive the Mine Shaft Key.",
+      "Enter Pashhow Marshlands [S] from Grauberg [S] for the required scene. Entering from another border does not substitute for this step.",
+      "Examine the Corroded Door at F-5 in Pashhow Marshlands [S] and select Light in the Darkness to enter Ruhotz Silvermines.",
+      "Defeat any seven of the ten Quadav. They begin close to the party; move clear before preparing, then pull manageable groups. Victory triggers once seven are defeated.",
+      "After the exit scene, return to Gentle Tiger in Bastok Markets [S] for the Adaman Ingot."
+    ],
+    "notes": [
+      "The native instance spawns nine Sapphirine Quadav and one Sapphire Quadav. The latter can use Benediction; killing it disperses the others temporarily.",
+      "A failed attempt can be retried with a replacement key from Blatherix for 10 Goblin Chocolates or 1,000 gil.",
+      "The initial next-day wait is a TODO in this quest’s source, so this guide does not require a real-world midnight wait. Completion sets the next quest’s game-day and zoning checks."
+    ],
+    "reward": "Adaman Ingot.",
+    "unlocks": [
+      "B-04: Burden of Suspicion, after the next Vana’diel day and a zone change"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "Grauberg [S]",
+      "Pashhow Marshlands [S]",
+      "Ruhotz Silvermines"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Light_in_the_Darkness",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Light_in_the_Darkness",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_3_Light_in_the_Darkness.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ruhotz_Silvermines/instances/light_in_the_darkness.lua"
+    ],
+    "native_status": "implemented_with_cutscene_lock_todo_not_live_tested",
+    "availability_note": "The native instance and seven-kill victory condition are implemented. Its source flags a remaining issue: players are not locked safely during the entry cutscene and can aggro the nearby enemies. This is a known implementation issue, not proof of a successful live run.",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-04",
+    "slug": "quest-wotg-bastok-04",
+    "title": "Burden of Suspicion",
+    "requirements": [
+      "Complete B-03: Light in the Darkness.",
+      "Wait until the next Vana’diel day and change zones after that completion."
+    ],
+    "start": {
+      "npc": "Gentle Tiger",
+      "zone": "Bastok Markets [S]",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Speak to Gentle Tiger at H-6, then Engelhart at K-10 in Bastok Markets [S].",
+      "Enter The Eldieme Necropolis [S]. On map 1, reach the southern room at G-9 and drop through its middle pit.",
+      "On map 2, take the eastern passage to map 3. Reach the northern room at I-7 and examine the Sarcophagus on its eastern side.",
+      "Return to Gentle Tiger to complete the investigation.",
+      "Speak to Blatherix at F-8 to collect the associated Elixir and prepare the next quest’s timer. Keep that Elixir for The Truth Lies Hid."
+    ],
+    "notes": [
+      "Orcs guard the Sarcophagus room. Bring a way to avoid or handle aggro and a way home.",
+      "The quest completion grants the title. The Elixir comes from Blatherix afterward; that conversation is necessary to open Storm on the Horizon in the audited base."
+    ],
+    "reward": "Assistant Detective title; Elixir from the follow-up conversation with Blatherix.",
+    "unlocks": [
+      "The Bastok route’s requirement for progressing WotG 3: Cait Sith to WotG 4: The Queen of the Dance",
+      "B-05: Storm on the Horizon"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "The Eldieme Necropolis [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Burden_of_Suspicion",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Burden_of_Suspicion",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_4_Burden_of_Suspicion.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-05",
+    "slug": "quest-wotg-bastok-05",
+    "title": "Storm on the Horizon",
+    "requirements": [
+      "Complete B-04: Burden of Suspicion and collect the Elixir from Blatherix.",
+      "After collecting it, wait until the next Vana’diel day and leave Bastok Markets [S]."
+    ],
+    "start": {
+      "npc": "Zone boundary from North Gustaberg [S]",
+      "zone": "Bastok Markets [S]"
+    },
+    "steps": [
+      "If not already done, speak to Blatherix at F-8 for the Elixir. The next-day timer starts with this conversation.",
+      "Once a new Vana’diel day has begun, enter Bastok Markets [S] on foot from North Gustaberg [S] to watch the opening scene.",
+      "Speak to Gentle Tiger at H-6.",
+      "In North Gustaberg [S], climb Zegham Hill from its I-8 path. Follow the rising ramps around the hill and examine the Monument at the summit, J-7.",
+      "Go to Grauberg [S]. Enter the cave near the H-5/I-5 border and examine the ??? at the northwest of I-6, the same point used for Fires of Discontent. Receive the Icarus Wing to complete the quest."
+    ],
+    "notes": [
+      "Warping or Retrace into Bastok does not trigger the opening boundary scene.",
+      "The native start checks Burden of Suspicion and the Blatherix timer. The next quest, Fire in the Hole, additionally requires WotG 8: In the Name of the Father."
+    ],
+    "reward": "Icarus Wing.",
+    "unlocks": [
+      "B-06: Fire in the Hole, after reaching WotG 8: In the Name of the Father"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "North Gustaberg [S]",
+      "Grauberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Storm_on_the_Horizon",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Storm_on_the_Horizon",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_5_Storm_on_the_Horizon.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-06",
+    "slug": "quest-wotg-bastok-06",
+    "title": "Fire in the Hole",
+    "requirements": [
+      "Complete B-05: Storm on the Horizon.",
+      "Reach WotG 8: In the Name of the Father.",
+      "Silvermine Key for the reference battle; bring healing and crowd control for an escort fight."
+    ],
+    "start": {
+      "npc": "Zone boundary from North Gustaberg [S]",
+      "zone": "Bastok Markets [S]"
+    },
+    "steps": [
+      "Enter Bastok Markets [S] from North Gustaberg [S]. Finish both opening scenes to obtain the Silvermine Key.",
+      "Examine the Stonehoused Adit near the northern edge of E-9 in North Gustaberg [S] for a scene. In the complete reference route, examine it again to enter Fire in the Hole.",
+      "Inside Ruhotz Silvermines, prepare the party before speaking to Adelheid to start her escort. Keep her alive as successive Quadav groups converge on her.",
+      "Use area damage to take enemies off Adelheid, then control surplus enemies with sleep while healing her. Watch for later waves arriving behind the first group; do not advance or rest while attackers still threaten her.",
+      "At the final turret, defeat the remaining Quadav. The objective ends when Adelheid reaches the turret; attacking the turret is not the goal.",
+      "After victory and the exit scene, enter Bastok Markets [S] from North Gustaberg [S]. Speak to Gentle Tiger at H-6 twice to receive both final scenes and the reward."
+    ],
+    "notes": [
+      "Reference retry: obtain another Silvermine Key from Solitary Ant at J-9 in North Gustaberg [S]. Retail references require a new game day and zoning; the incomplete native replacement handler does not establish that wait.",
+      "This is an escort objective. A level-75 party needs control and healing as well as damage; no live solo or Trust compatibility is claimed."
+    ],
+    "reward": "Intended: Republican Silver Medal; Mythril Musketeer No. 6 title.",
+    "unlocks": [
+      "The Bastok route’s requirement for continuing WotG 8: In the Name of the Father",
+      "B-07: Quelling the Storm, after reaching Crossroads of Time"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "North Gustaberg [S]",
+      "Ruhotz Silvermines"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Fire_in_the_Hole",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Fire_in_the_Hole",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_6_Fire_in_the_Hole.lua"
+    ],
+    "native_status": "partial_battle_unimplemented",
+    "availability_note": "The audited server base explicitly marks the Fire in the Hole battle in Ruhotz Silvermines as unimplemented. The scenes and follow-up handlers exist, but this quest cannot be completed normally through that base alone. Battle and post-battle steps below document the intended route for future implementation.",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-07",
+    "slug": "quest-wotg-bastok-07",
+    "title": "Quelling the Storm",
+    "requirements": [
+      "Complete B-06: Fire in the Hole.",
+      "Reach WotG 15: Crossroads of Time.",
+      "Bring one Goblin Mess Tin, one Goblin Mushpot, and one Twinkle Powder."
+    ],
+    "start": {
+      "npc": "Zone boundary from North Gustaberg [S]",
+      "zone": "Bastok Markets [S]"
+    },
+    "steps": [
+      "Enter Bastok Markets [S] from North Gustaberg [S] for the opening scene, then speak with Gentle Tiger at H-6.",
+      "Speak with all three witnesses in Bastok Markets [S]: Paul at H-5, Biggorf at H-10, and Wilhelmina at I-9. Their order does not matter.",
+      "Return to Gentle Tiger. Then speak with Blatherix at F-8.",
+      "Trade Blatherix one Goblin Mess Tin, one Goblin Mushpot, and one Twinkle Powder together in a single trade.",
+      "Speak to Gentle Tiger again, then examine the ??? just east of the bridge at F-6 in Vunkerl Inlet [S].",
+      "Return to Blatherix for the Goblin Belt and completion."
+    ],
+    "notes": [
+      "If Blatherix does not request the items, check that all three witnesses and the following Gentle Tiger scene were completed.",
+      "Goblin Mushpots can be bought from Pawkrix in Lower Jeuno, H-10. Upih Khachla in northern Windurst Waters, H-9, sells Twinkle Powder. Goblin Mess Tins are beastman drops and may be available on the Auction House.",
+      "The native opening scene requires the North Gustaberg [S] border; it has no additional game-day check."
+    ],
+    "reward": "Goblin Belt.",
+    "unlocks": [
+      "B-08: Honor Under Fire"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "North Gustaberg [S]",
+      "Vunkerl Inlet [S]",
+      "Lower Jeuno",
+      "Windurst Waters"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Quelling_the_Storm",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Quelling_The_Storm",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_7_Quelling_the_Storm.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "availability_note": "This quest’s dialogue and progression are present in the audited base, but its Bastok storyline prerequisites include unfinished battles. A complete reference route is provided; progression on Zenith needs those earlier battles implemented and tested.",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-08",
+    "slug": "quest-wotg-bastok-08",
+    "title": "Honor Under Fire",
+    "requirements": [
+      "Complete B-07: Quelling the Storm.",
+      "Reach WotG 15: Crossroads of Time."
+    ],
+    "start": {
+      "npc": "Gentle Tiger",
+      "zone": "Bastok Markets [S]",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Speak to Gentle Tiger at H-6.",
+      "In Vunkerl Inlet [S], examine the ??? just beyond the F-6 bridge, then the Beastman Ensign at J-7.",
+      "Return to Gentle Tiger to receive the Flare Grenade key item.",
+      "Examine the Beastman Ensign at J-7 again for a scene. In the complete reference route, examine it once more to enter Honor Under Fire in Everbloom Hollow.",
+      "Defeat Arch Ahriman and the false allies it creates. When it transforms into Volker, Five Moons, or Nicolaus, defeat that replica and resume damaging the Ahriman when it returns.",
+      "Be ready to recover enemy attention after a transformation. Keep healers clear of area attacks, prepare for sleep, and interrupt dangerous spells where possible.",
+      "After winning, return to Gentle Tiger for the final scene and Elixir Tank."
+    ],
+    "notes": [
+      "The reference fight lasts 30 minutes. The Ahriman and Nicolaus replica use strong magic; physical damage and a dedicated healer are useful at level 75.",
+      "A replacement Flare Grenade comes from Gentle Tiger after a failed attempt in the reference route.",
+      "Keep the Elixir Tank or an Elixir for The Truth Lies Hid."
+    ],
+    "reward": "Intended: Elixir Tank.",
+    "unlocks": [
+      "The Bastok route’s requirement for continuing WotG 15: Crossroads of Time",
+      "B-09: Beneath the Mask, after reaching Fate in Haze"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "Vunkerl Inlet [S]",
+      "Everbloom Hollow"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Honor_Under_Fire",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Honor_Under_Fire",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_8_Honor_Under_Fire.lua"
+    ],
+    "native_status": "partial_battle_unimplemented",
+    "availability_note": "The audited server base explicitly marks the Honor Under Fire battle in Everbloom Hollow as unimplemented. The scenes and follow-up handlers exist, but this quest cannot be completed normally through that base alone. Battle and post-battle steps below document the intended route for future implementation.",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-09",
+    "slug": "quest-wotg-bastok-09",
+    "title": "Beneath the Mask",
+    "requirements": [
+      "Complete B-08: Honor Under Fire.",
+      "Reach WotG 26: Fate in Haze.",
+      "Bring one Beeswax and one Red Textile Dye."
+    ],
+    "start": {
+      "npc": "Gentle Tiger",
+      "zone": "Bastok Markets [S]",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Speak to Gentle Tiger at H-6, then enter Beadeaux [S] for a scene. Its entrance is reached from Pashhow Marshlands [S] at L-11.",
+      "Return to Gentle Tiger for the next scene.",
+      "Speak with Red Axe at I-8 in The Eldieme Necropolis [S].",
+      "Trade Leadavox at J-6 in Vunkerl Inlet [S] one Beeswax and one Red Textile Dye together to receive the Wax Seal.",
+      "Return to Red Axe with the Wax Seal, then speak with Gentle Tiger again.",
+      "Examine the Hoarfang at F-10 in Beaucedine Glacier [S], on the dark structure in the middle of that map square. Collect the Super Reraiser to complete the quest."
+    ],
+    "notes": [
+      "Leave inventory space for the final item; the reward must be received to complete the quest.",
+      "The native start checks the previous quest and Fate in Haze; it does not enforce the additional game-day wait listed by retail walkthroughs."
+    ],
+    "reward": "Super Reraiser.",
+    "unlocks": [
+      "B-10: What Price Loyalty"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "Beadeaux [S]",
+      "Pashhow Marshlands [S]",
+      "The Eldieme Necropolis [S]",
+      "Vunkerl Inlet [S]",
+      "Beaucedine Glacier [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Beneath_the_Mask",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Beneath_the_Mask",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_9_Beneath_the_Mask.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "availability_note": "This quest’s dialogue and progression are present in the audited base, but its Bastok storyline prerequisites include unfinished battles. A complete reference route is provided; progression on Zenith needs those earlier battles implemented and tested.",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-10",
+    "slug": "quest-wotg-bastok-10",
+    "title": "What Price Loyalty",
+    "requirements": [
+      "Complete B-09: Beneath the Mask.",
+      "Reach WotG 26: Fate in Haze."
+    ],
+    "start": {
+      "npc": "Gentle Tiger",
+      "zone": "Bastok Markets [S]",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Speak to Gentle Tiger at H-6 to receive the Sack of Victuals.",
+      "Deliver it by speaking to Roderich at E-11 in North Gustaberg [S]. Return to Gentle Tiger for the following scene.",
+      "Enter Xarcabard [S] to receive the Commander’s Endorsement.",
+      "Examine the Forbidding Portal in the northwest of I-7 for a scene. In the complete reference route, examine it again to enter What Price Loyalty in Everbloom Hollow.",
+      "Defeat Klara. Establish a tank quickly, keep her enfeebled, and reserve healing for her sword attacks. Later in the fight, Temblor Blade adds area petrification and disrupts enemy attention; keep a healer able to use Stona outside the area.",
+      "After victory, finish the Xarcabard [S] exit scene and return to Gentle Tiger in Bastok Markets [S] for the Fourth Staff."
+    ],
+    "notes": [
+      "Reference retry: Gentle Tiger replaces a lost Commander’s Endorsement without an added game-day wait.",
+      "This battle is a 30-minute reference encounter. Current retail level-99 and Trust shortcuts are not a verified plan for Zenith’s level-75 setting."
+    ],
+    "reward": "Intended: Fourth Staff.",
+    "unlocks": [
+      "The Bastok route’s requirement for continuing WotG 26: Fate in Haze",
+      "B-11: The Truth Lies Hid, after reaching Adieu, Lilisette"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "North Gustaberg [S]",
+      "Xarcabard [S]",
+      "Everbloom Hollow"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/What_Price_Loyalty",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/What_Price_Loyalty",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_10_What_Price_Loyalty.lua"
+    ],
+    "native_status": "partial_battle_unimplemented",
+    "availability_note": "The audited server base explicitly marks the What Price Loyalty battle in Everbloom Hollow as unimplemented. The scenes and follow-up handlers exist, but this quest cannot be completed normally through that base alone. Battle and post-battle steps below document the intended route for future implementation.",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-11",
+    "slug": "quest-wotg-bastok-11",
+    "title": "The Truth Lies Hid",
+    "requirements": [
+      "Complete B-10: What Price Loyalty.",
+      "Reach WotG 38: Adieu, Lilisette.",
+      "Bring one Elixir."
+    ],
+    "start": {
+      "npc": "Gentle Tiger",
+      "zone": "Bastok Markets [S]",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Speak to Gentle Tiger at H-6. Enter Castle Zvahl Baileys [S] for a scene before proceeding to Castle Zvahl Keep [S].",
+      "On Keep map 1, find Rikke at G-7 (northwest), Rakke at G-10 (southwest), and Rokke at H-10 (southeast). Listen to the statements following their requests for an Elixir.",
+      "Choose the truthful Imp from the day’s statements. If Rikke says Rikke is honest, Rakke says Rikke is lying, and Rokke says Rikke is honest, choose Rakke.",
+      "If Rikke says Rokke is lying, Rakke says Rokke is honest, and Rokke says Rikke is lying, choose Rikke.",
+      "If Rikke says Rokke is lying, Rakke says Rikke is honest, and Rokke says Rikke is lying, choose Rokke.",
+      "Trade the Elixir to the correct Imp. The item is not consumed. If wrong, wait for the next Vana’diel day and read the new statements before trying again.",
+      "Continue through the Keep’s teleporters to map 3. Examine the ??? in the southwest room at G-9.",
+      "Drop to the central room, use the central teleporter, and examine the Displaced Block for the final scene and Sanctus Rosary."
+    ],
+    "notes": [
+      "The puzzle changes with the Vana’diel day. Do not use yesterday’s answer after midnight; the native script permits one Elixir attempt each game day.",
+      "Save the Sanctus Rosary for the final reference battle in Bonds of Mythril.",
+      "The native quest checks the main mission gate and prior quest completion, without an initial extra day wait."
+    ],
+    "reward": "Sanctus Rosary.",
+    "unlocks": [
+      "B-12: Bonds of Mythril"
+    ],
+    "zones": [
+      "Bastok Markets [S]",
+      "Castle Zvahl Baileys [S]",
+      "Castle Zvahl Keep [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/The_Truth_Lies_Hid",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Truth_Lies_Hid",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_11_The_Truth_Lies_Hid.lua"
+    ],
+    "native_status": "implemented_not_live_tested",
+    "availability_note": "This quest’s dialogue and progression are present in the audited base, but its Bastok storyline prerequisites include unfinished battles. A complete reference route is provided; progression on Zenith needs those earlier battles implemented and tested.",
+    "sequence_group": "past-bastok"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "B-12",
+    "slug": "quest-wotg-bastok-12",
+    "title": "Bonds of Mythril",
+    "requirements": [
+      "Complete B-11: The Truth Lies Hid.",
+      "Reach WotG 38: Adieu, Lilisette.",
+      "Keep the Sanctus Rosary and prepare a party for the open-area monster and final reference battle."
+    ],
+    "start": {
+      "npc": "Main entrance from Castle Zvahl Keep [S]",
+      "zone": "Castle Zvahl Baileys [S]"
+    },
+    "steps": [
+      "Leave Castle Zvahl Keep [S] through its main entrance into Castle Zvahl Baileys [S] for the opening scene. Then return to the Keep.",
+      "Use the teleporters to reach the southwest room at G-9 on Keep map 3. Examine the ??? for a scene.",
+      "Return to that map’s central room and defeat all four Keep Imps after the scene. Kills made before it do not count.",
+      "Examine the ??? again to spawn Gargouille Warden. Defeat it, then examine the ??? once more to receive the Zvahl Passkey.",
+      "Enter Throne Room [S] and examine the Throne Room door for a scene. In the complete reference route, examine the door again to enter Bonds of Mythril.",
+      "First defeat Klara while keeping your allied Zeid alive. Prepare to remove petrification and curse from her special sword attacks. Zeid’s defeat ends the attempt.",
+      "Then defeat Marquis Amon. Equip the Sanctus Rosary to block the Doom associated with its draw-in attack, and prepare to heal through area magic. Both phases share the reference battle’s 30-minute limit.",
+      "After victory, speak with Gentle Tiger in Bastok Markets [S]. Finish the linked scenes through present-day Metalworks and North Gustaberg [S] to receive the Excelsis Ring."
+    ],
+    "notes": [
+      "Gargouille Warden resists magical damage and adds stun to melee hits; prepare for a sustained physical fight.",
+      "All participants in the reference Throne Room encounter must be on this quest or have completed it. Live eligibility and Trust behavior remain unverified.",
+      "After completion, Naji in present-day Metalworks offers optional closing dialogue. Modern Trust and Atma rewards are outside this level-75 guide."
+    ],
+    "reward": "Intended: Excelsis Ring; Temperer of Mythril title.",
+    "unlocks": [
+      "The Bastok route’s requirement for continuing WotG 38: Adieu, Lilisette",
+      "Completion of the Bastok [S] national storyline"
+    ],
+    "zones": [
+      "Castle Zvahl Baileys [S]",
+      "Castle Zvahl Keep [S]",
+      "Throne Room [S]",
+      "Bastok Markets [S]",
+      "Metalworks",
+      "North Gustaberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Bonds_of_Mythril",
+        "label": "BG Wiki reference walkthrough"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Bonds_of_Mythril",
+        "label": "FFXIclopedia reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_BAS_12_Bonds_of_Mythril.lua"
+    ],
+    "native_status": "partial_battle_unimplemented",
+    "availability_note": "The audited server base explicitly marks the Bonds of Mythril battle in Throne Room [S] as unimplemented. The scenes and follow-up handlers exist, but this quest cannot be completed normally through that base alone. Battle and post-battle steps below document the intended route for future implementation.",
+    "sequence_group": "past-bastok"
+  }
+]

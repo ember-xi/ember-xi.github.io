@@ -1,0 +1,384 @@
+[
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-1",
+    "slug": "quest-wotg-her-memories-homecoming-queen",
+    "title": "Her Memories: Homecoming Queen",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Southern San d'Oria"
+    },
+    "steps": [
+      "Walk into present-day Southern San d'Oria from East Ronfaure to start the memory scene.",
+      "Complete the three child quests in any order: Old Bean, The Faux Pas and Grave Resolve.",
+      "Their three tiny fragments combine automatically into Large memory fragment I; no additional hand-in is required."
+    ],
+    "notes": [],
+    "reward": "Large memory fragment I.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria",
+      "East Ronfaure"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Homecoming_Queen",
+        "label": "FFXIclopedia — Her Memories: Homecoming Queen"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "Homecoming Queen"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-1-1",
+    "slug": "quest-wotg-her-memories-old-bean",
+    "title": "Her Memories: Old Bean",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "Start Her Memories: Homecoming Queen."
+    ],
+    "start": {
+      "npc": "Thierride",
+      "zone": "Port San d'Oria",
+      "grid": "G-7"
+    },
+    "steps": [
+      "Speak with Thierride inside the Rusty Anchor Pub (G-7) for Thierride's bean creation.",
+      "Speak with Amaura in Southern San d'Oria (G-6) and finish the scene about the dish.",
+      "Return to Thierride for the memory fragment."
+    ],
+    "notes": [],
+    "reward": "A tiny memory fragment toward Large memory fragment I.",
+    "unlocks": [],
+    "zones": [
+      "Port San d'Oria",
+      "Southern San d'Oria"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Old_Bean",
+        "label": "FFXIclopedia — Her Memories: Old Bean"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "Old Bean"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-1-2",
+    "slug": "quest-wotg-her-memories-the-faux-pas",
+    "title": "Her Memories: The Faux Pas",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "Start Her Memories: Homecoming Queen."
+    ],
+    "start": {
+      "npc": "Abioleget",
+      "zone": "Northern San d'Oria",
+      "grid": "M-7"
+    },
+    "steps": [
+      "Speak with Abioleget in the cathedral at (M-7).",
+      "Speak with Bertenont at (E-4) and finish the scene to receive the fragment."
+    ],
+    "notes": [],
+    "reward": "A tiny memory fragment toward Large memory fragment I.",
+    "unlocks": [],
+    "zones": [
+      "Northern San d'Oria"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_The_Faux_Pas",
+        "label": "FFXIclopedia — Her Memories: The Faux Pas"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "The Faux Pas"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-1-3",
+    "slug": "quest-wotg-her-memories-grave-resolve",
+    "title": "Her Memories: Grave Resolve",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "Start Her Memories: Homecoming Queen.",
+      "One Lilac."
+    ],
+    "start": {
+      "npc": "Halver",
+      "zone": "Chateau d'Oraguille",
+      "grid": "I-9"
+    },
+    "steps": [
+      "Speak with Halver (I-9) for the scene.",
+      "Reach the Weathered Gravestone in present-day Batallia Downs (I-10). Examine it first, then trade one Lilac to finish the memory. The native handler requires the examination before the trade."
+    ],
+    "notes": [],
+    "reward": "A tiny memory fragment toward Large memory fragment I.",
+    "unlocks": [],
+    "zones": [
+      "Chateau d'Oraguille",
+      "Batallia Downs"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Grave_Resolve",
+        "label": "FFXIclopedia — Her Memories: Grave Resolve"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Homecoming_Queen.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "Grave Resolve"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-2",
+    "slug": "quest-wotg-her-memories-of-malign-maladies",
+    "title": "Her Memories: Of Malign Maladies",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "One Philosopher's Stone."
+    ],
+    "start": {
+      "npc": "Amaura",
+      "zone": "Southern San d'Oria",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Speak with Amaura (G-6), then Monberaux in Upper Jeuno (G-10).",
+      "Examine the Library Book on the eastern wall of the Optistery in northern Windurst Waters (G-7).",
+      "Trade one Philosopher's Stone to the Fey Blossoms in Witchfire Glen, Grauberg [S] (F-5).",
+      "Leave the zone and wait until the next Vana'diel day. Return to the Fey Blossoms and examine them for the Fey stone.",
+      "Report to Raustigne in Southern San d'Oria [S] (I-7) for the fragment."
+    ],
+    "notes": [],
+    "reward": "Large memory fragment II.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria",
+      "Upper Jeuno",
+      "Windurst Waters",
+      "Grauberg [S]",
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Of_Malign_Maladies",
+        "label": "FFXIclopedia — Her Memories: Of Malign Maladies"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Of_Malign_Maladies.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "Of Malign Maladies"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-3",
+    "slug": "quest-wotg-her-memories-operation-cupid",
+    "title": "Her Memories: Operation Cupid",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "One each of Rice Vinegar, Ground Wasabi and Holy Basil."
+    ],
+    "start": {
+      "npc": "Zone entrance",
+      "zone": "Batallia Downs [S]"
+    },
+    "steps": [
+      "Walk into Batallia Downs [S] from Jugner Forest [S] for the scene.",
+      "Examine the Bulwark Gate in Sauromugue Champaign [S], then visit Leadavox in Vunkerl Inlet [S] (J-6).",
+      "Trade Rice Vinegar, Ground Wasabi and Holy Basil together to Leadavox for a Pot of martial relish.",
+      "Examine the Bulwark Gate again. Finally, enter Batallia Downs [S] from Rolanberry Fields [S] for the fragment."
+    ],
+    "notes": [],
+    "reward": "Large memory fragment III.",
+    "unlocks": [],
+    "zones": [
+      "Batallia Downs [S]",
+      "Jugner Forest [S]",
+      "Sauromugue Champaign [S]",
+      "Vunkerl Inlet [S]",
+      "Rolanberry Fields [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Operation_Cupid",
+        "label": "FFXIclopedia — Her Memories: Operation Cupid"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Operation_Cupid.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "Operation Cupid"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-4-S",
+    "slug": "quest-wotg-her-memories-carnelian-footfalls",
+    "title": "Her Memories: Carnelian Footfalls",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "The San d'Oria past-allegiance branch of Her Memories."
+    ],
+    "start": {
+      "npc": "Mainchelite",
+      "zone": "Southern San d'Oria [S]",
+      "grid": "I-9"
+    },
+    "steps": [
+      "While allied with the Iron Rams, enter Southern San d'Oria [S] from East Ronfaure [S] for the memory scene. Speak with Mainchelite at (I-9).",
+      "Walk back into East Ronfaure [S] for another scene.",
+      "Examine the three Steamed Rams ??? locations: (H-8), the dirt hollow northeast of the fort; northwest (I-8), beneath the waterfall; and northwest (J-7), beside the tree.",
+      "Return to Mainchelite for the fragment."
+    ],
+    "notes": [],
+    "reward": "Large memory fragment IV.",
+    "unlocks": [],
+    "zones": [
+      "Southern San d'Oria [S]",
+      "East Ronfaure [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Carnelian_Footfalls",
+        "label": "FFXIclopedia — Her Memories: Carnelian Footfalls"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Carnelian_Footfalls.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "Carnelian Footfalls"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-4-B",
+    "slug": "quest-wotg-her-memories-azure-footfalls",
+    "title": "Her Memories: Azure Footfalls",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "The Bastok past-allegiance branch of Her Memories."
+    ],
+    "start": {
+      "npc": "Adelbrecht",
+      "zone": "Bastok Markets [S]",
+      "grid": "E-8"
+    },
+    "steps": [
+      "While allied with Bastok, enter Bastok Markets [S] from North Gustaberg [S], then speak with Adelbrecht at (E-8).",
+      "In North Gustaberg [S], speak with Gebhardt (I-6) on the first level of Zegham Hill, then Roderich (E-11).",
+      "Examine the Barricade at (E-7), then return to Adelbrecht for the fragment."
+    ],
+    "notes": [],
+    "reward": "Large memory fragment IV.",
+    "unlocks": [],
+    "zones": [
+      "Bastok Markets [S]",
+      "North Gustaberg [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Azure_Footfalls",
+        "label": "FFXIclopedia — Her Memories: Azure Footfalls"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/Her_Memories_Azure_Footfalls.lua"
+    ],
+    "native_status": "implemented-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "aliases": [
+      "Azure Footfalls"
+    ]
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "41-4-W",
+    "slug": "quest-wotg-her-memories-verdure-footfalls",
+    "title": "Her Memories: Verdure Footfalls",
+    "requirements": [
+      "Her Memories is the current Wings of the Goddess mission.",
+      "The Windurst past-allegiance branch of Her Memories."
+    ],
+    "start": {
+      "npc": "Miah Riyuh",
+      "zone": "Windurst Waters [S]",
+      "grid": "H-9"
+    },
+    "steps": [
+      "Enter Windurst Waters [S] from West Sarutabaruta [S] for a scene, then speak with Miah Riyuh at (H-9) on the northern map.",
+      "Visit the three towers in West Sarutabaruta [S], at (J-8), (F-11), and (F-4). Examine each Sealed Entrance.",
+      "Return to Miah Riyuh for the fragment."
+    ],
+    "notes": [],
+    "reward": "Large memory fragment IV.",
+    "unlocks": [],
+    "zones": [
+      "Windurst Waters [S]",
+      "West Sarutabaruta [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Her_Memories%3A_Verdure_Footfalls",
+        "label": "FFXIclopedia — Her Memories: Verdure Footfalls"
+      }
+    ],
+    "code": [],
+    "native_status": "missing-handler",
+    "era_note": "September 2010 WotG memory chapter, released after the original level-75 cap.",
+    "availability_note": "Reference walkthrough: no Verdure Footfalls quest handler or Windurst zone fallback was found in the pinned source. Do not expect this branch to complete on an unmodified core.",
+    "aliases": [
+      "Verdure Footfalls"
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "source_review_date": "2026-09-26",
+  "scope": "Concise original level-75 Mythic acquisition chain, required hand-ins and missing Dancer Mythic pages. No later weapon upgrades.",
+  "articles": [
+    {
+      "title": "Mythic Weapon Acquisition at 75",
+      "category": "Guides",
+      "intro": "The complete four-quest route from a Nyzul weapon to an awakened level-75 Mythic.",
+      "body_html": "<h2>Choose the correct path</h2><p><a href=\"wiki:Unlocking a Myth\">Unlocking a Myth</a> unlocks a weapon skill. Building the finished weapon instead uses the four quests below. These are separate objectives.</p><h2>Before starting</h2><p>Complete the Treasures of Aht Urhgan story through Eternal Mercenary, earn <a href=\"wiki:Captain Wildcat Badge\">Captain Wildcat Badge</a> through <a href=\"wiki:Promotion: Captain\">Promotion: Captain</a>, and obtain <a href=\"wiki:Runic Key\">Runic Key</a> from Nyzul floor 100. Acquire your job’s base weapon from <a href=\"wiki:Nyzul Isle Investigation\">Nyzul Isle Investigation</a>.</p><h2>Quest order</h2><table><thead><tr><th>Stage</th><th>What you do</th><th>Next result</th></tr></thead><tbody><tr><td><a href=\"wiki:An Imperial Heist\">An Imperial Heist</a></td><td>Register the weapon and obtain eight boss titles.</td><td>Paparoon’s assignment</td></tr><tr><td><a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a></td><td>Finish the currency and second Assault clear requirements.</td><td>Paparoon’s sealed invitation</td></tr><tr><td><a href=\"wiki:Forging a New Myth\">Forging a New Myth</a></td><td>Trade the three ZNM trophies, then pass the Zahak/Balrahn battlefield.</td><td>Serpentking Zahak relief shard</td></tr><tr><td><a href=\"wiki:Coming Full Circle\">Coming Full Circle</a></td><td>Awaken the weapon at the tombstone and finish the palace/Naja scenes.</td><td>Finished level-75 Mythic</td></tr></tbody></table><p>Open <a href=\"wiki:Mythic Weapons\">Mythic Weapons</a> for the job-to-weapon table. Dancer uses <a href=\"wiki:Main Gauche\">Main Gauche</a> → <a href=\"wiki:Terpsichore\">Terpsichore</a>; Scholar uses <a href=\"wiki:Elder Staff\">Elder Staff</a> → <a href=\"wiki:Tupsimati\">Tupsimati</a>. Level-80+, Magian and item-level upgrades are outside this guide.</p><p><strong>Zenith status:</strong> original level-75 reference route. The complete weapon-building quest chain has not been verified as playable on Zenith. Do not assume that having these wiki pages means the NPC hand-ins or final battlefield are installed.</p>",
+      "source_urls": [
+        "https://edenxi.miraheze.org/wiki/Mythic_Weapons",
+        "https://www.bg-wiki.com/ffxi/An_Imperial_Heist",
+        "https://www.bg-wiki.com/ffxi/Category:Mythic_Weapons",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Aht_Urhgan_Whitegate/npcs/Abquhbah.lua"
+      ]
+    },
+    {
+      "title": "An Imperial Heist",
+      "category": "Quests",
+      "intro": "Register a Nyzul weapon and prove the required eight boss victories.",
+      "body_html": "<h2>Requirements</h2><p>Treasures of Aht Urhgan story completed; <a href=\"wiki:Captain Wildcat Badge\">Captain Wildcat Badge</a>; <a href=\"wiki:Runic Key\">Runic Key</a>; your chosen job’s Nyzul/Vigil weapon.</p><h2>Steps</h2><ol><li>Enter Salaheem’s Sentinels in <a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> (I-10) for the opening scene.</li><li>Talk to <a href=\"wiki:Abquhbah\">Abquhbah</a> and trade the base weapon for the Mythic you intend to build. He requires the Runic Key.</li><li>Acquire the eight titles listed below. Previously earned titles count; they need not be your currently displayed title.</li><li>Return to <a href=\"wiki:Naja Salaheem\">Naja Salaheem</a> after all objectives are credited. Continue to <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</li></ol><h2>Required victories</h2><table><thead><tr><th>Enemy</th><th>Original location</th><th>Title</th></tr></thead><tbody><tr><td><a href=\"wiki:Gulool Ja Ja\">Gulool Ja Ja</a></td><td><a href=\"wiki:Mamook\">Mamook</a></td><td>Shining Scale Rifler</td></tr><tr><td><a href=\"wiki:Gurfurlur the Menacing\">Gurfurlur the Menacing</a></td><td><a href=\"wiki:Halvung\">Halvung</a></td><td>Troll Subjugator</td></tr><tr><td><a href=\"wiki:Medusa\">Medusa</a></td><td><a href=\"wiki:Arrapago Reef\">Arrapago Reef</a></td><td>Gorgonstone Sunderer</td></tr><tr><td><a href=\"wiki:Battleclad Chariot\">Battleclad Chariot</a></td><td><a href=\"wiki:Zhayolm Remnants\">Zhayolm Remnants</a></td><td>Star Charioteer</td></tr><tr><td><a href=\"wiki:Long-Armed Chariot\">Long-Armed Chariot</a></td><td><a href=\"wiki:Silver Sea Remnants\">Silver Sea Remnants</a></td><td>Moon Charioteer</td></tr><tr><td><a href=\"wiki:Long-Bowed Chariot\">Long-Bowed Chariot</a></td><td><a href=\"wiki:Bhaflau Remnants\">Bhaflau Remnants</a></td><td>Comet Charioteer</td></tr><tr><td><a href=\"wiki:Armored Chariot\">Armored Chariot</a></td><td><a href=\"wiki:Arrapago Remnants\">Arrapago Remnants</a></td><td>Sun Charioteer</td></tr><tr><td><a href=\"wiki:Odin\">Odin</a></td><td><a href=\"wiki:Odin&#x27;s Chamber\">Odin&#x27;s Chamber</a></td><td>Elite Einherjar</td></tr></tbody></table><p>Defeat beastman kings in their strongholds; Besieged kills do not award the required credit. Use each enemy’s page for access keys and route. The alternative beastking battlefields added to retail in 2024 are not the original 75-era method.</p><p><strong>Zenith status:</strong> original level-75 reference route. The complete weapon-building quest chain has not been verified as playable on Zenith. Do not assume that having these wiki pages means the NPC hand-ins or final battlefield are installed.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/An_Imperial_Heist",
+        "https://ffxiclopedia.fandom.com/wiki/An_Imperial_Heist",
+        "https://edenxi.miraheze.org/wiki/Mythic_Weapons"
+      ]
+    },
+    {
+      "title": "Duties, Tasks, and Deeds",
+      "category": "Quests",
+      "intro": "Submit Alexandrite, two purchased relics, and a fresh record of all 50 Assaults.",
+      "body_html": "<h2>Requirements</h2><p><a href=\"wiki:An Imperial Heist\">An Imperial Heist</a> completed; five free inventory slots for the Assault records.</p><h2>Steps</h2><ol><li>Speak to <a href=\"wiki:Paparoon\">Paparoon</a> beneath the archway in <a href=\"wiki:Nashmau\">Nashmau</a> (G-7). Read all assignment options and receive the five Assault records.</li><li>Complete the four objectives below in any order. Turn in progress to Paparoon.</li><li>For each Assault, win and trade the matching record to the Rune of Release before leaving. All 50 normal Assaults must be recorded after receiving these records; your earlier Captain clears are not a substitute.</li><li>Return all five fully marked records and the two purchased items, and finish the Alexandrite total.</li><li>Speak to Paparoon again for Paparoon’s sealed invitation. Continue to <a href=\"wiki:Forging a New Myth\">Forging a New Myth</a>.</li></ol><h2>Required totals</h2><table><thead><tr><th>Objective</th><th>Amount</th><th>Source / hand-in</th></tr></thead><tbody><tr><td><a href=\"wiki:Alexandrite\">Alexandrite</a></td><td>30,000</td><td><a href=\"wiki:Salvage\">Salvage</a>; trade the currency to Paparoon.</td></tr><tr><td><a href=\"wiki:Balrahn&#x27;s Eyepatch\">Balrahn&#x27;s Eyepatch</a></td><td>100,000 Therion Ichor</td><td>Purchase from <a href=\"wiki:Kilusha\">Kilusha</a> in Nashmau (H-7).</td></tr><tr><td><a href=\"wiki:Wyrmseeker Areuhat\">Wyrmseeker Areuhat</a></td><td>150,000 Nyzul Tokens</td><td>Purchase from <a href=\"wiki:Zasshal\">Zasshal</a> in Whitegate (K-9).</td></tr><tr><td>Five Assault records</td><td>50 distinct Assault wins</td><td>Trade the appropriate record at each Rune of Release.</td></tr></tbody></table><h2>Record by Assault area</h2><table><thead><tr><th>Inventory name</th><th>Full item name</th><th>Area</th></tr></thead><tbody><tr><td><a href=\"wiki:Leujaoam Log\">Leujaoam Log</a></td><td>Leujaoam Observation Log</td><td><a href=\"wiki:Leujaoam Sanctum\">Leujaoam Sanctum</a></td></tr><tr><td><a href=\"wiki:Mamool Ja Journal\">Mamool Ja Journal</a></td><td>Mamool Ja Battle Journal</td><td><a href=\"wiki:Mamool Ja Training Grounds\">Mamool Ja Training Grounds</a></td></tr><tr><td><a href=\"wiki:Lebros Chronicle\">Lebros Chronicle</a></td><td>Lebros Exploration Chronicle</td><td><a href=\"wiki:Lebros Cavern\">Lebros Cavern</a></td></tr><tr><td><a href=\"wiki:Periqia Diary\">Periqia Diary</a></td><td>Periqia Adventure Diary</td><td><a href=\"wiki:Periqia\">Periqia</a></td></tr><tr><td><a href=\"wiki:Ilrusi Ledger\">Ilrusi Ledger</a></td><td>Ilrusi Travel Ledger</td><td><a href=\"wiki:Ilrusi Atoll\">Ilrusi Atoll</a></td></tr></tbody></table><p>Changing the selected weapon can erase this quest’s contributed currency and records. Choose the intended weapon before making these hand-ins. This guide uses the standard 30,000 Alexandrite requirement; no reduced Zenith cost has been confirmed.</p><p><strong>Zenith status:</strong> original level-75 reference route. The complete weapon-building quest chain has not been verified as playable on Zenith. Do not assume that having these wiki pages means the NPC hand-ins or final battlefield are installed.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Duties%2C_Tasks%2C_and_Deeds"
+      ]
+    },
+    {
+      "title": "Forging a New Myth",
+      "category": "Quests",
+      "intro": "Obtain the sealed Mythic weapon, then pass the Zahak and Balrahn trial.",
+      "body_html": "<h2>Requirements</h2><p><a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a> completed; Paparoon’s sealed invitation; all three trophies below. Use the job that can equip your Mythic.</p><h2>Before the battlefield</h2><ol><li>Examine the Imperial Whitegate palace door in <a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a>. Receive the sealed Mythic weapon and one <a href=\"wiki:Imperial Gold Piece\">Imperial Gold Piece</a>.</li><li>Collect the three tier-four <a href=\"wiki:Zeni Notorious Monsters\">Zeni Notorious Monsters</a> trophies below. Trade them together to <a href=\"wiki:Seaprince&#x27;s Tombstone\">Seaprince&#x27;s Tombstone</a> at the cemetery in <a href=\"wiki:Caedarva Mire\">Caedarva Mire</a> (E-10), reached from Nashmau’s west exit.</li><li>Receive the Serpentking Zahak relief. Travel to the Nyzul Isle Staging Point and choose Forging a New Myth at the Runic Seal (I-9).</li></ol><table><thead><tr><th>Trophy</th><th>Enemy</th><th>Zone</th></tr></thead><tbody><tr><td><a href=\"wiki:Tinnin&#x27;s Fang\">Tinnin&#x27;s Fang</a></td><td><a href=\"wiki:Tinnin\">Tinnin</a></td><td><a href=\"wiki:Wajaom Woodlands\">Wajaom Woodlands</a></td></tr><tr><td><a href=\"wiki:Sarameya&#x27;s Hide\">Sarameya&#x27;s Hide</a></td><td><a href=\"wiki:Sarameya\">Sarameya</a></td><td><a href=\"wiki:Mount Zhayolm\">Mount Zhayolm</a></td></tr><tr><td><a href=\"wiki:Tyger&#x27;s Tail\">Tyger&#x27;s Tail</a></td><td><a href=\"wiki:Tyger\">Tyger</a></td><td><a href=\"wiki:Caedarva Mire\">Caedarva Mire</a></td></tr></tbody></table><h2>Battlefield: 30 minutes</h2><ol><li>Equip the sealed Mythic in its proper weapon slot. RNG and COR need appropriate ammunition. Original battle rules do not permit Trusts.</li><li>Against Zahak, land three weapon skills with the required weapon equipped to remove the three heads. Misses do not count; pet Blood Pacts do not replace weapon skills.</li><li>When Balrahn appears, let him use your weapon’s Mythic skill first. This enables the trial’s Aftermath sequence, even if you already unlocked that skill.</li><li>Use that Mythic weapon skill at 1000–1999 TP for Aftermath 1, at 2000–2999 TP for Aftermath 2, then at 3000 TP for Aftermath 3. Check the effect after each use. Old era guides call these 100%, 200% and 300%.</li><li>If a higher Aftermath prevents a lower tier, remove and re-equip the weapon to clear it, then redo the missing tier. Do not rely on reducing Balrahn to zero HP to solve the trial.</li><li>Complete the victory scene to receive the Serpentking Zahak relief shard. Continue to <a href=\"wiki:Coming Full Circle\">Coming Full Circle</a>.</li></ol><p>Failure consumes the entry relief; obtain and trade another full trophy set for a retry.</p><p><strong>Zenith status:</strong> original level-75 reference route. The complete weapon-building quest chain has not been verified as playable on Zenith. Do not assume that having these wiki pages means the NPC hand-ins or final battlefield are installed.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Forging_a_New_Myth",
+        "https://ffxiclopedia.fandom.com/wiki/Forging_a_New_Myth"
+      ]
+    },
+    {
+      "title": "Coming Full Circle",
+      "category": "Quests",
+      "intro": "Finish the level-75 Mythic and close the imperial quest chain.",
+      "body_html": "<h2>Requirements</h2><p><a href=\"wiki:Forging a New Myth\">Forging a New Myth</a> cleared; Serpentking Zahak relief shard and the sealed Mythic weapon.</p><h2>Steps</h2><ol><li>Return to <a href=\"wiki:Seaprince&#x27;s Tombstone\">Seaprince&#x27;s Tombstone</a> in <a href=\"wiki:Caedarva Mire\">Caedarva Mire</a> (E-10). Examine it with the Mythic equipped for the scene.</li><li>Unequip and trade the sealed weapon to the tombstone. Receive the awakened level-75 weapon.</li><li>Keep the awakened weapon in your main inventory. Unequip weapons and examine the Imperial Whitegate palace door for the next scene.</li><li>Return to Salaheem’s Sentinels and approach <a href=\"wiki:Naja Salaheem\">Naja Salaheem</a> to finish. Receive three <a href=\"wiki:Imperial Silver Piece\">Imperial Silver Piece</a>s.</li></ol><p>This is the end of the level-75 weapon route. The separate <a href=\"wiki:Unlocking a Myth\">Unlocking a Myth</a> quest is how you permanently use its weapon skill with other suitable weapons.</p><p><strong>Zenith status:</strong> original level-75 reference route. The complete weapon-building quest chain has not been verified as playable on Zenith. Do not assume that having these wiki pages means the NPC hand-ins or final battlefield are installed.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Coming_Full_Circle",
+        "https://www.bg-wiki.com/ffxi/Coming_Full_Circle"
+      ]
+    },
+    {
+      "title": "Paparoon",
+      "category": "NPCs",
+      "intro": "Mythic quest turn-ins beneath the archway in Nashmau (G-7).",
+      "body_html": "<h2>What to do here</h2><p>After <a href=\"wiki:An Imperial Heist\">An Imperial Heist</a>, follow <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>. Bring five open inventory slots to receive the Assault records. This page documents the original NPC service; Zenith’s full weapon quest remains unverified.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Paparoon"
+      ]
+    },
+    {
+      "title": "Seaprince's Tombstone",
+      "category": "NPCs",
+      "intro": "Mythic trial and weapon hand-ins at the cemetery in Caedarva Mire (E-10).",
+      "body_html": "<h2>Route</h2><p>Leave <a href=\"wiki:Nashmau\">Nashmau</a> through the west exit and travel to the cemetery.</p><h2>Hand-ins</h2><p>During <a href=\"wiki:Forging a New Myth\">Forging a New Myth</a>, trade <a href=\"wiki:Tinnin&#x27;s Fang\">Tinnin&#x27;s Fang</a>, <a href=\"wiki:Sarameya&#x27;s Hide\">Sarameya&#x27;s Hide</a>, <a href=\"wiki:Tyger&#x27;s Tail\">Tyger&#x27;s Tail</a> together for the battlefield entry key item. After winning, follow <a href=\"wiki:Coming Full Circle\">Coming Full Circle</a> to trade and awaken the weapon.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Forging_a_New_Myth",
+        "https://ffxiclopedia.fandom.com/wiki/Coming_Full_Circle"
+      ]
+    },
+    {
+      "title": "Alexandrite",
+      "category": "Materials",
+      "intro": "Salvage currency collected for a level-75 Mythic weapon.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat Archaic machinery in original <a href=\"wiki:Salvage\">Salvage</a>, or use Cotton/Linen coin purses from its treasure. Alexandrite can also be traded between players.</p><table><thead><tr><th>Container</th><th>Alexandrite per use</th></tr></thead><tbody><tr><td>Cotton Coin Purse</td><td>5–20</td></tr><tr><td>Linen Coin Purse</td><td>50–99</td></tr></tbody></table><h2>Use</h2><p>Trade a total of 30,000 to <a href=\"wiki:Paparoon\">Paparoon</a> during <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>. Level-99 Salvage II and later retail campaigns are outside this era route.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Alexandrite",
+        "https://ffxiclopedia.fandom.com/wiki/Alexandrite"
+      ]
+    },
+    {
+      "title": "Balrahn's Eyepatch",
+      "category": "Materials",
+      "intro": "The Einherjar purchase required for the Mythic quest.",
+      "body_html": "<h2>How to obtain</h2><p>Earn 100,000 Therion Ichor through <a href=\"wiki:Einherjar\">Einherjar</a>. Buy the eyepatch from <a href=\"wiki:Kilusha\">Kilusha</a> in <a href=\"wiki:Nashmau\">Nashmau</a> (H-7) during <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</p><h2>Turn in</h2><p>Trade the eyepatch to <a href=\"wiki:Paparoon\">Paparoon</a>. This is a quest item, not wearable head armor.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Duties%2C_Tasks%2C_and_Deeds",
+        "https://www.bg-wiki.com/ffxi/Balrahn%27s_Eyepatch"
+      ]
+    },
+    {
+      "title": "Wyrmseeker Areuhat",
+      "category": "Materials",
+      "intro": "The Nyzul purchase required for the Mythic quest.",
+      "body_html": "<h2>How to obtain</h2><p>Earn 150,000 tokens through <a href=\"wiki:Nyzul Isle Investigation\">Nyzul Isle Investigation</a>. Buy the book from <a href=\"wiki:Zasshal\">Zasshal</a> in <a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> (K-9) after receiving Paparoon’s assignment.</p><h2>Turn in</h2><p>Trade it to <a href=\"wiki:Paparoon\">Paparoon</a> during <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>. Tokens are distinct from normal Assault points and Imperial Standing.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Wyrmseeker_Areuhat"
+      ]
+    },
+    {
+      "title": "Leujaoam Log",
+      "category": "Materials",
+      "intro": "Leujaoam Observation Log for the Mythic Assault record.",
+      "body_html": "<h2>How to obtain</h2><p>Receive this record from <a href=\"wiki:Paparoon\">Paparoon</a> when starting <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</p><h2>How to fill it</h2><p>Complete all ten normal <a href=\"wiki:Leujaoam Sanctum\">Leujaoam Sanctum</a> Assaults with the record in your inventory. At the end of each successful mission, trade it to the Rune of Release before leaving. Repeat any missing mission, then hand the completed record to Paparoon.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Leujaoam_Log"
+      ]
+    },
+    {
+      "title": "Mamool Ja Journal",
+      "category": "Materials",
+      "intro": "Mamool Ja Battle Journal for the Mythic Assault record.",
+      "body_html": "<h2>How to obtain</h2><p>Receive this record from <a href=\"wiki:Paparoon\">Paparoon</a> when starting <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</p><h2>How to fill it</h2><p>Complete all ten normal <a href=\"wiki:Mamool Ja Training Grounds\">Mamool Ja Training Grounds</a> Assaults with the record in your inventory. At the end of each successful mission, trade it to the Rune of Release before leaving. Repeat any missing mission, then hand the completed record to Paparoon.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Mamool_Ja_Journal"
+      ]
+    },
+    {
+      "title": "Lebros Chronicle",
+      "category": "Materials",
+      "intro": "Lebros Exploration Chronicle for the Mythic Assault record.",
+      "body_html": "<h2>How to obtain</h2><p>Receive this record from <a href=\"wiki:Paparoon\">Paparoon</a> when starting <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</p><h2>How to fill it</h2><p>Complete all ten normal <a href=\"wiki:Lebros Cavern\">Lebros Cavern</a> Assaults with the record in your inventory. At the end of each successful mission, trade it to the Rune of Release before leaving. Repeat any missing mission, then hand the completed record to Paparoon.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Lebros_Chronicle"
+      ]
+    },
+    {
+      "title": "Periqia Diary",
+      "category": "Materials",
+      "intro": "Periqia Adventure Diary for the Mythic Assault record.",
+      "body_html": "<h2>How to obtain</h2><p>Receive this record from <a href=\"wiki:Paparoon\">Paparoon</a> when starting <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</p><h2>How to fill it</h2><p>Complete all ten normal <a href=\"wiki:Periqia\">Periqia</a> Assaults with the record in your inventory. At the end of each successful mission, trade it to the Rune of Release before leaving. Repeat any missing mission, then hand the completed record to Paparoon.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Periqia_Diary"
+      ]
+    },
+    {
+      "title": "Ilrusi Ledger",
+      "category": "Materials",
+      "intro": "Ilrusi Travel Ledger for the Mythic Assault record.",
+      "body_html": "<h2>How to obtain</h2><p>Receive this record from <a href=\"wiki:Paparoon\">Paparoon</a> when starting <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</p><h2>How to fill it</h2><p>Complete all ten normal <a href=\"wiki:Ilrusi Atoll\">Ilrusi Atoll</a> Assaults with the record in your inventory. At the end of each successful mission, trade it to the Rune of Release before leaving. Repeat any missing mission, then hand the completed record to Paparoon.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Duties%2C_Tasks%2C_and_Deeds",
+        "https://ffxiclopedia.fandom.com/wiki/Ilrusi_Ledger"
+      ]
+    },
+    {
+      "title": "Tinnin's Fang",
+      "category": "Materials",
+      "intro": "Tier-four ZNM trophy required for the Mythic battlefield.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Tinnin\">Tinnin</a> in <a href=\"wiki:Wajaom Woodlands\">Wajaom Woodlands</a> and obtain this trophy. Follow the enemy page for the pop item and <a href=\"wiki:Zeni Notorious Monsters\">Zeni Notorious Monsters</a> progression.</p><h2>Use</h2><p>Keep it for the three-item trade in <a href=\"wiki:Forging a New Myth\">Forging a New Myth</a>. Trading it toward a different ZNM objective will not also satisfy the Mythic hand-in.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Tinnin%27s_Fang",
+        "https://ffxiclopedia.fandom.com/wiki/Forging_a_New_Myth",
+        "https://edenxi.miraheze.org/wiki/Tinnin"
+      ]
+    },
+    {
+      "title": "Sarameya's Hide",
+      "category": "Materials",
+      "intro": "Tier-four ZNM trophy required for the Mythic battlefield.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Sarameya\">Sarameya</a> in <a href=\"wiki:Mount Zhayolm\">Mount Zhayolm</a> and obtain this trophy. Follow the enemy page for the pop item and <a href=\"wiki:Zeni Notorious Monsters\">Zeni Notorious Monsters</a> progression.</p><h2>Use</h2><p>Keep it for the three-item trade in <a href=\"wiki:Forging a New Myth\">Forging a New Myth</a>. Trading it toward a different ZNM objective will not also satisfy the Mythic hand-in.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Sarameya%27s_Hide",
+        "https://ffxiclopedia.fandom.com/wiki/Forging_a_New_Myth",
+        "https://edenxi.miraheze.org/wiki/Sarameya"
+      ]
+    },
+    {
+      "title": "Tyger's Tail",
+      "category": "Materials",
+      "intro": "Tier-four ZNM trophy required for the Mythic battlefield.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Tyger\">Tyger</a> in <a href=\"wiki:Caedarva Mire\">Caedarva Mire</a> and obtain this trophy. Follow the enemy page for the pop item and <a href=\"wiki:Zeni Notorious Monsters\">Zeni Notorious Monsters</a> progression.</p><h2>Use</h2><p>Keep it for the three-item trade in <a href=\"wiki:Forging a New Myth\">Forging a New Myth</a>. Trading it toward a different ZNM objective will not also satisfy the Mythic hand-in.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Tyger%27s_Tail",
+        "https://ffxiclopedia.fandom.com/wiki/Forging_a_New_Myth",
+        "https://edenxi.miraheze.org/wiki/Tyger"
+      ]
+    },
+    {
+      "title": "Main Gauche",
+      "category": "Weapons",
+      "intro": "Dancer level-75 Nyzul dagger: DMG 27, Delay 205.",
+      "body_html": "<h2>How to obtain</h2><p>Possible drop from notorious monsters in <a href=\"wiki:Nyzul Isle Investigation\">Nyzul Isle Investigation</a>. The floor-100 HNM has a guaranteed job-based weapon drop tied to the Runic Disc holder’s job; use Dancer for Main Gauche.</p><h2>Two uses</h2><table><thead><tr><th>Goal</th><th>Quest</th></tr></thead><tbody><tr><td><a href=\"wiki:Pyrrhic Kleos\">Pyrrhic Kleos</a> with any suitable dagger</td><td><a href=\"wiki:Unlocking a Myth (Dancer)\">Unlocking a Myth (Dancer)</a></td></tr><tr><td><a href=\"wiki:Terpsichore\">Terpsichore</a> level-75 Mythic weapon</td><td><a href=\"wiki:Mythic Weapon Acquisition at 75\">Mythic Weapon Acquisition at 75</a></td></tr></tbody></table><p>Do the weapon-skill unlock before handing the dagger to Abquhbah if you want to use the same copy for both routes.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Main_Gauche",
+        "https://www.bg-wiki.com/ffxi/Main_Gauche"
+      ]
+    },
+    {
+      "title": "Terpsichore",
+      "category": "Weapons",
+      "intro": "Dancer level-75 Mythic dagger: DMG 31, Delay 205.",
+      "body_html": "<h2>Benefits</h2><p>Improves Step accuracy and Step effects. Uses <a href=\"wiki:Pyrrhic Kleos\">Pyrrhic Kleos</a> to activate Aftermath: accuracy, attack, or occasional double attacks according to TP tier.</p><h2>How to obtain</h2><ol><li>Obtain <a href=\"wiki:Main Gauche\">Main Gauche</a> from <a href=\"wiki:Nyzul Isle Investigation\">Nyzul Isle Investigation</a>.</li><li>Complete <a href=\"wiki:An Imperial Heist\">An Imperial Heist</a> and <a href=\"wiki:Duties, Tasks, and Deeds\">Duties, Tasks, and Deeds</a>.</li><li>Finish <a href=\"wiki:Forging a New Myth\">Forging a New Myth</a>, then awaken the dagger through <a href=\"wiki:Coming Full Circle\">Coming Full Circle</a>.</li></ol><p>Full requirements and materials: <a href=\"wiki:Mythic Weapon Acquisition at 75\">Mythic Weapon Acquisition at 75</a>. This page covers the awakened level-75 weapon, not later upgrades.</p><p><strong>Zenith status:</strong> original level-75 reference route. The complete weapon-building quest chain has not been verified as playable on Zenith. Do not assume that having these wiki pages means the NPC hand-ins or final battlefield are installed.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Terpsichore_(Level_75)",
+        "https://ffxiclopedia.fandom.com/wiki/Terpsichore",
+        "https://edenxi.miraheze.org/wiki/Mythic_Weapons"
+      ]
+    },
+    {
+      "title": "Unlocking a Myth (Dancer)",
+      "category": "Quests",
+      "intro": "Permanently unlock Pyrrhic Kleos without building Terpsichore.",
+      "body_html": "<h2>Requirements</h2><p>Dancer level 75 and <a href=\"wiki:Main Gauche\">Main Gauche</a> from <a href=\"wiki:Nyzul Isle Investigation\">Nyzul Isle Investigation</a>.</p><h2>Steps</h2><ol><li>Equip Main Gauche in the main hand as Dancer. Talk to <a href=\"wiki:Zalsuhm\">Zalsuhm</a> in Muckvix’s Junk Shop, <a href=\"wiki:Lower Jeuno\">Lower Jeuno</a> (H-9), and accept his offer. If you reject it, change zones and speak again.</li><li>Keep Main Gauche in the main hand while earning <a href=\"wiki:Weapon Skill Points\">Weapon Skill Points</a> against experience-yielding enemies. A weapon skill gives one point; closing level-1/2/3 skillchains gives two/three/five.</li><li>Reach the point requirement. Under era scaling, your current saved Nyzul floor determines the total below. The reviewed modern server base instead uses 250 unless its era override is enabled.</li><li>Trade the dagger to Zalsuhm as Dancer. Once enough points are credited, the completion event permanently unlocks <a href=\"wiki:Pyrrhic Kleos\">Pyrrhic Kleos</a>. You retain the dagger.</li></ol><h2>Historical point requirement</h2><table><thead><tr><th>Saved floor</th><th>Required points</th></tr></thead><tbody><tr><td>0</td><td>16,000</td></tr><tr><td>1–19</td><td>8,000 + 320 × (19 − floor)</td></tr><tr><td>20–39</td><td>4,000 + 160 × (39 − floor)</td></tr><tr><td>40–59</td><td>2,000 + 80 × (59 − floor)</td></tr><tr><td>60–79</td><td>1,000 + 40 × (79 − floor)</td></tr><tr><td>80–99</td><td>500 + 20 × (99 − floor)</td></tr><tr><td>100</td><td>250</td></tr></tbody></table><p>The weapon-skill quest has a handler in the reviewed server base. That does not confirm the separate four-quest Mythic weapon-building chain. Zenith’s active era-module setting has not been checked live.</p>",
+      "source_urls": [
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Unlocking_A_Myth_DNC.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/helpers.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/equipment.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/modules/era/lua/globals/equipment/unlocking_a_myth.lua",
+        "https://edenxi.miraheze.org/wiki/Unlocking_a_Myth",
+        "https://ffxiclopedia.fandom.com/wiki/Unlocking_a_Myth_(Dancer)"
+      ]
+    },
+    {
+      "title": "Pyrrhic Kleos",
+      "category": "Weapon Skills",
+      "intro": "Dancer’s Mythic dagger weapon skill: a four-hit physical attack.",
+      "body_html": "<h2>How to unlock</h2><p>Complete <a href=\"wiki:Unlocking a Myth (Dancer)\">Unlocking a Myth (Dancer)</a> using <a href=\"wiki:Main Gauche\">Main Gauche</a>. You can then use it as Dancer with a suitable dagger; owning <a href=\"wiki:Terpsichore\">Terpsichore</a> is not required for the permanent unlock.</p><h2>Use</h2><p>Skillchain properties: Distortion and Scission. When used with the awakened Terpsichore, it also activates the weapon’s Aftermath. Exact damage modifiers follow Zenith’s installed weapon-skill rules, so modern retail multipliers are not assumed here.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Pyrrhic_Kleos",
+        "https://www.bg-wiki.com/ffxi/Pyrrhic_Kleos",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Unlocking_A_Myth_DNC.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/helpers.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/globals/equipment.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/modules/era/lua/globals/equipment/unlocking_a_myth.lua"
+      ]
+    }
+  ]
+}

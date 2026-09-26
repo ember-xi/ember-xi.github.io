@@ -1,0 +1,42 @@
+{
+  "articles": [
+    {
+      "title": "Zepwell Island",
+      "category": "Zones",
+      "intro": "The largest island in the Kuzotz region, southwest of the Quon continent.",
+      "body_html": "<h2>Areas</h2><ul><li><a href=\"wiki:Eastern Altepa Desert\">Eastern Altepa Desert</a></li><li><a href=\"wiki:Western Altepa Desert\">Western Altepa Desert</a></li><li><a href=\"wiki:Rabao\">Rabao</a></li><li><a href=\"wiki:Quicksand Caves\">Quicksand Caves</a></li><li><a href=\"wiki:Chamber of Oracles\">Chamber of Oracles</a></li><li><a href=\"wiki:Cloister of Tremors\">Cloister of Tremors</a></li></ul><h2>Getting there</h2><ol><li>From <a href=\"wiki:Bastok Mines\">Bastok Mines</a>, enter <a href=\"wiki:Zeruhn Mines\">Zeruhn Mines</a>.</li><li>Take the entrance into <a href=\"wiki:Korroloka Tunnel\">Korroloka Tunnel</a>.</li><li>Follow the tunnel maps to its <a href=\"wiki:Eastern Altepa Desert\">Eastern Altepa Desert</a> exit.</li></ol><p>Open the area pages for maps, connecting passages and quest locations. The island is part of <a href=\"wiki:Kuzotz\">Kuzotz</a>; it is not a separate playable zone.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zepwell_Island",
+        "https://horizonffxi.wiki/Category:Kuzotz",
+        "https://horizonffxi.wiki/Korroloka_Tunnel",
+        "https://finalfantasy.fandom.com/wiki/Kuzotz",
+        "https://horizonffxi.wiki/Zeruhn_Mines"
+      ]
+    },
+    {
+      "title": "Zilart (Race)",
+      "category": "Reference",
+      "intro": "An ancient people connected with the Rise of the Zilart storyline.",
+      "body_html": "<h2>Related adventure</h2><p>Follow <a href=\"wiki:Rise of the Zilart Missions\">Rise of the Zilart missions</a> for the story and the route to <a href=\"wiki:Ru'Aun Gardens\">Sky</a>. The mission guides list the prerequisites and each required fight.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zilart"
+      ]
+    },
+    {
+      "title": "Zilart",
+      "category": "Reference",
+      "intro": "",
+      "body_html": "<p>For the people, see <a href=\"wiki:Zilart (Race)\">Zilart (Race)</a>. For progression, open <a href=\"wiki:Rise of the Zilart Missions\">Rise of the Zilart missions</a>.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zilart"
+      ]
+    },
+    {
+      "title": "Zone Map Coordinates",
+      "category": "Guides",
+      "intro": "Use the zone map to find a quest contact or route.",
+      "body_html": "<h2>Read a map location</h2><ol><li>Open the named <a href=\"zones.html\">zone page</a> and its map gallery.</li><li>Find the lettered column and numbered row. For example, G-7 means column G, row 7.</li><li>Check the map number in multi-floor areas. The same grid square can refer to different floors.</li><li>Follow the marked entrance or passage to the correct floor. A roaming monster can move within or beyond its listed spawn square.</li></ol>",
+      "source_urls": []
+    }
+  ]
+}

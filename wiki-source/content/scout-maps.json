@@ -1,0 +1,198 @@
+{
+  "coordinate_basis": "Unscaled 512 x 512 source image; pixel origin is top left. CSS percentage = pixel / 512 * 100. Preserve the image aspect ratio and apply overlays relative to its exact displayed image box.",
+  "grid": {
+    "status": "Visually verified from the printed grid on both downloaded images",
+    "columns": "ABCDEFGHIJKLMNO",
+    "rows": [
+      1,
+      15
+    ],
+    "left": 16,
+    "top": 16,
+    "right": 496,
+    "bottom": 496,
+    "cell_width": 32,
+    "cell_height": 32,
+    "formula": "For one-based column c and row r: left = 16 + 32*(c-1), top = 16 + 32*(r-1), width = height = 32.",
+    "warning": "Do not copy the wiki tooltip's left/top values directly onto the raw image: they are not the visually measured raw-image grid bounds."
+  },
+  "world_to_pixel_transform": {
+    "verified": false,
+    "formula": null,
+    "note": "No independently verified world-to-map affine transform was located. Do not present the approximate landmark markers below as computed positions from x/y/z. The package coordinate triples are confirmed source data, but the map-square association for a custom Scout remains an inference unless separately verified in the client."
+  },
+  "assets": [
+    {
+      "zone": "Valkurm Dunes",
+      "zone_id": 103,
+      "filename": "valkurm-dunes.png",
+      "source_page": "https://horizonffxi.wiki/Valkurm_Dunes",
+      "file_page": "https://horizonffxi.wiki/File:Valkurm_Dunes.png",
+      "source_url": "https://horizonffxi.wiki/w/images/b/b9/Valkurm_Dunes.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "validation": "Decoded with Pillow and visually inspected; downloaded bytes unchanged.",
+      "original_annotations": "The source already contains Outpost, zone labels, NM/quest annotations and red paths. These were not drawn by the assistant. No custom Scout marker was baked into the image.",
+      "landmarks": [
+        {
+          "id": "valkurm-outpost",
+          "label": "Outpost",
+          "grid_square": "H-7",
+          "grid_status": "Confirmed landmark: the wiki lists Medicine Axe and the outpost Conquest Overseers at H-7; the original map prints an Outpost pointer in this square.",
+          "cell_rect_pixels": {
+            "x": 240,
+            "y": 208,
+            "width": 32,
+            "height": 32
+          },
+          "cell_rect_percent": {
+            "left": 46.875,
+            "top": 40.625,
+            "width": 6.25,
+            "height": 6.25
+          },
+          "approximate_landmark_marker_pixels": {
+            "x": 243,
+            "y": 234
+          },
+          "approximate_landmark_marker_percent": {
+            "left": 47.4609375,
+            "top": 45.703125
+          },
+          "marker_status": "Visually estimated endpoint of the printed Outpost pointer; not an exact custom NPC position."
+        },
+        {
+          "id": "valkurm-la-theine-corridor",
+          "label": "La Theine entrance area \u2014 approximate",
+          "grid_square": "K/L-6 area, not a confirmed exact Scout square",
+          "grid_status": "Inference for older Scout variants. The original map visibly shows the northern corridor at the K/L boundary around row 6; the wiki confirms the actual La Theine Plateau zone connection farther north at L-5. A Campsitarus FoV guide lists the nearby Field Manual at K-6, not L-6. Prefer a two-cell shaded area rather than an exact Scout pin.",
+          "field_manual_reference": "https://campsitarus.blogspot.com/2005/11/9-11-valkurm-dunes.html",
+          "field_manual_reference_note": "The guide explicitly lists Valkurm Field Manual locations H-7, K-6, L-11. This supports caution about asserting L-6 but does not itself confirm which world coordinate belongs to that native manual or a custom Scout.",
+          "cell_rect_pixels": {
+            "x": 336,
+            "y": 176,
+            "width": 64,
+            "height": 32
+          },
+          "cell_rect_percent": {
+            "left": 65.625,
+            "top": 34.375,
+            "width": 12.5,
+            "height": 6.25
+          },
+          "approximate_landmark_marker_pixels": {
+            "x": 375,
+            "y": 185
+          },
+          "approximate_landmark_marker_percent": {
+            "left": 73.2421875,
+            "top": 36.1328125
+          },
+          "marker_status": "Visual approximation of the northern corridor only. Recommended UI is the two-cell shaded K/L-6 area, not this point. No verified affine transform supports an exact custom Scout pin."
+        }
+      ]
+    },
+    {
+      "zone": "Qufim Island",
+      "zone_id": 126,
+      "filename": "qufim-island.png",
+      "source_page": "https://horizonffxi.wiki/Qufim_Island",
+      "file_page": "https://horizonffxi.wiki/File:Qufim_Island.png",
+      "source_url": "https://horizonffxi.wiki/w/images/0/02/Qufim_Island.png",
+      "width": 512,
+      "height": 512,
+      "format": "PNG",
+      "validation": "Decoded with Pillow and visually inspected; downloaded bytes unchanged.",
+      "original_annotations": "The source contains existing landmarks and quest labels. No custom Scout marker was baked into the image.",
+      "landmarks": [
+        {
+          "id": "qufim-outpost-area",
+          "label": "Outpost area",
+          "grid_square": "F-6",
+          "grid_status": "Confirmed landmark square: the wiki lists Jiwon, Sasa I.M., Pitoire R.K., and Tsonga-Hoponga W.W. at F-6. Association of the custom Scout with this square is an inference, not client verification.",
+          "cell_rect_pixels": {
+            "x": 176,
+            "y": 176,
+            "width": 32,
+            "height": 32
+          },
+          "cell_rect_percent": {
+            "left": 34.375,
+            "top": 34.375,
+            "width": 6.25,
+            "height": 6.25
+          },
+          "approximate_landmark_marker_pixels": {
+            "x": 192,
+            "y": 192
+          },
+          "approximate_landmark_marker_percent": {
+            "left": 37.5,
+            "top": 37.5
+          },
+          "marker_status": "Center of the confirmed outpost square, deliberately not an exact NPC point. Prefer an area highlight."
+        }
+      ]
+    }
+  ],
+  "package_source": {
+    "inspection": "Read-only inspection of payload locations blocks and PLACEMENT.json; package code not executed.",
+    "live_client_verified": false,
+    "variants": [
+      {
+        "payload_sha256_filename": "2cdcc8b2e1164a7ed95094c256d830705ccecc2a4687a568a951f062c3275e75.lua",
+        "valkurm_position_xyz_rotation": [
+          135,
+          -7.827,
+          109,
+          64
+        ],
+        "qufim_position_xyz_rotation": [
+          -264,
+          -19.969,
+          299,
+          0
+        ],
+        "suggested_valkurm_landmark": "valkurm-outpost",
+        "association_status": "Source world coordinates confirmed; landmark association inferred."
+      },
+      {
+        "payload_sha256_filename": "29dfa966a49dccd22513f3d11ad08588a3d1c1ec329e336c35938d64fc56534a.lua",
+        "valkurm_position_xyz_rotation": [
+          754.167,
+          -8.266,
+          396.238,
+          0
+        ],
+        "qufim_position_xyz_rotation": [
+          -264,
+          -19.969,
+          299,
+          0
+        ],
+        "suggested_valkurm_landmark": "valkurm-la-theine-corridor",
+        "association_status": "Source world coordinates confirmed; landmark association inferred."
+      },
+      {
+        "payload_sha256_filename": "8df99d020a4aeebd45a2d3021d362d9362e2d3f881837807ee360950281361ad.lua",
+        "valkurm_position_xyz_rotation": [
+          752.167,
+          -8.858,
+          388.238,
+          122
+        ],
+        "qufim_position_xyz_rotation": [
+          -264,
+          -19.969,
+          299,
+          0
+        ],
+        "suggested_valkurm_landmark": "valkurm-la-theine-corridor",
+        "association_status": "Source world coordinates confirmed; landmark association inferred."
+      }
+    ]
+  },
+  "attribution": "Underlying FINAL FANTASY XI maps \u00a9 SQUARE ENIX. Existing annotations credit Vana'diel Atlas / ffxi-atlas.com within the images; preserve those credits. Downloaded via HorizonXI Wiki.",
+  "reuse": "No open redistribution license was verified. These are unchanged source assets, not newly generated maps."
+}

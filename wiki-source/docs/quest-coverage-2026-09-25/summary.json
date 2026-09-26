@@ -1,0 +1,80 @@
+{
+  "snapshotDate": "2026-09-25",
+  "manifestSHA256": "bb60770ec785960949080dc98e095432466420b46a9e9fc9bd123dca19f0f39c",
+  "sitePath": "local source snapshot",
+  "manifestArticles": 1789,
+  "categoryCounts": {
+    "Trusts": 8,
+    "Getting Started": 2,
+    "Reference": 16,
+    "Jobs": 6,
+    "Quests": 30,
+    "Guides": 10,
+    "Missions": 64,
+    "Travel": 8,
+    "Items": 1216,
+    "Economy": 3,
+    "Launcher": 4,
+    "NPCs": 36,
+    "EXP Camps": 18,
+    "Zones": 270,
+    "Home": 1,
+    "Key Items": 46,
+    "Regions": 51
+  },
+  "scopeExpansions": [
+    "Final Fantasy XI",
+    "Rise of the Zilart",
+    "Chains of Promathia",
+    "Treasures of Aht Urhgan",
+    "Wings of the Goddess"
+  ],
+  "scopeZones": 236,
+  "zoneQuestReferences": 1140,
+  "uniqueQuestNames": 544,
+  "statusCounts": {
+    "absent_walkthrough": 527,
+    "summary_or_mention_only": 4,
+    "dedicated_walkthrough": 9,
+    "alias_walkthrough": 4
+  },
+  "expansionInventory": [
+    {
+      "expansion": "Final Fantasy XI",
+      "zones": 83,
+      "questReferences": 736,
+      "uniqueNames": 388
+    },
+    {
+      "expansion": "Rise of the Zilart",
+      "zones": 46,
+      "questReferences": 180,
+      "uniqueNames": 108
+    },
+    {
+      "expansion": "Chains of Promathia",
+      "zones": 43,
+      "questReferences": 91,
+      "uniqueNames": 50
+    },
+    {
+      "expansion": "Treasures of Aht Urhgan",
+      "zones": 33,
+      "questReferences": 133,
+      "uniqueNames": 72
+    },
+    {
+      "expansion": "Wings of the Goddess",
+      "zones": 31,
+      "questReferences": 0,
+      "uniqueNames": 0
+    }
+  ],
+  "limitations": [
+    "Zone quest rows are a lower-bound inventory, not a canonical complete list.",
+    "Zone expansion classifies the location, not necessarily the release era or level requirement of every referenced quest.",
+    "Wings of the Goddess zones have no extracted quest rows and cannot be treated as having no quests.",
+    "Exact-title matches and aliases are inventory evidence, not a proof that every prerequisite, reward, route and server-specific rule is correct.",
+    "Mention-only classification does not count as a walkthrough."
+  ]
+}

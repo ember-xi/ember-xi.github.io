@@ -1,0 +1,33 @@
+{
+  "assets": [
+    {
+      "nation": "San d'Oria",
+      "filename": "sandoria.jpg",
+      "source_page": "https://www.playonline.com/ff11us/intro/world/sandoria.html",
+      "source_url": "https://www.playonline.com/ff11us/intro/world/imgs/nm01.jpg",
+      "width": 768,
+      "height": 309,
+      "description": "Official nation-header screenshot of the San d'Oria castle and courtyard."
+    },
+    {
+      "nation": "Bastok",
+      "filename": "bastok.jpg",
+      "source_page": "https://www.playonline.com/ff11us/intro/world/bastok.html",
+      "source_url": "https://www.playonline.com/ff11us/intro/world/imgs/nm02.jpg",
+      "width": 768,
+      "height": 309,
+      "description": "Official nation-header screenshot of Bastok's industrial tower and surrounding city."
+    },
+    {
+      "nation": "Windurst",
+      "filename": "windurst.jpg",
+      "source_page": "https://www.playonline.com/ff11us/intro/world/windurst.html",
+      "source_url": "https://www.playonline.com/ff11us/intro/world/imgs/nm03.jpg",
+      "width": 768,
+      "height": 309,
+      "description": "Official nation-header screenshot of Windurst's great tree and surrounding settlement."
+    }
+  ],
+  "attribution": "FINAL FANTASY XI images \u00a9 SQUARE ENIX. Source: official PlayOnline Locations pages.",
+  "reuse": "Authentic copyrighted game imagery, not public-domain or verified open-license assets. No independent redistribution grant was verified; attribution alone is not a license. Preserve copyright and source credits."
+}

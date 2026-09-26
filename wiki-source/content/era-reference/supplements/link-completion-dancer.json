@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "source_review_date": "2026-09-26",
+  "scope": "Original concise acquisition guides completing Dancer era-75 supplement links; reviewed base data is not a confirmation of current live Zenith loot.",
+  "articles": [
+    {
+      "title": "Glowing Pebbles",
+      "category": "NPCs",
+      "intro": "Targetable quest location beside Lake Mechieume in Jugner Forest (S), at (I-5).",
+      "body_html": "<h2>Where to find it</h2><p>Use the past version of Jugner Forest. Follow the eastern shore of Lake Mechieume at (I-5), approaching from the northeast near the Batallia Downs (S) route. An unmarked fence prevents a direct approach from some directions. Cycle nearby targets: the location has a name but does not visibly glow.</p><h2>What to do</h2><ul><li><a href=\"wiki:Lakeside Minuet\">Lakeside Minuet</a>: after the San d’Oria performance and return visit to Rhea Myuliah, examine the pebbles to receive the Stardust Pebble key item. Return to Laila.</li><li><a href=\"wiki:The Road to Divadom\">The Road to Divadom</a>: after the Jugner Forest (S) entry scene, examine the pebbles on Dancer. Bring and trade one <a href=\"wiki:Yagudo Glue\">Yagudo Glue</a>, then return to Laila for the tights.</li></ul>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Lakeside_Minuet",
+        "https://ffxiclopedia.fandom.com/wiki/The_Road_to_Divadom",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/Lakeside_Minuet.lua",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF2_The_Road_to_Divadom.lua"
+      ]
+    },
+    {
+      "title": "Migratory Hippogryph",
+      "category": "Notorious Monsters",
+      "intro": "Quest-spawned Hippogryph for the Dancer artifact weapon quest.",
+      "body_html": "<h2>Spawn and reward</h2><ol><li>Start <a href=\"wiki:The Unfinished Waltz\">The Unfinished Waltz</a> as Dancer level 40 or higher and finish the opening conversations with Laila and Rhea Myuliah.</li><li>On Dancer, find the ??? among three nearby trees in Witchfire Glen, Grauberg (S), at (F-5).</li><li>Examine it for a scene, then examine it again without leaving the zone to spawn Migratory Hippogryph. Bring help if needed.</li><li>Defeat the monster and examine ??? again for The Essence of Dance key item. The item comes from the target after the battle, rather than the treasure pool.</li><li>Read the key item in your inventory, then return to Laila on Dancer for <a href=\"wiki:War Hoop\">War Hoop</a>.</li></ol>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/The_Unfinished_Waltz",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/jeuno/DNC_AF1_The_Unfinished_Waltz.lua"
+      ]
+    },
+    {
+      "title": "Imperial Silk Cloth",
+      "category": "Materials",
+      "intro": "Crafted cloth used by Matthias to make the Dancer’s Tiara.",
+      "body_html": "<h2>How to obtain</h2><p>Buy from the Auction House under Materials → Clothcraft, or craft it. The recipe produces one cloth:</p><ul><li><a href=\"wiki:Clothcraft\">Clothcraft</a> 59.</li><li><a href=\"wiki:Earth Crystal\">Earth Crystal</a>.</li><li>One <a href=\"wiki:Silk Thread\">Silk Thread</a>, one <a href=\"wiki:Gold Thread\">Gold Thread</a> and one <a href=\"wiki:Wamoura Silk\">Wamoura Silk</a>.</li></ul><h2>Dancer use</h2><p>Bring one cloth with the other listed materials to <a href=\"wiki:Matthias\">Matthias</a> in Bastok Markets (J-9) after unlocking his artifact service. See <a href=\"wiki:Dancer&#x27;s Tiara\">Dancer&#x27;s Tiara</a> for the complete commission.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Imperial_Silk_Cloth",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/synth_recipes.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/hiddenQuests/Crafted_Dancer_Artifact.lua"
+      ]
+    },
+    {
+      "title": "Dancer's Testimony",
+      "category": "Quest Items",
+      "intro": "A monster drop used to enter the Dancer level-limit battle against Laila.",
+      "body_html": "<h2>Where to farm</h2><table><thead><tr><th>Monster</th><th>Location</th><th>Level</th></tr></thead><tbody><tr><td><a href=\"wiki:Amber Quadav\">Amber Quadav</a></td><td>North Gustaberg (S)</td><td>59–63</td></tr><tr><td><a href=\"wiki:Young Quadav\">Young Quadav</a></td><td>Grauberg (S)</td><td>61–63</td></tr></tbody></table><p>Use these past-zone versions of the monsters. The testimony is a chance drop; allow inventory space and continue farming until it appears.</p><h2>How to use</h2><p>Follow <a href=\"wiki:A Furious Finale\">A Furious Finale</a>: Dancer level 66+, the previous level-limit quest and <a href=\"wiki:Comeback Queen\">Comeback Queen</a> are required. Trade the testimony to Laila in Upper Jeuno (G-7) to travel to the arena, then trade it to the Burning Circle for the battle. If your level limit is already unlocked through another job, this battle is not needed for leveling.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Dancer%27s_Testimony",
+        "https://ffxiclopedia.fandom.com/wiki/A_Furious_Finale"
+      ]
+    },
+    {
+      "title": "Filet Lace",
+      "category": "Materials",
+      "intro": "Exclusive Temenos material required for every Dancer artifact +1 upgrade.",
+      "body_html": "<h2>How to obtain</h2><p>Open Limbus item chests in Temenos. One verified farming route is the sixth-floor item chest in <a href=\"wiki:Temenos - Northern Tower\">Temenos - Northern Tower</a>. It is a possible reward, not guaranteed; opening a time or recovery chest does not substitute for the item chest. Other Temenos routes can also award this material.</p><h2>How to use</h2><p>Each Dancer AF +1 recipe requires one Filet Lace and one <a href=\"wiki:Gold Stud\">Gold Stud</a>, along with the matching base artifact piece, a crafted material and Ancient Beastcoins. Bring the complete recipe to Sagheera in Port Jeuno. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> for the quantities and trade order. The material cannot be bought on the Auction House.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Limbus/Archive/Temenos_-_Northern_Tower",
+        "https://horizonffxi.wiki/Temenos_-_Northern_Tower",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Gold Stud",
+      "category": "Materials",
+      "intro": "Exclusive Apollyon material required for every Dancer artifact +1 upgrade.",
+      "body_html": "<h2>How to obtain</h2><p>Open Limbus item chests in Apollyon. One verified source is the fifth-floor reward chest in <a href=\"wiki:NW Apollyon\">NW Apollyon</a>. Clear the route and open its item reward chest; Gold Stud is a possible drop rather than a guaranteed reward. Other Apollyon routes can also award it.</p><h2>How to use</h2><p>Every Dancer AF +1 upgrade takes one Gold Stud together with one <a href=\"wiki:Filet Lace\">Filet Lace</a>, the base artifact piece, its crafted material and Ancient Beastcoins. Follow <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> for each recipe and Sagheera’s hand-in procedure. It is an exclusive material and is not available on the Auction House.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Limbus/Archive/NW_Apollyon",
+        "https://ffxi.gamerescape.com/wiki/Gold_Stud",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Silky Suede",
+      "category": "Materials",
+      "intro": "Crafted leather used for Dancer’s Tights +1 and Dancer’s Toe Shoes +1.",
+      "body_html": "<h2>How to obtain</h2><p>Buy the material from the Auction House, or make one using a <a href=\"wiki:Wind Crystal\">Wind Crystal</a>, one <a href=\"wiki:Garnet\">Garnet</a> and one <a href=\"wiki:Buffalo Leather\">Buffalo Leather</a>. The reviewed server recipe caps at <a href=\"wiki:Leathercraft\">Leathercraft</a> 69; older item lists sometimes label it 70.</p><h2>Dancer use</h2><p>Save one for <a href=\"wiki:Dancer&#x27;s Tights +1\">Dancer&#x27;s Tights +1</a> or one for <a href=\"wiki:Dancer&#x27;s Toe Shoes +1\">Dancer&#x27;s Toe Shoes +1</a>. Each upgrade also requires the matching base artifact piece, Filet Lace, Gold Stud and the listed Ancient Beastcoins. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> before trading to Sagheera.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Leathercraft",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/synth_recipes.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    },
+    {
+      "title": "Cilice",
+      "category": "Materials",
+      "intro": "Crafted cloth needed to upgrade the Dancer relic body to Etoile Casaque +1.",
+      "body_html": "<h2>How to obtain</h2><p>Buy from the Auction House under Materials → Clothcraft, or craft one with an <a href=\"wiki:Earth Crystal\">Earth Crystal</a>, one <a href=\"wiki:Wool Thread\">Wool Thread</a> and two Dhalmel Hair. The reviewed server recipe uses <a href=\"wiki:Clothcraft\">Clothcraft</a> 85. Dhalmel Hair is a separate material; Dhalmel Hide is not a substitute.</p><h2>Dancer use</h2><p>Trade one Cilice with <a href=\"wiki:Etoile Casaque\">Etoile Casaque</a>, <a href=\"wiki:Etoile Casaque -1\">Etoile Casaque -1</a> and 30 <a href=\"wiki:Ordelle Bronzepiece\">Ordelle Bronzepiece</a> to Sagheera in Port Jeuno. Collect <a href=\"wiki:Etoile Casaque +1\">Etoile Casaque +1</a> after the next Vana’diel midnight. See <a href=\"wiki:Dancer Artifact and Relic Upgrades\">Dancer Artifact and Relic Upgrades</a> for access requirements.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Cilice",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/synth_recipes.sql",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Jeuno/npcs/Sagheera.lua"
+      ]
+    }
+  ]
+}

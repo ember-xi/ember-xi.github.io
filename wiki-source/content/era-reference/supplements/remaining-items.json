@@ -1,0 +1,300 @@
+{
+  "schema": 1,
+  "source_review_date": "2026-09-26",
+  "scope": "Original concise era-75 articles for remaining unavailable Eden titles. No post-75 acquisition methods or imported Horizon-only stat adjustments.",
+  "articles": [
+    {
+      "title": "Zoredonite",
+      "category": "Notorious Monsters",
+      "intro": "Uragnite notorious monster encountered aboard the Manaclipper.",
+      "body_html": "<h2>Find and fight</h2><ol><li>Board the <a href=\"wiki:Manaclipper\">Manaclipper</a> and watch the deck during the voyage. This NM appears naturally; it is not fished up.</li><li>It can appear on any route and attacks level-75 characters. Claim it before it disappears.</li><li>Prepare poison removal for Gas Shell and Venom Shell. It can use Invincible and cast Flash and cures.</li></ol><h2>Drops</h2><p>Possible rewards include <a href=\"wiki:Nebimonite Belt\">Nebimonite Belt</a>, <a href=\"wiki:Zoredonite Ring\">Zoredonite Ring</a>, <a href=\"wiki:Healing Mace\">Healing Mace</a>, <a href=\"wiki:Kosshin\">Kosshin</a>, <a href=\"wiki:Seashell\">Seashell</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zoredonite"
+      ]
+    },
+    {
+      "title": "Zikko",
+      "category": "Notorious Monsters",
+      "intro": "Level-80 imp notorious monster in Caedarva Mire.",
+      "body_html": "<h2>Find and fight</h2><p>Search the marsh pools between <a href=\"wiki:Alzadaal Undersea Ruins\">Alzadaal Undersea Ruins</a> and <a href=\"wiki:Dvucca Isle Staging Point\">Dvucca Isle Staging Point</a> in <a href=\"wiki:Caedarva Mire\">Caedarva Mire</a>. It may appear when a player crossing the marsh receives Weight; it is not a normal placeholder camp. The reported respawn delay is about two hours.</p><p>Prepare for damaging area Silence and Amnesia attacks, shadow removal, Manafont and Sleepga II.</p><h2>Drops</h2><p><a href=\"wiki:Templar Hammer\">Templar Hammer</a> and <a href=\"wiki:Immortal&#x27;s Sash\">Immortal&#x27;s Sash</a> are possible drops.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zikko"
+      ]
+    },
+    {
+      "title": "Zinc Ore",
+      "category": "Items",
+      "intro": "Crafting ore also required by several early quests.",
+      "body_html": "<h2>How to obtain</h2><p>Farm <a href=\"wiki:Tunnel Worm\">Tunnel Worm</a> or <a href=\"wiki:Stone Eater\">Stone Eater</a> in the Gustaberg areas. Other options include mining in <a href=\"wiki:Zeruhn Mines\">Zeruhn Mines</a>, <a href=\"wiki:Palborough Mines\">Palborough Mines</a> and <a href=\"wiki:Gusgen Mines\">Gusgen Mines</a>, or buying from the Auction House under Materials \u2192 Goldsmithing. <a href=\"wiki:Teerth\">Teerth</a> in Bastok Markets also stocks it when available.</p><h2>Uses</h2><p>Used for <a href=\"wiki:Brass Ingot\">Brass Ingot</a>, <a href=\"wiki:Paktong Ingot\">Paktong Ingot</a> and <a href=\"wiki:Zinc Oxide\">Zinc Oxide</a>. Quest uses include <a href=\"wiki:Shady Business\">Shady Business</a>, <a href=\"wiki:Beauty and the Galka\">Beauty and the Galka</a> and <a href=\"wiki:The Medicine Woman\">The Medicine Woman</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zinc_Ore"
+      ]
+    },
+    {
+      "title": "Zircon",
+      "category": "Items",
+      "intro": "Gemstone used in Goldsmithing earrings and rings.",
+      "body_html": "<h2>How to obtain</h2><p>Goldsmithing 20: use a Wind Crystal with one <a href=\"wiki:Translucent Rock\">Translucent Rock</a>. Zircon is the HQ2 result, so the ordinary result is not Zircon. Other sources include <a href=\"wiki:Clockwork Pod\">Clockwork Pod</a> in <a href=\"wiki:Fei&#x27;Yin\">Fei&#x27;Yin</a>, <a href=\"wiki:Skull of Sloth\">Skull of Sloth</a> in <a href=\"wiki:The Eldieme Necropolis\">The Eldieme Necropolis</a>, and treasure coffers in <a href=\"wiki:Quicksand Caves\">Quicksand Caves</a>.</p><h2>Uses and purchase</h2><p>Used to craft <a href=\"wiki:Zircon Earring\">Zircon Earring</a> and <a href=\"wiki:Zircon Ring\">Zircon Ring</a>. Buy under Auction House \u2192 Materials \u2192 Goldsmithing, or check the Goldsmiths\u2019 Guild stock in Bastok Markets.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zircon"
+      ]
+    },
+    {
+      "title": "Zoredonite Ring",
+      "category": "Items",
+      "intro": "Level-56 ring for all jobs: MP +20 and INT +1.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Ride the <a href=\"wiki:Manaclipper\">Manaclipper</a>.</li><li>Defeat <a href=\"wiki:Zoredonite\">Zoredonite</a> when it appears on deck. The ring is a possible drop.</li></ol><h2>Trading</h2><p>Rare/Exclusive: obtain your own drop; it cannot be purchased on the Auction House.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zoredonite_Ring"
+      ]
+    },
+    {
+      "title": "Zoolater Hat",
+      "category": "Items",
+      "intro": "Level-73 Beastmaster head armor: DEF 19; enchanted pet Meditate.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Go to <a href=\"wiki:Attohwa Chasm\">Attohwa Chasm</a>.</li><li>Defeat the notorious monster <a href=\"wiki:Xolotl\">Xolotl</a> for a chance at the hat.</li></ol><h2>Use</h2><p>The enchantment grants Meditate to your pet. The hat has 50 charges and a 30-minute reuse timer. It cannot be bought through the Auction House.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zoolater_Hat"
+      ]
+    },
+    {
+      "title": "Zephyr Mantle",
+      "category": "Magic",
+      "intro": "Level-65 Blue Magic that creates four Blink-like shadows on the caster.",
+      "body_html": "<h2>Learn it</h2><ol><li>Fight <a href=\"wiki:Puk\">Puk</a> in <a href=\"wiki:Wajaom Woodlands\">Wajaom Woodlands</a> or <a href=\"wiki:Mamook\">Mamook</a>, or <a href=\"wiki:Sea Puk\">Sea Puk</a> in Mamook or <a href=\"wiki:Bhaflau Thickets\">Bhaflau Thickets</a>.</li><li>Let the monster use Zephyr Mantle, then defeat it while eligible to learn Blue Magic. Learning is not guaranteed.</li></ol><h2>Spell details</h2><p>31 MP; 2 Blue Magic set points; AGI +2 when set. Casting time: 7 seconds. Recast: 60 seconds. Maximum duration: 5 minutes. Pair with a suitable spell such as <a href=\"wiki:Chaotic Eye\">Chaotic Eye</a> for Conserve MP. These are Blink-style shadows, not guaranteed Utsusemi absorption.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zephyr_Mantle"
+      ]
+    },
+    {
+      "title": "Zushio",
+      "category": "Items",
+      "intro": "Level-40 Ninja katana: original-era DMG 23, delay 238 and STR +2.",
+      "body_html": "<h2>How to obtain</h2><p>Complete <a href=\"wiki:20 in Pirate Years\">20 in Pirate Years</a>, the first Ninja artifact quest. The quest also awards <a href=\"wiki:Anju\">Anju</a>. Open the quest for its prerequisite, NPC and fight route.</p><h2>Equipment</h2><p>Rare/Exclusive quest weapon. The Horizon-specific increase to DMG 25 is not assumed for Zenith.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zushio"
+      ]
+    },
+    {
+      "title": "Zvahl Coffer Key",
+      "category": "Items",
+      "intro": "Opens a treasure coffer in Castle Zvahl Baileys.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Abyssal Demon\">Abyssal Demon</a>, <a href=\"wiki:Arch Demon\">Arch Demon</a>, <a href=\"wiki:Blood Demon\">Blood Demon</a>, <a href=\"wiki:Doom Demon\">Doom Demon</a>, <a href=\"wiki:Ahriman\">Ahriman</a> in <a href=\"wiki:Castle Zvahl Baileys\">Castle Zvahl Baileys</a>. These are the higher-level demon and eye enemies, not the low-level chest-key targets.</p><h2>Use</h2><p>Trade the key to a Treasure Coffer. Rewards depend on active quests and job conditions. Uses include <a href=\"wiki:Fighter&#x27;s Cuisses\">Fighter&#x27;s Cuisses</a>, <a href=\"wiki:Rogue&#x27;s Vest\">Rogue&#x27;s Vest</a>, <a href=\"wiki:Borghertz&#x27;s Harmonious Hands\">Borghertz&#x27;s Harmonious Hands</a> and <a href=\"wiki:Under Oath\">Under Oath</a>. Activate the relevant artifact quest and follow its instructions before opening the coffer.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zvahl_Coffer_Key"
+      ]
+    },
+    {
+      "title": "Zephyr Thread",
+      "category": "Items",
+      "intro": "Clothcraft tool consumed by bulk fletching recipes.",
+      "body_html": "<h2>How to obtain</h2><p>Buy from <a href=\"wiki:Meriri\">Meriri</a> at the Weavers\u2019 Guild in <a href=\"wiki:Windurst Woods\">Windurst Woods</a> or <a href=\"wiki:Taten-Bilten\">Taten-Bilten</a> in <a href=\"wiki:Al Zahbi\">Al Zahbi</a>. Also listed under Auction House \u2192 Materials \u2192 Clothcraft.</p><h2>Use</h2><p>Used with the <a href=\"wiki:Fletching\">Fletching</a> guild ability to make batches of fletchings. Choose the recipe for your feather type, such as <a href=\"wiki:Bird Fletchings\">Bird Fletchings</a>, <a href=\"wiki:Yagudo Fletchings\">Yagudo Fletchings</a> or <a href=\"wiki:Puk Fletchings\">Puk Fletchings</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zephyr_Thread"
+      ]
+    },
+    {
+      "title": "Zunari Kabuto",
+      "category": "Items",
+      "intro": "Level-44 Samurai head armor with DEF 15.",
+      "body_html": "<h2>How to obtain</h2><p>Craft with Smithing 69 and Clothcraft 34: Fire Crystal + 2 Iron Sheets + 1 Copper Ingot + 1 Silk Thread + 1 Silk Cloth. The high-quality result is <a href=\"wiki:Zunari Kabuto +1\">Zunari Kabuto +1</a>.</p><h2>Uses</h2><p>Buy under Auction House \u2192 Armor \u2192 Head. The ordinary kabuto is also an ingredient for <a href=\"wiki:Cursed Kabuto\">Cursed Kabuto</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zunari_Kabuto"
+      ]
+    },
+    {
+      "title": "Zeruhn Soot",
+      "category": "Items",
+      "intro": "Quest material dropped by the original low-level monsters in Zeruhn Mines.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Ding Bats\">Ding Bats</a>, <a href=\"wiki:Tunnel Worm\">Tunnel Worm</a>, <a href=\"wiki:Mouse Bat\">Mouse Bat</a>, <a href=\"wiki:River Crab\">River Crab</a>, <a href=\"wiki:Leech\">Leech</a> in <a href=\"wiki:Zeruhn Mines\">Zeruhn Mines</a>. It is also tradable through Auction House \u2192 Others \u2192 Miscellaneous.</p><h2>Quest use</h2><p>Collect soot for <a href=\"wiki:Minesweeper\">Minesweeper</a>. Open that quest for the NPC, required amount and reward.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zeruhn_Soot"
+      ]
+    },
+    {
+      "title": "Zincite",
+      "category": "Items",
+      "intro": "Mineral used to make Moblin Putty.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Glacier Eater\">Glacier Eater</a> or the notorious monster <a href=\"wiki:Mountain Worm\">Mountain Worm</a> in <a href=\"wiki:Uleguerand Range\">Uleguerand Range</a>. Also sold by players under Auction House \u2192 Materials \u2192 Alchemy.</p><h2>Use</h2><p>Ingredient for <a href=\"wiki:Moblin Putty\">Moblin Putty</a> (Alchemy 33). It does not stack.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zincite"
+      ]
+    },
+    {
+      "title": "Ziz Meat",
+      "category": "Items",
+      "intro": "Cooking ingredient obtained from Ziz in Mamook.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Ziz\">Ziz</a> or <a href=\"wiki:Zizzy Zillah\">Zizzy Zillah</a> in <a href=\"wiki:Mamook\">Mamook</a>. It can also be purchased from players under Auction House \u2192 Food \u2192 Ingredients.</p><h2>Uses</h2><p>Original recipes include <a href=\"wiki:Zoni\">Zoni</a>, <a href=\"wiki:Meat Mithkabob\">Meat Mithkabob</a>, <a href=\"wiki:Pet Food Epsilon Biscuit\">Pet Food Epsilon Biscuit</a> and <a href=\"wiki:Ic Pilav\">Ic Pilav</a>. Check each recipe for the crystal and remaining ingredients.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Ziz_Meat"
+      ]
+    },
+    {
+      "title": "Zvahl Chest Key",
+      "category": "Items",
+      "intro": "Opens a treasure chest in Castle Zvahl; it is different from the coffer key.",
+      "body_html": "<h2>How to obtain</h2><p>Fight <a href=\"wiki:Demon Pawn\">Demon Pawn</a>, <a href=\"wiki:Demon Knight\">Demon Knight</a>, <a href=\"wiki:Demon Wizard\">Demon Wizard</a> or <a href=\"wiki:Demon Warlock\">Demon Warlock</a> in <a href=\"wiki:Castle Zvahl Baileys\">Castle Zvahl Baileys</a> or <a href=\"wiki:Castle Zvahl Keep\">Castle Zvahl Keep</a>. Several other beastmen in the Keep also drop it.</p><h2>Use</h2><p>Trade to a Treasure Chest for treasure. With <a href=\"wiki:A Test of True Love\">A Test of True Love</a> active, the quest reward can take priority. For artifact coffers, obtain <a href=\"wiki:Zvahl Coffer Key\">Zvahl Coffer Key</a> instead.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zvahl_Chest_Key"
+      ]
+    },
+    {
+      "title": "Zoraal Ja's Axe",
+      "category": "Items",
+      "intro": "Level-74 axe for WAR, DRK, BST and RNG: DMG 46, delay 276; Reward healing +10%.",
+      "body_html": "<h2>How to obtain</h2><p>Defeat <a href=\"wiki:Zoraal Ja&#x27;s Pkuucha\">Zoraal Ja&#x27;s Pkuucha</a> in <a href=\"wiki:Wajaom Woodlands\">Wajaom Woodlands</a> for a chance at this axe. It can also be bought under Auction House \u2192 Weapons \u2192 Axes.</p><h2>Use</h2><p>Equip it when using <a href=\"wiki:Reward\">Reward</a> to improve the HP restored to your pet.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zoraal_Ja%27s_Axe"
+      ]
+    },
+    {
+      "title": "Zeta Sash",
+      "category": "Items",
+      "intro": "Level-75 waist equipment: DEF 6, Attack +10; an additional critical-hit bonus while in Salvage.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Reach Second Lieutenant Assault rank.</li><li>Complete <a href=\"wiki:Wake the Puppet\">Wake the Puppet</a> in the <a href=\"wiki:Periqia\">Periqia</a> Assault area.</li><li>Obtain and appraise the <a href=\"wiki:??? Sash\">??? Sash</a> reward for a chance at Zeta Sash.</li></ol><h2>Jobs</h2><p>WAR, RDM, THF, PLD, DRK, BST, BRD, RNG, SAM, NIN, DRG, BLU, COR and DNC. Rare/Exclusive; cannot be bought at the Auction House.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zeta_Sash"
+      ]
+    },
+    {
+      "title": "Zinc Oxide",
+      "category": "Items",
+      "intro": "Goldsmithing product used in Sieglinde Putty.",
+      "body_html": "<h2>Craft it</h2><p>Goldsmithing 1: Fire Crystal + 3 <a href=\"wiki:Zinc Ore\">Zinc Ore</a> \u2192 1 Zinc Oxide.</p><h2>Uses and purchase</h2><p>Ingredient for <a href=\"wiki:Sieglinde Putty\">Sieglinde Putty</a> (Alchemy 30). Buy the finished powder under Auction House \u2192 Materials \u2192 Alchemy.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zinc_Oxide"
+      ]
+    },
+    {
+      "title": "Zircon Earring",
+      "category": "Items",
+      "intro": "Level-49 earring for all jobs: Ice resistance +6 and Wind resistance +6.",
+      "body_html": "<h2>Craft it</h2><p>Goldsmithing 65: Earth Crystal + 1 <a href=\"wiki:Gold Earring\">Gold Earring</a> + 1 <a href=\"wiki:Zircon\">Zircon</a>. The standard result is Zircon Earring; high-quality outcomes are <a href=\"wiki:Genius Earring\">Genius Earring</a> or <a href=\"wiki:Genius Earring +1\">Genius Earring +1</a>.</p><h2>Purchase</h2><p>Auction House \u2192 Armor \u2192 Earrings. A second recipe uses Gold Earring +1 at Goldsmithing 70.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zircon_Earring"
+      ]
+    },
+    {
+      "title": "Ziska's Crossbow",
+      "category": "Items",
+      "intro": "Level-71 crossbow for THF and RNG: DMG 28, delay 216, Ranged Accuracy +8.",
+      "body_html": "<h2>How to obtain</h2><p>Possible reward from <a href=\"wiki:Cactuar Suave\">Cactuar Suave</a> or <a href=\"wiki:Eye of the Storm\">Eye of the Storm</a> in <a href=\"wiki:Chamber of Oracles\">Chamber of Oracles</a>. Open the battlefield page for the required orb and enemy strategy.</p><h2>Purchase</h2><p>Tradable through Auction House \u2192 Weapons \u2192 Ranged.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Ziska%27s_Crossbow"
+      ]
+    },
+    {
+      "title": "Zenith Crown",
+      "category": "Items",
+      "intro": "Level-73 head equipment for WHM, BLM, RDM, BRD and SMN. DEF 30, INT +3, MND +3; enhanced Resist Silence; converts 50 HP to MP.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Obtain <a href=\"wiki:Aquarian Abjuration: Head\">Aquarian Abjuration: Head</a>; original sources include <a href=\"wiki:Byakko\">Byakko</a>.</li><li>Obtain <a href=\"wiki:Cursed Crown\">Cursed Crown</a> through crafting or the Auction House.</li><li>Trade the abjuration and cursed item together to <a href=\"wiki:Alphollon C Meriard\">Alphollon C Meriard</a> inside the cathedral in <a href=\"wiki:Northern San d&#x27;Oria\">Northern San d&#x27;Oria</a>.</li></ol><h2>Result</h2><p>The uncursed armor is Rare/Exclusive. Use the linked cursed-item page for its crafting recipe.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zenith_Crown"
+      ]
+    },
+    {
+      "title": "Zenith Crown +1",
+      "category": "Items",
+      "intro": "Level-73 head equipment for WHM, BLM, RDM, BRD and SMN. DEF 31, INT +4, MND +4; enhanced Resist Silence; converts 55 HP to MP.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Obtain <a href=\"wiki:Aquarian Abjuration: Head\">Aquarian Abjuration: Head</a>; original sources include <a href=\"wiki:Byakko\">Byakko</a>.</li><li>Obtain <a href=\"wiki:Cursed Crown -1\">Cursed Crown -1</a> through crafting or the Auction House.</li><li>Trade the abjuration and cursed item together to <a href=\"wiki:Alphollon C Meriard\">Alphollon C Meriard</a> inside the cathedral in <a href=\"wiki:Northern San d&#x27;Oria\">Northern San d&#x27;Oria</a>.</li></ol><h2>Result</h2><p>The uncursed armor is Rare/Exclusive. The high-quality result requires the -1 cursed item; an ordinary cursed item produces the ordinary armor.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zenith_Crown_%2B1"
+      ]
+    },
+    {
+      "title": "Zenith Mitts",
+      "category": "Items",
+      "intro": "Level-73 hands equipment for WHM, BLM, RDM, BRD and SMN. DEF 23, Magic Attack Bonus +5; converts 50 HP to MP.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Obtain <a href=\"wiki:Aquarian Abjuration: Hands\">Aquarian Abjuration: Hands</a>; original sources include <a href=\"wiki:Genbu\">Genbu</a> or <a href=\"wiki:Fafnir\">Fafnir</a>.</li><li>Obtain <a href=\"wiki:Cursed Mitts\">Cursed Mitts</a> through crafting or the Auction House.</li><li>Trade the abjuration and cursed item together to <a href=\"wiki:Alphollon C Meriard\">Alphollon C Meriard</a> inside the cathedral in <a href=\"wiki:Northern San d&#x27;Oria\">Northern San d&#x27;Oria</a>.</li></ol><h2>Result</h2><p>The uncursed armor is Rare/Exclusive. Use the linked cursed-item page for its crafting recipe.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zenith_Mitts"
+      ]
+    },
+    {
+      "title": "Zenith Slacks",
+      "category": "Items",
+      "intro": "Level-73 legs equipment for WHM, BLM, RDM, BRD and SMN. DEF 40, MND +4, CHR +4, Evasion -3; converts 50 HP to MP.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Obtain <a href=\"wiki:Aquarian Abjuration: Legs\">Aquarian Abjuration: Legs</a>; original sources include <a href=\"wiki:Seiryu\">Seiryu</a> or <a href=\"wiki:Suzaku\">Suzaku</a>.</li><li>Obtain <a href=\"wiki:Cursed Slacks\">Cursed Slacks</a> through crafting or the Auction House.</li><li>Trade the abjuration and cursed item together to <a href=\"wiki:Alphollon C Meriard\">Alphollon C Meriard</a> inside the cathedral in <a href=\"wiki:Northern San d&#x27;Oria\">Northern San d&#x27;Oria</a>.</li></ol><h2>Result</h2><p>The uncursed armor is Rare/Exclusive. Use the linked cursed-item page for its crafting recipe.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zenith_Slacks"
+      ]
+    },
+    {
+      "title": "Zenith Pumps",
+      "category": "Items",
+      "intro": "Level-73 feet equipment for WHM, BLM, RDM, BRD and SMN. DEF 20, INT +2, CHR +2; converts 50 HP to MP.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Obtain <a href=\"wiki:Aquarian Abjuration: Feet\">Aquarian Abjuration: Feet</a>; original sources include <a href=\"wiki:King Behemoth\">King Behemoth</a> or <a href=\"wiki:Fafnir\">Fafnir</a>.</li><li>Obtain <a href=\"wiki:Cursed Pumps\">Cursed Pumps</a> through crafting or the Auction House.</li><li>Trade the abjuration and cursed item together to <a href=\"wiki:Alphollon C Meriard\">Alphollon C Meriard</a> inside the cathedral in <a href=\"wiki:Northern San d&#x27;Oria\">Northern San d&#x27;Oria</a>.</li></ol><h2>Result</h2><p>The uncursed armor is Rare/Exclusive. Use the linked cursed-item page for its crafting recipe.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zenith_Pumps"
+      ]
+    },
+    {
+      "title": "Zunari Kabuto +1",
+      "category": "Items",
+      "intro": "High-quality level-44 Samurai head armor with DEF 16.",
+      "body_html": "<h2>How to obtain</h2><p>High-quality result of the <a href=\"wiki:Zunari Kabuto\">Zunari Kabuto</a> recipe: Smithing 69 and Clothcraft 34; Fire Crystal + 2 Iron Sheets + 1 Copper Ingot + 1 Silk Thread + 1 Silk Cloth.</p><h2>Purchase</h2><p>Auction House \u2192 Armor \u2192 Head. The item\u2019s displayed name is Zunari Kabuto +1.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zunari_Kabuto_%2B1"
+      ]
+    },
+    {
+      "title": "Zunari Kabuto Plus 1",
+      "category": "Items",
+      "intro": "High-quality level-44 Samurai head armor with DEF 16.",
+      "body_html": "<h2>How to obtain</h2><p>High-quality result of the <a href=\"wiki:Zunari Kabuto\">Zunari Kabuto</a> recipe: Smithing 69 and Clothcraft 34; Fire Crystal + 2 Iron Sheets + 1 Copper Ingot + 1 Silk Thread + 1 Silk Cloth.</p><h2>Purchase</h2><p>Auction House \u2192 Armor \u2192 Head. The item\u2019s displayed name is Zunari Kabuto +1.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zunari_Kabuto_%2B1"
+      ]
+    },
+    {
+      "title": "Zhayolm Fireflies",
+      "category": "Items",
+      "intro": "Temporary escape item supplied inside Zhayolm Remnants.",
+      "body_html": "<h2>How to obtain and use</h2><ol><li>Enter <a href=\"wiki:Zhayolm Remnants\">Zhayolm Remnants</a> for <a href=\"wiki:Salvage\">Salvage</a>. Each participant receives the temporary fireflies on entry.</li><li>Use them when ready to leave the area. They return you to the Zhayolm entrance section of <a href=\"wiki:Alzadaal Undersea Ruins\">Alzadaal Undersea Ruins</a>.</li></ol><h2>Before entering</h2><p>The original event requires level 65+, the relevant Treasures of Aht Urhgan story progress, and a <a href=\"wiki:Remnants Permit\">Remnants Permit</a>. See <a href=\"wiki:Salvage\">Salvage</a> for entry and equipment-restriction details.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zhayolm_Remnants"
+      ]
+    },
+    {
+      "title": "Zephyr Fan",
+      "category": "Key Items",
+      "intro": "Key item used to enter the original Bearclaw Pinnacle ENMs.",
+      "body_html": "<h2>How to obtain</h2><ol><li>Speak with <a href=\"wiki:Zebada\">Zebada</a> near the entrance of <a href=\"wiki:Uleguerand Range\">Uleguerand Range</a> to receive a <a href=\"wiki:Cotton Pouch\">Cotton Pouch</a>.</li><li>Climb the mountain, descend the western slope and land on the southern ledge near its base. Enter the cave.</li><li>Trade the pouch to <a href=\"wiki:Chamnaet Spring\">Chamnaet Spring</a> for <a href=\"wiki:Chamnaet Ice\">Chamnaet Ice</a>.</li><li>Return the ice to Zebada to receive the fan.</li></ol><h2>Use</h2><p>Choose the route for <a href=\"wiki:Brothers\">Brothers</a>, <a href=\"wiki:Follow the White Rabbit\">Follow the White Rabbit</a>, <a href=\"wiki:Holy Cow\">Holy Cow</a>, <a href=\"wiki:When Hell Freezes Over\">When Hell Freezes Over</a>. Each battlefield page identifies its entrance; the entrances are not interchangeable.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Brothers"
+      ]
+    },
+    {
+      "title": "Zoni",
+      "category": "Items",
+      "intro": "Cooking soup with several small combat and recovery bonuses.",
+      "body_html": "<h2>Craft or buy</h2><p>Cooking 27: Fire Crystal + one each of <a href=\"wiki:Rock Salt\">Rock Salt</a>, <a href=\"wiki:Sticky Rice\">Sticky Rice</a>, <a href=\"wiki:Tokopekko Wildgrass\">Tokopekko Wildgrass</a>, <a href=\"wiki:San d&#x27;Orian Carrot\">San d&#x27;Orian Carrot</a>, <a href=\"wiki:Tiger Cod\">Tiger Cod</a>, <a href=\"wiki:Distilled Water\">Distilled Water</a>, <a href=\"wiki:Lakerda\">Lakerda</a>, <a href=\"wiki:Ziz Meat\">Ziz Meat</a>. Zoni is the ordinary result; <a href=\"wiki:Zesty Zoni\">Zesty Zoni</a> is the high-quality result. Buy under Auction House \u2192 Food \u2192 Meals \u2192 Soups.</p><h2>Food effect</h2><p>3 hours: HP +10, MP +10; STR, DEX, VIT and AGI +1; Accuracy, Ranged Accuracy, Attack, Ranged Attack and Evasion +1; resting HP and MP recovery +1.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zoni",
+        "https://horizonffxi.wiki/DAT_Comparison/items"
+      ]
+    },
+    {
+      "title": "Zesty Zoni",
+      "category": "Items",
+      "intro": "High-quality Cooking soup with several small combat and recovery bonuses.",
+      "body_html": "<h2>Craft or buy</h2><p>Cooking 27: Fire Crystal + one each of <a href=\"wiki:Rock Salt\">Rock Salt</a>, <a href=\"wiki:Sticky Rice\">Sticky Rice</a>, <a href=\"wiki:Tokopekko Wildgrass\">Tokopekko Wildgrass</a>, <a href=\"wiki:San d&#x27;Orian Carrot\">San d&#x27;Orian Carrot</a>, <a href=\"wiki:Tiger Cod\">Tiger Cod</a>, <a href=\"wiki:Distilled Water\">Distilled Water</a>, <a href=\"wiki:Lakerda\">Lakerda</a>, <a href=\"wiki:Ziz Meat\">Ziz Meat</a>. Zesty Zoni is the high-quality result of the <a href=\"wiki:Zoni\">Zoni</a> recipe, not a separate guaranteed synthesis. Buy under Auction House \u2192 Food \u2192 Meals \u2192 Soups.</p><h2>Food effect</h2><p>4 hours: HP +12, MP +12; STR, DEX, VIT and AGI +2; Accuracy, Ranged Accuracy, Attack, Ranged Attack and Evasion +2; resting HP and MP recovery +1.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zoni",
+        "https://horizonffxi.wiki/DAT_Comparison/items"
+      ]
+    },
+    {
+      "title": "Zhayolm Card",
+      "category": "Items",
+      "intro": "Salvage drop used to spawn Don Poroggo in a different Remnants area.",
+      "body_html": "<h2>Obtain it</h2><p>Defeat archaic machinery in the original <a href=\"wiki:Zhayolm Remnants\">Zhayolm Remnants</a>. Confirmed sources include <a href=\"wiki:First Rampart\">First Rampart</a>, <a href=\"wiki:Second Rampart\">Second Rampart</a> and <a href=\"wiki:Fourth Rampart\">Fourth Rampart</a>.</p><h2>Use it</h2><ol><li>Take the card into the original <a href=\"wiki:Silver Sea Remnants\">Silver Sea Remnants</a>. Choose a northern second-floor teleporter to reach the north section of floor three.</li><li>Defeat the <a href=\"wiki:Devilet\">Devilet</a> there to reveal the Slot.</li><li>Trade the Zhayolm Card to the Slot to spawn <a href=\"wiki:Don Poroggo\">Don Poroggo</a>.</li><li>Defeat it for the level-15 Salvage body components <a href=\"wiki:Enyo&#x27;s Breastplate\">Enyo&#x27;s Breastplate</a> and <a href=\"wiki:Nemain&#x27;s Robe\">Nemain&#x27;s Robe</a>.</li></ol>",
+      "source_urls": [
+        "https://www.ffxidb.com/zones/73/first-rampart",
+        "https://classicffxi.fandom.com/wiki/Silver_Sea_Remnants",
+        "https://horizonffxi.wiki/Category:Salvage",
+        "https://pegasusxi.com/wiki/Silver_Sea_Remnants"
+      ]
+    }
+  ]
+}

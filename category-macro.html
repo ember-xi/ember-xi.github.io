@@ -1,0 +1,318 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Macro - Zenith XI Wiki</title><meta name="description" content=""><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/wiki.css?v=42"><script defer src="assets/sidebar.js?v=42"></script><script defer src="assets/search-index.js?v=42"></script><script defer src="assets/wiki.js?v=42"></script><link rel="stylesheet" href="assets/shared-styles.css?v=42"></head><body data-page="category-macro"><a class="skip" href="#content">Skip to content</a><header class="topbar" id="shared-topbar"></header><div class="layout"><aside class="sidebar" id="shared-sidebar"><nav aria-label="Wiki navigation"><a href="index.html">Main Page</a><a href="jobs.html">Jobs</a><a href="all-pages.html">All Pages</a></nav></aside><main id="content"><div class="page-tabs"><span class="selected">Categories</span><a href="all-pages.html">Article index</a><button class="print-link" type="button" data-print>Print</button></div><article class="article"><div class="breadcrumb"><a href="era-reference.html">Level 75 Reference</a> <span>›</span> Macro</div><h1>Macro</h1><div class="wiki-byline">From Zenith XI Wiki</div><div class="article-overview"><nav class="toc" aria-label="Article contents"><strong>Contents</strong><ol><li><a href="#era-Backing_up_Macros">Backing up Macros</a></li><li><a href="#era-Available_commands">Available commands</a></li><li><a href="#era-Selecting_a_Target_(Pronouns)">Selecting a Target (Pronouns)</a></li><li><a href="#era-Syntax">Syntax</a></li><li><a href="#era-Other_Placeholders">Other Placeholders</a></li><li><a href="#era-Macro_Guides">Macro Guides</a></li></ol></nav></div><div class="article-body"><p><span class="reference-edition">Level 75 reference · <a href="server-rules.html">Zenith rules</a></span></p><div class="era-reference"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="table-wrap era-table"><table cellspacing="0" cellpadding="0" data-ws="113">
+<tbody><tr>
+<td><div data-ws="114"></div>
+</td></tr></tbody></table>
+</div><p>A <b>Macro</b> is a shortcut to execute a sequence of one to six commands, each of which can be used to activate a <a href="category-job-abilities.html" class="new" title="Category:Job Abilities (page does not exist)">Job Ability</a>, start casting a spell, issue a pet command, change an item of equipment, put text to a chat channel, or perform some other action.  
+</p><p>The execution is sequential, and can be interrupted by activating another macro during /wait commands, or by pressing the "Escape" key or the cancel button on a controller/gamepad during select target (for example, &lt;st&gt; or others) commands. A macro interrupted during its execution will not complete the command on which the interruption occurred, nor execute the remaining commands in the sequence.
+</p><p>Users are given 20 Books with 10 macro palettes each.  Each palette consists of 2 rows of 10 macros each.  Every <a href="content-id.html" title="Content ID">Content ID</a> (character) has its own, unique set of macro palettes, which are not shared with other characters on the same account. Macros are stored on the game client, not the Eden server; thus users playing with the same account on multiple clients (for example, another PC or laptop) will not have access to the macros written on another machine. To transfer Macros to a different client, the user must manually back them up and copy them into the correct location.
+<br>
+</p>
+<h2 id="era-Backing_up_Macros">Backing up Macros</h2>
+<p>PC client users can back up macro files while not logged on to the character. The location for files containing the macros for PC clients can typically be found at:
+Program Files\PlayOnline\SquareEnix\FINAL FANTASY XI\USER\{ID}\
+</p><p>All the contents of the USER folder can be copied or you may select the {ID} if only in need of a specific ID. This should then be pasted into the same location on the new client. Remember to also backup the USER folder on the new client if you already have {ID}'s saved there.
+<br>
+</p>
+<h2 id="era-Available_commands">Available commands</h2>
+<dl><dd><i>See <a href="category-commands.html" class="mw-redirect" title="Commands">Commands</a> for a complete list of commands that can be used.</i></dd></dl>
+<p>Each macro starts with a command to determine what type of command you will issue. The most common are:
+</p>
+<dl><dd><div class="table-wrap era-table"><table cellpadding="2" cellspacing="2">
+<tbody><tr>
+<th data-ws="7" width="25%">Command
+</th>
+<th data-ws="7" width="75%">Definition
+</th></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-jobability.html" title="Command/jobability">/ja</a></b>
+</td>
+<td><a href="category-job-abilities.html" class="new" title="Category:Job Abilities (page does not exist)">Job Ability</a>
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-magic.html" title="Command/magic">/magic or /ma</a></b>
+</td>
+<td><a href="category-magic.html" class="new" title="Category:Magic (page does not exist)">Magic</a>, <a href="category-songs.html" title="Category:Songs">Songs</a>, or <a href="category-ninjutsu.html" title="Category:Ninjutsu">Ninjutsu</a>
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-weaponskill.html" title="Command/weaponskill">/ws</a></b>
+</td>
+<td><a href="category-weapon-skills.html" title="Category:Weapon Skills">Weapon Skill</a>
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-range.html" title="Command/range">/ra</a></b>
+</td>
+<td>Performs a ranged attack on specified target.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-equip.html" title="Command/equip">/equip</a></b>
+</td>
+<td>Equip an item.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-recast.html" title="Command/recast">/recast</a></b>
+</td>
+<td>Displays recast time for Abilities or Spells.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-item.html" title="Command/item">/item</a></b>
+</td>
+<td>Allows you to use item in inventory, or trade a single item to an NPC.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-partycmd.html" title="Command/partycmd">/pcmd</a></b>
+</td>
+<td>Party command
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-pet.html" title="Command/pet">/pet</a></b>
+</td>
+<td>Pet commands
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-party.html" title="Command/party">/p</a></b>
+</td>
+<td><a href="party.html" title="Party">Party</a> Chat
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-linkshell.html" title="Command/linkshell">/l</a></b>
+</td>
+<td><a href="linkshell.html" title="Linkshell">Linkshell</a> Chat
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-lockon.html" title="Command/lockon">/lockon</a></b>
+</td>
+<td>Locks player's view and direction to current selected target.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-check.html" title="Command/check">/check</a></b>
+</td>
+<td>Examines Player or Gauges the monster
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-target.html" title="Command/target">/target</a></b>
+</td>
+<td>Moves active pointer to target specified by targeting pronoun.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-targetnpc.html" title="Command/targetnpc">/targetnpc</a></b>
+</td>
+<td>Targets closest NPC or monster (including player pets if /ignorepet command is not active).
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-echo.html" title="Command/echo">/echo</a></b>
+</td>
+<td>Displays text viewable only by the Macro user.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-wait.html" title="Command/wait">/wait</a> #</b>
+</td>
+<td>Used in between other commands in macros to set a delay before moving onto the next line (where # = number of seconds desired).
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-wait.html" title="Command/wait">&lt;wait&gt;</a></b>
+</td>
+<td>Used on same line at the end of other commands in macros to set a delay before moving onto the next line.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="https://edenxi.miraheze.org/wiki/Command/seacom" class="new" title="Command/seacom (page does not exist)">/seacom</a></b>
+</td>
+<td>Allows users to create search comment macros.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="https://edenxi.miraheze.org/wiki/Command/seacomup" class="new" title="Command/seacomup (page does not exist)">/seacomup</a></b>
+</td>
+<td>Allows user to set the category that a /seacom macro is inserted into.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b><a href="command-macro.html" class="new" title="Command/macro (page does not exist)">/macro</a> set #</b><br><b><a href="command-macro.html" class="new" title="Command/macro (page does not exist)">/macro</a> book #</b>
+</td>
+<td>Change to "#" macro line<br>Change to macro book "#"
+</td></tr></tbody></table></div></dd></dl>
+<h2 id="era-Selecting_a_Target_(Pronouns)"><span id="era-Selecting_a_Target_.28Pronouns.29"></span>Selecting a Target (Pronouns)</h2>
+<p>Several commands require you to specify a target as a parameter to your action (such as /lockon, /target, /magic, and /range), you can use the following placeholders to select targets:
+</p><p><a href="https://edenxi.miraheze.org/wiki/Macros/Placeholders" class="new" title="Macros/Placeholders (page does not exist)">Macros/Placeholders</a>
+</p>
+<h2 id="era-Syntax">Syntax</h2>
+<p>When programming your macros, be sure to always include proper spelling, punctuation, and targets. Refer to the page for each command for more information about their usage and examples. Quotation marks are optional when referencing a single-word ability, weapon skill, spell, etc. (for instance, "/ja Benediction &lt;me&gt;" is a working macro). 
+</p>
+<ul><li>You may also create macro command lines (such as the examples listed below) with words used in the <a href="auto-translator.html" title="Auto-Translator">Auto-Translator</a> format which can cut down on time it takes (and make sure it is spelled correctly) to write out an ability, weaponskill, or items. All auto-translated words appear as <b><span data-ws="263">{</span>example<span data-ws="46">}</span></b>.
+<ul><li><i>Make sure as you are typing out a macro line you put the auto-translated format of whichever word first and then go back and add quotation marks to each side of the auto-translated phrase. As putting a quotation mark first and typing out the first couple of letters and pressing TAB will interfere.</i></li></ul></li></ul>
+<dl><dd><div class="table-wrap era-table"><table cellpadding="2" cellspacing="2">
+<tbody><tr>
+<th data-ws="7" width="40%">Syntax
+</th>
+<th data-ws="7" width="60%">Example
+</th></tr>
+<tr data-ws="8" valign="top">
+<td><b>/ja "Job Ability" &lt;target&gt;</b>
+</td>
+<td>/ja "<a href="benediction.html" title="Benediction">Benediction</a>" &lt;me&gt;<br>/ja "<a href="steal.html" title="Steal">Steal</a>" &lt;bt&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/ma "Spell Name" &lt;target&gt;</b>
+</td>
+<td>/ma "Blizzard IV" &lt;bt&gt;<br>/ma "<a href="curaga.html" title="Curaga">Curaga</a>" &lt;stpc&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/nin "Ninjutsu Name" &lt;target&gt;</b> <br> <b>/ma "Ninjutsu Name" &lt;target&gt;</b>
+</td>
+<td>/nin "<a href="hojo-ni.html" title="Hojo: Ni">Hojo: Ni</a>" &lt;bt&gt;<br>/nin "<a href="utsusemi-ichi.html" title="Utsusemi: Ichi">Utsusemi: Ichi</a>" &lt;me&gt;<br>/ma "<a href="utsusemi-ni.html" title="Utsusemi: Ni">Utsusemi: Ni</a>" &lt;me&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/so "Song Name" &lt;target&gt;</b> <br> <b>/ma "Song Name" &lt;target&gt;</b>
+</td>
+<td>/so "<a href="army-s-paeon-iii.html" title="Army's Paeon III">Army's Paeon III</a>" &lt;me&gt;<br>/so "<a href="horde-lullaby.html" title="Horde Lullaby">Horde Lullaby</a>" &lt;t&gt;<br>/ma "<a href="mage-s-ballad.html" title="Mage's Ballad">Mage's Ballad</a>" &lt;me&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/ws "Weapon Skill Name" &lt;target&gt;</b>
+</td>
+<td>/ws "<a href="sturmwind.html" title="Sturmwind">Sturmwind</a>" &lt;bt&gt;<br>/ws "<a href="hexa-strike.html" title="Hexa Strike">Hexa Strike</a>" &lt;bt&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/range "[target name]"</b>
+</td>
+<td>/ra &lt;stnpc&gt;<br>/shoot &lt;bt&gt;<br>/throw &lt;stnpc&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/item "item" [target]</b>
+</td>
+<td>/item "Rolanberry Pie" &lt;me&gt; <br>/item "Imperial Silver Piece" &lt;t&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/equip &lt;slot&gt; "Gear"</b>
+</td>
+<td>/equip ring1 "<a href="zircon-ring.html" class="new" title="Zircon Ring (page does not exist)">Zircon Ring</a>"<br>/equip main "<a href="https://edenxi.miraheze.org/wiki/Ice_Staff" class="new" title="Ice Staff (page does not exist)">Ice Staff</a>"<br> /equip main
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/ta "Target Name or Pronoun"</b>
+</td>
+<td><i>Example:</i> /ta &lt;bt&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/pcmd [subcommand]</b>
+</td>
+<td>/pcmd add "Dudeman"<br>/pcmd leave
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>/pet [subcommand]</b>
+</td>
+<td>/pet "Deploy" &lt;t&gt;<br>/pet "Deactivate" &lt;me&gt;
+</td></tr></tbody></table></div></dd></dl>
+<h2 id="era-Other_Placeholders">Other Placeholders</h2>
+<p>These are some additional placeholders which make using macros more helpful. These may be placed anywhere in a chat or echo line:
+</p>
+<sub><div align="right"><span class="plainlinks"><a rel="nofollow" class="external text" href="http://wiki.ffxiclopedia.org/index.php?title=Macros/Placeholders&amp;action=edit">[ edit </a>]</span></div></sub>
+<dl><dd><div class="table-wrap era-table"><table cellpadding="2" cellspacing="2">
+<tbody><tr>
+<th data-ws="7" width="25%">Pronoun
+</th>
+<th data-ws="7" width="75%">Target
+</th></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;me&gt;</b>
+</td>
+<td>Activates automatically on your character
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;t&gt;</b>
+</td>
+<td>Activates on current selected target. If a command is missing a target, or the target is unrecognizable, its target is assumed to be the player's current target.
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;bt&gt;</b>
+</td>
+<td>Activates on last monster claimed by party (will not work on alliance targets).
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;ht&gt;</b>
+</td>
+<td>Activates on <a href="call-for-help.html" title="Call for Help">Call for Help</a> target
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;ft&gt;</b>
+</td>
+<td>Activates on <a href="adventuring-fellow-guide.html" title="Adventuring Fellow Guide">NPC Fellow</a>
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;st&gt;</b>
+</td>
+<td>Activates after toggling between available targets
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;stpc&gt;</b>
+</td>
+<td>Activates after toggling between available player characters
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;stpt&gt;</b>
+</td>
+<td>Activates after toggling between available party members
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;stal&gt;</b>
+</td>
+<td>Activates after toggling between available alliance members
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;stnpc&gt;</b>
+</td>
+<td>Activates after toggling between available <a href="npc.html" title="NPC">NPCs</a>
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;lastst&gt;</b>
+</td>
+<td>Activates on last target acquired from &lt;stpc&gt;, &lt;stnpc&gt;, &lt;stpt&gt;, or &lt;stal&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;r&gt;</b>
+</td>
+<td>Activates on last player to /tell you (similar to /reply)
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;pet&gt;</b>
+</td>
+<td>Activates on your active <a href="pet.html" title="Pet">pet</a>
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;scan&gt;</b>
+</td>
+<td>Your <a href="widescan.html" title="Widescan">widescan</a> target
+</td></tr></tbody></table></div></dd></dl>
+<p>Targeting specific party and alliance members:
+</p>
+<dl><dd><div class="table-wrap era-table"><table cellpadding="2" cellspacing="2">
+<tbody><tr>
+<th data-ws="7" width="25%">Pronoun
+</th>
+<th data-ws="7" width="75%">Target
+</th></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;p0&gt;</b>
+</td>
+<td>Targets self
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;p1&gt;</b> ... <b>&lt;p5&gt;</b>
+</td>
+<td>Targets second party member, and so on to &lt;p5&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;a10&gt;</b> ... <b>&lt;a15&gt;</b>
+</td>
+<td>Targets top most alliance, first member, and so on to &lt;a15&gt;
+</td></tr>
+<tr data-ws="8" valign="top">
+<td><b>&lt;a20&gt;</b> ... <b>&lt;a25&gt;</b>
+</td>
+<td>Targets second alliance, first member, and so on to to &lt;a25&gt;
+</td></tr></tbody></table></div></dd></dl>
+<h2 id="era-Macro_Guides">Macro Guides</h2>
+<ul><li><a href="https://edenxi.miraheze.org/wiki/Summoner_Macro_Guide" class="new" title="Summoner Macro Guide (page does not exist)">Summoner Macro Guide</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/Beastmaster_Macro_Guide" class="new" title="Beastmaster Macro Guide (page does not exist)">Beastmaster Macro Guide</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/White_Mage_Macro_Guide" class="new" title="White Mage Macro Guide (page does not exist)">White Mage Macro Guide</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/Puppetmaster_Macro_Ideas" class="new" title="Puppetmaster Macro Ideas (page does not exist)">Puppetmaster Macro Ideas</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/ASCII_Alt_Codes_Guide" class="new" title="ASCII Alt Codes Guide (page does not exist)">ASCII Alt Codes Guide</a> (i.e., how to make special characters)</li>
+<li><a href="https://edenxi.miraheze.org/wiki/Macros_Guide_by_Egomzez" class="new" title="Macros Guide by Egomzez (page does not exist)">Macros Guide by Egomzez</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/Samurai:_Extended_macros_for_non_windower_user%27s." class="new" title="Samurai: Extended macros for non windower user's. (page does not exist)">Samurai: Extended macros for non windower user's.</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/The_Hub_System_of_Macro_Management_a_guide_by_Sekhmet" class="new" title="The Hub System of Macro Management a guide by Sekhmet (page does not exist)">The Hub System of Macro Management a guide by Sekhmet</a></li></ul>
+</div></div><p class="source-credit">Adapted from <a href="https://edenxi.miraheze.org/wiki/Category:Macro">Eden Wiki: Category:Macro</a> · <a href="https://edenxi.miraheze.org/wiki/Category:Macro?action=history">Contributors and history</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Revision 34765. Layout, links and optional background text adapted for Zenith.</p></div><div class="category-footer"><strong>Category:</strong> Categories<span> · </span><a href="era-reference.html">Level 75 Reference</a></div></article><footer class="footer" id="shared-footer"></footer></main></div><noscript><p class="no-js">Search and filters need JavaScript. All articles remain available through the <a href="all-pages.html">page index</a>.</p></noscript></body></html>

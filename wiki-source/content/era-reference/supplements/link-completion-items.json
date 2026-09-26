@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "source_review_date": "2026-09-26",
+  "articles": [
+    {
+      "title": "Zircon Ring",
+      "category": "Items",
+      "intro": "Level-54 ring for all jobs: INT +3 and Ice resistance +7.",
+      "body_html": "<h2>How to obtain</h2><p>Goldsmithing 75: Earth Crystal + one <a href=\"wiki:Gold Ring\">Gold Ring</a> + one <a href=\"wiki:Zircon\">Zircon</a>. Zircon Ring is the ordinary result; high-quality results are Genius Ring or Genius Ring +1. A second recipe uses Gold Ring +1 at Goldsmithing 80.</p><p>Buy the finished ring under Auction House \u2192 Armor \u2192 Rings.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zircon_Ring",
+        "https://www.bg-wiki.com/ffxi/Zircon_Ring"
+      ]
+    },
+    {
+      "title": "Sea Puk",
+      "category": "Monsters",
+      "intro": "Original ToAU Puks found in Mamook and Bhaflau Thickets.",
+      "body_html": "<h2>Where</h2><p><a href=\"wiki:Mamook\">Mamook</a>: levels 76\u201378. <a href=\"wiki:Bhaflau Thickets\">Bhaflau Thickets</a>: levels 77\u201378. These are ordinary outdoor/dungeon enemies, not a forced-spawn NM.</p><h2>Blue Magic</h2><ol><li>Fight one on Blue Mage and let it use <a href=\"wiki:Zephyr Mantle\">Zephyr Mantle</a>.</li><li>Defeat it while eligible to learn the spell; repeat if learning fails. Zephyr Mantle becomes usable at BLU 65.</li></ol><p>Avoid Wind damage: the Puk family absorbs it. Watch for area knockback and Flash.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zephyr_Mantle",
+        "https://ffxiclopedia.fandom.com/wiki/Category:Puks"
+      ]
+    },
+    {
+      "title": "Chamnaet Spring",
+      "category": "NPCs",
+      "intro": "Target used to fill the Cotton Pouch during Zephyr Fan acquisition.",
+      "body_html": "<h2>Steps</h2><ol><li>Get a <a href=\"wiki:Cotton Pouch\">Cotton Pouch</a> from <a href=\"wiki:Zebada\">Zebada</a> near the <a href=\"wiki:Uleguerand Range\">Uleguerand Range</a> entrance.</li><li>Climb to the western slope. Slide down toward the southern ledge above the bottom and enter its cave.</li><li>Trade the pouch to Chamnaet Spring to receive <a href=\"wiki:Chamnaet Ice\">Chamnaet Ice</a>.</li><li>Take the ice back to Zebada for <a href=\"wiki:Zephyr Fan\">Zephyr Fan</a>.</li></ol><p>The fan is the entry key item for the Bearclaw Pinnacle ENMs. Open your chosen battlefield guide for its separate entrance route.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Chamnaet_Ice",
+        "https://www.bg-wiki.com/ffxi/Holy_Cow"
+      ]
+    },
+    {
+      "title": "First Rampart",
+      "category": "Monsters",
+      "intro": "Floor-four Rampart in the original Zhayolm Remnants.",
+      "body_html": "<h2>Progression</h2><p>Choose this Rampart if your group entered <a href=\"wiki:Zhayolm Remnants\">Zhayolm Remnants</a> on Firesday or Earthsday. The entry day determines the correct target, not the current day when you reach it. Defeating the correct target opens the route to floor five.</p><h2>Fight and loot</h2><p>It can summon a Rogue Marid. A possible drop is <a href=\"wiki:Zhayolm Card\">Zhayolm Card</a>. Choose the right Rampart before attacking; the wrong choice can send the group around floor four again.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/First_Rampart",
+        "https://ffxiclopedia.fandom.com/wiki/Zhayolm_Remnants"
+      ]
+    },
+    {
+      "title": "Second Rampart",
+      "category": "Monsters",
+      "intro": "Floor-four Rampart in the original Zhayolm Remnants.",
+      "body_html": "<h2>Progression</h2><p>Choose this Rampart if your group entered <a href=\"wiki:Zhayolm Remnants\">Zhayolm Remnants</a> on Watersday or Windsday. The entry day determines the correct target, not the current day when you reach it. Defeating the correct target opens the route to floor five.</p><h2>Fight and loot</h2><p>It can summon a Rogue Marid. A possible drop is <a href=\"wiki:Zhayolm Card\">Zhayolm Card</a>. Choose the right Rampart before attacking; the wrong choice can send the group around floor four again.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zhayolm_Remnants_Guide",
+        "https://ffxiclopedia.fandom.com/wiki/Zhayolm_Remnants"
+      ]
+    },
+    {
+      "title": "Fourth Rampart",
+      "category": "Monsters",
+      "intro": "Floor-four Rampart in the original Zhayolm Remnants.",
+      "body_html": "<h2>Progression</h2><p>Choose this Rampart if your group entered <a href=\"wiki:Zhayolm Remnants\">Zhayolm Remnants</a> on Lightsday or Darksday. The entry day determines the correct target, not the current day when you reach it. Defeating the correct target opens the route to floor five.</p><h2>Fight and loot</h2><p>It can summon a Rogue Marid. A possible drop is <a href=\"wiki:Zhayolm Card\">Zhayolm Card</a>. Choose the right Rampart before attacking; the wrong choice can send the group around floor four again.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Zhayolm_Remnants_Guide",
+        "https://ffxiclopedia.fandom.com/wiki/Zhayolm_Remnants"
+      ]
+    },
+    {
+      "title": "Devilet",
+      "category": "Monsters",
+      "intro": "Imp enemies with route-opening roles in the original Silver Sea Remnants.",
+      "body_html": "<h2>Third-floor north route</h2><ol><li>Use a northern teleporter from floor two of <a href=\"wiki:Silver Sea Remnants\">Silver Sea Remnants</a>.</li><li>Defeat the fast-moving Devilet in the northern room. It repeatedly disengages and resumes its patrol as it loses HP; pursue and defeat it.</li><li>Its defeat unlocks progression and reveals the Slot. Trade <a href=\"wiki:Zhayolm Card\">Zhayolm Card</a> there to spawn <a href=\"wiki:Don Poroggo\">Don Poroggo</a>.</li></ol><h2>Second-floor southeast route</h2><p>Four Devilets must be defeated to open that wing\u2019s teleporter. Do not confuse these with the separately named Deadpan Devilet on the northwest route.</p>",
+      "source_urls": [
+        "https://classicffxi.fandom.com/wiki/Silver_Sea_Remnants",
+        "https://ffxiclopedia.fandom.com/wiki/Silver_Sea_Remnants"
+      ]
+    },
+    {
+      "title": "Wake the Puppet",
+      "category": "Missions",
+      "intro": "Second Lieutenant Assault in Periqia: return at least four of six automatons within 30 minutes.",
+      "body_html": "<h2>Start</h2><p>Take orders from <a href=\"wiki:Lageegee\">Lageegee</a> in <a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> and enter from <a href=\"wiki:Dvucca Isle Staging Point\">Dvucca Isle Staging Point</a>. Original party requirement: 3\u20136; recommended level 70.</p><h2>Steps</h2><ol><li>Search the four dead-end rooms north, south, east and west of Adeeha. Three rooms contain two automatons each.</li><li>Target one and use <code>/salute</code>. Each player controls one puppet.</li><li>Stay within 10 yalms and repeatedly <code>/clap</code> to move it toward you. Wights appear after activation; protect your puppet.</li><li>If it stops to emote, answer using the table below.</li><li>Beside Adeeha, use <code>/goodbye</code>. Its name turns green when successfully returned.</li><li>Repeat for four puppets; then use the Rune of Release. Returning all six improves points.</li></ol><h2>Response table</h2><table><thead><tr><th>Puppet action</th><th>Your response</th></tr></thead><tbody><tr><td>Blushing</td><td><code>/doze</code></td></tr><tr><td>Bowing</td><td><code>/kneel</code></td></tr><tr><td>Cheering</td><td><code>/psych</code></td></tr><tr><td>Confused</td><td><code>/slap</code></td></tr><tr><td>Clapping</td><td><code>/angry</code></td></tr><tr><td>Dancing</td><td><code>/joy</code></td></tr><tr><td>Happy</td><td><code>/smile</code></td></tr><tr><td>Pointing</td><td><code>/no</code></td></tr><tr><td>Praising</td><td><code>/blush</code></td></tr><tr><td>Saluting</td><td><code>/praise</code></td></tr><tr><td>Shocked</td><td><code>/comfort</code></td></tr><tr><td>Waving</td><td><code>/welcome</code></td></tr></tbody></table><h2>Rewards</h2><p>Periqia Assault Points and appraisal items. A <a href=\"wiki:??? Sash\">??? Sash</a> can become <a href=\"wiki:Zeta Sash\">Zeta Sash</a>.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Wake_the_Puppet",
+        "https://ffxiclopedia.fandom.com/wiki/Wake_the_Puppet",
+        "https://ffxiclopedia.fandom.com/wiki/Periqia"
+      ]
+    }
+  ]
+}

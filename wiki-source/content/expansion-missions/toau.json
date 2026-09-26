@@ -1,0 +1,1887 @@
+[
+  {
+    "campaign": "toau",
+    "number": "1",
+    "title": "Land of Sacred Serpents",
+    "requirements": [
+      "Boarding Permit key item; Treasures of Aht Urhgan content enabled."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Obtain the Boarding Permit through The Road to Aht Urhgan in Lower Jeuno.",
+      "Travel to Mhaura and board the mercenary transport bound for Al Zahbi. It arrives in Aht Urhgan Whitegate.",
+      "Enter Salaheem's Sentinels at I-10 and walk toward Naja Salaheem. The scene starts as you enter her office area.",
+      "Finish the scene and check your temporary key items for the Supplies Package."
+    ],
+    "notes": [
+      "The opening mission has no separate job-level or nation-rank check in the pinned server script. Travel through hostile territory comes next."
+    ],
+    "reward": "Supplies Package key item.",
+    "unlocks": [
+      "ToAU 2: Immortal Sentries"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Lower Jeuno",
+      "Mhaura"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Land_of_Sacred_Serpents&oldid=121374",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/01_Land_of_Sacred_Serpents.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "2",
+    "title": "Immortal Sentries",
+    "requirements": [
+      "Complete ToAU 1: Land of Sacred Serpents.",
+      "Supplies Package key item."
+    ],
+    "start": {
+      "npc": "Nareema",
+      "zone": "Caedarva Mire",
+      "grid": "K-9"
+    },
+    "steps": [
+      "Choose one of the five Immortal sentries. A practical first route is the boat from Whitegate to Nashmau, then the eastern exit into Caedarva Mire.",
+      "Use Sneak and Invisible and head east to Azouph Isle Staging Point at K-9. Speak with Nareema inside and hand over the Supplies Package through her dialogue.",
+      "Use the Runic Portal inside the staging point to register it and return to Whitegate.",
+      "Report to Naja Salaheem at I-10 to join the mercenaries."
+    ],
+    "notes": [
+      "Only one delivery is required. The other accepted sentries are Nahshib at Dvucca Isle (Caedarva Mire I-9, second area), Waudeen at Halvung (Mount Zhayolm K-6), Meyaada at Ilrusi Atoll (Arrapago Reef G-5), and Daswil at Mamool Ja (Bhaflau Thickets H-11, second area).",
+      "A Runic Portal must be activated at its destination before normal return travel can use it."
+    ],
+    "reward": "150 Imperial Standing; PSC Wildcat Badge; Private Second Class title.",
+    "unlocks": [
+      "Mog Locker access",
+      "Sanction access",
+      "ToAU 3: President Salaheem"
+    ],
+    "zones": [
+      "Caedarva Mire",
+      "Aht Urhgan Whitegate",
+      "Nashmau",
+      "Mount Zhayolm",
+      "Arrapago Reef",
+      "Bhaflau Thickets"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Immortal_Sentries&oldid=121335",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/02_Immortal_Sentries.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "3",
+    "title": "President Salaheem",
+    "requirements": [
+      "Complete ToAU 2: Immortal Sentries."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Speak with Naja about the Mog Locker.",
+      "Leave Whitegate and return; entering and exiting your Mog House also changes areas.",
+      "Speak with Naja again and finish the scene introducing Raillefal."
+    ],
+    "notes": [
+      "Rytaal at K-10 introduces Assault and Imperial Army I.D. Tag services. His explanation is useful but is not required to advance this mission. Fubruhn at F-11 handles Mog Locker administration."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "Assault introduction through Rytaal",
+      "ToAU 4: Knight of Gold"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=President_Salaheem&oldid=121594",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/03_President_Salaheem.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "4",
+    "title": "Knight of Gold",
+    "requirements": [
+      "Complete ToAU 3: President Salaheem.",
+      "1,000 gil OR one Imperial Bronze Piece."
+    ],
+    "start": {
+      "npc": "Cacaroon",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "G-11"
+    },
+    "steps": [
+      "Speak with Cacaroon and accept his offer of information. Repeat the conversation if another quest takes priority.",
+      "After closing the dialogue, trade either exactly 1,000 gil or one Imperial Bronze Piece to Cacaroon.",
+      "Walk into Walahra Temple at K-8 for the next scene.",
+      "Go to the upper floor of Shararat Teahouse at K-12. Discuss all three topics when prompted and finish the conversation with Raillefal."
+    ],
+    "notes": [],
+    "reward": "Raillefal's Letter key item.",
+    "unlocks": [
+      "ToAU 5: Confessions of Royalty"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Knight_of_Gold&oldid=121634",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/04_Knight_of_Gold.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "5",
+    "title": "Confessions of Royalty",
+    "requirements": [
+      "Complete ToAU 4: Knight of Gold.",
+      "Raillefal's Letter key item."
+    ],
+    "start": {
+      "npc": "Halver",
+      "zone": "Chateau d'Oraguille",
+      "grid": "I-9"
+    },
+    "steps": [
+      "Go to Northern San d'Oria, enter Chateau d'Oraguille, and present Raillefal's Letter to Halver.",
+      "If the castle guard will not admit you, speak with Guilerme at Northern San d'Oria I-7 and accept his help. He arranges the mission audience and returns you outside afterward.",
+      "Finish the audience; the letter is handed over and the mission advances."
+    ],
+    "notes": [
+      "A high nation rank is not an additional mission prerequisite: the Guilerme route exists for characters without normal castle access."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 6: Easterly Winds"
+    ],
+    "zones": [
+      "Chateau d'Oraguille",
+      "Northern San d'Oria"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Confessions_of_Royalty&oldid=121348",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/05_Confessions_of_Royalty.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "6",
+    "title": "Easterly Winds",
+    "requirements": [
+      "Complete ToAU 5: Confessions of Royalty."
+    ],
+    "start": {
+      "npc": "Grand Duke Palace audience area",
+      "zone": "Ru'Lude Gardens",
+      "grid": "H-6"
+    },
+    "steps": [
+      "Approach the Grand Duke Palace audience chamber from the stairs in Ru'Lude Gardens.",
+      "Accept the request during the summit and choose the answer welcoming a reward to receive the coins.",
+      "Keep one inventory slot free and finish the scene."
+    ],
+    "notes": [
+      "The pinned mission script imposes no midnight wait here."
+    ],
+    "reward": "10 Imperial Bronze Pieces if you accept the reward dialogue; the mission can advance without them.",
+    "unlocks": [
+      "ToAU 7: Westerly Winds"
+    ],
+    "zones": [
+      "Ru'Lude Gardens"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Easterly_Winds&oldid=122480",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/06_Easterly_Winds.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "7",
+    "title": "Westerly Winds",
+    "requirements": [
+      "Complete ToAU 6: Easterly Winds."
+    ],
+    "start": {
+      "npc": "Shararat Teahouse",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "K-12"
+    },
+    "steps": [
+      "Return to the upper floor of Shararat Teahouse for a scene with Raillefal. Keep a free inventory slot.",
+      "Receive Raillefal's Note and one Imperial Silver Piece, then report to Naja Salaheem at I-10.",
+      "Finish her conversation to receive another Imperial Silver Piece and advance."
+    ],
+    "notes": [],
+    "reward": "Two Imperial Silver Pieces in total; Agent of the Allied Forces title. Raillefal's Note is temporary and handed over.",
+    "unlocks": [
+      "ToAU 8: A Mercenary Life"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Westerly_Winds&oldid=122481",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/07_Westerly_Winds.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "8",
+    "title": "A Mercenary Life",
+    "requirements": [
+      "Complete ToAU 7: Westerly Winds."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Change areas after reporting to Naja in Westerly Winds, then return to Whitegate.",
+      "Enter Salaheem's Sentinels and walk toward Naja for the next scene.",
+      "Select both discussion topics and finish the briefing."
+    ],
+    "notes": [
+      "The pinned server requires zoning here, with no real-world midnight timer."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 9: Undersea Scouting"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=A_Mercenary_Life&oldid=123824",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/08_A_Mercenary_Life.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "9",
+    "title": "Undersea Scouting",
+    "requirements": [
+      "Complete ToAU 8: A Mercenary Life.",
+      "One Imperial Silver Piece for the normal ruins entrance."
+    ],
+    "start": {
+      "npc": "Kamih Mapokhalam",
+      "zone": "Bhaflau Thickets",
+      "grid": "F-6"
+    },
+    "steps": [
+      "Leave Whitegate through Al Zahbi and travel into Bhaflau Thickets to Kamih Mapokhalam at F-6.",
+      "Trade one Imperial Silver Piece for entry into Alzadaal Undersea Ruins.",
+      "Inside, head east toward the Gilded Doors at H-8. Approach the doorway to trigger the scene with Ghatsad.",
+      "Finish the scene to obtain the Astral Compass."
+    ],
+    "notes": [
+      "Optional: Kamih also sells the Map of Alzadaal Ruins for three Imperial Mythril Pieces. To register Nyzul Isle afterward, take the north teleporter, then the west teleporter; use a Runic Portal in the central chamber to return to Whitegate."
+    ],
+    "reward": "Astral Compass key item.",
+    "unlocks": [
+      "ToAU 10: Astral Waves"
+    ],
+    "zones": [
+      "Bhaflau Thickets",
+      "Aht Urhgan Whitegate",
+      "Al Zahbi",
+      "Alzadaal Undersea Ruins"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Undersea_Scouting&oldid=121715",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/09_Undersea_Scouting.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "10",
+    "title": "Astral Waves",
+    "requirements": [
+      "Complete ToAU 9: Undersea Scouting."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return from Alzadaal Undersea Ruins to Whitegate.",
+      "Speak with Naja Salaheem and finish your report."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 11: Imperial Schemes"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Alzadaal Undersea Ruins"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Astral_Waves&oldid=121669",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/10_Astral_Waves.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "11",
+    "title": "Imperial Schemes",
+    "requirements": [
+      "Complete ToAU 10: Astral Waves.",
+      "The next Vana'diel day must begin after ToAU 10; change areas once."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "After Astral Waves, change areas and wait for the next Vana'diel day.",
+      "Walk onto the first platform of Salaheem's Sentinels at I-10 to trigger the briefing. Talking to Naja alone gives ordinary mission dialogue.",
+      "Finish the briefing to receive the ghost-ship assignment."
+    ],
+    "notes": [
+      "A Vana'diel day is about 57 minutes 36 seconds in real time. This wait ends at the next game midnight, not after a full day from your turn-in."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 12: Royal Puppeteer"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Imperial_Schemes&oldid=121667",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/11_Imperial_Schemes.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "12",
+    "title": "Royal Puppeteer",
+    "requirements": [
+      "Complete ToAU 11: Imperial Schemes.",
+      "One vial of Jody's Acid for each character progressing."
+    ],
+    "start": {
+      "npc": "Pyopyoroon",
+      "zone": "Nashmau",
+      "grid": "H-7"
+    },
+    "steps": [
+      "Obtain one vial of Jody's Acid from Ameretat in Bhaflau Thickets or Wajaom Woodlands, or obtain the tradable item from another player/Auction House.",
+      "Take the ship from Whitegate to Nashmau and speak with Pyopyoroon at H-7.",
+      "After his opening scene, trade exactly one vial of Jody's Acid and finish the conversation."
+    ],
+    "notes": [],
+    "reward": "Vial of Spectral Scent key item.",
+    "unlocks": [
+      "ToAU 13: Lost Kingdom"
+    ],
+    "zones": [
+      "Nashmau",
+      "Aht Urhgan Whitegate",
+      "Bhaflau Thickets",
+      "Wajaom Woodlands"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Royal_Puppeteer&oldid=121996",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/12_Royal_Puppeteer.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "13",
+    "title": "Lost Kingdom",
+    "requirements": [
+      "Complete ToAU 12: Royal Puppeteer.",
+      "Vial of Spectral Scent key item."
+    ],
+    "start": {
+      "npc": "Jazaraat's Headstone",
+      "zone": "Caedarva Mire",
+      "grid": "E-10"
+    },
+    "steps": [
+      "Leave Nashmau through its western exit and reach Jazaraat's Headstone at Caedarva Mire E-10.",
+      "Examine the headstone for the opening scene. Every character needing credit must see this before the fight.",
+      "Prepare for combat, then examine it again to spawn Jazaraat. Defeat him.",
+      "Examine the headstone after the victory to receive the Ephramadian Gold Coin and advance."
+    ],
+    "notes": [
+      "Bring a level-75 battle setup and healing; the nearby field remains dangerous during the fight. Level 75 is a preparation recommendation, not a scripted minimum.",
+      "After this mission the headstone replaces a missing Ephramadian Gold Coin without another Jazaraat battle."
+    ],
+    "reward": "Ephramadian Gold Coin key item.",
+    "unlocks": [
+      "ToAU 14: The Dolphin Crest"
+    ],
+    "zones": [
+      "Caedarva Mire",
+      "Nashmau"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Lost_Kingdom&oldid=123420",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/13_Lost_Kingdom.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "14",
+    "title": "The Dolphin Crest",
+    "requirements": [
+      "Complete ToAU 13: Lost Kingdom.",
+      "Keep the Ephramadian Gold Coin for the next mission."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return to Whitegate after defeating Jazaraat.",
+      "Speak with Naja Salaheem and finish the ghost-ship report."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 15: The Black Coffin"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=The_Dolphin_Crest&oldid=122498",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/14_The_Dolphin_Crest.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "15",
+    "title": "The Black Coffin",
+    "requirements": [
+      "Complete ToAU 14: The Dolphin Crest.",
+      "Ephramadian Gold Coin for every entrant; consumed on entry."
+    ],
+    "start": {
+      "npc": "Cutter",
+      "zone": "Arrapago Reef",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Carry an Ephramadian Gold Coin. For a missing coin, revisit the headstone in Caedarva Mire E-10.",
+      "Travel from Dvucca Isle Staging Point west to the Arrapago Reef entrance at Caedarva Mire F/G-9. In the reef, go north to the Cutter at H-8 on the southwestern ship map.",
+      "If Dvucca is unregistered, leave Nashmau west, enter Alzadaal Undersea Ruins from Caedarva Mire D-11 with an Imperial Silver Piece, take the teleporter and exit to the Dvucca-side area.",
+      "Approach the Cutter for its scene, then examine it and choose The Black Coffin.",
+      "Defeat five Ashu Talif Crew, then fight the Captain and four reinforcements. Reduce the Captain to 20% HP within 30 minutes.",
+      "Allow the automatic exit scenes in Arrapago Reef and Nashmau to finish."
+    ],
+    "notes": [
+      "Gessho assists. Control the spare crew while concentrating damage. A failed entry/battle needs another coin."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 16: Ghosts of the Past"
+    ],
+    "zones": [
+      "Arrapago Reef",
+      "Caedarva Mire",
+      "Alzadaal Undersea Ruins",
+      "The Ashu Talif",
+      "Nashmau"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=The_Black_Coffin&oldid=124019",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/15_The_Black_Coffin.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/The_Ashu_Talif/instances/the_black_coffin.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Arrapago_Reef/npcs/Cutter.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/instance_list.sql"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "16",
+    "title": "Ghosts of the Past",
+    "requirements": [
+      "Complete ToAU 15: The Black Coffin."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return from Nashmau to Whitegate.",
+      "Speak with Naja Salaheem and finish the report and clothing discussion."
+    ],
+    "notes": [
+      "Your clothes alter the conversation, but this particular mission does not require the palace outfit. The next mission does."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 17: Guests of the Empire"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Nashmau"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Aht_Urhgan_Mission_16%3A_Ghosts_of_the_Past&oldid=122500",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/16_Ghosts_of_the_Past.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "17",
+    "title": "Guests of the Empire",
+    "requirements": [
+      "Complete ToAU 16: Ghosts of the Past.",
+      "An approved body piece; nonempty Hands, Legs and Feet slots; empty Main and Sub slots at the palace."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Talk to Naja, then equip a palace-approved body piece plus separate equipment in Hands, Legs and Feet.",
+      "Speak with Naja while dressed correctly and obtain her approval.",
+      "Keep that armor equipped and empty both Main and Sub slots, including any shield.",
+      "Examine the Imperial Whitegate at L-8/L-9 and finish the palace audience. Leave an inventory slot for the reward."
+    ],
+    "notes": [
+      "Accessible examples include Brigandine (level 45, suitable jobs), Holy Breastplate (WHM 40), Justaucorps (58) and Haubergeon (59). Normal and listed HQ variants are accepted. Head equipment is optional.",
+      "Completing this story gate satisfies the mission prerequisite for Salvage. Salvage still has its own level, currency and entry requirements."
+    ],
+    "reward": "One Imperial Mythril Piece; Ovjang's Errand Runner title.",
+    "unlocks": [
+      "Salvage story prerequisite",
+      "ToAU 18: Passing Glory"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Guests_of_the_Empire&oldid=122634",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/17_Guests_of_the_Empire.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Aht_Urhgan_Whitegate/Shared.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "18",
+    "title": "Passing Glory",
+    "requirements": [
+      "Complete ToAU 17: Guests of the Empire.",
+      "Next Vana'diel day after ToAU 17; change areas."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "After the palace audience, change areas and wait until the next Vana'diel day.",
+      "Enter the second platform of Salaheem's Sentinels at I-10 and finish the automatically triggered scene."
+    ],
+    "notes": [
+      "The pinned Zenith base has this continuation even though Horizon reference pages may describe a server-specific stopping point."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 19: Sweets for the Soul"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Passing_Glory&oldid=121666",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/18_Passing_Glory.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "19",
+    "title": "Sweets for the Soul",
+    "requirements": [
+      "Complete ToAU 18: Passing Glory."
+    ],
+    "start": {
+      "npc": "Shararat Teahouse",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "K-12"
+    },
+    "steps": [
+      "Walk into Shararat Teahouse at K-12.",
+      "Finish the scene with the visiting ambassador to receive the next assignment."
+    ],
+    "notes": [],
+    "reward": "Karababa's Tour Guide title.",
+    "unlocks": [
+      "ToAU 20: Teahouse Tumult"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Sweets_for_the_Soul&oldid=120832",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/19_Sweets_for_the_Soul.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "20",
+    "title": "Teahouse Tumult",
+    "requirements": [
+      "Complete ToAU 19: Sweets for the Soul."
+    ],
+    "start": {
+      "npc": "Unlabeled target",
+      "zone": "Aydeewa Subterrane",
+      "grid": "F-8/G-8"
+    },
+    "steps": [
+      "Enter Aydeewa Subterrane from Wajaom Woodlands G-7 and watch the arrival scene.",
+      "From that entrance map, take the connection at D-8 or E-9 to the lower area containing the tree roots.",
+      "Reach F-8/G-8 and select the unlabeled target beside a tree root. Target cycling helps find its blank name.",
+      "Watch the scene to finish the investigation."
+    ],
+    "notes": [
+      "Bring Sneak and Invisible for the route. This is the same target revisited in Misplaced Nobility."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 21: Finders Keepers"
+    ],
+    "zones": [
+      "Aydeewa Subterrane",
+      "Wajaom Woodlands"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Teahouse_Tumult&oldid=120833",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/20_Teahouse_Tumult.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "21",
+    "title": "Finders Keepers",
+    "requirements": [
+      "Complete ToAU 20: Teahouse Tumult."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return to Whitegate and enter the second platform of Salaheem's Sentinels.",
+      "Finish the automatic scene; speaking to Naja is not the trigger."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 22: Shield of Diplomacy"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Aydeewa Subterrane"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Finders_Keepers&oldid=120836",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/21_Finders_Keepers.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "22",
+    "title": "Shield of Diplomacy",
+    "requirements": [
+      "Complete ToAU 21: Finders Keepers.",
+      "Access through the Gates of Halvung if using the overland route."
+    ],
+    "start": {
+      "npc": "Decorative Bronze Gate",
+      "zone": "Navukgo Execution Chamber"
+    },
+    "steps": [
+      "Reach Mount Zhayolm and travel toward Navukgo Execution Chamber at D-8. The overland Gates of Halvung route requires a Cast Metal Plate holder to open the gate.",
+      "Enter Navukgo Execution Chamber for one scene, then examine the Decorative Bronze Gate for another.",
+      "Examine the gate again, select Shield of Diplomacy, and defeat Khimaira 13 within 30 minutes.",
+      "Keep Karababa alive during the battle; do not let her remain at critically low HP. Finish the victory scene."
+    ],
+    "notes": [
+      "The native battlefield allows Trusts and up to six participants; this is a source check, not a live solo-clear test.",
+      "The battle script flags Karababa spell behavior as incomplete. Plan your own healing and damage rather than relying on the retail description of her spell support."
+    ],
+    "reward": "Karababa's Bodyguard title.",
+    "unlocks": [
+      "ToAU 23: Social Graces"
+    ],
+    "zones": [
+      "Navukgo Execution Chamber",
+      "Mount Zhayolm"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Shield_of_Diplomacy&oldid=120857",
+        "label": "HorizonXI reference walkthrough"
+      },
+      {
+        "url": "https://classicffxi.fandom.com/wiki/Aht_Urhgan_Mission_22%3A_Shield_of_Diplomacy",
+        "label": "Classic FFXI overland route"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/22_Shield_of_Diplomacy.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Navukgo_Execution_Chamber/shield_of_diplomacy.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Navukgo_Execution_Chamber/mobs/Karababa.lua"
+    ],
+    "native_status": "partial_battle_mechanics"
+  },
+  {
+    "campaign": "toau",
+    "number": "23",
+    "title": "Social Graces",
+    "requirements": [
+      "Complete ToAU 22: Shield of Diplomacy."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return to the second platform of Salaheem's Sentinels.",
+      "Watch the automatic scene to finish the mission."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 24: Foiled Ambition"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Navukgo Execution Chamber"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Social_Graces&oldid=120858",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/23_Social_Graces.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "24",
+    "title": "Foiled Ambition",
+    "requirements": [
+      "Complete ToAU 23: Social Graces.",
+      "Next Vana'diel day after ToAU 23; change areas."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "After Social Graces, change areas and wait for the next Vana'diel day.",
+      "Walk into the second platform of Salaheem's Sentinels and finish the scene.",
+      "Keep an inventory slot available for the stack of Imperial Gold Pieces."
+    ],
+    "notes": [],
+    "reward": "Five Imperial Gold Pieces; Karababa's Secret Agent title.",
+    "unlocks": [
+      "ToAU 25: Playing the Part"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Foiled_Ambition&oldid=120859",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/24_Foiled_Ambition.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "25",
+    "title": "Playing the Part",
+    "requirements": [
+      "Complete ToAU 24: Foiled Ambition.",
+      "Next Vana'diel day after ToAU 24; change areas."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "After Foiled Ambition, change areas and wait for the next Vana'diel day.",
+      "Speak with Naja. Choose Aphmau when the conversation asks for the relevant name and finish the briefing."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 26: Seal of the Serpent"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Playing_the_Part&oldid=120860",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/25_Playing_the_Part.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "26",
+    "title": "Seal of the Serpent",
+    "requirements": [
+      "Complete ToAU 25: Playing the Part.",
+      "Empty Main and Sub equipment slots."
+    ],
+    "start": {
+      "npc": "Imperial Whitegate",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "L-8/L-9"
+    },
+    "steps": [
+      "Empty Main and Sub equipment slots, including shields or a second weapon.",
+      "Examine the Imperial Whitegate and finish the audience."
+    ],
+    "notes": [
+      "The palace-approved body armor check from Guests of the Empire is not applied to this audience. Ranged and Ammo slots can remain equipped."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 27: Misplaced Nobility"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Seal_of_the_Serpent&oldid=120861",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/26_Seal_of_the_Serpent.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "27",
+    "title": "Misplaced Nobility",
+    "requirements": [
+      "Complete ToAU 26: Seal of the Serpent."
+    ],
+    "start": {
+      "npc": "Unlabeled target",
+      "zone": "Aydeewa Subterrane",
+      "grid": "F-8/G-8"
+    },
+    "steps": [
+      "Return through Wajaom Woodlands G-7 to Aydeewa Subterrane.",
+      "Take the D-8 or E-9 connection to the lower tree-root area used in Teahouse Tumult.",
+      "Examine the same blank target at F-8/G-8 and finish the scene with Rishfee."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 28: Bastion of Knowledge"
+    ],
+    "zones": [
+      "Aydeewa Subterrane",
+      "Wajaom Woodlands"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Misplaced_Nobility&oldid=120862",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/27_Misplaced_Nobility.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "28",
+    "title": "Bastion of Knowledge",
+    "requirements": [
+      "Complete ToAU 27: Misplaced Nobility."
+    ],
+    "start": {
+      "npc": "Walahra Temple",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "K-8"
+    },
+    "steps": [
+      "Return to Whitegate and walk inside Walahra Temple.",
+      "Finish the automatic scene with Aphmau."
+    ],
+    "notes": [],
+    "reward": "Aphmau's Mercenary title.",
+    "unlocks": [
+      "ToAU 29: Puppet in Peril"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Aydeewa Subterrane"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Bastion_of_Knowledge&oldid=120863",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/28_Bastion_of_Knowledge.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "29",
+    "title": "Puppet in Peril",
+    "requirements": [
+      "Complete ToAU 28: Bastion of Knowledge."
+    ],
+    "start": {
+      "npc": "Ornamental Door",
+      "zone": "Jade Sepulcher"
+    },
+    "steps": [
+      "Use a Runic Portal Use Permit to travel to Mamool Ja Staging Point. Leave its outer gate and go north to the Jade Sepulcher entrance at Bhaflau Thickets H-8, on the staging-point map.",
+      "If the staging point is not registered, reach this side of Bhaflau Thickets through Mamook.",
+      "In Jade Sepulcher, examine the Ornamental Door for a scene. Examine it again and choose Puppet in Peril.",
+      "Defeat Lancelord Gaheel Ja within 30 minutes and finish the victory scene."
+    ],
+    "notes": [
+      "Use a normal travel permit, not an active Assault Order, when you need to leave a staging point through its outer gate.",
+      "Native battlefield: Trusts allowed, maximum six participants. The source notes missing boss dialogue and potentially incomplete additional mechanics."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 30: Prevalence of Pirates"
+    ],
+    "zones": [
+      "Jade Sepulcher",
+      "Bhaflau Thickets",
+      "Mamook"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Puppet_in_Peril&oldid=120865",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/29_Puppet_in_Peril.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Jade_Sepulcher/puppet_in_peril.lua"
+    ],
+    "native_status": "partial_battle_mechanics"
+  },
+  {
+    "campaign": "toau",
+    "number": "30",
+    "title": "Prevalence of Pirates",
+    "requirements": [
+      "Complete ToAU 29: Puppet in Peril."
+    ],
+    "start": {
+      "npc": "Cutter",
+      "zone": "Arrapago Reef",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Travel to Dvucca Isle Staging Point and head west to the Arrapago Reef entrance at Caedarva Mire F/G-9.",
+      "Watch the scene on entering the reef. If arriving through another entrance, the scene still flags the mission step.",
+      "Go north to the Cutter at H-8 on the southwestern ship map and approach it for another scene.",
+      "Finish the scene to obtain the Periqia Assault Area Entry Permit."
+    ],
+    "notes": [],
+    "reward": "Periqia Assault Area Entry Permit key item.",
+    "unlocks": [
+      "ToAU 31: Shades of Vengeance"
+    ],
+    "zones": [
+      "Arrapago Reef",
+      "Caedarva Mire"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Prevalence_of_Pirates&oldid=120866",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/30_Prevalence_of_Pirates.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "31",
+    "title": "Shades of Vengeance",
+    "requirements": [
+      "Complete ToAU 30: Prevalence of Pirates.",
+      "Periqia Assault Area Entry Permit key item; consumed on entry."
+    ],
+    "start": {
+      "npc": "Runic Seal",
+      "zone": "Caedarva Mire",
+      "grid": "I-9"
+    },
+    "steps": [
+      "Return to Dvucca Isle Staging Point from the Cutter.",
+      "Examine the Runic Seal and choose Shades of Vengeance to enter Periqia. Each character on this mission needs the entry permit.",
+      "Go to the Lamiae gathered around H-9. Pull carefully and defeat K23H1-LAMIA until the objective completes; the required count varies.",
+      "Finish within 30 minutes and allow the exit scene in Caedarva Mire to advance the mission."
+    ],
+    "notes": [
+      "If you fail, wait until the next Vana'diel day and talk to Nahshib at Dvucca Isle for a replacement permit. This mission instance is separate from ordinary ranked Assault orders."
+    ],
+    "reward": "Nashmeira's Mercenary title.",
+    "unlocks": [
+      "ToAU 32: In the Blood"
+    ],
+    "zones": [
+      "Caedarva Mire",
+      "Periqia",
+      "Arrapago Reef"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Shades_of_Vengeance&oldid=120867",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/31_Shades_of_Vengeance.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Periqia/instances/shades_of_vengeance.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/instance_list.sql"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "32",
+    "title": "In the Blood",
+    "requirements": [
+      "Complete ToAU 31: Shades of Vengeance."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return from Periqia to Whitegate.",
+      "Speak with Naja and finish the mission report. Keep an inventory slot for the coin."
+    ],
+    "notes": [],
+    "reward": "One Imperial Gold Piece.",
+    "unlocks": [
+      "ToAU 33: Sentinels' Honor"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=In_the_Blood&oldid=120868",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/32_In_the_Blood.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "33",
+    "title": "Sentinels' Honor",
+    "requirements": [
+      "Complete ToAU 32: In the Blood.",
+      "Next Vana'diel day after ToAU 32; change areas."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "After In the Blood, change areas and wait for the next Vana'diel day.",
+      "Speak with Naja and finish the briefing.",
+      "Before travelling onward, replace a missing Ephramadian Gold Coin at Jazaraat's Headstone in Caedarva Mire E-10."
+    ],
+    "notes": [
+      "No title is awarded by this mission in the pinned native reward table."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 34: Testing the Waters"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Caedarva Mire"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Sentinels%27_Honor&oldid=120870",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/33_Sentinels_Honor.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "34",
+    "title": "Testing the Waters",
+    "requirements": [
+      "Complete ToAU 33: Sentinels' Honor.",
+      "Ephramadian Gold Coin key item."
+    ],
+    "start": {
+      "npc": "Cutter",
+      "zone": "Arrapago Reef",
+      "grid": "H-8"
+    },
+    "steps": [
+      "Carry an Ephramadian Gold Coin and return via Dvucca Isle to the Cutter, as in The Black Coffin.",
+      "Approach the ship and accept passage when asked.",
+      "Continue through the automatic transfer and scene in Talacca Cove. The coin is exchanged for the Percipient Eye."
+    ],
+    "notes": [
+      "If you refuse passage, leave Arrapago Reef and re-enter before trying the ship again."
+    ],
+    "reward": "Percipient Eye key item; Treasure Trove Tender title.",
+    "unlocks": [
+      "ToAU 35: Legacy of the Lost"
+    ],
+    "zones": [
+      "Arrapago Reef",
+      "Caedarva Mire",
+      "Talacca Cove"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Testing_the_Waters&oldid=120871",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/34_Testing_the_Waters.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "35",
+    "title": "Legacy of the Lost",
+    "requirements": [
+      "Complete ToAU 34: Testing the Waters.",
+      "Percipient Eye key item."
+    ],
+    "start": {
+      "npc": "Rock Slab",
+      "zone": "Talacca Cove",
+      "grid": "F-6"
+    },
+    "steps": [
+      "From the arrival point, follow the northwest tunnel to the Rock Slab at F-6.",
+      "Examine the slab and choose Legacy of the Lost.",
+      "Fight Gessho within the 30-minute limit. Concentrate on the original when clones appear; the fight ends at 15% HP.",
+      "Finish the victory scene and keep the Percipient Eye for the next mission."
+    ],
+    "notes": [
+      "Native battlefield: Trusts allowed, maximum six participants. The key item is not consumed by this fight.",
+      "Native code contains clone handling but flags missing dialogue and potentially incomplete additional boss mechanics."
+    ],
+    "reward": "Gessho's Mercy title.",
+    "unlocks": [
+      "ToAU 36: Gaze of the Saboteur"
+    ],
+    "zones": [
+      "Talacca Cove"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Legacy_of_the_Lost&oldid=120877",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/35_Legacy_of_the_Lost.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/battlefields/Talacca_Cove/legacy_of_the_lost.lua"
+    ],
+    "native_status": "partial_battle_mechanics"
+  },
+  {
+    "campaign": "toau",
+    "number": "36",
+    "title": "Gaze of the Saboteur",
+    "requirements": [
+      "Complete ToAU 35: Legacy of the Lost.",
+      "Percipient Eye key item."
+    ],
+    "start": {
+      "npc": "Entry Gate",
+      "zone": "Hazhalm Testing Grounds"
+    },
+    "steps": [
+      "Leave Talacca Cove through its southern exit at G-10 to Caedarva Mire E-9.",
+      "Travel west to the Hazhalm Testing Grounds entrance at D-9/D-10.",
+      "Enter for the arrival scene, then examine the Entry Gate for the next scene.",
+      "Finish the conversation to exchange the Percipient Eye for the Luminian Dagger."
+    ],
+    "notes": [],
+    "reward": "Luminian Dagger key item; Emissary of the Empress title.",
+    "unlocks": [
+      "ToAU 37: Path of Blood"
+    ],
+    "zones": [
+      "Hazhalm Testing Grounds",
+      "Talacca Cove",
+      "Caedarva Mire"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Gaze_of_the_Saboteur&oldid=120878",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/36_Gaze_of_the_Saboteur.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "37",
+    "title": "Path of Blood",
+    "requirements": [
+      "Complete ToAU 36: Gaze of the Saboteur."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return to Whitegate and enter the second platform of Salaheem's Sentinels.",
+      "Finish both linked scenes. The game moves your character within Whitegate between them; allow the second scene to finish."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 38: Stirrings of War"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate",
+      "Hazhalm Testing Grounds"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Path_of_Blood&oldid=120881",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/37_Path_of_Blood.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "38",
+    "title": "Stirrings of War",
+    "requirements": [
+      "Complete ToAU 37: Path of Blood.",
+      "Next Vana'diel day after ToAU 37; change areas."
+    ],
+    "start": {
+      "npc": "Shararat Teahouse",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "K-12"
+    },
+    "steps": [
+      "After Path of Blood, change areas and wait for the next Vana'diel day.",
+      "Walk into Shararat Teahouse at K-12 and finish the automatically triggered scene."
+    ],
+    "notes": [],
+    "reward": "Allied Council Summons key item.",
+    "unlocks": [
+      "ToAU 39: Allied Rumblings"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Stirrings_of_War&oldid=120882",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/38_Stirrings_of_War.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "39",
+    "title": "Allied Rumblings",
+    "requirements": [
+      "Complete ToAU 38: Stirrings of War.",
+      "Allied Council Summons obtained in the previous mission."
+    ],
+    "start": {
+      "npc": "Grand Duke Palace stairs",
+      "zone": "Ru'Lude Gardens",
+      "grid": "H-7"
+    },
+    "steps": [
+      "Travel to Jeuno and approach the stairs into the Grand Duke Palace in Ru'Lude Gardens.",
+      "Watch the council scene to finish your report."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 40: Unraveling Reason"
+    ],
+    "zones": [
+      "Ru'Lude Gardens"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Allied_Rumblings&oldid=120883",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/39_Allied_Rumblings.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "40",
+    "title": "Unraveling Reason",
+    "requirements": [
+      "Complete ToAU 39: Allied Rumblings.",
+      "Next Vana'diel day after ToAU 39; change areas."
+    ],
+    "start": {
+      "npc": "Pherimociel",
+      "zone": "Ru'Lude Gardens",
+      "grid": "G-6"
+    },
+    "steps": [
+      "Change areas after the council and wait for the next Vana'diel day.",
+      "Speak with Pherimociel at G-6 and agree that you are ready to depart.",
+      "Allow the linked Wajaom Woodlands scenes to finish. You are moved automatically to the Leypoint and the mission advances after the final scene."
+    ],
+    "notes": [
+      "If you asked about the airship too early and saw the not-ready scene, change areas again before returning to Pherimociel. Declining the ready departure can be corrected by talking to him again."
+    ],
+    "reward": "Endymion Paratrooper title.",
+    "unlocks": [
+      "ToAU 41: Light of Judgment"
+    ],
+    "zones": [
+      "Ru'Lude Gardens",
+      "Wajaom Woodlands"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Unraveling_Reason&oldid=120884",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/40_Unraveling_Reason.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "41",
+    "title": "Light of Judgment",
+    "requirements": [
+      "Complete ToAU 40: Unraveling Reason."
+    ],
+    "start": {
+      "npc": "Rodin-Comidin",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-7"
+    },
+    "steps": [
+      "Return to Whitegate and find Rodin-Comidin on the upper level outside the Automaton Workshop.",
+      "Speak with him and accept the assignment to receive the Nyzul Isle Route."
+    ],
+    "notes": [
+      "No additional day wait is imposed before Path of Darkness."
+    ],
+    "reward": "Nyzul Isle Route key item.",
+    "unlocks": [
+      "ToAU 42: Path of Darkness"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Light_of_Judgment&oldid=120885",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/41_Light_of_Judgement.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "42",
+    "title": "Path of Darkness",
+    "requirements": [
+      "Complete ToAU 41: Light of Judgment.",
+      "Nyzul Isle Route key item for the registrant; consumed from entrants carrying it."
+    ],
+    "start": {
+      "npc": "Blank lamp target",
+      "zone": "Alzadaal Undersea Ruins",
+      "grid": "J-9"
+    },
+    "steps": [
+      "Reach Nyzul Isle Staging Point through its registered Runic Portal, or use the Alzadaal teleporter route described in Undersea Scouting.",
+      "Every character needing progress should examine the blank lamp at J-9 and agree to enter.",
+      "Examine the nearby Runic Seal at I-9 and select Path of Darkness. The registrant needs the Nyzul Isle Route and the lamp scene.",
+      "Keep Naja alive. Defeat the four Imperial Gears and reduce Amnaf to 50% HP; follow her retreat, defeat the next four gears and reduce her to 20%.",
+      "Defeat the final Psycheflayer form within 30 minutes, then watch the exit scene in Alzadaal."
+    ],
+    "notes": [
+      "A dead Naja causes failure. After a loss, Rodin-Comidin at Whitegate I-7 replaces the route key item.",
+      "The native Amnaf AI flags parts of her low-HP ability sequence as unfinished. No level-75 solo clear has been verified for Zenith."
+    ],
+    "reward": "Naja's Comrade-in-arms title.",
+    "unlocks": [
+      "ToAU 43: Fangs of the Lion"
+    ],
+    "zones": [
+      "Alzadaal Undersea Ruins",
+      "Aht Urhgan Whitegate",
+      "Nyzul Isle"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Path_of_Darkness&oldid=120929",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/42_Path_of_Darkness.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Nyzul_Isle/instances/path_of_darkness.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Nyzul_Isle/mobs/Amnaf_BLU.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/instance_list.sql"
+    ],
+    "native_status": "partial_battle_mechanics"
+  },
+  {
+    "campaign": "toau",
+    "number": "43",
+    "title": "Fangs of the Lion",
+    "requirements": [
+      "Complete ToAU 42: Path of Darkness."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return to Whitegate and walk into the second platform of Salaheem's Sentinels.",
+      "Watch the scene to receive the Mythril Mirror."
+    ],
+    "notes": [],
+    "reward": "Mythril Mirror key item; Nashmeira's Loyalist title.",
+    "unlocks": [
+      "ToAU 44: Nashmeira's Plea"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Fangs_of_the_Lion&oldid=120930",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/43_Fangs_of_the_Lion.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "44",
+    "title": "Nashmeira's Plea",
+    "requirements": [
+      "Complete ToAU 43: Fangs of the Lion.",
+      "Mythril Mirror key item for the registrant; consumed from entrants carrying it."
+    ],
+    "start": {
+      "npc": "Blank lamp target",
+      "zone": "Alzadaal Undersea Ruins",
+      "grid": "J-9"
+    },
+    "steps": [
+      "Bring the Mythril Mirror to Nyzul Isle Staging Point. Examine the blank lamp at J-9 and agree to proceed.",
+      "Examine the Runic Seal at I-9 and choose Nashmeira's Plea. The registrant must have the mirror and the lamp scene.",
+      "Defeat Raubahn three times; he revives twice. Be able to deal a second damage type for his final life.",
+      "Reduce Razfahd to 50% HP. Once both objectives are complete, the scene transitions to Alexander.",
+      "Defeat Alexander within the shared 45-minute limit. Keep healing available for Divine Judgment and avoid standing far enough away to trigger draw-in.",
+      "Finish the automatic Alzadaal exit scene to advance."
+    ],
+    "notes": [
+      "After a loss, Naja at Whitegate I-10 replaces a missing mirror without a day wait.",
+      "Native Raubahn approximates his final damage immunity using party main jobs rather than recorded damage. Bring magical damage if your party is mainly melee; retail resistance strategies may not match. His Reraise presentation and Azure Lore logic are incomplete."
+    ],
+    "reward": "Preventer of Ragnarok title.",
+    "unlocks": [
+      "ToAU 45: Ragnarok"
+    ],
+    "zones": [
+      "Alzadaal Undersea Ruins",
+      "Aht Urhgan Whitegate",
+      "Nyzul Isle"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Nashmeira%27s_Plea&oldid=120932",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/44_Nashmeiras_Plea.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Nyzul_Isle/instances/nashmeiras_plea.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Nyzul_Isle/mobs/Raubahn.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Nyzul_Isle/mobs/Razfahd.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Nyzul_Isle/mobs/Alexander_NP.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/sql/instance_list.sql"
+    ],
+    "native_status": "partial_battle_mechanics"
+  },
+  {
+    "campaign": "toau",
+    "number": "45",
+    "title": "Ragnarok",
+    "requirements": [
+      "Complete ToAU 44: Nashmeira's Plea."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Return to Whitegate and enter the second platform of Salaheem's Sentinels.",
+      "Finish the automatic scene after the final battle."
+    ],
+    "notes": [],
+    "reward": "No item reward.",
+    "unlocks": [
+      "ToAU 46: Imperial Coronation"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Aht_Urhgan_Mission_45%3A_Ragnarok&oldid=120933",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/45_Ragnarok.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "46",
+    "title": "Imperial Coronation",
+    "requirements": [
+      "Complete ToAU 45: Ragnarok.",
+      "Palace-approved body armor; equipment in Hands, Legs and Feet; empty Main and Sub."
+    ],
+    "start": {
+      "npc": "Imperial Whitegate",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "L-8/L-9"
+    },
+    "steps": [
+      "Dress as for Guests of the Empire: approved Body plus equipment in Hands, Legs and Feet. Empty Main and Sub.",
+      "Leave two free inventory slots and examine the Imperial Whitegate.",
+      "Choose Balrahn's Ring, Ulthalam's Ring or Jalzahn's Ring. You may defer the choice instead of deciding immediately.",
+      "Finish the coronation and receive the Imperial Standard. An unclaimed initial reward can be requested at the gate while dressed appropriately."
+    ],
+    "notes": [
+      "Brigandine, Holy Breastplate, Justaucorps and Haubergeon are examples for eligible jobs.",
+      "The native source leaves Nadeey's discarded-ring recovery unimplemented. Keep your chosen ring; this guide does not promise a working ring-exchange service."
+    ],
+    "reward": "Imperial Standard; choice of Balrahn's Ring, Ulthalam's Ring or Jalzahn's Ring.",
+    "unlocks": [
+      "ToAU 47: The Empress Crowned"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Imperial_Coronation&oldid=120935",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/46_Imperial_Coronation.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Aht_Urhgan_Whitegate/Shared.lua"
+    ],
+    "native_status": "implemented_with_reward_recovery_limitation"
+  },
+  {
+    "campaign": "toau",
+    "number": "47",
+    "title": "The Empress Crowned",
+    "requirements": [
+      "Complete ToAU 46: Imperial Coronation."
+    ],
+    "start": {
+      "npc": "Salaheem's Sentinels",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Walk back to the second platform of Salaheem's Sentinels.",
+      "Keep an inventory slot free and watch the final crown scene."
+    ],
+    "notes": [],
+    "reward": "Glory Crown; Eternal Mercenary title.",
+    "unlocks": [
+      "ToAU 48: Eternal Mercenary"
+    ],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=The_Empress_Crowned&oldid=120938",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/47_The_Empress_Crowned.lua"
+    ],
+    "native_status": "implemented_not_live_tested"
+  },
+  {
+    "campaign": "toau",
+    "number": "48",
+    "title": "Eternal Mercenary",
+    "requirements": [
+      "Complete ToAU 47: The Empress Crowned."
+    ],
+    "start": {
+      "npc": "Naja Salaheem",
+      "zone": "Aht Urhgan Whitegate",
+      "grid": "I-10"
+    },
+    "steps": [
+      "Speak with Naja Salaheem for the concluding mercenary conversation.",
+      "The story is finished after the crown and finale scenes. Eternal Mercenary remains the terminal entry in the mission log."
+    ],
+    "notes": [
+      "Repeated dialogue does not mean another story objective is missing. Abyssea Atma rewards shown by modern references are outside this level-75 guide."
+    ],
+    "reward": "No item reward.",
+    "unlocks": [],
+    "zones": [
+      "Aht Urhgan Whitegate"
+    ],
+    "sources": [
+      {
+        "url": "https://horizonffxi.wiki/w/index.php?title=Eternal_Mercenary&oldid=120939",
+        "label": "HorizonXI reference walkthrough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/toau/48_Eternal_Mercenary.lua"
+    ],
+    "native_status": "implemented_terminal_mission"
+  }
+]

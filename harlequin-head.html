@@ -1,0 +1,69 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Harlequin Head - Zenith XI Wiki</title><meta name="description" content=""><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/wiki.css?v=42"><script defer src="assets/sidebar.js?v=42"></script><script defer src="assets/search-index.js?v=42"></script><script defer src="assets/wiki.js?v=42"></script></head><body data-page="harlequin-head"><a class="skip" href="#content">Skip to content</a><header class="topbar" id="shared-topbar"></header><div class="layout"><aside class="sidebar" id="shared-sidebar"><nav aria-label="Wiki navigation"><a href="index.html">Main Page</a><a href="jobs.html">Jobs</a><a href="all-pages.html">All Pages</a></nav></aside><main id="content"><div class="page-tabs"><span class="selected">Reference</span><a href="all-pages.html">Article index</a><button class="print-link" type="button" data-print>Print</button></div><article class="article"><div class="breadcrumb"><a href="era-reference.html">Level 75 Reference</a> <span>›</span> Harlequin Head</div><h1>Harlequin Head</h1><div class="wiki-byline">From Zenith XI Wiki</div><div class="article-body"><p><span class="reference-edition">Level 75 reference · <a href="server-rules.html">Zenith rules</a></span></p><div class="era-reference"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><p>Affects the AI of the <a href="automaton.html" title="Automaton">automaton</a>.
+<br><br><b>Deployment</b>
+<br>The <a href="automaton.html" title="Automaton">automaton</a> will engage the enemy in melee upon <a href="deploy.html" title="Deploy">deployment</a>. It will continue to follow the enemy if it moves.
+<br><br><b>Spell Availability</b>
+<br>The <a href="automaton.html" title="Automaton">automaton</a> will cast all <a href="category-enfeebling-magic.html" class="mw-redirect" title="Enfeebling Magic">Enfeebling Magic</a> and <a href="category-healing-magic.html" class="mw-redirect" title="Healing Magic">Healing Magic</a> spells available to the equipped frame's <a href="automaton-magic-skill.html" title="Automaton Magic Skill">automaton magic skill</a>. Frames that do not have magic points, such as the <a href="valoredge-frame.html" title="Valoredge Frame">Valoredge Frame</a> and <a href="sharpshot-frame.html" title="Sharpshot Frame">Sharpshot Frame</a>, are not capable of casting spells. The <a class="mw-selflink selflink">Harlequin Head</a> will not cast <a href="category-elemental-magic.html" class="mw-redirect" title="Elemental Magic">Elemental Magic</a>.
+<br>
+<br><b>Spell Behavior</b>
+<br>The <a href="automaton.html" title="Automaton">automaton</a>'s spell priorities are as follows:
+<br><a href="category-healing-magic.html" class="mw-redirect" title="Healing Magic">Healing Magic</a> -&gt; <a href="category-enfeebling-magic.html" class="mw-redirect" title="Enfeebling Magic">Enfeebling Magic</a> 
+<br>
+<br>Curing will only occur if the master is below a certain percentage of health, as indicated by the <a href="damage-gauge.html" title="Damage Gauge">Damage Gauge</a> article.
+<br>
+<br>Without the <a href="damage-gauge.html" title="Damage Gauge">Damage Gauge</a> equipped, the automaton will continue to cast prioritized enfeebles until they are all active. Only then will it move onto curing and nuking. Enfeebles that are no longer prioritized will not be cast. Without the <a href="damage-gauge.html" title="Damage Gauge">Damage Gauge</a>, it may take an active <a href="light-maneuver.html" title="Light Maneuver">Light Maneuver</a> to override enfeebles.
+<br>
+<br>
+</p>
+<div class="table-wrap era-table"><table border="2">
+<tbody><tr>
+<td width="15%" bgcolor="#ffffff" align="center"><b>Enemy HP%</b>
+</td>
+<td width="90%" bgcolor="#ffffff" align="left"><b>Automaton Behavior</b>
+</td></tr>
+<tr>
+<td width="15%" bgcolor="#ffffff" align="center">75% - 100%
+</td>
+<td width="90%" bgcolor="#ffffff" align="left">
+<p>Enfeebles are cast in the order: <a href="bio-ii.html" title="Bio II">bio II</a> -&gt; <a href="poison.html" title="Poison">poison</a> -&gt; <a href="silence.html" title="Silence">silence</a> -&gt; <a href="slow.html" title="Slow">slow</a> -&gt; <a href="blind.html" title="Blind">blind</a> -&gt; <a href="paralyze.html" title="Paralyze">paralyze</a>.
+<br>Other enfeebles are prioritized by using maneuvers of the enfeeble's respective element.
+<br>
+<br><a href="wind-maneuver.html" title="Wind Maneuver">Wind Maneuver</a> triggers <a href="silence.html" title="Silence">silence</a>.
+<br><a href="earth-maneuver.html" title="Earth Maneuver">Earth Maneuver</a> triggers <a href="slow.html" title="Slow">slow</a>.
+<br><a href="ice-maneuver.html" title="Ice Maneuver">Ice Maneuver</a> triggers <a href="paralyze.html" title="Paralyze">paralyze</a>.
+<br><a href="dark-maneuver.html" title="Dark Maneuver">Dark Maneuver</a> triggers <a href="blind.html" title="Blind">blind</a>.
+<br><a href="water-maneuver.html" title="Water Maneuver">Water Maneuver</a> can cause the puppet to cast <a href="poison.html" title="Poison">poison</a> instead of curing.
+<br><a href="dark-maneuver.html" title="Dark Maneuver">Dark Maneuver</a> can cause the puppet to cast <a href="bio-ii.html" title="Bio II">bio II</a> (Any DoT?) instead of curing.
+<br>
+<br>These spells will override the priority for curing. A <a href="light-maneuver.html" title="Light Maneuver">Light Maneuver</a> will be required to trigger a cure if any of the above maneuvers are active. Also note: the AI is <i>mob dependent</i>. It may not be possible to trigger a particular enfeeble on a mob. Silence cannot be cast if the enemy does not have MP. Likewise, slow may not be cast on certain mobs, but the conditions are unclear.
+</p>
+</td></tr>
+<tr>
+<td bgcolor="#ffffff" align="center">50% - 75%
+</td>
+<td bgcolor="#ffffff" align="left">Only <a href="bio-ii.html" title="Bio II">bio II</a> and <a href="poison.html" title="Poison">poison</a> are cast, regardless of maneuvers.
+</td></tr>
+<tr>
+<td bgcolor="#ffffff" align="center">0% - 50%
+</td>
+<td bgcolor="#ffffff" align="left">Enfeebles are no longer cast.
+</td></tr></tbody></table>
+</div><p>If <a href="bio-ii.html" title="Bio II">bio II</a> is not available, the automaton will cast the highest DoT available: <a href="dia.html" title="Dia">dia</a> &lt; <a href="bio.html" title="Bio">bio</a> &lt; <a href="dia-ii.html" title="Dia II">dia II</a> &lt; <a href="bio-ii.html" title="Bio II">bio II</a>.
+<br><br>
+<br><b>Spell Cast Time</b>
+<br>30 seconds with <a href="stormwaker-frame.html" title="Stormwaker Frame">Stormwaker Frame</a> and <a href="mana-booster.html" title="Mana Booster">Mana Booster</a>.
+<br>36 seconds with <a href="harlequin-frame.html" title="Harlequin Frame">Harlequin Frame</a> and <a href="mana-booster.html" title="Mana Booster">Mana Booster</a>.
+<br>38 seconds with <a href="harlequin-frame.html" title="Harlequin Frame">Harlequin Frame</a> without <a href="mana-booster.html" title="Mana Booster">Mana Booster</a>.
+<br>
+<br><b>Elemental Slots</b>
+<br><span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Fire.gif" class="mw-file-description"><img src="assets/era/183619e0dbbecaf1eca4ef22.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>2 / <span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Wind.gif" class="mw-file-description"><img src="assets/era/e260de4c2824ec5a8e65d597.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>2 / <span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Lightning.gif" class="mw-file-description"><img src="assets/era/f38005d65786c097e5971cbb.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>2 / <span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Light.gif" class="mw-file-description"><img src="assets/era/30ea17849b6d60b9fc80215c.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>0
+<br><span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Ice.gif" class="mw-file-description"><img src="assets/era/3e52f62be9c36bb65ade1589.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>2 / <span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Earth.gif" class="mw-file-description"><img src="assets/era/4101330aff9d68a57d3af19e.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>2 / <span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Water.gif" class="mw-file-description"><img src="assets/era/45ad50777cc74863216a36ec.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>2 / <span class="mw-default-size" typeof="mw:File"><a href="https://edenxi.miraheze.org/wiki/File:Trans_Dark.gif" class="mw-file-description"><img src="assets/era/41f097feea5266f2776301db.gif" decoding="async" loading="lazy" width="16" height="16" class="mw-file-element" alt="Harlequin Head"></a></span>0
+<br>
+</p>
+<h2 id="era-See_Also:">See Also:</h2>
+<ul><li><a class="mw-selflink selflink">Harlequin Head</a> / <a href="harlequin-frame.html" title="Harlequin Frame">Harlequin Frame</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/Valoredge_Head" class="new" title="Valoredge Head (page does not exist)">Valoredge Head</a> / <a href="valoredge-frame.html" title="Valoredge Frame">Valoredge Frame</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/Sharpshot_Head" class="new" title="Sharpshot Head (page does not exist)">Sharpshot Head</a> / <a href="sharpshot-frame.html" title="Sharpshot Frame">Sharpshot Frame</a></li>
+<li><a href="stormwaker-head.html" title="Stormwaker Head">Stormwaker Head</a> / <a href="stormwaker-frame.html" title="Stormwaker Frame">Stormwaker Frame</a></li>
+<li><a href="https://edenxi.miraheze.org/wiki/Soulsoother_Head" class="new" title="Soulsoother Head (page does not exist)">Soulsoother Head</a></li>
+<li><a href="spiritreaver-head.html" title="Spiritreaver Head">Spiritreaver Head</a></li></ul>
+</div></div><p class="source-credit">Adapted from <a href="https://edenxi.miraheze.org/wiki/Harlequin_Head">Eden Wiki: Harlequin Head</a> · <a href="https://edenxi.miraheze.org/wiki/Harlequin_Head?action=history">Contributors and history</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Revision 40864. Layout, links and optional background text adapted for Zenith.</p></div><div class="category-footer"><strong>Category:</strong> Reference<span> · </span><a href="era-reference.html">Level 75 Reference</a></div></article><footer class="footer" id="shared-footer"></footer></main></div><noscript><p class="no-js">Search and filters need JavaScript. All articles remain available through the <a href="all-pages.html">page index</a>.</p></noscript></body></html>

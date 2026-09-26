@@ -1,0 +1,15 @@
+{
+  "upstream": "f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4",
+  "items": 1212,
+  "items_with_drops": 285,
+  "items_with_recipes": 916,
+  "items_with_vendors": 194,
+  "sha256": {
+    "sql/zone_settings.sql": "afc7f22c891e6cc67b373b7e26fa97b6c36b0dae229a8ef282544bd2c90d5a0b",
+    "sql/synth_recipes.sql": "e8f3ca7bf362ba8e11f3929f5dfeb7c3afedee02f47743741e888241259b5b0d",
+    "sql/mob_groups.sql": "a63d880294182da534ecda138d9165363040f5c86519265669a353c8cef107ef",
+    "sql/mob_spawn_points.sql": "2b78ef817b18cfd4b7069f03b723d8810efdbffb0ad19d6a1d5bad577dd0824b",
+    "sql/mob_droplist.sql": "11ff9a84a3483b35449b9e90b236983d840dcd62075b2e1c07c45ab257186f6b",
+    "sql/item_basic.sql": "3360c16a2c36d2106f9094a9e12f60c1b0c06e8940cd49e6d70fb9bd299e38b1"
+  }
+}

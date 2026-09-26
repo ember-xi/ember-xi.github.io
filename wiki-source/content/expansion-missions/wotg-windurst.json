@@ -1,0 +1,696 @@
+[
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-00",
+    "slug": "quest-wotg-windurst-00",
+    "title": "Snake on the Plains",
+    "requirements": [
+      "Access to the past through Wings of the Goddess.",
+      "For first enlistment, obtain a Green recommendation letter. Another nation’s enlistment quest must not be active."
+    ],
+    "start": {
+      "npc": "Miah Riyuh",
+      "zone": "Windurst Waters [S]",
+      "grid": "H-9"
+    },
+    "steps": [
+      "Obtain the Green recommendation letter from Kalsu-Kalasu in Crawlers’ Nest [S] (L-8), if this is your first Campaign enlistment.",
+      "Speak to Miah Riyuh and accept the assignment to receive Zonpa-Zippa’s all-purpose putty.",
+      "In West Sarutabaruta [S], examine all three Sealed Entrances at F-4, J-8 and F-11. Each consumes part of the putty; the order does not matter.",
+      "Return to Miah Riyuh and confirm enlistment. Leave an inventory slot for the first-enlistment shoes."
+    ],
+    "notes": [
+      "Completing this quest sets your Campaign allegiance to Windurst.",
+      "For the Windurst story, completing Steamed Rams or The Fighting Fourth also satisfies the initial enlistment requirement; changing allegiance is unnecessary."
+    ],
+    "reward": "Cobra Unit Mercenary title; first Campaign enlistment also grants Sprinter’s Shoes and a Bronze Ribbon of Service.",
+    "unlocks": [
+      "The Tigress Stirs",
+      "Windurst Campaign enlistment"
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "West Sarutabaruta [S]",
+      "Crawlers' Nest [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Snake_on_the_Plains",
+        "label": "BG Wiki — Snake on the Plains"
+      },
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Green_recommendation_letter",
+        "label": "BG Wiki — Green recommendation letter"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_WIN_0_Snake_on_the_Plains.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Crawlers_Nest_[S]/npcs/Kalsu-Kalasu.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-01",
+    "slug": "quest-wotg-windurst-01",
+    "title": "The Tigress Stirs",
+    "requirements": [
+      "Complete Snake on the Plains, Steamed Rams, or The Fighting Fourth."
+    ],
+    "start": {
+      "npc": "Dhea Prandoleh",
+      "zone": "Windurst Waters [S]",
+      "grid": "H-10"
+    },
+    "steps": [
+      "Speak to Dhea Prandoleh in the northern section of Windurst Waters [S].",
+      "In West Sarutabaruta [S], examine the ??? at the base of the Twinkle Tree (I-6) to obtain the Small starfruit.",
+      "Return to Windurst Waters [S]. Examine the ground-floor Door: Acolyte Hostel (K-5), the lower/left door, for the ending and reward."
+    ],
+    "notes": [
+      "Dhea may be unavailable during a Campaign battle; return after the battle.",
+      "The reviewed quest handler accepts any completed nation enlistment and does not require an Inky Black Yagudo Feather."
+    ],
+    "reward": "Hi-Elixir.",
+    "unlocks": [
+      "The Tigress Strikes"
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "West Sarutabaruta [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Tigress_Stirs",
+        "label": "FFXIclopedia — The Tigress Stirs"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_WIN_1_The_Tigress_Stirs.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-02",
+    "slug": "quest-wotg-windurst-02",
+    "title": "The Tigress Strikes",
+    "requirements": [
+      "Complete The Tigress Stirs."
+    ],
+    "start": {
+      "npc": "Dhea Prandoleh",
+      "zone": "Windurst Waters [S]",
+      "grid": "H-10"
+    },
+    "steps": [
+      "Speak to Dhea Prandoleh.",
+      "Enter Fort Karugo-Narugo [S] and speak to Rotih Moalghett (I-8, inner/Fivespires map). She stands on the upper ledge east of the central Spiritwell. Enter the fort through Cavalry Gate (F-8), or lower the magical barrier using the Phosphorous Ward (I-9).",
+      "On the outside map, examine the ??? at I-9 for a cutscene. Prepare, then examine it again to spawn War Lynx.",
+      "Defeat War Lynx and examine the ??? again before leaving.",
+      "Return to Dhea Prandoleh for completion."
+    ],
+    "notes": [
+      "The reviewed handler requires you to change zones after completing this quest."
+    ],
+    "reward": "Star Globe; Ajido-Marujido’s Minder title.",
+    "unlocks": [
+      "Windurst route prerequisite for finishing Back to the Beginning and reaching Cait Sith.",
+      "Knot Quite There, after Back to the Beginning."
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "Fort Karugo-Narugo [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/The_Tigress_Strikes",
+        "label": "BG Wiki — The Tigress Strikes"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_WIN_2_The_Tigress_Strikes.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua"
+    ],
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-03",
+    "slug": "quest-wotg-windurst-03",
+    "title": "Knot Quite There",
+    "requirements": [
+      "Complete The Tigress Strikes and the main mission Back to the Beginning."
+    ],
+    "start": {
+      "npc": "Door: Acolyte Hostel",
+      "zone": "Windurst Waters [S]",
+      "grid": "K-5"
+    },
+    "steps": [
+      "Examine the ground-floor, lower/left Door: Acolyte Hostel.",
+      "Obtain one 108-Knot Quipu from Yagudo in Sauromugue Champaign [S], around the eastern forts at K-9/L-9 via the L-8 ramp; Yagudo near Garlaige Citadel [S]’s second Banishing Gate also drop it.",
+      "Examine the Bulwark Gate in Sauromugue Champaign [S] (F-6) for a cutscene, then trade it the quipu. Examine it again for the travel instruction.",
+      "Enter Southern San d’Oria [S] from East Ronfaure [S] on foot. A direct town warp does not satisfy the reviewed entry trigger.",
+      "Examine Door: House at M-8, the first house on the right beyond the Portcullis, for completion."
+    ],
+    "notes": [
+      "If another zone-entry cutscene plays, leave for East Ronfaure [S] and enter again."
+    ],
+    "reward": "Platinum Beastcoin.",
+    "unlocks": [
+      "A Manifest Problem"
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "Sauromugue Champaign [S]",
+      "Garlaige Citadel [S]",
+      "East Ronfaure [S]",
+      "Southern San d'Oria [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Knot_Quite_There",
+        "label": "BG Wiki — Knot Quite There"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Knot_Quite_There",
+        "label": "FFXIclopedia — Knot Quite There"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/quests/crystalWar/WOTG_WIN_3_Knot_Quite_There.lua"
+    ],
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-04",
+    "slug": "quest-wotg-windurst-04",
+    "title": "A Manifest Problem",
+    "requirements": [
+      "Complete Knot Quite There."
+    ],
+    "start": {
+      "npc": "Rotih Moalghett",
+      "zone": "Fort Karugo-Narugo [S]",
+      "grid": "I-8, inner map"
+    },
+    "steps": [
+      "Speak to Rotih Moalghett on the inner/Fivespires map.",
+      "Enter Castle Oztroja [S] for a cutscene, then return to Rotih to obtain the Fort key.",
+      "Examine the Colorful Door on the inner map at H-5, near the G-6 border, and enter Ghoyu’s Reverie.",
+      "Defeat the Yagudo waves, including the final enemy Laa Yaku the Austere. Area attacks and crowd control help manage the groups.",
+      "After victory returns you to West Sarutabaruta [S], enter Windurst Waters [S] for the ending."
+    ],
+    "notes": [
+      "After a loss, obtain another Fort key from Rotih Moalghett."
+    ],
+    "reward": "Mihgo Mithkabob; Friend of Lehko Habhoka title.",
+    "unlocks": [
+      "Windurst route prerequisite for finishing Cait Sith and reaching The Queen of the Dance.",
+      "When One Man Is Not Enough, after Purple, The New Black."
+    ],
+    "zones": [
+      "Fort Karugo-Narugo [S]",
+      "Castle Oztroja [S]",
+      "Ghoyu's Reverie",
+      "West Sarutabaruta [S]",
+      "Windurst Waters [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/A_Manifest_Problem",
+        "label": "BG Wiki — A Manifest Problem"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Manifest_Problem",
+        "label": "FFXIclopedia — A Manifest Problem"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-05",
+    "slug": "quest-wotg-windurst-05",
+    "title": "When One Man Is Not Enough",
+    "requirements": [
+      "Complete A Manifest Problem and Purple, The New Black; In the Name of the Father should be current or later.",
+      "Bring one Pipira."
+    ],
+    "start": {
+      "npc": "Dhea Prandoleh",
+      "zone": "Windurst Waters [S]",
+      "grid": "H-10"
+    },
+    "steps": [
+      "Speak to Dhea Prandoleh, then examine the Sealed Entrance at the F-10/F-11 boundary in West Sarutabaruta [S].",
+      "Return to Dhea for the conversation about fish.",
+      "Trade one Pipira to that Sealed Entrance. When asked about giving more, decline to finish and receive the flowers.",
+      "Enter Windurst Waters [S] to begin A Feast for Gnats."
+    ],
+    "notes": [
+      "An active Snake on the Plains can take priority at the entrance. Complete or cancel that active assignment before retrying.",
+      "Other accepted fish change the scene length; one Pipira is sufficient."
+    ],
+    "reward": "Twelve Red Roses.",
+    "unlocks": [
+      "A Feast for Gnats"
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "West Sarutabaruta [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/When_One_Man_Is_Not_Enough",
+        "label": "FFXIclopedia — When One Man Is Not Enough"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-06",
+    "slug": "quest-wotg-windurst-06",
+    "title": "A Feast for Gnats",
+    "requirements": [
+      "Complete When One Man Is Not Enough."
+    ],
+    "start": {
+      "npc": "Zone-entry cutscene",
+      "zone": "Windurst Waters [S]"
+    },
+    "steps": [
+      "Enter Windurst Waters [S] for the opening.",
+      "Speak to Mham Lahrih in Sauromugue Champaign [S] (K-9), atop the small fort north of the cavernous maw.",
+      "Examine the Abandoned Mineshaft at the foot of the nearby stairs for a Signal firecracker. Examine it again when the party is ready to enter Ghoyu’s Reverie.",
+      "Clear the initial Quadav around Romaa Mihgo and her Wildcat Volunteers. Destroy the Confederate Belfry while keeping Romaa alive. Attacking the belfry draws additional Quadav; Gigas arrive later.",
+      "After the victory scene, report to Dhea Prandoleh (H-10) in Windurst Waters [S]."
+    ],
+    "notes": [
+      "The objective is the belfry; defeating every reinforcement is unnecessary.",
+      "For another attempt, Mham Lahrih supplies a replacement firecracker once per Vana’diel day."
+    ],
+    "reward": "Ruby; Jewel of the Cobra Unit title.",
+    "unlocks": [
+      "Windurst route prerequisite for continuing In the Name of the Father.",
+      "The Long March North, after A Nation on the Brink."
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "Sauromugue Champaign [S]",
+      "Ghoyu's Reverie"
+    ],
+    "sources": [
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/A_Feast_for_Gnats",
+        "label": "FFXIclopedia — A Feast for Gnats"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-07",
+    "slug": "quest-wotg-windurst-07",
+    "title": "The Long March North",
+    "requirements": [
+      "Complete A Feast for Gnats and A Nation on the Brink; reach Crossroads of Time.",
+      "Bring several Pickaxes."
+    ],
+    "start": {
+      "npc": "Zone-entry cutscene",
+      "zone": "Windurst Waters [S]"
+    },
+    "steps": [
+      "Enter Windurst Waters [S]. In Southern San d’Oria [S], speak to Raustigne (I-7), then Hauberliond (H-9).",
+      "Check the New-turned Earth in the area Hauberliond assigns: East Ronfaure [S] J-11, La Vaule [S] K-9, or Jugner Forest [S] J-5. Receive the Darkfire cinder.",
+      "Speak to Striking Snake in the present-day Metalworks gunpowder room (H-7).",
+      "Use Pickaxes at North Gustaberg [S] mining points until you obtain Liquid quicksilver and Gelid sulfur.",
+      "Return to Striking Snake. Wait until the next Vana’diel day, change zones, and speak again for Beastbane bullets.",
+      "Speak to Rotih Moalghett in Fort Karugo-Narugo [S] (I-8, inner map). Prepare before examining the Warding Door at E/F-7: the battle starts immediately.",
+      "Defeat Count Furfur, two Count Murmurs and two Tartalos. Recheck the door and collect the reward before leaving."
+    ],
+    "notes": [
+      "Hauberliond repeats the assigned location if needed.",
+      "Keep a free inventory slot; leaving without collecting the earring can require repeating the fight."
+    ],
+    "reward": "Stellar Earring.",
+    "unlocks": [
+      "The Forbidden Path"
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "Southern San d'Oria [S]",
+      "East Ronfaure [S]",
+      "La Vaule [S]",
+      "Jugner Forest [S]",
+      "Metalworks",
+      "North Gustaberg [S]",
+      "Fort Karugo-Narugo [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/The_Long_March_North",
+        "label": "BG Wiki — The Long March North"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Long_March_North",
+        "label": "FFXIclopedia — The Long March North"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-08",
+    "slug": "quest-wotg-windurst-08",
+    "title": "The Forbidden Path",
+    "requirements": [
+      "Complete The Long March North.",
+      "Bring a Bottled Pixie and any job Testimony; arrange access beyond Inner Horutoto Ruins’ Three Mage Gate."
+    ],
+    "start": {
+      "npc": "Zone-entry cutscene",
+      "zone": "Windurst Waters [S]"
+    },
+    "steps": [
+      "Enter Windurst Waters [S]. Collect the following three key items in any order.",
+      "Irradiant strand: in present-day Inner Horutoto Ruins, examine Gate of Darkness (I-7, map 4). Enter from East Sarutabaruta J-7 and pass the Three Mage Gate using a Portal Charm or a WHM/BLM/RDM group; an already accessible Toraimarai Canal route also reaches this room.",
+      "Scintillant strand: examine Fey Blossoms in Grauberg [S] (F-5) twice, then trade a Bottled Pixie between 18:00 and 06:00. Yagudo High Priests in Meriphataud Mountains [S] and Castle Oztroja [S] drop the bottle.",
+      "Refulgent strand: examine the Writhing Flame in Castle Oztroja [S] (G-7, first-map north hallway), then trade any job Testimony.",
+      "Speak to Velda-Galda in Windurst Waters [S] (K-9) three times to deliver the strands in separate scenes.",
+      "Wait until the next Vana’diel day and speak to Velda-Galda again to collect the reward."
+    ],
+    "notes": [
+      "The Testimony need not match your current job. The final potion depends on your current job."
+    ],
+    "reward": "A job-dependent attribute potion; Karaha-Baruha’s Research Assistant title.",
+    "unlocks": [
+      "Windurst route prerequisite for continuing Crossroads of Time.",
+      "Sins of the Mothers, after The Will of the World."
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "Inner Horutoto Ruins",
+      "East Sarutabaruta",
+      "Toraimarai Canal",
+      "Grauberg [S]",
+      "Meriphataud Mountains [S]",
+      "Castle Oztroja [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/The_Forbidden_Path",
+        "label": "BG Wiki — The Forbidden Path"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Forbidden_Path",
+        "label": "FFXIclopedia — The Forbidden Path"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/The_Jester_Who%27d_Be_King",
+        "label": "FFXIclopedia — The Jester Who'd Be King"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-09",
+    "slug": "quest-wotg-windurst-09",
+    "title": "Sins of the Mothers",
+    "requirements": [
+      "Complete The Forbidden Path and The Will of the World; reach Fate in Haze."
+    ],
+    "start": {
+      "npc": "Dhea Prandoleh",
+      "zone": "Windurst Waters [S]",
+      "grid": "H-10"
+    },
+    "steps": [
+      "Speak to Dhea Prandoleh, then Velda-Galda (K-9).",
+      "In Fort Karugo-Narugo [S]’s outside area, examine the Stone Monument (E-7), then the Succulent Cactus (F-5) for a Succulent dragon fruit. Return to the monument.",
+      "Examine the Sunken Hollow (G-7) for a cutscene, then again to enter Ghoyu’s Reverie.",
+      "Escort both Nhev Befrathi and Syu Befrathi to the exit at G-9 on map 2, proceeding through the first map’s F-9 passage. Talk to each to start or pause movement.",
+      "Clear enemies ahead and keep mother and daughter together. Syu runs away from nearby enemies and when separated too far from Nhev. Bring both to the exit.",
+      "After returning to West Sarutabaruta [S], enter Windurst Waters [S] for completion."
+    ],
+    "notes": [
+      "After failure, obtain another fruit from the cactus on the following Vana’diel day."
+    ],
+    "reward": "Kitty Rod.",
+    "unlocks": [
+      "Howl from the Heavens"
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "Fort Karugo-Narugo [S]",
+      "Ghoyu's Reverie",
+      "West Sarutabaruta [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Sins_of_the_Mothers",
+        "label": "BG Wiki — Sins of the Mothers"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-10",
+    "slug": "quest-wotg-windurst-10",
+    "title": "Howl from the Heavens",
+    "requirements": [
+      "Complete Sins of the Mothers and wait until the next Vana’diel day.",
+      "Arrange present-day Magicite access: Crest of Davoi, Silver bell, Coruscant rosary and Black matinee necklace from the nation Magicite route."
+    ],
+    "start": {
+      "npc": "Zone-entry cutscene from West Sarutabaruta [S]",
+      "zone": "Windurst Waters [S]"
+    },
+    "steps": [
+      "Enter Windurst Waters [S] from West Sarutabaruta [S]. Collect the three shards at the present-day Magicites.",
+      "Optistone: pass Davoi’s Wall of Dark Arts (G-7) into Monastic Cavern and examine the Magicite.",
+      "Aurastone: take Beadeaux’s H-7 tunnel into Qulun Dome at I-7. Pass the sealed door using the bell, rosary and necklace, then examine the Magicite.",
+      "Orastone: in Castle Oztroja, operate the I-8 lever and avoid the falling-floor trap. Continue through G-7’s courtyard and I-7’s northern corridor, then light the H-9 torch to pass the Brass Door into the Altar Room. Examine its Magicite.",
+      "Speak to Velda-Galda (K-9) in Windurst Waters [S], then exit into West Sarutabaruta [S] for another scene.",
+      "Examine the Windurstian Bulwark (J-8) for a scene. Prepare, then examine it again to start the defense.",
+      "Defeat the successive Yagudo Parivir, Giganotaur, Kindred Incantor and Blurry Eyes waves. Romaa Mihgo and at least one Protective Ward must survive; prioritize enemies attacking them.",
+      "After victory, examine the bulwark again before zoning. Enter Windurst Waters [S] for the reward."
+    ],
+    "notes": [
+      "Leaving before the post-battle bulwark scene can force a repeat.",
+      "After failure, leave and re-enter West Sarutabaruta [S] before retrying."
+    ],
+    "reward": "Cobra Staff; Moon’s Companion title.",
+    "unlocks": [
+      "Windurst route prerequisite for continuing Fate in Haze.",
+      "Manifest Destiny, after Darkness Descends."
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "West Sarutabaruta [S]",
+      "Davoi",
+      "Monastic Cavern",
+      "Beadeaux",
+      "Qulun Dome",
+      "Castle Oztroja",
+      "Altar Room"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Howl_from_the_Heavens",
+        "label": "BG Wiki — Howl from the Heavens"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Howl_from_the_Heavens",
+        "label": "FFXIclopedia — Howl from the Heavens"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-11",
+    "slug": "quest-wotg-windurst-11",
+    "title": "Manifest Destiny",
+    "requirements": [
+      "Complete Howl from the Heavens and Darkness Descends; reach Adieu, Lilisette.",
+      "Each participant needs three Dorter Keys."
+    ],
+    "start": {
+      "npc": "Dhea Prandoleh",
+      "zone": "Windurst Waters [S]",
+      "grid": "H-10"
+    },
+    "steps": [
+      "Speak to Dhea, examine the Mithran Bivouac in Meriphataud Mountains [S] (northeast I-8), then enter Castle Oztroja [S] for a scene.",
+      "Farm three Dorter Keys per character from Yagudo Eradicators, Knight Templars, Prioresses or Prelates in Meriphataud Mountains [S] or Castle Oztroja [S].",
+      "Climb to the castle’s second floor via J-8. On the connecting map, take I-9 or G-7 to the outdoor Iron Grille cells.",
+      "Check each grille first. Trade a key only where a presence is detected. Free three prisoners to receive the Poet god’s key; empty cells consume keys without credit.",
+      "Return to the connecting map, pass the G-8 door and G-9 passage, and climb to the top. Light a torch to open the Brass Door and reach the Collapsing Floor behind it.",
+      "Check the floor for a scene, then again to fight Tzee Xicu the Manifest and two wind elementals. Defeat Tzee Xicu for completion."
+    ],
+    "notes": [
+      "Defeating the elementals disables their Astral Flow attacks. Bring Echo Drops for silence.",
+      "For a retry, collect another Poet god’s key from the Mithran Bivouac, once per Vana’diel day."
+    ],
+    "reward": "Hi-Reraiser; collect it at the Mithran Bivouac if inventory prevented receipt.",
+    "unlocks": [
+      "At Journey’s End"
+    ],
+    "zones": [
+      "Windurst Waters [S]",
+      "Meriphataud Mountains [S]",
+      "Castle Oztroja [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/Manifest_Destiny",
+        "label": "BG Wiki — Manifest Destiny"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/Manifest_Destiny",
+        "label": "FFXIclopedia — Manifest Destiny"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  },
+  {
+    "campaign": "wotg",
+    "kind": "quest",
+    "number": "W-12",
+    "slug": "quest-wotg-windurst-12",
+    "title": "At Journey's End",
+    "requirements": [
+      "Complete Manifest Destiny."
+    ],
+    "start": {
+      "npc": "Mithran Bivouac",
+      "zone": "Meriphataud Mountains [S]",
+      "grid": "I-8"
+    },
+    "steps": [
+      "Examine the Mithran Bivouac at northeast I-8 for another Poet god’s key.",
+      "Return to the top of Castle Oztroja [S] using the same route as Manifest Destiny. Light a torch, pass the Brass Door, and examine the Collapsing Floor for the scene and battlefield entry.",
+      "Defeat the opponent as it changes between Fenrir, Karaha-Baruha and Robel-Akbel. Keep your assisting NPC, Lehko Habhoka, alive throughout.",
+      "After victory, examine the Mithran Bivouac for a scene, then speak to Dhea Prandoleh in Windurst Waters [S] (H-10).",
+      "Examine the Sealed Entrance in West Sarutabaruta [S] (F-10/F-11 boundary). Enter Windurst Waters [S] for the final scene and reward."
+    ],
+    "notes": [
+      "After a failed battle, return to the Mithran Bivouac for a replacement Poet god’s key."
+    ],
+    "reward": "Zodiac Ring; Star of the Azure Sky title.",
+    "unlocks": [
+      "Windurst route prerequisite for continuing Adieu, Lilisette.",
+      "Windurst [S] national story complete."
+    ],
+    "zones": [
+      "Meriphataud Mountains [S]",
+      "Castle Oztroja [S]",
+      "Windurst Waters [S]",
+      "West Sarutabaruta [S]"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bg-wiki.com/ffxi/At_Journey%27s_End",
+        "label": "BG Wiki — At Journey's End"
+      },
+      {
+        "url": "https://ffxiclopedia.fandom.com/wiki/At_Journey%27s_End",
+        "label": "FFXIclopedia — At Journey's End"
+      }
+    ],
+    "code": [
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/missions/wotg/helpers.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Windurst_Waters_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Fort_Karugo-Narugo_[S]/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Ghoyus_Reverie/Zone.lua",
+      "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Castle_Oztroja_[S]/Zone.lua"
+    ],
+    "availability_note": "Reference walkthrough. Completion is unconfirmed in the reviewed Zenith base: no dedicated quest handler or matching progression hook was found in the inspected zone/NPC files. A missing interaction may reflect unfinished content.",
+    "sequence_group": "past-windurst"
+  }
+]

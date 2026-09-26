@@ -1,0 +1,245 @@
+{
+  "schema": 1,
+  "source_review_date": "2026-09-26",
+  "scope": "Concise factual NPC entries for the remaining level-75 Eden index titles. Horizon custom Imperial Relief Effort relocations are excluded.",
+  "articles": [
+    {
+      "title": "Zonpa-Zippa",
+      "category": "NPCs",
+      "intro": "A former Manustery minister and the creator of Windurst’s Cardians.",
+      "body_html": "<p>The present-day character appears in cutscenes during <a href=\"wiki:Doll of the Dead\">Doll of the Dead</a> (Windurst 9-1), involving <a href=\"wiki:The Boyahda Tree\">The Boyahda Tree</a>. Follow that mission’s walkthrough; there is no ordinary town NPC to visit under this name. The Campaign-era character is a separate entry, <a href=\"wiki:Zonpa-Zippa (S)\">Zonpa-Zippa (S)</a>.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zonpa-Zippa"
+      ]
+    },
+    {
+      "title": "Zoreen",
+      "category": "NPCs",
+      "intro": "Regional merchant for Valdeaunia.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Port Windurst\">Port Windurst</a> — M-7, Air Travel Agency arrivals.</p><p>Trades while Windurst controls <a href=\"wiki:Valdeaunia\">Valdeaunia</a>. Sells <a href=\"wiki:Frost Turnip\">Frost Turnip</a> and <a href=\"wiki:Sage\">Sage</a>. Availability follows Conquest control; check the current regional map if the shop is unavailable.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zoreen",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Windurst/npcs/Zoreen.lua"
+      ]
+    },
+    {
+      "title": "Zoby Quhyo",
+      "category": "NPCs",
+      "intro": "Regional merchant for the Elshimo Lowlands.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Port Bastok\">Port Bastok</a> — J-7.</p><p>Trades while Bastok controls <a href=\"wiki:Elshimo Lowlands\">Elshimo Lowlands</a>. Stock includes <a href=\"wiki:Kazham Peppers\">Kazham Peppers</a>, <a href=\"wiki:Kazham Pineapple\">Kazham Pineapple</a>, <a href=\"wiki:Mithran Tomato\">Mithran Tomato</a>, <a href=\"wiki:Black Pepper\">Black Pepper</a>, <a href=\"wiki:Ogre Pumpkin\">Ogre Pumpkin</a>, <a href=\"wiki:Kukuru Bean\">Kukuru Bean</a>, <a href=\"wiki:Phalaenopsis\">Phalaenopsis</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zoby_Quhyo",
+        "https://horizonffxi.wiki/Regional_Vendor",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Port_Bastok/npcs/Zoby_Quhyo.lua"
+      ]
+    },
+    {
+      "title": "Zubaba",
+      "category": "NPCs",
+      "intro": "Head lady-in-waiting in Heavens Tower.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Heavens Tower\">Heavens Tower</a> — second floor.</p><p>Visit her during <a href=\"wiki:Written in the Stars\">Written in the Stars</a> (Windurst 3-2). Open the mission for the required items, route and completion steps.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zubaba"
+      ]
+    },
+    {
+      "title": "Zona Shodhun",
+      "category": "NPCs",
+      "intro": "Gardening helper and the Jeuno Mog House exit quest NPC.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Port Jeuno\">Port Jeuno</a> — E-8.</p><h2>Unlock Jeuno Mog House exits</h2><ol><li>Bring one <a href=\"wiki:Yellow Rock\">Yellow Rock</a>.</li><li>Trade it to Zona Shodhun to complete <a href=\"wiki:Pretty Little Things\">Pretty Little Things</a>.</li><li>Your Jeuno Rent-a-Room can then exit to the different Jeuno districts.</li></ol><p>She also explains <a href=\"wiki:Gardening\">Gardening</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zona_Shodhun",
+        "https://horizonffxi.wiki/Pretty_Little_Things"
+      ]
+    },
+    {
+      "title": "Zhikkom",
+      "category": "NPCs",
+      "intro": "Weapon merchant at Dragon’s Claws Weaponry.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Bastok Markets\">Bastok Markets</a> — F-10.</p><h2>Shop stock</h2><table><thead><tr><th>Condition</th><th>Weapons</th></tr></thead><tbody><tr><td>Any Conquest standing</td><td><a href=\"wiki:Bronze Knife\">Bronze Knife</a>, <a href=\"wiki:Cat Baghnakhs\">Cat Baghnakhs</a>, <a href=\"wiki:Bronze Sword\">Bronze Sword</a>, <a href=\"wiki:Degen\">Degen</a>, <a href=\"wiki:Sapara\">Sapara</a></td></tr><tr><td>Bastok first or second</td><td><a href=\"wiki:Knife\">Knife</a>, <a href=\"wiki:Iron Sword\">Iron Sword</a>, <a href=\"wiki:Scimitar\">Scimitar</a></td></tr><tr><td>Bastok first; Bastok citizens</td><td><a href=\"wiki:Kukri\">Kukri</a>, <a href=\"wiki:Mythril Sword\">Mythril Sword</a>, <a href=\"wiki:Broadsword\">Broadsword</a>, <a href=\"wiki:Tuck\">Tuck</a>, <a href=\"wiki:Falchion\">Falchion</a></td></tr></tbody></table><p>Prices vary with fame.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zhikkom"
+      ]
+    },
+    {
+      "title": "Zon-Fobun",
+      "category": "NPCs",
+      "intro": "Quest giver for The Curse Collector.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Bastok Markets\">Bastok Markets</a> — G-5.</p><p>Speak with Zon-Fobun to begin <a href=\"wiki:The Curse Collector\">The Curse Collector</a>. Open the quest for its requirements, item collection and reward.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zon-Fobun"
+      ]
+    },
+    {
+      "title": "Zopago",
+      "category": "NPCs",
+      "intro": "Vana’diel Chocobo Society trainer for Bastok.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Bastok Mines\">Bastok Mines</a> — I-9.</p><h2>Start raising a chocobo</h2><ol><li>Obtain a <a href=\"wiki:Chocobo Egg\">Chocobo Egg</a>.</li><li>Trade the egg to Zopago to begin <a href=\"wiki:Chocobo Raising\">Chocobo Raising</a>.</li><li>Return to him to manage your chocobo’s care.</li></ol>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Zopago",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Bastok_Mines/npcs/Zopago.lua"
+      ]
+    },
+    {
+      "title": "Zenobia",
+      "category": "NPCs",
+      "intro": "A resident NPC in the Metalworks.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Metalworks\">Metalworks</a> — I-7.</p><p>Find her at the consular area.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Metalworks",
+        "https://wiki.ffo.jp/html/606.html"
+      ]
+    },
+    {
+      "title": "Zovriace",
+      "category": "NPCs",
+      "intro": "A San d’Oria patrol scout who travels through West Ronfaure.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:West Ronfaure\">West Ronfaure</a> — moving between the La Theine Plateau exit at F-12 and Southern San d’Oria’s gate at I-6.</p><p>He patrols the road rather than standing at a fixed spot. Look along that route if you need to find him.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zovriace"
+      ]
+    },
+    {
+      "title": "Zokima-Rokima",
+      "category": "NPCs",
+      "intro": "Windurst mission gate guard.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Windurst Walls\">Windurst Walls</a> — H-7, by Heavens Tower.</p><p>Speak with him for available <a href=\"wiki:Windurst Missions\">Windurst Missions</a>. Accepting your first Windurst mission from him grants the title Heavens Tower Gatehouse Recruit.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zokima-Rokima"
+      ]
+    },
+    {
+      "title": "Zubu-Abibu",
+      "category": "NPCs",
+      "intro": "A Tarutaru resident of Heavens Tower.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Heavens Tower\">Heavens Tower</a>.</p><p>A tower dialogue NPC.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zubu-Abibu"
+      ]
+    },
+    {
+      "title": "Zuber",
+      "category": "NPCs",
+      "intro": "The Marble Bridge Eatery’s attendant.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Upper Jeuno\">Upper Jeuno</a> — F-7, Marble Bridge Eatery.</p><p>He provides the <a href=\"wiki:Marble Bridge Coaster\">Marble Bridge Coaster</a> key item, which reports whether you meet the eatery’s entry restriction when entering Upper Jeuno. He also appears in <a href=\"wiki:Save the Clock Tower\">Save the Clock Tower</a> and <a href=\"wiki:Dawn\">Dawn</a> (Promathia 8-4).</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zuber"
+      ]
+    },
+    {
+      "title": "Zexu",
+      "category": "NPCs",
+      "intro": "An NPC involved in The Sand Charm.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Mhaura\">Mhaura</a> — I-9.</p><p>Speak with him when directed by <a href=\"wiki:The Sand Charm\">The Sand Charm</a>. Follow the linked quest for the required item and hand-in sequence.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zexu"
+      ]
+    },
+    {
+      "title": "Zhon Kihshimo",
+      "category": "NPCs",
+      "intro": "A greeter at the Sailors’ Stay shops.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Mhaura\">Mhaura</a> — I-8, Sailors’ Stay.</p><p>For armor and shields, speak with <a href=\"wiki:Graine\">Graine</a>. For weapons, go upstairs to <a href=\"wiki:Runito-Monito\">Runito-Monito</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zhon_Kihshimo"
+      ]
+    },
+    {
+      "title": "Zoldba",
+      "category": "NPCs",
+      "intro": "Auction House representative in Norg.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Norg\">Norg</a> — G-6.</p><p>Speak with Zoldba to open the <a href=\"wiki:Auction House\">Auction House</a> menu.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Norg",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Norg/npcs/Zoldba.lua"
+      ]
+    },
+    {
+      "title": "Zoriboh",
+      "category": "NPCs",
+      "intro": "Quest giver in Rabao.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Rabao\">Rabao</a> — F-6.</p><h2>Related quests</h2><ul><li><a href=\"wiki:Chasing Dreams\">Chasing Dreams</a></li><li><a href=\"wiki:The Search for Goldmane\">The Search for Goldmane</a></li></ul><p>Open the relevant quest before speaking with him for its prerequisites and next destination.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zoriboh"
+      ]
+    },
+    {
+      "title": "Zungutt",
+      "category": "NPCs",
+      "intro": "Melody Minstrel for Rabao cutscene replays.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Rabao\">Rabao</a> — E-8.</p><p>Speak with him to replay previously viewed Rabao scenes for a small fee. The replay list includes scenes from <a href=\"wiki:The Mithra and the Crystal\">The Mithra and the Crystal</a>, <a href=\"wiki:Trial by Wind\">Trial by Wind</a>, <a href=\"wiki:Chasing Dreams\">Chasing Dreams</a>, <a href=\"wiki:The Search for Goldmane\">The Search for Goldmane</a>, <a href=\"wiki:I&#x27;ll Take the Big Box\">I&#x27;ll Take the Big Box</a>, <a href=\"wiki:True Will\">True Will</a> and <a href=\"wiki:Carbuncle Debacle\">Carbuncle Debacle</a>. Replaying a scene does not advance its quest.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zungutt"
+      ]
+    },
+    {
+      "title": "Zhamwaa",
+      "category": "NPCs",
+      "intro": "Residence attendant in Aht Urhgan Whitegate.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> — F-10.</p><p>Find him by the <a href=\"wiki:Mog House\">Mog House</a> entrance.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Aht_Urhgan_Whitegate",
+        "https://ffxiclopedia.fandom.com/wiki/Aht_Urhgan_Whitegate"
+      ]
+    },
+    {
+      "title": "Zubyahn",
+      "category": "NPCs",
+      "intro": "A Whitegate NPC involved in Five Seconds of Fame.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> — K-12, Shararat Teahouse.</p><p>During <a href=\"wiki:Five Seconds of Fame\">Five Seconds of Fame</a>, speak with him between 05:00 and 07:00 Vana’diel time for the teahouse recording scene, after the required conversation with <a href=\"wiki:Ratihb\">Ratihb</a>. Follow the quest for the precise recording timing.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Aht_Urhgan_Whitegate",
+        "https://ffxiclopedia.fandom.com/wiki/Five_Seconds_of_Fame"
+      ]
+    },
+    {
+      "title": "Zwinam",
+      "category": "NPCs",
+      "intro": "An NPC beside Whitegate’s Wajaom Woodlands exit.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> — H-10.</p><p>Use the nearby exit to reach <a href=\"wiki:Wajaom Woodlands\">Wajaom Woodlands</a>.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Aht_Urhgan_Whitegate"
+      ]
+    },
+    {
+      "title": "Zyfhil",
+      "category": "NPCs",
+      "intro": "A resident NPC in Aht Urhgan Whitegate.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Aht Urhgan Whitegate\">Aht Urhgan Whitegate</a> — F-9.</p>",
+      "source_urls": [
+        "https://www.bg-wiki.com/ffxi/Aht_Urhgan_Whitegate",
+        "https://ffxiclopedia.fandom.com/wiki/Aht_Urhgan_Whitegate"
+      ]
+    },
+    {
+      "title": "Zwaluh",
+      "category": "NPCs",
+      "intro": "Leathercraft image-support craftsman.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Al Zahbi\">Al Zahbi</a> — G-11.</p><p>Speak with him for <a href=\"wiki:Leathercraft\">Leathercraft</a> synthesis image support. The native service handles ordinary and advanced image support.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Al_Zahbi",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Al_Zahbi/npcs/Zwaluh.lua"
+      ]
+    },
+    {
+      "title": "Zwiyaam",
+      "category": "NPCs",
+      "intro": "A resident NPC in Al Zahbi.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Al Zahbi\">Al Zahbi</a> — I-7.</p>",
+      "source_urls": [
+        "https://ffxiclopedia.fandom.com/wiki/Al_Zahbi",
+        "https://horizonffxi.wiki/Al_Zahbi"
+      ]
+    },
+    {
+      "title": "Zorchorevi, R.K.",
+      "category": "NPCs",
+      "intro": "San d’Oria’s Conquest overseer at the Elshimo Lowlands outpost.",
+      "body_html": "<h2>Location</h2><p><a href=\"wiki:Yuhtunga Jungle\">Yuhtunga Jungle</a> — G-11.</p><p>Appears while San d’Oria controls <a href=\"wiki:Elshimo Lowlands\">Elshimo Lowlands</a>. San d’Orian adventurers can obtain <a href=\"wiki:Signet\">Signet</a>, deliver <a href=\"wiki:Elshimo Lowlands Supplies\">Elshimo Lowlands Supplies</a> for a <a href=\"wiki:Supply Run Mission\">Supply Run Mission</a>, and use the guard’s applicable Conquest services. He also accepts <a href=\"wiki:Sheep Leather Missive\">Sheep Leather Missive</a> to start the local <a href=\"wiki:Garrison\">Garrison</a>.</p>",
+      "source_urls": [
+        "https://horizonffxi.wiki/Zorchorevi,_R.K.",
+        "https://github.com/LandSandBoat/server/blob/f45ab5c0aa3607b4b8fb694da58434e4dd29a2e4/scripts/zones/Yuhtunga_Jungle/npcs/Zorchorevi_RK.lua"
+      ]
+    }
+  ]
+}
