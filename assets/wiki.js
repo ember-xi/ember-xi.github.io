@@ -56,3 +56,13 @@ if(enlargeButtons.length){
  dialog.addEventListener('close',()=>opener?.focus());
  for(const button of enlargeButtons)button.addEventListener('click',()=>{opener=button;title.textContent=button.dataset.mapTitle||'Location map';const figure=button.closest('figure');content.replaceChildren(figure.querySelector('.map-marked').cloneNode(true),figure.querySelector('figcaption').cloneNode(true));dialog.showModal();});
 }
+
+// Shared navigation and map viewer; resolve from this script for /wiki/ hosting.
+(() => {
+  if (document.getElementById('zenith-guide-tools')) return;
+  const base = document.currentScript?.src || new URL('assets/wiki.js', document.baseURI).href;
+  const script = document.createElement('script');
+  script.id = 'zenith-guide-tools';
+  script.src = new URL('guide-tools.js?v=45', base).href;
+  document.head.append(script);
+})();
