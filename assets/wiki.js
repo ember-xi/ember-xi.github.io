@@ -66,3 +66,11 @@ if(enlargeButtons.length){
   script.src = new URL('guide-tools.js?v=45', base).href;
   document.head.append(script);
 })();
+
+// Zenith AH history v1: dated real-sale snapshots; no invented transactions.
+(() => {
+ const src=document.currentScript?.src||new URL('assets/wiki.js',document.baseURI).href;
+ if(document.getElementById('zenith-ah-history-script'))return;
+ const script=document.createElement('script');script.id='zenith-ah-history-script';
+ script.src=new URL('auction-history.js?v=1',src).href;document.head.append(script);
+})();
